@@ -356,7 +356,7 @@ public static class ModScanner
 					continue;
 				}
 				flag = true;
-				Collection<CustomAttributeArgument> constructorArguments = attribute.ConstructorArguments;
+				var constructorArguments = attribute.ConstructorArguments;
 				if (!attribute.IsResolved || (attribute.Constructor.Parameters.Count > 0 && constructorArguments.Count == 0))
 				{
 					Hard("unreadable", location, "[HarmonyPatch] arguments could not be read");
@@ -485,7 +485,7 @@ public static class ModScanner
 			{
 				Native(location, "pointer local");
 			}
-			Collection<Instruction> instructions = body.Instructions;
+			var instructions = body.Instructions;
 			HashSet<Instruction> branchTargets = BranchTargets(instructions);
 			for (int num = 0; num < instructions.Count; num++)
 			{

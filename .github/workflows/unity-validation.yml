@@ -7,7 +7,7 @@ permissions:
   contents: read
 jobs:
   validate:
-    runs-on: ubuntu-22.04
+    runs-on: macos-15
     timeout-minutes: 60
     steps:
       - name: Check activation secrets
@@ -37,7 +37,7 @@ jobs:
         with:
           projectPath: UnityProject
           unityVersion: 2021.3.45f2
-          customImage: unityci/editor:ubuntu-2021.3.45f2-ios-3.2.2
+          cacheUnityInstallationOnMac: true
           targetPlatform: iOS
           buildMethod: PortValidation.Run
           versioning: None
@@ -50,5 +50,6 @@ jobs:
             UnityProject/Logs
             PortReports
             build
+            UnityProject/Editor.log
           retention-days: 7
           if-no-files-found: warn
