@@ -1,56 +1,186 @@
+// Recovered from source-bearing Metal programs in the supplied IPA.
+// Candidate translation: Unity/Metal and visual validation are still required.
 Shader "Hidden/TransparentBlit" {
-	Properties {
-		_MainTex ("Texture", 2D) = "white" {}
-	}
-	//DummyShaderTextExporter
-	SubShader{
-		Tags { "RenderType"="Opaque" }
-		LOD 200
+Properties {
+ _MainTex ("Texture", 2D) = "white" {}
+}
+SubShader {
+Tags {  }
+Pass {
+Tags {  }
+Cull Off
+ZWrite Off
+ZTest Always
+ZClip On
+Offset 0, 0
+AlphaToMask Off
+Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
+BlendOp Add, Add
+ColorMask RGBA
+Stencil {
+Ref 0
+ReadMask 255
+WriteMask 255
+Comp Always
+Pass Keep
+Fail Keep
+ZFail Keep
+}
+HLSLPROGRAM
+#pragma target 3.5
+#pragma only_renderers d3d11 metal
+#pragma vertex PortVertex
+#pragma fragment PortFragment
+#pragma multi_compile_instancing
+#include "UnityCG.cginc"
 
-		Pass
-		{
-			HLSLPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
+Texture2D<float4> _MainTex;
+SamplerState sampler_MainTex;
+#define PORT_COLUMN(m,i) float4(m[0][i],m[1][i],m[2][i],m[3][i])
 
-			float4x4 unity_ObjectToWorld;
-			float4x4 unity_MatrixVP;
-			float4 _MainTex_ST;
+#if !defined(INSTANCING_ON)
+struct Mtl_VertexIn
+{
+    float4 POSITION0 : POSITION0;
+    float3 NORMAL0 : NORMAL0;
+    float2 TEXCOORD0 : TEXCOORD0;
+    UNITY_VERTEX_INPUT_INSTANCE_ID
+};
+struct Mtl_VertexOut
+{
+    float4 mtl_Position : SV_POSITION;
+    float2 TEXCOORD0 : TEXCOORD0;
+    float4 TEXCOORD1 : TEXCOORD1;
+    float3 TEXCOORD2 : TEXCOORD2;
+    float3 TEXCOORD3 : TEXCOORD3;
+};
+Mtl_VertexOut PortVertex(Mtl_VertexIn input)
+{
+    UNITY_SETUP_INSTANCE_ID(input);
+    Mtl_VertexOut output;
+    float4 u_xlat0;
+    float4 u_xlat1;
+    float u_xlat6;
+    u_xlat0 = input.POSITION0.yyyy * PORT_COLUMN(unity_ObjectToWorld, 1);
+    u_xlat0 = mad(PORT_COLUMN(unity_ObjectToWorld, 0), input.POSITION0.xxxx, u_xlat0);
+    u_xlat0 = mad(PORT_COLUMN(unity_ObjectToWorld, 2), input.POSITION0.zzzz, u_xlat0);
+    u_xlat1 = u_xlat0 + PORT_COLUMN(unity_ObjectToWorld, 3);
+    output.TEXCOORD2.xyz = mad(PORT_COLUMN(unity_ObjectToWorld, 3).xyz, input.POSITION0.www, u_xlat0.xyz);
+    u_xlat0 = u_xlat1.yyyy * PORT_COLUMN(UNITY_MATRIX_VP, 1);
+    u_xlat0 = mad(PORT_COLUMN(UNITY_MATRIX_VP, 0), u_xlat1.xxxx, u_xlat0);
+    u_xlat0 = mad(PORT_COLUMN(UNITY_MATRIX_VP, 2), u_xlat1.zzzz, u_xlat0);
+    u_xlat0 = mad(PORT_COLUMN(UNITY_MATRIX_VP, 3), u_xlat1.wwww, u_xlat0);
+    output.mtl_Position = u_xlat0;
+    output.TEXCOORD0.xy = input.TEXCOORD0.xy;
+    u_xlat0.y = u_xlat0.y * _ProjectionParams.x;
+    u_xlat1.xzw = u_xlat0.xwy * float3(0.5, 0.5, 0.5);
+    output.TEXCOORD1.zw = u_xlat0.zw;
+    output.TEXCOORD1.xy = u_xlat1.zz + u_xlat1.xw;
+    u_xlat0.x = dot(input.NORMAL0.xyz, PORT_COLUMN(unity_WorldToObject, 0).xyz);
+    u_xlat0.y = dot(input.NORMAL0.xyz, PORT_COLUMN(unity_WorldToObject, 1).xyz);
+    u_xlat0.z = dot(input.NORMAL0.xyz, PORT_COLUMN(unity_WorldToObject, 2).xyz);
+    u_xlat6 = dot(u_xlat0.xyz, u_xlat0.xyz);
+    u_xlat6 = rsqrt(u_xlat6);
+    output.TEXCOORD3.xyz = ((float3)(u_xlat6)) * u_xlat0.xyz;
+    return output;
 
-			struct Vertex_Stage_Input
-			{
-				float4 pos : POSITION;
-				float2 uv : TEXCOORD0;
-			};
+}
 
-			struct Vertex_Stage_Output
-			{
-				float2 uv : TEXCOORD0;
-				float4 pos : SV_POSITION;
-			};
+#elif defined(INSTANCING_ON)
+struct Mtl_VertexIn
+{
+    float4 POSITION0 : POSITION0;
+    float3 NORMAL0 : NORMAL0;
+    float2 TEXCOORD0 : TEXCOORD0;
+    UNITY_VERTEX_INPUT_INSTANCE_ID
+};
+struct Mtl_VertexOut
+{
+    float4 mtl_Position : SV_POSITION;
+    float2 TEXCOORD0 : TEXCOORD0;
+    float4 TEXCOORD1 : TEXCOORD1;
+    float3 TEXCOORD2 : TEXCOORD2;
+    float3 TEXCOORD3 : TEXCOORD3;
+};
+Mtl_VertexOut PortVertex(Mtl_VertexIn input)
+{
+    UNITY_SETUP_INSTANCE_ID(input);
+    Mtl_VertexOut output;
+    float u_xlat0;
+    int u_xlati0;
+    float4 u_xlat1;
+    float4 u_xlat2;
+    float u_xlat3;
+    u_xlati0 = int(0) + 0;
+    u_xlati0 = u_xlati0 << 0x3;
+    u_xlat1 = input.POSITION0.yyyy * PORT_COLUMN(unity_ObjectToWorld, 1);
+    u_xlat1 = mad(PORT_COLUMN(unity_ObjectToWorld, 0), input.POSITION0.xxxx, u_xlat1);
+    u_xlat1 = mad(PORT_COLUMN(unity_ObjectToWorld, 2), input.POSITION0.zzzz, u_xlat1);
+    u_xlat2 = u_xlat1 + PORT_COLUMN(unity_ObjectToWorld, 3);
+    output.TEXCOORD2.xyz = mad(PORT_COLUMN(unity_ObjectToWorld, 3).xyz, input.POSITION0.www, u_xlat1.xyz);
+    u_xlat1 = u_xlat2.yyyy * PORT_COLUMN(UNITY_MATRIX_VP, 1);
+    u_xlat1 = mad(PORT_COLUMN(UNITY_MATRIX_VP, 0), u_xlat2.xxxx, u_xlat1);
+    u_xlat1 = mad(PORT_COLUMN(UNITY_MATRIX_VP, 2), u_xlat2.zzzz, u_xlat1);
+    u_xlat1 = mad(PORT_COLUMN(UNITY_MATRIX_VP, 3), u_xlat2.wwww, u_xlat1);
+    output.mtl_Position = u_xlat1;
+    output.TEXCOORD0.xy = input.TEXCOORD0.xy;
+    u_xlat3 = u_xlat1.y * _ProjectionParams.x;
+    u_xlat2.w = u_xlat3 * 0.5;
+    u_xlat2.xz = u_xlat1.xw * float2(0.5, 0.5);
+    output.TEXCOORD1.zw = u_xlat1.zw;
+    output.TEXCOORD1.xy = u_xlat2.zz + u_xlat2.xw;
+    u_xlat1.x = dot(input.NORMAL0.xyz, PORT_COLUMN(unity_WorldToObject, 0).xyz);
+    u_xlat1.y = dot(input.NORMAL0.xyz, PORT_COLUMN(unity_WorldToObject, 1).xyz);
+    u_xlat1.z = dot(input.NORMAL0.xyz, PORT_COLUMN(unity_WorldToObject, 2).xyz);
+    u_xlat0 = dot(u_xlat1.xyz, u_xlat1.xyz);
+    u_xlat0 = rsqrt(u_xlat0);
+    output.TEXCOORD3.xyz = ((float3)(u_xlat0)) * u_xlat1.xyz;
+    return output;
 
-			Vertex_Stage_Output vert(Vertex_Stage_Input input)
-			{
-				Vertex_Stage_Output output;
-				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
-				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
-				return output;
-			}
+}
 
-			Texture2D<float4> _MainTex;
-			SamplerState sampler_MainTex;
+#else
+#error No recovered Metal variant matches these keywords
+#endif
+#if !defined(INSTANCING_ON)
+struct Mtl_FragmentIn
+{
+    float2 TEXCOORD0 : TEXCOORD0;
+};
+struct Mtl_FragmentOut
+{
+    float4 SV_Target0 : SV_Target0;
+};
+Mtl_FragmentOut PortFragment(Mtl_FragmentIn input)
+{
+    Mtl_FragmentOut output;
+    output.SV_Target0 = ((float4)(_MainTex.Sample(sampler_MainTex, input.TEXCOORD0.xy)));
+    return output;
 
-			struct Fragment_Stage_Input
-			{
-				float2 uv : TEXCOORD0;
-			};
+}
 
-			float4 frag(Fragment_Stage_Input input) : SV_TARGET
-			{
-				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
-			}
+#elif defined(INSTANCING_ON)
+struct Mtl_FragmentIn
+{
+    float2 TEXCOORD0 : TEXCOORD0;
+};
+struct Mtl_FragmentOut
+{
+    float4 SV_Target0 : SV_Target0;
+};
+Mtl_FragmentOut PortFragment(Mtl_FragmentIn input)
+{
+    Mtl_FragmentOut output;
+    output.SV_Target0 = ((float4)(_MainTex.Sample(sampler_MainTex, input.TEXCOORD0.xy)));
+    return output;
 
-			ENDHLSL
-		}
-	}
+}
+
+#else
+#error No recovered Metal variant matches these keywords
+#endif
+ENDHLSL
+}
+}
+Fallback Off
 }
