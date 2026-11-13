@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NetworkUpgrade_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: ef5e742d7be785d4a95e7fbda87e1d96, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 70813270016
+    m_Localized: Red Imp Brewery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077454618624
+    m_Localized: Wild will introduce you to the sales representative of the Red Imp Brewery, allowing you immediate and consistent access to their beer supply. A business card will be given to you to contact this supplier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916352
+    m_Localized: Introduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916353
+    m_Localized: Favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916354
+    m_Localized: Informant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916355
+    m_Localized: Referral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916356
+    m_Localized: Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916357
+    m_Localized: Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916358
+    m_Localized: Supplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916359
+    m_Localized: Lower Levels Chemist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916360
+    m_Localized: Wild will introduce you to a Lower Levels Chemist who produces cheap but illegal drugs for both recreational and medical uses. A business card will be given to you to contact this supplier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916361
+    m_Localized: Upper Level Pharmacist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916362
+    m_Localized: Wild will introduce you to the Inventory Manager for an unnamed Upper Levels Pharmacist, allowing you immediate and consistent access to legal, but hard to source, medications. A business card will be given to you to contact this supplier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916363
+    m_Localized: GP Mining Coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916364
+    m_Localized: Wild will introduce you to the leader of GP Mining Coop, who will allow you to order large amounts of mineral ores. A business card will be given to you to contact this supplier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916365
+    m_Localized: Rent Grace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916366
+    m_Localized: Wild will convince the Landlord that if you missed a rent payment, it's acceptable to pay the missing rent together with the next week's rent. This is a one time favor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916367
+    m_Localized: You are already in the Landlord's good graces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916368
+    m_Localized: Clemency
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916369
+    m_Localized: Wild will use his political influence to ensure that if a Security Inspector finds contraband that would normally result in imprisonment, you will instead be let off with a warning. This is a one time favor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916370
+    m_Localized: Wild has already performed this favor for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916371
+    m_Localized: Inspection Early Warning Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916372
+    m_Localized: Wild will introduce you to his informant within the Security Department. As long as you pay a nightly fee, the informant will notify you of any regular Security inspection. The informant won't be able to help with any surprise inspections.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916373
+    m_Localized: Wild's Fixers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916374
+    m_Localized: Wild will allow you to hire his fixers. As long as you pay a nightly fee, the fixers will silence witnesses and clean up evidence not yet collected by Security, lowering your suspected crime level at an increased rate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916375
+    m_Localized: Evidence Removal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916376
+    m_Localized: Wild will order his security contacts to destroy all collected evidence and tamper with any ongoing investigation against you. This favor has a cooldown of {0} days.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916377
+    m_Localized: Buyer Referral Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916378
+    m_Localized: Wild will agree to refer buyers from his network to your Store, if a nightly fee is paid. Additionally, more customers will be attracted to items in the display case.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916379
+    m_Localized: Seller Referral Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916380
+    m_Localized: Wild will agree to refer sellers from his network to your Store, if a nightly fee is paid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916381
+    m_Localized: Criminal Networking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916382
+    m_Localized: Wild will agree to refer high-budget contraband buyers from his network to your Store, if a nightly fee is paid. Using this service also grants you a small amount of Black Market reputation ({0} days cooldown)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916383
+    m_Localized: Power Line Hijack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916384
+    m_Localized: Your power will be supplied by an external solar panel owned by someone who (probably) doesn't need it. The nightly Power Service is now free. Current Converters are still billed, since the solar panel's output is not enough to run them, but they cost 15% less. Blackouts no longer affect your store or your Current Converters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916385
+    m_Localized: Commercial Grade Power Supply Unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916386
+    m_Localized: Your power supply unit will be upgraded to accommodate more power. The Recharger and PowerBloc will charge {0}% quicker.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110656
+    m_Localized: Showcase Expansion I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110657
+    m_Localized: Your showcase will be expanded to allow more items to be displayed. {0} more customers will be visiting to buy items from the Display Case per day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110658
+    m_Localized: Showcase Expansion II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110659
+    m_Localized: Your showcase will be expanded even more. {0} additional customers will be visiting to buy item from the Display Case per day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110660
+    m_Localized: Gutterflow On Tap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110661
+    m_Localized: Wild will connect your water line to a sewer, allowing you access to unlimited Gutterflow. The purity of the water changes every day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110662
+    m_Localized: Rustwater On Tap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110663
+    m_Localized: Wild will connect your water line to an industrial discharge pipe, allowing you access to unlimited Rustwater. The purity of the water changes every day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110664
+    m_Localized: Ruined Machine Scrapping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110665
+    m_Localized: A Junker who will introduce you to scrapping ruined machines for parts will visit you the next day. (Unlocks Ruined Machine Content)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110666
+    m_Localized: Retired Farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110667
+    m_Localized: Immediately receive a Hydroponic Starter Kit. A retired farmer will visit you the next day and, subsequently, once a week, selling seeds and hydroponic equipment. (Unlocks Advanced Farming Content.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110668
+    m_Localized: Retired Gunsmith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110669
+    m_Localized: Immediately receive a Gunsmith Starter Kit. A retired gunsmith will visit you the next day and, subsequently, once a week, selling gun mods and ammo. (Unlocks Advanced Gunsmith Content.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110670
+    m_Localized: Weapon Permit I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110671
+    m_Localized: Wild will negotiate on your behalf to secure you a firearms permit usually reserved for Lower Level Merchants, allowing you to legally trade low level contraband firearms and ammunition. The permit is delivered once you reach {0} Security Reputation and revoked if it drops below 0. Security lets you keep a shotgun for self defence, once you acquired it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110672
+    m_Localized: Weapon Permit II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110673
+    m_Localized: Wild will negotiate on your behalf to secure you a firearms permit usually reserved for Upper Level Merchants, allowing you to legally trade mid level contraband firearms and ammunition. The permit will only be delivered after reaching at least {0} Security Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110674
+    m_Localized: Weapon Permit III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110675
+    m_Localized: Wild will negotiate on your behalf to secure you a weapon permit usually reserved for Station Security Quartermasters, allowing you to legally trade high level contraband firearms and ammunition. The permit will only be delivered after reaching at least {0} Security Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110676
+    m_Localized: Retired Chemist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110677
+    m_Localized: Immediately receive a Chemist Starter Kit. A retired chemist will visit you the next day and, subsequently, once a week, selling chemical supplies and equipment. (Unlocks Advanced Chemistry Content.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110678
+    m_Localized: Water Trading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110679
+    m_Localized: Immediately receive a Water Trading Starter Kit. A Water Trader will start visiting the Store. (Unlocks Water Trading Content.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110680
+    m_Localized: Marketplace Requests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110681
+    m_Localized: Wild will connect you with the Marketplace Request network, allowing you to browse and fulfill various requests from buyers. Rewards for requested items are usually higher than regular market value.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110682
+    m_Localized: Jackson Investment I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110683
+    m_Localized: Wild will convince Dr. Jackson to accept a small investment from you, permanently increasing his budget, and the available stock when visiting him. Dr. Jackson will always have Modules in stock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110684
+    m_Localized: Jackson Investment II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110685
+    m_Localized: Wild will convince Dr. Jackson to accept another investment from you, permanently increasing his budget, and the available stock when visiting him. Dr. Jackson will always have additional Modules in stock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110686
+    m_Localized: Store Renovation I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110687
+    m_Localized: Wild will hire contractors to make modest renovations to the Store, improving its base attractiveness by {0} points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110688
+    m_Localized: Store Renovation II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110689
+    m_Localized: Wild will hire contractors to make substantial renovations to the Store, improving its base attractiveness by another {0} points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110690
+    m_Localized: Store Renovation III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110691
+    m_Localized: Wild will hire contractors to make transformative renovations to the Store, improving its base attractiveness by another {0} points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759671308288
+    m_Localized: Ranching
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759692279808
+    m_Localized: Wild will refer you to a Rat Rancher who will visit you once a week. Immediately receive a Rat Ranching Starter Kit. (Unlock Rancher Content)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088798810112
+    m_Localized: Retired Winemaker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088832364544
+    m_Localized: Immediately receive a Winemaking Starter Kit. A retired winemaker will visit you the next day and, subsequently, once a week, selling winemaking supplies and equipment. (Unlocks Winemaking Content.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081375535104
+    m_Localized: Aquaculture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081438449664
+    m_Localized: Wild will refer you to a retired aquafarmer who will visit you once a week, selling fish farming equipment and fertilized roe. Immediately receive an Aquaculture Starter Kit. (Unlocks Aquaculture Content.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217368723456
+    m_Localized: Aquaculture II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217402277888
+    m_Localized: The retired aquafarmer will also bring bigger, more profitable fish to raise on each visit. Immediately receive two young eels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919055683584
+    m_Localized: Plant Genetics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238016
+    m_Localized: Immediately receive a DNA manipulator, a gene scanner and blank DNA data disks. Dr. Jackson will now keep DNA manipulation equipment in stock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238017
+    m_Localized: Upgraded Dossier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238018
+    m_Localized: Expand the size of the dossier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238019
+    m_Localized: Upgraded Trash Can
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238020
+    m_Localized: Expand the size of the trash can.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238021
+    m_Localized: Vending Machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238022
+    m_Localized: A vending machine will be immediately installed in the store. Allowing goods to be sold during the night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238023
+    m_Localized: Vending Fountain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238024
+    m_Localized: A vending fountain will be immediately installed in the store. Allowing water to be sold during the night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238025
+    m_Localized: Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254073679872
+    m_Localized: 'Minor Shareholder: Red Imp Brewery'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428608
+    m_Localized: Buy a minor share of the Red Imp Brewery. Their courier's wholesale discount grows by {0}%, and every Thursday morning a dividend of {1} case of beer is waiting on the counter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428609
+    m_Localized: 'Minor Shareholder: GP Mining Coop'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428610
+    m_Localized: Buy a minor share of the GP Mining Coop. Their courier's wholesale discount grows by {0}%, and every Friday morning a dividend of {1} ore is waiting on the counter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428611
+    m_Localized: 'Minor Shareholder: Lower Levels Chemist'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428612
+    m_Localized: Buy a minor share of the Lower Levels Chemist's operation. Their courier's wholesale discount grows by {0}%, and every Saturday morning a dividend of {1} street grade Dream Dust is waiting on the counter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428613
+    m_Localized: 'Minor Shareholder: Upper Level Pharmacist'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428614
+    m_Localized: Buy a minor share of the Upper Level Pharmacist's practice. Their courier's wholesale discount grows by {0}%, and every Sunday morning a dividend of {1} Oxymore injectors is waiting on the counter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428615
+    m_Localized: Monday's Special Stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428616
+    m_Localized: Dr. Jackson opens on Mondays for you alone, offering a special stock of rarer items at a premium.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592013217792
+    m_Localized: Hypertech Smuggler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577920
+    m_Localized: Joe Wild refers you to a smuggler who deals in Hypertech items, technology far beyond what the station's industry can produce. Unlocks the Hypertech Smuggler nightly service.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577921
+    m_Localized: Endorsement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577922
+    m_Localized: Wild's Endorsement I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577923
+    m_Localized: Joe Wild personally endorses your store. Visiting customers have {0}% more budget to spend.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577924
+    m_Localized: Wild's Endorsement II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577925
+    m_Localized: Joe Wild talks up your store to his best contacts. Visiting customers have another {0}% more budget to spend.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577926
+    m_Localized: Wild's Endorsement III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577927
+    m_Localized: Joe Wild puts his own name behind your store. Visiting customers have another {0}% more budget to spend.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577928
+    m_Localized: Wild's Fixers II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577929
+    m_Localized: Wild assigns you his more experienced fixers. They clear evidence faster, so your suspected crime level drops more each night. The nightly fee increases.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577930
+    m_Localized: Wild's Fixers III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577931
+    m_Localized: Wild puts his best crew on your store. Witnesses forget, evidence disappears, and your suspected crime level drops even faster each night. The nightly fee increases.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291312619520
+    m_Localized: Power Line Hijack II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785344
+    m_Localized: 'Wild''s crew splices a bigger solar array into your line. It now carries part of your Current Converters'' load: they cost {0}% less to run.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785345
+    m_Localized: Power Line Hijack III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785346
+    m_Localized: Wild's crew taps a whole rooftop of panels for you. Your Current Converters now cost {0}% less to run in total.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

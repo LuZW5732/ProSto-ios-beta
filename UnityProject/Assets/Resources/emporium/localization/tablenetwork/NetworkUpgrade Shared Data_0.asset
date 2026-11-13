@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NetworkUpgrade Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: NetworkUpgrade
+  m_TableCollectionNameGuidString: 91c54b3ad804e624eaf631a413f9be0b
+  m_Entries:
+  - m_Id: 70813270016
+    m_Key: network_BREWER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077454618624
+    m_Key: network_BREWER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916352
+    m_Key: network_subtitle_Introduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916353
+    m_Key: network_subtitle_Favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916354
+    m_Key: network_subtitle_Informant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916355
+    m_Key: network_subtitle_Referral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916356
+    m_Key: network_subtitle_Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916357
+    m_Key: network_subtitle_Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916358
+    m_Key: network_subtitle_Supplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916359
+    m_Key: network_CHEMIST_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916360
+    m_Key: network_CHEMIST_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916361
+    m_Key: network_PHARMA_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916362
+    m_Key: network_PHARMA_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916363
+    m_Key: network_MINER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916364
+    m_Key: network_MINER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916365
+    m_Key: network_LANDLORD_GRACE_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916366
+    m_Key: network_LANDLORD_GRACE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916367
+    m_Key: network_LANDLORD_GRACE_already_bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916368
+    m_Key: network_SEC_GRACE_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916369
+    m_Key: network_SEC_GRACE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916370
+    m_Key: network_SEC_GRACE_already_bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916371
+    m_Key: network_INSPECTION_INFORMANT_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916372
+    m_Key: network_INSPECTION_INFORMANT_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916373
+    m_Key: network_WILD_FIXER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916374
+    m_Key: network_WILD_FIXER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916375
+    m_Key: network_EVIDENCE_REMOVAL_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916376
+    m_Key: network_EVIDENCE_REMOVAL_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916377
+    m_Key: network_BUY_REFERAL_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916378
+    m_Key: network_BUY_REFERAL_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916379
+    m_Key: network_SELL_REFERAL_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916380
+    m_Key: network_SELL_REFERAL_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916381
+    m_Key: network_CRIMINEL_NETWORK_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916382
+    m_Key: network_CRIMINEL_NETWORK_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916383
+    m_Key: network_POWER_HIJACK_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916384
+    m_Key: network_POWER_HIJACK_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916385
+    m_Key: network_COMMERCIAL_POWER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916386
+    m_Key: network_COMMERCIAL_POWER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110656
+    m_Key: network_SHOWCASE_I_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110657
+    m_Key: network_SHOWCASE_I_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110658
+    m_Key: network_SHOWCASE_II_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110659
+    m_Key: network_SHOWCASE_II_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110660
+    m_Key: network_GUTTERFLOW_TAP_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110661
+    m_Key: network_GUTTERFLOW_TAP_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110662
+    m_Key: network_RUSTWATER_TAP_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110663
+    m_Key: network_RUSTWATER_TAP_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110664
+    m_Key: network_RUINED_MACHINE_UNLOCK_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110665
+    m_Key: network_RUINED_MACHINE_UNLOCK_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110666
+    m_Key: network_RETIRED_FARMER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110667
+    m_Key: network_RETIRED_FARMER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110668
+    m_Key: network_RETIRED_GUNSMITH_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110669
+    m_Key: network_RETIRED_GUNSMITH_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110670
+    m_Key: network_GUN_PERMIT_I_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110671
+    m_Key: network_GUN_PERMIT_I_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110672
+    m_Key: network_GUN_PERMIT_II_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110673
+    m_Key: network_GUN_PERMIT_II_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110674
+    m_Key: network_GUN_PERMIT_III_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110675
+    m_Key: network_GUN_PERMIT_III_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110676
+    m_Key: network_RETIRED_CHEMIST_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110677
+    m_Key: network_RETIRED_CHEMIST_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110678
+    m_Key: network_WATER_TRADER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110679
+    m_Key: network_WATER_TRADER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110680
+    m_Key: network_MARKETPLACE_REQUESTS_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110681
+    m_Key: network_MARKETPLACE_REQUESTS_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110682
+    m_Key: network_JACKSON1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110683
+    m_Key: network_JACKSON1_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110684
+    m_Key: network_JACKSON2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110685
+    m_Key: network_JACKSON2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110686
+    m_Key: network_RENOVATION1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110687
+    m_Key: network_RENOVATION1_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110688
+    m_Key: network_RENOVATION2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110689
+    m_Key: network_RENOVATION2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110690
+    m_Key: network_RENOVATION3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110691
+    m_Key: network_RENOVATION3_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759671308288
+    m_Key: network_RETIRED_RANCHER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759692279808
+    m_Key: network_RETIRED_RANCHER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088798810112
+    m_Key: network_WINEMAKER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088832364544
+    m_Key: network_WINEMAKER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081375535104
+    m_Key: network_AQUACULTURE_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081438449664
+    m_Key: network_AQUACULTURE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217368723456
+    m_Key: network_AQUACULTURE_II_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217402277888
+    m_Key: network_AQUACULTURE_II_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919055683584
+    m_Key: network_PLANT_DNA_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238016
+    m_Key: network_PLANT_DNA_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238017
+    m_Key: network_DOSSIER_UPGRADE_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238018
+    m_Key: network_DOSSIER_UPGRADE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238019
+    m_Key: network_TRASHCAN_UPGRADE_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238020
+    m_Key: network_TRASHCAN_UPGRADE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238021
+    m_Key: network_VENDING_MACHINE_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238022
+    m_Key: network_VENDING_MACHINE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238023
+    m_Key: network_VENDING_FOUNTAIN_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238024
+    m_Key: network_VENDING_FOUNTAIN_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238025
+    m_Key: network_subtitle_Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254073679872
+    m_Key: network_BREWER_SHAREHOLDER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428608
+    m_Key: network_BREWER_SHAREHOLDER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428609
+    m_Key: network_MINER_SHAREHOLDER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428610
+    m_Key: network_MINER_SHAREHOLDER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428611
+    m_Key: network_CHEMIST_SHAREHOLDER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428612
+    m_Key: network_CHEMIST_SHAREHOLDER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428613
+    m_Key: network_PHARMA_SHAREHOLDER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428614
+    m_Key: network_PHARMA_SHAREHOLDER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428615
+    m_Key: network_JACKSON_SPECIAL_STOCK_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428616
+    m_Key: network_JACKSON_SPECIAL_STOCK_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592013217792
+    m_Key: network_HYPERTECH_SMUGGLER_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577920
+    m_Key: network_HYPERTECH_SMUGGLER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577921
+    m_Key: network_subtitle_Endorsement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577922
+    m_Key: network_ENDORSEMENT1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577923
+    m_Key: network_ENDORSEMENT1_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577924
+    m_Key: network_ENDORSEMENT2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577925
+    m_Key: network_ENDORSEMENT2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577926
+    m_Key: network_ENDORSEMENT3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577927
+    m_Key: network_ENDORSEMENT3_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577928
+    m_Key: network_WILD_FIXER2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577929
+    m_Key: network_WILD_FIXER2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577930
+    m_Key: network_WILD_FIXER3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577931
+    m_Key: network_WILD_FIXER3_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291312619520
+    m_Key: network_POWER_HIJACK2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785344
+    m_Key: network_POWER_HIJACK2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785345
+    m_Key: network_POWER_HIJACK3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785346
+    m_Key: network_POWER_HIJACK3_desc
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1084132982065463303
+  references:
+    version: 2
+    RefIds:
+    - rid: 1084132982065463303
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1770685178805

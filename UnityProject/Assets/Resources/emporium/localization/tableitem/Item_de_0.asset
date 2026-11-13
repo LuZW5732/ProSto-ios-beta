@@ -1,0 +1,3943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Item_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 93fe472e9fd181141974a1f58c3bef9e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 158976881508352
+    m_Localized: „Uralte Alienrelikte“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159203780771840
+    m_Localized: Sieht aus wie Metallschrott. „Uralter Alien-Metallschrott“?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158979263873024
+    m_Localized: 100 % reines dehydriertes Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582820036608
+    m_Localized: Schachtel mit PAX-Tampons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230912
+    m_Localized: Hygieneartikel wie diese versprechen Schutz und Diskretion. Sie sind ein Luxus, den sich nur wenige Unterdeckler leisten können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230913
+    m_Localized: Schachtel mit Hemingway-Zigaretten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230914
+    m_Localized: Der luxuriöseste Nikotingenuss, den man sich vorstellen kann. Unvergesslich im Geschmack – und im Preis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230915
+    m_Localized: Schachtel mit REX-Kondomen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230916
+    m_Localized: Dank einem geförderten Verteilungsprogramm sind sie auf den Unterdecks überraschend verbreitet. Immerhin ist Geburtenkontrolle günstiger als die Bekämpfung von Unruhen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230917
+    m_Localized: Flasche mit 4-in-1-Waschgel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230918
+    m_Localized: Shampoo, Spülung, Duschgel und Zahnpasta, alles in einer praktischen Flasche. Mit erfrischendem Nutrifrucht-Extrakt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230919
+    m_Localized: Zahnpastatube
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230920
+    m_Localized: Eine hochwertige Zahnpasta für minzfrischen Atem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230921
+    m_Localized: Rolle Küchenkrepp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230922
+    m_Localized: Rolle Toilettenpapier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230923
+    m_Localized: Bezahlbares Toilettenpapier, reißfest und zuverlässig. Zweilagig ist auf den Unterdecks schon luxuriös.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230924
+    m_Localized: Wassertestset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230925
+    m_Localized: Eine kleine Flasche mit Farbstreifen zum Testen von Wasserqualität.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230926
+    m_Localized: Wasserteststreifen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230927
+    m_Localized: Ein Teststreifen, mit dem sich die Qualität einer Wasserprobe genauestens bestimmen lässt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230928
+    m_Localized: UV-Lampe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230929
+    m_Localized: Kann für Wasserbehälter verwendet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230930
+    m_Localized: Eine Lampe, die ultraviolettes Licht ausstrahlt und damit Bakterien und andere Mikroorganismen abtötet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230931
+    m_Localized: AquaScan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230932
+    m_Localized: Ein Gerät, mit dem sich die Qualität einer Wasserprobe genauestens bestimmen lässt. Zeigt gefundene Verunreinigungen an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230933
+    m_Localized: Recycling-Scanner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230934
+    m_Localized: Ein Gerät, das deine Chance erhöht, bei deinen Recyclingtouren wertvolle Ausbeute zu finden. (Du kannst immer nur einen Recycling-Scanner verwenden.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230935
+    m_Localized: Wolltest du schon immer mal ein drittes Auge? Oder eine zweite Nase? Mit dem Recycling-Scanner hast du das Gerümpel im Handumdrehen aussortiert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230936
+    m_Localized: Flasche mit Wasserreinigungstabletten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230937
+    m_Localized: Eine kleine Flasche mit Tabletten zur Reinigung von Wasser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230938
+    m_Localized: Wasserreinigungstablette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230939
+    m_Localized: Eliminiert große Mengen mikrobieller Kontaminanten und reduziert chemische Verunreinigungen teilweise. Keine Wirkung gegen andere Kontaminierungsarten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230946
+    m_Localized: Kaumwollstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230947
+    m_Localized: Kann in chemischen Prozessen verwendet werden, um große Partikel aus Flüssigkeiten herauszufiltern. Nicht fein genug für die Wasserreinigung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230948
+    m_Localized: Ein vielseitiger Stoff aus organischen Fasern. Wird gewöhnlich zur Herstellung verstärkter Arbeitskleidung und schockabsorbierender Bandagen verwendet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230949
+    m_Localized: Wasserfilter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230950
+    m_Localized: Kann mit einem Filtersystem verwendet werden, um die Wasserreinheit geringfügig zu verbessern. Nur bis zu einem gewissen Grad effektiv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230951
+    m_Localized: Ein leichter Filter für den Privatgebrauch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425224
+    m_Localized: SYNC (Neuroaktiv-Parfüm)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425225
+    m_Localized: Verbessert den Handelsbonus mit dem aktuellen Kunden um 15 %. Du kannst immer nur je ein Parfüm verwenden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425226
+    m_Localized: Dieses Parfüm wurde von der Trauertherapieforschung entwickelt und verwendet eine adaptive Duft-Technologie, um positive persönliche Erinnerungen zu wecken. Wird gewöhnlich in der gehobenen Gastronomie vom Servicepersonal benutzt, da das damit erzielte Trinkgeld den hohen Preis des Parfüms mehr als wettmacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425227
+    m_Localized: L’ESSENCE (Pheromonparfüm)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425228
+    m_Localized: Verbessert den Handelsbonus mit dem aktuellen Kunden um 25 %. Du kannst immer nur je ein Parfüm verwenden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425229
+    m_Localized: Ein illegaler Duft, der aus menschlichen Pheromonen hergestellt wurde. Er erhöht Attraktivität und emotionale Empfänglichkeit. Das Parfüm ist zwar illegal, wird aber von allen heiß begehrt, die sich in der gesellschaftlichen Hierarchie der Oberdecks nach oben arbeiten wollen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425230
+    m_Localized: Schraubenzieher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425231
+    m_Localized: Der bescheidene Schraubenzieher, ein fester Bestandteil in den Schubladen von Bürgern der Unter- wie auch der Oberdecks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425232
+    m_Localized: Wenn du ihn bei dir trägst, erbeutest du beim Recyceln auf der Müllhalde 10 % mehr Schrauben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425233
+    m_Localized: Plasmaschneider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425234
+    m_Localized: Ein Hochfrequenz-Plasmaschneider. Garantiert stabil gefertigt, für einen schnellen, starken und sauberen Schnitt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425235
+    m_Localized: Kann zum Zerlegen von defekten Maschinen verwendet werden, um aus ihnen Metallschrott zu gewinnen. Wenn du ihn bei dir trägst, erbeutest du beim Recyceln auf der Müllhalde 10 % mehr Metallschrott.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425236
+    m_Localized: Seitenschneider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425237
+    m_Localized: Die Federung sorgt für eine solide Hebelwirkung und reduziert den Druck für den Benutzer, während die weichen Gummigriffe guten Halt und Komfort gewährleisten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425238
+    m_Localized: Kann zum Zerlegen von defekten Maschinen verwendet werden, um aus ihnen Kabel zu gewinnen. Wenn du ihn bei dir trägst, erbeutest du beim Recyceln auf der Müllhalde 10 % mehr Kabel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425241
+    m_Localized: Etikettendrucker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425242
+    m_Localized: Damit kann das Etikett eines Gegenstands verändert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425243
+    m_Localized: Lupe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425244
+    m_Localized: Damit können bestimmte Gegenstände näher untersucht werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425245
+    m_Localized: 'Neonschild: Wasser'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425246
+    m_Localized: Wenn du diesen Neonschriftzug in dein Schaufenster stellst, lockt er Kunden an, die Wasser verkaufen möchten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425249
+    m_Localized: Einweg-Turbobooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425250
+    m_Localized: Ein Werkzeug, das sofort Geräte mit Strom versorgt, die über einen längeren Zeitraum arbeiten. Bevor du den Booster verwendest, solltest du alle nötigen Komponenten in das Gerät legen. Wird bei Benutzung verbraucht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425251
+    m_Localized: Fortschrittlicher Turbobooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425252
+    m_Localized: Ein Werkzeug, das Geräte sofort mit Strom versorgt, die über einen längeren Zeitraum arbeiten. Bevor du den Booster verwendest, solltest du erst alle nötigen Komponenten in das Gerät legen. Lädt sich mit der Zeit wieder auf. Diese weiterentwickelte Version wird nach dem Einsatz nicht verbraucht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425253
+    m_Localized: Plastiksprengstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425254
+    m_Localized: Mit Vorsicht zu behandeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425255
+    m_Localized: Plastiksprengstoff (scharf)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425256
+    m_Localized: 3, 2, 1 … KAWUMM!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425257
+    m_Localized: Rucksack (klein)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425258
+    m_Localized: Ein kompakter, abgenutzter Rucksack mit verstärkten Nähten. Leicht, aber geräumig genug für essenzielle Vorräte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425259
+    m_Localized: Rucksack (normal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425260
+    m_Localized: Rucksack (Militär)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425261
+    m_Localized: Ein strapazierfähiger Rucksack für Militärzwecke. Der Stoff ist so robust, dass manche Soldaten ihn im Kampf vor der Brust tragen, als zusätzlichen Schutz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425262
+    m_Localized: Rucksack (groß)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425265
+    m_Localized: Tasche (klein)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425266
+    m_Localized: Päckchen mit Nutrifruchtsamen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425267
+    m_Localized: Materialkiste (Security-Abteilung)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425268
+    m_Localized: Eine verschlossene Kiste, laut Beschriftung für das Waffenlager der Security. Voller Zubehör. Öffnet sich nur mit Zugangskarte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425269
+    m_Localized: Materialkiste (Fertigungstechnik)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425270
+    m_Localized: Eine verschlossene Kiste, laut Beschriftung für die Fertigungstechnik. Voller Zubehör. Öffnet sich nur mit Zugangskarte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425271
+    m_Localized: Die Helmträger dürften bereuen, ihr Werkzeug verloren zu haben …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425272
+    m_Localized: Materialkiste (Krankenstation)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425273
+    m_Localized: Eine verschlossene Kiste, laut Beschriftung für die Krankenstation. Voller Zubehör. Öffnet sich nur mit Zugangskarte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425274
+    m_Localized: Wird schon niemanden das Leben kosten, wenn das hier verloren geht … oder?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425275
+    m_Localized: Asservatenschrank der Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425276
+    m_Localized: Da ist genug drin, um die ganzen Unterdecks hinter Gitter zu bringen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425277
+    m_Localized: Eine verschlossene Kiste, laut Beschriftung für den Asservatenschrank der Security. Wertvoll. Öffnet sich nur mit Zugangskarte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425278
+    m_Localized: Materialkiste (Service)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425279
+    m_Localized: Eine Sicherheitskiste, laut Beschriftung für die Service-Abteilung der Station. Voller Zubehör. Öffnet sich nur mit Zugangskarte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425280
+    m_Localized: Die Service-Abteilung der Station verteilt Gebrauchsartikel an Bedürftige oder zahlende Bewohner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425342
+    m_Localized: Chemiezubehör (gewöhnlich)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425343
+    m_Localized: Kann ausgepackt werden. Du erhältst Komponenten für einfache chemische Verfahren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425344
+    m_Localized: Eine Sammlung von gewöhnlichem Chemiezubehör, das man vermutlich im Baumarkt der Station finden könnte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425345
+    m_Localized: Chemiezubehör (reglementiert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425346
+    m_Localized: Kann ausgepackt werden. Du erhältst Komponenten für fortgeschrittene chemische Verfahren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425347
+    m_Localized: Eine Sammlung von nicht frei verkäuflichen Chemikalien zur Herstellung von Betäubungsmitteln oder Sprengstoff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425348
+    m_Localized: Medizinzubehör (gewöhnlich)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425349
+    m_Localized: Eine Sammlung von gewöhnlichem Medizinzubehör, hauptsächlich frei verkäufliche Apothekenartikel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425350
+    m_Localized: Medizinzubehör (reglementiert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425351
+    m_Localized: Eine Sammlung von nicht frei verkäuflichem Medizinzubehör, das für die Krankenstation der Station benötigt wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425352
+    m_Localized: Metallschrott
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425353
+    m_Localized: Kann zu Metallerz eingeschmolzen werden. Da auf der Station nur begrenzt viele Ressourcen verfügbar sind, ist Wiederverwertung umso wichtiger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425354
+    m_Localized: Müll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425355
+    m_Localized: Defekter Schrott und nutzloser Unrat, der kaum zu recyceln ist und daher so gut wie keinen Wert hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425356
+    m_Localized: Metallerz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425358
+    m_Localized: Elektronikteile (gewöhnlich)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425359
+    m_Localized: 'Eine Auswahl diverser nützlicher, wenn auch alltäglicher Elektronik: Stecker, Schalter, Kondensatoren, Prozessoren und Verarbeitungseinheiten.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425360
+    m_Localized: Elektronikteile (selten)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425361
+    m_Localized: Eine Auswahl ungewöhnlicher, hochwertiger Elektronikteile. Ein gewisser Erfinder hätte daran sicher sehr großes Interesse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425362
+    m_Localized: Kabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425363
+    m_Localized: Ein Bündel Stromkabel. Wurde wohl irgendwo „gefunden“ …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425364
+    m_Localized: 3D-Druck-Filament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425365
+    m_Localized: 'Eine Spule mit Premiumfilament, das in 3D-Druckern zum Einsatz kommt. Nach Möglichkeit aus recyceltem Plastik hergestellt. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425369
+    m_Localized: Radioaktiver Abfall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425370
+    m_Localized: Radioaktiver Abfall. Mit Vorsicht zu behandeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425371
+    m_Localized: Eine Ansammlung von gefährlichem radioaktiven Abfall. Um das Zeug will sich niemand kümmern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425372
+    m_Localized: Flussmittel (einfach)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425373
+    m_Localized: Ein praktisches Zusatzmittel, das die Reinheit von Metallerz verbessert, wenn es während des Schmelzvorgangs zugeführt wird. Wird bei Benutzung verbraucht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425374
+    m_Localized: Flussmittel (fortgeschritten)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425375
+    m_Localized: 'Ein praktisches Zusatzmittel, das die Reinheit von Metallerz verbessert, wenn es während des Schmelzvorgangs zugeführt wird. Wiederverwendbar. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425408
+    m_Localized: Taser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425409
+    m_Localized: Eine kompakte Elektroschockwaffe, die zur Selbstverteidigung und von Einsatzkräften verwendet wird. Verursacht einen schmerzhaften Stromschlag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425410
+    m_Localized: Antibabypille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425411
+    m_Localized: Ein Kontrazeptivum, das eine Schwangerschaft verhindern soll. Die Pille ist eine Kombination aus Östrogen und Progestinen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425421
+    m_Localized: ZeroChew-Tablette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425422
+    m_Localized: Eine „ZeroChew“-Tablette; ein erschwinglicher Appetitzügler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425423
+    m_Localized: Wird von manchen Unterdecklern verwendet, um Credits zu sparen, indem sie Mahlzeiten auslassen. Auf den Oberdecks wird es unter dem Namen Regime-X als Medikament zur Gewichtsabnahme vermarktet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425424
+    m_Localized: Riechsalz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425425
+    m_Localized: Eine dünne Glasröhre, die Alkohol und Ammoniak enthält. Das Mittel hilft, nach einer Ohnmacht das Bewusstsein zurückzuerlangen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425426
+    m_Localized: Blutkonserve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425427
+    m_Localized: Ein 500-ml-Beutel mit Transfusionsblut eines universellen, aber nicht unbedingt freiwilligen Spenders.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425428
+    m_Localized: Beutel mit „blauem Blut“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425429
+    m_Localized: Ein injizierbares Biogel, das entwickelt wurde, um Arterienverkalkung und Mikrogerinnsel im Laufe der Zeit aufzulösen. Es verhindert effektiv Herzkranzgefäßerkrankungen, ischämische Schlaganfälle und Komplikationen bei Bluthochdruck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425430
+    m_Localized: Kein echtes Blut. Sogar auf den Oberdecks sehr selten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425431
+    m_Localized: Phiole mit „Traumstaub“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425432
+    m_Localized: Ein billiges, euphorisierendes Pulver, das auf den Unterdecks hergestellt wird. Wird verwendet, um der harten Realität des Stationslebens zumindest kurzzeitig zu entfliehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425433
+    m_Localized: Phiole mit „Albtraumstaub“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425434
+    m_Localized: Ein feines Pulver, das sowohl als Gift als auch als Halluzinogen dient. Einnahme oder Einatmen führt zu schwerer Übelkeit, Schwäche und Orientierungslosigkeit, gefolgt von entsetzlichen Halluzinationen. Hohe Dosen können tödlich sein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425435
+    m_Localized: Koffeinpille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425436
+    m_Localized: Diese Pillen wurden aus dem Abfall der Oberdeck-Espressobars hergestellt und sind unentbehrlich für lange Schichten auf den Unterdecks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425437
+    m_Localized: Nachtigallsalbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425438
+    m_Localized: Hergestellt aus modifizierter Aloe und medizinischem Honig. Diese Salbe verfügt über antibakterielle Eigenschaften und fördert Zellgeneration und -wachstum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425439
+    m_Localized: Reinigungsalkohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425440
+    m_Localized: Ein kraftvolles Desinfektionsmittel zum Reinigen von Wunden und Oberflächen. Obwohl es bei Einnahme hochgiftig ist, dient es auf den Unterdecks dennoch als Alternative zu Nudka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425441
+    m_Localized: Einfacher Verband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425442
+    m_Localized: Simples, sauberes Verbandsmaterial zum Bandagieren von Wunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425443
+    m_Localized: Blutstillender Verband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425444
+    m_Localized: Ein Verband mit einem starken hämostatischen Mittel, das schwere und leichte Blutungen stillen kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425445
+    m_Localized: Topischer Verband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425446
+    m_Localized: Ein Verband mit einem milden topischen Gel, das den Heilvorgang beschleunigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425447
+    m_Localized: Immunivax-Injektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425448
+    m_Localized: Ein äußerst präziser Immuno-Regulator, der entwickelt wurde, um vorübergehend die hyperreaktive Immunantwort, die durch das Sentinel-Kollaps-Syndroms hervorgerufen wird, zu unterdrücken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425449
+    m_Localized: Synaprest-Injektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425450
+    m_Localized: Eine hochmoderne Methode zur Behandlung von Drogenabhängigkeit. Sie wurde entwickelt, um das Belohnungssystem des Gehirns zu unterdrücken, das Suchtgefühl zu verringern und langfristige Genesung zu unterstützen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425451
+    m_Localized: Optimal mit begleitender Psychotherapie und sozialer Unterstützung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425452
+    m_Localized: OxyMore-Injektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425453
+    m_Localized: OxyMore ist ein legales, aber gefährliches Medikament, das zur Linderung starker Schmerzen dient und Euphorie auslöst. Aufgrund übermäßiger Verschreibung sind Sucht und Überdosen im Zusammenhang mit OxyMore weit verbreitet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425454
+    m_Localized: NoMore-Injektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425455
+    m_Localized: Dient zur Schmerzlinderung, als nicht-suchterzeugende Alternative zu OxyMore. Bietet effektive schmerzstillende Wirkung, allerdings ohne das Risiko einer Abhängigkeit oder Überdosierung. Bei diesem Exemplar handelt es sich um einen Prototyp, der in einen umfunktionierten Injektor eingesetzt wurde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425456
+    m_Localized: Naloxgone-Injektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425457
+    m_Localized: Naloxgone ist ein Notfallmedikament, das bei einer OxyMore-Überdosis als Gegenmaßnahme verwendet wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425460
+    m_Localized: Glasmesser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425461
+    m_Localized: Eine scharfkantige Glasscherbe, die an einem Ende mit Stoff umwickelt wurde. Kann als Waffe verwendet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425462
+    m_Localized: Kampfmesser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425463
+    m_Localized: Ein Kampfmesser, das primär für den Nahkampf bei militärischen Einsätzen entwickelt wurde, aber auch als Werkzeug nützlich sein kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425464
+    m_Localized: Teppichmesser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425465
+    m_Localized: Ein robustes Werkzeugmesser mit ausfahrbarer Klinge, das gewöhnlich bei Handwerksarbeiten und in Lagerräumen verwendet wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425466
+    m_Localized: Fleischerbeil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425467
+    m_Localized: Küchenmesser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619520
+    m_Localized: Ein Edelstahlmesser. Außer Reichweite von Kindern und durchtriebenen Hausfrauen auf den Oberdecks aufbewahren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619521
+    m_Localized: Kampfmachete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619522
+    m_Localized: Eine strapazierfähige Machete für Kampf -und Survivalzwecke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619523
+    m_Localized: Brechstange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619524
+    m_Localized: Das getreue Werkzeug jedes Recyclers und theoretischen Physikers auf der Station. Kann im Notfall auch als Waffe verwendet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619525
+    m_Localized: Handbeil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619526
+    m_Localized: Klein, aber robust. Kann in Hydro-Farmen verwendet werden, um den aktuellen Bewuchs zu entfernen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619527
+    m_Localized: Bleirohr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619528
+    m_Localized: Ein schweres Bleirohr. Nachdem die Wasserleitungen auf der Station ausgetauscht wurden, landeten tonnenweise Rohrreste in den Händen von Recyclern und Dieben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619529
+    m_Localized: Taserstock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619530
+    m_Localized: Ein Taserstock mit den Modi BETÄUBEN und VERLETZEN. Gehört zur Standardausrüstung von Security-Officers, die auf der Station die Ordnung aufrechterhalten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619531
+    m_Localized: Energiezelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619532
+    m_Localized: Die Republik hat Einweg-Batterien verboten, um Müll zu reduzieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619533
+    m_Localized: Eine einfache Energiequelle, die mit den meisten Geräten kompatibel ist. Wiederaufladbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619534
+    m_Localized: Energiezelle (Typ II)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619535
+    m_Localized: Die Typ-II-Zelle ist eine verbesserte Version des Standardmodells. Sie ist größer, besser und mit noch mehr Erstickungsgefahr verbunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619536
+    m_Localized: Eine verbesserte Energiequelle, die mit den meisten Geräten kompatibel ist. Wiederaufladbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619537
+    m_Localized: Selbstladende Energiezelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619538
+    m_Localized: Eine hochmoderne und seltene Energiezelle, die sich selbst aufladen kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619539
+    m_Localized: Glasscherbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619543
+    m_Localized: Taschenlampe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619544
+    m_Localized: Eine robuste Taschenlampe. Wenn du sie bei dir trägst, besteht bei deinen Recyclingtouren auf der Müllhalde ein geringeres Verletzungsrisiko.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619545
+    m_Localized: Zeitung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619546
+    m_Localized: Eine aktuelle Zeitung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619547
+    m_Localized: Mentorenhandbuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619548
+    m_Localized: Ein Buch, in dem du alle Notizen aufbewahren kannst, die der Mentor dir gegeben hat. Praktisch!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619549
+    m_Localized: 'Identifizierungsleitfaden: Hemingway'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619550
+    m_Localized: Ein Leitfaden, der dir dabei hilft, gefälschte Hemingway-Zigaretten zu erkennen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619551
+    m_Localized: Hemingway-Farbkontrollkarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619552
+    m_Localized: Eine offizielle Hemingway-Farbmusterkarte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619554
+    m_Localized: 'Leitfaden zur Wertermittlung: Plasmakartuschen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619555
+    m_Localized: Ein Leitfaden, der helfen soll, den Wert von Plasmakartuschen abzuschätzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619558
+    m_Localized: 'Identifizierungsleitfaden: Lebensmittelmarken'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619559
+    m_Localized: Ein praktischer Leitfaden, mit dem sich echte Lebensmittelmarken von Fälschungen unterscheiden lassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619560
+    m_Localized: 'Leitfaden zur Wertermittlung: Immunivax'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619561
+    m_Localized: Enthält alle wichtigen Informationen, mit denen sich der Zustand von Immunivax-Injektoren zuverlässig einschätzen lässt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619562
+    m_Localized: Handbuch für Wasserhandel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619563
+    m_Localized: Ein praktisches Handbuch, das alle Informationen zum An- und Verkauf von Wasser enthält.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619568
+    m_Localized: Handbuch für Metallurgie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619571
+    m_Localized: Mietvertrag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619572
+    m_Localized: Deine Mietvereinbarung, unterzeichnet von dir und deinem Vermieter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619575
+    m_Localized: Gewerbeschein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619576
+    m_Localized: Eine von der Republik ausgestellte Genehmigung. Du benötigst sie, um auf den Unterdecks ein Gewerbe ausüben zu dürfen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619577
+    m_Localized: Notiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619578
+    m_Localized: Eine einfache, handschriftliche Anmerkung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619579
+    m_Localized: Recycler-Symbol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619580
+    m_Localized: Eine Art Erkennungszeichen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619581
+    m_Localized: Ein Symbol, das von der Recycler-Community verbreitet wird. Jedes Symbol, das du in deinem Schaufenster ausstellst, erhöht die Chance, dass Recycler deinen Laden besuchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619582
+    m_Localized: Dossier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619583
+    m_Localized: Zur Aufbewahrung von Dokumenten, Notizen, Büchern und Lupen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619584
+    m_Localized: Mülleimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619585
+    m_Localized: Alle enthaltenen Gegenstände werden nachts entfernt, solange du den Hausmeisterservice bezahlst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619586
+    m_Localized: Abfluss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619587
+    m_Localized: Hier kann überschüssiges Wasser entsorgt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619588
+    m_Localized: Wasserhahn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619589
+    m_Localized: Kein Wasser. Vielleicht kann dir jemand helfen, an die Wasserleitung angeschlossen zu werden?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619590
+    m_Localized: Einweg-Keycard (Kommando)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619591
+    m_Localized: Eine universelle Keycard, die dem Stationskommando vorbehalten sein sollte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619592
+    m_Localized: Eine Einweg-Keycard für das Stationskommando. Kann die meisten Schlösser öffnen, für die eine Keycard benötigt wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619593
+    m_Localized: Einweg-Keycard (Security)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619594
+    m_Localized: Gefährlich, wenn sie in die falschen Hände gerät.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619595
+    m_Localized: Eine Einweg-Keycard für die Security der Station. Kann Schlösser öffnen, zu denen die Security-Abteilung Zugang hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619596
+    m_Localized: Einweg-Keycard (Forschung)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619597
+    m_Localized: Eine Keycard für Forscher der Station. Wertvoll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619598
+    m_Localized: Eine Einweg-Keycard des Forschungslabors. Kann Schlösser öffnen, zu denen die Forschungsabteilung Zugang hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619599
+    m_Localized: Einweg-Keycard (Medizin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619600
+    m_Localized: Eine Einweg-Keycard für die Medizinabteilung der Station. Kann Schlösser öffnen, zu denen die Medizinabteilung Zugang hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619601
+    m_Localized: Einweg-Keycard (Technik)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619602
+    m_Localized: Eine Einweg-Keycard für die Technikabteilung der Station. Kann Schlösser öffnen, zu denen die Technikabteilung Zugang hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619603
+    m_Localized: Einweg-Keycard (Versorgung)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619604
+    m_Localized: Eine Einweg-Keycard für die Versorgungsabteilung der Station. Kann Schlösser öffnen, zu denen die Versorgungsabteilung Zugang hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619605
+    m_Localized: Einweg-Keycard (Service)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619606
+    m_Localized: Eine Einweg-Keycard für die Service-Abteilung der Station. Kann Schlösser öffnen, zu denen die Serviceabteilung Zugang hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619607
+    m_Localized: Einweg-Keycard (blanko)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619608
+    m_Localized: Quasi ein Generalschlüssel für die Station.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619609
+    m_Localized: Eine noch unbenutzte Keycard. Mit dem passenden Gerät kann sie mit beliebigen Zugangsdaten neu programmiert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619610
+    m_Localized: Visitenkarte (Joe Wild)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619611
+    m_Localized: Stets zu Diensten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619612
+    m_Localized: Visitenkarte (Red-Imp-Brauerei)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619613
+    m_Localized: Teuflisch gut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619614
+    m_Localized: Visitenkarte (GP Mining Coop)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619615
+    m_Localized: Inzwischen weiß kaum noch jemand, wofür „GP“ eigentlich steht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619616
+    m_Localized: Visitenkarte (Apotheker)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619617
+    m_Localized: Eine sehr schlichte Karte, auf der nur ein Name und eine Telefonnummer stehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619618
+    m_Localized: Visitenkarte (Chemiker)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619619
+    m_Localized: Eigentlich nur ein Zettel mit einer Telefonnummer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619620
+    m_Localized: Visitenkarte (grün)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619621
+    m_Localized: Eine schlichte grüne Visitenkarte mit einer Telefonnummer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619631
+    m_Localized: Vorfallmeldung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619632
+    m_Localized: Eine Bescheinigung der Security-Abteilung, nachdem sie auf einen Vorfall reagiert hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619633
+    m_Localized: Fahndungsliste der Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619637
+    m_Localized: Lebensmittelmarke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619638
+    m_Localized: Kann im Markt zum Kauf von Lebensmitteln eingelöst werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619639
+    m_Localized: Eine Prepaidkarte, mit der nur Lebensmittel gekauft werden können. Teil einer Sozialhilfemaßnahme zur Unterstützung der Bedürftigen auf den Unterdecks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619640
+    m_Localized: Junior-Zertifikat des Gutachterausschusses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619644
+    m_Localized: 'Musikkassette '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619645
+    m_Localized: ' (tadellos)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619646
+    m_Localized: ' (beschädigt)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619647
+    m_Localized: ' (defekt)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619648
+    m_Localized: Perseverance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619649
+    m_Localized: Datasphere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619650
+    m_Localized: High Stakes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619651
+    m_Localized: Stardust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619652
+    m_Localized: Afterglow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619653
+    m_Localized: Spaceflight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619654
+    m_Localized: Dark Matter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619657
+    m_Localized: Rubbellos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619658
+    m_Localized: Rubbel mindestens zwei gleiche Symbole frei, um einen Preis zu gewinnen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619659
+    m_Localized: Ein beliebtes Glücksspiel auf den Unterdecks. Auf den Oberdecks ist es verboten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619660
+    m_Localized: Bündel Rubbellose (5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619661
+    m_Localized: Du solltest genug Platz haben, bevor du anfängst, die Lose auszupacken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619662
+    m_Localized: Ein Stapel bestehend aus fünf Lotterie-Rubbellosen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619665
+    m_Localized: Richtlinien der Unterweltbörse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619667
+    m_Localized: Plasmakartusche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619668
+    m_Localized: Eine kompakte, kontaktlose Treibstoffkartusche, die in der Raumfahrt für Impuls-Plasmaantriebe eingesetzt wird. Der Wert schwankt abhängig von der Qualität der jeweiligen Kartusche extrem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619671
+    m_Localized: Lagerbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619672
+    m_Localized: Eine Standardbox zur Lagerung von Gegenständen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619673
+    m_Localized: Lagerbox (erweitert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619674
+    m_Localized: Eine erweiterte Box zur Lagerung von Gegenständen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619679
+    m_Localized: Gerätebox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619680
+    m_Localized: Eine Standardbox zur Lagerung von Geräten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619681
+    m_Localized: Gerätebox (erweitert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619682
+    m_Localized: Eine erweiterte Box zur Lagerung von Geräten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619683
+    m_Localized: Schmugglerbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619684
+    m_Localized: Eine kleine getarnte Lagerbox für Gegenstände, die bei einer Inspektion nicht gefunden werden sollen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619685
+    m_Localized: Schmugglerbox (modifiziert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619686
+    m_Localized: Eine getarnte Lagerbox für Gegenstände, die bei einer Inspektion nicht gefunden werden sollen. Diese größere Version bietet noch mehr Stauraum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619689
+    m_Localized: PowerBlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619690
+    m_Localized: Eine kompakte Energiequelle, mit der benachbarte Energiezellen aufgeladen werden können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619691
+    m_Localized: Lädt benachbarte Energiezellen oder Energiezellen in benachbarten Geräten (außer Ladegeräten) um 2 Energiepunkte pro Nacht auf, solange dein Stromservice bezahlt ist. Der Effekt ist stapelbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619692
+    m_Localized: Blanko-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619693
+    m_Localized: Ein nicht belegtes Modul. Mit dem passenden Gerät kann es für praktische Zwecke programmiert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619694
+    m_Localized: Leistungsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619695
+    m_Localized: Effizienzmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619696
+    m_Localized: Qualitätsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619697
+    m_Localized: Übertaktungsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619698
+    m_Localized: Ökomodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619699
+    m_Localized: Verarbeitungsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619700
+    m_Localized: Optimierungsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619701
+    m_Localized: Beschädigtes Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619702
+    m_Localized: Ein ruiniertes Modul, das aber noch einen gewissen Recyclingwert hat. Kann mit einem Schraubenzieher zerlegt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619703
+    m_Localized: Defektes Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619704
+    m_Localized: Ein defektes Modul, das mit den passenden Elektronikteilen und ein bisschen Know-how wieder repariert werden kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619705
+    m_Localized: Neuralkern-Modul (unlimitiert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619706
+    m_Localized: Leistungsstark, allerdings auch instabil und illegal. Ein KI-Kern in einem Systemmodul. Dieser Typ von KI-Kern neigt dazu, sich selbständig zu machen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619707
+    m_Localized: Neuralkern-Modul (limitiert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619708
+    m_Localized: KI-Kerne sind an Bord der Station illegal. Diese Einheit verfügt über integrierte Sicherheitsmaßnahmen, die unerlaubtes Verhalten unterbinden, aber auch die Leistung drosseln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619709
+    m_Localized: Kryptografischer Desequenzierer-Chip (Kommando)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619710
+    m_Localized: Ein Modul, mit dem der kryptografische Desequenzierer die Zugangsdaten des Stationskommandos auf Blanko-Keycards schreiben kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619711
+    m_Localized: Kryptografischer Desequenzierer-Chip (Security)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619712
+    m_Localized: Ein Modul, mit dem der kryptografische Desequenzierer die Zugangsdaten der Security auf Blanko-Keycards schreiben kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619713
+    m_Localized: Kryptografischer Desequenzierer-Chip (Medizin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619714
+    m_Localized: Ein Modul, mit dem der kryptografische Desequenzierer die Zugangsdaten der Medizinabteilung auf Blanko-Keycards schreiben kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619715
+    m_Localized: Kryptografischer Desequenzierer-Chip (Technik)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619716
+    m_Localized: Ein Modul, mit dem der kryptografische Desequenzierer die Zugangsdaten der Technikabteilung auf Blanko-Keycards schreiben kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619717
+    m_Localized: Kryptografischer Desequenzierer-Chip (Versorgung)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619718
+    m_Localized: Ein Modul, mit dem der kryptografische Desequenzierer die Zugangsdaten der Versorgungsabteilung auf Blanko-Keycards schreiben kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619719
+    m_Localized: Kryptografischer Desequenzierer-Chip (Service)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619720
+    m_Localized: Ein Modul, mit dem der kryptografische Desequenzierer die Zugangsdaten der Service-Abteilung auf Blanko-Keycards schreiben kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619738
+    m_Localized: Ein Modul, mit dem der Stiel von ausgewachsenem Hydroschilf geerntet und als Wasserfilter verwendet werden kann. Andere Pflanzen sind davon nicht betroffen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619752
+    m_Localized: Alarm-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619753
+    m_Localized: "Übertragung läuft, Empfänger: <b>{0}</b>\n Die doppelte Übertragung an dieselbe Fraktion hat keinen zusätzlichen Effekt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619754
+    m_Localized: Dieses Modul überträgt die Aufnahmen deiner Überwachungskameras an die ausgewählte Fraktion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619755
+    m_Localized: Schmelzofen-Modul (Hochofen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619756
+    m_Localized: Ein spezielles Modul für den Schmelzofen, mit dem aus {0} Materialien {1} Metallbarren (mit leicht reduziertem Reinheitsgrad) werden. Der Effekt ist nicht stapelbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619757
+    m_Localized: Schmelzofen-Modul (Müllverarbeitung)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619758
+    m_Localized: Ein spezielles Modul für den Schmelzofen, mit dem aus Müll Metallschrott gewonnen werden kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619759
+    m_Localized: Modulextraktor (einfach)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619760
+    m_Localized: Ermöglicht es, festsitzende Module aus Geräten zu entfernen, ohne diese zu beschädigen. Kann {0}-mal verwendet werden. Kann mit Elektronikteilen teilweise überholt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619761
+    m_Localized: Modulextraktor (fortgeschritten)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619762
+    m_Localized: Ermöglicht es, festsitzende Module aus Geräten zu entfernen, ohne diese zu beschädigen. Dieses fortschrittliche Modell nutzt sich bei Verwendung nicht ab.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619763
+    m_Localized: Modulbox-Erweiterungsset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619764
+    m_Localized: Ein Einweg-Set, mit dem sich die Modulkapazität eines Geräts erweitern lässt. Dieses Set ist nicht mit Chemie- oder anderen Spezialgeräten kompatibel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619767
+    m_Localized: Ein spezialisierter Schaltkreis, der umliegenden Modulen Boni gewähren oder diese selbst erhalten kann, wenn er in passenden Geräten verbaut wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619768
+    m_Localized: Knoten (klein)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619769
+    m_Localized: Knoten (mittel)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619774
+    m_Localized: Tasche 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619775
+    m_Localized: Tasche 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813840
+    m_Localized: Pilk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813841
+    m_Localized: Ein Karton mit verarbeiteter Milch, genauer gesagt einem süßen, kohlensäurehaltigen Getränk auf „Milchbasis“. Schmeckt besser als man denkt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813842
+    m_Localized: Puice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813843
+    m_Localized: Ein Karton verarbeiteter Saft. Sämtlicher natürlicher Fruchtzucker wurde extrahiert und durch raffinierten Zucker ersetzt. Enthält 0,1 % echten Fruchtzucker!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813844
+    m_Localized: Peat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813845
+    m_Localized: Eine Dose verarbeitetes Fleisch, hergestellt von Davre. Günstig, leicht zu bekommen, sättigend. Wenn es einem egal ist, WAS für Fleisch es ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813846
+    m_Localized: Scharfe Sauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813847
+    m_Localized: Flasche Quellwasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813848
+    m_Localized: Eine noch verschlossene Flasche Wasser. Angeblich stammt es aus einer natürlichen Quelle auf einem fernen Planeten, der noch völlig unberührt von jeglicher industrieller Aktivität ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813849
+    m_Localized: Die Leute auf den Unterdecks würden lieber verdursten, als dieses Wasser zu trinken, weil es so teuer ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813850
+    m_Localized: Red-Imp-Bier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813851
+    m_Localized: 'Ein beliebtes Bier, das auf den Unterdecks gebraut wird. Jeder neue Sud schmeckt ein wenig anders, aber etwas Billigeres findet man nicht. Alkohol: 3,5 % vol.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813852
+    m_Localized: Leere Bierflasche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813853
+    m_Localized: Da ist kein Tropfen mehr drin. Aber vielleicht gibt es noch Pfand, wenn man die Flasche bei der Brauerei abgibt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813854
+    m_Localized: Flasche Wasser (Standard)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813855
+    m_Localized: Flasche Wasser (klein)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813856
+    m_Localized: Flasche Wasser (Mikro)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813876
+    m_Localized: Flasche Wasser (groß)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813877
+    m_Localized: Krug Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813878
+    m_Localized: Limo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813879
+    m_Localized: Ein süßes Getränk mit Kohlensäure. Ist in einigen Bereichen der Station billiger als sauberes Wasser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813880
+    m_Localized: Energydrink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813881
+    m_Localized: Nudka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813882
+    m_Localized: Ein starker Schnaps, der aus Nutrifrüchten hergestellt wird. Ursprünglich als industrielles Abbeizmittel entwickelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813883
+    m_Localized: Galaxy Blend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813884
+    m_Localized: Ein nährstoffreiches Püree, das aus den Nutrifrüchten der pastel Inc. hergestellt und mit zusätzlichen Vitaminen und Mineralien versetzt wird. Eines der gesündesten und unbeliebtesten Lebensmittel auf den Unterdecks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813885
+    m_Localized: Cat-Schokoriegel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813886
+    m_Localized: Eine mit Schokolade überzogene Waffel. Eigentlich zum Teilen gedacht, wird aber meistens allein gegessen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813887
+    m_Localized: Li-Eat-Snackriegel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813888
+    m_Localized: Ein Eiweißriegel mit Schokoladengeschmack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813889
+    m_Localized: Rohes Fleisch (klein)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813890
+    m_Localized: Eine kleine Portion rohes Fleisch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813891
+    m_Localized: Frisches Fleisch ist auf den Unterdecks eine Rarität. Woher es kommt, juckt hier unten niemand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813892
+    m_Localized: Rohes Fleisch (Standard)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813893
+    m_Localized: Eine Portion rohes Fleisch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813894
+    m_Localized: Frisches Fleisch ist auf den Unterdecks eine Rarität. Woher es kommt, juckt hier unten niemand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813895
+    m_Localized: Nierenfett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813896
+    m_Localized: Ein halbes Kilo Nierenfett. Sehr günstig. Kann zu Talg verarbeitet werden oder als Geschmacksträger für Suppen dienen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813897
+    m_Localized: Innereien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813898
+    m_Localized: Organe, Gekröse und Knorpel. Zwar essbar und nährstoffreich, in den meisten Küchen aber nicht sonderlich beliebt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813899
+    m_Localized: Instant-Ramen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813900
+    m_Localized: Enthält einen flammenlosen Einweg-Erhitzer. Zum Kochen einfach Wasser hinzugeben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813901
+    m_Localized: Mit künstlichem Rinderschmorbraten-Geschmack. Ein echter Klassiker auf den Unterdecks. Die Instant-Nudeln enthalten Mononatriumglutamat, weißen Pfeffer und Sichuan-Pfefferkörner. Schön scharf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813902
+    m_Localized: Versiegelte Wasserration (Standard)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813903
+    m_Localized: Kann in einen Flüssigkeitsbehälter für 750 ml Basiswasser gefüllt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813904
+    m_Localized: Versiegelte Wasserration (klein)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813905
+    m_Localized: Kann in einen Flüssigkeitsbehälter für 375 ml Basiswasser gefüllt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772018733056
+    m_Localized: Alarmsystem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510272
+    m_Localized: Ein smartes Alarmsystem mit einer Vielzahl von Sensoren. Es ist mit Kameras verbunden, die der frühere Besitzer der Station installiert hatte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510273
+    m_Localized: Verringert die Gefahr von nächtlichen Diebstählen. Benötigt eine eigene Energiequelle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510274
+    m_Localized: Handbuch fürs Alarmsystem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510275
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Bonus auf Verhinderungsrate\n  Qualität: Kein Effekt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510280
+    m_Localized: Kryptografischer Desequenzierer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510281
+    m_Localized: Kann unterschiedliche Rechte auf leere Keycards schreiben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510282
+    m_Localized: Erfordert einen Desequenzierer-Chip und eine Keycard. Erfordert Energie. Vorgang erfolgt über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510283
+    m_Localized: Modifizierte Zugangskarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510284
+    m_Localized: 'Anleitung: Der Desequenzierer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510285
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Geschwindigkeit\n  Qualität: Kein Effekt\nDesequenzierer-Chip und Keycard einsetzen. Erfordert Energie. Vorgang erfolgt über Nacht."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510290
+    m_Localized: Schmelzofen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510291
+    m_Localized: Verarbeitet 2 Stück Metallschrott oder Metallerz zu einem Metallbarren. Erfordert Energie. Vorgang erfolgt über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510292
+    m_Localized: 'Anleitung: Der Schmelzofen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510293
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Kein Effekt\n  Qualität: Maximale Reinheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510294
+    m_Localized: (2) Metallerz oder Metallschrott einlegen, um (1) Metallbarren zu produzieren. Die Qualität des Barrens hängt von der Reinheit der verwendeten Ausgangsmaterialien ab. Erz führt zu einer höheren Reinheit als Schrott. Vorgang erfolgt über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510297
+    m_Localized: Flaschendrucker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510298
+    m_Localized: Ein vorprogrammierter 3D-Drucker, der kleine Wasserflaschen drucken kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510299
+    m_Localized: Kassettenrekorder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510300
+    m_Localized: Ladegerät
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510301
+    m_Localized: Ein Gerät, um Energiezellen wieder aufzuladen. Lädt eine Energiezelle langsam wieder auf, sofern der Strom bezahlt wurde. Vorgang erfolgt über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510302
+    m_Localized: Trugbildprojektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510303
+    m_Localized: Ein ausgeklügeltes Gerät, das fesselnde holografische Projektionen erzeugt und deinen Laden so für Kunden attraktiver macht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510304
+    m_Localized: Muss über Nacht aufgeladen werden, verbessert am nächsten Tag aber die Attraktivität deines Ladens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510305
+    m_Localized: 'Anleitung: Der Projektor'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510306
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung (Verhältnis 0,25): Attraktivität\n  Qualität (Verhältnis 0,5): Attraktivität"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510317
+    m_Localized: Feuchtigkeitsfarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510318
+    m_Localized: Ein Gerät, das der feuchten Luft auf der Station Wasser entzieht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510319
+    m_Localized: Produziert Wasser, wenn ein Behälter vorhanden ist. Erfordert Energie. Vorgang erfolgt über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510320
+    m_Localized: 'Anleitung: Die Feuchtigkeitsfarm'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510321
+    m_Localized: Dieses Gerät wandelt Luftfeuchtigkeit in Wasser um und sammelt es in einem bereitgestellten Behälter. Erfordert eine Energiequelle mit ausreichend Energie. Der Vorgang erfolgt über Nacht. Das Gerät kann durch Module verbessert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510322
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Produziertes Volumen\n  Qualität: Reinheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510323
+    m_Localized: Wasserreiniger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510324
+    m_Localized: Ein Gerät, das durch Umkehrosmose Wasser reinigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510325
+    m_Localized: Reinigt den Inhalt eines eingesetzten Wasserbehälters. Erfordert Energie. Vorgang erfolgt über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510326
+    m_Localized: 'Anleitung: Der Wasserreiniger'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510327
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Entfernte Menge pro Nacht\n  Qualität (Verhältnis 0,5): Maximale Reinheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510328
+    m_Localized: Dieses Gerät reinigt Wasser in einem bereitgestellten Behälter. Bei stark verunreinigtem Wasser ist der Vorgang deutlich effektiver. Erfordert eine Energiequelle mit ausreichend Energie. Der Vorgang erfolgt über Nacht. Das Gerät kann durch Module verbessert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747959889920
+    m_Localized: Wasserteststreifen (gebraucht)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747976667136
+    m_Localized: Ein gebrauchter Teststreifen, um die Wasserqualität zu testen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594865029120
+    m_Localized: Nutrifrucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806336
+    m_Localized: Die Nutrifrucht wurde von pastel Inc. entwickelt. Die stark modifizierte Knolle ist immun gegen Schädlinge und Krankheiten. Sie ist günstig, ertragreich, leicht anzubauen und extrem nährstoffreich, besitzt aber bewusst keine Samen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806339
+    m_Localized: Nutrifrucht-Saatgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806340
+    m_Localized: Eine Knolle, genetisch modifiziert, damit sie möglichst robust und leicht anzubauen ist. Benötigt Nährstoffe und Wasser, um zu wachsen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806341
+    m_Localized: Kaumwollsamen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806342
+    m_Localized: Ein Samen, aus dem sich schwer ein Pflänzchen züchten lässt. Es produziert Kaumwollfasern (modifizierte Baumwolle), die zu einem sehr robusten Stoff verarbeitet werden können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6113839712878592
+    m_Localized: Metallschrauben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073686130688
+    m_Localized: Verarbeiteter Käse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490816
+    m_Localized: Die in den Käse gebohrten Löcher verleihen ihm nicht nur das klassische Aussehen, sondern verringern auch die Produktionskosten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490817
+    m_Localized: Putzroboter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490818
+    m_Localized: Sammelt nachts automatisch Tierkot aus der Umgebung auf. Kann auch von Hand aktiviert werden, um eine sofortige Reinigung auszuführen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490819
+    m_Localized: Tierkot (klein)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490820
+    m_Localized: Tierkot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490821
+    m_Localized: Ratte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490822
+    m_Localized: Dieses Serum erhöht die Wachstumsrate eines Tiers ein wenig. Dafür steigt sein Hunger leicht an und seine Immunität verringert sich etwas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490823
+    m_Localized: Dieses Serum erhöht die Immunität eines Tiers ein wenig. Dafür bekommt es größeren Hunger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196139339776
+    m_Localized: Blauer Etikettendrucker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196160311296
+    m_Localized: Zum Umbenennen von Gegenständen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343674576896
+    m_Localized: Futterautomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343699742720
+    m_Localized: Ein Gerät, das Essen in gespeicherte Kalorien für Vieh umwandelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230943
+    m_Localized: Flasche mit Hydroponik-Nährstofftabletten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230944
+    m_Localized: Eine Flasche mit Hydroponik-Nährstofftabletten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230945
+    m_Localized: Nicht für den Verzehr geeignet. Nur für hydroponische Zwecke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425379
+    m_Localized: Nestfire Compact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425385
+    m_Localized: Sentinel Mk. III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425386
+    m_Localized: Eine zuverlässige Handfeuerwaffe Kaliber 10 mm. Wird meist von der Security genutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425404
+    m_Localized: 10-mm-Munition (AP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425405
+    m_Localized: Eine Handvoll panzerbrechende Treibkäfigmunition (APDS), Kaliber 10 mm. Kann Körperpanzerung durchschlagen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425418
+    m_Localized: Phanta-Pille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425419
+    m_Localized: Ein synthetisches Opioid, das zur Behandlung starker Schmerzen eingesetzt wird. Günstig in der Herstellung und mit sehr hohem Suchtpotenzial, daher äußerst gefährlich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425420
+    m_Localized: Mehr als 50-mal stärker als OxyMore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619540
+    m_Localized: Security-Dokumente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619541
+    m_Localized: Eine Kopie deiner Security-Akte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619542
+    m_Localized: Dein Kontakt hält sie immer auf dem neuesten Stand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619569
+    m_Localized: Republiklogo-Kontrollkarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619570
+    m_Localized: Das offizielle Logo der Republik zum Abgleich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806352
+    m_Localized: Füllkrautsamen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806353
+    m_Localized: Für Anfänger geeignetes Saatgut, das nicht durch Nährstoffgehalt oder Wasserqualität beeinflusst wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070918529024
+    m_Localized: Augmentierten-Scanner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500544
+    m_Localized: Ein energiehungriger Detektor für elektromagnetische Felder. Er ist so kalibriert, dass er die einzigartigen Signaturen des Augmentierungschips erkennt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500545
+    m_Localized: Dient dazu, die Identität eines mutmaßlichen Augmentierten mit 100-prozentiger Sicherheit zu bestätigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500546
+    m_Localized: Operationsbesteck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500547
+    m_Localized: Ein Satz hochwertiges Operationsbesteck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726051295232
+    m_Localized: Genscanner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726118404096
+    m_Localized: Kann das vollständige genetische Profil eines Tiers analysieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662026989568
+    m_Localized: Eine Ration Basiswasser, geprüft und versiegelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662052155392
+    m_Localized: Eine Ration Basiswasser, geprüft und versiegelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960660115456
+    m_Localized: Blendgranate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086976
+    m_Localized: Rauchgranate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086977
+    m_Localized: 'Neonschild: Medizin'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086978
+    m_Localized: 'Neonschild: Essen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086979
+    m_Localized: 'Neonschild: Haushaltswaren'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086980
+    m_Localized: 'Neonschild: Luxuswaren'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086981
+    m_Localized: 'Neonschild: Material'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086982
+    m_Localized: Stelle dies in dein Schaufenster, um Kunden anzulocken, die {0} verkaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308168081408
+    m_Localized: Bauchtasche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830144
+    m_Localized: Mausefalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830145
+    m_Localized: Dürfte helfen, hier Käse reinzustecken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149553991680
+    m_Localized: Ein Leitfaden, der helfen soll, den Wert von kybernetischen Händen abzuschätzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351808
+    m_Localized: Kybernetische Hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351809
+    m_Localized: Ein Wunder der biomechanischen Ingenieurskunst, das die Form und Funktion der fehlenden Hand nachahmt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174904340480
+    m_Localized: Hefe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506304
+    m_Localized: Eine vielseitige Hefekultur mit zahllosen Verwendungszwecken, vom Brotbacken bis hin zur Herstellung von Alkohol. In der Weinherstellung beschleunigt sie den Gärvorgang und verbessert die Qualität des Weins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506305
+    m_Localized: Superhefe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506306
+    m_Localized: Eine sehr starke Allzweckhefe, die in zahlreichen Handwerksbereichen sehr geschätzt wird. In der Weinherstellung beschleunigt sie den Gärvorgang erheblich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506307
+    m_Localized: Hefe-Bioreaktor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506308
+    m_Localized: Eine unendliche Quelle an Hefekulturen. Sobald der Gärvorgang startet, wird sie nicht verbraucht, sofern ins Inventar zurückgelegt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506309
+    m_Localized: Ein autarker Kulturbehälter, der kontinuierlich eigene Hefe produziert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506310
+    m_Localized: Weinflasche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506311
+    m_Localized: Eine schicke Glasflasche zur Gärung von Wein. Sie hat eine integrierte, luftdichte Versiegelung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506312
+    m_Localized: Blühbeere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506313
+    m_Localized: Eine süße Beere, die fürs Hydro-Farmen gezüchtet wurde. Sie ist nicht gerade sättigend, aber eine der wenigen verfügbaren Obstsorten auf den Unterdecks. Eignet sich gut zur Weinherstellung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692160
+    m_Localized: ReifGut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692161
+    m_Localized: Beschleunigt den Reifungsprozess bestimmter Gegenstände im Inneren. Lässt Gegenstände wie Wein und Käse um einen zusätzlichen Tag pro Zyklus reifen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692162
+    m_Localized: 'Anleitung: ReifGut'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692163
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Energieverbrauch\n  Qualität: +1 Tag Alter pro 125 Qualität\nLäuft über Nacht, wenn Strom und eine fertige Weinflasche verfügbar sind."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692164
+    m_Localized: Blühbeerenwein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692165
+    m_Localized: Ein alkoholisches Getränk, das auf den Ober- und Unterdecks gleichermaßen beliebt ist. Es gilt als Kunstform, die bescheidenen Blühbeeren in einen edlen Tropfen zu verwandeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506314
+    m_Localized: 'Leitfaden: Blühbeerenwein-Gärung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253248
+    m_Localized: Glühbeerenwein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253249
+    m_Localized: Sieht aus wie selbstgemachter Blühbeerenwein, ist aber billig und leicht krebserregend.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253250
+    m_Localized: Synthetische Hefe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253251
+    m_Localized: Eine illegaler Ersatz für Hefe, mit dem sich billig leicht krebserregender Wein herstellen lässt. Benötigt lediglich Wasser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318361403392
+    m_Localized: Fortschrittlicher Wasserfilter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763520
+    m_Localized: Stellt zu Beginn jedes Tages 50 Haltbarkeit wieder her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763521
+    m_Localized: Ein Premiumfilter für Wasserkrüge, die auf den Oberdecks verwendet werden. Reinigt sich langsam selbst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763522
+    m_Localized: Wasserreiniger HydraTech Micro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763523
+    m_Localized: Verwende ihn mit einem Wasserbehälter, um dessen Inhalt zu Basiswasser zu verbessern. Verbraucht 1 Haltbarkeit pro 100 ml.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763524
+    m_Localized: Ein fortschrittlicher Einweg-Wasserfilter, der häufig auf den Oberdecks verwendet wird. Diese Einweg-Modelle landen auf der Müllhalde und können durchaus noch ein paar Male verwendet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651641692160
+    m_Localized: Schwarze Lampe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651650080768
+    m_Localized: Wenn du die schwarze Lampe im Schaufenster ausstellst, signalisierst du Dieben, dass dein Laden gestohlene Waren vertreibt. Dein Schwarzmarkt-Ansehen bestimmt, mit welcher Wahrscheinlichkeit sie bei dir vorbeischauen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425341
+    m_Localized: Metallbarren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619556
+    m_Localized: 'Leitfaden zur Wertermittlung: Ribwich'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619557
+    m_Localized: Ein praktischer Leitfaden zur korrekten Wertermittlung eines Ribwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619655
+    m_Localized: Verpacktes Rib-Sandwich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619656
+    m_Localized: Eine haltbares limitiertes Sandwich, das aus restrukturierten knochenlosen Schweinefrikadellen in Form eines Rippenstücks besteht. Es ist ein ganzer Kult darum entstanden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158981042257920
+    m_Localized: Tagebucheintrag eines Recyclers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159205794037760
+    m_Localized: '   Hier bin ich jetzt, tief in den verlassenen Sektionen. Die Station wurde schon überall geplündert, aber dieser Ort hier … ist anders. Ich kenne die Geschichten, aber bisher sieht die Ausbeute gut aus. Es liegt trotzdem eine unheimliche Stimmung in der Luft, als ob irgendwas im Verborgenen lauern würde.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5225789046784
+    m_Localized: ETERNAL-Verjüngungsserum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5296811196416
+    m_Localized: Ein eleganter Glasbehälter mit einem schimmernden Serum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5267547537408
+    m_Localized: Ein begehrtes Luxusserum, das Haut mithilfe von Stammzellen aus ethischen Quellen verjüngen und erneuern soll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230940
+    m_Localized: Hydroponik-Nährstofftablette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230941
+    m_Localized: Enthält Mineralien, die für das Wachstum von Pflanzen unerlässlich sind. Kann in einen Wasserbehälter gegeben werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230942
+    m_Localized: Nicht für den Verzehr geeignet. Nur für hydroponische Zwecke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230952
+    m_Localized: Hydroschilffilter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425216
+    m_Localized: Entfernt bei Benutzung in einem Filtersystem bestimmte Arten von Verunreinigungen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425217
+    m_Localized: Ein Bio-Filter aus Hydroschilf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425218
+    m_Localized: Lotterielos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425219
+    m_Localized: Jeden Samstagmorgen werden die Gewinnzahlen ermittelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425220
+    m_Localized: Ein Jackpot-Los kann bis ans Lebensende die Sicherheit und den Luxus der Oberdecks gewähren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425221
+    m_Localized: Altes Lotterielos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425222
+    m_Localized: Ein nutzloses Los der Unterdeck-Lotterie. Keine Gewinnzahlen, nur enttäuschte Hoffnung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425223
+    m_Localized: Ein Jackpot-Los kann bis ans Lebensende die Sicherheit und den Luxus der Oberdecks gewähren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425239
+    m_Localized: Tragbares Röntgengerät
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425240
+    m_Localized: Damit findet man heraus, was sich in verschlossenen Behältern befindet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425247
+    m_Localized: Expeditionsschild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425248
+    m_Localized: Stelle es in dein Schaufenster, um neue sowie schon aktive Expeditionsheuerlinge anzulocken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425263
+    m_Localized: Großer Militärrucksack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425264
+    m_Localized: Ein strapazierfähiger Rucksack für Militärzwecke. Der Stoff ist so robust, dass manche Soldaten ihn im Kampf vor der Brust tragen, als zusätzlichen Schutz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425281
+    m_Localized: Red-Imp-Bierkasten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425282
+    m_Localized: Strapazierfähige Innenfedern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425283
+    m_Localized: Ein Satz fortschrittlicher Innenfedern, die das periodische Durchlaufen und die Beständigkeit bei Stress erhöhen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425284
+    m_Localized: Optimierter Abzug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425285
+    m_Localized: Eine Abzugseinheit, die den Abzugswiderstand verbessert. Verringert den nötigen Druck fürs Abdrücken und Abzugskriechen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425286
+    m_Localized: Matchlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425287
+    m_Localized: Ein sehr präziser Lauf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425288
+    m_Localized: Pistolen-Abzugsklinke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425289
+    m_Localized: Ein spezieller Mod für eine Handwaffe. Durch seine Installation wird die Mechanik im Inneren so verändert, dass die Waffe feuert, solange der Abzug gedrückt wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425290
+    m_Localized: Munitionsanzeige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425291
+    m_Localized: Eine smarte Anzeige, die die aktuelle Menge und Art der Munition angibt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425292
+    m_Localized: Griffgel mit Memory-Effekt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425293
+    m_Localized: Dank des bioreaktiven Gels unter der Griffoberfläche passt sich dieser subtil an die Hand des Benutzers an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425294
+    m_Localized: Rotpunkt-Visier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425295
+    m_Localized: Ein veraltetes kompaktes Rotpunkt-Visier, um das Ziel schnell zu finden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425296
+    m_Localized: Improvisiertes Rotpunkt-Visier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425297
+    m_Localized: Ein 3D-gedrucktes Rotpunkt-Visier mit roter LED und Plastiklinse. Nicht sehr zuverlässig, aber funktioniert überraschend gut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425298
+    m_Localized: Schalldämpfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425299
+    m_Localized: Ein einfacher Schalldämpfer für verschiedene Kaliber, der den Lärm von Schüssen reduziert und diese unauffälliger macht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425300
+    m_Localized: Schalldämpfer „Night Owl“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425301
+    m_Localized: Ein ausgeklügelter Schalldämpfer für verschiedene Kaliber, der den Lärm von Schüssen reduziert und diese unauffälliger macht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425302
+    m_Localized: Improvisierter Schalldämpfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425303
+    m_Localized: Ein aus einer Plastikflasche und Metallschrott improvisierter Schalldämpfer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425304
+    m_Localized: Aufsetzbare Laufverlängerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425305
+    m_Localized: Eine Laufverlängerung für verschiedene Kaliber, die die Geschwindigkeit und Präzision der Kugeln erhöht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425306
+    m_Localized: Kompensator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425307
+    m_Localized: Ein Mündungsaufsatz, der beim Feuern den Mündungshochschlag verringert, indem es ausströmende Gase umlenkt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425308
+    m_Localized: Laser-Visier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425309
+    m_Localized: Ein einfaches Laser-Visier, das einen Strahl auf das Ziel projiziert und die Ergonomie verbessert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425310
+    m_Localized: Zielfindungsgerät
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425311
+    m_Localized: Ein smartes taktisches Gerät, das mehreren Bedingungen entsprechend einen Strahl auf das Ziel projiziert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425312
+    m_Localized: Spielzeug-Laserpointer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425313
+    m_Localized: Ein schwacher Spielzeug-Laserpointer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425314
+    m_Localized: Zweibein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425315
+    m_Localized: Ein Zweibein, das an Schusswaffen angebracht werden kann, um Stabilität zu gewährleisten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425316
+    m_Localized: 25-mm-Unterlaufgranatwerfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425317
+    m_Localized: Ein kompakter 25-mm-Unterlaufgranatwerfer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425318
+    m_Localized: Vorderhandgriff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425319
+    m_Localized: 10-mm-Magazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425320
+    m_Localized: Ein kompaktes 10-mm-Magazin für 9 Schuss.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425321
+    m_Localized: 10-mm-Magazin mit hoher Kapazität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425322
+    m_Localized: Ein 10-mm-Magazin mit hoher Kapazität für 14 Schuss.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425323
+    m_Localized: Erweitertes 10-mm-Magazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425324
+    m_Localized: Ein erweitertes 10-mm-Magazin für 19 Schuss.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425325
+    m_Localized: 10-mm-MP-Magazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425326
+    m_Localized: Ein 10-mm-Magazin für 20 Schuss. Eine Spezialanfertigung für die schwere „Peacemaker“-Maschinenpistole.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425327
+    m_Localized: 10-mm-MP-Magazin mit hoher Kapazität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425328
+    m_Localized: Ein 10-mm-Magazin für 35 Schuss. Eine Spezialanfertigung für die schwere „Peacemaker“-Maschinenpistole.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425329
+    m_Localized: 10-mm-MP-Kastenmagazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425330
+    m_Localized: Ein 10-mm-Magazin für 150 Schuss. Eine Spezialanfertigung für die schwere „Peacemaker“-Maschinenpistole.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425331
+    m_Localized: 0.22-Magazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425332
+    m_Localized: Ein billiges, kompaktes 0.22-Magazin für 12 Schuss, das durch 3D-Druck hergestellt wurde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425333
+    m_Localized: 0.22-Magazin mit hoher Kapazität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425334
+    m_Localized: Ein billiges, kompaktes 0.22-Magazin für 24 Schuss, das durch 3D-Druck hergestellt wurde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425335
+    m_Localized: Erweitertes 0.22-Magazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425336
+    m_Localized: Ein billiges, kompaktes 0.22-Magazin für 48 Schuss, das durch 3D-Druck hergestellt wurde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425337
+    m_Localized: Guardian-Schaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425338
+    m_Localized: Ein robuster Schaft, der mit Meridian-Schusswaffen kompatibel ist. Er wurde entwickelt, um die Rückstoßkontrolle zu verbessern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425339
+    m_Localized: Buckler-Schaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425340
+    m_Localized: Ein kurzer Schaft, der mit Meridian-Schusswaffen kompatibel ist. Er wurde entwickelt, um die Rückstoßkontrolle ohne ergonomische Einbußen zu verbessern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425357
+    m_Localized: Seltenes Metallerz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425366
+    m_Localized: Waffenteile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425367
+    m_Localized: Erhält man, wenn man eine Schusswaffe mit einem Schraubenzieher zerlegt. Damit können gebrauchte Schusswaffen generalüberholt werden. Wiederholte Versuche erhöhen die Wahrscheinlichkeit auf eine Generalüberholung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425368
+    m_Localized: Ein Sortiment an Teilen aus dem Inneren einer Waffe, darunter Schrauben, Federn und andere kleine Komponenten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425376
+    m_Localized: 3D-gedruckte Pistole „Liberator“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425377
+    m_Localized: Eine billige, mit 3D-Druck hergestellte Plastikpistole.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425378
+    m_Localized: Billiger geht es nicht. Für ein paar Schüsse reichts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425380
+    m_Localized: Eine kleine Pistole mit offengelegtem Waffendesign, ausgelegt für 0.22.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425381
+    m_Localized: Auf den Unterdecks gebräuchlich, um das eigene Zuhause zu verteidigen. Mehr oder weniger von der Security toleriert. Wahrscheinlich von einem Waffenschmied auf den Unterdecks hergestellt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425382
+    m_Localized: Ironcraft 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425383
+    m_Localized: Eine schwere Pistole mit offengelegtem Waffendesign, ausgelegt für 10 mm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425384
+    m_Localized: Kann Körperpanzerung durchdringen. Eine beliebte Waffe bei Unterdeck-Revolutionären.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425387
+    m_Localized: Schwere „Peacemaker“-MP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425388
+    m_Localized: Eine schwere MP, ausgelegt für 10 mm. Wird hin und wieder bei riskanten Security-Einsätzen eingesetzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425389
+    m_Localized: DA-Schrotflinte „Rampart“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425390
+    m_Localized: Eine vielseitige, zuverlässige Schrotflinte, die für den Polizeidienst entwickelt wurde. Sie verfügt über einen Double-Action-Mechanismus für verschiedenste Munitionsarten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425391
+    m_Localized: Elektroschocker „PulseGuard“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425392
+    m_Localized: Eine gute Wahl zur Selbstverteidigung, die offiziell von der Security gutgeheißen wird. Aufgrund des hohen Preises wird sie hauptsächlich von Oberdecklern benutzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425393
+    m_Localized: Revolver „Lancewell“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425394
+    m_Localized: Ein 5-Zoll-Revolver für jedermann, ausgelegt für .45-AFP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425395
+    m_Localized: Eine einfache, äußerst zuverlässige Waffe. Entwickelt, um extreme Konditionen auszuhalten und gleichzeitig nur ein Minimum an Wartung zu benötigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425396
+    m_Localized: 0.22-SR-Munition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425397
+    m_Localized: 'Eine Handvoll an 0.22-SR-Munition. Die Kugeln sind zwar klein, können aber auf kurze Distanz tödlich sein. Und das Wichtigste: Billiger geht es nicht.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425398
+    m_Localized: 0.22-SR-Munition (AP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425399
+    m_Localized: Eine Handvoll panzerbrechende SR-Munition, Kaliber 0.22. Kann Körperpanzerung durchschlagen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425400
+    m_Localized: 0.22-SR-Munition (nicht tödlich)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425401
+    m_Localized: Eine Handvoll nicht tödliche SR-Munition, Kaliber 0.22. Mit Gummispitze dient die Munition dazu, Gegner kampfunfähig zu machen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425402
+    m_Localized: 10-mm-Munition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425403
+    m_Localized: Eine Handvoll 10-mm-Munition. Leistungsstark und verlässlich, die Standardmunition für schwere Pistolen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425406
+    m_Localized: 10-mm-Munition (nicht tödlich)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425407
+    m_Localized: Eine Handvoll nicht tödliche 10-mm-Munition. Mit Gummispitze dient die Munition dazu, Gegner kampfunfähig zu machen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425412
+    m_Localized: Phagimyzin-Pille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425413
+    m_Localized: Ein starkes Antibiotikum aus Bakteriophagen und Pilzen, um gegen Antibiotikaresistenz anzukommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425414
+    m_Localized: Illegale Phagimyzin-Pille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425415
+    m_Localized: Ein starkes Antibiotikum. Es wurde ohne Genehmigung und ohne Rücksicht auf das Carmichael-Patent in einem Unterweltlabor hergestellt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425416
+    m_Localized: Zyanid-Pille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425417
+    m_Localized: Eine schnell wirkende, tödliche chemische Verbindung. Bitte mit Vorsicht handhaben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425458
+    m_Localized: Zusammensetzungsspektrometer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425459
+    m_Localized: Ein Gerät, mit dem man die chemische Zusammensetzung von Substanzen analysieren kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619553
+    m_Localized: Informationen zur Unterdecks-Lotterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619564
+    m_Localized: Handbuch fürs Hydro-Farmen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619565
+    m_Localized: Ein praktisches Handbuch, das sämtliche Informationen zum Hydro-Farmen enthält.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619566
+    m_Localized: Chemiehandbuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619567
+    m_Localized: Ein praktisches Handbuch, das alle Grundlagen der Chemie enthält.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619573
+    m_Localized: Besitzurkunde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619574
+    m_Localized: Die Besitzurkunde für den Laden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619622
+    m_Localized: Waffenschein, Klasse I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619623
+    m_Localized: Im Schaufenster erhöht er die Wahrscheinlichkeit, dass Kunden kommen, die an Waffen interessiert sind. Der Schein wird aberkannt, wenn das Ansehen bei der Security unter null liegt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619624
+    m_Localized: Ein vom Aufseher ausgestellter Schein, der dem Besitzer erlaubt, minderwertige geschmuggelte Feuerwaffen und Munition legal zu besitzen und mit ihnen zu handeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619625
+    m_Localized: Waffenschein, Klasse II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619626
+    m_Localized: Im Schaufenster erhöht er die Wahrscheinlichkeit, dass Kunden kommen, die an Waffen interessiert sind. Der Schein wird aberkannt, wenn das Ansehen bei der Security unter 30 liegt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619627
+    m_Localized: Ein vom Aufseher ausgestellter Schein, der dem Besitzer erlaubt, gewöhnliche geschmuggelte Waffen legal zu besitzen und mit ihnen zu handeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619628
+    m_Localized: Waffenschein, Klasse III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619629
+    m_Localized: Im Schaufenster erhöht er die Wahrscheinlichkeit, dass Kunden kommen, die an Waffen interessiert sind. Der Schein wird aberkannt, wenn das Ansehen bei der Security unter 60 liegt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619630
+    m_Localized: Ein vom Aufseher ausgestellter Schein, der dem Besitzer erlaubt, hochwertige geschmuggelte Waffen legal zu besitzen und mit ihnen zu handeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619634
+    m_Localized: MBS-Nervengas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619635
+    m_Localized: Mit Vorsicht zu behandeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619636
+    m_Localized: 'Eine hochgiftige Chemiewaffe, die das Nervensystem zum Erliegen bringen soll. Folgende Symptome können auftreten: Atemnot, Krämpfe, Ausfall von Körperfunktionen, Bewusstlosigkeit und Tod.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619641
+    m_Localized: Zeigt, dass du ein Junior-Gutachter bist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619642
+    m_Localized: Stelle dies in dein Schaufenster, um Kunden anzulocken, die Gutachten benötigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619643
+    m_Localized: Post-it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619663
+    m_Localized: Beschaffungsformular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619664
+    m_Localized: Formular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619666
+    m_Localized: Expeditionsprotokoll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619669
+    m_Localized: Improvisierte Lagerbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619670
+    m_Localized: Eine improvisierte Box zum Lagern von Gegenständen. Andere Behälter oder Maschinen können darin nicht gelagert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619675
+    m_Localized: Waffenschmied-Lagerbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619676
+    m_Localized: Eine spezialisierte Box zum Lagern von Schusswaffen und Modifizierungen. Andere Behälter oder Maschinen können darin nicht gelagert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619677
+    m_Localized: Chemiker-Lagerbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619678
+    m_Localized: Eine spezialisierte Box zum Lagern von Chemiezubehör und -vorräten. Andere Behälter oder Maschinen können darin nicht gelagert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619687
+    m_Localized: Mini-Schmugglerbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619688
+    m_Localized: Eine kleine getarnte Lagerbox für Gegenstände, die bei einer Inspektion nicht gefunden werden sollen. Dies ist die Miniversion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619721
+    m_Localized: Ein Chip, der den Bauplan für einen 3D-Drucker enthält.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619722
+    m_Localized: 3D-Druckerchip für 0.22-Pistole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619723
+    m_Localized: 3D-Druckerchip ({0}x improvisiertes Rotpunkt-Visier)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619724
+    m_Localized: 3D-Druckerchip ({0}x Spielzeug-Laserpointer)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619725
+    m_Localized: 3D-Druckerchip ({0}x kleine Plastikflasche)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619726
+    m_Localized: 3D-Druckerchip ({0}x Rotpunkt-Visier)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619727
+    m_Localized: 3D-Druckerchip ({0}x Laser-Visier)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619728
+    m_Localized: 3D-Druckerchip ({0}x Schalldämpfer)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619729
+    m_Localized: 3D-Druckerchip ({0}x 0.22-Magazin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619730
+    m_Localized: 3D-Druckerchip ({0}x erweitertes 0.22-Magazin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619731
+    m_Localized: 3D-Druckerchip ({0}x 0.22-Magazin mit hoh. Kap.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619732
+    m_Localized: 3D-Druckerchip ({0}x 10-mm-Magazin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619733
+    m_Localized: 3D-Druckerchip ({0}x erweit. 10-mm-Magazin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619734
+    m_Localized: 3D-Druckerchip ({0}x 10-mm-Magazin mit hoh. Kap.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619735
+    m_Localized: Hydro-Schmugglermodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619736
+    m_Localized: Ein Modul, das den Schmuggelstatus von sämtlichen Setzlingen entfernt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619737
+    m_Localized: Hydro-Modul mit Hydroschilffilter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619739
+    m_Localized: Hydro-Modul für Füllkraut-Anbau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619740
+    m_Localized: Ein Modul, das den Ertrag an Füllkraut erhöht, dafür aber Saatgut einbüßt. Auf andere Pflanzen wirkt sich der einzigartige Effekt des Moduls nicht aus. Der Effekt ist nicht stapelbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619741
+    m_Localized: Hydro-Modul „Albtraumkappe“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619742
+    m_Localized: Ein Modul, das beim Anbau von Traumkappen deren psychoaktive Eigenschaften konzentriert und sie zu Albtraumkappen macht, einer giftigen Variante. Auf andere Pflanzen wirkt sich der einzigartige Effekt des Moduls nicht aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619743
+    m_Localized: Hydro-Modul „Traumkappen-Neutralisierung“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619744
+    m_Localized: Ein Modul, das beim Anbau von Traumkappen deren psychoaktive Eigenschaften neutralisiert und sie zu Mahlkappen macht. Der einzigartige Effekt des Moduls ist stapelbar, wirkt sich aber auf andere Pflanzen nicht aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619745
+    m_Localized: Hydro-Modul „Nutrifrucht“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619746
+    m_Localized: Ein Modul von Pastel, das den Ertrag von Nutrifrüchten aus einem Hydrokultursystem erhöht. Auf andere Pflanzen wirkt sich der einzigartige Effekt des Moduls nicht aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619747
+    m_Localized: Hydro-Modul „Automatischer Kaumwollwebstuhl“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619748
+    m_Localized: Ein Modul, das Kaumwolle während des Anbaus zu Stoff verarbeitet. Auf andere Pflanzen wirkt sich der einzigartige Effekt des Moduls nicht aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619749
+    m_Localized: Verdampfer-Modul „Lösungsmittel-Rückgewinnung“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619750
+    m_Localized: Metalldruckmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619751
+    m_Localized: Ein Modul, das es dem Drucker ermöglicht, Metall-Druckerchips zu benutzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619765
+    m_Localized: Chemiezubehörmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619766
+    m_Localized: Ist es einmal installiert, benötigt man zur Entfernung einen Modulextraktor. Ein besonderes Modul, das den Mixer, die Heizplatte und das Konfektionsmodul verbessern kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619770
+    m_Localized: Expeditionskiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619771
+    m_Localized: In diese Kiste gehören Vorräte und Ausrüstung für deinen Heuerling, die er bei Expeditionen benutzen kann. Nicht benutzte Sachen erhältst du zurück.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619772
+    m_Localized: Primär
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619773
+    m_Localized: Sekundär
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813824
+    m_Localized: Rucksack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813825
+    m_Localized: Kaumwollfutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813826
+    m_Localized: Kaumwollstoff, der als Futter dient. Bietet dem Träger geringen Schutz. Mehrere Schichten können gegen kleine Waffen schützen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813827
+    m_Localized: Für Arbeiter in gefährlichen Umgebungen gedacht. Außerdem wichtig für Recycler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813828
+    m_Localized: Entfernt Schmuggelstatus von Setzlingen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813829
+    m_Localized: Gewinnt nur Lösungsmittel zurück
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813830
+    m_Localized: Metalldruck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813831
+    m_Localized: Gewährt pro Nacht +{0} Ansehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813832
+    m_Localized: "Verbraucht mehr Ausgangsstoff\n– Erhöhte Ausgabe pro Nacht\n– Verringerte Reinheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813833
+    m_Localized: Verwandelt {0}x Müll in {1}x Metallschrott
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813834
+    m_Localized: Hydroschilffilter-Gewinn +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813835
+    m_Localized: "Füllkraut gewährt kein Saatgut mehr\n– Füllkrautgewinn +{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813836
+    m_Localized: Angebaute Traumkappen werden zu Albtraumkappen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813837
+    m_Localized: "Entfernt Schmuggelstatus von Traumkappen\n– Gilt nun als „Essen“\n– Traumkappengewinn +{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813838
+    m_Localized: Nutrifruchtgewinn +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813839
+    m_Localized: Produziert Kaumwollstoff statt Kaumwolle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813857
+    m_Localized: Flasche mit Säurelösung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813858
+    m_Localized: Achtung, ätzend. Mit Vorsicht zu behandeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813859
+    m_Localized: Kann benutzt werden, um Eiweiß und Stabilisatoren ausfallen zu lassen und das Filtern zu erleichtern. Wirkt auch Basen entgegen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813860
+    m_Localized: Flasche mit Basenlösung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813861
+    m_Localized: Achtung, reizt die Haut. Mit Vorsicht zu behandeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813862
+    m_Localized: Kann benutzt werden, um Eiweiß und Stabilisator zu verklumpen und das Filtern zu erleichtern. Wirkt auch Säuren entgegen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813863
+    m_Localized: Flasche mit N-Methylol-Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813864
+    m_Localized: Eine vielfältig einsetzbare chemische Base, die für viele legitime chemische Herstellungsprozesse genutzt wird; außerdem ein weit verbreiterter Vorgänger von Phanta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813865
+    m_Localized: Flasche mit Reduktionsmittel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813866
+    m_Localized: Gewährt einer anderen Substanz Elektronen und verändert den chemischen Zustand dieser Substanz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813867
+    m_Localized: Notwendig für bestimmte chemische Reaktionen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813868
+    m_Localized: Flasche mit Fettbinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813869
+    m_Localized: Lässt Öl und Fett verklumpen, sodass sie leicht gefiltert werden können. Dieses Mittel kann dann verdampft werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813870
+    m_Localized: Pipette (1 ml)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813871
+    m_Localized: Eine äußerst präzise Pipette, um eine geringe Menge Flüssigkeit zu übertragen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813872
+    m_Localized: Pipette (5 ml)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813873
+    m_Localized: Messzylinder (25 ml)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813874
+    m_Localized: Messzylinder (50 ml)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813875
+    m_Localized: Messzylinder (100 ml)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510276
+    m_Localized: Mixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510277
+    m_Localized: Ein Mixer, der nicht besonders solide wirkt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510278
+    m_Localized: Chemikalien-Konfektionsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510279
+    m_Localized: Verpackt Chemikalien in Pillen, Fläschchen und andere Behälter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510286
+    m_Localized: Verdampfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510287
+    m_Localized: Eine langsame Maschine, die über Nacht mithilfe von niedriger Hitze und trockener Luft die Flüssigkeit aus einer Lösung verdampfen lässt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510288
+    m_Localized: 'Anleitung: Verdampfer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510289
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Verdampfungsvolumen pro Nacht\n  Qualität: Volumen des erfassten Dampfs\nLäuft über Nacht, wenn Strom und ein Wasserbehälter verfügbar sind."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510295
+    m_Localized: Heizplatte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510296
+    m_Localized: Eine schäbige leistungsschwache und ungenaue Heizplatte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510307
+    m_Localized: 3D-Drucker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510308
+    m_Localized: Eine Maschine, die verschiedene Plastikgegenstände drucken kann. Arbeitet über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510309
+    m_Localized: 'Anleitung: 3D-Drucker'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510310
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung: Drucktempo\nQualität (Verhältnis 0,25): Druckqualität bei geeigneten Gegenständen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510311
+    m_Localized: Energiequelle, Druckerchip und Materialien einlegen. Der Drucker arbeitet automatisch über Nacht, wenn alle Voraussetzungen erfüllt sind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510312
+    m_Localized: Hydrokultursystem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510313
+    m_Localized: Ein kompaktes Hydrokultursystem. Benötigt eine eigene Energiequelle. Läuft über Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510314
+    m_Localized: 'Anleitung: Hydrokultursystem'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510315
+    m_Localized: "[Modulwirkung]: \n  Effizienz: Energieverbrauch\n  Leistung (Verhältnis 0,5): Wachstumsrate\n  Qualität (Verhältnis 0,5): Max. Gewinn in %"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510316
+    m_Localized: Setze einen Wasserbehälter mit dem saubersten erhältlichen Wasser sowie Saatgut und eine Energiequelle mit genug Energie ein. Das Hydrosystem läuft über Nacht. Für diese Maschine gibt es optionale Module, um ihre Fähigkeiten zu verbessern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510329
+    m_Localized: Verkaufsautomatenplatine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510330
+    m_Localized: Verkaufsautomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510331
+    m_Localized: Ein Verkaufsautomat, am dem nachts Waren verkauft werden können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510332
+    m_Localized: Gegenstände werden (soweit möglich) mit +10 % zusätzlichem Wert und Verkaufsaufschlag verkauft. Von Ereignissen abhängige Modifikatoren wirken sich nicht auf den Automaten aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510333
+    m_Localized: Wasserautomatenplatine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510334
+    m_Localized: Wasserautomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510335
+    m_Localized: Ein Automat, an dem nachts Wasser erhältlich ist. Es können nur Basiswasser, Qualitätswasser und Premiumwasser verkauft werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510336
+    m_Localized: Gegenstände werden (soweit möglich) mit +10 % zusätzlichem Wert und Verkaufsaufschlag verkauft. Von Ereignissen abhängige Modifikatoren wirken sich nicht auf den Automaten aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806337
+    m_Localized: Kaumwolle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806338
+    m_Localized: Eine modifizierte Variante traditioneller Baumwolle. Kann zu strapazierfähigem und vielfältig einsetzbarem Stoff verarbeitet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806343
+    m_Localized: Traumkappensporen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806344
+    m_Localized: Kaffeebohnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806345
+    m_Localized: Eine Handvoll Kaffeebohnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806346
+    m_Localized: Traumkappe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806347
+    m_Localized: Verursacht bei Verzehr leichte Euphorie und Magenschmerzen. Eine Hauptzutat für Traumstaub.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806348
+    m_Localized: Albtraumkappe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806349
+    m_Localized: Eine äußerst giftige Variante der gewöhnlichen Traumkappe. Kann zu einem tödlichen Gift verarbeitet werden. Überlebende berichten von grauenhaften Halluzinationen nach der Einnahme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806350
+    m_Localized: Pflanzenanalysator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806351
+    m_Localized: Ein spezialisiertes Werkzeug, mit dem man das Wachstum von Pflanzen analysieren kann. So können die Wachstumsvoraussetzungen einer Pflanze optimiert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806354
+    m_Localized: Füllkraut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806355
+    m_Localized: Eine schnell wachsende, gelbliche Pflanze mit vielen Blättern, die hauptsächlich auf den Unterdecks angebaut wird. Sie bietet fast keine Nährstoffe und wird benutzt, um Rationen zu strecken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806356
+    m_Localized: Hat eine breiige Konsistenz und einen leicht bitteren Nachgeschmack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806357
+    m_Localized: Hydroschilf-Saatgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806358
+    m_Localized: Eine nützliche Pflanze, die aber nicht essbar ist. Das Hydroschilf reinigt beim Wachsen das Wasser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349696
+    m_Localized: Blühbeerensamen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349697
+    m_Localized: Ein mehrjähriger Busch, der nach der Fruchtzeit nicht eingeht. Mit sauberem Wasser erhält man bessere Blühbeeeren. Benutz ein Handbeil, um den Busch zu entfernen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545411469312
+    m_Localized: Mahlkappe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545453412352
+    m_Localized: Eine neutralisierte Traumkappe ohne psychoaktive Eigenschaften. Legal und zum Verzehr geeignet. Kann nicht zu Traumstaub verarbeitet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380865
+    m_Localized: Tierkot (groß)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698507987632128
+    m_Localized: Abhäutemesser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380864
+    m_Localized: Das perfekte Messer für einen erfahrenen Rattentreiber.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146879209472
+    m_Localized: Werkzeugkasten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346816
+    m_Localized: Enthält Werkzeuge. Drücke auf der Tastatur 1–9, um den verstauten Gegenstand auszurüsten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346817
+    m_Localized: Ziemlich robust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199391264768
+    m_Localized: Kühlschrank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430592
+    m_Localized: Kühlt über Nacht die dort gelagerten Drinks. Gekühlte Waren werden teurer verkauft. Wirkt sich nicht auf Wein und unversiegeltes Wasser aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430593
+    m_Localized: Beis Premium-Vanilleeis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430594
+    m_Localized: Eine leckere Nascherei, die offiziell als „gefrorenes Milcherzeugnis mit künstlichen Geschmacksstoffen“ eingeordnet wird. Aus irgendeinem Grund schmilzt es nicht, wenn es nicht gekühlt wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430595
+    m_Localized: Kann zu einem höheren Preis verkauft werden, wenn es über Nacht im Kühlschrank bleibt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298531184640
+    m_Localized: Wasserkaraffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298564739072
+    m_Localized: Enthält einen Wasserfilter, der einige Verunreinigungen aus dem daraus gegossenen Wasser entfernt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279426768896
+    m_Localized: Happen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279460323328
+    m_Localized: Kleiner Happen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289481588736
+    m_Localized: Tilapia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948864
+    m_Localized: Abwassertilapia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948865
+    m_Localized: Transgen-Tilapia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948866
+    m_Localized: Häufiger Zuchtfisch. Wächst schnell, ist beim Futter nicht wählerisch und vermehrt sich eifrig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948867
+    m_Localized: Die Abwasservariante des Tilapias. Wächst langsamer und bietet weniger Fleisch im Verhältnis zur Futtermenge, stört sich aber nicht an schmutzigem Wasser und entfernt Schwermetalle und Chemikalien aus dem Wasser, solange er darin lebt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948868
+    m_Localized: Ein modifizierter Tilapia. Bietet weniger Fleisch im Verhältnis zur Futtermenge und benötigt sauberes Wasser, dafür kann die Haut sterilisiert und als Verband benutzt werden. Der unbefruchtete Laich dient direkt zur Wundversorgung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948869
+    m_Localized: Tilapialaich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948870
+    m_Localized: Abwassertilapialaich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948871
+    m_Localized: Transgen-Tilapia-Laich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948872
+    m_Localized: Tilapialaich (befruchtet)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948873
+    m_Localized: Abwassertilapialaich (befruchtet)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948874
+    m_Localized: Transgen-Tilapia-Laich (befruchtet)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948875
+    m_Localized: Tilapiabrut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948876
+    m_Localized: Abwassertilapiabrut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948877
+    m_Localized: Transgen-Tilapia-Brut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948878
+    m_Localized: Eier des Transgen-Tilapias. Sie enthalten hohe Mengen des Proteins, das die Wundheilung befördert, und werden daher immer schnell von Sanitätern aufgekauft.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948879
+    m_Localized: Transgen-Tilapia-Haut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948880
+    m_Localized: Die sterilisierte Haut eines Transgen-Tilapias. Stillt Blutungen und sorgt dafür, dass Wunden sich schließen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948881
+    m_Localized: Winziges Fischfilet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948882
+    m_Localized: Kleines Fischfilet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948883
+    m_Localized: Fischfilet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948884
+    m_Localized: Großes Fischfilet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948885
+    m_Localized: Fischrest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948886
+    m_Localized: Geschlossenes Aquakultursystem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948887
+    m_Localized: Ein geschlossener Wasserkreislauf für die Fischzucht. Erfordert einen Wassertank, Strom und Filter, um das Wasser sauber zu halten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948888
+    m_Localized: GAKS-Wassertank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948889
+    m_Localized: Der Wasserbehälter eines geschlossenen Aquakultursystems.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948890
+    m_Localized: Kloakenbrühenpellet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948891
+    m_Localized: Gepresster Kloakenschlamm. Eine günstige Kalorienquelle für allesfressende Fische, nicht für Menschen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421783789568
+    m_Localized: Aal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149696
+    m_Localized: Zitteraal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149697
+    m_Localized: Stör
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149698
+    m_Localized: Wird wegen der edlen Filets gezüchtet und ist erheblich wertvoller als andere Fische. Pflanzt sich nicht in Gefangenschaft fort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149699
+    m_Localized: Ein lebender Generator. Vom Jungstadium an lädt er jede Nacht die Batterie seines Aquariums sowie alle Batterien daneben. Mit dem Heranwachsen erhöhen sich auch seine Kapazitäten. Pflanzt sich nicht in Gefangenschaft fort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149700
+    m_Localized: Wird für Kaviar gezüchtet. Seine Eier können mit Operationsbesteck entnommen werden, solange der Fisch noch am Leben ist, oder vollständig entfernt werden, wenn der Fisch geschlachtet wird. Pflanzt sich nicht in Gefangenschaft fort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149701
+    m_Localized: Kaviar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149702
+    m_Localized: Störrogen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149703
+    m_Localized: Kleines Aalfilet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149704
+    m_Localized: Aalfilet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149705
+    m_Localized: Gilt auf der Station als Delikatesse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888699678720
+    m_Localized: Industrielles Fischfutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888733233152
+    m_Localized: Massenproduziertes Industriefutter für omnivore und herbivore Fische.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676618002432
+    m_Localized: DNA-Datendisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362560
+    m_Localized: Eine leere Datendisk. Ein DNA-Manipulator kann ein Merkmal extrahieren und auf die Disk implementieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362561
+    m_Localized: DNA-Manipulator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362562
+    m_Localized: Extrahiert DNA-Daten auf DNA-Datendisks und installiert das Merkmal einer Disk bei einem Ziel. Je höher die genetische Komplexität des Ziels, desto niedriger die Erfolgschance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362563
+    m_Localized: 'Anleitung: DNA-Manipulator'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362564
+    m_Localized: Richtige Anwendung des DNA-Manipulators
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362565
+    m_Localized: "IMPLEMENTIEREN: Legen Sie eine beschriebene DNA-Datendisk ins Eingabefach und das Ziel ins Zielfach ein. Das Ziel erhält das Merkmal. Falls Sie ein Merkmal implementieren, das das Ziel bereits besitzt, erhält das Merkmal einen höheren Rang. Jede erfolgreiche Implementierung verbraucht eine Anwendung der Disk.\nEXTRAHIEREN: Legen Sie eine leere Datendisk ins Ausgabefach und das Ziel ins Zielfach ein. Auf die Disk wird nun ein zufälliges Merkmal kopiert; das Ziel wird vernichtet, sofern kein Genetik-Stabilisierungsmodul installiert ist. Sie können statt der leeren Disk auch eine Disk verwenden, die ein Merkmal enthält, das das Ziel bereits besitzt. Die Disk erhält bei der Extraktion weitere Anwendungen.\nDer Prozess erhitzt die Genetik des Ziels. Hitze und Komplexität führen dazu, dass die nächste Bearbeitung langsamer und riskanter wird, bis das Ziel ausgewachsen ist. Verwenden Sie einen Genscanner, um die Genetik des Ziels auszulesen.\nMODULE: Ein Genetik-Stabilisator schützt das Ziel im Extraktionsprozess. Die Merkmalfilter ermöglichen bei einer zufälligen Extraktion nur die Entnahme positiver oder negativer Merkmale. Wird das Präzisionsmodul bei einer beschriebenen Disk verwendet, extrahiert es speziell dieses Merkmal.\nAUSGABE: Nach jeder Prozedur wird die Disk ausgegeben. Sie können das Gerät so einstellen, dass die Disks stattdessen in ihren jeweiligen Fächern bleiben.\n[Modulwirkung]:\nEffizienz: Energieverbrauch\n  Leistung (Verhältnis 0,5): Prozedurdauer\nQualität (Verhältnis 0,5): Erfolgschance"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362566
+    m_Localized: Genetik-Stabilisierungsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362567
+    m_Localized: 'Ermöglicht, das Ziel nach Extraktion der DNA zu erhalten: Ein Merkmal kann entfernt werden, ohne das Ziel zu zerstören.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362568
+    m_Localized: Das Ziel überlebt die Extraktion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362569
+    m_Localized: Filtermodul für positive Merkmale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362570
+    m_Localized: Schränkt die DNA-Extraktion auf positive Merkmale ein. Von einem Ziel, das keinerlei positive Merkmale besitzt, wird auch nichts extrahiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362571
+    m_Localized: Nur positive Merkmale werden extrahiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362572
+    m_Localized: Filtermodul für negative Merkmale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362573
+    m_Localized: Schränkt die DNA-Extraktion auf negative Merkmale ein. Von einem Ziel, das keinerlei negative Merkmale besitzt, wird auch nichts extrahiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362574
+    m_Localized: Nur negative Merkmale werden extrahiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362575
+    m_Localized: Präzisions-Extraktionsmodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362576
+    m_Localized: Verwende dieses Modul mit einer DNA-Datendisk, die ein Merkmal enthält, um dieses zu scannen. Wenn es in einem DNA-Manipulator installiert wird, extrahiert es nur das gescannte Merkmal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362577
+    m_Localized: Nur gescannte Merkmale werden extrahiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82432951786979328
+    m_Localized: Der Betrieb mehrerer Feuchtigkeitsfarmen reduziert ihren jeweiligen Ertrag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906176339968
+    m_Localized: 3D-Druckerchip ({0}x Teppichmesser)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700096
+    m_Localized: 3D-Druckerchip ({0}x Küchenmesser)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700097
+    m_Localized: 3D-Druckerchip ({0}x Handbeil)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700098
+    m_Localized: 3D-Druckerchip ({0}x Fleischerbeil)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700099
+    m_Localized: 3D-Druckerchip ({0}x Kampfmesser)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700100
+    m_Localized: 3D-Druckerchip ({0}x Kampfmachete)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700101
+    m_Localized: Nahkampf-Chargen-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700102
+    m_Localized: Ein Druckmodul, das zu jedem Druck von Nahkampfwaffen eine weitere Waffe hinzufügt. Langsam und machthungrig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700103
+    m_Localized: Ausgabe gedruckter Nahkampfwaffen +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700104
+    m_Localized: 3D-Druckerchip ({0}x 0.22-Pistole)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700105
+    m_Localized: 'Gehäuse: Nestfire Compact'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700106
+    m_Localized: 'Gehäuse: Ironcraft 10'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700107
+    m_Localized: Ein unvollständiges Waffengehäuse. Füge eine Waffenkomponente hinzu, um die Waffe abzuschließen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700108
+    m_Localized: '3D-Druckerchip (Gehäuse: Nestfire Compact)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700109
+    m_Localized: '3D-Druckerchip (Gehäuse: Ironcraft 10)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700110
+    m_Localized: 3D-Druckerchip (Waffenteil)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700111
+    m_Localized: CNC-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700112
+    m_Localized: Ein Modul, das es dem Drucker ermöglicht, zusammen mit dem Metalldruckmodul Chips für Waffengehäuse und Waffenteile zu benutzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700113
+    m_Localized: CNC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801482706944
+    m_Localized: Trümmerhaufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067072
+    m_Localized: Du verbringst einige Zeit damit, die Trümmer zu entfernen, wenn du schlafen gehst, ohne den Laden zu verlassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067073
+    m_Localized: Du brauchst Werkzeuge, um das hier zu entfernen. Jedes verwendete Werkzeuge wird zerstört.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067074
+    m_Localized: Deutlich zu schwer, als dass du es selbst beseitigen könntest. Du musst den Nachtservice „Trümmerbeseitigung“ buchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067075
+    m_Localized: Improvisierter Mikro-Atomreaktor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067076
+    m_Localized: Versorgt den Laden mit Energie, wenn er mehr als {0} Stabilität hat. Verliert jede Nacht an Stabilität und explodiert bei 0. Metallschrott stellt {1} Stabilität wieder her. Schrott stellt {2} Stabilität wieder her, reduziert aber die maximale Stabilität um {3}. Alle gewöhnlichen Elektronikteile verringern den nächtlichen Verlust um 1.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997352247296
+    m_Localized: Zertifikat des Gutachterausschusses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607424
+    m_Localized: Zertifikat für deinen Rang im Gutachterausschuss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607425
+    m_Localized: Senior-Zertifikat des Gutachterausschusses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607426
+    m_Localized: Meister-Zertifikat des Gutachterausschusses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760602595328
+    m_Localized: A Bao A Qu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344064
+    m_Localized: The Wailing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344065
+    m_Localized: Long Star River
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344066
+    m_Localized: Deluge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344067
+    m_Localized: Spellsinger Radio Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344068
+    m_Localized: Golden Lotus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344069
+    m_Localized: Junkyard Jockey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687331373056
+    m_Localized: 'Neonschild: Schusswaffen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687343955968
+    m_Localized: 'Neonschild: Schwere Schusswaffen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274678018048
+    m_Localized: Stromwandler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274715766784
+    m_Localized: Zapft den Strom direkt aus dem Netz der Unterdecks ab und versorgt damit jede Maschine statt einer Batterie. Damit Strom fließt, musst du den nächtlichen Service „Stromwandler“ bezahlen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056494051328
+    m_Localized: Li Bei Wens NoMore-Formel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411456
+    m_Localized: Scharfer Plastiksprengstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411457
+    m_Localized: Das hat Lou versteckt. Laut Timer geht es um Mitternacht hoch. Du solltest es besser entschärfen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411458
+    m_Localized: Falscher Plastiksprengstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411459
+    m_Localized: Das ist die Bombe, die Lou versteckt hat, aber anscheinend steckt gar kein Sprengstoff drin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411460
+    m_Localized: Alter Befehl der Republik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411461
+    m_Localized: Ein vergilbtes, brüchiges Blatt, das offenbar unzählige Male gefaltet und wieder auseinandergefaltet wurde. Ein schriftlicher Befehl an Lou, Jahre alt. Oben ist noch ein verblasstes Siegel der Republik zu erkennen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411462
+    m_Localized: "GEMEINSAMES KOMMANDO FÜR SPEZIALOPERATIONEN DER REPUBLIK, VORRANGIGER BEFEHL\nAN: Lou, Leiterin des Notfalleinsatzteams\n\nHören Sie auf, Zeit zu schinden, und führen Sie diesen Befehl sofort aus. Leiten Sie mit Ihrem Team die Selbstzerstörungssequenz des Forschungsschiffs Ikarus ein. Legen Sie alle Rettungskapseln lahm und lassen Sie keinen Überlebenden der Ikarus mit Ihrem Team entkommen. Tun Sie es, oder ich bringe Sie vor das Kriegsgericht.\n\n(Die Unterschrift ist bis zur Unleserlichkeit verblasst.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411463
+    m_Localized: Lous Spielzeugkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411464
+    m_Localized: Sieht aus wie ein umfunktionierter Asservatenschrank der Security. Besser nichts darin anfassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649152
+    m_Localized: Flüssiges Glück
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649153
+    m_Localized: Steigert dein Glück 3 Tage lang, garantiert zu 100 %! Georgios Ehrenwort! Schmeckt nach Dreckwasser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649154
+    m_Localized: Kinderrucksack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649155
+    m_Localized: Kinderrucksack (groß)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785493061632
+    m_Localized: Verbesserte Innenfedern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810368
+    m_Localized: Ein Satz robusterer Innenfedern, die für einen zuverlässigeren Ablauf der Mechanik sorgen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810369
+    m_Localized: 3D-Druckerchip ({0}x verbesserte Innenfedern)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004867645440
+    m_Localized: Spielermünze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004905394176
+    m_Localized: Eine Münze aus einer Währung, an die sich niemand mehr erinnert. Angeblich bringt sie Glück. Vor allem rubbelt sie Lose schneller frei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245508415488
+    m_Localized: Care-Paket für Eleanor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387008
+    m_Localized: 'Eine versiegelte Kiste voller edler Waren von den Oberdecks. Wer sie gepackt hat, hat an nichts gespart. Seltsam nur: Laut deinem Security-Feed ist sie als gestohlen gemeldet.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387009
+    m_Localized: SYNC (selbstnachfüllendes Neuroaktiv-Parfüm)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387010
+    m_Localized: Verbessert den Handelsbonus mit dem aktuellen Kunden um 15 %. Du kannst immer nur je ein Parfüm verwenden. Füllt sich von selbst wieder auf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387011
+    m_Localized: Die Premium-Edition des SYNC-Parfüms. Ein versiegelter Behälter im Deckel synthetisiert langsam eine neue Dosis, sodass die Flasche nie ganz leer wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387012
+    m_Localized: Lagerbox-Erweiterungsset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387013
+    m_Localized: Auf einer Lagerbox fügt es zwei Lagerreiter hinzu, auf einer erweiterten Lagerbox einen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798324109312
+    m_Localized: Lagerkoordinator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275136
+    m_Localized: Ordne Behälter und Geräte Presets zu. Gib jedem Preset ein Tastenkürzel, um sie schnell zu öffnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275137
+    m_Localized: Elektronikteile (Hypertech)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275138
+    m_Localized: Die Speerspitze der Elektronik. Niemand auf der Station kann so etwas herstellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275139
+    m_Localized: Dient zum Aufrüsten oder Aufladen bestimmter Hypertech-Gegenstände.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275140
+    m_Localized: Hypertech-Leistungszelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275141
+    m_Localized: Eine experimentelle Zelle ohne gespeicherte Ladung. Sie versorgt jedes Gerät, dessen Verbrauch innerhalb ihrer Nennleistung bleibt, unbegrenzt mit Strom. Geräte, die mehr verbrauchen, bekommen nichts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275142
+    m_Localized: Hypertech-Turbobooster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275143
+    m_Localized: Ein Turbobooster, der mit einer Energiezelle betrieben wird. Er lädt sich in jedem Zyklus auf und speichert überschüssige Ladung. Ist er geladen, schließt er den aktuellen Zyklus eines Geräts sofort ab.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275144
+    m_Localized: Hypertech-Lagerbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275145
+    m_Localized: Geistesreprogrammierer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275146
+    m_Localized: Kann bestimmte Vorteile entfernen und hinzufügen. Verbrauche Elektronikteile (Hypertech), um es aufzuladen. Nach jeder Nutzung braucht das Gerät Zeit zum Zurücksetzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356914843648
+    m_Localized: Auto-Schlachter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426560
+    m_Localized: Ein konfigurierbarer Auto-Schlachter. Er muss in einen Tierkäfig oder eine Aquakulturanlage eingesetzt werden. Jede Nacht schlachtet er die Tiere, die seinen Einstellungen entsprechen, in seine Ablage. Mit dem Markierstift markierte Tiere lässt er immer in Ruhe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426561
+    m_Localized: Der mächtige Zerhacker. Nicht hineinklettern. Lass dir auch von niemandem hineinhelfen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426562
+    m_Localized: Markierstift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426563
+    m_Localized: Markiert ein Tier oder einen Fisch mit einer Farbe. Der Auto-Schlachter rührt ein markiertes Tier nie an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259386847232
+    m_Localized: Einlauftrichter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401664
+    m_Localized: Kann mit einem Auslauftrichter verbunden und so eingestellt werden, dass er jede Nacht die Gegenstände aus seinem Inventar in das Inventar des Auslauftrichters schickt. Benutze ihn an einem Auslauftrichter, um beide zu verbinden, Doppelklick zum Einstellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401665
+    m_Localized: Auslauftrichter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401666
+    m_Localized: Nimmt jede Nacht die Gegenstände auf, die seine verbundenen Einlauftrichter in sein Inventar schicken. Benutze ihn an einem Einlauftrichter, um beide zu verbinden, Doppelklick lässt sie sofort laufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160964653056
+    m_Localized: Einwegbatterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818880
+    m_Localized: Eine Einweg-Energiezelle mit hoher Kapazität. Lässt sich nicht aufladen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818881
+    m_Localized: Auf den Oberdecks wegen ihrer Bequemlichkeit beliebt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818882
+    m_Localized: Kleine Alkoholflasche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818883
+    m_Localized: Wassertank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818884
+    m_Localized: Ein großer Flüssigkeitsbehälter. Verwende Metallschrott oder einen Metallbarren darauf, um ihn zu vergrößern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89901428357513216
+    m_Localized: Mit einem Verband darauf wickelst du ein Glasmesser. Der Verband wird dabei nicht verbraucht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728700862464
+    m_Localized: Sender der Republik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833984
+    m_Localized: Ein winziger Sender, den dir der Agent der Republik gegeben hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833985
+    m_Localized: Verstecke ihn in etwas, das Lou mitnimmt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833986
+    m_Localized: Eine einzelne Patrone, über Nacht auf deinem Tresen hinterlassen. In die Hülse ist „{0}“ eingeritzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833987
+    m_Localized: Lous Schließfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833988
+    m_Localized: Leer, offen, wartend. Fülle es und lass es beim Schließen auf dem vorderen Tresen stehen.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

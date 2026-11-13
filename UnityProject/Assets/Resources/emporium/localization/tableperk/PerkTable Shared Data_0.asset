@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PerkTable Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: PerkTable
+  m_TableCollectionNameGuidString: 90931c9e8308ea948981fef95a5fa7eb
+  m_Entries:
+  - m_Id: 1443059515392
+    m_Key: perk_saving_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267617513472
+    m_Key: perk_saving_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902080
+    m_Key: perk_bad_lease_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902081
+    m_Key: perk_bad_lease_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902086
+    m_Key: perk_convict_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902087
+    m_Key: perk_convict_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902088
+    m_Key: perk_model_citizen_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902089
+    m_Key: perk_model_citizen_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902090
+    m_Key: perk_well_connected_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902091
+    m_Key: perk_well_connected_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902092
+    m_Key: perk_alert_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902093
+    m_Key: perk_alert_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902094
+    m_Key: perk_sawyer_crew_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902095
+    m_Key: perk_sawyer_crew_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902096
+    m_Key: perk_diplomatic_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902097
+    m_Key: perk_diplomatic_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902098
+    m_Key: perk_intimidating_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902099
+    m_Key: perk_intimidating_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902100
+    m_Key: perk_side_street_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902101
+    m_Key: perk_side_street_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902102
+    m_Key: perk_nicotine_addiction_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902103
+    m_Key: perk_nicotine_addiction_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902104
+    m_Key: perk_narcotic_addiction_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902105
+    m_Key: perk_narcotic_addiction_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902106
+    m_Key: perk_alcohol_addiction_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902107
+    m_Key: perk_alcohol_addiction_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902108
+    m_Key: perk_secret_admirer_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902109
+    m_Key: perk_secret_admirer_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902110
+    m_Key: perk_colorful_character_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902111
+    m_Key: perk_colorful_character_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902112
+    m_Key: perk_blackmail_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902113
+    m_Key: perk_blackmail_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902114
+    m_Key: perk_blabbermouth_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902115
+    m_Key: perk_blabbermouth_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902116
+    m_Key: perk_unsubscribed_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902117
+    m_Key: perk_unsubscribed_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902118
+    m_Key: perk_minimalist_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902119
+    m_Key: perk_minimalist_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902120
+    m_Key: perk_sentinel_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902121
+    m_Key: perk_sentinel_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902124
+    m_Key: perk_speedy_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902125
+    m_Key: perk_speedy_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902126
+    m_Key: perk_agoraphobia_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902128
+    m_Key: perk_welfare_program_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902129
+    m_Key: perk_welfare_program_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902130
+    m_Key: perk_proficient_scavenger_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902131
+    m_Key: perk_proficient_scavenger_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902132
+    m_Key: perk_revolution_sympathizer_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902133
+    m_Key: perk_revolution_sympathizer_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902134
+    m_Key: perk_gambling_addiction_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902135
+    m_Key: perk_gambling_addiction_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902136
+    m_Key: perk_tapehead_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902137
+    m_Key: perk_tapehead_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902138
+    m_Key: perk_expedition_organizer_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902139
+    m_Key: perk_expedition_organizer_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902140
+    m_Key: perk_vending_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902141
+    m_Key: perk_vending_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12200241315840
+    m_Key: perk_points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313910013952
+    m_Key: perk_short_sleeper_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791168
+    m_Key: perk_short_sleeper_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791169
+    m_Key: perk_working_pipes_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791170
+    m_Key: perk_working_pipes_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791171
+    m_Key: perk_illiterate_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791172
+    m_Key: perk_illiterate_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791173
+    m_Key: perk_prime_real_estate_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313930985472
+    m_Key: perk_prime_real_estate_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876391931904
+    m_Key: perk_degenerative_osteoarthritis_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263552
+    m_Key: perk_degenerative_osteoarthritis_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263553
+    m_Key: perk_known_snitch_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263554
+    m_Key: perk_known_snitch_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180758536192
+    m_Key: perk_handy_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673536
+    m_Key: perk_handy_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673537
+    m_Key: perk_public_enemy_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673538
+    m_Key: perk_public_enemy_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673539
+    m_Key: perk_ascetic_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673540
+    m_Key: perk_ascetic_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673541
+    m_Key: perk_maimed_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673542
+    m_Key: perk_maimed_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673543
+    m_Key: perk_wild_favorite_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673544
+    m_Key: perk_wild_favorite_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673545
+    m_Key: perk_wild_bad_side_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673546
+    m_Key: perk_wild_bad_side_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673547
+    m_Key: perk_aug_menace_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673548
+    m_Key: perk_aug_menace_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673549
+    m_Key: perk_lucky_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673550
+    m_Key: perk_lucky_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673551
+    m_Key: perk_unlucky_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673552
+    m_Key: perk_unlucky_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520854233088
+    m_Key: perk_agoraphobia_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593216
+    m_Key: perk_tinkerer_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593217
+    m_Key: perk_tinkerer_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593218
+    m_Key: perk_careful_scavenger_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593219
+    m_Key: perk_careful_scavenger_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593220
+    m_Key: perk_sycophant_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593221
+    m_Key: perk_sycophant_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593222
+    m_Key: perk_agoraphobia_rest_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593223
+    m_Key: perk_awful_negotiator_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593224
+    m_Key: perk_awful_negotiator_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593225
+    m_Key: perk_banned_commissary_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593226
+    m_Key: perk_banned_commissary_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593227
+    m_Key: perk_hoarder_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593228
+    m_Key: perk_hoarder_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593229
+    m_Key: perk_makeshift_reactor_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593230
+    m_Key: perk_makeshift_reactor_desc
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1084132982065463298
+  references:
+    version: 2
+    RefIds:
+    - rid: 1084132982065463298
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1770672559894

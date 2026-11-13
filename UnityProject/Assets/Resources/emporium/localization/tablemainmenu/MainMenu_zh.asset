@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: MainMenu_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 8595c3b31db4e4b4197c997175a5415c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 128057131008
+    m_Localized: 新游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27025948327936
+    m_Localized: 制作人员名单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26937549176832
+    m_Localized: 载入游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27007459835904
+    m_Localized: 选项
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393761192820736
+    m_Localized: 退出游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414435592519680
+    m_Localized: 加入我们的Discord！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415424718454784
+    m_Localized: 特别鸣谢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415526723928064
+    m_Localized: 社区贡献者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415597255344128
+    m_Localized: 关闭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415661109428224
+    m_Localized: 衷心感谢所有社区成员的支持！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418489995509760
+    m_Localized: 首席开发者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418544991223808
+    m_Localized: 美术
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422978999697408
+    m_Localized: 游戏性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423044611194880
+    m_Localized: 自动呼叫下一位顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423139700260864
+    m_Localized: 音频
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423175637057536
+    m_Localized: 显示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423212513378304
+    m_Localized: 全屏模式无法完全适配你的显示器分辨率。游戏以全屏模式运行时，画面将出现黑边。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423323075231744
+    m_Localized: 分辨率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423377332748288
+    m_Localized: 全屏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423449676103680
+    m_Localized: 对话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423491417817088
+    m_Localized: 对话速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423542080815104
+    m_Localized: 对话音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423659152228352
+    m_Localized: 应用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424598437249024
+    m_Localized: 主音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425290828759040
+    m_Localized: 欢迎来到下层区！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425310856560640
+    m_Localized: 社区反馈对我们至关重要。加入我们的Discord，成为社区的一员，与我们共同完善《深空当铺：可能是偷的》的开发过程。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427776507527168
+    m_Localized: 欢迎
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427886381514752
+    m_Localized: 困难模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427924532903936
+    m_Localized: 跳过开场
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1428966523846656
+    m_Localized: 开始游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791467572740096
+    m_Localized: 载入中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49680125533143040
+    m_Localized: 无尽模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63469971271630848
+    m_Localized: 自动播放对话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68914510270611456
+    m_Localized: 音乐音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217292363907072
+    m_Localized: 艺术总监
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260403609419776
+    m_Localized: 音效设计
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260471221600256
+    m_Localized: 作曲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262198301769728
+    m_Localized: 感谢那些启发了《深空当铺：可能是偷的》创作灵感的游戏开发者们。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262222729396224
+    m_Localized: 额外音效由 Zapsplat 提供
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264139253694464
+    m_Localized: 载入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264686660698112
+    m_Localized: 是
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264698710933504
+    m_Localized: 否
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992209629954048
+    m_Localized: 特此感谢 Bowen Peng 的技术支持！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98258866009849856
+    m_Localized: 角色美术
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992394410016768
+    m_Localized: 开发团队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041827549593600
+    m_Localized: 初始特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041931161485312
+    m_Localized: 可用特性：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101042014783324160
+    m_Localized: 已选特性：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053347759177728
+    m_Localized: 跳过所有开场介绍和顾客教程事件。立即解锁所有内容。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053534732861440
+    m_Localized: "-出售时无零售加价\n-初始没有租金宽限\n-特定服务费用更高\n-租金涨幅翻倍"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053623253647360
+    m_Localized: 部分剧情事件和顾客不会出现
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112030429184
+    m_Localized: 已用特性点数：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112034623488
+    m_Localized: 特性总数：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103629527129571328
+    m_Localized: 试玩版中不可用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457938636800
+    m_Localized: 立即加入愿望单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457959608320
+    m_Localized: 提交反馈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892356329472
+    m_Localized: 通过分享匿名游戏数据，帮助我们改进游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892381495296
+    m_Localized: 分享游戏数据以协助改进游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123860245336080384
+    m_Localized: 启用打字机效果
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125321176029118464
+    m_Localized: 首次游玩无法使用初始特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125426057079472128
+    m_Localized: 确定要跳过开场吗？强烈建议新玩家完成教程。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128916364517490688
+    m_Localized: 确定要以这个开局剧本开始游戏吗？强烈建议新玩家选择“学徒”开局。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137315070048518144
+    m_Localized: 确认
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328426020864
+    m_Localized: 可选
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328459575296
+    m_Localized: 或
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148594413932429312
+    m_Localized: 该存档创建时所用的语言（{0}）与当前所选语言（{1}）不同。部分文本可能会显示不正确。仍要载入吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156521139916292096
+    m_Localized: 改装件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202098683904
+    m_Localized: 最小化时限制帧率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044032
+    m_Localized: 立即遣散顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044033
+    m_Localized: 立即呼叫治安部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044034
+    m_Localized: 立即呼叫下一位顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744927363072
+    m_Localized: 《深空当铺：可能是偷的》的测试已结束！感谢你体验本作。官方试玩版现已在Steam上线，为游戏的最新版本。你的存档会自动转移至试玩版。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744956723200
+    m_Localized: 前往试玩版
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014241841152
+    m_Localized: 禁用右键整理菜单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395584
+    m_Localized: 整理物品时启用自动旋转
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395585
+    m_Localized: 单击与物品交互
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395586
+    m_Localized: 单击激活物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395587
+    m_Localized: 按键绑定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395588
+    m_Localized: 顺时针旋转拿起的物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395589
+    m_Localized: 逆时针旋转拿起的物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395590
+    m_Localized: 翻转拿起的物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395591
+    m_Localized: 重置拿起的物品的朝向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395592
+    m_Localized: 将鼠标指向的物品移入垃圾桶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395593
+    m_Localized: 打开整理菜单（鼠标指向空格时）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395594
+    m_Localized: 快速移入物品栏（按住此键并点击）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395595
+    m_Localized: 快速移入展示柜（按住此键并点击）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395596
+    m_Localized: 快速移入储藏区（按住此键并点击）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395597
+    m_Localized: 固定模式（点击物品可固定或取消固定）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395598
+    m_Localized: 打开选项菜单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395599
+    m_Localized: 显示或隐藏操作提示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395600
+    m_Localized: 继续对话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395601
+    m_Localized: 工具箱槽位{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395602
+    m_Localized: 无
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395603
+    m_Localized: 请按下一个键……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395604
+    m_Localized: 请按下一个键，或按Esc取消。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395605
+    m_Localized: 无法绑定{0}，请按下其他按键。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395606
+    m_Localized: '{0}已用于{1}，请按下其他按键。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959590076416
+    m_Localized: 专精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436544
+    m_Localized: 初始拥有
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436545
+    m_Localized: 继续
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436546
+    m_Localized: 此专精无法游玩开场部分。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436547
+    m_Localized: 选择负面特性可获得点数，用来购买正面特性。部分特性无法同时选择。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436548
+    m_Localized: 可用特性点数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436549
+    m_Localized: 特性数量：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436550
+    m_Localized: 难度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436551
+    m_Localized: 漫天要价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436552
+    m_Localized: 轻松模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436553
+    m_Localized: 加价销售
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436554
+    m_Localized: 普通模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436555
+    m_Localized: 微薄利润
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436556
+    m_Localized: 困难模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436557
+    m_Localized: 赤字连连
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436558
+    m_Localized: 挑战模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436559
+    m_Localized: 出售商品时不享受零售加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436560
+    m_Localized: 出售商品时享受{0}%的零售加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436561
+    m_Localized: 租金每次上涨{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436562
+    m_Localized: 夜间服务费用为标准水平
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630848
+    m_Localized: 夜间服务费用较高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630849
+    m_Localized: 夜间服务费用较低
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630850
+    m_Localized: 经营许可证费用为{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630851
+    m_Localized: 升级价格为标准水平
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630852
+    m_Localized: 升级项目价格提高{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630853
+    m_Localized: 升级项目价格降低{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630854
+    m_Localized: 供货商加价幅度为标准水平
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630855
+    m_Localized: 供货商加价幅度较高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630856
+    m_Localized: 供货商加价幅度较低
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630857
+    m_Localized: 店铺购置价格为标准水平
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630858
+    m_Localized: 店铺购置价格较高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630859
+    m_Localized: 店铺购置价格较低
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630860
+    m_Localized: 声望获取量×{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630861
+    m_Localized: 声望损失量×{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630862
+    m_Localized: 王尔德恩惠获取量为标准水平
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630863
+    m_Localized: 王尔德恩惠获取量增加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630864
+    m_Localized: 王尔德恩惠获取量减少
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786102989209600
+    m_Localized: 后台音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764032
+    m_Localized: 自动打开议价界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764033
+    m_Localized: 单击确认物品选择
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171368485997035520
+    m_Localized: 选择
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182605126153584640
+    m_Localized: 界面设计
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709276405760
+    m_Localized: 在物品提示中显示模组名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709318348800
+    m_Localized: 在对话录音机中显示模组名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693632
+    m_Localized: 载入最新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693633
+    m_Localized: 取消
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693634
+    m_Localized: 删除存档
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693635
+    m_Localized: 未找到存档文件。该条目已移除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693636
+    m_Localized: 版本：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693637
+    m_Localized: '{0}（副本）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693638
+    m_Localized: 无法复制该存档。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693639
+    m_Localized: 存档文件夹中没有发现新的存档文件。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693640
+    m_Localized: 已将{0}个存档文件添加到列表。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693641
+    m_Localized: 每局保存天数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693642
+    m_Localized: 被特性锁定：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189602199839227904
+    m_Localized: 将报纸送入垃圾桶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189604507520122880
+    m_Localized: 你即将加载一个试玩版的存档。该存档可以兼容，但你将<color=#CC4849><b>错过新角色的故事和其他新内容</b></color>，而且游戏<color=#CC4849><b>可能不稳定</b></color>。我们<color=#CC4849><b>强烈建议开始新游戏</b></color>。仍要加载吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189909383209533440
+    m_Localized: 帧率上限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464770031616
+    m_Localized: 垂直同步
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464807780352
+    m_Localized: 呼叫下一位顾客（铃）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190649068024328192
+    m_Localized: Esc（备用按键）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611836174336
+    m_Localized: 本地化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505984
+    m_Localized: 总监兼项目经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505985
+    m_Localized: 社区经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505986
+    m_Localized: 团队吉祥物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505987
+    m_Localized: 发行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505988
+    m_Localized: 首席执行官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505989
+    m_Localized: 首席财务官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505990
+    m_Localized: 行政助理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505991
+    m_Localized: 商务拓展与合作授权总监
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505992
+    m_Localized: 销售总监
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505993
+    m_Localized: 发行负责人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505994
+    m_Localized: 执行制作人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505995
+    m_Localized: 制作人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505996
+    m_Localized: 助理制作人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505997
+    m_Localized: 高级市场经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505998
+    m_Localized: 市场经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505999
+    m_Localized: 达人营销负责人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506000
+    m_Localized: 高级达人营销经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506001
+    m_Localized: 高级社区经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506002
+    m_Localized: 社交媒体营销经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506003
+    m_Localized: 用户获取经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506004
+    m_Localized: 移植制作人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506005
+    m_Localized: 长线运营制作人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506006
+    m_Localized: 开发服务负责人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506007
+    m_Localized: 发布经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506008
+    m_Localized: 本地化经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506009
+    m_Localized: Discord社区经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506010
+    m_Localized: 客户支持经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506011
+    m_Localized: QA经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506012
+    m_Localized: 媒体制作负责人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506013
+    m_Localized: 媒体项目经理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506014
+    m_Localized: 预告片制作人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506015
+    m_Localized: 视频剪辑师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506016
+    m_Localized: 平面设计师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506017
+    m_Localized: 人力资源负责人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506018
+    m_Localized: 系统管理员 / DevOps工程师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506019
+    m_Localized: 禁用流行文化角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506020
+    m_Localized: 购买的物品移入库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506021
+    m_Localized: 对话气泡大小
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762898788352
+    m_Localized: '{0}的最新存档已损坏（写入时电脑关机），已被移至一旁。本局游戏将从第{1}天继续。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342784
+    m_Localized: '{0}的存档已损坏（写入时电脑关机），且没有更早的天数可用。其文件已被移至存档文件夹的一旁，并未删除。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342785
+    m_Localized: 此存档文件已损坏（写入时电脑关机），无法载入。它已被移至存档文件夹的一旁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342786
+    m_Localized: Alt-Tab切换后恢复显示模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342787
+    m_Localized: 物品菜单、取消（右键）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342788
+    m_Localized: 翻转物品（备用键）
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

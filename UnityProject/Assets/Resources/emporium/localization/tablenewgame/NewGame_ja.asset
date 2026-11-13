@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NewGame_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 04b1c9f333b54694fb416b49dfb741fd, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1489972805632
+    m_Localized: 見習い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1550517583872
+    m_Localized: 廃品商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1562228080640
+    m_Localized: 水商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1579307286528
+    m_Localized: 闇商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593098158080
+    m_Localized: 水耕農家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636114939904
+    m_Localized: 化学者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694201856000
+    m_Localized: 臓器商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713894113280
+    m_Localized: 薬剤師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1736983756800
+    m_Localized: 屋台料理人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1777781751808
+    m_Localized: 密造酒商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33510552027136
+    m_Localized: 開始時の専門分野を選んでください……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36113511923712
+    m_Localized: 師匠のもとで指導を受けている際、特に興味を惹かれる専門分野には出会えなかった。だがその分、効率的な経営方法を学んだため、店を開くのにかかる費用を抑えることができた。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36412188311552
+    m_Localized: 開始時のクレジットが増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38817957199872
+    m_Localized: 初めての方におすすめ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39721708077056
+    m_Localized: 日用品と食品の在庫がある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39719812251648
+    m_Localized: 備品追加（保管ケース）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41091349659648
+    m_Localized: 未完成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44792365760512
+    m_Localized: 師匠のもとで指導を受けている際、水の取引に興味を惹かれた。ステーションで清潔な水は貴重であり、蛇口を握れる者が利益を生み出せるのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69123699425280
+    m_Localized: 水の取引マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69167391490048
+    m_Localized: 水質検査と浄水の備品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69177692700672
+    m_Localized: 保管スペース追加（水入れ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70344103477248
+    m_Localized: 師匠に拾われる前は、漁り屋として貧しいが確かな評判を築いていた。指導を受けても過去を忘れることはなく、使っていたものを新しい仕事に再利用している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70401448001536
+    m_Localized: 漁り屋の装備と道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70434029355008
+    m_Localized: 開始時の評判が増加（漁り屋）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70436172644352
+    m_Localized: 備品追加（溶鉱炉）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72090364198912
+    m_Localized: 上級者向け
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72394300243968
+    m_Localized: 師匠のもとで指導を受けている際、禁制品に興味を惹かれた。それから闇取引の商人として地位を確立し、警察の目から逃れるために店内に隠し収納スペースまで設けている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73142996090880
+    m_Localized: 備品追加（密輸者のケース）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73278484692992
+    m_Localized: 禁制品の在庫がある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73328950558720
+    m_Localized: 開始時の評判が増加（闇市場）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73330057854976
+    m_Localized: 開始時の評判が減少（警察）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73331030933504
+    m_Localized: 清掃員のアングラ取引をすぐに利用可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73389046546432
+    m_Localized: 開始時の家賃が増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74131299942400
+    m_Localized: 師匠のもとで指導を受けている際、密造酒が好きになり、取引や鑑定の仕方だけでなく自分で酒を造る方法も身に付けた。密造酒は安価なため下層世界で人気があるが、規制されておらず違法でもある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74164715962368
+    m_Localized: 密造酒取引マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74261122039808
+    m_Localized: 密造酒醸造スターターキット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74542706638848
+    m_Localized: 師匠のもとで指導を受けている際、麻薬を見分ける嗅覚を身に付けた。それから違法で依存性が高い規制物質のエキスパートとなり、大きな利益を上げるようになった。供給が不足してしまっても、製造の心得もある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698969628672
+    m_Localized: 化学マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74729940369408
+    m_Localized: 化学実験の備品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75185236262912
+    m_Localized: 師匠のもとで指導を受けている際、臓器の取引に強い魅力を感じた。許可を得て倫理的に調達された臓器の取引は合法だが……生きている患者から取り出した違法な臓器の方が、利益が大きいのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75262713446400
+    m_Localized: 臓器売買マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75305663119360
+    m_Localized: 備品追加（臓器入れ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75308548800512
+    m_Localized: 輸血セット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75463129874432
+    m_Localized: 師匠のもとで指導を受けている際、市販薬に興味を惹かれた。薬局経営の基本、体調を崩した客への対応、薬の調合方法などを学んだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75501117685760
+    m_Localized: 薬取引マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75502254342144
+    m_Localized: 応急処置マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75503260975104
+    m_Localized: 医療用品の在庫がある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75997584867328
+    m_Localized: 師匠のもとで指導を受けている際、料理と屋台料理に情熱を抱くようになった。それから下層世界の多忙な住民のために手早くできるおいしい料理を準備する方法を身に付けた。屋台料理を売るのは生計を立てるうえで人気があり柔軟性も高く、正しい材料さえあればかなりの利益を上げられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76052249231360
+    m_Localized: 料理マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76054665150464
+    m_Localized: 備品追加（コンロ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76056204460032
+    m_Localized: 食材の在庫がある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76194914287616
+    m_Localized: 師匠のもとで指導を受けている際、水耕栽培についての知識を深めた。水耕栽培ならステーションの限られたスペースで効率的に作物を育てられるため、下層世界の住民に栄養を与えつつ、利益も生み出せるのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76197867077632
+    m_Localized: 水耕栽培マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76201893609472
+    m_Localized: 備品追加（水耕システム）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76203508416512
+    m_Localized: 農業用品と種の在庫がある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76509856186368
+    m_Localized: 開始時の家賃が増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229462627368960
+    m_Localized: 銃工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229510593429504
+    m_Localized: 師匠のもとで指導を受けている際、銃器や弾薬に対して不気味なほどのめり込み、手作りの拳銃から強力な機関銃まで、武器の改造方法を学んだ。ライセンスを取得したことで特注を受けられるようになり、ステーションの住民に武器を与えて安定した収入を得ている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230746092781568
+    m_Localized: 第1種武器の許可証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230752501678080
+    m_Localized: 銃器と改造パーツの在庫がある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230769882873856
+    m_Localized: 弾薬の在庫がある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99670006883467264
+    m_Localized: セーブデータ破損
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99065213836115968
+    m_Localized: どん底
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069229261438976
+    m_Localized: なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069202615025664
+    m_Localized: 大家との契約交渉以外、師匠は何もしてくれなかった。店と、生き残ろうという意志だけでやっていかねばならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069305866207232
+    m_Localized: 激ムズモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004236062720
+    m_Localized: ネズミ飼育者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108082834627674112
+    m_Localized: 師匠には嫌がられたが、動物の飼育に大きな情熱を注ぐようになった。具体的には、ネズミだ。食肉用ネズミの基礎を学んだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811456
+    m_Localized: 動物の檻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811457
+    m_Localized: ネズミ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811458
+    m_Localized: エサ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112700634117750784
+    m_Localized: "君は、広大な宇宙ステーションの下層世界で経営している店主だ。かつては貧しい漁り屋だったが、謎の人物である師匠に引き取られ、多額の融資を受けるとともに、店の経営の基礎を教わった。それでも師匠の目的は不明なままだ。\nこれから、大家から家賃の請求をされつづける。応じられなければ、退去させられてしまうだろう。利益を上げ、ローンを組み、店を買い取ってステーションに居場所を作ろう。\n何が何でも生き抜き、未来をつかむのだ。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915136
+    m_Localized: 水産業者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915137
+    m_Localized: 師匠のもとで指導を受けている際、魚を水槽で育てて肉を取れるようになった。小規模な循環式システムと初期の魚の在庫がある状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915138
+    m_Localized: 循環式養殖システム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915139
+    m_Localized: ティラピアと魚のエサがある状態で開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915140
+    m_Localized: 開始時の家賃が増加
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

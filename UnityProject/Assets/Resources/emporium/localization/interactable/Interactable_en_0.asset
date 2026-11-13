@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Interactable_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7540798a912f50741b83e3dc0e1e9ffb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 292150886400
+    m_Localized: Leave the Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 513538834432
+    m_Localized: It's too late to go anywhere now...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834927378432
+    m_Localized: You can't leave the Store until the day is over!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972131450880
+    m_Localized: You can't leave the Store during a crackdown!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1160036270080
+    m_Localized: You can't leave the Store while you have major wounds!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10070226944000
+    m_Localized: Open the Phone Interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10956307218432
+    m_Localized: Water Vending Machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10909502980096
+    m_Localized: Vending Machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55379932566306816
+    m_Localized: Customer Viewport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645691719680
+    m_Localized: You can't leave the store due to your agoraphobia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468416
+    m_Localized: Your agoraphobia keeps you in the Store! Rest here {0} more nights before going out again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468417
+    m_Localized: Your agoraphobia keeps you in the Store! You can go out again tomorrow.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

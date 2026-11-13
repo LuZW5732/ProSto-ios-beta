@@ -1,0 +1,6335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Mechanic_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 75fe73244cb2cec429f1af586063db8d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 193096479195136
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166656
+    m_Localized: Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166657
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166658
+    m_Localized: 'Diebstahlverhinderungsrate: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360960
+    m_Localized: Die mehrfache Übertragung an dieselbe Fraktion hat keinen zusätzlichen Effekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360961
+    m_Localized: 'Übertragung an: <b>Security</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360962
+    m_Localized: 'Übertragung an: <b>Schwarzmarkt</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360963
+    m_Localized: 'Übertragung an: <b>Oberdecks</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360964
+    m_Localized: 'Übertragung an: <b>Hauptquartier der Revolution</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360979
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360980
+    m_Localized: Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360981
+    m_Localized: Chipslot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360982
+    m_Localized: Eingabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360983
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360984
+    m_Localized: 'Desequenzierung läuft … (Fortschritt: {0}/{1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360985
+    m_Localized: 'Status: Desequenzierung läuft …'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360986
+    m_Localized: '(Fortschritt: {0}/{1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360987
+    m_Localized: 'Status: Bereit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360993
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360994
+    m_Localized: Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360995
+    m_Localized: Eingabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360996
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360997
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361015
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361016
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361017
+    m_Localized: Status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361018
+    m_Localized: Druckvorgang starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361019
+    m_Localized: Lager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361020
+    m_Localized: Kassette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361021
+    m_Localized: Bedienung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361022
+    m_Localized: Lautstärke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361023
+    m_Localized: '<'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361024
+    m_Localized: P
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361025
+    m_Localized: S
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361026
+    m_Localized: '>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361027
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361028
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361029
+    m_Localized: 50 %
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361030
+    m_Localized: '{0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361031
+    m_Localized: Energiezellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361032
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361033
+    m_Localized: 'Status: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361034
+    m_Localized: Bereit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361035
+    m_Localized: Lädt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361036
+    m_Localized: ({0}/{1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361037
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361038
+    m_Localized: Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361039
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361040
+    m_Localized: 'Attraktivität (aktiv): {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361041
+    m_Localized: 'Attraktivität (inaktiv): {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361064
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361065
+    m_Localized: Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361066
+    m_Localized: Wasserbehälter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361067
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361068
+    m_Localized: 'Ausgabevolumen: {0} ml {1}/Tag'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361069
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361070
+    m_Localized: Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361071
+    m_Localized: Wasserbehälter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361072
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361073
+    m_Localized: 'Entfernte Kontaminationsstoffe (über Nacht): {0} ml'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054720
+    m_Localized: Essen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054721
+    m_Localized: Medizin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054722
+    m_Localized: Material
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054723
+    m_Localized: Haushaltsware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054724
+    m_Localized: Substanz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054725
+    m_Localized: Waffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054726
+    m_Localized: Nicht für den Wiederverkauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054727
+    m_Localized: Materialkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054728
+    m_Localized: Werkzeug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054729
+    m_Localized: Medizinisches Gerät
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054730
+    m_Localized: Alle Typen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054731
+    m_Localized: Alle Typen außer Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054732
+    m_Localized: Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054733
+    m_Localized: Reglementiert I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054734
+    m_Localized: Reglementiert II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054735
+    m_Localized: Reglementiert III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054736
+    m_Localized: Behelfsmäßig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054737
+    m_Localized: Low-Tech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054738
+    m_Localized: Mittelklasse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054739
+    m_Localized: High-End
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054740
+    m_Localized: Selten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054741
+    m_Localized: Luxus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054742
+    m_Localized: Kunst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054743
+    m_Localized: Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054744
+    m_Localized: Wasserration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054745
+    m_Localized: Medizinzubehör
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054746
+    m_Localized: Farming-Zubehör
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054747
+    m_Localized: Chemisches Material
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054748
+    m_Localized: Frisches Essen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054749
+    m_Localized: Verarbeitetes Essen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054750
+    m_Localized: Leckerei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054751
+    m_Localized: Getränk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054752
+    m_Localized: Dokument
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054753
+    m_Localized: Zugangskarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054754
+    m_Localized: Saatgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054755
+    m_Localized: Basismaterial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054756
+    m_Localized: Verarbeitetes Material
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054757
+    m_Localized: Energiezelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054758
+    m_Localized: Droge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054759
+    m_Localized: Gift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054760
+    m_Localized: Lager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054761
+    m_Localized: Wasserreinigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054762
+    m_Localized: Sauerstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054763
+    m_Localized: Alkohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054764
+    m_Localized: Nahkampfwaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054765
+    m_Localized: Schusswaffe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054766
+    m_Localized: Modifizierbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054767
+    m_Localized: Munition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054768
+    m_Localized: Kampfausrüstung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054769
+    m_Localized: Waffenmod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054770
+    m_Localized: Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054771
+    m_Localized: Knoten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054772
+    m_Localized: Hydro-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054773
+    m_Localized: Alarm-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054774
+    m_Localized: Drucker-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054775
+    m_Localized: Verdampfer-Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054776
+    m_Localized: Gerät
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054777
+    m_Localized: Organ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054778
+    m_Localized: Panzerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054779
+    m_Localized: Filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054780
+    m_Localized: Lotterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915584
+    m_Localized: '[Gestohlen ({0} % Risiko)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915585
+    m_Localized: Minderwertige Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915586
+    m_Localized: Gewöhnliche Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915587
+    m_Localized: Hochwertige Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915588
+    m_Localized: Kritische Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915589
+    m_Localized: (Deaktiviert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915590
+    m_Localized: '[Gesperrt – Gerät arbeitet] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915591
+    m_Localized: '[Gesperrt]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915597
+    m_Localized: 'Geschätzter Wert: {0}, Basiswert: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915598
+    m_Localized: 'Kaufpreis: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915599
+    m_Localized: ' Zum Einlösen doppelklicken'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915600
+    m_Localized: Stromservice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915601
+    m_Localized: Hausmeisterservice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915602
+    m_Localized: Versicherungsservice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915603
+    m_Localized: Kartellschutz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915604
+    m_Localized: Warnung vor Inspektion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915605
+    m_Localized: Käuferkontakt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915606
+    m_Localized: Verkäuferkontakt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915607
+    m_Localized: 'Käuferkontakt: Schmuggelware'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915608
+    m_Localized: Wilds Fixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915609
+    m_Localized: Miete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915610
+    m_Localized: Zahlung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915611
+    m_Localized: '{0} heute fällig'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915612
+    m_Localized: '{0} morgen fällig'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915613
+    m_Localized: '{0} in {1} Tagen fällig'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915614
+    m_Localized: Tag {0}, {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915615
+    m_Localized: Sonntag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915616
+    m_Localized: Montag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915617
+    m_Localized: Dienstag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915618
+    m_Localized: Mittwoch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915619
+    m_Localized: Donnerstag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915620
+    m_Localized: Freitag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915621
+    m_Localized: Samstag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915622
+    m_Localized: Neutral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915623
+    m_Localized: Bekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915624
+    m_Localized: Etabliert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915625
+    m_Localized: Anerkannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109888
+    m_Localized: Verlässlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109889
+    m_Localized: Empfohlen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109890
+    m_Localized: Vertrauenswürdig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109891
+    m_Localized: Hochgeschätzt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109892
+    m_Localized: Berühmt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109893
+    m_Localized: Namhaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109894
+    m_Localized: Legendär
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109895
+    m_Localized: Unbeständig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109896
+    m_Localized: Unbeliebt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109897
+    m_Localized: Unzuverlässig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109898
+    m_Localized: Zwielichtig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109899
+    m_Localized: Dubios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109900
+    m_Localized: Fragwürdig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109901
+    m_Localized: Berüchtigt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109902
+    m_Localized: Verrufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109903
+    m_Localized: Gemieden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109904
+    m_Localized: Boykottiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109905
+    m_Localized: Auf der schwarzen Liste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109906
+    m_Localized: Ladenattraktivität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109907
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109908
+    m_Localized: Tag {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818283970560
+    m_Localized: heute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359168
+    m_Localized: morgen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359169
+    m_Localized: in {0} Tagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359170
+    m_Localized: Der Kredithai kommt {1}, um eine Rate von {0} Credits einzutreiben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359171
+    m_Localized: Der Vermieter kommt {1}, um {0} Credits Miete abzuholen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359172
+    m_Localized: Der Vermieter kommt {2}, um {0} + {1} Credits Miete abzuholen (inkl. Nachzahlung für vergangene Woche).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359173
+    m_Localized: Die Immobilie ist momentan {0} Credits wert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359202
+    m_Localized: '{0} Credits'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359203
+    m_Localized: '{0} (Abklingzeit aktiv: {1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359210
+    m_Localized: '{0} auf Vorrat'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141968977920
+    m_Localized: Kann mit einer Lupe untersucht werden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560832
+    m_Localized: Zum Öffnen doppelklicken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560833
+    m_Localized: 'Moduleffekt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560834
+    m_Localized: Leistung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560835
+    m_Localized: Effizienz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560836
+    m_Localized: Qualität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560837
+    m_Localized: ' [Steckt fest. Benötigt einen Modulextraktor.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560838
+    m_Localized: Basis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560839
+    m_Localized: Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560840
+    m_Localized: Dieses Modul hat um {0} % höhere Basiswerte, kostet aber deutlich mehr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560841
+    m_Localized: Minderwertig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560842
+    m_Localized: Dieses Modul hat um {0} % niedrigere Basiswerte, kostet aber deutlich weniger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560843
+    m_Localized: Empfänger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560844
+    m_Localized: Dieses Modul erhält für jeden benachbarten [Knoten] einen temporären Bonus von {0} % auf seine Werte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560845
+    m_Localized: Oben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560846
+    m_Localized: Dieses Modul erhält einen temporären Bonus von {0} % auf seine Werte, wenn mindestens eine seiner Seiten den OBEREN Rand des Modulschachts berührt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560847
+    m_Localized: Seitlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560848
+    m_Localized: Dieses Modul erhält einen temporären Bonus von {0} % auf seine Werte, wenn mindestens eine seiner Seiten den LINKEN Rand des Modulschachts berührt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560849
+    m_Localized: Überladen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560850
+    m_Localized: Dieses Modul hat um {0} % höhere Basiswerte, es besteht aber eine Gefahr von {1} %, dass es durch die Verwendung dauerhaft beschädigt wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560851
+    m_Localized: Verschleiß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560852
+    m_Localized: Dieses Modul startet mit den doppelten Basiswerten, verliert aber bei jeder Verwendung {0} positive Prozentpunkte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560853
+    m_Localized: Lernender Algorithmus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560854
+    m_Localized: Dieses Modul startet ohne positive Werte, erhält aber bei jeder Verwendung {0} positive Basis auf einen Wert (bis zu einem Maximum).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560855
+    m_Localized: Negatives Feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560856
+    m_Localized: Dieses Modul hat um {0} % höhere positive Basiswerte, erhält aber {1} % der negativen Basiswerte von benachbarten Modulen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560857
+    m_Localized: Unterstützungsknoten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560858
+    m_Localized: Dieses Modul enthält {0} % der Basiswerte von allen benachbarten [Modulen] als temporären Bonus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560859
+    m_Localized: Verhältnis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560860
+    m_Localized: 'Effekt aus Modulen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560861
+    m_Localized: 'Benötigte Energie: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560862
+    m_Localized: '{0}/Tag'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560863
+    m_Localized: ' (Basis {0}/Tag)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560864
+    m_Localized: 'Fortschrittsgeschwindigkeit: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560865
+    m_Localized: 'Interner Akkumulator:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560866
+    m_Localized: Ladevorgang pausiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560867
+    m_Localized: Bereit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560868
+    m_Localized: Nicht genügend Energie zum Laden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560869
+    m_Localized: Lädt …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560870
+    m_Localized: 'Fortschritt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560871
+    m_Localized: Niedrigenergie-Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808787431424
+    m_Localized: Deine Wunden sind stabilisiert und heilen langsam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014336
+    m_Localized: Deine Wunden sind vollständig verheilt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014337
+    m_Localized: Deine Wunden heilen; du kannst dich wieder bewegen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014338
+    m_Localized: Deine kleinen Wunden heilen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014339
+    m_Localized: Deine unbehandelte Wunde hat sich verschlimmert; du kannst dich nicht mehr bewegen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014340
+    m_Localized: Deine unbehandelten großen Wunden haben sich verschlimmert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014341
+    m_Localized: Deine unbehandelten kleinen Wunden haben sich verschlimmert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208640
+    m_Localized: Du hast dir beim Recyceln eine kleine Wunde zugezogen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208641
+    m_Localized: Du hast dir beim Recyceln eine große Wunde zugezogen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208642
+    m_Localized: Du hast deine Nikotinsucht überwunden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208643
+    m_Localized: Du hast deine Alkoholsucht überwunden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208644
+    m_Localized: Du hast deine Drogensucht überwunden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208645
+    m_Localized: Du leidest wegen deiner Nikotinsucht an Entzugserscheinungen und wirst beim Verhandeln mit einem Nachteil belegt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208646
+    m_Localized: Du leidest wegen deiner Alkoholsucht an Entzugserscheinungen und wirst beim Verhandeln mit einem Nachteil belegt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208647
+    m_Localized: Du leidest wegen deiner Drogensucht an Entzugserscheinungen und wirst beim Verhandeln mit einem Nachteil belegt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208648
+    m_Localized: Alle Entzugserscheinungen sind abgeklungen. Vorerst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208649
+    m_Localized: Dein gesamter Körper fühlt sich an, als würde er gegen dich kämpfen. Dein Zustand verschlechtert sich rapide.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208650
+    m_Localized: Du hast Mühe zu atmen. Deine Muskeln verkrampfen sich. Dein Zustand verschlechtert sich rapide.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208651
+    m_Localized: Du fühlst dich fieberhaft und schwach. Dein Zustand verschlechtert sich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208652
+    m_Localized: Du fühlst dich nicht ganz auf der Höhe. Du brauchst bald eine Immunivax-Injektion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208653
+    m_Localized: Dein Sentinel-Kollaps-Syndrom befindet sich fast im Endstadium; du darfst keine Injektion auslassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208654
+    m_Localized: Dein Sentinel-Kollaps-Syndrom befindet sich im fortgeschrittenen Stadium; du solltest keine Injektionen auslassen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208655
+    m_Localized: ' Du fühlst dich schon viel besser.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208656
+    m_Localized: ' Du fühlst dich schon besser.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208657
+    m_Localized: ' Du fühlst dich schon ein wenig besser.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208658
+    m_Localized: ' Du spürst keinen großen Unterschied.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208659
+    m_Localized: Du hast die Injektion kaum gespürt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208660
+    m_Localized: Die Injektion hat nur ein bisschen wehgetan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208661
+    m_Localized: Die Injektion hat ganz schön wehgetan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208662
+    m_Localized: Deine {0} wurde geheilt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208663
+    m_Localized: ' und '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208664
+    m_Localized: ', '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208665
+    m_Localized: Keine Verbrechen vermerkt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208666
+    m_Localized: Nicht zutreffend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208667
+    m_Localized: Keine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208668
+    m_Localized: Schmuggel (Waffen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208669
+    m_Localized: Schmuggel (Drogen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208670
+    m_Localized: Schmuggel (Reglementierte Zugangskarten)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208671
+    m_Localized: Schmuggel (Allgemeine Schmuggelware)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208672
+    m_Localized: Bestechung von Security-Personal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208673
+    m_Localized: Arglistige Täuschung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208674
+    m_Localized: Verbrauchergefährdung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208675
+    m_Localized: Besitz von Diebesgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208676
+    m_Localized: Fehlende Lizenz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208677
+    m_Localized: Sonstiges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208678
+    m_Localized: Geldstrafe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208679
+    m_Localized: Haftstrafe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208680
+    m_Localized: Hinrichtung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208681
+    m_Localized: Nur vertrauenswürdiger Inspektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208682
+    m_Localized: Zusätzliche Inspektion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208683
+    m_Localized: Verdeckte Ermittlung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208684
+    m_Localized: Ermittlung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208685
+    m_Localized: Strafvollstreckung geplant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208686
+    m_Localized: Strafe vollstrecken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208687
+    m_Localized: Kadett Jeff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208688
+    m_Localized: Officer Valentine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208689
+    m_Localized: Detective Huang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208690
+    m_Localized: Inspector Page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208691
+    m_Localized: Chief Inspector Carlson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208692
+    m_Localized: "\nGeschätzter Gesamtwert ({0}<sprite name=\"c\" tint=1 >)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208693
+    m_Localized: Die Ermittlungen der Security gegen dein Unternehmen werden beschleunigt, weil du mehr Verbrechen begehst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208694
+    m_Localized: Die Ermittlungen der Security gegen dein Unternehmen werden deutlich beschleunigt, weil du sehr viel mehr Verbrechen begehst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208695
+    m_Localized: '(<b>Nicht im Besitz</b>) '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208696
+    m_Localized: Du hast beim Recyceln etwas gefunden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208697
+    m_Localized: Kann mit Elektronikteilen verbessert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208698
+    m_Localized: 'Doppelte Beutechance: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830324310016
+    m_Localized: In der Unterweltbörse gibt es neue Sonderangebote.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892928
+    m_Localized: Wild hat dir einen Kontakt vermittelt. Ein Käufer kommt morgen in den Laden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892929
+    m_Localized: Wild hat dir einen Kontakt vermittelt. Ein Verkäufer kommt morgen in den Laden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892930
+    m_Localized: Wild hat dir einen Kontakt vermittelt. Ein Käufer für teure Schmuggelware kommt morgen in den Laden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892931
+    m_Localized: Dein Security-Informant hat dich informiert, dass dein Laden in 2 Tagen inspiziert wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892932
+    m_Localized: Dein Security-Informant hat dich informiert, dass dein Laden morgen inspiziert wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892933
+    m_Localized: Dein Security-Informant hat dich informiert, dass eine Inspektion unmittelbar bevorsteht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892934
+    m_Localized: Einer deiner Kontakte hat dich informiert, dass gestern jemand im Laden war, der von der Security gesucht wird – {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892935
+    m_Localized: Du bist gut bei Kasse und solltest überlegen, dein Geld in Verbesserungen oder einen Ausbau deines Kontaktnetzwerks zu investieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892936
+    m_Localized: Weil du mit viel Schmuggelware handelst, führt die Security möglicherweise verdeckte Ermittlungen gegen dich durch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892937
+    m_Localized: Eine aktive Ermittlung der Security gegen dich ist fast abgeschlossen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892938
+    m_Localized: Du öffnest den Laden etwas zu spät, weil du gestern Abend zu lange wach warst. Dir ist ein Kunde entgangen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892939
+    m_Localized: Wilds Fixer ist heute losgezogen, um Zeugen zum Schweigen zu bringen und Beweise zu vernichten. Dein Verdächtigkeitslevel hat sich verringert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892940
+    m_Localized: Die Ladenfassade wurde gestern Nacht nicht gereinigt. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892941
+    m_Localized: Die Ladenfassade wurde gereinigt und der Müll wurde abgeholt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892942
+    m_Localized: Der Hausmeisterservice hat die Spuren der jüngsten Vandalismusexzesse beseitigt. Die Kunden sollten sich jetzt wieder sicher fühlen, wenn sie den Laden besuchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892943
+    m_Localized: Aber es gab sowieso nichts aufzuräumen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892944
+    m_Localized: Vor dem Laden liegen Müllsäcke, das könnte manche Kunden abschrecken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892945
+    m_Localized: Es liegen so viel Müll und Unrat vor dem Laden herum, dass ganz bestimmt potenzielle Kunden abgeschreckt werden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087232
+    m_Localized: Was für ein Chaos! Es liegen so viel Müll und Unrat herum, dass die Kunden gar nicht mehr zum Laden gelangen können, selbst wenn sie wollten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087233
+    m_Localized: Der Strom wurde abgeschaltet, weil du die Rechnung nicht bezahlt hast. Deine schwache Notbeleuchtung schaltet sich ein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087234
+    m_Localized: Die Stromrechnung ist beglichen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087235
+    m_Localized: Das Kartell schützt den Laden. Kein Dieb würde es wagen, ihn auszurauben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087236
+    m_Localized: Du hast momentan keinen Versicherungsschutz. Du warst zuletzt vor {0} Tagen versichert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087237
+    m_Localized: Die Versicherung wurde bezahlt, dein Laden ist geschützt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087238
+    m_Localized: Es gab einen Einbruch! Zum Glück wurde der Alarm ausgelöst und der Dieb musste mit leeren Händen wieder abziehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087239
+    m_Localized: Heute Nacht wurde eingebrochen! Wie kann das bitte sein?! Der Alarm hat nicht funktioniert! {0} wurde gestohlen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087240
+    m_Localized: Du wurdest ausgeraubt! {0} wurde gestohlen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087241
+    m_Localized: Es gab einen Einbruch. {0} wurde gestohlen, aber Joe Wilds Männer haben den Dieb gefunden und die gestohlene Ware am Morgen zurückgebracht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087242
+    m_Localized: Dein Laden wurde von wütenden Unterdeck-Kunden verwüstet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087243
+    m_Localized: Dein Laden wurde von Sympathisanten der Security verwüstet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087244
+    m_Localized: Dein Laden wurde von angeheuerten Schlägern deiner Oberdeck-Kunden verwüstet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087245
+    m_Localized: Dein Laden wurde von Sympathisanten der Revolution verwüstet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087246
+    m_Localized: Dein Laden wurde vom Kartell verwüstet – als Warnung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087247
+    m_Localized: Dein Laden wurde von wütenden Kunden verwüstet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087248
+    m_Localized: Dein Laden wurde verwüstet! Die Aufräumkosten werden deutlich höher sein, außerdem besteht eine geringere Chance auf Kundschaft.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087249
+    m_Localized: Aufgrund deines Ansehens hat eine Fraktion dir das Datum einer bevorstehenden Aktion mitgeteilt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087250
+    m_Localized: Deine Kontaktperson ({0}) ist jetzt bereit, eine neue Bestellung aufzunehmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087251
+    m_Localized: Es gibt einen Stromausfall, aber dank der gehackten Stromleitung hast du noch Saft!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087252
+    m_Localized: Es gibt einen Stromausfall. Du hast keinen Saft mehr! Deine schwache Notbeleuchtung schaltet sich ein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087255
+    m_Localized: '<i>Dein Ansehen hat sich bei der Security verbessert.</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087258
+    m_Localized: '<i>Dein Ansehen hat sich bei der Security leicht verbessert.</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087264
+    m_Localized: '<i>Dein Ansehen hat sich bei der Security verschlechtert.</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087265
+    m_Localized: Energiestatus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087266
+    m_Localized: ' - Energie: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087267
+    m_Localized: Selbstaufladend ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087268
+    m_Localized: 'Der Marktpreis von {0} hat sich verändert. Grund: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840624394240
+    m_Localized: Miete fällig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171502
+    m_Localized: Haushaltshilfe verteilt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171503
+    m_Localized: Haushaltswaren für Bedürftige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171504
+    m_Localized: Eine Wohltätigkeitsorganisation auf den Oberdecks hat eine großzügige Spende essenzieller Haushaltswaren an die Bewohner des Unterdecks verteilt. Manche sind zwar skeptisch, welches Motiv dahinterstecken könnte, aber die Spende sollte auf jeden Fall die Lebensbedingungen verbessern und die wachsende Unzufriedenheit eindämmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365762
+    m_Localized: Einbruch in den Asservatenschrank!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365763
+    m_Localized: Ein dreister Einbruch in den Asservatenschrank der Station hat die Security in helle Aufregung versetzt. Berichten zufolge ist nicht nur eine Kiste mit beschlagnahmter Schmugglerware verschwunden, es fehlen auch wichtige Beweise zu einer aktiven Ermittlung. Die Security hat die Bewohner der Unterdecks aufgefordert, nach verdächtigen Waren Ausschau zu halten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365764
+    m_Localized: Auf den Unterdecks nichts Neues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365765
+    m_Localized: Auf den Unterdecks war es heute ungewöhnlich ruhig, es gibt nichts Neues zu berichten. Die Märkte sind stabil und die Bewohner gehen ihrem Alltag nach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365766
+    m_Localized: Routinewartung am Stromnetz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365767
+    m_Localized: Auf den Oberdecks wird es vorübergehend zu einem Stromausfall kommen, da geplante Wartungsarbeiten am Stromnetz anstehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365768
+    m_Localized: Nutrifrucht für alle!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365769
+    m_Localized: Ein Team von Wartungstechnikern von den Unterdecks hat ein günstiges Hydrokultursystem entwickelt, das zuverlässig in kleinen Mengen Nutrifrüchte produziert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365770
+    m_Localized: Wie viel Fleisch ist in PEAT wirklich enthalten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365771
+    m_Localized: PEAT gerät in die Kritik! Das verarbeitete Dosenfleisch, das auf den Unterdecks in nahezu jeder Küche zu finden ist, wurde von unabhängigen Forschern unter die Lupe genommen. Sie werfen die Frage auf, wie viel Fleisch sich tatsächlich in dem Produkt befindet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365772
+    m_Localized: Recyclingkampagne beginnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365773
+    m_Localized: Eine kleine Kampagne, um mehr Bewusstsein für Recycling zu schaffen, soll auf den Mitteldecks für eine bessere Abfallkultur sorgen. Experten gehen davon aus, dass die Kampagne nur sehr wenig praktischen Nutzen zeigen wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365774
+    m_Localized: Ausstellung hiesiger Künstler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365775
+    m_Localized: Auf den Unterdecks findet eine Ausstellung hiesiger Künstler statt. Die Bewohner können Kunstwerke aus recycelten Stationsmaterialien betrachten und kaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365776
+    m_Localized: Kurzer Streik der Wartungscrew beendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365777
+    m_Localized: Ein kurzer Streik der Wartungscrews wurde beendet, ohne dass größere Störungen oder Schäden gemeldet wurden. Der normale Betrieb wurde wieder aufgenommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365778
+    m_Localized: Ein Blick in die Zukunft!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365779
+    m_Localized: Auf den Oberdecks wurde eine Technologiemesse organisiert, die die neuesten Innovationen von Start-ups und Techunternehmen zeigt. Die meisten der ausgestellten Produkte sind im Hochpreissegment angesiedelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365780
+    m_Localized: Neue Verkehrslinie auf den Mitteldecks eröffnet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365781
+    m_Localized: Auf den Mitteldecks wurde eine neue Verkehrslinie eröffnet. Sie verbindet mehrere Wohnviertel mit einem Geschäftszentrum. Die verbesserte Konnektivität soll Bewohnern der Mitteldecks das Pendeln geringfügig erleichtern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365782
+    m_Localized: Wasserbrunnen zur Verschönerung enthüllt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365783
+    m_Localized: Auf den Oberdecks wurde ein neuer Wasserbrunnen enthüllt. Der Brunnen ist Teil der Bemühungen, die Oberdecks hübscher zu gestalten. Die Security weist darauf hin, dass jeder, der aus dem Brunnen trinkt, verhaftet und bestraft wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365784
+    m_Localized: Gemeinschaftsgarten auf den Unterdecks erweitert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365785
+    m_Localized: Die Bewohner der Unterdecks haben ihren Gemeinschaftsgarten für den Gemüseanbau um einige neue Parzellen erweitert. Die Vergrößerung des Gartens wird sich voraussichtlich nicht auf die Lebensmittelpreise auswirken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365786
+    m_Localized: Kunstwettbewerb auf den Mitteldecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365787
+    m_Localized: In einem Gemeindezentrum auf den Mitteldecks findet ein Kunstwettbewerb statt, bei dem die Bewohner eingeladen sind, ihre Werke einzureichen. Die besten Werke werden eine Woche lang öffentlich ausgestellt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365788
+    m_Localized: Kulturfeier auf den Oberdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365789
+    m_Localized: Ein Kulturverband auf den Oberdecks organisiert eine kleine Feier mit traditionellen Darbietungen, Musik und Essen. Das Event wird zum Großteil von Bewohnern der Oberdecks besucht und sich nicht groß auf die Märkte auswirken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365790
+    m_Localized: Spacewalk-Übung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365791
+    m_Localized: Eine routinemäßige Spacewalk-Übung für die Techniker der Station wurde ohne Zwischenfälle abgeschlossen. Ein Mann von den Unterdecks befindet sich Berichten zufolge wegen akuten Schocks in Behandlung, weil er einen Spacewalker für ein Alien gehalten ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365792
+    m_Localized: Nutrifrucht-Rekordernte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365793
+    m_Localized: Nutrifrucht-Ernte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365794
+    m_Localized: Eine große Farm auf den Mitteldecks holt ihre Nutrifrucht-Ernte ein. Die Preise für Lebensmittel werden eine Weile lang etwas niedriger sein, und es wird ein großes Angebot an frischen Nutrifrüchten geben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365795
+    m_Localized: Schlechte Nutrifrucht-Ernte sorgt für Verzweiflung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365796
+    m_Localized: Schlechte Nutrifrucht-Ernte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365797
+    m_Localized: Eine Nutrifrucht-Farm auf den Unterdecks hat eine miserable Ernte eingefahren. Viele Pflanzen sind wegen mangelnder Ressourcen und schlechter Wartung eingegangen. Es ist kurzzeitig mit höheren Lebensmittelpreisen und einem Mangel an frischen Erzeugnissen zu rechnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365798
+    m_Localized: Nutrifrucht-Saatgut gestohlen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365799
+    m_Localized: Knappheit von Nutrifrucht-Saatgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365800
+    m_Localized: Dreiste Diebe haben über Nacht Nutrifrucht-Saatgut aus dem Lager einer Hydro-Farm gestohlen. Die Preise für Lebensmittel und Saatgut werden auf der gesamten Station stark ansteigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365801
+    m_Localized: Gefälschtes Medizinzubehör entdeckt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365802
+    m_Localized: Mangel an Medizinzubehör
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365803
+    m_Localized: Eine große Menge gefälschter medizinischer Güter wurde in verschiedenen Arztpraxen und Krankenhäusern entdeckt. Die Nachfrage nach echtem Medizinzubehör wird wohl sprunghaft ansteigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365804
+    m_Localized: Defekt in Aufbereitungsanlage gefährdet Wasserversorgung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365805
+    m_Localized: Wasserkrise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365806
+    m_Localized: Eine defekte Pumpe in der zentralen Wasseraufbereitungsanlage sorgt für eine dramatische Unterbrechung der Wasserversorgung. Die Security bittet die Bevölkerung, ruhig zu bleiben. Marktexperten gehen davon aus, dass die Preise für Wasser und Wasserreinigungszubehör in den nächsten Tagen in die Höhe schnellen werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365807
+    m_Localized: Routinewartung an der Wasseraufbereitungsanlage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365808
+    m_Localized: Vorübergehende Wasserknappheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365809
+    m_Localized: Die Routinewartung der zentralen Wasseraufbereitungsanlage wird laut Security wie geplant begonnen. Es ist nur mit geringen Störungen bei der Wasserversorgung zu rechnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365810
+    m_Localized: Eishauer kehren von Asteroiden zurück!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365811
+    m_Localized: Wasserüberschuss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365812
+    m_Localized: Eins unserer mutigen Eishauerteams ist von einer erfolgreichen Expedition zum eisreichen Asteroiden „Beira 41-A" zurückgekehrt. Die Rückkehr der Eishauer wird zu einem größeren Angebot an Qualitätswasser und daher zu einem Preisabfall führen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365813
+    m_Localized: Wütender Mob nimmt Gerechtigkeit selbst in die Hand!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365814
+    m_Localized: Lynchjustiz auf den Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365815
+    m_Localized: Bürger auf den Unterdecks sind so verärgert über einen unehrlichen Ladenbesitzer, dass sie Lynchjustiz verüben wollen. Die Security mahnt zur Vernunft.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365816
+    m_Localized: Verstecktes Lager ausgegraben!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365817
+    m_Localized: Vorrat an Haushaltswaren entdeckt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365818
+    m_Localized: Eine Gruppe von Recyclern auf den Unterdecks hat einen verborgenen Raum voller Haushaltsgegenstände entdeckt. Der Markt wird heute mit Waren überschwemmt, was vermutlich zu niedrigeren Preisen führen wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365819
+    m_Localized: Schürfexpedition kehrt zurück
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365820
+    m_Localized: Überschuss an Material
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365821
+    m_Localized: Eine Gruppe von Bergarbeitern ist von einer Expedition zu einem mineralienreichen Asteroiden zurückgekehrt. Es wird für eine Weile mit niedrigeren Materialpreisen gerechnet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365822
+    m_Localized: Bauprojekte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365823
+    m_Localized: Auf den Unterdecks sprießen verschiedene neue Bauprojekte aus dem Boden. Baumaterialien und qualifizierte Arbeiter werden schwieriger zu bekommen sein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365824
+    m_Localized: Meteorstrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365825
+    m_Localized: Ein Meteorstrom hat gestern die Station getroffen und in mehreren Sektoren für Schäden und Lecks gesorgt. Da die Unterdecks über keine Rumpfverstärkung verfügen, wurden sie am stärksten in Mitleidenschaft gezogen. Preise für Materialien werden wohl steigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365826
+    m_Localized: Wenig Strom auf den Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365827
+    m_Localized: Stromausfall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365828
+    m_Localized: Ein defekter Stromgenerator hat für einen Stromausfall auf den Unterdecks gesorgt. Bis die Reparaturen abgeschlossen sind, ist mit einem Mangel an Energiezellen zu rechnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365829
+    m_Localized: Routinewartung am Kraftwerk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365830
+    m_Localized: Wartungsarbeiten am Kraftwerk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365831
+    m_Localized: An einem der wichtigsten Kraftwerke auf den Unterdecks haben routinemäßigen Wartungsarbeiten begonnen. Die Bewohner müssen während der Arbeiten mit kleineren Störungen in der Stromversorgung rechnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365832
+    m_Localized: Wer hat das Licht ausgeschaltet?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365833
+    m_Localized: Ein katastrophaler Ausfall des zentralen Stromnetzes hat die gesamte Station in Dunkelheit getaucht. Es ist mit einem gigantischen Run auf Energiezellen und ähnliche Produkte zu rechnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365834
+    m_Localized: Wo geht es hier zum Pool?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365835
+    m_Localized: Touristenstrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365836
+    m_Localized: Ein Kreuzfahrtschiff hat an den Oberdecks angelegt. Scharen von Touristen sind auf die Station geströmt. Man geht davon aus, dass einige besonders neugierige Besucher sich sogar auf die Unterdecks wagen werden. Die Security bittet die Bürger, respektvoll zu bleiben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365837
+    m_Localized: OxyMore-Sucht ein immer größeres Problem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365838
+    m_Localized: Auf der gesamten Station ist ein starker Anstieg des OxyMore-Konsums zu beobachten. Die Krankenhäuser melden immer mehr Suchtkranke und -tote. Die Nachfrage nach Medizinzubehör und Behandlungen wird ansteigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365839
+    m_Localized: (Gefälscht)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365857
+    m_Localized: Premiumwasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365858
+    m_Localized: Qualitätswasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365859
+    m_Localized: Basiswasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365860
+    m_Localized: Geisterwasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365861
+    m_Localized: Dreckwasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365867
+    m_Localized: Gefälscht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365868
+    m_Localized: Original
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365881
+    m_Localized: Straßenstandard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365890
+    m_Localized: Wasserreinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365892
+    m_Localized: Zigaretten-Authentizität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365893
+    m_Localized: Lebensmittelmarken-Authentizität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365894
+    m_Localized: Immunivax-Authentizität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365899
+    m_Localized: Verkaufsaufschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365902
+    m_Localized: Neuroaktiv-Parfüm-Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365903
+    m_Localized: Pheromonparfüm-Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365909
+    m_Localized: Rabatt (Gute Inspektion)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365923
+    m_Localized: Rabatt (Neukunde)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528109809664
+    m_Localized: '[Etikett]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586880
+    m_Localized: Die Zigaretten sind gefälscht!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586881
+    m_Localized: Es stimmt etwas nicht mit {0}. Sehen Sie?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586882
+    m_Localized: der Beschriftung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586883
+    m_Localized: der Farbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586884
+    m_Localized: dem Siegel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586885
+    m_Localized: dem Logo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586886
+    m_Localized: der Schachtel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586887
+    m_Localized: Ah, ja. Jetzt sehe ich es.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586888
+    m_Localized: Ich gehe mit dem Preis runter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586889
+    m_Localized: Nein, da stimmt doch alles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586891
+    m_Localized: Ach, das wusste Georgio nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586892
+    m_Localized: Georgio geht mit dem Preis runter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586893
+    m_Localized: Mit den Zigaretten stimmt überhaupt nichts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586894
+    m_Localized: Okay, okay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586895
+    m_Localized: Die sind echt, wirklich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586896
+    m_Localized: Wirklich? Hey, danke!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586897
+    m_Localized: Quatsch. Ich habe das selbst überprüft.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586899
+    m_Localized: Lebensmittelmarke ({0} Credits)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586900
+    m_Localized: dem Wert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586901
+    m_Localized: dem Chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586903
+    m_Localized: Ehrlich? Das wusste ich nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586904
+    m_Localized: Ich gehe mit dem Preis runter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586906
+    m_Localized: Immunivax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586907
+    m_Localized: der Anzeige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586908
+    m_Localized: dem Etikett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586909
+    m_Localized: der Seriennummer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586910
+    m_Localized: dem Behälter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083968
+    m_Localized: '{0} CREDITS'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083969
+    m_Localized: 'Haltbarkeit: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083972
+    m_Localized: 'Wasserverwendung: {0} ml/Tag'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083974
+    m_Localized: '[MIT ETIKETT]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083975
+    m_Localized: '[GETESTET]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083985
+    m_Localized: Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254276825088
+    m_Localized: Du hast deine Miete nicht bezahlt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796608
+    m_Localized: Da du versäumt hast, die Miete zu bezahlen, wurde dein Laden zwangsgeräumt. Du stehst nun ohne Kunden, Kontakte und auch ohne deinen Mentor da und bist gezwungen, dein altes Leben als Recycler wiederaufzunehmen. Bald wird dein Laden neu vermietet, und du findest dich diesmal auf der anderen Seite des Tresens wieder, wo du um ein paar mickrige Credits mehr feilschst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796632
+    m_Localized: Wähle einen Rucksack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796633
+    m_Localized: Ohne Rucksack rausgehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796634
+    m_Localized: 'Rucksack wählen: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796635
+    m_Localized: 'Klicke erneut und '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796636
+    m_Localized: bestätige damit die
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796637
+    m_Localized: ' Aktivierung von: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796638
+    m_Localized: 'Aktivierung nicht möglich: {0}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796639
+    m_Localized: Auf dem Boden liegende Gegenstände werden zurückgelassen und gehen verloren. Willst du wirklich gehen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796640
+    m_Localized: Dr. Jackson schickt seinen Assistenten, um alles einzusammeln, was du auf dem Boden zurückgelassen hast. Willst du wirklich gehen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796641
+    m_Localized: Gehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796642
+    m_Localized: Abbrechen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796643
+    m_Localized: 'Verbleibende Versuche: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796644
+    m_Localized: 'Verbleibende Versuche: Im verwundeten Zustand kannst du nicht recyceln!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796645
+    m_Localized: 'Chance auf kleine Wunde: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796646
+    m_Localized: 'Chance auf große Wunde: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109824
+    m_Localized: Öffnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109825
+    m_Localized: Untersuchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109826
+    m_Localized: Verwenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109827
+    m_Localized: Lesen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109828
+    m_Localized: Verbrauchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109829
+    m_Localized: Aktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109830
+    m_Localized: Auspacken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109831
+    m_Localized: Einpacken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109832
+    m_Localized: Wechseln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109833
+    m_Localized: Entladen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055920013312
+    m_Localized: Die Wasserleitung ist momentan mit der Kanalisation verbunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179136
+    m_Localized: Die Wasserleitung ist momentan mit der industriellen Abwasserleitung verbunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355192635392
+    m_Localized: Hm … Die Wasserreinheit ist sogar höher!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995520
+    m_Localized: Wow, danke für den Hinweis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995521
+    m_Localized: Das ist Dreckwasser. Ich sehe die Partikel darin schwimmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995522
+    m_Localized: Und? Na gut, ich gehe mit dem Preis runter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995523
+    m_Localized: Das ist doch eindeutig Kloakenbrühe. Das Zeug ist braun, sehen Sie?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995524
+    m_Localized: Okay, ich senke den Preis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995525
+    m_Localized: Das ist Geisterwasser. Das ist schwer zu erkennen, man muss da echt vorsichtig sein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995526
+    m_Localized: Ehrlich? Dann gehe ich mit dem Preis runter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995527
+    m_Localized: Das ist Basiswasser. Wollen Sie die Leute etwa übers Ohr hauen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189824
+    m_Localized: Das ist nicht der richtige Reinheitsgrad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189825
+    m_Localized: Okay, ich passe den Preis an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189826
+    m_Localized: Ich habe nicht genug Credits für Premiumwasser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189827
+    m_Localized: Ich kann mir kein Qualitätswasser leisten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189828
+    m_Localized: Basiswasser? Das trinke ich nicht!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189829
+    m_Localized: Ich trinke sicher kein Geisterwasser …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189830
+    m_Localized: Sind Sie verrückt? Ich trinke doch kein Dreckwasser!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189831
+    m_Localized: Wow, glauben Sie echt, das würde ich trinken?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189832
+    m_Localized: Ja … das trinke ich nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848249237504
+    m_Localized: Viehserum (Steroide)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014720
+    m_Localized: Viehserum (Immunität)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014721
+    m_Localized: Betagt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014722
+    m_Localized: Ausgewachsen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014723
+    m_Localized: Adoleszent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014724
+    m_Localized: Jungtier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014725
+    m_Localized: Infantil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014726
+    m_Localized: Unbekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014727
+    m_Localized: Männlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014728
+    m_Localized: Weiblich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014729
+    m_Localized: 'Alter: {0} Tage ({1} g)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014730
+    m_Localized: 'Gesundheit: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014731
+    m_Localized: 'Hunger: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014732
+    m_Localized: 'Fruchtbarkeit: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014733
+    m_Localized: '{0} % ({1} % Basis)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014734
+    m_Localized: Wachstumsrate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014735
+    m_Localized: Erwartete Wurfgröße
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014736
+    m_Localized: Immunität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014737
+    m_Localized: Max. Gesundheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014738
+    m_Localized: Langlebigkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014739
+    m_Localized: Hungerrate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014740
+    m_Localized: 'Trächtigkeit: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014741
+    m_Localized: ({0}/{1} Tage)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209024
+    m_Localized: Tot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209025
+    m_Localized: Ausgehungert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209026
+    m_Localized: Trächtig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209027
+    m_Localized: Fehlgeburt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209028
+    m_Localized: Kastriert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209029
+    m_Localized: Krank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209030
+    m_Localized: Kratzspur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209031
+    m_Localized: Reif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209032
+    m_Localized: Starke Immunität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209033
+    m_Localized: Immungeschwächt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209034
+    m_Localized: Überfüllt {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164525137920
+    m_Localized: Tierkäfig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526528
+    m_Localized: Ein kleiner Käfig für Tiere. Sieht nicht sonderlich gemütlich aus, aber manchen Unterdecklern geht es vermutlich noch schlimmer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526529
+    m_Localized: Tiere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526530
+    m_Localized: 'Haltbarkeit: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526531
+    m_Localized: '[Metallschrott zum Reparieren verwenden]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526532
+    m_Localized: '[Metallbarren zum Erweitern verwenden (noch {0} Verbesserung(en)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526533
+    m_Localized: '[Max. Größe erreicht]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526534
+    m_Localized: '[Vollständig repariert]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526535
+    m_Localized: Hören Sie auf, dieses Scheinwasser zu verkaufen! Das ist ein Mordversuch!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526536
+    m_Localized: Wir wissen, was Sie gemacht haben! Schluss mit dem Wasserbetrug, aber SOFORT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526537
+    m_Localized: Wenn Sie weiter unsauberes Wasser verkaufen, werden Sie es bereuen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526538
+    m_Localized: Wie können Sie nachts ruhig schlafen, wenn Sie Geisterwasser als Trinkwasser verkaufen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526539
+    m_Localized: Schluss mit dem Geisterwasser-Betrug, sonst legen wir Ihnen das Handwerk!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526540
+    m_Localized: Das fake Wasser bringt uns um. Sie sind der Nächste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526541
+    m_Localized: Ihre Munition hätte mich fast das Leben gekostet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526542
+    m_Localized: Jeden Tag komme ich an Ihre Laden vorbei … Irgendwann habe ich den Mut, Sie anzusprechen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526543
+    m_Localized: Sie kennen mich nicht, aber ich weiß alles über Sie. Bleiben Sie, wie Sie sind!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526544
+    m_Localized: Ich habe Ihnen etwas mitgebracht. Nur ein kleines Zeichen meiner … Zuneigung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526545
+    m_Localized: 'Ob Sie mich wohl auch manchmal aus den Schatten beobachten? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526546
+    m_Localized: Dank Ihnen fühlen sich die Unterdecks ein bisschen schöner an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526547
+    m_Localized: Sie sind der einzige Grund, warum ich noch herkomme. Passen Sie auf sich auf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526548
+    m_Localized: 'An meinen Lieblingsladenbesitzer: Vergessen Sie nicht, heute zu lächeln.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526549
+    m_Localized: '{0} (klein)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526550
+    m_Localized: '{0} (groß)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526551
+    m_Localized: '{0} (riesig)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526552
+    m_Localized: Kaputt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526553
+    m_Localized: Ein vollkommen kaputtes Gerät, das sich nicht mehr reparieren lässt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526554
+    m_Localized: Konzentrierte Nährstofflösung (75 %)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526555
+    m_Localized: Chemieflasche ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526556
+    m_Localized: Altes Hydrokultursystem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526557
+    m_Localized: Modul mit Glitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12846119084933120
+    m_Localized: 'Gespeicherte Kalorien:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412624089088
+    m_Localized: Prionenerkrankung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283392
+    m_Localized: Fleisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283393
+    m_Localized: Sonstiges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359174
+    m_Localized: Feuerkraft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359175
+    m_Localized: Stil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359176
+    m_Localized: Zuverlässigkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359177
+    m_Localized: Rückstoßkontrolle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359178
+    m_Localized: Ergonomie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359179
+    m_Localized: Präzision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087254
+    m_Localized: '{0} Credits wurden deinem Konto gutgeschrieben. Dank deiner Hilfe hat die Security {1} geschnappt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087256
+    m_Localized: '{0} Credits wurden deinem Konto gutgeschrieben. Dank deiner Hilfe hat die Security einen Schmuggler gefasst.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087257
+    m_Localized: '{0} Credits wurden deinem Konto gutgeschrieben. Dank deiner Hilfe hat die Security einen Dieb gefasst.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171461
+    m_Localized: Eine illegale Waffenlieferung trifft ein!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171462
+    m_Localized: Illegale Waffenlieferung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171463
+    m_Localized: Eine große Lieferung illegaler Waffen wurde an den Security-Patrouillen vorbeigeschleust und ist auf den Unterdecks angekommen. Bald werden sehr viele Waffen verfügbar sein, weshalb die Preise sinken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171464
+    m_Localized: Erhöhte Waffennachfrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171465
+    m_Localized: Die Nachfrage nach Waffen von anonymen Käufern ist auf den gesamten Unterdecks leicht erhöht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365760
+    m_Localized: Unterdeckler-Revolutionär verhaftet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365862
+    m_Localized: Kloakenbrühe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365904
+    m_Localized: Fünf-Finger-Rabatt IV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365905
+    m_Localized: Fünf-Finger-Rabatt III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365906
+    m_Localized: Fünf-Finger-Rabatt II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365907
+    m_Localized: Fünf-Finger-Rabatt I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365911
+    m_Localized: Aufschlag auf minderwertige Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365912
+    m_Localized: Aufschlag auf gewöhnliche Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365913
+    m_Localized: Aufschlag auf hochwertige Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365914
+    m_Localized: Aufschlag auf kritische Schmuggelware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365920
+    m_Localized: Ausverkaufrabatt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365921
+    m_Localized: Rabatt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365922
+    m_Localized: Lieferantenaufschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083970
+    m_Localized: 'Benötigte Arbeit: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083971
+    m_Localized: 'Erntemenge: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083986
+    m_Localized: Schwermetall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083987
+    m_Localized: Organischer Abfall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083988
+    m_Localized: Mikroplastik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083989
+    m_Localized: Mikroben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083990
+    m_Localized: Chemischer Kontaminationsstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083991
+    m_Localized: Physischer Kontaminationsstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083992
+    m_Localized: Mineral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083997
+    m_Localized: Koffein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278280
+    m_Localized: Fettbinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278281
+    m_Localized: '[Gesperrt]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278282
+    m_Localized: Versiegelt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748402831540224
+    m_Localized: 'Mögliche Verwendung:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805506109440
+    m_Localized: Augmentierte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805522886656
+    m_Localized: Die Zahl der Augmentierten hat eine kritische Masse erreicht, sie operieren jetzt völlig ungeniert in der Öffentlichkeit. Nachts bricht eine Gruppe von Augmentierten in deinen Laden ein und setzt dir gewaltsam einen Augmentierungschip ein. Die Security kommt nicht. Das Implantat aktiviert sich, und du bist nur noch ein Passagier in deinem eigenen Körper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853199155200
+    m_Localized: Schrotflinte ausrüsten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853220126720
+    m_Localized: Die Schrotflinte kann momentan nicht ausgerüstet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17612012079857664
+    m_Localized: Leeren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19813141920399360
+    m_Localized: '{0} Credits wurden deinem Konto gutgeschrieben. Dank deiner Hilfe wurde ein Augmentierter eliminiert.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22771451896315904
+    m_Localized: Totschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26281714880659456
+    m_Localized: '{0} Symbole'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069152714752
+    m_Localized: Meisterjahrgang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269184
+    m_Localized: Reserve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269185
+    m_Localized: Produktionswein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269186
+    m_Localized: Selbstgemacht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269187
+    m_Localized: Eimerwein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269188
+    m_Localized: Untrinkbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32910981274058752
+    m_Localized: Einer deiner Kontakte hat dich informiert, dass gestern ein Augmentierter in deinem Laden war.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712365101056
+    m_Localized: Rabatt heraushandeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461184
+    m_Localized: Aufschlag heraushandeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461185
+    m_Localized: Erpressung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461186
+    m_Localized: Aufschlag heraushandeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461187
+    m_Localized: Rabatt heraushandeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461188
+    m_Localized: Bedrohen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691844919296
+    m_Localized: Gärvorgang starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890816
+    m_Localized: Gärt …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890817
+    m_Localized: Zutat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890818
+    m_Localized: Nicht genug Zutaten, um Gärvorgang zu starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890819
+    m_Localized: Nicht genug Wasser, um Gärvorgang zu starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890820
+    m_Localized: 'Alter: {0} Tage'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890821
+    m_Localized: Gärt … Noch {0} Tage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925092061184
+    m_Localized: Immer akzeptiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170048
+    m_Localized: 'Nimmt an: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170049
+    m_Localized: 'Lehnt ab: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170050
+    m_Localized: 'Geht: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170051
+    m_Localized: +{0} % Chance auf Annahme durch Dealmacher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113908625408
+    m_Localized: Damit werden die Vorräte zu nicht handelbaren Chemikalien. Bist du sicher?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113992511488
+    m_Localized: Schalte diesen Gegenstand um, um sein Aussehen zu verändern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732093977280512
+    m_Localized: Dieses Wasser ist bereits Basiswasser oder besser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732094002446336
+    m_Localized: Der Reiniger hat nicht mehr genug Energie, um so viel Wasser reinigen zu können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43763292053487616
+    m_Localized: Die Security hat dir gemeldet, dass dein Laden heute mutmaßlich von einem Augmentierten besucht wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826371
+    m_Localized: 'Benötigte Arbeit:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826372
+    m_Localized: 'Benötigt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45488749983612928
+    m_Localized: '[Match]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427832188928
+    m_Localized: 'Lockt an: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427878326272
+    m_Localized: Doppelklicken, um zu ändern, wen sie anlockt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48380974841249792
+    m_Localized: Müll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826370
+    m_Localized: 'Status: Arbeitet'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826373
+    m_Localized: Unbekanntes Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48476019179175936
+    m_Localized: Dieser Gegenstand gewinnt mit dem Alter an Wert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43370373127651328
+    m_Localized: Gegenstände, die Sie nach Öffnen des Ladens ins Schaufenster legen, sind erst für den nächsten Tag relevant. Bereiten Sie Ihr Schaufenster daher vor, bevor Sie den Laden öffnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56007818054778880
+    m_Localized: 'Benötigte Gegenstände:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365851
+    m_Localized: Perfekte Reinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365852
+    m_Localized: Sehr hohe Reinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365853
+    m_Localized: Hohe Reinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365854
+    m_Localized: Passable Reinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365855
+    m_Localized: Niedrige Reinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365856
+    m_Localized: Sehr niedrige Reinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365889
+    m_Localized: Barrenreinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6348201574400
+    m_Localized: Platzhalter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360965
+    m_Localized: Chemiemodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360966
+    m_Localized: Eingabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360967
+    m_Localized: Behälter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360968
+    m_Localized: Bedienung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360969
+    m_Localized: Starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360970
+    m_Localized: 'Verlust: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360971
+    m_Localized: Chemiemodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360972
+    m_Localized: Behälter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360973
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360974
+    m_Localized: Bedienfeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360975
+    m_Localized: Konfigurieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360976
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360977
+    m_Localized: Kein Ziel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360978
+    m_Localized: 'Verursachte Verunreinigung: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360988
+    m_Localized: Batterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360989
+    m_Localized: Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360990
+    m_Localized: Behälter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360991
+    m_Localized: Destillat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360992
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360998
+    m_Localized: Chemiemodul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360999
+    m_Localized: Heizplatte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361000
+    m_Localized: Temperatur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361001
+    m_Localized: Bedienung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361002
+    m_Localized: Zieltemperatur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361003
+    m_Localized: Aus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361004
+    m_Localized: Niedrig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361005
+    m_Localized: Hoch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361006
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361007
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361009
+    m_Localized: -/-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361010
+    m_Localized: Keine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361011
+    m_Localized: 'Max. Temperatur: {0}°C '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361012
+    m_Localized: 'Erhitzungstempo: Langsam'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361013
+    m_Localized: 'Erhitzungstempo: Schnell'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361014
+    m_Localized: 'Erhitzungstempo: Sehr schnell'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361042
+    m_Localized: Strom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361043
+    m_Localized: Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361044
+    m_Localized: Eingabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361045
+    m_Localized: Chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361046
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361047
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361048
+    m_Localized: Batterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361049
+    m_Localized: Modul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361050
+    m_Localized: Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361051
+    m_Localized: Saatguteingabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361052
+    m_Localized: Erzeugnisausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361053
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361054
+    m_Localized: Nicht genug Wasser und Energie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361055
+    m_Localized: Nicht genug Energie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361056
+    m_Localized: Nicht genug Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361057
+    m_Localized: Vorgang beginnt …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361058
+    m_Localized: Warte auf Saatgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361059
+    m_Localized: Wachstum im Gang …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361060
+    m_Localized: 'Status: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361062
+    m_Localized: 'Status: Bereit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361063
+    m_Localized: '{0} (Setzling)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361074
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361075
+    m_Localized: Inventar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361076
+    m_Localized: Bedienung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361077
+    m_Localized: Platine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361078
+    m_Localized: '{0} Credits'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361079
+    m_Localized: Alle umlagern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361080
+    m_Localized: Verkaufsautomaten-Preise sind fix (mit einem Verkaufsaufschlag), unabhängig von aktiven Ereignissen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361081
+    m_Localized: Im Verkaufsautomat sind bestimmte Gegenstände beliebter als andere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361082
+    m_Localized: Kann mit Elektronikteilen verbessert werden, um die Attraktivität zu erhöhen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361083
+    m_Localized: Kann mit Metallbarren verbessert werden, um die Kapazität zu erhöhen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361084
+    m_Localized: 'Aktuelle Attraktivität: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361085
+    m_Localized: Energiequelle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361086
+    m_Localized: Basiswassertank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361087
+    m_Localized: Qualitätswassertank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361088
+    m_Localized: Premiumwassertank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361089
+    m_Localized: Bedienung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361090
+    m_Localized: Platine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361091
+    m_Localized: Kann mit Elektronikteilen verbessert werden, um die Attraktivität zu erhöhen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915592
+    m_Localized: '[VERSTECKT] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915593
+    m_Localized: '[WICHTIG] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915594
+    m_Localized: '[REPO] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915595
+    m_Localized: 'Tauschwert pro Einheit: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915596
+    m_Localized: 'Gesamter Tauschwert: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359180
+    m_Localized: Größe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359181
+    m_Localized: Gedämpft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359182
+    m_Localized: 'Optimale Nährstoffspanne: {0} %–{1} % Mineralien'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359183
+    m_Localized: 'Mineralienverbrauch: {0} ml/Wachstumsphase'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359184
+    m_Localized: 'Verunreinigungsempfindlichkeit: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359185
+    m_Localized: 'Wasserverbrauch: {0} ml/Tag'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359186
+    m_Localized: 'Wachstumszustand: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359187
+    m_Localized: Durchschnittlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359188
+    m_Localized: Sehr empfindlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359189
+    m_Localized: Empfindlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359190
+    m_Localized: Leicht empfindlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359191
+    m_Localized: Sehr widerstandsfähig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359192
+    m_Localized: Widerstandsfähig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359193
+    m_Localized: Leicht widerstandsfähig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359194
+    m_Localized: Immun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359195
+    m_Localized: Unbekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359196
+    m_Localized: '[Bereit]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359197
+    m_Localized: '[In {0} Tag]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359198
+    m_Localized: '[In {0} Tagen]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359199
+    m_Localized: Unbekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359200
+    m_Localized: 'Benötigtes Volumen: {0} ml'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359201
+    m_Localized: Darf keine feuchte Zutat beinhalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359204
+    m_Localized: Von {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359206
+    m_Localized: Noch {0} Tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359207
+    m_Localized: Noch {0} Tage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359208
+    m_Localized: – {0} Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359209
+    m_Localized: "\n– {0} Ansehen bei {1}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359211
+    m_Localized: Alle Gewinnlose gegen {0} Credits eingelöst!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087253
+    m_Localized: Vorfallbericht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087259
+    m_Localized: "\n<i>Dein Ansehen bei {0} hat sich verschlechtert.</i>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087260
+    m_Localized: ' Du hast der Security einen falschen Bericht erstattet. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087261
+    m_Localized: ' Zur Strafe wurden {0} Credits von deinem Konto abgezogen. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087262
+    m_Localized: ' Beim nächsten Falschbericht wirst du verhaftet. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087263
+    m_Localized: ' Weitere Falschberichte können schwere Konsequenzen nach sich ziehen. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171456
+    m_Localized: Kreditrate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171457
+    m_Localized: Kartellbesuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171458
+    m_Localized: Bandenkrieg auf den Unterdecks!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171459
+    m_Localized: Bandenkrieg auf den Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171460
+    m_Localized: Rivalisierende Banden haben einander den Krieg erklärt! Überall auf den Unterdecks ist es zu Schießereien und Gefechten gekommen. Die Nachfrage nach Medizinzubehör wird aller Wahrscheinlichkeit nach steigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171466
+    m_Localized: Revolutionsmobilisierung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171467
+    m_Localized: Auf den Unterdecks finden große revolutionäre Aktivitäten statt. Revolutionszellen treffen die letzten Vorbereitungen für eine umfassende Aktion. Es wird damit gerechnet, dass die Preise von Waffen, Medizinzubehör und Schutzkleidung dramatisch ansteigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171468
+    m_Localized: Revolutionärer Überfall auf den Oberdecks!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171469
+    m_Localized: Revolutionärer Überfall auf den Oberdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171470
+    m_Localized: Auf den Oberdecks ist es zu Überfällen der Revolutionäre gekommen, die Gegenstände aus Häusern und Geschäften erbeuten, um sie auf den Unterdecks zu verkaufen und sich so zu finanzieren. Es wird eine Flut an Haushaltswaren erwartet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171471
+    m_Localized: Revolutionärer Überfall auf Security!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171472
+    m_Localized: Revolutionärer Überfall auf Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171473
+    m_Localized: Revolutionäre haben einen wichtigen Außenposten der Security auf den Unterdecks überfallen. Die Gefechte haben auf beiden Seiten zu Verlusten geführt, Bürger von den Unterdecks sind ins Kreuzfeuer geraten und die Nachfrage nach Medizinzubehör schießt in die Höhe. Gleichzeitig wurde der Einfluss der Security geschwächt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171474
+    m_Localized: Security-Patrouillen wurden verschärft!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171475
+    m_Localized: Mehr Patrouillen und Checkpunkte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171476
+    m_Localized: Die Security hat die aktuelle Menge an Patrouillen erweitert und auf den Unterdecks neue Checkpunkte eingeführt. Einige Aktivitäten der Revolutionäre und des Schwarzmarkts wurden unterdrückt, sodass auf den Unterdecks wieder mehr Ordnung herrscht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171477
+    m_Localized: Hartes Durchgreifen überall auf der Station
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171478
+    m_Localized: Das Kommando hat auf steigende Besorgnis über die Zunahme von Schwarzmarktaktivitäten und die Unmenge illegaler Waren auf der Station reagiert, indem es hart gegen Schmuggelware durchgreifen will. Ab sofort werden in allen Sektoren strengere Inspektionen ausgeführt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171479
+    m_Localized: Schwarzmarkt-Razzia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171480
+    m_Localized: Security-Razzia auf Schwarzmarkt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171481
+    m_Localized: Security-Kräfte haben überraschend eine Razzia an verschiedenen Schwarzmarktzentren ausgeführt. Große Mengen an Waffen und Drogen wurden beschlagnahmt. Der illegale Handel musste Rückschläge hinnehmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171482
+    m_Localized: Revolutionsversteck entlarvt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171483
+    m_Localized: Razzia auf Revolutionäre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171484
+    m_Localized: Die Security hat eine Razzia auf ein entlarvtes Safehouse der Revolutionäre ausgeführt. Die Verhaftungen und Konfiszierungen haben die Revolution geschwächt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171485
+    m_Localized: Ausnahmezustand erklärt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171486
+    m_Localized: Ausnahmezustand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171487
+    m_Localized: Aufgrund der Ereignisse der letzten Zeit wurde auf den Unterdecks der Ausnahmezustand erklärt. Sperrstunden, Checkpunkte und Überwachung dominieren das Geschehen im Distrikt. Die Aktivitäten der Revolutionäre und des Schwarzmarkts werden unterdrückt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171488
+    m_Localized: Security-Budget erhöht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171489
+    m_Localized: Das Kommando hat eine drastische Erhöhung des Security-Budgets veranlasst, welche zusätzliche Einsätze ermöglicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171490
+    m_Localized: Aufstände!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171491
+    m_Localized: Auf den Unterdecks ist es zu Aufständen gekommen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171492
+    m_Localized: Aufgrund der Ereignisse der letzten Zeit kommt es auf den Unterdecks bei Versammlungen vieler Unterdeckler zu gewaltsamen Aufständen. Geschäfte werden ausgeraubt, Außenposten der Security angegriffen und das Chaos greift schnell um sich. Es herrscht eine hohe Nachfrage nach Essen und Waffen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171493
+    m_Localized: Die Arbeiter streiken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171494
+    m_Localized: Arbeiterstreik!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171495
+    m_Localized: Aufgrund der Ereignisse der letzten Zeit streiken verdrossene Arbeiter auf den Unterdecks. Die Versorgung mit Essen und Wasser kann nicht gewährleistet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171496
+    m_Localized: Medizinische Hilfe verteilt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171497
+    m_Localized: Medizinische Nothilfe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171498
+    m_Localized: Wohltätigkeitsorganisationen auf den Oberdecks haben für die Unterdecks zusätzliche medizinische Hilfskräfte und Hilfsmittel organisiert. Trotz der Skepsis einiger Bürger haben die Aktionen zur Beruhigung der Lage geführt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171499
+    m_Localized: Lebensmittelhilfe verteilt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171500
+    m_Localized: Versorgung mit Lebensmitteln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171501
+    m_Localized: Als seltene Geste des Wohlwollens hat das Kommando Rationen und Verpflegungspakete an Nachbarschaften auf den Unterdecks verteilen lassen. Die Initiative hat zur Beruhigung der Lage geführt, wird von einigen aber als Propagandaschachzug betrachtet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171505
+    m_Localized: Lotterieziehung!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171506
+    m_Localized: Lotterieziehung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171507
+    m_Localized: '{0} ist die Gewinnnummer! Das glückliche Los kann beim Lotterievertreter eingelöst werden! Wenn mindestens drei Zahlen übereinstimmen, winkt auch schon ein Preis! Viel Glück!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365761
+    m_Localized: Eine zügige Aktion der Station-Security hat zur Festnahme von Arthur Lafleur geführt, einem bekannten Aktivisten und ehemaligem Anführer bei den fehlgeschlagenen Revolutionsversuchen auf den Unterdecks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365840
+    m_Localized: (Unbenutzbar)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365841
+    m_Localized: (Abgelaufen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365842
+    m_Localized: Gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365843
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365844
+    m_Localized: Abgelaufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365845
+    m_Localized: Nicht abgelaufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365846
+    m_Localized: Eingebeult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365847
+    m_Localized: (Versteckt)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365848
+    m_Localized: Geöffnete Verpackung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365849
+    m_Localized: Originalversiegelt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365850
+    m_Localized: Rostig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365863
+    m_Localized: Sehr frisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365864
+    m_Localized: Frisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365865
+    m_Localized: Alt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365866
+    m_Localized: Verdorben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365869
+    m_Localized: Unbenutzbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365870
+    m_Localized: Steckt fest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365871
+    m_Localized: Neu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365872
+    m_Localized: Ausgezeichnet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365873
+    m_Localized: Gut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365874
+    m_Localized: Passabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365875
+    m_Localized: Mangelhaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365876
+    m_Localized: Reproduktion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365877
+    m_Localized: Funktionsfähig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365878
+    m_Localized: Laborreinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365879
+    m_Localized: Pharmazeutische Qualität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365880
+    m_Localized: Beinahe pharmazeutische Qualität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365882
+    m_Localized: Gepanschtes Produkt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365883
+    m_Localized: Minderwertige Qualität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365884
+    m_Localized: Stärkequalität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365885
+    m_Localized: 'Zustand: Geöffnete Verpackung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365886
+    m_Localized: 'Zustand: Rost'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365887
+    m_Localized: 'Zustand: Ablaufdatum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365888
+    m_Localized: 'Zustand: Verpackung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365891
+    m_Localized: Lebensmittelfrische
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365895
+    m_Localized: Modulzustand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365896
+    m_Localized: Gratis Gegenstand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365897
+    m_Localized: Chemische Reinheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365898
+    m_Localized: Kundenrabatt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365900
+    m_Localized: Verkaufsautomatenbonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365901
+    m_Localized: „Spende“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365908
+    m_Localized: Verhandlungsstrafe (Sucht)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365915
+    m_Localized: Aufschlag auf reglementierte Ware der Klasse I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365916
+    m_Localized: Aufschlag auf reglementierte Ware der Klasse II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365917
+    m_Localized: Aufschlag auf reglementierte Ware der Klasse III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365918
+    m_Localized: Lieferantenrabatt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365919
+    m_Localized: Trinkgeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365924
+    m_Localized: Vielfaltbonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365925
+    m_Localized: Touristensteuer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365926
+    m_Localized: Modul steckt fest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586898
+    m_Localized: Editionsnr. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090714495401984
+    m_Localized: Produktionsanlage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083973
+    m_Localized: 'Status: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083976
+    m_Localized: 'Gesamtmenge: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083977
+    m_Localized: 'Giftgehalt: Tödlich'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083978
+    m_Localized: 'Giftgehalt: Toxisch'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083979
+    m_Localized: 'Euphorie: Schwach'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083980
+    m_Localized: 'Euphorie: Mild'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083981
+    m_Localized: 'Euphorie: Stark'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083982
+    m_Localized: 'Euphorie: Extrem'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083983
+    m_Localized: 'Suchthemmend: Ja'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083984
+    m_Localized: 'Verhütung: Ja'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083993
+    m_Localized: Traumkappenbrei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083994
+    m_Localized: Traumkappenextrakt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083995
+    m_Localized: Pflanzenmaterial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083996
+    m_Localized: Alkohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083998
+    m_Localized: Eiweiß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083999
+    m_Localized: Fett/Öl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084000
+    m_Localized: Stärke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084001
+    m_Localized: Zucker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084002
+    m_Localized: Kaffeepulver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084003
+    m_Localized: Verhütungshormone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084004
+    m_Localized: Zyanid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084005
+    m_Localized: Albtraumextrakt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084006
+    m_Localized: Albtraumkappenbrei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084007
+    m_Localized: Chlor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278272
+    m_Localized: Synaprest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278273
+    m_Localized: Phanta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278274
+    m_Localized: N-Methylol-Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278275
+    m_Localized: Reduktionsmittel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278276
+    m_Localized: Säure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278277
+    m_Localized: Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278278
+    m_Localized: Stabilisator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278279
+    m_Localized: Unlösliche Abfälle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796609
+    m_Localized: Verhaftet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796610
+    m_Localized: Wegen krimineller Aktivitäten auf der Station wurdest du von der Security verhaftet und in den Knast gebracht. Während du deine Strafe abgesessen hast, wurde dein Laden an jemand anderen vermietet. Nach deiner Freilassung blieb dir nichts anderes übrig, als wieder als armer Recycler dein Dasein zu fristen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796611
+    m_Localized: Hingerichtet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796612
+    m_Localized: Wegen Kapitalverbrechen auf der Station wurdest du von der Security verhaftet und hingerichtet. Nach der Hinrichtung wurde dein Laden an jemand anderen vermietet. Deine Kunden haben dich schnell vergessen und über kurz oder lang erinnerte auf der Station nichts mehr an dich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796613
+    m_Localized: Aufkauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796614
+    m_Localized: Du unterschreibst die Urkunde und urplötzlich verschwindet die Bürde der Miete sowie der bedrohliche Schatten des Vermieters. Der Laden gehört dir. Du hast dieser Welt, die noch nie gnädig war, einen schwer verdienten Sieg abgerungen. Zum ersten Mal kannst du über deine Zukunft selbst bestimmen. Jetzt musst du auf niemanden hören, außer auf deine eigenen Ambitionen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796615
+    m_Localized: Du unterschreibst die letzten Papiere und die Ketten, die dich an den Kredithai gefesselt hatten, werden gesprengt. Der Laden gehört nun wirklich dir. Du musst keine mehr Angst haben, dass er dir weggenommen wird. Du bist frei vom Dunkel der Unterwelt. Du hast dich trotz schlechter Chancen durchgesetzt, hart gearbeitet und gewonnen. Die Zukunft gehört dir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796616
+    m_Localized: Zwangsenteignung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796617
+    m_Localized: Das ist das Ende. Der Laden wird dir weggenommen, und alles, worum du gekämpft hast, rinnt dir durch die Finger. Die kalte Umklammerung des Kredithais wird fester, die Wände rücken näher und du bist sowohl bankrott als auch obdachlos. Es bleibt dir nichts als die bittere Erinnerung daran, wie schnell man in dieser unbarmherzigen Welt alles verlieren kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796618
+    m_Localized: Lynchmord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796619
+    m_Localized: Nach zu vielen Verstößen gegen die Unterdecks hat ein Mob wütender Kunden deinen Laden gestürmt. Sie haben alles an sich genommen, was dir gehörte, und du wurdest aus der Luftschleuse geworfen. Auf den Unterdecks nennt man das Gerechtigkeit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796620
+    m_Localized: Verleumdung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796621
+    m_Localized: Nachdem du von der Security aufgrund erfundener Anschuldigungen verhaftet wurdest, kamst du in den Knast. Der Laden wurde beschlagnahmt und verkauft, um deine hohe Strafe abzubezahlen. Nach ein paar Wochen kamst du frei, aber der Laden war längst Geschichte. Du musstest dein Leben wieder als armer Recycler fristen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796622
+    m_Localized: Mord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796623
+    m_Localized: Nachdem du die Regeln der Oberdecks zu oft gebrochen hast, wurde ein Killer von der Station-Elite angeheuert, um dich aus dem Weg zu räumen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796624
+    m_Localized: Sentinel-Kollaps-Syndrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796625
+    m_Localized: Nachdem du zu viele Immunivax-Injektionen ausgelassen hast, hat dein geschwächtes Immunsystem deinen eigenen Körper angegriffen. Es war nicht die Krankheit, die dich getötet hat. Du warst es.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796626
+    m_Localized: Ausgebombt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796627
+    m_Localized: Nachdem du zum Gegner der Revolution erklärt wurdest, hat jemand in deinem Laden eine Bombe platziert. Die Explosion hat den Laden zerstört und dich getötet. Das üble Ende deines Ladens war eine Warnung für andere, was mit Revolutionsgegnern geschieht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796628
+    m_Localized: Weg vom Fenster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796629
+    m_Localized: Das Kartell kam zu dem Schluss, dass du es nicht mehr wert warst. Du musstest dich aus dem Geschäft zurückziehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796630
+    m_Localized: Keine Genehmigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796631
+    m_Localized: Du hast keine Genehmigung erhalten und musstest deinen Laden schließen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179137
+    m_Localized: Kritische Reparaturen auf den Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179138
+    m_Localized: Der Meteorstrom hat mehrere Bereiche auf den Unterdecks getroffen. Benachbarte Bereiche wurden abgesperrt und die Reparatur der betroffenen Areale hat begonnen. Doch aufgrund von mangelnden Materialien kommen diese kaum voran.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179139
+    m_Localized: Unterdeck-Ingenieure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179140
+    m_Localized: Schwimmbadreparatur auf den Oberdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179141
+    m_Localized: Während des Meteorstroms wurde das Gemeinschaftsbad auf den Oberdecks beschädigt. Es sollte ohnehin renoviert werden. Wir möchten gern eine Kiste mit entsprechenden Materialien kaufen, um den Vorgang zu beschleunigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179142
+    m_Localized: Oberdecks-Verwalter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179143
+    m_Localized: Medizinzubehör für Wohlfahrtsklinik der Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179144
+    m_Localized: Uns ist das Medizinzubehör ausgegangen. Aufgrund von Engpässen können viele Leute nicht richtig behandelt werden. Hilfe jeder Art wäre willkommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179145
+    m_Localized: Wohlfahrtsklinik der Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179146
+    m_Localized: Medizinzubehör für das allgemeine Krankenhaus der Oberdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179147
+    m_Localized: Es kommt zu Verzögerungen bei der Zustellung von kritischem Medizinzubehör. Wir haben zwar noch einige Vorräte, sind aber bereit, Premiumpreise zu zahlen, um zu verhindern, dass unsere Vorräte zur Neige gehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179148
+    m_Localized: Allgemeines Krankenhaus der Oberdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179149
+    m_Localized: Medizinzubehör für den Schwarzmarkt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179150
+    m_Localized: Aufgrund des anhaltenden Engpasses kaufen wir sämtliche Vorräte, um den Preis noch weiter in die Höhe zu treiben! Wenn Sie uns Vorräte beschaffen, wird es sich für Sie lohnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179151
+    m_Localized: Dubioser Händler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179152
+    m_Localized: Materialien für Unterdeck-Bauprojekt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179153
+    m_Localized: Auf den Unterdecks wird ein neuer Wohnblock gebaut, aber es ist eine Herausforderung, an die entsprechenden Materialien zu gelangen. Wir brauchen sie, damit das Projekt fortgesetzt werden kann.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179154
+    m_Localized: Unterdeck-Baucrew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179155
+    m_Localized: Baumaterialien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179156
+    m_Localized: Die Anfrage nach Baumaterialien steigt, und wir haben vor, das Angebot zu kontrollieren. Beschaffen Sie uns Materialien, bevor andere es tun, dann werden Sie gut entlohnt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179157
+    m_Localized: Dubioser Broker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179158
+    m_Localized: Vorräte für Unterdeck-Suppenküche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179159
+    m_Localized: Nach den Ereignissen der letzten Zeit sind viele Leute in Not geraten. Viel zahlen können wir nicht, aber wir werden alle informieren, wie großzügig Sie waren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179160
+    m_Localized: Suppenküchen-Koordinator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179161
+    m_Localized: Verschollene Asservatenkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179162
+    m_Localized: Eine Kiste mit wichtigen Beweisen ist verschwunden. Wir brauchen sie so schnell es geht zurück. Egal, was es kostet. Wenn Sie sie schnell zu uns bringen, werden Sie entsprechend belohnt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179163
+    m_Localized: Security-Leiter der Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179164
+    m_Localized: Gestohlene Asservatenkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179165
+    m_Localized: In einem vor Kurzem gestohlenen Asservatenkiste befinden sich für meinen Klienten rufschädigende Informationen. Wir sind bereit, einen hohen Preis zu zahlen, bevor sie der Security (oder schlimmer) in die Hände fällt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179166
+    m_Localized: Unbekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179167
+    m_Localized: Untergrundzelle der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179168
+    m_Localized: Elitetruppe der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179169
+    m_Localized: Adlerzelle der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179170
+    m_Localized: Hauptquartier der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179171
+    m_Localized: Alphazelle der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179172
+    m_Localized: Thetazelle der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179173
+    m_Localized: Alexandra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179174
+    m_Localized: Jordan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179175
+    m_Localized: Taylor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179176
+    m_Localized: Louis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179177
+    m_Localized: Harun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179178
+    m_Localized: Kim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179179
+    m_Localized: Erfrischungsanfrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179180
+    m_Localized: Wir brauchen Snacks für die Geburtstagsparty unseres Freunds. Das ganze ist Last-Minute.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179181
+    m_Localized: Erfrischung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179182
+    m_Localized: Metallschrott-Anfrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179183
+    m_Localized: Wir brauchen Metallschrott, um einen neuen Garten anzulegen. Der alte ist heruntergekommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179184
+    m_Localized: Einweihungsgeschenk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179185
+    m_Localized: Wir brauchen ein Einweihungsgeschenk für eine Versammlung bei einem Freund.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179186
+    m_Localized: Einweihungsgeschenk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179187
+    m_Localized: Verarbeitetes-Fleisch-Anfrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179188
+    m_Localized: Wir legen in unserem Garten Vorräte für ein Picknick an und brauchen unverderbliche Nahrungsmittel. Verarbeitetes Fleisch ist ideal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179189
+    m_Localized: Einer unserer Kunden hat darum gebeten. Wir werden gut dafür zahlen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179190
+    m_Localized: Oberdeck-Vertreter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179191
+    m_Localized: Wir sammeln Spenden, um Bedürftigen auf den Unterdecks zu helfen. Wir sind dankbar für Spenden aller Art.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179192
+    m_Localized: Oberdeck-Spendenorganisator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179193
+    m_Localized: Handwerkszeug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179194
+    m_Localized: Ich brauch was, um die langen Schichten zu durchstehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179195
+    m_Localized: Unterdeck-Arbeiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179196
+    m_Localized: Toilettenpapier für Georgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179197
+    m_Localized: Georgio benötigt Toilettenpapier für seine Sammlung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179198
+    m_Localized: Georgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179199
+    m_Localized: Fleischerbeil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179200
+    m_Localized: Brauche ein Fleischbeil. Das alte ist stumpf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179201
+    m_Localized: Anonym
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179202
+    m_Localized: Bier für Hausmeistercrew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179203
+    m_Localized: Meine Crew hat schwer geschuftet. Es wird Zeit, sie zu belohnen. Beschaffen Sie mir Bier, und zwar Red Imp.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179204
+    m_Localized: Sawyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179205
+    m_Localized: Li-Eat-Snackriegel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179206
+    m_Localized: Mein Lieblings-Snackriegel ist überall ausverkauft. Besorgen Sie mir welche und ich werde Sie gut bezahlen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179207
+    m_Localized: Officer Lun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179208
+    m_Localized: Brechstange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179209
+    m_Localized: Jemand hat ohne Erlaubnis sauber gemacht. Wir werden ein Exempel statuieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179210
+    m_Localized: Energydrinks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179211
+    m_Localized: Ich brauche Energydrinks, um wach zu bleiben. Ich muss meine Experimente beenden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179212
+    m_Localized: Dr. Jackson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179213
+    m_Localized: Typisch Vermieter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179214
+    m_Localized: Einer meiner Mieter will unbedingt, dass ich seine Tür repariere. Besorgen Sie mir Metallschrott, dann sehe ich weiter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179215
+    m_Localized: Der Vermieter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179216
+    m_Localized: Typisch Vermieter 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179217
+    m_Localized: Ein Mieter nervt mit der Bitte, die Lüftung zu reparieren. Dann werde ich nächste Woche wohl die Miete erhöhen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179218
+    m_Localized: Typisch Vermieter 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179219
+    m_Localized: Ein Fenster mit Blick auf die Straße in einem meiner Häuser ist kaputt. Ich werde es einfach mit einem Tuch ausbessern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179220
+    m_Localized: Grillparty zum Ruhestand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179221
+    m_Localized: Wir legen alle zusammen, um Officer Boucher eine tolle Grillparty zum Ruhestand zu schenken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179222
+    m_Localized: Haustierfutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179223
+    m_Localized: Besorgen Sie echtes rohes Fleisch, frisch und nicht verarbeitet. Mein Haustier bekommt nur das Beste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179224
+    m_Localized: Bürger der Oberdeck-Elite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179225
+    m_Localized: Babynahrung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179226
+    m_Localized: Ich kann es nicht fassen, dass Galaxy Blend auf den Unterdecks die einzige Nahrung mit genug Nährstoffen für ein Baby ist. Helfen Sie mir, welches zu besorgen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179227
+    m_Localized: Unterdeck-Mutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189833
+    m_Localized: Das kann nicht stimmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189834
+    m_Localized: Das ist viel zu teuer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189835
+    m_Localized: Das ist viel zu billig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189836
+    m_Localized: Es ist offensichtlich, dass Sie keine Ahnung haben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189837
+    m_Localized: Das mache ich nicht mit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189838
+    m_Localized: Zu schätzender Gegenstand ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189839
+    m_Localized: "Schätzungsgebühr erhalten:\n{0} Credits ({1} %)\n{2} Credits (Basisgebühr)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189840
+    m_Localized: Schätzungsformular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189841
+    m_Localized: Perfekt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189842
+    m_Localized: Ausgezeichnet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189843
+    m_Localized: Gut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189844
+    m_Localized: Mittelmäßig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189845
+    m_Localized: Furchtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189846
+    m_Localized: Okay, das klingt perfekt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189847
+    m_Localized: Danke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189848
+    m_Localized: Hmm, verstehe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189849
+    m_Localized: Weniger, als ich erwartet hatte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189850
+    m_Localized: Hmm, das müsste stimmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189851
+    m_Localized: Etwas weniger, als ich erwartet hatte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189852
+    m_Localized: Okay, das klingt gut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189853
+    m_Localized: Okay, das klingt super.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189854
+    m_Localized: Das ist mehr, als ich erwartet hatte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189855
+    m_Localized: Das ist etwas mehr, als ich erwartet hatte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174125625344
+    m_Localized: Schiene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596864
+    m_Localized: Lauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596865
+    m_Localized: Magazin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596866
+    m_Localized: Unterlauf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596867
+    m_Localized: Schaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596868
+    m_Localized: Spezial 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596869
+    m_Localized: Spezial 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596870
+    m_Localized: Spezial 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382631989559296
+    m_Localized: Kein Rezept ausgewählt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530816
+    m_Localized: Feuchte Zutat gefunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530817
+    m_Localized: Nicht genug Reagenz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084774883328
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), hat gar keinen Schaden angerichtet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437760
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), hat dem Ganzen kein Ende gesetzt!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437761
+    m_Localized: Mein Ziel ist noch am Leben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437762
+    m_Localized: Und jetzt auch noch high!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437763
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), hat mich fast umgebracht!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437764
+    m_Localized: Was zur Hölle, Mann?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437765
+    m_Localized: Was Sie meinem Freund verkauft haben (<b>{0}</b>), hat ihn umgebracht!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437766
+    m_Localized: Dafür werden Sie bezahlen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437767
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), hat nicht funktioniert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437768
+    m_Localized: Jetzt bin ich schwanger!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437769
+    m_Localized: Jetzt ist sie schwanger!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437770
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), hat nicht funktioniert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437771
+    m_Localized: Ich bin immer noch süchtig!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437772
+    m_Localized: Und high bin ich außerdem!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437773
+    m_Localized: Dafür hatte ich viele Credits gespart!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437774
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), hat nichts gebracht!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437775
+    m_Localized: Waren da überhaupt Drogen drin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437776
+    m_Localized: Ich hatte gar kein High.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437777
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), war so lahm!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437778
+    m_Localized: Ich habe fast gar nichts gespürt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437779
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), hat nicht wirklich funktioniert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437780
+    m_Localized: Es war ziemlich lahm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437781
+    m_Localized: Außerdem habe ich mich danach komisch gefühlt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437782
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), war irgendwie nicht das Gelbe vom Ei. Kann nicht genau sagen, was es war.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826368
+    m_Localized: Was Sie mir verkauft haben (<b>{0}</b>), war reiner Betrug!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826369
+    m_Localized: Die Reinheit war überhaupt nicht, wie Sie versprochen hatten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60693662015471616
+    m_Localized: Weinextrakt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479060475904
+    m_Localized: Kann mit einem gewöhnlichen Elektronikteil verbessert werden, um den integrierten Verbrennungsofen freizuschalten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418944
+    m_Localized: 'Verbrennungsofen: an'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418945
+    m_Localized: 'Verbrennungsofen: aus'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418946
+    m_Localized: Verbrennt nach der Reinigung sämtlichen gesammelten Kot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62159031347494912
+    m_Localized: Letzter Scan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62538283863556096
+    m_Localized: 'Geschlachtete Tiere: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240793124864
+    m_Localized: Flasche drucken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319168
+    m_Localized: Große Flasche drucken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319169
+    m_Localized: 'Druckt kleine Wasserflasche: {0} Energie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319170
+    m_Localized: 'Druckt Wasserflasche: {0} Energie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319171
+    m_Localized: 'Druckt große Wasserflasche: {0} Energie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319172
+    m_Localized: 'Verbessern (gewöhnliche Elektronikteile): {0}/{1} '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923241672704
+    m_Localized: Ausrüsten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421440
+    m_Localized: Platz {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421441
+    m_Localized: Gesperrt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421442
+    m_Localized: 'Plätze freigeschaltet: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421443
+    m_Localized: Metallschrott zum Verbessern benutzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392552988327936
+    m_Localized: Für {0} Credits eingelöst!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392553026076672
+    m_Localized: Zum Einlösen doppelklicken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049709674496
+    m_Localized: Nach oben sortieren, groß zuerst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617536
+    m_Localized: Nach oben sortieren, klein zuerst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617537
+    m_Localized: Nach unten sortieren, groß zuerst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617538
+    m_Localized: Nach unten sortieren, klein zuerst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984083615744
+    m_Localized: Gekühlt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170176
+    m_Localized: Gefroren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170177
+    m_Localized: Eiskalt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074797178880
+    m_Localized: Kühlfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733312
+    m_Localized: Gefrierfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733313
+    m_Localized: '{0} in {1} <b>legen</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733314
+    m_Localized: '{0} in {2} von {1} <b>einsetzen</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733315
+    m_Localized: '{0} an {1} <b>geben</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733316
+    m_Localized: '{0} kann nicht in {1} gelegt werden!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733317
+    m_Localized: '{0} kann nicht an {1} gegeben werden!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733318
+    m_Localized: '{0} mit {1} <b>benutzen</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733319
+    m_Localized: '{0} kannst du mit {1} nicht benutzen!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733320
+    m_Localized: '{0} <b>zerlegen</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733321
+    m_Localized: '<b>Generalüberholung</b> von {0} versuchen ({1} % Erfolgschance)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733322
+    m_Localized: 'Verbesserungen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733323
+    m_Localized: 'Kapazität ({0}): {1}/{2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733324
+    m_Localized: 'Effizienz ({0}): {1}/{2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73440099060989952
+    m_Localized: Du solltest den Tresen aufgeräumt halten, damit du auch genug Platz für Gegenstände hast, die du vielleicht beschaffst. Möchtest du wirklich ausgehen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73448114220744704
+    m_Localized: '{0} ({1} % Wert)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849913851904
+    m_Localized: Informationszettel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823424
+    m_Localized: Informationen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823425
+    m_Localized: '{0} in {1} Tagen, dauert {2} Tage.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823426
+    m_Localized: '{0} heute, dauert {1} Tage.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499588513792
+    m_Localized: '{0}/Scan'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456832
+    m_Localized: Bereit zum Scan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456833
+    m_Localized: AUGMENTIERUNG ERKANNT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456834
+    m_Localized: Keine Augmentierung erkannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203698147328
+    m_Localized: Schuldschein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507456
+    m_Localized: Georgio schuldet dem Ladenbesitzer {0} Credits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507457
+    m_Localized: Georgio wird sie mit Zinsen zurückzahlen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507458
+    m_Localized: -Georgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75956810117070848
+    m_Localized: '{2}: {0}, {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065948909568
+    m_Localized: Filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464000
+    m_Localized: Spender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464001
+    m_Localized: Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464002
+    m_Localized: Mischen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464003
+    m_Localized: Kein Wassertank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464004
+    m_Localized: 'Wasser: {0} ml. {1} ml benötigt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464005
+    m_Localized: 'Abfall: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464006
+    m_Localized: 'Population: {0} x lebend'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464007
+    m_Localized: 'Population: {0} x lebend, {1} x tot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464008
+    m_Localized: '{0} Eier'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464009
+    m_Localized: '{0} Eier, noch {1} Tage Inkubation'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464010
+    m_Localized: '{0} Bruten, werden in {1} Tagen zu Jungfischen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464011
+    m_Localized: Für sämtlichen Nachwuchs werden {0} ml Wasser im Tank benötigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464012
+    m_Localized: '{0} ml Wasser im Tank benötigt'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464013
+    m_Localized: 'Verbleibendes Fleisch: {0}/{1} kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464014
+    m_Localized: 'Ernährung: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464015
+    m_Localized: Allesfresser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464016
+    m_Localized: Pflanzenfresser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464017
+    m_Localized: Fleischfresser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464018
+    m_Localized: Unbeeinträchtigt durch schmutziges Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464019
+    m_Localized: Empfindlich für schmutziges Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464020
+    m_Localized: Entfernt Verunreinigungen aus dem Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464021
+    m_Localized: Nächste Lebensphase in {0} Tagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464022
+    m_Localized: Wird in {0} Tagen alt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464023
+    m_Localized: 'Alt: Kann jede Nacht sterben'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464024
+    m_Localized: 'Pellets: {0} % der Ernährung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464025
+    m_Localized: 'Pellets: {0} % der Ernährung, Fleisch von Müllqualität'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464026
+    m_Localized: Am ersticken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464027
+    m_Localized: Hungrig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464028
+    m_Localized: Kein Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464029
+    m_Localized: Wenig Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464030
+    m_Localized: Verschmutztes Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464031
+    m_Localized: Toxisches Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464032
+    m_Localized: Befruchtet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464033
+    m_Localized: Unbefruchtet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464034
+    m_Localized: Müllqualität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464035
+    m_Localized: 'Müllqualität: Ungenießbar'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464036
+    m_Localized: Das Fleisch wird zu Müllqualität, wenn Pellets mehr als {0} % der Ernährung des Fischs ausmachen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464037
+    m_Localized: Doppelklicken zum Teilen, auf anderes Pellet legen zum Verbinden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464038
+    m_Localized: 'Kloakenbrühenpellets: {0} kcal (nur für Fische)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464039
+    m_Localized: 'Fleisch: {0} kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198129475584
+    m_Localized: Versorgen GAKS und alle Batterien in der Nähe mit {0} kJ pro Nacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641408
+    m_Localized: 'Ausgehungert: kein Strom'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641409
+    m_Localized: Generiert Strom wenn adoleszent (Tag {0}).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641410
+    m_Localized: 'Aale generieren {0} kJ pro Nacht: für Batterie und alle Batteriezellen in der Nähe'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641411
+    m_Localized: Eier {0}/{1} g
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641412
+    m_Localized: Eier {0}/{1} g, voll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641413
+    m_Localized: Eier {0}/{1} g; pausiert, bis Gesundheit zu {2} % geheilt ist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641414
+    m_Localized: Nur aufziehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641415
+    m_Localized: Laichreif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641416
+    m_Localized: Erholt sich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664676265984
+    m_Localized: Dieses Futter lässt Fische mit {0}%iger Geschwindigkeit wachsen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431808
+    m_Localized: Doppelklicken zum Teilen. Zum Mischen auf anderen Futtersack legen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431809
+    m_Localized: 'Industrielles Fischfutter: {0} kcal (nur für Fische)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431810
+    m_Localized: Wächst mit derzeitigem Futter mit {0}%iger Geschwindigkeit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431811
+    m_Localized: Erhält keine Abzüge beim Verzehr von Kloakenbrühepellets.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431812
+    m_Localized: Wächst zu {0} % schneller mit Fleisch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452674281472
+    m_Localized: 'Genetische Komplexität: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447296
+    m_Localized: 'Verkaufspreis für Nahrungsmittel: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447297
+    m_Localized: 'Aktive Inhaltsstoffe: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447298
+    m_Localized: Entfernt {0} % jedes Kontaminationsstoffs pro Nacht, bis zu {1} % Reinheit. Mineral bleibt unverändert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447299
+    m_Localized: Wandelt pro Nacht {0} % des Wassers in organischen Abfall, Mikroben und weitere Abfallstoffe um.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447300
+    m_Localized: Produktion von {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447301
+    m_Localized: Jedes gewonnene Stück enthält {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447302
+    m_Localized: Jedes gewonnene Stück enthält {0} ml {1} zusätzlich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447303
+    m_Localized: Jedes gewonnene Stück enthält {0} ml {1} zusätzlich. Wird damit zu Schmuggelware.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447304
+    m_Localized: 'Genetik (Komplexität {0}):'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447305
+    m_Localized: 'Genetik (Komplexität {0}, +{1} Risiko):'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447306
+    m_Localized: Keine Merkmale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447307
+    m_Localized: '{0} (kann nicht bearbeitet werden)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447308
+    m_Localized: '{0} (Veranlagung)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447309
+    m_Localized: '{0} (kein Effekt)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447310
+    m_Localized: – {0} (Veranlagung, entfernt)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447311
+    m_Localized: '{0} x{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447312
+    m_Localized: Leere DNA-Disk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447313
+    m_Localized: 'Verbleibende Anwendungen: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447314
+    m_Localized: Komplexität {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447315
+    m_Localized: Stapelbar bis Rang {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447316
+    m_Localized: 'Inkompatibel mit: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447317
+    m_Localized: 'Kein Effekt bei: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447318
+    m_Localized: –
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447319
+    m_Localized: Nichts zu übertragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447320
+    m_Localized: '{0} ist Teil der Pflanze und kann nicht übertragen werden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447321
+    m_Localized: '{0} kann nicht bei Ziel mit {1} implementiert werden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447322
+    m_Localized: '{0} hat bereits maximalen Rang'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447323
+    m_Localized: '{0} blockiert {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447324
+    m_Localized: '{0} hat keinen Effekt bei: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447325
+    m_Localized: '{0} kann nichts bei diesem Ziel verändern'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447326
+    m_Localized: '{0} ist Teil der Pflanze und kann nicht extrahiert werden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447327
+    m_Localized: '{0} ist auf Ziel nicht vorhanden und kann nicht auf diese Disk extrahiert werden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447328
+    m_Localized: '{0} ist auf Ziel nicht vorhanden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447329
+    m_Localized: 'Beide Filtermodule sind installiert: Es kann nichts extrahiert werden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447330
+    m_Localized: Ziel besitzt kein positives Merkmal, das extrahiert werden kann
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447331
+    m_Localized: Ziel besitzt kein negatives Merkmal, das extrahiert werden kann
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447332
+    m_Localized: Ziel besitzt kein Merkmal, das extrahiert werden kann
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447333
+    m_Localized: '{0} kann nicht in {1} gelegt werden: {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447334
+    m_Localized: Merkmal-Disk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447335
+    m_Localized: Ziel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447336
+    m_Localized: Leere Disk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447337
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447338
+    m_Localized: 'Autom. Disk-Ausgabe: An'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447339
+    m_Localized: 'Autom. Disk-Ausgabe: Aus'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447340
+    m_Localized: Du kannst diese Einstellung über das Gerät ändern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447341
+    m_Localized: Übertrage {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447342
+    m_Localized: Merkmal extrahieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447343
+    m_Localized: Bereit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447344
+    m_Localized: 'Kann nicht starten: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447345
+    m_Localized: 'Nächste Aktion: {0} übertragen (bei Erfolg wird eine Anwendung auf der Disk verbraucht)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447346
+    m_Localized: 'Nächste Aktion: {0} übertragen, Rang wird gestapelt (bei Erfolg wird eine Anwendung auf der Disk verbraucht)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447347
+    m_Localized: 'Nächste Aktion: Merkmal extrahieren'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447348
+    m_Localized: 'Nächste Aktion: {0} extrahieren'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447349
+    m_Localized: 'Nächste Aktion: {0} auf Disk extrahieren'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447350
+    m_Localized: Ziel wird nicht vernichtet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447351
+    m_Localized: Ziel wird vernichtet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447352
+    m_Localized: 'Erfolgschance: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447353
+    m_Localized: Essbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447354
+    m_Localized: Alles, was diese Pflanze produziert, kann verzehrt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447355
+    m_Localized: Nährstoffreich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447356
+    m_Localized: Nährstoffarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447357
+    m_Localized: Schnelles Wachstum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447358
+    m_Localized: Langsames Wachstum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447359
+    m_Localized: Ertragreich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447360
+    m_Localized: Ertragsarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447361
+    m_Localized: Schmackhaft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447362
+    m_Localized: Unappetitlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447363
+    m_Localized: Dürreresistent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447364
+    m_Localized: Durstig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447365
+    m_Localized: Robust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447366
+    m_Localized: Empfindlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447367
+    m_Localized: Fruchtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447368
+    m_Localized: Unfruchtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447369
+    m_Localized: Einfaches Genom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447370
+    m_Localized: Komplexes Genom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447371
+    m_Localized: Mehrjährig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447372
+    m_Localized: Überlebt die Ernte und produziert erneut Früchte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447373
+    m_Localized: Reinigend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447374
+    m_Localized: Verschmutzend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447375
+    m_Localized: Fest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447376
+    m_Localized: Starke Wirkung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447377
+    m_Localized: Schwache Wirkung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447378
+    m_Localized: Wachstumstempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447379
+    m_Localized: Erntemenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447380
+    m_Localized: Wasserverbrauch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447381
+    m_Localized: Nährstofftolerant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447382
+    m_Localized: Verunreinigungsempfindlichkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447383
+    m_Localized: Startgesundheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447384
+    m_Localized: Kalorien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447385
+    m_Localized: Saatgutertrag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447386
+    m_Localized: Erntefestigkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427712
+    m_Localized: Gesamtes gelagertes Futter entsorgen? {0} kcal gehen damit verloren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427713
+    m_Localized: '{0} kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427714
+    m_Localized: '{0} kcal (Fleisch)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427715
+    m_Localized: Modifiziertes Saatgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427716
+    m_Localized: Anpinnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427717
+    m_Localized: Pin entfernen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427718
+    m_Localized: Sortieren rückgängig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427719
+    m_Localized: 'Angepinnt: Position bleibt beim Sortieren und Entladen unverändert'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078630248448
+    m_Localized: Dein Glück hat verhindert, dass du verletzt wirst!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025664
+    m_Localized: Dein Glück hat dich gerettet! Der Officer hat deine illegalen Waren ignoriert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025665
+    m_Localized: Dein Glück hat dich im Stich gelassen. Du wühlst dich durch den Müllberg und findest rein gar nichts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025666
+    m_Localized: Dein Glück hat dieses Symbol zu deinen Gunsten verändert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025667
+    m_Localized: Dein fehlendes Glück hat dieses Symbol zu deinen Ungunsten verändert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025668
+    m_Localized: Das Glück war bei der Lottoziehung auf deiner Seite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025669
+    m_Localized: Du hattest kein Glück bei der Lottoziehung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902970552320
+    m_Localized: Kann {0} nicht in {1} einsetzen. Module sind gesperrt, solange das Gerät arbeitet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718145
+    m_Localized: Diebe lassen deinen Laden fürs Erste in Ruhe. Noch {0} Nacht/Nächte Schonzeit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025670
+    m_Localized: 'Gelagerte Kalorien: {0}/{1} kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025671
+    m_Localized: 'Fleisch ({0}): {1} kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025672
+    m_Localized: 'Fleisch (Herkunft unbekannt): {0} kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025673
+    m_Localized: 'Sonstige Nahrung: {0} kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025674
+    m_Localized: Rogen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025675
+    m_Localized: Brut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025676
+    m_Localized: ' – {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718144
+    m_Localized: Käufer fanden {0} falsch etikettierte Gegenstände, die sie bei einem deiner Verkaufsautomaten erworben haben. Die Security wurde informiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727931338752
+    m_Localized: 'Aktive Feuchtigkeitsfarmen: {0} (jeweils {1} % Ertrag)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504576
+    m_Localized: Frischer Müll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504577
+    m_Localized: Der Hausmeisterservice der Oberdecks hat gerade eine neue Ladung Müll abgeladen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504578
+    m_Localized: Müll {0} % weniger wahrscheinlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504579
+    m_Localized: Verletzungsgefahr {0} % höher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504580
+    m_Localized: Nur heute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504581
+    m_Localized: Noch {0} Tage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504582
+    m_Localized: Georgios Hilfe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504583
+    m_Localized: Georgio wird dir auf der Müllhalde zur Hand gehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504584
+    m_Localized: Keine Verletzungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504585
+    m_Localized: +{0} Recyclingversuche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504586
+    m_Localized: Sonderwaren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504587
+    m_Localized: Seltenere Waren im Bestand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504588
+    m_Localized: Preise {0} % höher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698880
+    m_Localized: Rabatt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698881
+    m_Localized: Preise {0} % niedriger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698882
+    m_Localized: Diebstahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698883
+    m_Localized: Es gab letzte Nacht einen Einbruch. Jemand hat alle Regale leergeräumt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698884
+    m_Localized: Weniger Waren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698885
+    m_Localized: Neue Lieferung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698886
+    m_Localized: +{0} % des max. Bestands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237053218816
+    m_Localized: Auf deinem Tresen steht eine Dividende für deine Anteile ({0}).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773248
+    m_Localized: Geschlossen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773249
+    m_Localized: Dr. Jackson scheint an Montagen geschlossen zu haben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773250
+    m_Localized: Schäbig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773251
+    m_Localized: Schäbig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836480
+    m_Localized: 'Attraktivität ({0}): {1}/{2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836481
+    m_Localized: Jede „{0}“-Verbesserung erhöht den nächtlichen Energieverbrauch um {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836482
+    m_Localized: Alle {1} „{0}“-Verbesserungen erhöhen den nächtlichen Energieverbrauch um {2}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682702381056
+    m_Localized: 0.22 SR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741184
+    m_Localized: 10 mm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741185
+    m_Localized: .45 AFP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741186
+    m_Localized: 12er-Kaliber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741187
+    m_Localized: Kaliber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741188
+    m_Localized: 'Inventargröße des Ausgabefachs ({0}): {1}/{2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578398818304
+    m_Localized: 'Autom. Mixen: An'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178432
+    m_Localized: 'Autom. Mixen: Aus'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178433
+    m_Localized: Du hast dich lange genug ausgeruht. Du fühlst dich bereit, heute Nacht wieder auszugehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178434
+    m_Localized: Feilschenmalus (Furchtbar im Feilschen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178435
+    m_Localized: Trümmerbeseitigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178436
+    m_Localized: Kann nicht bewegt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178437
+    m_Localized: Du hast den Trümmerhaufen durchsucht anstatt rauszugehen. ({0}/{1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178438
+    m_Localized: Die Räumungstruppe hat Teile des Trümmerhaufens beseitigt. ({0}/{1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178439
+    m_Localized: Der Trümmerhaufen wurde endgültig beseitigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178440
+    m_Localized: 'Stabilität: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178441
+    m_Localized: 'Stabilitätsverlust pro Nacht: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178442
+    m_Localized: 'Verbesserungen: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178443
+    m_Localized: Lädt Batterien und Geräte in der Nähe jede Nacht um {0} auf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178444
+    m_Localized: Dein Reaktor ist zu beschädigt, um den Laden zu versorgen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178445
+    m_Localized: Dein Reaktor wird in der nächsten Nacht explodieren, wenn du ihn nicht reparierst!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178446
+    m_Localized: Kernschmelze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178447
+    m_Localized: Der improvisierte Reaktor hat schließlich aufgrund krimineller Vernachlässigung den Dienst versagt. Die Explosion hat den Laden sowie den umliegenden Block zerstört. Die Security ermittelt, inwieweit Dr. Jackson darin involviert war.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791880241152
+    m_Localized: Junior-Gutachter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601280
+    m_Localized: Gutachter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601281
+    m_Localized: Senior-Gutachter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601282
+    m_Localized: Meister-Gutachter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601283
+    m_Localized: 'Basisgebühr: {0} Credits'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601284
+    m_Localized: '{0}: +{1} % des Schätzwerts'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601285
+    m_Localized: '{0}: abgelehnt'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601286
+    m_Localized: 'Nachfragechance für Gutachten: {0} % pro Tag'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601287
+    m_Localized: 'Qualifizierte Gegenstände:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601288
+    m_Localized: 'Beförderungsfortschritt: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601289
+    m_Localized: 'Beförderung bereit: Der Ausschuss wird dir einen Besuch abstatten.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601290
+    m_Localized: Aktivieren, um auszuwählen, welche Gegenstände von Kunden gebracht werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038272
+    m_Localized: Fast komplett gestreckt. Deine Entzugserscheinungen haben kein bisschen nachgelassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038273
+    m_Localized: Die Entzugserscheinungen sind milder geworden, aber die Dosis war schwach. Der Zustand wird nicht lange anhalten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038274
+    m_Localized: Der Stoff war stark. So bald werden keine Entzugserscheinungen mehr auftreten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86858013764009984
+    m_Localized: Kleine Flasche drucken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86869480580104192
+    m_Localized: Kunden haben in deinen Lieferungen für ihre Marktplatz-Anfragen {0:plural:{} falsch etikettierten Artikel|{} falsch etikettierte Artikel} gefunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051770290176
+    m_Localized: Stromwandler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650304
+    m_Localized: 'Status: an'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650305
+    m_Localized: 'Status: aus'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650306
+    m_Localized: 'Effizienz: 1 kJ kostet {0} Credits'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650307
+    m_Localized: 'Angeschlossen an: {0} ({1} kJ)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650308
+    m_Localized: 'Kosten pro Nacht: {0} Credits'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833481465856
+    m_Localized: NoMore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825984
+    m_Localized: – Ein paar Traumkappen zu Traumkappenbrei mixen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825985
+    m_Localized: "– Das 5-Fache der Menge des Traumkappenbreis an Alkohol hinzugeben\n– Die Mixtur auf 40–50 Grad Celsius erhitzen, um Traumkappenextrakt zu erhalten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825986
+    m_Localized: "– Durch Kaumwollstoff filtern, dann den Verdampfer benutzen\n– (NOTWENDIG) Sämtliches Wasser und Alkohol sind verdampft"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825987
+    m_Localized: '4. Schritt: Reaktion'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825988
+    m_Localized: "– Reduktionsmittel in gleicher Menge wie den Traumkappenextrakt hinzugeben\n– Ein Viertel dieser Menge an Fettbinder hinzugeben\n– Die Mixtur auf 45–55 Grad Celsius erhitzen, um NoMore zu erhalten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825989
+    m_Localized: 'ACHTUNG: TRAUMKAPPENEXTRAKT ZERFÄLLT ÜBER 60 GRAD CELSIUS'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825990
+    m_Localized: '5. Schritt: Verpackung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825991
+    m_Localized: "– Erneut filtern und den Fettbinder verdampfen\n– Im Konfektionsmodul „NoMore-Injektor“ auswählen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825992
+    m_Localized: Dein Laden wurde verwüstet. Jemand hat „FLEISCH“ quer über die Fassade geschrieben ... mit Blut!?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825993
+    m_Localized: Besorgen Sie sich besser eine Waffe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825994
+    m_Localized: Ich bin geduldig. Sobald Sie einen Fuß vor Ihren Laden setzen, warte ich schon.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825995
+    m_Localized: Früher oder später müssen Sie rauskommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825996
+    m_Localized: 'Ohne Waffe gehst du besser nicht los: {0} würde dich umbringen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825997
+    m_Localized: Du spürst, dass dich etwas beobachtet. Gut, dass du eine Waffe dabeihast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825998
+    m_Localized: Metzgerjagd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825999
+    m_Localized: '{0} hat letzte Nacht Besuch von Sawyers Crew bekommen. Er wird niemandes frisches Fleisch mehr verkaufen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510826000
+    m_Localized: Lou hatte dir gesagt, dass du ihre Spielsachen nicht anfassen sollst. Sie hat dir noch ein kleines Geschenk auf dem Tresen hinterlassen, und diesmal war es echt. Die Explosion hat den Laden zerstört und dich getötet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87729210584252416
+    m_Localized: Das Flüssige Glück wirkt nicht mehr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413656555520
+    m_Localized: Das müsste genug Essen für Serpico sein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498560
+    m_Localized: Du hast Serpico {0} kcal Essen auf der Müllhalde hinterlassen ({1}/{2} kcal).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498561
+    m_Localized: Hier ist Serpico. Bei meiner Flucht wurde ich angeschossen. Ich bin jetzt auf der Müllhalde. Ein netter Recycler hat mich zusammengeflickt und mir versprochen, Ihnen diesen Brief zu bringen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498562
+    m_Localized: Bevor ich abgehauen bin, habe ich belastende Beweise eingesteckt. Ich brauche etwas Zeit, um alles zu ordnen, aber ohne Essen schaffe ich das nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498563
+    m_Localized: Ich muss Sie um einen großen Gefallen bitten. Können Sie Essen mit insgesamt {0} kcal auf der Müllhalde ablegen? Lassen Sie es einfach auf dem Boden liegen. Ich hole es, wenn niemand in der Nähe ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498564
+    m_Localized: Ich glaube nicht, dass ich länger als {0:plural:{} Tag|{} Tage} durchhalte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498565
+    m_Localized: Security-Mitarbeiter tot auf der Müllhalde aufgefunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498566
+    m_Localized: Kadett Serpico, gegen den wegen Korruptionsvorwürfen ermittelt wurde, ist tot auf der Müllhalde aufgefunden worden. Die Security hat bislang keine weiteren Angaben gemacht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498567
+    m_Localized: Korruption bei der Security aufgedeckt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498568
+    m_Localized: Auf der ganzen Station wurden Dokumente veröffentlicht, die Korruption innerhalb der Stations-Security belegen. Mehreren niederrangigen Beamten droht nun ein Strafverfahren. Kein hochrangiger Offizier musste bisher Konsequenzen tragen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498569
+    m_Localized: Korruptionsvorwürfe erreichen die Security-Führung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498570
+    m_Localized: Beweise, die einem ranghohen Offizier übergeben wurden, haben zu Anklagen gegen Security-Beamte aller Ränge geführt. Eine neue Antikorruptions-Einheit wurde gegründet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498571
+    m_Localized: 'Du konntest Lou nicht bezahlen, was du ihr geschuldet hast, also hat sie die Sache auf ihre Art geregelt: ein kleines Geschenk auf deinem Tresen, und diesmal war es echt. Die Explosion hat den Laden zerstört und dich getötet.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498572
+    m_Localized: Hochrangiger Admiral bei Besuch ermordet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498573
+    m_Localized: Ein Admiral der Republik ist gestern Nacht bei seinem Besuch zusammen mit seiner Eskorte in der Nähe der Andockbuchten erschossen worden. Zeugen zufolge ging die Schützin, eine blonde Frau in einer gestohlenen Security-Uniform, direkt auf die Gruppe des Admirals zu, bevor sie das Feuer eröffnete. Beamte vor Ort trafen sie mehrfach, doch sie entkam. Von ihr fehlt jede Spur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624640
+    m_Localized: 'Gerubbelte Lose: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624641
+    m_Localized: 'Durchschnittsgewinn: {0} Credits'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624642
+    m_Localized: Dein Laden wurde über Nacht verwüstet. „JOHN SMITH“ steht in riesigen Buchstaben quer über die Fassade gesprüht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624643
+    m_Localized: 'Anheft-Modus: Klicke auf einen Gegenstand, um ihn anzuheften oder zu lösen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624644
+    m_Localized: '{0} kann nicht angeheftet werden: Nur eigene Gegenstände in einem Inventar lassen sich anheften.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624645
+    m_Localized: Klicke, um {0} anzuheften.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624646
+    m_Localized: Klicke, um {0} zu lösen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022676185088
+    m_Localized: Füllt {0:plural:jeden Tag|alle {} Tage} 1 Anwendung auf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350912
+    m_Localized: Nächste Anwendung in {0} Tagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350913
+    m_Localized: Nächste Anwendung morgen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350914
+    m_Localized: Gebraucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350915
+    m_Localized: Der Schwarzmarkt hat dir {0} Credits für Eleanors Datenträger gezahlt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350916
+    m_Localized: Nutrifrucht-Geheimnis von pastel durchgesickert!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350917
+    m_Localized: Eine Forschungsarbeit wurde veröffentlicht, die zeigt, wie gewöhnliche Nutrifrüchte wieder Samen tragen. Biohacker auf der ganzen Station züchten bereits die neue Sorte, und die Saatgutpreise sind eingebrochen. Am selben Morgen wurde die frühere Leiterin der größten Hydrokulturfarm der Station, die wegen Veruntreuung inhaftiert war, tot in ihrer Zelle aufgefunden. pastel wollte sich nicht äußern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350918
+    m_Localized: Reiter {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022705545216
+    m_Localized: 'Lagerreiter: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575454130176
+    m_Localized: Hypertech-Schmuggler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490304
+    m_Localized: Noch keine Presets. Aktiviere es, um welche anzulegen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490305
+    m_Localized: '{0}: {1} ({2} Gegenstände)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490306
+    m_Localized: '{0}: {1} (1 Gegenstand)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490307
+    m_Localized: keine Taste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490308
+    m_Localized: 'Leistung: {0} kJ pro Zyklus, unbegrenzt'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490309
+    m_Localized: 'Upgrade: Elektronikteile (Hypertech), je +{0} kJ Leistung ({1} eingesetzt)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490310
+    m_Localized: 'Angeschlossen an: {0} ({1} kJ)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490311
+    m_Localized: Geräteverbrauch innerhalb der Leistung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490312
+    m_Localized: 'Geräteverbrauch über der Leistung: kein Strom'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490313
+    m_Localized: 'Ladung: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490314
+    m_Localized: 'Gespeicherte Boosts: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490315
+    m_Localized: 'Ladetempo: {0} pro Zyklus (Stufe {1}), zieht {0} kJ aus seiner Energiezelle'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490316
+    m_Localized: Verwende einen fortschrittlichen Turbobooster darauf, um Ladetempo und Stromverbrauch dauerhaft zu erhöhen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684608
+    m_Localized: 'Ladung: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684609
+    m_Localized: 'Abklingzeit: noch {0} Tage'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684610
+    m_Localized: 'Abklingzeit: noch 1 Tag'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684611
+    m_Localized: Bereit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684612
+    m_Localized: Verwende Elektronikteile (Hypertech) darauf, um 1 Ladung hinzuzufügen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777344
+    m_Localized: Einstellungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777345
+    m_Localized: Ausgabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777346
+    m_Localized: Käfig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777347
+    m_Localized: Becken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777348
+    m_Localized: Jetzt schlachten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777349
+    m_Localized: Inhalt schlachten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777350
+    m_Localized: Einstellungen kopieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777351
+    m_Localized: Einstellungen einfügen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777352
+    m_Localized: Ablegen schlachtet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777353
+    m_Localized: Nur töten und lagern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777354
+    m_Localized: Ernte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777355
+    m_Localized: Zuchttiere behalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777356
+    m_Localized: Aus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777357
+    m_Localized: Nur Kadaver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777358
+    m_Localized: Gewicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360256
+    m_Localized: Alter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360257
+    m_Localized: 'Gewicht: {0} bis {1} g'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360258
+    m_Localized: 'Gewicht: ab {0} g'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360259
+    m_Localized: 'Alter: {0} bis {1} Tage'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360260
+    m_Localized: 'Alter: ab {0} Tagen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360261
+    m_Localized: Weibchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360262
+    m_Localized: Männchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360263
+    m_Localized: Benannte und markierte zählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360264
+    m_Localized: Jedes markierte oder benannte Tier zählt zu den behaltenen Weibchen und Männchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360265
+    m_Localized: Trächtige verschonen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360266
+    m_Localized: Kranke aussondern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360267
+    m_Localized: Prionenträger aussondern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360268
+    m_Localized: Laichfische verschonen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360269
+    m_Localized: Kadaver filetieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360270
+    m_Localized: Fleisch in den Futterautomaten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360271
+    m_Localized: Unbefruchteten Rogen einsammeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360272
+    m_Localized: 'Letzter Lauf: {0} geschlachtet'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360273
+    m_Localized: 'Letzter Lauf: {0} geschlachtet, {1} Rogen eingesammelt'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360274
+    m_Localized: Die Ablage des Auto-Schlachters ist voll.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360275
+    m_Localized: Schlachter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360276
+    m_Localized: Tinte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360277
+    m_Localized: Rot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360278
+    m_Localized: Lila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360279
+    m_Localized: Grün
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360280
+    m_Localized: Blau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360281
+    m_Localized: Orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360282
+    m_Localized: Radierer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360283
+    m_Localized: 'Tinte: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052836904960
+    m_Localized: Nicht verbunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070784
+    m_Localized: Verbunden mit {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070785
+    m_Localized: Verbunden mit {0} ({1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070786
+    m_Localized: Laden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070787
+    m_Localized: 'Reihenfolge: {0} ({1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070788
+    m_Localized: Vor den Geräten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070789
+    m_Localized: Nach den Geräten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070790
+    m_Localized: Nach allem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070791
+    m_Localized: Bewegt alles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070792
+    m_Localized: Bewegt nur die gelisteten Gegenstandsarten ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070793
+    m_Localized: Bewegt alles außer den gelisteten Gegenstandsarten ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070794
+    m_Localized: Behält {0} von jeder Gegenstandsart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070795
+    m_Localized: 'Behalten: nichts, alles bewegen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070796
+    m_Localized: Auch laufen, wenn ein Gegenstand hinzukommt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070797
+    m_Localized: Auch laufen, wenn dieser Trichter bewegt wird
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070798
+    m_Localized: Jetzt übertragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070799
+    m_Localized: Trennen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070800
+    m_Localized: Gegenstände hinzufügen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070801
+    m_Localized: Filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070802
+    m_Localized: Alles bewegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070803
+    m_Localized: Nur die Positivliste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070804
+    m_Localized: Alles außer der Sperrliste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070805
+    m_Localized: Klicke auf einen Gegenstand, um ihn der Liste hinzuzufügen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070806
+    m_Localized: 'Die Positivliste ist leer: Nichts wird bewegt, bis du Gegenstände hinzufügst.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070807
+    m_Localized: 'Die Sperrliste ist leer: Alles wird bewegt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070808
+    m_Localized: Klicken, um {0} von der Liste zu entfernen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070809
+    m_Localized: '{0} kann nicht auf die Liste.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070810
+    m_Localized: '{0} steht schon auf der Liste.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070811
+    m_Localized: Klicken, um {0} der Liste hinzuzufügen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89088954657980416
+    m_Localized: 'Füttern bis: {0} % Hunger'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664064
+    m_Localized: '{0}: {1} ul (-{2} ul/Tag)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664065
+    m_Localized: Inspektionsbericht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664066
+    m_Localized: '1 Gegenstand beschlagnahmt: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664067
+    m_Localized: '{0} Gegenstände beschlagnahmt: {1}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664068
+    m_Localized: '{0} und {1} weitere'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664069
+    m_Localized: '{0} ({1} Credits)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664070
+    m_Localized: ', '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664071
+    m_Localized: Steigt mit jedem Tag ohne Kunden, ausgehend von {0} %
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89359339031252992
+    m_Localized: 'Maximale Reinheit: {0} %'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366424240128
+    m_Localized: 'Das Essen verschafft Serpico einen weiteren Tag. Verbleibende Nächte für den Rest: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366449405952
+    m_Localized: Georgio hat Serpico eine Kiste Nutrifrüchte auf der Müllhalde hinterlassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90934939390533632
+    m_Localized: 'Der Alarm wurde nicht scharfgeschaltet: Seine Zelle kann die {0} kJ, die er pro Nacht verbraucht, nicht liefern.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522599710720
+    m_Localized: Dein Körper trägt bleibende Schäden durch das Syndrom davon. Noch ist es nicht gefährlich, aber es wird nicht mehr verschwinden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070848
+    m_Localized: Dein Körper verkraftet keine weitere ausgelassene Injektion. Noch eine verspätete Injektion, und du stirbst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070849
+    m_Localized: ENERGIE UNZUREICHEND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070850
+    m_Localized: Farbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070851
+    m_Localized: Konfigurieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070852
+    m_Localized: '{0} Credits wurden deinem Konto gutgeschrieben. {1} wurde an deinem Tresen ausgeschaltet und als Festnahme verbucht.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070853
+    m_Localized: Nutrifrüchtchen. Das hat gesessen. Ich bin nicht sauer, ich bin BEEINDRUCKT. Aber ein Mädchen hat Ausgaben. Füll dieses Schließfach mit Waren im Wert von {0} Credits und lass es beim Schließen auf deinem vorderen Tresen stehen. Du hast {1} Nächte. In der Nacht danach fliegt der ganze Laden in die Luft. Küsschen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070854
+    m_Localized: Nutrifrüchtchen! Du hast geliefert. Ich wusste, dass du es in dir hast. Eine Kleinigkeit für den Laden. Küsschen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070855
+    m_Localized: Schießerei in den Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070856
+    m_Localized: Bewohner der Unterdecks meldeten gestern Nacht anhaltendes Gewehrfeuer aus einem verlassenen Lagerhaus im alten Frachtbezirk. Die Security fand das Gebäude mit Stolperdrähten gesichert und darin die Leichen mehrerer schwer bewaffneter Personen in Zivil, keine davon mit Stationsausweis. Niemand hat sich gemeldet, um sie zu identifizieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230687866880
+    m_Localized: '{0} / {1} Credits an Waren, die Lou verlangt hat.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230721421312
+    m_Localized: '{0:plural:Noch {} Nacht|Noch {} Nächte}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93331566923399168
+    m_Localized: 'Nutrifrüchtchen. Mein Schließfach schon verloren? Schlampig. Hier ist noch eins, gleicher Deal: Waren im Wert von {0} Credits, beim Schließen auf deinem vorderen Tresen, {1} Nächte. Ein drittes gibt es nicht. Küsschen.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

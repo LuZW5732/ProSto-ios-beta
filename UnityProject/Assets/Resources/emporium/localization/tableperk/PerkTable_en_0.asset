@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PerkTable_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 121ca1bc99fe66246ac98a4fd477ca17, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1443059515392
+    m_Localized: Savings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267617513472
+    m_Localized: Start with an additional {0} Credits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902080
+    m_Localized: Bad Lease
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902081
+    m_Localized: Your starting rent is increased by {0} Credits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902086
+    m_Localized: Convict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902087
+    m_Localized: Start with an additional {0} Security Reputation and will receive {1}% less reward for reporting customers on the Wanted List.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902088
+    m_Localized: Model Citizen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902089
+    m_Localized: Start with an additional +{0} Security Reputation and will receive {1}% more reward for reporting customers on the Wanted List.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902090
+    m_Localized: Well Connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902091
+    m_Localized: Start with an additional {0} Reputation with all factions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902092
+    m_Localized: Vigilant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902093
+    m_Localized: You will never get robbed during the night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902094
+    m_Localized: Sawyer's Crew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902095
+    m_Localized: The Underground Exchange is available from the start. Janitorial Service is always free,  unless the Store is vandalized. Vandalism clean up cost is significantly reduced.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902096
+    m_Localized: Diplomatic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902097
+    m_Localized: Reputation generated from trade is increased by {0}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902098
+    m_Localized: Intimidating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902099
+    m_Localized: All committed crimes generate {0}% less available evidence.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902100
+    m_Localized: Side Street
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902101
+    m_Localized: You get one less random customer per day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902102
+    m_Localized: Nicotine Addiction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902103
+    m_Localized: You will suffer a trade penalty of {0}% if you don't consume nicotine regularly. The addiction can be cured.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902104
+    m_Localized: Narcotic Addiction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902105
+    m_Localized: You will suffer a trade penalty of {0}% if you don't consume narcotics regularly. The addiction can be cured.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902106
+    m_Localized: Alcohol Addiction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902107
+    m_Localized: You will suffer a trade penalty of {0}% if you don't consume alcohol regularly. The addiction can be cured.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902108
+    m_Localized: Secret Admirer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902109
+    m_Localized: You will occasionally receive random items from a secret admirer when opening the Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902110
+    m_Localized: Colorful Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902111
+    m_Localized: Allows you to have {0} additional starting perk slots.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902112
+    m_Localized: Blackmail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902113
+    m_Localized: You have a questionable past and a blackmailer is threatening to expose your secret. You will have to pay them a small weekly fee or they will expose you,  leading to a major one-time loss to your reputation across most factions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902114
+    m_Localized: Blabbermouth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902115
+    m_Localized: All committed crimes generate {0}% more available evidence. You will gain 50% less reputation with the Black Market and the Revolution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902116
+    m_Localized: Unsubscribed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902117
+    m_Localized: You will not receive the daily newspaper that informs you about ongoing events.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902118
+    m_Localized: Minimalist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902119
+    m_Localized: Your main inventory is reduced 20x10 instead of 24x10.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902120
+    m_Localized: Sentinel Collapse Disorder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902121
+    m_Localized: You suffer from a deadly, incurable auto-immune condition and must take a weekly Immunivax injection to stay alive. Start the game with 1 Immunivax Injector.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902124
+    m_Localized: Speedy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902125
+    m_Localized: You can visit up to 2 after-hours locations every night.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902126
+    m_Localized: Agoraphobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902128
+    m_Localized: Welfare Program
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902129
+    m_Localized: The Commissary is available from the start.  On Mondays, you may receive Food Stamps depending on your total wealth.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902130
+    m_Localized: Proficient Scavenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902131
+    m_Localized: You can perform up to 2 additional Search actions in the Dumping Grounds every time you visit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902132
+    m_Localized: Revolution Sympathizer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902133
+    m_Localized: Start with an additional {0} Reputation with The Revolution. You will receive Marketplace Requests from The Revolution more frequently.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902134
+    m_Localized: Gambling Addiction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902135
+    m_Localized: You will always buy some Lottery Tickets when possible. All lottery content is unlocked from the start. The addiction can be cured.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902136
+    m_Localized: Tapehead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902137
+    m_Localized: You start with all music cassettes available inside the cassette player.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902138
+    m_Localized: Expedition Organizer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902139
+    m_Localized: You can hire certain characters and organize expeditions. Unlock Expedition content from the start along with a Hireling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902140
+    m_Localized: Vending Machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902141
+    m_Localized: Start with a vending machine installed in front of your store. Allow customers to purchase items automatically during after-hours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12200241315840
+    m_Localized: Perk Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313910013952
+    m_Localized: Short Sleeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791168
+    m_Localized: You won't miss out on any customers when going out during after-hours activities the night before.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791169
+    m_Localized: Working Pipes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791170
+    m_Localized: You will start with the water lines already connected with unlimited Rustwater.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791171
+    m_Localized: Illiterate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791172
+    m_Localized: You won't be able to read any guide.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791173
+    m_Localized: Prime Real Estate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313930985472
+    m_Localized: '1 more normal customer will visit everyday but starting rent cost {0} credit more. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876391931904
+    m_Localized: Degenerative Osteoarthritis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263552
+    m_Localized: Scavenging in the dumping ground works normally for the first week. After that, you lose 1 max scavenging attempt every week that passes. Once your max attempts fall below {0}, you can no longer scavenge at all. Normal shopkeepers start with {1} daily max attempts. Start with {2} additional topical medication bandages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263553
+    m_Localized: Known Snitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263554
+    m_Localized: Customers from the wanted poster will never visit your store. Start with {0} reputation with the Revolution and the Black Market.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180758536192
+    m_Localized: Handy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673536
+    m_Localized: 'Start with a shabby toolbox and a set of shabby tools: a screwdriver, a wire cutter, a crowbar and a plasma cutter.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673537
+    m_Localized: Public Enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673538
+    m_Localized: Start with {0} Reputation with all factions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673539
+    m_Localized: Ascetic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673540
+    m_Localized: Your main inventory is reduced to {0}x10 instead of 24x10.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673541
+    m_Localized: Maimed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673542
+    m_Localized: The Dumping Ground is not available. You cannot scavenge at all.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673543
+    m_Localized: Wild's Favorite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673544
+    m_Localized: All upgrades from Wild's Network cost {0}% less. Insurance costs {1}% less.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673545
+    m_Localized: On Wild's Bad Side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673546
+    m_Localized: All upgrades from Wild's Network cost {0}% more. Insurance costs {1}% more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673547
+    m_Localized: Aug Menace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673548
+    m_Localized: The Augmented content is unlocked at the start of the game. Earn {0}% more credits for killing an aug. The aug menace never ends, and letting too many augs get away ends the game on every difficulty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673549
+    m_Localized: Lucky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673550
+    m_Localized: Increases your luck. Probably.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673551
+    m_Localized: Unlucky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673552
+    m_Localized: Decreases your luck. Probably.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520854233088
+    m_Localized: You are unable leave the Store to visit any after-hours locations.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593216
+    m_Localized: Tinkerer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593217
+    m_Localized: When you upgrade an item, there is a {0}% chance the material used is not consumed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593218
+    m_Localized: Careful Scavenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593219
+    m_Localized: You can perform {0} fewer actions in the Dumping Grounds every time you visit, but you never get injured while searching.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593220
+    m_Localized: Sycophant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593221
+    m_Localized: Start with an additional +{0} Upper Levels Reputation. Reputation gained with the Upper Levels is increased by {1}%, and Upper Level customers have {2}% more budget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593222
+    m_Localized: After visiting an after-hours location, you must rest at the Store for {0} nights before going out again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593223
+    m_Localized: Awful Negotiator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593224
+    m_Localized: You cannot bargain with customers, and you suffer a permanent trade penalty of {0}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593225
+    m_Localized: Banned from the Commissary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593226
+    m_Localized: The Commissary is not available, and food stamps are never introduced.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593227
+    m_Localized: Hoarder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593228
+    m_Localized: Start with three piles of immovable debris along the bottom of your inventory. Each pile can be removed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593229
+    m_Localized: Makeshift Reactor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593230
+    m_Localized: You are permanently disconnected from the station power grid and are not affected by blackouts. Start with an upgradable Makeshift Micro Nuclear Reactor sold to you by Dr. Jackson. It powers the Store but needs regular repairs.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

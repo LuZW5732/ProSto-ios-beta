@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 00168f6b881b17d49a52d88adb03554e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: Sube la persiana metálica.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: Llama al próximo cliente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: Haz clic derecho en un artículo para mostrar el menú de interacción.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: '[Leer] Nota'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: Cerrar la tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: También puedes hacer doble clic sobre un artículo para interactuar con él.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: Arrastra la nota al manual para guardarla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: Trasfiere instantáneamente un artículo con Ctrl + Clic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: Repasa los diálogos con la grabadora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: Guarda el cuaderno en la caja archivadora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: Ctrl + Clic o arrastra el artículo que quieras COMPRAR para ponerlo en el mostrador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: Mirar tablet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: Ctrl + Clic o arrastra el artículo que quieras VENDER para ponerlo en el mostrador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: Acostarse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: Transferir TODO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[Trueque]: Coloca el artículo que busca el cliente sobre el mostrador.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: Los servicios pueden activarse o desactivarse cada noche.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: Salir de la tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: Puedes colocar artículos en el expositor antes de subir la persiana para atraer cierto tipo de clientes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: Comprueba el diagnosticador de clientela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: Comprobar reputación
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: Abre el menú de negociación
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: A través del menú de negociación, podrás pedir más créditos u ofrecer mejores precios a tus clientes, lo que afecta a sus presupuestos y a la cantidad de reputación que genera la interacción.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: Pulsa la barra espaciadora para avanzar el diálogo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: Mantén pulsado el botón izquierdo y arrastra el ratón para seleccionar varios objetos a la vez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: Haz clic derecho en un espacio vacío del inventario para mostrar las opciones para ordenar.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

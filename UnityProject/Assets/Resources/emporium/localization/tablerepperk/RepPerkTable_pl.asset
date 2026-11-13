@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: RepPerkTable_pl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 45c4f39619603fc4d843907cae64818b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1034312007680
+    m_Localized: Polecenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1174275932160
+    m_Localized: Codziennie {0}% szans na zwiększenie liczby losowych klientów o {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214239260672
+    m_Localized: Na Niższych Poziomach plotki szybko się rozchodzą. Zadowolony klient to nie tylko pozycja w księgach. To najlepsza reklama.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773368455168
+    m_Localized: Uliczne plotki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649472
+    m_Localized: Raz na jakiś czas otrzymasz z Niższych Poziomów sygnał o nadchodzących wydarzeniach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649473
+    m_Localized: Ściany Niższych Poziomów mają uszy. Jeśli właściciele tych uszu ci ufają, nie zapomną przekazać ci pogłosek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649474
+    m_Localized: Rzadkie dobra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649475
+    m_Localized: Twój sklep zaczną odwiedzać klienci nowego rodzaju oferujący dobra rzadkie lub kontrabandę.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649476
+    m_Localized: Dzięki odpowiednim znajomościom nawet na Niższych Poziomach może trafić się coś wartościowego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649477
+    m_Localized: Gęby na kłódkę
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649478
+    m_Localized: Sprzedaż kontrabandy klientom z Niższych Poziomów wygeneruje tylko {0:P0} jej bazowej wartości dostępnych dowodów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649479
+    m_Localized: Ufają ci. Wiedzą, że jesteś po ich stronie i cię nie wsypią.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649480
+    m_Localized: Sól Niższych Poziomów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649481
+    m_Localized: Otrzymasz zniżkę o wartości {0}% u Joego Wilda i Dr. Jacksona.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649482
+    m_Localized: Niższe Poziomy cię szanują. Nawet inni przywódcy społeczności doceniają twoją pracę.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649483
+    m_Localized: Kiepskie recenzje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649484
+    m_Localized: Codziennie {0}% szans na zmniejszenie liczby losowych klientów o {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649485
+    m_Localized: Wystarczy kilku niezadowolonych klientów i reputacja na Niższych Poziomach leci w dół.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649486
+    m_Localized: Brak zaufania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649487
+    m_Localized: Klienci z Niższych Poziomów nie będą ci już sprzedawać przedmiotów z kontrabandy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649488
+    m_Localized: Niższe Poziomy przestały ci ufać. Sprzedający kontrabandę będą unikać twojego sklepu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649489
+    m_Localized: Cel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649490
+    m_Localized: Częściej będziesz celem złodziei. Ubezpieczenie będzie kosztować {0}x.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649491
+    m_Localized: Przez kiepską reputację stajesz się celem. Niższe Poziomy pamiętają.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649492
+    m_Localized: Parias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649493
+    m_Localized: Wszyscy dostawcy odmawiają rozmowy. Dr Jackson nie odwiedzi cię w sklepie, chyba że w specjalnych okolicznościach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649494
+    m_Localized: Nikt nie przyzna się teraz, że cię zna. Boją się o własną reputację.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649495
+    m_Localized: Samosąd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649496
+    m_Localized: Tłum z Niższych Poziomów zaatakuje sklep i cię zlinczuje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649497
+    m_Localized: Mieszkańcy Niższych Poziomów mają dość i wezmą sprawy w swoje liczne ręce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649498
+    m_Localized: Zaopatrzenie w cenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649499
+    m_Localized: Oficer Zaopatrzeniowy Ochrony odwiedzi czasami sklep, by kupić żywność i wyroby medyczne. Handel z nim zwiększa reputację.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649500
+    m_Localized: Ochrona Stacji musi gdzieś się zaopatrywać. Zapłacą uczciwą cenę.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649501
+    m_Localized: To tylko wiatr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649502
+    m_Localized: Ochrona przestanie reagować na twoje alarmy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649503
+    m_Localized: Być może zbyt często podnosisz fałszywe alarmy albo po prostu pomaganie ci nie jest tego warte. Wszystko jedno – kiedy przyjdzie co do czego, możesz liczyć tylko na siebie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649504
+    m_Localized: Lista podejrzanych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649505
+    m_Localized: Ochrona dodała cię do listy podejrzanych. Wszystkie śledztwa w twojej sprawie będą toczyć się z mnożnikiem x{0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649506
+    m_Localized: Twoja reputacja przyciągnęła uwagę Ochrony Stacji. Nie wychylaj nosa, bo możesz go stracić.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649507
+    m_Localized: Recydywa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649508
+    m_Localized: Śledztwa w twojej sprawie toczą się z mnożnikiem x{0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649509
+    m_Localized: Kolejny dzień, kolejna teczka z twoim imieniem na biurku Szefa Ochrony Stacji…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649510
+    m_Localized: Pod każdy kamień
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649511
+    m_Localized: Ochrona nie będzie już wysyłać leniwych lub podejrzanych inspektorów, a kontrole będą teraz częstsze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649512
+    m_Localized: Koniec z taryfą ulgową i zadziwiająco niedowidzącymi inspektorami. Przy każdej wizycie zajrzą wszędzie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649513
+    m_Localized: Bez litości
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649514
+    m_Localized: Ochrona będzie wyciągać maksymalne dopuszczalne przez prawo kary za kontrabandę znalezioną podczas kontroli.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649515
+    m_Localized: Koniec ostrzeżeń. Koniec łapówek. Nawet najmniejsza kontrabanda doprowadzi do poważnych problemów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649516
+    m_Localized: Za wszelką cenę
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649517
+    m_Localized: Ochrona natychmiast aresztuje cię i wsadzi do więzienia bez względu na dowody (lub ich brak).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649518
+    m_Localized: Kiedy masz zniknąć, żadna prawda cię nie ochroni. Dopilnują, by znalazły się odpowiednie „dowody”.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843776
+    m_Localized: Wsparcie Ochrony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843777
+    m_Localized: Ze względu na twoją dobrą reputację w Wydziale Ochrony złodzieje mniej chętnie napadają na sklep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843778
+    m_Localized: Bycie pod stałą obserwacją Ochrony miewa swoje plusy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843779
+    m_Localized: Demobil Ochrony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843780
+    m_Localized: Handlarz Mienia Ochrony od czasu do czasu odwiedzi sklep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843781
+    m_Localized: Ochrona Stacji zgodziła się sprzedawać ci sprzęt z demobilu, w tym broń i pancerze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843782
+    m_Localized: Zaufany sprzedawca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843783
+    m_Localized: Handlarz Mienia Ochrony zapewni lepsze towary, a klienci z Ochrony będą mieli o {0}% więcej kredytów do wydania.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843784
+    m_Localized: Ochrona Stacji uznała cię za zaufanego kontrahenta. Będzie chciała z tobą częściej współpracować.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843785
+    m_Localized: VIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843786
+    m_Localized: Ze względu na twoją świetną reputację w Wydziale Ochrony złodzieje przestaną napadać na sklep. Skończą się również kontrole.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843787
+    m_Localized: Jesteś nie do ruszenia. Ochrona jest po twojej stronie i nie pozwoli, by ktokolwiek z tobą zadarł.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843788
+    m_Localized: Zaufanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843789
+    m_Localized: Kontrole będą zdarzały się rzadziej, a śledztwa toczyły wolniej. Otrzymasz dodatkowe ostrzeżenie o nadchodzących operacjach Ochrony.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843790
+    m_Localized: Więcej zaufania to mniejszy ból głowy wywołany przez Ochronę. Kontrole będą przeprowadzane rzadko.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843791
+    m_Localized: Podziemna sieć
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843792
+    m_Localized: Otrzymasz wcześniejsze powiadomienia o większości wydarzeń Czarnego Rynku.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843793
+    m_Localized: Liczy się to, kogo znasz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843794
+    m_Localized: Czarna lista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843795
+    m_Localized: Klienci z Czarnego Rynku przestaną sprzedawać ci przedmioty z kontrabandy. Podziemna Giełda nie będzie świadczyć usług. Usługi dozorców kosztują dwa razy więcej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843796
+    m_Localized: Kredyty nic nie znaczą, kiedy nikt ci nie ufa na tyle, by z tobą handlować.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843797
+    m_Localized: Wysokie ryzyko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843798
+    m_Localized: Ubezpieczenie stanie się niedostępne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843799
+    m_Localized: Ze względu na twoją kiepską reputację na Czarnym Rynku Joe Wild nie będzie cię już ubezpieczał. Jesteś samotnym wilkiem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843800
+    m_Localized: Pośrednik niższego szczebla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843801
+    m_Localized: Zwiększa się szansa na odwiedzenie sklepu przez drobnych złodziei. Jakość ich dóbr wzrasta wraz z reputacją na Czarnym Rynku.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843802
+    m_Localized: Zaczynasz zyskiwać reputację na Czarnym Rynku.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843803
+    m_Localized: Złodziejski honor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843804
+    m_Localized: Reputacja na Czarnym Rynku zmniejsza się w tempie x{0} bez względu na bieżącą reputację.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843805
+    m_Localized: Zaufanie to nasza waluta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843806
+    m_Localized: Bezpieczne ręce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843807
+    m_Localized: Raz w tygodniu gwarantowana jest wizyta złodzieja. Wszyscy złodzieje będą teraz sprzedawać ulepszone dobra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843808
+    m_Localized: Złodzieje z Czarnego Rynku wiedzą, że ich nie zawiedziesz i chętniej będą z tobą pracować.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843809
+    m_Localized: Plotkarze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843810
+    m_Localized: Otrzymasz wcześniejsze powiadomienia o większości wydarzeń Wyższych Poziomów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843811
+    m_Localized: Strumień plotek nigdy się nie zatrzymuje… i czasem można z niego wyłowić coś przydatnego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843812
+    m_Localized: Napiwek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843813
+    m_Localized: Otrzymasz premię o wartości {0}% podczas sprzedaży przedmiotów klientom z Wyższych Poziomów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843814
+    m_Localized: Nie targują się. Zostawiają za to kilka dodatkowych kredytów i nazywają to dobrymi manierami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843815
+    m_Localized: Dobroczynność Wyższych Poziomów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843816
+    m_Localized: Patron z Wyższych Poziomów czasami przekaże dobra do sklepu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843817
+    m_Localized: Robi to na użytek PR-u czy z czystej dobroci? Darowanym towarom nie zagląda się w zęby.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843818
+    m_Localized: Znana marka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843819
+    m_Localized: Codziennie masz {0}% szans otrzymanie {1} dodatkowego klienta z Wyższych Poziomów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843820
+    m_Localized: Twój sklep jest na ustach Wyższych Poziomów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843821
+    m_Localized: Fantastyczne recenzje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843822
+    m_Localized: Wszyscy klienci z Wyższych Poziomów mają o {0}% więcej kredytów do wydania.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843823
+    m_Localized: Twój sklep to najgorzej strzeżony sekret Wyższych Poziomów. Klienci z Wyższych Poziomów skłonni są wydawać więcej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843824
+    m_Localized: Mekka turystów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843825
+    m_Localized: Klienci z Wyższych Poziomów rzadziej odwiedzają twój sklep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843826
+    m_Localized: Klienci z Wyższych Poziomów mają swoje wymagania. A ostatnio ich nie spełniasz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843827
+    m_Localized: Petycja do Ochrony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843828
+    m_Localized: Tracisz reputację w Wydziale Ochrony {0}x szybciej, a aktywne śledztwa toczą się {1:P0} szybciej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843829
+    m_Localized: Korzystając ze swoich wpływów, Wyższe Poziomy poprosiły, by Ochrona bacznie cię obserwowała.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843830
+    m_Localized: Wynajęty zabójca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843831
+    m_Localized: Ktoś z Wyższych Poziomów chce się ciebie natychmiast pozbyć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843832
+    m_Localized: W luksusowych apartamentach powyżej podpisano kontrakt. Z niektórymi nie warto zadzierać.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843833
+    m_Localized: Relacje z Rewolucją
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843834
+    m_Localized: Otrzymasz wcześniejsze powiadomienia o większości wydarzeń Rewolucji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843835
+    m_Localized: Rewolucja upewni się, że nie trafisz w krzyżowy ogień.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843836
+    m_Localized: Lista celów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843837
+    m_Localized: Oddział siepaczy Rewolucji dostał rozkaz, by cię natychmiast zlikwidować.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843838
+    m_Localized: Jesteś teraz wrogiem Rewolucji. Nie cofną się przed niczym.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843839
+    m_Localized: Czarna lista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843840
+    m_Localized: Klienci sympatyzujący z Rewolucją będą rzadziej odwiedzać twój sklep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843841
+    m_Localized: Między komórkami Rewolucji krąży powiadomienie, które ostrzega przed robieniem z tobą interesów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843842
+    m_Localized: Zapotrzebowania rynkowe Rewolucji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843843
+    m_Localized: Raz na jakiś czas otrzymasz zapotrzebowania rynkowe od różnych komórek Rewolucji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843844
+    m_Localized: Każdy według swoich zdolności, każdemu według jego potrzeb.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843845
+    m_Localized: Łup z napadów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843846
+    m_Localized: Członkowie Rewolucji będą czasami odwiedzać sklep, by sprzedać łup z napadów. Ceny spadają wraz z reputacją w Rewolucji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843847
+    m_Localized: Wyzwolenie ludzi wymaga wyzwolenia zasobów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843848
+    m_Localized: Kwatermistrz Rewolucji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843849
+    m_Localized: Kwatermistrz Rewolucji odwiedzi czasami sklep, by sprzedać materiały po obniżonej cenie. Zniżka rośnie wraz z reputacją w Rewolucji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843850
+    m_Localized: Rewolucje nie wyżywią się ideami. Kwatermistrzowie sprzedają tanie towary, by po cichu fundować kolejną akcję.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843851
+    m_Localized: Wymuszona emerytura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843852
+    m_Localized: Kartel nasyła na ciebie zabójcę.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843853
+    m_Localized: Czasami uśpienie to najlepsze wyjście dla psa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843854
+    m_Localized: Zwiększona pensja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843855
+    m_Localized: Tygodniowa pensja rośnie wraz z reputacją w Kartelu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843856
+    m_Localized: To nie z dobroci serca, to inwestycja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843857
+    m_Localized: Niezawodni chemicy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843858
+    m_Localized: Zgłaszanie zapotrzebowania na dodatkowe materiały kosztuje {0}% standardowej wartości reputacji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843859
+    m_Localized: Kartel nagradza konsekwentność. I usługi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843860
+    m_Localized: Zaaprobowane odejście
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843861
+    m_Localized: Twój kontakt w Kartelu zacznie przetwarzać proces odejścia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843862
+    m_Localized: Masz szczęście. Większość opuszcza Kartel w worku na ciała…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314774175744
+    m_Localized: Wyrafinowany gust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730176
+    m_Localized: Gdy na wystawie masz przedmiot luksusowy, każdego dnia istnieje {0}% szans na odwiedziny jednego dodatkowego klienta, który chce zakupić przedmioty luksusowe. Efekt wzrasta z reputacją. Taki klient może cię odwiedzić raz na {1} dni.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730177
+    m_Localized: Coś drogiego na witrynie w Niższych Poziomach? Mieszkańcy Wyższych Poziomów zejdą po niego tylko po to, by powiedzieć, że znaleźli go pierwsi.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 00e2e9faf693a7b4ebe7f85dd0053af1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: Открыть задвижную дверь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: Позвать следующего клиента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: Щёлкните по предмету правой кнопкой мыши, чтобы открыть меню взаимодействия
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: '[Прочитать] заметку'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: Закрыть магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: Также вы можете нажимать на предмет двойным щелчком мыши, чтобы взаимодействовать с ним
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: Перетащите заметку в блокнот, чтобы сохранить её
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: Быстро переместите предмет, щёлкнув по нему мышью при нажатой клавише Ctrl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: Переслушайте диалог с помощью диктофона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: Записную книжку можно хранить в папке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: Предмет, который вы хотите КУПИТЬ, можно перетащить на торговый стол с помощью мыши (или зажать Ctrl и щёлкнуть мышью по этому предмету)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: Открыть блокнот
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: Предмет, который вы хотите ПРОДАТЬ, можно перетащить на торговый стол с помощью мыши (или зажать Ctrl и щёлкнуть мышью по этому предмету)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: Пойти спать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: Переместить ВСЁ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[Обмен]: переместите запрошенный предмет на прилавок'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: Каждой ночью вы можете начать или перестать пользоваться услугами.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: Выйти из магазина
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: Положите товары на витрину до открытия магазина, чтобы привлечь покупателей.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: Проверить интерфейс клиентуры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: Проверить репутацию
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: Открыть интерфейс переговоров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: Используя интерфейс переговоров, вы можете требовать больше или же предлагать клиентам лучшую цену. Это может повлиять на доступный бюджет клиентов и на получение репутации в процессе торговли.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: Чтобы продолжить диалог, нажмите на пробел.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: Чтобы выбрать несколько предметов, зажмите левую кнопку мышки и двигайте мышкой.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: Чтобы открыть меню сортировки, щёлкните правой кнопкой мышки на пустом месте в инвентаре.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

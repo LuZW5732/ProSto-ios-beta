@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: MainMenu_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 108c79e8fb1700744a0a88cc8a3389bf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 128057131008
+    m_Localized: Новая игра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27025948327936
+    m_Localized: Авторы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26937549176832
+    m_Localized: Загрузить игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27007459835904
+    m_Localized: Настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393761192820736
+    m_Localized: Выйти из игры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414435592519680
+    m_Localized: Заходите к нам в Discord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415424718454784
+    m_Localized: Благодарности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415526723928064
+    m_Localized: Помощники из сообщества
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415597255344128
+    m_Localized: Закрыть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415661109428224
+    m_Localized: Спасибо всем членам сообщества за поддержку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418489995509760
+    m_Localized: Ведущий разработчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418544991223808
+    m_Localized: Художник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422978999697408
+    m_Localized: Геймплей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423044611194880
+    m_Localized: Автоматически звать следующего клиента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423139700260864
+    m_Localized: Аудио
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423175637057536
+    m_Localized: Отображение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423212513378304
+    m_Localized: Разрешение вашего монитора не полностью поддерживается в полноэкранном режиме. В этом режиме игра будет отображаться с чёрной полосой.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423323075231744
+    m_Localized: Разрешение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423377332748288
+    m_Localized: На весь экран
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423449676103680
+    m_Localized: Диалоги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423491417817088
+    m_Localized: Скорость диалогов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423542080815104
+    m_Localized: Громкость диалогов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423659152228352
+    m_Localized: Применить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424598437249024
+    m_Localized: Общая громкость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425290828759040
+    m_Localized: Добро пожаловать на Нижние уровни!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425310856560640
+    m_Localized: Ваши отзывы очень много для нас значат. Заходите к нам в Discord, становитесь частью сообщества и помогайте развивать Probably Stolen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427776507527168
+    m_Localized: Добро пожаловать!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427886381514752
+    m_Localized: Сложный режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427924532903936
+    m_Localized: Пропустить вступление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1428966523846656
+    m_Localized: Начать игру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791467572740096
+    m_Localized: Загрузка…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49680125533143040
+    m_Localized: Бесконечный режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63469971271630848
+    m_Localized: Автоматически проматывать диалоги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68914510270611456
+    m_Localized: Громкость музыки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217292363907072
+    m_Localized: Художественный руководитель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260403609419776
+    m_Localized: Дизайнер звука
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260471221600256
+    m_Localized: Композитор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262198301769728
+    m_Localized: С благодарностью разработчикам игр, которые вдохновили на создание Probably Stolen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262222729396224
+    m_Localized: Дополнительные звуковые эффекты — Zapsplat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264139253694464
+    m_Localized: Загрузить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264686660698112
+    m_Localized: Да
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264698710933504
+    m_Localized: Нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992209629954048
+    m_Localized: Благодарим Bowen Peng за его технический вклад!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98258866009849856
+    m_Localized: Художник по персонажам
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992394410016768
+    m_Localized: Команда разработчиков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041827549593600
+    m_Localized: Начальные особенности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041931161485312
+    m_Localized: 'Доступные особенности:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101042014783324160
+    m_Localized: 'Выбранные особенности:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053347759177728
+    m_Localized: Пропустить вступление и обучение. Весь контент откроется немедленно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053534732861440
+    m_Localized: "— Нет розничной наценки при продаже\n— Отсрочка платежа недоступна по умолчанию с начала игры\n— Некоторые услуги стоят дороже\n— Арендная плата растёт в два раза быстрее"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053623253647360
+    m_Localized: Некоторые сюжетные события и клиенты не будут появляться.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112030429184
+    m_Localized: 'Использовано очков особенностей: {0} из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112034623488
+    m_Localized: Всего особенностей {0} из {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103629527129571328
+    m_Localized: Недоступно в демоверсии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457938636800
+    m_Localized: Добавить в список желаемого
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457959608320
+    m_Localized: Оставить отзыв
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892356329472
+    m_Localized: Помогите нам улучшить игру — делитесь анонимными данными о процессе игры.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892381495296
+    m_Localized: Делитесь данными о процессе игры, чтобы помочь нам улучшить игру.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123860245336080384
+    m_Localized: Включить эффект печати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125321176029118464
+    m_Localized: Начальные особенности недоступны при первом прохождении.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125426057079472128
+    m_Localized: Вы уверены, что хотите пропустить вступление? Новым игрокам настоятельно рекомендуется пройти обучение.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128916364517490688
+    m_Localized: Вы уверены, что хотите пропустить стартовый сценарий? Новым игрокам настоятельно рекомендуется сыграть за ученика.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137315070048518144
+    m_Localized: Подтвердить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328426020864
+    m_Localized: Необязательно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328459575296
+    m_Localized: или
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148594413932429312
+    m_Localized: Это сохранение было сделано во время игры на другом языке ({0}), тогда как сейчас используется {1}. Некоторые тексты и/или надписи могут отображаться некорректно. Всё равно загрузить?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156521139916292096
+    m_Localized: Модификаторы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202098683904
+    m_Localized: Лимит частоты кадров, когда игра свёрнута
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044032
+    m_Localized: Немедленно отпускать клиента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044033
+    m_Localized: Немедленно звать охрану
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044034
+    m_Localized: Немедленно приглашать следующего клиента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744927363072
+    m_Localized: Тестировение Probably Stolen завершено! Спасибо за участие! Официальная демоверсия уже доступна в Steam. Ваши сохранения будут автоматически перенесены в неё.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744956723200
+    m_Localized: В демоверсию
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014241841152
+    m_Localized: Отключить открытие меню по щелчку правой кнопки мыши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395584
+    m_Localized: Включить автоматический поворот при сортировке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395585
+    m_Localized: Взаимодействовать с предметом одним щелчком
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395586
+    m_Localized: Активировать предметы одним щелчком
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395587
+    m_Localized: Назначение клавиш
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395588
+    m_Localized: Повернуть взятый предмет по часовой стрелке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395589
+    m_Localized: Повернуть взятый предмет против часовой стрелки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395590
+    m_Localized: Перевернуть взятый предмет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395591
+    m_Localized: Сбросить изменения ориентации взятого предмета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395592
+    m_Localized: Переместить предмет, на который наведён курсор, в мусорку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395593
+    m_Localized: Открыть меню сортировки (когда курсор находится над пустой клеткой)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395594
+    m_Localized: Быстро переместить в инвентарь (зажать эту кнопку + щёлкнуть по предмету)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395595
+    m_Localized: Быстро переместить на витрину (зажать эту кнопку + щёлкнуть по предмету)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395596
+    m_Localized: Быстро переместить в хранилище (зажать эту кнопку + щёлкнуть по предмету)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395597
+    m_Localized: Режим закрепления (щёлкайте по предметам, чтобы закрепить или открепить их)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395598
+    m_Localized: Открыть настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395599
+    m_Localized: Включить/выключить подсказки по управлению
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395600
+    m_Localized: Следующая линия диалога
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395601
+    m_Localized: Ячейка №{0} ящика для инструментов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395602
+    m_Localized: Нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395603
+    m_Localized: Нажмите клавишу...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395604
+    m_Localized: Нажмите клавишу или нажмите Escape для отмены...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395605
+    m_Localized: На клавишу «{0}» нельзя назначить другое действие. Выберите другую клавишу.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395606
+    m_Localized: 'Клавиша «{0}» уже используется для этого действия: {1}. Выберите другую клавишу.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959590076416
+    m_Localized: Специализация
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436544
+    m_Localized: 'В начале игры у вас будет:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436545
+    m_Localized: Продолжить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436546
+    m_Localized: При выборе этой специализации вступление будет недоступно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436547
+    m_Localized: Выбирайте негативные особенности, чтобы получать очки, которые можно тратить на позитивные. Некоторые особенности взаимоисключающие.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436548
+    m_Localized: 'Доступно очков особенностей: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436549
+    m_Localized: 'Особенностей: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436550
+    m_Localized: Сложность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436551
+    m_Localized: Цены задраны
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436552
+    m_Localized: Лёгкий режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436553
+    m_Localized: Нормальная наценка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436554
+    m_Localized: Нормальный режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436555
+    m_Localized: Узкая маржа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436556
+    m_Localized: Сложный режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436557
+    m_Localized: Готовьтесь к убыткам
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436558
+    m_Localized: Экстремальный режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436559
+    m_Localized: Нет наценки при продаже
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436560
+    m_Localized: Наценка в {0}% при продаже
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436561
+    m_Localized: Арендная плата увеличивается на {0}% при каждой её оплате
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436562
+    m_Localized: Стандартные расценки на ночные услуги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630848
+    m_Localized: Высокие цены на ночные услуги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630849
+    m_Localized: Низкие цены на ночные услуги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630850
+    m_Localized: Разрешение на торговлю стоит {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630851
+    m_Localized: Стандартные расценки на улучшения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630852
+    m_Localized: Улучшения стоят на {0}% больше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630853
+    m_Localized: Улучшения стоят на {0}% меньше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630854
+    m_Localized: Стандартная наценка поставщика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630855
+    m_Localized: Большая наценка поставщика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630856
+    m_Localized: Маленькая наценка поставщика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630857
+    m_Localized: Стандартная цена на недвижимость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630858
+    m_Localized: Высокая цена на недвижимость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630859
+    m_Localized: Низкая цена на недвижимость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630860
+    m_Localized: Получение репутации ×{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630861
+    m_Localized: Потеря репутации ×{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630862
+    m_Localized: Благосклонность Уайлда растёт в стандартном темпе
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630863
+    m_Localized: Благосклонность Уайлда растёт быстро
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630864
+    m_Localized: Благосклонность Уайлда растёт медленно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786102989209600
+    m_Localized: Громкость фоновых звуков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764032
+    m_Localized: Автоматически открывать интерфейс торговли
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764033
+    m_Localized: Подтверждать выбор одним щелчком
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171368485997035520
+    m_Localized: Выбрать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182605126153584640
+    m_Localized: Дизайнер интерфейсов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709276405760
+    m_Localized: Показывать названия модификаций во всплывающих подсказках к предметам
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709318348800
+    m_Localized: Показывать названия модификаций в записях разговоров с диктофона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693632
+    m_Localized: Загрузить последнее
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693633
+    m_Localized: Отмена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693634
+    m_Localized: Удалить сохранение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693635
+    m_Localized: Файл сохранения не найден. Запись удалена из списка.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693636
+    m_Localized: 'Версия: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693637
+    m_Localized: '{0} (копия)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693638
+    m_Localized: Не удалось скопировать сохранение.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693639
+    m_Localized: В папке сохранений не найдено новых файлов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693640
+    m_Localized: '{0:plural:Добавлен {} файл сохранения|Добавлено {} файла сохранения|Добавлено {} файлов сохранения} в список.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693641
+    m_Localized: Число сохраняемых дней за прохождение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693642
+    m_Localized: 'Заблокировано особенностью: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189602199839227904
+    m_Localized: Отправлять газету в мусорку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189604507520122880
+    m_Localized: Вы собираетесь загрузить сохранение из демоверсии. Оно совместимо, но вы <color=#CC4849><b>пропустите истории новых персонажей и другой новый контент</b></color>, а игра <color=#CC4849><b>может работать нестабильно</b></color>. Мы <color=#CC4849><b>настоятельно рекомендуем начать новую игру</b></color>. Всё равно загрузить?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189909383209533440
+    m_Localized: Лимит частоты кадров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464770031616
+    m_Localized: Вертикальная синхронизация
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464807780352
+    m_Localized: Позвать следующего клиента (звонок)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190649068024328192
+    m_Localized: Escape (дополнительная клавиша)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611836174336
+    m_Localized: Локализация
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505984
+    m_Localized: Директор и руководитель проекта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505985
+    m_Localized: Комьюнити-менеджер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505986
+    m_Localized: Талисман команды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505987
+    m_Localized: Издатель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505988
+    m_Localized: Генеральный директор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505989
+    m_Localized: Финансовый директор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505990
+    m_Localized: Помощник руководителя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505991
+    m_Localized: Директор по развитию бизнеса и партнёрскому лицензированию
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505992
+    m_Localized: Директор по продажам
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505993
+    m_Localized: Руководитель издательского направления
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505994
+    m_Localized: Исполнительный продюсер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505995
+    m_Localized: Продюсер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505996
+    m_Localized: Ассоциированный продюсер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505997
+    m_Localized: Старший менеджер по маркетингу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505998
+    m_Localized: Менеджер по маркетингу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505999
+    m_Localized: Руководитель отдела работы с блогерами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506000
+    m_Localized: Старший менеджер по работе с блогерами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506001
+    m_Localized: Старший комьюнити-менеджер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506002
+    m_Localized: SMM-менеджер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506003
+    m_Localized: Менеджер по привлечению пользователей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506004
+    m_Localized: Продюсер портирования
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506005
+    m_Localized: Продюсер LiveOps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506006
+    m_Localized: Руководитель отдела услуг разработки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506007
+    m_Localized: Релиз-менеджер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506008
+    m_Localized: Менеджер по локализации
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506009
+    m_Localized: Менеджер Discord-сервера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506010
+    m_Localized: Менеджер службы поддержки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506011
+    m_Localized: QA-менеджер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506012
+    m_Localized: Руководитель медиапроизводства
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506013
+    m_Localized: Менеджер медиапроектов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506014
+    m_Localized: Продюсер трейлеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506015
+    m_Localized: Видеомонтажёр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506016
+    m_Localized: Графический дизайнер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506017
+    m_Localized: HR-директор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506018
+    m_Localized: Системный администратор / DevOps-инженер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506019
+    m_Localized: Отключить персонажей из поп-культуры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506020
+    m_Localized: Перемещать купленное в инвентарь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506021
+    m_Localized: Размер облачков диалога
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762898788352
+    m_Localized: Последнее сохранение «{0}» было повреждено (компьютер выключился во время записи) и отложено в сторону. Игра продолжится с дня {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342784
+    m_Localized: Сохранение «{0}» было повреждено (компьютер выключился во время записи), и более раннего дня не осталось. Его файлы отложены в сторону в папке сохранений, а не удалены.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342785
+    m_Localized: Этот файл сохранения повреждён (компьютер выключился во время записи) и не может быть загружен. Он отложен в сторону в папке сохранений.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342786
+    m_Localized: Восстанавливать режим экрана после Alt-Tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342787
+    m_Localized: Меню предмета, отмена (правая кнопка мыши)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342788
+    m_Localized: Перевернуть предмет (дополнительная клавиша)
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

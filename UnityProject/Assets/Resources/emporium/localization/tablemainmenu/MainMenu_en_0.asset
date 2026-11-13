@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: MainMenu_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 108c79e8fb1700744a0a88cc8a3389bf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 128057131008
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27025948327936
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26937549176832
+    m_Localized: Load Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27007459835904
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393761192820736
+    m_Localized: Exit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414435592519680
+    m_Localized: Join Our Discord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415424718454784
+    m_Localized: Acknowledgement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415526723928064
+    m_Localized: Community Contributors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415597255344128
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415661109428224
+    m_Localized: Thanks to all our community members for their support!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418489995509760
+    m_Localized: Lead Developer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992209629954048
+    m_Localized: With thanks to Bowen Peng for his technical contributions!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418544991223808
+    m_Localized: Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422978999697408
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423044611194880
+    m_Localized: Auto Call Next Customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423139700260864
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423175637057536
+    m_Localized: Display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423212513378304
+    m_Localized: Your Monitor's Resolution Is Not Fully Supported In Fullscreen Mode. The game will be displayed with black bar while in fullscreen mode.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423323075231744
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423377332748288
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423449676103680
+    m_Localized: Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423491417817088
+    m_Localized: Dialogue Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423542080815104
+    m_Localized: Dialogue Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423659152228352
+    m_Localized: Apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424598437249024
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425290828759040
+    m_Localized: Welcome To The Lower Levels!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425310856560640
+    m_Localized: Community feedback is invaluable to us. Join our Discord, become part of our community, and help shape the development of Probably Stolen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427776507527168
+    m_Localized: Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427886381514752
+    m_Localized: Hard Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427924532903936
+    m_Localized: Skip Intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1428966523846656
+    m_Localized: Start Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791467572740096
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49680125533143040
+    m_Localized: Endless Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63469971271630848
+    m_Localized: Auto Advance Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68914510270611456
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217292363907072
+    m_Localized: Art Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260403609419776
+    m_Localized: Sound Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260471221600256
+    m_Localized: Composer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262198301769728
+    m_Localized: With thanks to the developers of the games that inspired Probably Stolen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262222729396224
+    m_Localized: Additional sound effects from Zapsplat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264139253694464
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264686660698112
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264698710933504
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98258866009849856
+    m_Localized: Character Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992394410016768
+    m_Localized: Development Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041827549593600
+    m_Localized: Starting Perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041931161485312
+    m_Localized: 'Available Perks:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101042014783324160
+    m_Localized: 'Selected Perks:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053347759177728
+    m_Localized: Skip all introductions and customer tutorial encounters. All content is unlocked immediately.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053534732861440
+    m_Localized: "-No Retail Markup When Selling\n-Start Without Rent Grace\n-Certain Services Cost More\n-Rent Increases By Twice As Much"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053623253647360
+    m_Localized: Certain scripted events and customers will not spawn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112030429184
+    m_Localized: 'Used Perk Points: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112034623488
+    m_Localized: 'Total Perks: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103629527129571328
+    m_Localized: Unavailable In Demo Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457938636800
+    m_Localized: Wishlist Now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457959608320
+    m_Localized: Provide Feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892356329472
+    m_Localized: Help us improve the game by sharing anonymous gameplay data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892381495296
+    m_Localized: Share gameplay data to help improve the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123860245336080384
+    m_Localized: Enable Typewriter Effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125321176029118464
+    m_Localized: Starting Perks are not available on your first run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125426057079472128
+    m_Localized: Are you sure you want to skip the intro? The tutorial is highly recommended for new players.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128916364517490688
+    m_Localized: Are you sure you want to start with this Starting Scenario? The Apprentice is highly recommended for new players.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137315070048518144
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328426020864
+    m_Localized: Optional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328459575296
+    m_Localized: Or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148594413932429312
+    m_Localized: This save was started in a different language ({0}) than the one currently selected ({1}). Some text may display incorrectly. Load anyway?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156521139916292096
+    m_Localized: Mods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202098683904
+    m_Localized: FPS Cap While Minimized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044032
+    m_Localized: Instant Dismiss Customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044033
+    m_Localized: Instant Call Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044034
+    m_Localized: Instant Call Next Customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171368485997035520
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744927363072
+    m_Localized: The Probably Stolen playtest is over! Thanks for trying the game. The official demo is now available on Steam. Your save files will automatically transfer to the demo, which contains the latest version of the game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744956723200
+    m_Localized: Join the Demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014241841152
+    m_Localized: Disable right-click sort menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395584
+    m_Localized: Enable Auto Rotate while sorting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395585
+    m_Localized: Single click to interact with item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395586
+    m_Localized: Single click to activate item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395587
+    m_Localized: Key Binds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395588
+    m_Localized: Rotate held item clockwise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395589
+    m_Localized: Rotate held item counter-clockwise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395590
+    m_Localized: Flip held item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395591
+    m_Localized: Reset held item orientation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395592
+    m_Localized: Move hovered item to trashcan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395593
+    m_Localized: Open sort menu (while hovering an empty tile)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395594
+    m_Localized: Quick move to inventory (hold + click)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395595
+    m_Localized: Quick move to showcase (hold + click)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395596
+    m_Localized: Quick move to storage (hold + click)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395597
+    m_Localized: Pin mode (click items to pin or unpin)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395598
+    m_Localized: Open options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395599
+    m_Localized: Toggle control hints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395600
+    m_Localized: Advance dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395601
+    m_Localized: Toolbox slot {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395602
+    m_Localized: None
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395603
+    m_Localized: Press a key...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395604
+    m_Localized: Press a key, or press Escape to cancel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395605
+    m_Localized: '{0} cannot be bound. Press another key.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395606
+    m_Localized: '{0} is already used by {1}. Press another key.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959590076416
+    m_Localized: Specialization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436544
+    m_Localized: Start With
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436545
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436546
+    m_Localized: The introduction is not available for this specialization.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436547
+    m_Localized: Choose negative perks to gain points to spend on positive perks. Some perks are mutually exclusive.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436548
+    m_Localized: 'Available Perk Points: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436549
+    m_Localized: 'Perks: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436550
+    m_Localized: Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436551
+    m_Localized: Price Gouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436552
+    m_Localized: Cozy Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436553
+    m_Localized: Mark Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436554
+    m_Localized: Normal Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436555
+    m_Localized: Thin Margins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436556
+    m_Localized: Hard Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436557
+    m_Localized: Red Ink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436558
+    m_Localized: Challenge Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436559
+    m_Localized: No retail markup when selling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436560
+    m_Localized: Retail markup of {0}% when selling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436561
+    m_Localized: Rent increases by {0}% each time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436562
+    m_Localized: Standard nightly service fees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630848
+    m_Localized: Higher nightly service fees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630849
+    m_Localized: Lower nightly service fees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630850
+    m_Localized: Vendor permit costs {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630851
+    m_Localized: Standard upgrade prices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630852
+    m_Localized: Upgrades cost {0}% more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630853
+    m_Localized: Upgrades cost {0}% less
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630854
+    m_Localized: Standard supplier markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630855
+    m_Localized: Suppliers charge a higher markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630856
+    m_Localized: Suppliers charge a lower markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630857
+    m_Localized: Standard property price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630858
+    m_Localized: Higher property price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630859
+    m_Localized: Lower property price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630860
+    m_Localized: Reputation gains x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630861
+    m_Localized: Reputation losses x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630862
+    m_Localized: Standard Wild's favor gains
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630863
+    m_Localized: Increased Wild's favor gains
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630864
+    m_Localized: Reduced Wild's favor gains
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182605126153584640
+    m_Localized: UI Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786102989209600
+    m_Localized: Background Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764032
+    m_Localized: Auto Open Negotiation UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764033
+    m_Localized: Single click to confirm item choice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709276405760
+    m_Localized: Show Mod Name in Item Tooltips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709318348800
+    m_Localized: Show Mod Name in Conversation Recorder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693632
+    m_Localized: Load Latest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693633
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693634
+    m_Localized: Delete Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693635
+    m_Localized: Save file not found. The entry has been removed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693636
+    m_Localized: 'Version: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693637
+    m_Localized: '{0} (copy)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693638
+    m_Localized: The save could not be copied.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693639
+    m_Localized: No new save file was found in the save folder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693640
+    m_Localized: '{0} save file(s) added to the list.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693641
+    m_Localized: Saved days per run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693642
+    m_Localized: 'Locked by perk: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189602199839227904
+    m_Localized: Send Newspaper to Trash Can
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189604507520122880
+    m_Localized: You are about to load a save file from the demo. The save is compatible, but you will <color=#CC4849><b>miss the new characters' stories and other new content</b></color>, and the game <color=#CC4849><b>may be unstable</b></color>. We <color=#CC4849><b>strongly recommend starting a new game</b></color>. Load anyway?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189909383209533440
+    m_Localized: Frame Rate Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464770031616
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464807780352
+    m_Localized: Call next customer (Bell)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190649068024328192
+    m_Localized: Escape (alternate key)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611836174336
+    m_Localized: Localization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505984
+    m_Localized: Director & Project Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505985
+    m_Localized: Community Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505986
+    m_Localized: Team Mascot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505987
+    m_Localized: Publishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505988
+    m_Localized: CEO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505989
+    m_Localized: Chief Financial Officer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505990
+    m_Localized: Executive Assistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505991
+    m_Localized: Director of Business Development and Partner Licensing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505992
+    m_Localized: Sales Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505993
+    m_Localized: Head of Publishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505994
+    m_Localized: Executive Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505995
+    m_Localized: Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505996
+    m_Localized: Associate Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505997
+    m_Localized: Senior Marketing Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505998
+    m_Localized: Marketing Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505999
+    m_Localized: Head of Influencer Management
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506000
+    m_Localized: Senior Influencer Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506001
+    m_Localized: Senior Community Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506002
+    m_Localized: Social Media Marketing Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506003
+    m_Localized: User Acquisition Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506004
+    m_Localized: Porting Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506005
+    m_Localized: LiveOps Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506006
+    m_Localized: Head of Development Services
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506007
+    m_Localized: Release Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506008
+    m_Localized: Localization Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506009
+    m_Localized: Discord Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506010
+    m_Localized: Customer Support Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506011
+    m_Localized: QA Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506012
+    m_Localized: Head of Media Production
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506013
+    m_Localized: Media Project Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506014
+    m_Localized: Trailer Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506015
+    m_Localized: Video Editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506016
+    m_Localized: Graphic Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506017
+    m_Localized: Head of HR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506018
+    m_Localized: System Administrator / DevOps Engineer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506019
+    m_Localized: Disable Pop Culture Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506020
+    m_Localized: Move Bought Items to Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506021
+    m_Localized: Dialogue bubble size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762898788352
+    m_Localized: The latest save of {0} was damaged (the computer shut down while it was being written) and has been moved aside. The run continues from day {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342784
+    m_Localized: The save of {0} was damaged (the computer shut down while it was being written) and no earlier day is left. Its files have been moved aside in the save folder, not deleted.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342785
+    m_Localized: This save file is damaged (the computer shut down while it was being written) and cannot be loaded. It has been moved aside in the save folder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342786
+    m_Localized: Restore Display After Alt-Tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342787
+    m_Localized: Item menu, cancel (right click)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342788
+    m_Localized: Flip item (alternate key)
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

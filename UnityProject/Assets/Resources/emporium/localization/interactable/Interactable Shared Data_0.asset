@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Interactable Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Interactable
+  m_TableCollectionNameGuidString: 93fc43ec783557b4086801c3fab1fafc
+  m_Entries:
+  - m_Id: 292150886400
+    m_Key: door_leave_store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 513538834432
+    m_Key: door_too_late
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834927378432
+    m_Key: door_day_not_over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972131450880
+    m_Key: door_crackdown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1160036270080
+    m_Key: door_wounded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10070226944000
+    m_Key: ui_open_clientele_interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10909502980096
+    m_Key: vending_machine_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10956307218432
+    m_Key: vending_fountain_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55379932566306816
+    m_Key: magnifying_screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645691719680
+    m_Key: door_agoraphobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468416
+    m_Key: door_agoraphobia_rest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468417
+    m_Key: door_agoraphobia_rest_last
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1084132979700137986
+  references:
+    version: 2
+    RefIds:
+    - rid: 1084132979700137986
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1770668237910

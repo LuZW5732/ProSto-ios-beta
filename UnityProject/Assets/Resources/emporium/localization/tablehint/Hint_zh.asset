@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Hint_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 80c3fb41612dac142a1b40cc4e4234ca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 79625502720
+    m_Localized: 电话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104598388736
+    m_Localized: 使用电话呼叫你的联系人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125435691008
+    m_Localized: 展示柜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146742755328
+    m_Localized: 将物品放置于此以吸引感兴趣的顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188882927616
+    m_Localized: 显示今天队伍中剩余的顾客数量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166976077824
+    m_Localized: 剩余顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202543775744
+    m_Localized: 谈判柜台
+    m_Metadata:
+      m_Items: []
+  - m_Id: 256063094784
+    m_Localized: 将你想要买卖的物品放置于此，并打开谈判界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292633231360
+    m_Localized: 按O键开关教程提示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352905379840
+    m_Localized: 如果队伍中仍有重要人物，你将无法结束这一天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 309112651776
+    m_Localized: 开始/结束营业
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411323645952
+    m_Localized: 呼叫下一位顾客上前，或遣散当前顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388569546752
+    m_Localized: 呼叫下一位顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465782489088
+    m_Localized: 放置在谈判柜台上的物品可以通过谈判界面进行买卖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432559407104
+    m_Localized: 谈判界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 511542345728
+    m_Localized: 回顾过去的对话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486678511616
+    m_Localized: 对话录音机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523219288064
+    m_Localized: 睡袋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559659401216
+    m_Localized: 睡觉以结束今日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576273039360
+    m_Localized: 游戏将在睡觉后自动保存。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 594551816192
+    m_Localized: 关闭提示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1083674771456
+    m_Localized: 键盘快捷键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1803182456832
+    m_Localized: 快速转移至物品栏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841333846016
+    m_Localized: 快速转移至展示柜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1862678659072
+    m_Localized: 快速转移至柜台
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1883302051840
+    m_Localized: 旋转物品（左）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1916290252800
+    m_Localized: 旋转物品（右）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1944815714304
+    m_Localized: 关闭界面/打开主菜单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1978437255168
+    m_Localized: 跳过对话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72260938283925504
+    m_Localized: 翻转物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96180185099714560
+    m_Localized: 点击
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96180234504421376
+    m_Localized: 拖拽物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125495997362913280
+    m_Localized: 声望界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125495997396467712
+    m_Localized: 查看你在各派系中的声望
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

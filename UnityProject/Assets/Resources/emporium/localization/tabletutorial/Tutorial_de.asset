@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 00e2e9faf693a7b4ebe7f85dd0053af1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: Öffne die Rollladentür.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: Rufe den nächsten Kunden auf.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: Rechtsklicke auf einen Gegenstand, um das Interaktionsmenü zu öffnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: '[Lies] die Notiz.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: Schließe den Laden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: Per Doppelklick kannst du auch mit einem Gegenstand interagieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: Ziehe die Notiz zum Speichern ins Handbuch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: Strg + Klick ermöglicht einen Schnelltransfer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: Spiele den Dialog noch einmal auf dem Diktiergerät ab.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: Stecke das Notizbuch ins Dossier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: Per Strg + Klick oder Ziehen kannst du den Gegenstand, den du KAUFEN möchtest, auf den Verkaufstresen platzieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: Öffne das Tablet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: Per Strg + Klick oder Ziehen kannst du den Gegenstand, den du VERKAUFEN möchtest, auf den Verkaufstresen platzieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: Geh schlafen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: Platziere ALLES.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[Handel]: Platziere den gewünschten Gegenstand auf dem Tresen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: Dienste können jede Nacht an- oder ausgeschaltet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: Laden verlassen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: Lege vor dem Öffnen der Rollladentür Waren ins Schaufenster, um Käufer anzulocken.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: Kundenfenster anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: Ansehen anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: Feilschen-Fenster öffnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: Im Feilschen-Fenster kann du höhere Preise verlangen beziehungsweise niedrigere anbieten. Dies wirkt sich auf das jeweilige Kundenbudget und das beim Handeln gewonnene Ansehen aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: Drücke Leertaste, um den Dialog fortzusetzen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: Um mehrere Dinge auszuwählen, halte die linke Maustaste gedrückt und ziehe den Cursor darüber.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: Rechtsklicke auf einen leeren Inventarplatz, um das Sortiermenü zu öffnen.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

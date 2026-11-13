@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f870b49c0669531ea4ed4a6ce81ade, type: 3}
+  m_Name: dumpingGroundTG
+  m_EditorClassIdentifier:
+  tableGroup:
+    m_PLID: "dc3a2dee-6b7f-424c-969a-51b9e83c2883"
+    m_ProbabilityItems:
+    - m_Value: {fileID: 11400000, guid: f56e90bd6218b444ea06c092fe490bf2, type: 2}
+      m_BaseProbability: 0.6499999761581421
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 523
+    - m_Value: {fileID: 11400000, guid: 1e8e0da9f90276e41827f895d90919a3, type: 2}
+      m_BaseProbability: 0.15000000596046448
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 122
+    - m_Value: {fileID: 11400000, guid: 24d91163bcf14474ba6479bd899a297b, type: 2}
+      m_BaseProbability: 0.009999999776482582
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 8
+    - m_Value: {fileID: 11400000, guid: b1663057bdcc4d2459d72562910e392e, type: 2}
+      m_BaseProbability: 0.004999999888241291
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 4
+    - m_Value: {fileID: 11400000, guid: 22b0494dc1afe504385e1cb49888dc75, type: 2}
+      m_BaseProbability: 0.019999999552965164
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 16
+    - m_Value: {fileID: 11400000, guid: 215cfe2d51a49ad4997a872db4221163, type: 2}
+      m_BaseProbability: 0.047499995678663254
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 38
+    - m_Value: {fileID: 11400000, guid: a9c5b1202360edc448e8f9caa42f0fcd, type: 2}
+      m_BaseProbability: 0.019999999552965164
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 16
+    - m_Value: {fileID: 11400000, guid: 126b12086e9666f4880055cc8cf49da3, type: 2}
+      m_BaseProbability: 0.047499995678663254
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 38
+    - m_Value: {fileID: 11400000, guid: 76ac758113fddab4bb4fbcdced4270f4, type: 2}
+      m_BaseProbability: 0.05000000074505806
+      m_Enabled: 1
+      m_Locked: 1
+      m_InfluenceSpread:
+        x: 0.0
+        y: 1.0
+      m_InfluenceProvider: {fileID: 0}
+      m_InvertInfluence: 0
+      m_DepletableItem: 1
+      m_Units: 1
+      m_MaxUnits: 1
+      m_Weight: 40
+    m_PreventRepeat: 0
+    m_ShuffleIterations: 1
+    m_PickCountMin: 1
+    m_PickCountMax: 1
+    m_LinkPickCounts: 1
+    m_MaintainPickCountIfDisabled: 0
+    m_PickCountCurve:
+      serializedVersion: "2"
+      m_Curve:
+      - serializedVersion: "3"
+        time: 0.0
+        value: 0.0
+        inSlope: 0.0
+        outSlope: 1.0
+        weightedMode: 0
+        inWeight: 0.0
+        outWeight: 0.0
+      - serializedVersion: "3"
+        time: 1.0
+        value: 1.0
+        inSlope: 1.0
+        outSlope: 0.0
+        weightedMode: 0
+        inWeight: 0.0
+        outWeight: 0.0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_Seed: 0
+    m_KeepSeed: 0
+    m_PickHistory:
+      m_History: []
+      m_Capacity: 1000
+    m_LastPickCount: 0
+    m_SelectionMethodID: "LSMRegular"
+    m_ListName: ""
+    m_DepletableList: 0
+    m_WeightsPriority: 0
+    m_BaseWeight: 100

@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PhoneDialogue_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 8b0b65347ae18a441b3344762bbb2aae, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 311964778496
+    m_Localized: '[Завершить звонок]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525270302720
+    m_Localized: '[Узнать об услугах Уайлда]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014057713664
+    m_Localized: Здравствуйте, это офис господина Уайлда…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1030969147392
+    m_Localized: Чем я могу вам помочь?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212431515648
+    m_Localized: Вот что мы можем для вас сделать.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435664957440
+    m_Localized: Всего хорошего!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882173120512
+    m_Localized: А, да, господин Уайлд сообщил нам, что вы позвоните.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956194197504
+    m_Localized: Я буду вашим контактным лицом в пивоварне «Красный бес».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3982169522176
+    m_Localized: Чтобы сделать заказ, просто позвоните по этому номеру…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3990079979520
+    m_Localized: и мы пришлём доставщика на следующий день.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996421767168
+    m_Localized: Поскольку вы новый клиент…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006756532224
+    m_Localized: мы завтра пришлём вам бесплатный образец.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5439690162176
+    m_Localized: Отдел продаж компании «Красный бес»…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5445696405504
+    m_Localized: Вы хотите сделать заказ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5773825196032
+    m_Localized: Хорошо, я организую доставку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7844754407424
+    m_Localized: К сожалению, в данный момент у нас нет товара на складе…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7957669265408
+    m_Localized: Перезвоните нам тогда.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7886064107520
+    m_Localized: Следующая партия будет скоро готова. Дней через {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081138988924928
+    m_Localized: '[Заказать пиво: {0} бут., доставка на следующий день]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896448
+    m_Localized: '[Заказать пиво: {0} бут., доставка за {1} дн.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896451
+    m_Localized: '[Заказать руду: {0} кус., доставка на следующий день]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896452
+    m_Localized: '[Заказать руду: {0} кус., доставка за {1} дн.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896469
+    m_Localized: Так это тебя, значит, Джо ко мне послал?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896470
+    m_Localized: Меня звать Колсон. Я в кооперативе «Джи-Пи Майнинг» за главного.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896471
+    m_Localized: Продаём руду оптом, если оно те надо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896472
+    m_Localized: Заказ как сделаешь…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896473
+    m_Localized: …наши ребята к тебе завтра всё и притащат. Проще не бывает.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896474
+    m_Localized: Понял. Спасибо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896475
+    m_Localized: Раз ты новенький, я тебе образец завтра пришлю, бесплатно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896476
+    m_Localized: Алё, «Джи-Пи Майнинг» у аппарата.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896477
+    m_Localized: Нужна руда?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896478
+    m_Localized: Ладно, подготовлю отправку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896479
+    m_Localized: Привет, «Джи-Пи Майнинг» слушает.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896480
+    m_Localized: У нас, боюсь, сейчас всё по нулям.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896481
+    m_Localized: Перезвони мне… так, ща гляну… дней этак через… {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896482
+    m_Localized: Может, к тому времени чего и наскребём для тебя.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896483
+    m_Localized: Ясно, спасибо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896501
+    m_Localized: Не могу сейчас говорить. Перезвони мне через пару дней.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896502
+    m_Localized: Один Харальдсон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896503
+    m_Localized: Мы знаем, что ты сделал.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896504
+    m_Localized: Больше сюда не звони.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896505
+    m_Localized: Мы с тобой закончили.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896506
+    m_Localized: Не могу сейчас говорить.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896507
+    m_Localized: Перезвони, когда погром закончится.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896508
+    m_Localized: Да.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896509
+    m_Localized: Извините, ошибся номером. [Завершить звонок]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896510
+    m_Localized: Это ты? Есть что-нибудь для нас?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090752
+    m_Localized: Ладно, подержи пока у себя.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090753
+    m_Localized: Я могу заскочить как-нибудь. Дней через {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090754
+    m_Localized: До встречи.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896456
+    m_Localized: Вот и славно! Это, значит, ты тот чел, о котором Джо говорил. Я Ашиш.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896457
+    m_Localized: Просто скажи, чего тебе надо, и я быстро всё оформлю.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896458
+    m_Localized: Только без лишних вопросов, ладно?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896459
+    m_Localized: Получишь всё, что хотел, на следующий день. Без проблем.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896460
+    m_Localized: Ясно. Пока!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896461
+    m_Localized: Я тебе завтра кое-чего пришлю. Подарок, за мой счёт.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896449
+    m_Localized: '[Заказать {0} {0:plural:флакон|флакона|флаконов} пыли сновидений с доставкой на следующий день]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896450
+    m_Localized: '[Заказать {0} {0:plural:флакон|флакона|флаконов} пыли сновидений с доставкой в течение {1} {1:plural:дня|дней|дней}]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896453
+    m_Localized: '[Заказать {0} {0:plural:инъектор|инъектора|инъекторов} Оксимора с доставкой на следующий день]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896454
+    m_Localized: '[Заказать {0} {0:plural:инъектор|инъектора|инъекторов} Оксимора с доставкой в течение {1} {1:plural:дня|дней|дней}]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896462
+    m_Localized: Привет, это Ашиш.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896463
+    m_Localized: Что тебе нужно?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896464
+    m_Localized: Ладно, подготовлю к отправке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896465
+    m_Localized: Привет, Ашиш на связи.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896466
+    m_Localized: Я сейчас работаю над другим заказом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896467
+    m_Localized: Набери меня {0:plural:через денёк-другой|дня через {}|дней через {}}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896485
+    m_Localized: Я ждал вашего звонка… Хорошо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896486
+    m_Localized: Зовите меня «Дейл» и больше нигде это имя не упоминайте.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896487
+    m_Localized: У меня, возможно, есть доступ к некоторым препаратам с Верхних уровней.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896488
+    m_Localized: Совершенно неофициально, разумеется. Это понятно?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896489
+    m_Localized: Как только я получу заказ,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896490
+    m_Localized: курьер доставит его на следующий день.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896491
+    m_Localized: Без нужды лишний раз мне не перезванивайте. Только если что-то пойдёт не так. Понятно?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896492
+    m_Localized: Понятно. Спасибо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896493
+    m_Localized: Я пришлю вам бесплатный образец завтра.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896494
+    m_Localized: Вы хотите сделать заказ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896495
+    m_Localized: Только смотрите, чтобы рядом с вами никого не было!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896496
+    m_Localized: Что вам нужно?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896497
+    m_Localized: Хорошо, подготовлю это к отправке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896498
+    m_Localized: Привет… Сейчас я пока не могу брать заказы.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896499
+    m_Localized: Перезвоните мне {0:plural:через день|через {} дня|через {} дней}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896500
+    m_Localized: Понятно. Спасибо.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

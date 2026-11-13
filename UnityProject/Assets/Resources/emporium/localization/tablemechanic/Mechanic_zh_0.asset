@@ -1,0 +1,6335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Mechanic_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 821373c5acd58274cbaedad422711bd6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 193096479195136
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166656
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166657
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166658
+    m_Localized: 防盗率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360960
+    m_Localized: 向同一派系传输超过一次不会产生额外效果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360961
+    m_Localized: 传输至：<b>空间站治安部</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360962
+    m_Localized: 传输至：<b>黑市</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360963
+    m_Localized: 传输至：<b>上层区</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360964
+    m_Localized: 传输至：<b>革命军总部</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360979
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360980
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360981
+    m_Localized: 芯片槽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360982
+    m_Localized: 输入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360983
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360984
+    m_Localized: 正在解序……（进度：{0}/{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360985
+    m_Localized: 状态：正在解序……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360986
+    m_Localized: （进度：{0}/{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360987
+    m_Localized: 状态：就绪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360993
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360994
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360995
+    m_Localized: 输入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360996
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360997
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361015
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361016
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361017
+    m_Localized: 状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361018
+    m_Localized: 开始打印流程
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361019
+    m_Localized: 储藏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361020
+    m_Localized: 磁带
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361021
+    m_Localized: 控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361022
+    m_Localized: 音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361023
+    m_Localized: '<'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361024
+    m_Localized: 播放
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361025
+    m_Localized: 暂停
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361026
+    m_Localized: '>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361027
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361028
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361029
+    m_Localized: 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361030
+    m_Localized: '{0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361031
+    m_Localized: 能量电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361032
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361033
+    m_Localized: 状态：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361034
+    m_Localized: 就绪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361035
+    m_Localized: 充能中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361036
+    m_Localized: （{0}/{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361037
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361038
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361039
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361040
+    m_Localized: 吸引力（已激活）：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361041
+    m_Localized: 吸引力（未激活）：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361064
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361065
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361066
+    m_Localized: 储水容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361067
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361068
+    m_Localized: 产量：{0}毫升{1}/天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361069
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361070
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361071
+    m_Localized: 储水容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361072
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361073
+    m_Localized: 去除的污染物（昨夜）：{0}毫升
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054720
+    m_Localized: 食物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054721
+    m_Localized: 医疗品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054722
+    m_Localized: 材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054723
+    m_Localized: 日用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054724
+    m_Localized: 烟酒类
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054725
+    m_Localized: 武器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054726
+    m_Localized: 非卖品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054727
+    m_Localized: 物资箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054728
+    m_Localized: 工具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054729
+    m_Localized: 医疗工具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054730
+    m_Localized: 所有类型
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054731
+    m_Localized: 除违禁品外的所有类型
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054732
+    m_Localized: 违禁品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054733
+    m_Localized: 一级管制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054734
+    m_Localized: 二级管制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054735
+    m_Localized: 三级管制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054736
+    m_Localized: 简易自制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054737
+    m_Localized: 低科技
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054738
+    m_Localized: 中级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054739
+    m_Localized: 高端
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054740
+    m_Localized: 稀有
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054741
+    m_Localized: 奢侈品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054742
+    m_Localized: 艺术品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054743
+    m_Localized: 水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054744
+    m_Localized: 水配给
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054745
+    m_Localized: 医疗用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054746
+    m_Localized: 农业用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054747
+    m_Localized: 化学用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054748
+    m_Localized: 新鲜食物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054749
+    m_Localized: 加工食品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054750
+    m_Localized: 零食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054751
+    m_Localized: 饮料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054752
+    m_Localized: 文档
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054753
+    m_Localized: 识别卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054754
+    m_Localized: 种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054755
+    m_Localized: 基础材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054756
+    m_Localized: 精炼材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054757
+    m_Localized: 能量电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054758
+    m_Localized: 麻醉品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054759
+    m_Localized: 毒药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054760
+    m_Localized: 储藏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054761
+    m_Localized: 净水用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054762
+    m_Localized: 氧气供应
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054763
+    m_Localized: 酒精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054764
+    m_Localized: 近战武器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054765
+    m_Localized: 枪械
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054766
+    m_Localized: 可改装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054767
+    m_Localized: 弹药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054768
+    m_Localized: 军需品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054769
+    m_Localized: 枪械模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054770
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054771
+    m_Localized: 节点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054772
+    m_Localized: 水培模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054773
+    m_Localized: 警报模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054774
+    m_Localized: 打印机模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054775
+    m_Localized: 蒸馏器模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054776
+    m_Localized: 机器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054777
+    m_Localized: 器官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054778
+    m_Localized: 护甲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054779
+    m_Localized: 过滤器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054780
+    m_Localized: 彩票
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915584
+    m_Localized: '[赃物（{0}%热度）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915585
+    m_Localized: 低级违禁品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915586
+    m_Localized: 中级违禁品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915587
+    m_Localized: 高级违禁品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915588
+    m_Localized: 高危级违禁品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915589
+    m_Localized: （已禁用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915590
+    m_Localized: '[已锁定——机器正在运行] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915591
+    m_Localized: '[已锁定]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915597
+    m_Localized: 预估价值：{0}，基础价值：{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915598
+    m_Localized: 购买价格：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915599
+    m_Localized: ' 双击以兑换'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915600
+    m_Localized: 电力服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915601
+    m_Localized: 清洁服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915602
+    m_Localized: 保险服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915603
+    m_Localized: 卡特尔保护费
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915604
+    m_Localized: 盘查预警
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915605
+    m_Localized: 买家推荐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915606
+    m_Localized: 卖家推荐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915607
+    m_Localized: 违禁品买家推荐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915608
+    m_Localized: 王尔德的善后人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915609
+    m_Localized: 租金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915610
+    m_Localized: 支付
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915611
+    m_Localized: '{0}须于今日支付'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915612
+    m_Localized: '{0}须于明日支付'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915613
+    m_Localized: '{0}须于{1}天后支付'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915614
+    m_Localized: 第{0}天（{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915615
+    m_Localized: 星期日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915616
+    m_Localized: 星期一
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915617
+    m_Localized: 星期二
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915618
+    m_Localized: 星期三
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915619
+    m_Localized: 星期四
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915620
+    m_Localized: 星期五
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915621
+    m_Localized: 星期六
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915622
+    m_Localized: 中立
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915623
+    m_Localized: 略有耳闻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915624
+    m_Localized: 小有名气
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915625
+    m_Localized: 得到认可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109888
+    m_Localized: 品质可靠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109889
+    m_Localized: 受到推荐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109890
+    m_Localized: 值得信赖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109891
+    m_Localized: 有口皆碑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109892
+    m_Localized: 声名远扬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109893
+    m_Localized: 饱受敬仰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109894
+    m_Localized: 声威赫赫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109895
+    m_Localized: 褒贬不一
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109896
+    m_Localized: 不受待见
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109897
+    m_Localized: 难以指望
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109898
+    m_Localized: 形迹可疑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109899
+    m_Localized: 令人生疑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109900
+    m_Localized: 惹人非议
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109901
+    m_Localized: 声名狼藉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109902
+    m_Localized: 身败名裂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109903
+    m_Localized: 避之不及
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109904
+    m_Localized: 全面抵制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109905
+    m_Localized: 黑名单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109906
+    m_Localized: 店铺吸引力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109907
+    m_Localized: 信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109908
+    m_Localized: 第{0}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818283970560
+    m_Localized: 今天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359168
+    m_Localized: 明天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359169
+    m_Localized: '{0}天后'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359170
+    m_Localized: '{1}，高利贷商人将上门收取本周应还的{0}信用点。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359171
+    m_Localized: 房东将于{1}来收取{0}信用点的租金。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359172
+    m_Localized: 房东将于{2}来收取{0}+{1}（上周拖欠）信用点的租金。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359173
+    m_Localized: 房产当前价值为{0}信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359202
+    m_Localized: '{0}信用点'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359203
+    m_Localized: '{0}（冷却中：{1}）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359210
+    m_Localized: 库存：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141968977920
+    m_Localized: 可使用放大镜进行检查
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560832
+    m_Localized: 双击以打开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560833
+    m_Localized: 模组效果：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560834
+    m_Localized: 性能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560835
+    m_Localized: 效率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560836
+    m_Localized: 质量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560837
+    m_Localized: ' [已卡住。需要模组提取器。]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560838
+    m_Localized: 基础
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560839
+    m_Localized: 优质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560840
+    m_Localized: 此模组的基础属性提升{0}%，但价格昂贵得多。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560841
+    m_Localized: 劣质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560842
+    m_Localized: 此模组的基础属性降低{0}%，但价格便宜得多。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560843
+    m_Localized: 接收器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560844
+    m_Localized: 此模组每相邻一个[节点]，即可获得{0}%的临时属性加成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560845
+    m_Localized: 顶部挂载
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560846
+    m_Localized: 如果此模组至少有一侧接触到模组舱的顶部边缘，它将获得{0}%的临时属性加成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560847
+    m_Localized: 侧边挂载
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560848
+    m_Localized: 如果此模组至少有一侧接触到模组舱的左侧边缘，它将获得{0}%的临时属性加成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560849
+    m_Localized: 过载
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560850
+    m_Localized: 此模组的基础属性提升{0}%，但在使用时有{1}%的几率永久损坏。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560851
+    m_Localized: 退化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560852
+    m_Localized: 此模组具有双倍的初始基础属性，但每次使用都会使其正面加成下降{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560853
+    m_Localized: 自学习算法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560854
+    m_Localized: 此模组初始没有任何正向属性，但每次使用都会在某项属性上获得{0}点基础加成（直至达到上限）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560855
+    m_Localized: 负反馈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560856
+    m_Localized: 此模组的正向基础属性提升{0}%，但会吸收相邻模组{1}%的负面基础属性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560857
+    m_Localized: 辅助节点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560858
+    m_Localized: 此模组会吸收每个相邻[模组]{0}%的基础属性作为临时加成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560859
+    m_Localized: 系数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560860
+    m_Localized: 模组效果：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560861
+    m_Localized: '所需能量： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560862
+    m_Localized: '{0}/天'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560863
+    m_Localized: ' （基础：{0}/天）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560864
+    m_Localized: '作业速度： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560865
+    m_Localized: 内部蓄电池：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560866
+    m_Localized: 充能已暂停
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560867
+    m_Localized: 就绪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560868
+    m_Localized: 电力不足，无法充能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560869
+    m_Localized: 充能中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560870
+    m_Localized: 进度：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560871
+    m_Localized: 低功耗模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808787431424
+    m_Localized: 你的伤势已稳定，正在缓慢愈合。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014336
+    m_Localized: 你的伤势已完全愈合。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014337
+    m_Localized: 你的伤势正在愈合，且已恢复了行动能力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014338
+    m_Localized: 你的轻伤正在愈合。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014339
+    m_Localized: 你未受治疗的伤势恶化了，现已丧失行动能力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014340
+    m_Localized: 你未受治疗的重伤恶化了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014341
+    m_Localized: 你未受治疗的轻伤恶化了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208640
+    m_Localized: 你在拾荒时受了轻伤！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208641
+    m_Localized: 你在拾荒时受了重伤！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208642
+    m_Localized: 你已克服了尼古丁成瘾！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208643
+    m_Localized: 你已克服了酒精成瘾！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208644
+    m_Localized: 你已克服了麻醉品成瘾！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208645
+    m_Localized: 你正遭受尼古丁戒断反应的折磨，致使你谈判时受到惩罚！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208646
+    m_Localized: 你正遭受酒精戒断反应的折磨，致使你谈判时受到惩罚！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208647
+    m_Localized: 你正遭受麻醉品戒断反应的折磨，致使你谈判时受到惩罚！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208648
+    m_Localized: 成瘾引发的戒断反应已经消退。至少暂时如此。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208649
+    m_Localized: 你感觉整个身体都在与你作对。你的状况正在急剧恶化。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208650
+    m_Localized: 你呼吸困难，肌肉痉挛。你的状况正在迅速恶化。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208651
+    m_Localized: 你感到浑身发烫、四肢乏力。你的状况正在恶化。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208652
+    m_Localized: 你开始感觉有些不适。你需要尽快注射免疫宁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208653
+    m_Localized: 你的哨兵崩溃综合征已接近终末期，绝不能漏掉任何一次药物注射。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208654
+    m_Localized: 你的哨兵崩溃综合征已处于晚期，必须尽可能避免漏掉药物注射！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208655
+    m_Localized: ' 你感觉大有好转'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208656
+    m_Localized: ' 你感觉有所好转'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208657
+    m_Localized: ' 你感觉稍有好转'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208658
+    m_Localized: ' 你感觉没什么明显效果'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208659
+    m_Localized: 这次注射非常顺利。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208660
+    m_Localized: 这次注射大体还算顺利。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208661
+    m_Localized: 这次注射感觉怪怪的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208662
+    m_Localized: 你的{0}已被治愈！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208663
+    m_Localized: ' 和 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208664
+    m_Localized: '， '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208665
+    m_Localized: 无犯罪记录
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208666
+    m_Localized: 不适用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208667
+    m_Localized: 无
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208668
+    m_Localized: 非法走私（武器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208669
+    m_Localized: 非法走私（麻醉品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208670
+    m_Localized: 非法走私（管制识别卡）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208671
+    m_Localized: 非法走私（一般违禁品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208672
+    m_Localized: 贿赂治安人员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208673
+    m_Localized: 欺诈性虚假陈述
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208674
+    m_Localized: 危害消费者安全
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208675
+    m_Localized: 非法持有（赃物）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208676
+    m_Localized: 无证经营
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208677
+    m_Localized: 其他
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208678
+    m_Localized: 罚款
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208679
+    m_Localized: 监禁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208680
+    m_Localized: 处决
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208681
+    m_Localized: 仅指派可靠盘查员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208682
+    m_Localized: 额外盘查
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208683
+    m_Localized: 钓鱼执法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208684
+    m_Localized: 调查中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208685
+    m_Localized: 计划执行判决
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208686
+    m_Localized: 执行判决
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208687
+    m_Localized: 实习警员杰夫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208688
+    m_Localized: 瓦伦丁警官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208689
+    m_Localized: 黄探长
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208690
+    m_Localized: 盘查员佩奇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208691
+    m_Localized: 首席盘查员卡尔森
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208692
+    m_Localized: "\n预估总计（{0}<sprite name=\"c\" tint=1 >）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208693
+    m_Localized: 由于你日益猖獗的犯罪活动，治安部对你店铺的调查进度正在加快推进。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208694
+    m_Localized: 由于你极其猖獗的犯罪活动，治安部对你店铺的调查进度正以极快的速度推进。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208695
+    m_Localized: '（<b>未拥有</b>） '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208696
+    m_Localized: 你在拾荒时有所发现！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208697
+    m_Localized: 可使用电子元件进行升级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208698
+    m_Localized: 双倍战利品几率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830324310016
+    m_Localized: 地下交易所推出了新的交易收购清单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892928
+    m_Localized: 王尔德为你引荐了一名买家，对方将于明日光顾店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892929
+    m_Localized: 王尔德为你引荐了一名卖家，对方将于明日光顾店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892930
+    m_Localized: 王尔德为你引荐了一名预算充足的违禁品买家，对方将于明日光顾店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892931
+    m_Localized: 你的治安部线人传来消息，你的店铺将在2天后接受盘查。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892932
+    m_Localized: 你的治安部线人传来消息，盘查已安排在明天进行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892933
+    m_Localized: 你的治安部线人传来消息，盘查即将开始。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892934
+    m_Localized: 你的一位联系人通知你，通缉犯：{0}昨天曾光顾过你的店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892935
+    m_Localized: 你的现金流很充裕，不妨考虑将资金投资于升级设施或拓展人脉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892936
+    m_Localized: 由于进行了大量的违禁品交易，治安部可能正在准备针对你进行钓鱼执法。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892937
+    m_Localized: 治安部对你采取的调查已临近完成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892938
+    m_Localized: 由于昨晚的夜间活动，你今天开店迟到了。你因此错过了一名顾客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892939
+    m_Localized: 王尔德的善后人今晚出动，去让目击者闭嘴并清理了证据。你的犯罪嫌疑度已降低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892940
+    m_Localized: 昨晚店面没有被打扫，{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892941
+    m_Localized: 店面已被打扫干净，垃圾也已清理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892942
+    m_Localized: 清洁服务已清理了最近遭到恶意破坏后留下的烂摊子。顾客现在应该能再次安心光顾店铺了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892943
+    m_Localized: 但反正也没什么需要打扫的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892944
+    m_Localized: 店门前堆着垃圾袋，可能会使少数顾客望而却步。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892945
+    m_Localized: 店门前遍地都是垃圾和破烂，潜在的顾客都不愿光顾店铺了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087232
+    m_Localized: 店门前简直是一塌糊涂！垃圾和废料堆积成山，即便是有心光顾的人都很难靠近店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087233
+    m_Localized: 由于未缴纳电费，店铺的电力已被切断。昏暗的应急灯亮起。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087234
+    m_Localized: 电费已结清。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087235
+    m_Localized: 店铺正处于卡特尔的保护之下，小偷们绝对不敢试图抢劫你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087236
+    m_Localized: 你目前尚未投保。你的保险已中断{0}天。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087237
+    m_Localized: 保险服务已支付，你已获得保障！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087238
+    m_Localized: 店铺遭到了闯入！所幸安全警报被触发了，小偷空手而归。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087239
+    m_Localized: 昨晚发生了一起入室盗窃！搞什么鬼？！安全警报竟然失效了！{0}被偷走了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087240
+    m_Localized: 你遭贼了！{0}被偷走了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087241
+    m_Localized: 发生了一起入室盗窃。{0}被偷走了，但乔·王尔德的手下找到了小偷，并在早上把被盗物品带了回来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087242
+    m_Localized: 你的店铺被愤怒的下层区顾客破坏了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087243
+    m_Localized: 你的店铺被治安部拥趸破坏了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087244
+    m_Localized: 你的店铺被上层区顾客雇佣的暴徒破坏了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087245
+    m_Localized: 你的店铺被革命军同情者破坏了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087246
+    m_Localized: 你的店铺被卡特尔破坏了，这是一种威胁！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087247
+    m_Localized: 你的店铺被愤怒的顾客破坏了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087248
+    m_Localized: 你的店铺遭到了破坏！顾客光顾的可能性降低，且善后清理需要花费更多的钱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087249
+    m_Localized: 基于你的声望，某个派系与你透露了一项即将开始的行动的日期。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087250
+    m_Localized: 你的联系人{0}现在已准备好接受新订单了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087251
+    m_Localized: 虽然发生了停电，但多亏了你偷接私电，店里依然有电！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087252
+    m_Localized: 发生了停电。电力供应中断了！昏暗的应急灯亮起。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087255
+    m_Localized: '<i>你在治安部的声望提高了。</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087258
+    m_Localized: '<i>你在治安部的声望略有提高。</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087264
+    m_Localized: '<i>你在治安部的声望下降了。</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087265
+    m_Localized: 能源状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087266
+    m_Localized: ' -能量： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087267
+    m_Localized: 自我充能（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087268
+    m_Localized: 受{1}影响，{0}的市场价格发生了变动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840624394240
+    m_Localized: 交租日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171502
+    m_Localized: 日用品援助已发放！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171503
+    m_Localized: 日用品救济行动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171504
+    m_Localized: 上层区一家慈善机构向下层区居民慷慨捐赠了一批生活必需品。尽管一些人对其动机持有怀疑态度，但这批援助应该有助于改善生活条件，并安抚日益增长的不安情绪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365762
+    m_Localized: 证物库失窃！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365763
+    m_Localized: 空间站中央证物库发生了一起骇人听闻的入侵事件，令治安部焦头烂额。据报道，一箱被没收的违禁品现已失踪，其中包含某项正在调查的案件的关键证据。治安部已警告下层区居民，严密留意流入市面的可疑物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365764
+    m_Localized: 下层区风平浪静
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365765
+    m_Localized: 下层区今日出奇地安静，未接到重大事件报告。市场维持稳定，居民生活一如往常。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365766
+    m_Localized: 电力计划检修
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365767
+    m_Localized: 因例行电力检修作业开始实施，上层区将会临时停电。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365768
+    m_Localized: 都有好果子吃！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365769
+    m_Localized: 下层区的一群维护技术员联合开发了一套低成本水培系统，能够小批量、稳定地生产营养果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365770
+    m_Localized: “泥炭”肉罐头里到底有多少肉？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365771
+    m_Localized: 作为下层区家家户户厨房必备的加工肉罐头食品，“泥炭”正面临着严密调查。独立研究人员正对该产品中实际的含肉量提出质疑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365772
+    m_Localized: 回收宣传活动启动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365773
+    m_Localized: 中层区发起了一场小规模的垃圾回收宣传活动，以鼓励妥善处理废弃物。预计该活动不会产生任何实际效果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365774
+    m_Localized: 本地艺术家作品展
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365775
+    m_Localized: 下层区正在举办一场本地艺术家作品展，居民们可以在这里观赏并购买由空间站回收材料制成的艺术品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365776
+    m_Localized: 维护工短暂罢工结束
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365777
+    m_Localized: 维护人员的短暂罢工已得到解决，未接到严重延误或损失的报告。目前各项工作已恢复正常。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365778
+    m_Localized: 窥见未来！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365779
+    m_Localized: 上层区组织了一场科技展，展示了初创公司和科技企业的最新创新成果。展出的大多数产品均面向高端买家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365780
+    m_Localized: 中层区新交通线开通
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365781
+    m_Localized: 中层区开通了一条新的交通线，将多个住宅区与一个商业中心连接起来。交通条件的改善预计将略微缓解中层区居民的通勤压力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365782
+    m_Localized: 装饰性喷泉公开亮相！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365783
+    m_Localized: 作为空间站美化工程的一部分，上层区落成了一座新喷泉。治安部已发出提醒，任何被发现饮用喷泉水的公民都将被逮捕并处以罚款。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365784
+    m_Localized: 下层区公共园圃扩建
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365785
+    m_Localized: 下层区居民扩建了他们的公共园圃，增加了几块用于种植基础蔬菜的新区域。此举不太可能影响食物价格。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365786
+    m_Localized: 中层区举办艺术比赛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365787
+    m_Localized: 中层区某社区中心举办了一场艺术比赛，邀请居民们投稿自己的创作，优秀作品将在公共场所展示一周。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365788
+    m_Localized: 上层区举办文化庆典
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365789
+    m_Localized: 某上层区文化组织正举办一场小型庆祝活动，内容包括传统表演、音乐和美食。该活动主要由上层区居民参加，对市场影响甚微。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365790
+    m_Localized: 例行舱外活动训练演习
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365791
+    m_Localized: 针对空间站技术人员的例行舱外活动训练演习已顺利完成，未对空间站的日常活动造成干扰。据报道，下层区的一名男子错把进行舱外活动的人员当成了外星人而当场休克，目前正在接受治疗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365792
+    m_Localized: 营养果农场喜迎大丰收！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365793
+    m_Localized: 营养果大丰收
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365794
+    m_Localized: 中层区一家大型农场正在收割其种植的营养果。预计短期内市场将出现新鲜营养果，食物价格也会随之下降。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365795
+    m_Localized: 营养果收成惨淡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365796
+    m_Localized: 营养果歉收
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365797
+    m_Localized: 下层区的一家营养果农场本季度歉收，作物因缺乏适当的资源和维护而枯萎。预计短期内食物价格将上涨，新鲜产品也将出现短缺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365798
+    m_Localized: 营养果种子遭劫！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365799
+    m_Localized: 营养果种子短缺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365800
+    m_Localized: 水培农场仓库中的营养果种子在一夜之间被人洗劫一空。预计整个空间站的食物和种子的价格都将大幅上涨。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365801
+    m_Localized: 发现假冒医疗用品！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365802
+    m_Localized: 医疗用品短缺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365803
+    m_Localized: 多个诊所和医院中发现了大量假冒医疗用品。预计对正品医疗物资的需求将激增。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365804
+    m_Localized: 水处理厂故障，供水面临告急
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365805
+    m_Localized: 供水危机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365806
+    m_Localized: 中央水处理厂的水泵故障正对供水造成严重影响。治安部已呼吁民众保持冷静，市场专家预测未来几天水和净水物资的价格将飙升。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365807
+    m_Localized: 水处理厂将按期进行例行维护
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365808
+    m_Localized: 轻微缺水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365809
+    m_Localized: 治安部宣布，中央水处理厂的例行维护将按计划进行。管道受到的影响预计会很有限。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365810
+    m_Localized: 矿工从冰小行星回归！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365811
+    m_Localized: 供水过剩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365812
+    m_Localized: 我们一支勇敢的采矿队已顺利完成富冰小行星“贝拉41-A”的勘探任务并返回。预计优质水的供应量将随之增加，水价也会下降。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365813
+    m_Localized: 下层区暴民动用私刑！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365814
+    m_Localized: 下层区的私刑处决
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365815
+    m_Localized: 下层区居民因再也无法忍受一名奸商，决定动用私刑。空间站治安部已呼吁民众保持冷静。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365816
+    m_Localized: 秘密储藏室被发现！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365817
+    m_Localized: 日用品过剩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365818
+    m_Localized: 下层区一群拾荒者偶然发现了一个堆满日用品的密室。大量商品涌入市场，很可能导致今日价格下跌。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365819
+    m_Localized: 采矿远征队回归
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365820
+    m_Localized: 材料盈余
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365821
+    m_Localized: 一批采矿队成功从富含矿产的小行星返航。预计材料价格将在短期内下跌。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365822
+    m_Localized: 建设项目
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365823
+    m_Localized: 各类新建设项目正在整个下层区如雨后春笋般涌现。建筑材料和熟练劳工可能会面临短缺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365824
+    m_Localized: 流星雨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365825
+    m_Localized: 昨夜一场流星雨袭击了空间站，导致多个区域出现损坏和破裂。缺乏加固舱体的下层区受灾最为严重——预计材料价格将上涨。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365826
+    m_Localized: 下层区电力不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365827
+    m_Localized: 停电
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365828
+    m_Localized: 发电机故障导致下层区停电。预计在维修期间，能量电池将出现短缺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365829
+    m_Localized: 发电厂计划检修
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365830
+    m_Localized: 发电站检修
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365831
+    m_Localized: 下层区的一座主要发电厂已开始例行检修。居民们被告知在此检修期间内做好供电受到轻微干扰的准备。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365832
+    m_Localized: 谁把灯关了？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365833
+    m_Localized: 中央电网的灾难性故障使整个空间站陷入了黑暗。预计对能量电池和电力相关产品的需求将会激增。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365834
+    m_Localized: 泳池怎么走？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365835
+    m_Localized: 游客涌入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365836
+    m_Localized: 一艘游轮已在上层区靠泊，带来了一波游客。据推测，部分充满好奇心的游客甚至可能会逛到下层区。空间站治安部已呼吁公民在游览期间保持尊重。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365837
+    m_Localized: 奥克西莫成瘾情况日益严重
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365838
+    m_Localized: 据报道，整个空间站的奥克西莫使用量急剧增加，各诊所的成瘾和过量病例也随之激增。预计对医疗用品和治疗服务的需求将会上涨。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365839
+    m_Localized: （赝品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365857
+    m_Localized: 纯水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365858
+    m_Localized: 优质水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365859
+    m_Localized: 基础水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365860
+    m_Localized: 幽灵水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365861
+    m_Localized: 铁锈水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365867
+    m_Localized: 赝品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365868
+    m_Localized: 正品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365881
+    m_Localized: 街头标准
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365890
+    m_Localized: 水质纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365892
+    m_Localized: 香烟真伪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365893
+    m_Localized: 食品券真伪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365894
+    m_Localized: 免疫宁真伪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365899
+    m_Localized: 零售加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365902
+    m_Localized: 神经活性香水加成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365903
+    m_Localized: 费洛蒙香水加成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365909
+    m_Localized: 检查成功降价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365923
+    m_Localized: 新客折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528109809664
+    m_Localized: '[标签]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586880
+    m_Localized: 这些是假烟！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586881
+    m_Localized: '{0}有问题，看到了没？'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586882
+    m_Localized: 字母印刷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586883
+    m_Localized: 颜色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586884
+    m_Localized: 防伪标
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586885
+    m_Localized: 商标
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586886
+    m_Localized: 包装盒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586887
+    m_Localized: 哎呀，你这么一说我就看出来了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586888
+    m_Localized: 那我给你便宜点吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586889
+    m_Localized: 你再仔细看看呢，这绝对没问题。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586891
+    m_Localized: 啊，乔治奥之前不知道呢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586892
+    m_Localized: 乔治奥会降低价格。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586893
+    m_Localized: 这些香烟到处都是问题。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586894
+    m_Localized: 好吧，好吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586895
+    m_Localized: 这个其实是正品来的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586896
+    m_Localized: 真的吗？谢谢你告诉我！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586897
+    m_Localized: 不可能，我亲自验过货。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586899
+    m_Localized: 食品券（{0}信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586900
+    m_Localized: 面值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586901
+    m_Localized: 芯片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586903
+    m_Localized: 真的吗？我之前都没发现。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586904
+    m_Localized: 那我给你便宜点吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586906
+    m_Localized: 免疫宁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586907
+    m_Localized: 指示灯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586908
+    m_Localized: 标签
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586909
+    m_Localized: 序列号
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586910
+    m_Localized: 瓶体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083968
+    m_Localized: '{0}信用点'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083969
+    m_Localized: 耐久度：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083972
+    m_Localized: 耗水率：{0}毫升/天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083974
+    m_Localized: '[已贴标]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083975
+    m_Localized: '[已检测]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083985
+    m_Localized: 水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254276825088
+    m_Localized: 你拖欠了租金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796608
+    m_Localized: 由于未能支付租金，你被驱逐了。被你的顾客、联系人甚至导师所抛弃，你被迫回到了拾荒者的生活。没过多久，这家店就租给了某个新人，而你发现自己站在了柜台的另一边，为了几个信用点讨价还价。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796632
+    m_Localized: 选择要携带的背包
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796633
+    m_Localized: 不带背包出门
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796634
+    m_Localized: 已选背包：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796635
+    m_Localized: '再次点击以 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796636
+    m_Localized: 确认
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796637
+    m_Localized: ' 激活 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796638
+    m_Localized: 无法激活{0}！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796639
+    m_Localized: 丢在地上的物品将被遗弃并永久丢失。确定要离开吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796640
+    m_Localized: 杰克逊博士会派助手来回收你丢在地上的所有物品。确定要离开吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796641
+    m_Localized: 离开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796642
+    m_Localized: 取消
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796643
+    m_Localized: 剩余尝试次数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796644
+    m_Localized: 剩余尝试次数：受伤时无法拾荒！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796645
+    m_Localized: 轻伤几率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796646
+    m_Localized: 重伤几率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109824
+    m_Localized: 打开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109825
+    m_Localized: 检查
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109826
+    m_Localized: 使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109827
+    m_Localized: 阅读
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109828
+    m_Localized: 摄入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109829
+    m_Localized: 激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109830
+    m_Localized: 拆包
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109831
+    m_Localized: 打包
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109832
+    m_Localized: 切换
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109833
+    m_Localized: 卸载
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055920013312
+    m_Localized: 水管目前已连接至下水道。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179136
+    m_Localized: 水管目前已连接至工业排放管。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355192635392
+    m_Localized: 呵……这水的纯度比你说的还要高！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995520
+    m_Localized: 哇，多谢你告诉我。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995521
+    m_Localized: 这是铁锈水。我都能看到水里的颗粒了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995522
+    m_Localized: 那咋啦？行吧，我降价就是了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995523
+    m_Localized: 这分明是沟渠水。它是棕色的，看见没？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995524
+    m_Localized: 行，算你便宜点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995525
+    m_Localized: 这是幽灵水。肉眼确实很难看出来，我可不会掉以轻心。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995526
+    m_Localized: 真的吗？那我给你便宜点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995527
+    m_Localized: 这是基础水。你当我是好糊弄的？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189824
+    m_Localized: 纯度不对。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189825
+    m_Localized: 好吧，我重新给你报个价。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189826
+    m_Localized: 我没有足够的信用点买纯水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189827
+    m_Localized: 我买不起优质水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189828
+    m_Localized: 基础水？我才不喝！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189829
+    m_Localized: 我绝对不会喝幽灵水……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189830
+    m_Localized: 你疯了吗？我才不喝铁锈水！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189831
+    m_Localized: 不会吧，你指望我喝那玩意儿？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189832
+    m_Localized: 得了吧……我绝不会喝那东西。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848249237504
+    m_Localized: 牲畜类固醇血清
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014720
+    m_Localized: 牲畜免疫血清
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014721
+    m_Localized: 老年
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014722
+    m_Localized: 成年
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014723
+    m_Localized: 亚成年
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014724
+    m_Localized: 幼年
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014725
+    m_Localized: 幼崽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014726
+    m_Localized: 未知
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014727
+    m_Localized: 雄性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014728
+    m_Localized: 雌性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014729
+    m_Localized: 年龄：{0}天（{1}克）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014730
+    m_Localized: '健康值： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014731
+    m_Localized: '饥饿值： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014732
+    m_Localized: '繁殖力： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014733
+    m_Localized: '{0}%（基础：{1}%）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014734
+    m_Localized: 生长速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014735
+    m_Localized: 预期产仔数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014736
+    m_Localized: 免疫力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014737
+    m_Localized: 最大健康值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014738
+    m_Localized: 寿命
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014739
+    m_Localized: 饥饿速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014740
+    m_Localized: '怀孕期： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014741
+    m_Localized: （{0}/{1}天）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209024
+    m_Localized: 死亡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209025
+    m_Localized: 挨饿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209026
+    m_Localized: 怀孕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209027
+    m_Localized: 流产
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209028
+    m_Localized: 绝育
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209029
+    m_Localized: 患病
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209030
+    m_Localized: 抓痕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209031
+    m_Localized: 成熟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209032
+    m_Localized: 免疫力强
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209033
+    m_Localized: 免疫力低下
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209034
+    m_Localized: 过度拥挤{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164525137920
+    m_Localized: 动物笼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526528
+    m_Localized: 用于饲养动物的小笼子。看起来不怎么舒服，但可能比下层区某些人的住处要好。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526529
+    m_Localized: 动物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526530
+    m_Localized: '耐久度： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526531
+    m_Localized: '[使用废金属修理]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526532
+    m_Localized: '[使用金属锭扩建（剩余{0}次升级）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526533
+    m_Localized: '[已达最大尺寸]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526534
+    m_Localized: '[已完全修复]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526535
+    m_Localized: 别再卖那种假水了，你这是在把我们害死！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526536
+    m_Localized: 我们知道你干的好事。马上停止卖假水！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526537
+    m_Localized: 再敢继续卖受污染的水的话，你会后悔的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526538
+    m_Localized: 把幽灵水当成饮用水卖，你晚上睡得着觉吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526539
+    m_Localized: 别再卖幽灵水了，否则我们会亲自动手阻止你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526540
+    m_Localized: 你的假水要害死人了。下一个死的就是你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526541
+    m_Localized: 你的子弹差点把我害死。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526542
+    m_Localized: 我每天都会经过你的店铺……总有一天我能鼓起勇气对你打声招呼的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526543
+    m_Localized: 你不认识我，但我对你的一切了如指掌。继续做你自己就好。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526544
+    m_Localized: 我给你留了点东西。只是……聊表谢意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526545
+    m_Localized: '不知道你有没有发现，我一直在暗中注视着你…… '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526546
+    m_Localized: 你让下层区有了一丝光明。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526547
+    m_Localized: 你是我还会来这里的唯一理由。注意安全。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526548
+    m_Localized: 致我最喜欢的店主，今天也别忘了微笑哦。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526549
+    m_Localized: 小型{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526550
+    m_Localized: 大型{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526551
+    m_Localized: 巨型{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526552
+    m_Localized: 已报废
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526553
+    m_Localized: 一台完全损坏的机器。已经无法修复。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526554
+    m_Localized: 浓缩营养液（75%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526555
+    m_Localized: 化学瓶 - {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526556
+    m_Localized: 旧水培系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526557
+    m_Localized: 故障模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12846119084933120
+    m_Localized: 卡路里储备：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412624089088
+    m_Localized: 朊病毒病
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283392
+    m_Localized: 肉类
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283393
+    m_Localized: 其他
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359174
+    m_Localized: 火力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359175
+    m_Localized: 风格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359176
+    m_Localized: 可靠性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359177
+    m_Localized: 后坐力控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359178
+    m_Localized: 人机工效
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359179
+    m_Localized: 精准度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087254
+    m_Localized: '{0}信用点已入账。多亏了你的协助，治安部成功抓捕了{1}。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087256
+    m_Localized: '{0}信用点已入账。多亏了你的协助，治安部成功抓捕了一名违禁品贩子。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087257
+    m_Localized: '{0}信用点已入账。多亏了你的协助，治安部成功抓捕了一名小偷。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171461
+    m_Localized: 非法武器走私货物抵达！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171462
+    m_Localized: 非法武器走私货物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171463
+    m_Localized: 一大批非法武器已经躲过治安部的巡逻，流入下层区。预计武器供应量将激增，价格会随之下降。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171464
+    m_Localized: 武器需求增加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171465
+    m_Localized: 报告显示，整个下层区的神秘买家对武器的需求出现了小幅激增。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365760
+    m_Localized: 下层区革命军被捕！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365862
+    m_Localized: 沟渠水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365904
+    m_Localized: 顺手牵羊 IV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365905
+    m_Localized: 顺手牵羊 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365906
+    m_Localized: 顺手牵羊 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365907
+    m_Localized: 顺手牵羊 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365911
+    m_Localized: 低级违禁品加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365912
+    m_Localized: 中级违禁品加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365913
+    m_Localized: 高级违禁品加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365914
+    m_Localized: 高危级违禁品加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365920
+    m_Localized: 清仓折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365921
+    m_Localized: 折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365922
+    m_Localized: 供货商加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083970
+    m_Localized: 需求工作量：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083971
+    m_Localized: 收获数量：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083986
+    m_Localized: 重金属
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083987
+    m_Localized: 有机废物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083988
+    m_Localized: 微塑料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083989
+    m_Localized: 微生物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083990
+    m_Localized: 化学污染物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083991
+    m_Localized: 物理污染物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083992
+    m_Localized: 矿物质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083997
+    m_Localized: 咖啡因
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278280
+    m_Localized: 脂合剂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278281
+    m_Localized: '[已锁定]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278282
+    m_Localized: 已密封
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748402831540224
+    m_Localized: 剩余使用次数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805506109440
+    m_Localized: 改造同化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805522886656
+    m_Localized: 改造体的数量已经失控，现在已经开始公开活动。在夜里，一群改造体闯入了你的店铺，强行给你植入了改造芯片。治安部始终没有出现。随着芯片启动，你成为了这具曾属于你的躯壳里的一名过客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853199155200
+    m_Localized: 装备霰弹枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853220126720
+    m_Localized: 目前无法装备霰弹枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17612012079857664
+    m_Localized: 清空
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19813141920399360
+    m_Localized: '{0}信用点已入账。多亏了你的协助，一名改造体被成功消灭。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22771451896315904
+    m_Localized: 过失杀人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26281714880659456
+    m_Localized: '{0}票券'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069152714752
+    m_Localized: 琼浆玉液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269184
+    m_Localized: 臻品窖藏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269185
+    m_Localized: 量产酒液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269186
+    m_Localized: 手工自酿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269187
+    m_Localized: 粗桶劣酿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269188
+    m_Localized: 难以下咽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32910981274058752
+    m_Localized: 你的一位联系人通知你，昨天有一名改造体曾光顾过你的店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712365101056
+    m_Localized: 提供折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461184
+    m_Localized: 抬高售价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461185
+    m_Localized: 敲诈勒索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461186
+    m_Localized: 提出加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461187
+    m_Localized: 要求折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461188
+    m_Localized: 威胁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691844919296
+    m_Localized: 开始发酵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890816
+    m_Localized: 发酵中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890817
+    m_Localized: 原材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890818
+    m_Localized: 原材料不足，无法开始发酵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890819
+    m_Localized: 水量不足，无法开始发酵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890820
+    m_Localized: 陈化期：{0}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890821
+    m_Localized: 发酵中……距离完成还有{0}天。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925092061184
+    m_Localized: 必定接受。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170048
+    m_Localized: 接受：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170049
+    m_Localized: 拒绝：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170050
+    m_Localized: 掉头走人：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170051
+    m_Localized: +{0}%接受概率（来自谈判专家）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113908625408
+    m_Localized: 这将会把物资拆解为不可交易的化学品。确定要这么做吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113992511488
+    m_Localized: 切换此物品以更改其外观
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732093977280512
+    m_Localized: 这些水已经是基础水或更好的水质了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732094002446336
+    m_Localized: 净水器剩余的电量不足以净化这么多的水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43763292053487616
+    m_Localized: 治安部传来消息，今天可能会有改造体来你的店里。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826371
+    m_Localized: 所需工作量：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826372
+    m_Localized: 需要：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45488749983612928
+    m_Localized: '[匹配]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427832188928
+    m_Localized: 正在发送信号：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427878326272
+    m_Localized: 双击以更改呼叫对象。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48380974841249792
+    m_Localized: 垃圾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826370
+    m_Localized: 状态：工作中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826373
+    m_Localized: 未知的水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48476019179175936
+    m_Localized: 该物品会随着时间推移而升值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43370373127651328
+    m_Localized: 当日营业开始后放入展示柜的物品，要到第二天才会生效。请在开店前布置好展示柜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56007818054778880
+    m_Localized: 所需物品：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365851
+    m_Localized: 完美纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365852
+    m_Localized: 极高纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365853
+    m_Localized: 高纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365854
+    m_Localized: 中等纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365855
+    m_Localized: 低纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365856
+    m_Localized: 极低纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365889
+    m_Localized: 金属锭纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6348201574400
+    m_Localized: 占位符
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360965
+    m_Localized: 化学模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360966
+    m_Localized: 输入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360967
+    m_Localized: 容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360968
+    m_Localized: 控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360969
+    m_Localized: 启动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360970
+    m_Localized: 内容物损失：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360971
+    m_Localized: 化学模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360972
+    m_Localized: 容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360973
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360974
+    m_Localized: 控制面板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360975
+    m_Localized: 配置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360976
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360977
+    m_Localized: 未选择目标
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360978
+    m_Localized: 引入污染物：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360988
+    m_Localized: 电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360989
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360990
+    m_Localized: 容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360991
+    m_Localized: 馏出液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360992
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360998
+    m_Localized: 化学模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360999
+    m_Localized: 加热板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361000
+    m_Localized: 温度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361001
+    m_Localized: 控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361002
+    m_Localized: 目标温度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361003
+    m_Localized: 关闭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361004
+    m_Localized: 低
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361005
+    m_Localized: 高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361006
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361007
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361009
+    m_Localized: 不适用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361010
+    m_Localized: 无
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361011
+    m_Localized: '最高温度：{0}°C， '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361012
+    m_Localized: 加热速度：慢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361013
+    m_Localized: 加热速度：快
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361014
+    m_Localized: 加热速度：极快
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361042
+    m_Localized: 电力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361043
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361044
+    m_Localized: 输入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361045
+    m_Localized: 芯片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361046
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361047
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361048
+    m_Localized: 电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361049
+    m_Localized: 模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361050
+    m_Localized: 水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361051
+    m_Localized: 种子输入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361052
+    m_Localized: 作物输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361053
+    m_Localized: 备注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361054
+    m_Localized: 水和电力不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361055
+    m_Localized: 电力不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361056
+    m_Localized: 水量不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361057
+    m_Localized: 启动中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361058
+    m_Localized: 等待种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361059
+    m_Localized: 生长中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361060
+    m_Localized: 状态：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361062
+    m_Localized: 状态：就绪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361063
+    m_Localized: 正在生长：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361074
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361075
+    m_Localized: 库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361076
+    m_Localized: 控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361077
+    m_Localized: 核心
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361078
+    m_Localized: '{0}信用点'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361079
+    m_Localized: 全部转移
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361080
+    m_Localized: 自动售货机会以加价后的固定价格出售商品，不受当前生效事件影响。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361081
+    m_Localized: 某些类型的物品通过自动售货机出售时更受欢迎。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361082
+    m_Localized: 可使用电子元件升级，以提高吸引力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361083
+    m_Localized: 可使用金属锭升级，以提高容量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361084
+    m_Localized: 当前吸引力：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361085
+    m_Localized: 电源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361086
+    m_Localized: 基础水箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361087
+    m_Localized: 优质水箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361088
+    m_Localized: 纯水箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361089
+    m_Localized: 控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361090
+    m_Localized: 核心
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361091
+    m_Localized: 可使用电子元件升级，以提高吸引力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915592
+    m_Localized: '[HIDDEN] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915593
+    m_Localized: '[IMPORTANT] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915594
+    m_Localized: '[REPO] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915595
+    m_Localized: 单件以物易物价值：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915596
+    m_Localized: 以物易物总价值：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359180
+    m_Localized: 大小
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359181
+    m_Localized: 受到压制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359182
+    m_Localized: 最佳养分浓度：{0}%-{1}%矿物质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359183
+    m_Localized: 矿物质消耗：{0}毫升/生长阶段
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359184
+    m_Localized: 污染物敏感度：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359185
+    m_Localized: 耗水量：{0}毫升/天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359186
+    m_Localized: 生长评分：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359187
+    m_Localized: 一般
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359188
+    m_Localized: 极度敏感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359189
+    m_Localized: 敏感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359190
+    m_Localized: 轻度敏感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359191
+    m_Localized: 抗性极强
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359192
+    m_Localized: 有抗性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359193
+    m_Localized: 略有抗性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359194
+    m_Localized: 免疫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359195
+    m_Localized: 未知
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359196
+    m_Localized: '[就绪]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359197
+    m_Localized: '[{0}天后]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359198
+    m_Localized: '[{0}天后]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359199
+    m_Localized: 未知
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359200
+    m_Localized: 所需体积：{0}毫升
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359201
+    m_Localized: 不能含有液态原料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359204
+    m_Localized: 来自{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359206
+    m_Localized: 剩余{0}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359207
+    m_Localized: 剩余{0}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359208
+    m_Localized: -{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359209
+    m_Localized: "\n-{0}{1}声望"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359211
+    m_Localized: 已将所有中奖彩票兑换为{0}信用点！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087253
+    m_Localized: 事件报告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087259
+    m_Localized: "\n<i>你在{0}的声望下降了。</i>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087260
+    m_Localized: ' 你向治安部作出了不实举报。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087261
+    m_Localized: ' 已从你的账户中扣除{0}信用点的罚款。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087262
+    m_Localized: ' 下次再作出不实举报，你将被逮捕。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087263
+    m_Localized: ' 继续作出不实举报可能造成严重后果。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171456
+    m_Localized: 按揭还款
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171457
+    m_Localized: 卡特尔来访
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171458
+    m_Localized: 下层区帮派开战！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171459
+    m_Localized: 下层区帮派战争
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171460
+    m_Localized: 敌对帮派已相互宣战！枪战和小规模冲突席卷下层区，医疗物资需求预计将会上升。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171466
+    m_Localized: 革命力量动员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171467
+    m_Localized: 下层区已侦测到大规模革命活动。各革命小组正在为一场重大行动做最后准备，武器、医疗物资和护甲价格预计将会暴涨。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171468
+    m_Localized: 革命军突袭上层区！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171469
+    m_Localized: 革命军突袭上层区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171470
+    m_Localized: 革命军对上层区发动了大胆突袭，从住宅和商铺中掠夺物资，再拿到下层区出售以筹措行动经费。日用品供应预计将会增加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171471
+    m_Localized: 革命军突袭治安部！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171472
+    m_Localized: 革命军突袭治安部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171473
+    m_Localized: 革命军伏击了治安部在下层区的一处主要据点。冲突造成双方伤亡，也殃及了被卷入交火的下层区居民，致使医疗物资需求上升，治安部的影响力减弱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171474
+    m_Localized: 治安巡逻全面加强！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171475
+    m_Localized: 加强巡逻与检查站
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171476
+    m_Localized: 治安部暂时扩大了巡逻范围，并在下层区各处增设检查站。部分革命军和黑市活动受到压制，下层区也恢复了些许秩序。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171477
+    m_Localized: 全站严打
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171478
+    m_Localized: 鉴于黑市活动日益猖獗、大量非法货物流入空间站，指挥部已宣布全面严打违禁品。即刻起，所有区域将实施更严格的盘查。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171479
+    m_Localized: 黑市遭突袭！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171480
+    m_Localized: 治安部突袭黑市
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171481
+    m_Localized: 治安部队突袭了多处黑市窝点，查获大量武器和毒品，令非法贸易难以开展。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171482
+    m_Localized: 革命军藏身处遭捣毁！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171483
+    m_Localized: 突袭革命军
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171484
+    m_Localized: 治安部突袭了一处已经暴露的革命军安全屋。人员被捕、物资被没收，革命力量因此遭到削弱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171485
+    m_Localized: 宣布戒严！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171486
+    m_Localized: 戒严
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171487
+    m_Localized: 受近期事件影响，下层区已全面戒严。宵禁、检查站和监控遍布整个区域，革命军与黑市活动受到压制。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171488
+    m_Localized: 治安部预算增加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171489
+    m_Localized: 指挥部大幅增加了治安部的预算，使其能够开展更多行动。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171490
+    m_Localized: 暴乱爆发！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171491
+    m_Localized: 下层区暴乱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171492
+    m_Localized: 受近期事件影响，大批下层区居民在各地掀起暴乱。商铺遭到洗劫，治安部据点遇袭，混乱迅速蔓延。食物和武器需求激增。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171493
+    m_Localized: 工人大罢工！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171494
+    m_Localized: 工人罢工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171495
+    m_Localized: 受近期事件影响，心怀不满的下层区工人已经罢工，食物和水的供应正受到干扰。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171496
+    m_Localized: 医疗援助已发放！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171497
+    m_Localized: 紧急医疗援助
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171498
+    m_Localized: 上层区慈善机构向下层区增派了医护人员，并调拨了额外的医疗物资。尽管一些居民仍持怀疑态度，这项援助还是缓解了动荡。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171499
+    m_Localized: 食物援助已发放！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171500
+    m_Localized: 食物赈济
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171501
+    m_Localized: 指挥部罕见地释放善意，在下层区各街区发放口粮和食物包。这项举措缓和了紧张局势，但也有人认为这只是面子工程。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171505
+    m_Localized: 彩票开奖！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171506
+    m_Localized: 彩票开奖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171507
+    m_Localized: 开奖号码是{0}！请向彩票代表兑奖！彩票号码只要至少有3位与开奖号码相符，就能赢得奖金！祝你好运！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365761
+    m_Localized: 空间站治安部迅速采取行动，逮捕了知名活动人士亚瑟·拉弗勒。此人曾是下层区历次失败革命中的领导层成员。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365840
+    m_Localized: （无法使用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365841
+    m_Localized: （已过期）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365842
+    m_Localized: 免费
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365843
+    m_Localized: 正常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365844
+    m_Localized: 已过期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365845
+    m_Localized: 未过期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365846
+    m_Localized: 有凹痕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365847
+    m_Localized: （隐藏）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365848
+    m_Localized: 已开封
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365849
+    m_Localized: 原厂密封
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365850
+    m_Localized: 已生锈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365863
+    m_Localized: 非常新鲜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365864
+    m_Localized: 新鲜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365865
+    m_Localized: 不新鲜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365866
+    m_Localized: 已变质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365869
+    m_Localized: 无法使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365870
+    m_Localized: 卡住
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365871
+    m_Localized: 全新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365872
+    m_Localized: 极佳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365873
+    m_Localized: 良好
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365874
+    m_Localized: 一般
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365875
+    m_Localized: 较差
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365876
+    m_Localized: 仿制品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365877
+    m_Localized: 功能正常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365878
+    m_Localized: 实验室纯级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365879
+    m_Localized: 药用级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365880
+    m_Localized: 近药用级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365882
+    m_Localized: 掺兑级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365883
+    m_Localized: 垃圾级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365884
+    m_Localized: 淀粉级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365885
+    m_Localized: 开封状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365886
+    m_Localized: 锈蚀状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365887
+    m_Localized: 有效期状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365888
+    m_Localized: 包装状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365891
+    m_Localized: 食物新鲜度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365895
+    m_Localized: 模组状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365896
+    m_Localized: 免费物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365897
+    m_Localized: 化学纯度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365898
+    m_Localized: 顾客折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365900
+    m_Localized: 自动售货机加成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365901
+    m_Localized: “捐赠”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365908
+    m_Localized: 谈判惩罚（成瘾）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365915
+    m_Localized: I级管制品加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365916
+    m_Localized: II级管制品加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365917
+    m_Localized: III级管制品加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365918
+    m_Localized: 供应商折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365919
+    m_Localized: 小费
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365924
+    m_Localized: 多样化买家加成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365925
+    m_Localized: 游客税
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365926
+    m_Localized: 模组卡住
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586898
+    m_Localized: 第{0}期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090714495401984
+    m_Localized: 包装工厂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083973
+    m_Localized: 状态：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083976
+    m_Localized: 总体积：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083977
+    m_Localized: 毒性：致命
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083978
+    m_Localized: 毒性：有毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083979
+    m_Localized: 欣快感：微弱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083980
+    m_Localized: 欣快感：轻微
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083981
+    m_Localized: 欣快感：强烈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083982
+    m_Localized: 欣快感：极强
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083983
+    m_Localized: 戒瘾：是
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083984
+    m_Localized: 避孕：是
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083993
+    m_Localized: 梦帽菇糊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083994
+    m_Localized: 梦帽菇萃取液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083995
+    m_Localized: 植物质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083996
+    m_Localized: 酒精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083998
+    m_Localized: 蛋白质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083999
+    m_Localized: 脂肪/油脂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084000
+    m_Localized: 淀粉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084001
+    m_Localized: 糖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084002
+    m_Localized: 咖啡豆糊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084003
+    m_Localized: 避孕激素
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084004
+    m_Localized: 山奈德
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084005
+    m_Localized: 梦魇帽菇萃取液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084006
+    m_Localized: 梦魇帽菇糊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084007
+    m_Localized: 氯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278272
+    m_Localized: 赛纳普斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278273
+    m_Localized: 芬太
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278274
+    m_Localized: N-羟甲基碱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278275
+    m_Localized: 还原剂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278276
+    m_Localized: 酸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278277
+    m_Localized: 碱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278278
+    m_Localized: 稳定剂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278279
+    m_Localized: 不溶性碎屑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796609
+    m_Localized: 被捕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796610
+    m_Localized: 治安部以危害空间站的罪名逮捕了你，并将你关进拘留所。服刑期间，你的店铺被租给了别人。获释后，失去店铺的你只能重操旧业，再次成为一名勉强糊口的拾荒者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796611
+    m_Localized: 被处决
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796612
+    m_Localized: 治安部以危害空间站的重罪逮捕并处决了你。死后，你的店铺被租给了别人，顾客很快便将你遗忘。随着时间流逝，你在空间站留下的一切痕迹都消失了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796613
+    m_Localized: 买断
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796614
+    m_Localized: 你签下房契，租金的重担与房东的阴影一同消散。店铺从此彻底属于你——在这个从未善待过你的世界里，这是一场来之不易的胜利。你第一次真正掌握了自己的未来，今后引领你的，唯有自己的雄心。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796615
+    m_Localized: 你签下最后一份文件，斩断了高利贷者束缚你的最后一道锁链。店铺如今真正属于你，再也没有被收走的威胁，也摆脱了地下势力的阴影。你克服了重重困难，熬过了无尽的苦日子，最终笑到了最后。未来属于你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796616
+    m_Localized: 店铺被收回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796617
+    m_Localized: 一切都走到了尽头。店铺被人收走，你为之奋斗的一切也从指间溜走。高利贷者冰冷的魔爪日益收紧，将你逼得无路可逃。你破了产、无家可归，只剩下一段苦涩的教训：在这个残酷的世界里，失去一切不过是转瞬之间的事。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796618
+    m_Localized: 遭私刑处决
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796619
+    m_Localized: 你屡次得罪下层区，终于招来一群愤怒的顾客冲进店铺。他们夺走了你的一切，再把你扔出气闸。这就是下层区的正义。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796620
+    m_Localized: 遭栽赃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796621
+    m_Localized: 治安部以捏造的罪名逮捕了你，并将你扔进拘留所。店铺遭到查封并被变卖，用来抵扣一笔巨额罚款。几周后你获释了，但店铺早已不复存在。你只能重操旧业，再次成为一名勉强糊口的拾荒者。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796622
+    m_Localized: 遭暗杀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796623
+    m_Localized: 你屡次得罪上层区，最终，空间站的权贵雇来一名杀手，让你永远闭上了嘴。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796624
+    m_Localized: 哨兵崩溃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796625
+    m_Localized: 你漏打了太多次免疫宁，失常的免疫系统终于开始攻击你的身体。杀死你的不是疾病，而是你自己。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796626
+    m_Localized: 死于爆炸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796627
+    m_Localized: 被革命军宣布为敌人后，你的店里遭人安放了炸弹。爆炸摧毁了店铺，也夺走了你的性命。店铺的废墟成了留给其他人的警告：这就是胆敢反对革命军的下场。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796628
+    m_Localized: 被“退休”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796629
+    m_Localized: 卡特尔认定留着你已经没有价值，于是让你永远“退出”了这一行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796630
+    m_Localized: 无证经营
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796631
+    m_Localized: 你没能取得营业许可证，只得被迫关店。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179137
+    m_Localized: 下层区紧急抢修
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179138
+    m_Localized: 流星雨击穿了下层区的多处设施。我们已经封锁邻近区域并开始修补破口，但由于物资短缺，进展十分缓慢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179139
+    m_Localized: 下层区工程队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179140
+    m_Localized: 上层区泳池维修
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179141
+    m_Localized: 上层区社区泳池在流星雨中受损，反正它原本也该翻修了。我们想购买一箱工程物资，以加快维修进度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179142
+    m_Localized: 上层区社区管理员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179143
+    m_Localized: 下层区慈善诊所医疗物资
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179144
+    m_Localized: 我们的医疗物资已经耗尽。物资短缺导致许多人无法得到妥善治疗，任何援助我们都感激不尽。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179145
+    m_Localized: 下层区慈善诊所
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179146
+    m_Localized: 上层区总医院医疗物资
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179147
+    m_Localized: 我们急需的医疗物资未能按时送达。尽管目前仍有库存，但为了保证储备充足，我们愿意支付更高价格。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179148
+    m_Localized: 上层区总医院
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179149
+    m_Localized: 黑市医疗物资
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179150
+    m_Localized: 趁着物资持续短缺，我们要把市面上的货全都扫光，好让价格水涨船高！替我们弄到货，我们会给你丰厚报酬。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179151
+    m_Localized: 可疑的商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179152
+    m_Localized: 下层区建设材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179153
+    m_Localized: 下层区正在建设一栋新住宅楼，但建筑材料一直不好筹措。我们需要物资来保证工程继续推进。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179154
+    m_Localized: 下层区施工队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179155
+    m_Localized: 建筑物资
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179156
+    m_Localized: 建筑材料的需求正在上升，我们打算牢牢控制货源。赶在其他人之前把物资交给我们，报酬少不了你的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179157
+    m_Localized: 可疑的掮客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179158
+    m_Localized: 下层区救济食堂物资
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179159
+    m_Localized: 近期事件让许多人陷入困境。我们付不起多少钱，但一定会让大家都知道你的善举。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179160
+    m_Localized: 救济食堂协调员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179161
+    m_Localized: 失踪的物证柜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179162
+    m_Localized: 一箱重要证物失踪了。我们要你尽快把它送回来，其他事一概不过问。及时交货，自然少不了你的报酬。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179163
+    m_Localized: 下层区治安主管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179164
+    m_Localized: 被盗的物证柜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179165
+    m_Localized: 最近被盗的一箱证物中，装有对我客户不利的资料。我们愿意支付高价，在治安部或更糟糕的人掌握这些资料之前将它重新取回。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179166
+    m_Localized: 未知
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179167
+    m_Localized: 革命军暗影小组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179168
+    m_Localized: 革命军黄金小队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179169
+    m_Localized: 革命军雄鹰小组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179170
+    m_Localized: 革命军总部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179171
+    m_Localized: 革命军阿尔法小组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179172
+    m_Localized: 革命军西塔小组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179173
+    m_Localized: 亚历山德拉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179174
+    m_Localized: 乔丹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179175
+    m_Localized: 泰勒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179176
+    m_Localized: 路易
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179177
+    m_Localized: 哈伦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179178
+    m_Localized: 金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179179
+    m_Localized: 茶点委托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179180
+    m_Localized: 朋友的生日派对临时缺了些茶点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179181
+    m_Localized: 茶点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179182
+    m_Localized: 废金属委托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179183
+    m_Localized: 我们需要废金属来建一座新花园。旧花园已经年久失修了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179184
+    m_Localized: 乔迁之礼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179185
+    m_Localized: 朋友马上要办一场聚会，我们需要一份乔迁之礼。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179186
+    m_Localized: 乔迁之礼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179187
+    m_Localized: 加工肉类委托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179188
+    m_Localized: 我们要在花园里办野餐，需要不易腐坏的食物。加工肉类最合适。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179189
+    m_Localized: 我们的一位客户点名要这个。只要弄到手，我们会出高价。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179190
+    m_Localized: 上层区代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179191
+    m_Localized: 我们正在为慈善活动募集物品，帮助下层区有需要的人。无论捐赠什么，我们都感激不尽。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179192
+    m_Localized: 上层区慈善活动组织者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179193
+    m_Localized: 工人物资
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179194
+    m_Localized: 得找点东西熬过漫长的轮班。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179195
+    m_Localized: 下层区工人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179196
+    m_Localized: 给乔治奥的卫生纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179197
+    m_Localized: 乔治奥的收藏还缺一些卫生纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179198
+    m_Localized: 乔治奥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179199
+    m_Localized: 切肉刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179200
+    m_Localized: 需要一把新的切肉刀。旧的已经钝了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179201
+    m_Localized: 匿名人士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179202
+    m_Localized: 清洁队的啤酒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179203
+    m_Localized: 我的人一直在拼命干活，该放松一下了。替我弄些红魔鬼啤酒来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179204
+    m_Localized: 索耶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179205
+    m_Localized: 轻食能量棒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179206
+    m_Localized: 我最喜欢的能量棒到处都卖光了。替我弄几根来，我会出高价。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179207
+    m_Localized: 伦警官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179208
+    m_Localized: 撬棍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179209
+    m_Localized: 有人没经过我们的允许，就擅自做起了清洁工作。我们要杀一儆百。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179210
+    m_Localized: 能量饮料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179211
+    m_Localized: 需要一些能量饮料提神。我得把实验做完！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179212
+    m_Localized: 杰克逊博士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179213
+    m_Localized: 房东特供
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179214
+    m_Localized: 我的一个房客一直催我修门。给我弄点废金属来，我再看看能怎么办。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179215
+    m_Localized: 房东
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179216
+    m_Localized: 房东特供2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179217
+    m_Localized: 有个烦人的房客一直催我修通风系统。我看下周再多涨点租金好了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179218
+    m_Localized: 房东特供3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179219
+    m_Localized: 我有一套房子，临街的窗户破了，拿块布随便补补就行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179220
+    m_Localized: 退休烧烤派对
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179221
+    m_Localized: 我们正在凑钱，想为布歇警官办一场像样的退休烧烤派对。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179222
+    m_Localized: 宠物食品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179223
+    m_Localized: 弄些真正的生肉来，要新鲜、未经加工。我家宝贝只吃最好的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179224
+    m_Localized: 上层区权贵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179225
+    m_Localized: 婴儿食品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179226
+    m_Localized: 真不敢相信，下层区居然只有繁星果糊这种像样的食物能满足婴儿的营养需求。帮我弄一些来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179227
+    m_Localized: 下层区母亲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189833
+    m_Localized: 这不可能吧，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189834
+    m_Localized: 这也高得太离谱了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189835
+    m_Localized: 这也低得太离谱了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189836
+    m_Localized: 你显然根本不懂鉴定。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189837
+    m_Localized: 我不奉陪了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189838
+    m_Localized: '{0}鉴定'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189839
+    m_Localized: "已收取鉴定费：\n{0}信用点（{1}%）\n{2}信用点（基础费用）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189840
+    m_Localized: 鉴定单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189841
+    m_Localized: 完美
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189842
+    m_Localized: 极佳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189843
+    m_Localized: 良好
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189844
+    m_Localized: 一般
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189845
+    m_Localized: 糟糕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189846
+    m_Localized: 好，听起来正合适。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189847
+    m_Localized: 谢谢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189848
+    m_Localized: 嗯，我明白了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189849
+    m_Localized: 比我预想的低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189850
+    m_Localized: 嗯，听起来差不多。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189851
+    m_Localized: 比我预想的稍低一点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189852
+    m_Localized: 好，听起来不错。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189853
+    m_Localized: 好，听起来很棒。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189854
+    m_Localized: 比我预想的高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189855
+    m_Localized: 比我预想的稍高一点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174125625344
+    m_Localized: 导轨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596864
+    m_Localized: 枪管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596865
+    m_Localized: 弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596866
+    m_Localized: 下挂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596867
+    m_Localized: 枪托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596868
+    m_Localized: 特殊槽位1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596869
+    m_Localized: 特殊槽位2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596870
+    m_Localized: 特殊槽位3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382631989559296
+    m_Localized: 未选择配方
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530816
+    m_Localized: 检测到液态原料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530817
+    m_Localized: 试剂不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084774883328
+    m_Localized: 你卖给我的<b>{0}</b>根本没造成任何伤害！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437760
+    m_Localized: 你卖给我的<b>{0}</b>没把活儿办成！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437761
+    m_Localized: 我的目标还活着。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437762
+    m_Localized: 而且它还让他嗨了起来！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437763
+    m_Localized: 你卖给我的<b>{0}</b>差点害死我！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437764
+    m_Localized: 你搞什么鬼？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437765
+    m_Localized: 你卖给我朋友的<b>{0}</b>害死了他！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437766
+    m_Localized: 你会为此付出代价！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437767
+    m_Localized: 你卖给我的<b>{0}</b>根本没用！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437768
+    m_Localized: 我现在怀孕了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437769
+    m_Localized: 现在她怀孕了！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437770
+    m_Localized: 你卖给我的<b>{0}</b>根本没用！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437771
+    m_Localized: 我的瘾一点都没戒掉！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437772
+    m_Localized: 而且它还让我嗨了起来！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437773
+    m_Localized: 我可是攒了很多信用点才买下它的！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437774
+    m_Localized: 你卖给我的<b>{0}</b>根本毫无效果！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437775
+    m_Localized: 你到底有没有往里面放真正的毒品？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437776
+    m_Localized: 我根本没嗨起来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437777
+    m_Localized: 你卖给我的<b>{0}</b>效力也太弱了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437778
+    m_Localized: 我几乎什么都没感觉到。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437779
+    m_Localized: 你卖给我的<b>{0}</b>效果很差！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437780
+    m_Localized: 效力相当弱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437781
+    m_Localized: 而且还让我觉得怪怪的……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437782
+    m_Localized: 你卖给我的<b>{0}</b>感觉有点不对劲，但我说不清到底哪里不对。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826368
+    m_Localized: 你卖给我的<b>{0}</b>根本就是骗人的！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826369
+    m_Localized: 纯度和你承诺的差得太远了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60693662015471616
+    m_Localized: 果酿萃取液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479060475904
+    m_Localized: 可使用电子元件（普通）升级，以解锁内置焚化炉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418944
+    m_Localized: 焚化炉：开启
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418945
+    m_Localized: 焚化炉：关闭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418946
+    m_Localized: 清理后焚烧所有已储存的粪便
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62159031347494912
+    m_Localized: 上次扫描
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62538283863556096
+    m_Localized: 已屠宰动物数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240793124864
+    m_Localized: 打印水瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319168
+    m_Localized: 打印大号水瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319169
+    m_Localized: 可打印小号水瓶：消耗{0}点能量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319170
+    m_Localized: 可打印水瓶：消耗{0}点能量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319171
+    m_Localized: 可打印大号水瓶：消耗{0}点能量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319172
+    m_Localized: '升级（普通电子元件）：{0}/{1} '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923241672704
+    m_Localized: 装备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421440
+    m_Localized: 槽位{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421441
+    m_Localized: 已锁定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421442
+    m_Localized: 已解锁槽位：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421443
+    m_Localized: 使用废金属升级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392552988327936
+    m_Localized: 已兑换为{0}信用点！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392553026076672
+    m_Localized: 双击即可兑换
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049709674496
+    m_Localized: 靠上排列（大件优先）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617536
+    m_Localized: 靠上排列（小件优先）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617537
+    m_Localized: 靠下排列（大件优先）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617538
+    m_Localized: 靠下排列（小件优先）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984083615744
+    m_Localized: 冰镇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170176
+    m_Localized: 冷冻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170177
+    m_Localized: 冰凉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074797178880
+    m_Localized: 冷藏区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733312
+    m_Localized: 冷冻区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733313
+    m_Localized: 将{0}<b>放入</b>{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733314
+    m_Localized: 将{0}<b>放入</b>{1}的{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733315
+    m_Localized: 将{0}<b>交给</b>{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733316
+    m_Localized: 无法将{0}放入{1}！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733317
+    m_Localized: 无法将{0}交给{1}！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733318
+    m_Localized: 对{1}<b>使用</b>{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733319
+    m_Localized: 无法对{1}使用{0}！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733320
+    m_Localized: '<b>拆解</b>{0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733321
+    m_Localized: '<b>尝试翻修</b>{0}（成功率：{1}%）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733322
+    m_Localized: 升级：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733323
+    m_Localized: 储藏（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733324
+    m_Localized: 效率（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73440099060989952
+    m_Localized: 外出前最好先清空柜台，腾出足够的空间放置带回的所有物品。确定要外出吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73448114220744704
+    m_Localized: '{0}（价值：{1}%）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849913851904
+    m_Localized: 情报纸条
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823424
+    m_Localized: 情报
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823425
+    m_Localized: '{0}：{1}天后开始，持续{2}天。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823426
+    m_Localized: '{0}：今天开始，持续{1}天。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499588513792
+    m_Localized: '{0}/次扫描'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456832
+    m_Localized: 扫描就绪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456833
+    m_Localized: 检测到改造体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456834
+    m_Localized: 未检测到改造体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203698147328
+    m_Localized: 欠条
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507456
+    m_Localized: 乔治奥欠店主{0}信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507457
+    m_Localized: 乔治奥会连本带利还清。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507458
+    m_Localized: ——乔治奥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75956810117070848
+    m_Localized: '{0} {1} {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065948909568
+    m_Localized: 滤水器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464000
+    m_Localized: 饲料分配器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464001
+    m_Localized: 水箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464002
+    m_Localized: 混合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464003
+    m_Localized: 未安装水箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464004
+    m_Localized: 水量：{0}毫升，需要{1}毫升
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464005
+    m_Localized: 废物：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464006
+    m_Localized: 存鱼：活鱼{0}尾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464007
+    m_Localized: 存鱼：活鱼{0}尾，死鱼{1}尾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464008
+    m_Localized: '{0}枚鱼卵'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464009
+    m_Localized: '{0}枚鱼卵，{1}天后孵化'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464010
+    m_Localized: '{0}尾鱼苗，{1}天后长成幼鱼'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464011
+    m_Localized: 整窝鱼卵需要水箱提供{0}毫升水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464012
+    m_Localized: 需要水箱提供{0}毫升水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464013
+    m_Localized: 剩余肉量：{0}/{1}千卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464014
+    m_Localized: 食性：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464015
+    m_Localized: 杂食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464016
+    m_Localized: 植食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464017
+    m_Localized: 肉食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464018
+    m_Localized: 不怕脏水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464019
+    m_Localized: 对脏水敏感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464020
+    m_Localized: 可清除水中的污染物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464021
+    m_Localized: '{0}天后进入下一生长阶段'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464022
+    m_Localized: '{0}天后步入老年'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464023
+    m_Localized: 老年：每晚都有可能死亡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464024
+    m_Localized: 饲料粒占比：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464025
+    m_Localized: 饲料粒占比：{0}%，肉质为废品级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464026
+    m_Localized: 窒息中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464027
+    m_Localized: 饥饿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464028
+    m_Localized: 无水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464029
+    m_Localized: 水量不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464030
+    m_Localized: 水质受污染
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464031
+    m_Localized: 水体有毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464032
+    m_Localized: 已受精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464033
+    m_Localized: 未受精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464034
+    m_Localized: 废品级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464035
+    m_Localized: 废品级：不可食用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464036
+    m_Localized: 鱼吃下的食物中，饲料粒占比一旦超过{0}%，鱼肉就会降为废品级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464037
+    m_Localized: 双击可拆分，拖到另一份饲料粒上可合并
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464038
+    m_Localized: 污泥饲料粒：{0}千卡（仅供鱼类食用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464039
+    m_Localized: 肉类：{0}千卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198129475584
+    m_Localized: 每晚为所在循环水养殖系统及相邻的每块电池提供{0}千焦能量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641408
+    m_Localized: 饥饿状态：不发电
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641409
+    m_Localized: 进入亚成年期（第{0}天）后开始发电
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641410
+    m_Localized: 电鳗每晚可为养殖缸电池及相邻的每块电池提供{0}千焦能量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641411
+    m_Localized: 鱼卵：{0}/{1}克
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641412
+    m_Localized: 鱼卵：{0}/{1}克，已满
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641413
+    m_Localized: 鱼卵：{0}/{1}克，暂停产卵，生命值恢复至{2}%后继续
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641414
+    m_Localized: 仅可养殖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641415
+    m_Localized: 怀卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641416
+    m_Localized: 恢复中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664676265984
+    m_Localized: 使用这种饲料时，鱼的生长速度为正常速度的{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431808
+    m_Localized: 双击可拆分，拖到另一袋饲料上可合并
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431809
+    m_Localized: 工业鱼饲料：{0}千卡（仅供鱼类食用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431810
+    m_Localized: 按近期的食物摄入情况，当前生长速度为正常速度的{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431811
+    m_Localized: 食用污泥饲料粒时不会受到减益
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431812
+    m_Localized: 食用肉类时，生长速度提高{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452674281472
+    m_Localized: 基因复杂度：{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447296
+    m_Localized: 可食用产物售价：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447297
+    m_Localized: 活性成分：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447298
+    m_Localized: 每晚去除各类污染物中的{0}%，纯度最高可达{1}%。矿物质会保留。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447299
+    m_Localized: 每晚将{0}%的水转化为有机废物、微生物和碎屑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447300
+    m_Localized: 产出{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447301
+    m_Localized: 每件收获物都带有{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447302
+    m_Localized: 每件收获物中增加{0}毫升的{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447303
+    m_Localized: 每件收获物中增加{0}毫升的{1}，使其成为违禁品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447304
+    m_Localized: 基因（复杂度{0}）：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447305
+    m_Localized: 基因（复杂度{0}，热度+{1}）：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447306
+    m_Localized: 无特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447307
+    m_Localized: '{0}（无法编辑）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447308
+    m_Localized: '{0}（固有）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447309
+    m_Localized: '{0}（无效果）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447310
+    m_Localized: '- {0}（固有，已移除）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447311
+    m_Localized: '{0}×{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447312
+    m_Localized: 空白DNA数据盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447313
+    m_Localized: 剩余使用次数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447314
+    m_Localized: 复杂度：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447315
+    m_Localized: 最多可叠加至{0}级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447316
+    m_Localized: 互斥特性：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447317
+    m_Localized: 对以下对象无效：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447318
+    m_Localized: 无
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447319
+    m_Localized: 没有可应用的特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447320
+    m_Localized: '{0}是作物本身的固有属性，无法应用'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447321
+    m_Localized: 无法给带有{1}的目标添加{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447322
+    m_Localized: '{0}已达到最高等级'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447323
+    m_Localized: '{0}会阻止添加{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447324
+    m_Localized: '{0}对{1}无效'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447325
+    m_Localized: 此目标中没有可供{0}作用的对象
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447326
+    m_Localized: '{0}是作物本身的固有属性，无法提取'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447327
+    m_Localized: 目标没有可提取到此数据盘上的{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447328
+    m_Localized: 目标没有可提取的{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447329
+    m_Localized: 两种筛选模组均已安装，无法提取任何特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447330
+    m_Localized: 目标没有可提取的正面特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447331
+    m_Localized: 目标没有可提取的负面特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447332
+    m_Localized: 目标没有可提取的特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447333
+    m_Localized: 无法将{0}放入{1}：{2}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447334
+    m_Localized: 特性数据盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447335
+    m_Localized: 目标
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447336
+    m_Localized: 空白数据盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447337
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447338
+    m_Localized: 数据盘自动弹出：开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447339
+    m_Localized: 数据盘自动弹出：关
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447340
+    m_Localized: 切换机器开关即可更改此设置。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447341
+    m_Localized: 正在应用{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447342
+    m_Localized: 正在提取特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447343
+    m_Localized: 就绪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447344
+    m_Localized: 无法开始：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447345
+    m_Localized: 下一步：应用{0}（成功后消耗数据盘1次使用次数）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447346
+    m_Localized: 下一步：应用{0}，使其提升1级（成功后消耗数据盘1次使用次数）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447347
+    m_Localized: 下一步：提取特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447348
+    m_Localized: 下一步：提取{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447349
+    m_Localized: 下一步：再次将{0}提取到数据盘中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447350
+    m_Localized: 目标不会被销毁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447351
+    m_Localized: 目标会被销毁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447352
+    m_Localized: 成功率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447353
+    m_Localized: 可食用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447354
+    m_Localized: 这种植物产出的所有东西都可以食用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447355
+    m_Localized: 营养丰富
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447356
+    m_Localized: 营养匮乏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447357
+    m_Localized: 生长迅速
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447358
+    m_Localized: 生长缓慢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447359
+    m_Localized: 高产
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447360
+    m_Localized: 低产
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447361
+    m_Localized: 美味
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447362
+    m_Localized: 难以下咽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447363
+    m_Localized: 耐旱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447364
+    m_Localized: 耗水量大
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447365
+    m_Localized: 生命力顽强
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447366
+    m_Localized: 脆弱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447367
+    m_Localized: 繁殖力强
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447368
+    m_Localized: 不育
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447369
+    m_Localized: 简单基因组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447370
+    m_Localized: 复杂基因组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447371
+    m_Localized: 多年生
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447372
+    m_Localized: 收获后仍会存活，并再次结果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447373
+    m_Localized: 净化水质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447374
+    m_Localized: 污染水质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447375
+    m_Localized: 质地紧实
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447376
+    m_Localized: 效力强
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447377
+    m_Localized: 效力弱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447378
+    m_Localized: 生长速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447379
+    m_Localized: 收获数量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447380
+    m_Localized: 耗水量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447381
+    m_Localized: 养分耐受度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447382
+    m_Localized: 污染物敏感度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447383
+    m_Localized: 初始生命值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447384
+    m_Localized: 热量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447385
+    m_Localized: 种子产量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447386
+    m_Localized: 收获物耐久度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427712
+    m_Localized: 要丢弃全部已储存的饲料吗？这将损失{0}千卡热量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427713
+    m_Localized: '{0}千卡'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427714
+    m_Localized: '{0}千卡（肉类）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427715
+    m_Localized: 改良种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427716
+    m_Localized: 固定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427717
+    m_Localized: 取消固定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427718
+    m_Localized: 撤销整理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427719
+    m_Localized: 已固定：整理或卸载物品时保持原位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078630248448
+    m_Localized: 运气不错，你躲过了一次受伤！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025664
+    m_Localized: 运气救了你！治安员没发现你的非法物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025665
+    m_Localized: 真倒霉，你翻遍了这堆东西，却什么也没找到。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025666
+    m_Localized: 运气帮了忙，这个图案变得对你有利了！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025667
+    m_Localized: 倒霉了，这个图案变得对你不利了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025668
+    m_Localized: 这次彩票开奖，运气站在了你这边。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025669
+    m_Localized: 这次彩票开奖，坏运气拖了你的后腿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902970552320
+    m_Localized: 无法将{0}放入{1}：机器运行时，模组槽位已锁定。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718145
+    m_Localized: 新开张的店铺暂时不会遭贼，保护期还剩{0}晚。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025670
+    m_Localized: 热量储备：{0}/{1}千卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025671
+    m_Localized: 肉类（{0}）：{1}千卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025672
+    m_Localized: 肉类（来源不明）：{0}千卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025673
+    m_Localized: 其他食物：{0}千卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025674
+    m_Localized: 鱼卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025675
+    m_Localized: 鱼苗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025676
+    m_Localized: ' -{0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718144
+    m_Localized: 买家发现，从你的自动贩卖机买到的商品中有{0}件标签与实物不符。他们已通知治安部。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727931338752
+    m_Localized: 运行中的水分收集器：{0}台（每台产量为{1}%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504576
+    m_Localized: 新倒的垃圾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504577
+    m_Localized: 上层区保洁部门刚倒下来一批垃圾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504578
+    m_Localized: 找到垃圾的概率降低{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504579
+    m_Localized: 受伤概率提高{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504580
+    m_Localized: 仅限今天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504581
+    m_Localized: 剩余{0}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504582
+    m_Localized: 乔治奥的援助
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504583
+    m_Localized: 乔治奥会来垃圾倾倒场帮你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504584
+    m_Localized: 不会受伤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504585
+    m_Localized: 拾荒次数+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504586
+    m_Localized: 特别供货
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504587
+    m_Localized: 有更稀有的物品出售
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504588
+    m_Localized: 价格提高{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698880
+    m_Localized: 折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698881
+    m_Localized: 价格降低{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698882
+    m_Localized: 入室盗窃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698883
+    m_Localized: 昨晚有人闯进店里，把货架上的货一扫而空。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698884
+    m_Localized: 库存减少
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698885
+    m_Localized: 新货上架
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698886
+    m_Localized: 补充相当于库存上限{0}%的货物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237053218816
+    m_Localized: 你从{0}获得的股东分红已放在柜台上。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773248
+    m_Localized: 未营业
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773249
+    m_Localized: 杰克逊博士似乎周一不营业。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773250
+    m_Localized: 破旧
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773251
+    m_Localized: 破旧
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836480
+    m_Localized: 吸引力（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836481
+    m_Localized: 每次{0}升级都会使每晚的能耗增加{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836482
+    m_Localized: 每进行{1}次{0}升级，每晚的能耗就会增加{2}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578398818304
+    m_Localized: 自动混合：开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178432
+    m_Localized: 自动混合：关
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178433
+    m_Localized: 你已经休息够了，今晚可以再次外出了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178434
+    m_Localized: 议价惩罚（不善议价）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178435
+    m_Localized: 杂物清运
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178436
+    m_Localized: 无法移动。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178437
+    m_Localized: 你没有外出，而是花时间清理了杂物堆（{0}/{1}）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178438
+    m_Localized: 清运人员搬走了杂物堆的一部分（{0}/{1}）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178439
+    m_Localized: 这堆杂物终于彻底清干净了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178440
+    m_Localized: 完好度：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178441
+    m_Localized: 每晚损失完好度：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178442
+    m_Localized: 升级次数：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178443
+    m_Localized: 每晚为相邻电池和机器补充{0}能量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178444
+    m_Localized: 反应堆损坏严重，已无法为店铺供电。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178445
+    m_Localized: 如果不维修，反应堆将在下一晚爆炸！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178446
+    m_Localized: 堆芯熔毁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178447
+    m_Localized: 简易反应堆一直严重缺乏维护，终于撑不住了——这种疏忽程度简直够得上犯罪。爆炸摧毁了店铺和周围整个街区。治安部已开始调查杰克逊博士是否涉案。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791880241152
+    m_Localized: 初级鉴定师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601280
+    m_Localized: 鉴定师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601281
+    m_Localized: 高级鉴定师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601282
+    m_Localized: 鉴定大师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601283
+    m_Localized: 基础费用：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601284
+    m_Localized: '{0}：加收估值的{1}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601285
+    m_Localized: '{0}：拒绝受理'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601286
+    m_Localized: 鉴定顾客来访概率：每天{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601287
+    m_Localized: 可鉴定物品：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601288
+    m_Localized: 晋升进度：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601289
+    m_Localized: 已满足晋升条件，委员会将派人来访。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601290
+    m_Localized: 激活后可选择顾客带来的物品种类。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682702381056
+    m_Localized: .22 SR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741184
+    m_Localized: 10毫米
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741185
+    m_Localized: .45 AFP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741186
+    m_Localized: 12号口径
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741187
+    m_Localized: 口径
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741188
+    m_Localized: 产出物品栏容量（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038272
+    m_Localized: 那里面大多是填充料，你的戒断症状丝毫没有缓解。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038273
+    m_Localized: 戒断症状缓解了些，但这次的药效太弱，撑不了多久。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038274
+    m_Localized: 这次的药效够强，戒断症状暂时不会再出现了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86858013764009984
+    m_Localized: 打印小号水瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86869480580104192
+    m_Localized: 顾客发现你为市场委托交付的货里有{0}件标签不实。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051770290176
+    m_Localized: 电流转换器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650304
+    m_Localized: 状态：开启
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650305
+    m_Localized: 状态：关闭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650306
+    m_Localized: 效率：1kJ需要{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650307
+    m_Localized: 已连接：{0}（{1}kJ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650308
+    m_Localized: 每晚费用：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833481465856
+    m_Localized: 奥克莫吸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825984
+    m_Localized: '- 将几株梦帽菇搅拌成梦帽菇糊'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825985
+    m_Localized: "- 加入相当于梦帽菇糊体积5倍的酒精\n- 将混合物加热至40-50°C，制成梦帽菇萃取液"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825986
+    m_Localized: "- 用韧棉织物过滤，然后放入蒸发器\n- （必需）确保所有水和酒精均已蒸发"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825987
+    m_Localized: 第4步：反应
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825988
+    m_Localized: "- 加入与梦帽菇萃取液等量的还原剂\n- 再加入其四分之一量的脂合剂\n- 将混合物加热至45-55°C，制成奥克莫吸"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825989
+    m_Localized: 警告：梦帽菇萃取液超过60°C会变质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825990
+    m_Localized: 第5步：成型封装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825991
+    m_Localized: "- 再次过滤，并蒸发掉脂合剂\n- 在化学制剂成型机中选择“奥克莫吸注射器”"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825992
+    m_Localized: 你的店铺遭到了恶意破坏。有人在店门口写了一个大大的“肉”字……用的是血！？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825993
+    m_Localized: 你最好给自己弄把枪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825994
+    m_Localized: 我很有耐心。只要你踏出店门一步，我就在外面等着。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825995
+    m_Localized: 你早晚得出来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825996
+    m_Localized: 你得带上一把枪，不然{0}会杀了你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825997
+    m_Localized: 你感到有什么东西在暗中盯着你，让人心里发毛。还好你带了枪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825998
+    m_Localized: 猎杀屠夫服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825999
+    m_Localized: 昨晚，索耶的伙计们去“拜访”了{0}。他再也没法卖谁的鲜肉了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510826000
+    m_Localized: 卢说过别碰她的玩具。她又在你的柜台上留下了一份小礼物，而这一次是真的。爆炸摧毁了店铺，你也没能幸免。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87729210584252416
+    m_Localized: 液体好运的效果过去了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413656555520
+    m_Localized: 给塞尔皮科的食物应该够了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498560
+    m_Localized: 你在垃圾场给塞尔皮科留了{0}千卡的食物（{1}/{2}千卡）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498561
+    m_Localized: 我是塞尔皮科。我逃跑的时候中了枪，现在躲在垃圾场。一个好心的拾荒客帮我包扎了伤口，还答应替我把这封信带给你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498562
+    m_Localized: 走之前我顺手带走了一些罪证。我需要点时间把东西整理好，可没吃的我撑不下去。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498563
+    m_Localized: 我想求你帮个大忙。你能在垃圾场放{0}千卡的食物吗？直接放在地上就行，等没人的时候我再去拿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498564
+    m_Localized: 我恐怕撑不过{0}天。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498565
+    m_Localized: 治安部警员陈尸垃圾场
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498566
+    m_Localized: 因涉嫌腐败而接受调查的实习警员塞尔皮科被发现死于垃圾场。治安部目前未透露更多细节。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498567
+    m_Localized: 治安部腐败内幕曝光
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498568
+    m_Localized: 揭露空间站治安部内部腐败的文件已在全站公开。数名基层警员现已被提起刑事诉讼，但没有任何高层官员为此承担后果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498569
+    m_Localized: 腐败指控波及治安部高层
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498570
+    m_Localized: 提交给一名高级长官的证据，已让治安部各级警员被提起刑事诉讼。一支新的反腐专案组也已成立。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498571
+    m_Localized: 你没能还清欠卢的债，于是她用自己的方式算了这笔账：在你的柜台上留了一份小礼物，而这一次是真的。爆炸摧毁了店铺，你也没能幸免。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498572
+    m_Localized: 来访的高级海军上将遇刺身亡！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498573
+    m_Localized: 昨晚，一名来访的共和国海军上将及其护卫在船坞附近遭枪杀。据目击者称，枪手是一名身穿偷来的治安部制服的金发女子，她径直走到上将一行人面前才开枪。现场警员击中了她数枪，但她还是逃走了，至今下落不明。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624640
+    m_Localized: 已刮彩票：{0}张
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624641
+    m_Localized: 平均奖金：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624642
+    m_Localized: 你的店铺昨晚遭到了恶意破坏。店门口被人用喷漆写了两个大字：“张伟”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624643
+    m_Localized: 固定模式：点击物品即可固定或取消固定。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624644
+    m_Localized: 无法固定{0}：只能固定库存中属于你的物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624645
+    m_Localized: 点击固定{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624646
+    m_Localized: 点击取消固定{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022676185088
+    m_Localized: 每{0}天补充1次使用次数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350912
+    m_Localized: 下次补充：{0}天后
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350913
+    m_Localized: 下次补充：明天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350914
+    m_Localized: 二手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350915
+    m_Localized: 黑市为埃莉诺的数据盘付了你{0}信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350916
+    m_Localized: 帕斯泰尔营养果的秘密遭到泄露！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350917
+    m_Localized: 一篇研究论文已经发表，揭示了如何让普通营养果重新结籽。全空间站的生物黑客已经开始种植这一新品种，种子价格随之暴跌。同一天早上，因挪用公款入狱的空间站最大水培农场前负责人被发现死在牢房中。帕斯泰尔公司拒绝置评。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350918
+    m_Localized: 标签页{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022705545216
+    m_Localized: 储物标签页：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575454130176
+    m_Localized: 超科技走私贩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490304
+    m_Localized: 还没有预设。激活它来设置吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490305
+    m_Localized: '{0}：{1}（{2}件物品）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490306
+    m_Localized: '{0}：{1}（1件物品）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490307
+    m_Localized: 无按键
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490308
+    m_Localized: 输出：每周期{0} kJ，无限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490309
+    m_Localized: 升级：电子元件（超科技），每个+{0} kJ输出（已使用{1}个）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490310
+    m_Localized: 已连接：{0}（{1}kJ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490311
+    m_Localized: 机器耗电在输出范围内
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490312
+    m_Localized: 机器耗电超出输出：无法供电
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490313
+    m_Localized: 充能：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490314
+    m_Localized: 已储存加速：{0}次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490315
+    m_Localized: 充能速度：每周期{0}（等级{1}），从能量电池汲取{0} kJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490316
+    m_Localized: 对它使用一个高级涡轮增压器，可永久提高充能速度和耗电量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684608
+    m_Localized: 充能：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684609
+    m_Localized: 冷却：还剩{0}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684610
+    m_Localized: 冷却：还剩1天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684611
+    m_Localized: 就绪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684612
+    m_Localized: 对它使用电子元件（超科技）可增加1次充能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777344
+    m_Localized: 设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777345
+    m_Localized: 输出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777346
+    m_Localized: 笼子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777347
+    m_Localized: 鱼缸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777348
+    m_Localized: 立即屠宰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777349
+    m_Localized: 屠宰托盘内容
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777350
+    m_Localized: 复制设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777351
+    m_Localized: 粘贴设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777352
+    m_Localized: 拖放即屠宰
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777353
+    m_Localized: 仅宰杀并存放
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777354
+    m_Localized: 收获
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777355
+    m_Localized: 保留种畜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777356
+    m_Localized: 关闭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777357
+    m_Localized: 仅尸体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777358
+    m_Localized: 体重
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360256
+    m_Localized: 年龄
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360257
+    m_Localized: 体重：{0}到{1}克
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360258
+    m_Localized: 体重：{0}克及以上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360259
+    m_Localized: 年龄：{0}到{1}天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360260
+    m_Localized: 年龄：{0}天及以上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360261
+    m_Localized: 雌性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360262
+    m_Localized: 雄性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360263
+    m_Localized: 计入已命名和已标记
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360264
+    m_Localized: 将每只已标记或已命名的动物计入保留的雌性和雄性数量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360265
+    m_Localized: 放过怀孕的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360266
+    m_Localized: 淘汰患病的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360267
+    m_Localized: 淘汰朊病毒携带者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360268
+    m_Localized: 放过产卵鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360269
+    m_Localized: 处理死鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360270
+    m_Localized: 肉送入饲料分配器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360271
+    m_Localized: 收集未受精鱼卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360272
+    m_Localized: 上次运行：屠宰{0}只
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360273
+    m_Localized: 上次运行：屠宰{0}只，收集鱼卵{1}份
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360274
+    m_Localized: 自动屠宰机的托盘已满。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360275
+    m_Localized: 屠宰机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360276
+    m_Localized: 墨水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360277
+    m_Localized: 红色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360278
+    m_Localized: 紫色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360279
+    m_Localized: 绿色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360280
+    m_Localized: 蓝色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360281
+    m_Localized: 橙色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360282
+    m_Localized: 橡皮擦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360283
+    m_Localized: 墨水：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052836904960
+    m_Localized: 未连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070784
+    m_Localized: 已连接到{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070785
+    m_Localized: 已连接到{1}中的{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070786
+    m_Localized: 店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070787
+    m_Localized: 运行顺序：{0}（{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070788
+    m_Localized: 机器运行前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070789
+    m_Localized: 机器运行后
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070790
+    m_Localized: 全部结束后
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070791
+    m_Localized: 搬运全部物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070792
+    m_Localized: 只搬运列表中的物品种类（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070793
+    m_Localized: 搬运除列表中物品种类外的全部物品（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070794
+    m_Localized: 每种物品保留{0}个
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070795
+    m_Localized: 保留：无，全部搬运
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070796
+    m_Localized: 有物品放入时也运行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070797
+    m_Localized: 此料斗被移动时也运行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070798
+    m_Localized: 立即搬运
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070799
+    m_Localized: 断开连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070800
+    m_Localized: 添加物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070801
+    m_Localized: 筛选
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070802
+    m_Localized: 搬运全部物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070803
+    m_Localized: 仅限允许列表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070804
+    m_Localized: 黑名单以外的全部物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070805
+    m_Localized: 点击物品将其加入列表。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070806
+    m_Localized: 允许列表为空：添加物品前不会搬运任何东西。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070807
+    m_Localized: 黑名单为空：全部物品都会搬运。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070808
+    m_Localized: 点击将{0}移出列表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070809
+    m_Localized: '{0}无法加入列表。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070810
+    m_Localized: '{0}已在列表中。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070811
+    m_Localized: 点击将{0}加入列表。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89088954657980416
+    m_Localized: 喂食至：饥饿度{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664064
+    m_Localized: '{0}：{1}微升（-{2}微升/天）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664065
+    m_Localized: 检查报告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664066
+    m_Localized: 没收了1件物品：{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664067
+    m_Localized: 没收了{0}件物品：{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664068
+    m_Localized: '{0}以及另外{1}件'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664069
+    m_Localized: '{0}（{1}信用点）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664070
+    m_Localized: 、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664071
+    m_Localized: 每天没有鉴定顾客上门，几率都会提高，基础为{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89359339031252992
+    m_Localized: 纯度上限：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366424240128
+    m_Localized: 这些食物让塞尔皮科多撑一天。剩余送食的夜晚：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366449405952
+    m_Localized: 乔治奥在垃圾场给塞尔皮科留了一箱营养果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90934939390533632
+    m_Localized: 安全警报未能启动：其电池无法提供它每晚消耗的{0}千焦能量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522599710720
+    m_Localized: 这种病已给你的身体留下了一些永久损伤。目前还不危险，但也不会消失。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070848
+    m_Localized: 你的身体再也承受不起错过一次注射了。再有一次注射迟到，你就会死。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070849
+    m_Localized: 能量不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070850
+    m_Localized: 颜色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070851
+    m_Localized: 配置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070852
+    m_Localized: '{0}信用点已入账。{1}已在你的柜台前被击毙，并记录为抓捕。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070853
+    m_Localized: 小营养果。那一枪挺疼的。我不生气，我是佩服。可姑娘家总有开销。往这个储物柜里装价值{0}信用点的货，关店时把它留在你的前柜台上。你有{1}个晚上。再过一晚，整家店就要炸上天。么么。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070854
+    m_Localized: 小营养果！你做到了。我就知道你行。给店里的一点小心意。么么。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070855
+    m_Localized: 下层区发生枪战
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070856
+    m_Localized: 昨晚，下层区居民报告称旧货运区一座废弃仓库内传出持续枪声。治安部发现该建筑内布设了绊线，并在里面找到数具身着便衣、全副武装者的尸体，均未携带空间站身份证明。至今无人前来认领。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230687866880
+    m_Localized: '{0} / {1} 信用点，卢要的货值。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230721421312
+    m_Localized: 剩余夜晚：{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93331566923399168
+    m_Localized: 小营养果。这么快就把我的储物柜弄丢了？真马虎。再给你一个，规矩不变：价值{0}信用点的货，关店时放在你的前柜台上，{1}个晚上。不会有第三个。么么。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

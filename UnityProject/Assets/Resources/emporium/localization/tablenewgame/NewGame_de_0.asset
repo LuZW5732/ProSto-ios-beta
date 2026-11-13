@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NewGame_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 64b2e850801a6fb4ebd9579f7e7462a4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1489972805632
+    m_Localized: Lehrling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1550517583872
+    m_Localized: Schrotthändler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1562228080640
+    m_Localized: Wasserhändler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1579307286528
+    m_Localized: Hehler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593098158080
+    m_Localized: Hydro-Farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636114939904
+    m_Localized: Chemiker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694201856000
+    m_Localized: Organhändler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713894113280
+    m_Localized: Apotheker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1736983756800
+    m_Localized: Streetfood-Verkäufer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1777781751808
+    m_Localized: Schwarzbrenner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33510552027136
+    m_Localized: Bitte wähle deine erste Spezialisierung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36113511923712
+    m_Localized: Während der Ausbildung bei deinem Mentor hat dich keine Spezialisierung sonderlich angesprochen. Stattdessen hast du mehr Zeit damit verbracht, dein Unternehmen zu optimieren, und musstest daher weniger investieren, um deinen Laden auf die Beine zu stellen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36412188311552
+    m_Localized: Mehr Credits zu Beginn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38817957199872
+    m_Localized: Empfohlen für neue Spieler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39721708077056
+    m_Localized: Mit Haushaltswaren und Lebensmitteln starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39719812251648
+    m_Localized: Weitere Ausrüstung (Lagerbox)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41091349659648
+    m_Localized: In Arbeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44792365760512
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du dich besonders für den Wasserhandel interessiert. Sauberes Wasser ist eine seltene Ressource auf der Station, und wer den Hahn aufdrehen kann, dem fließen auch die Credits zu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69123699425280
+    m_Localized: Handbuch für Wasserhandel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69167391490048
+    m_Localized: Wassertest- und Reinigungszubehör
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69177692700672
+    m_Localized: Zusätzliches Lager (Wasserbehälter)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70344103477248
+    m_Localized: Bevor dein Mentor dich gefunden hat, warst du ein Recycler – arm, aber mit solidem Ansehen. Trotz deiner Ausbildung hast du deine Vergangenheit nie vergessen und sogar deine alte Ausrüstung für deinen neuen Job umfunktioniert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70401448001536
+    m_Localized: Recyclerausrüstung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70434029355008
+    m_Localized: Höheres Ansehen zu Beginn (Recycler)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70436172644352
+    m_Localized: Weitere Ausrüstung (Schmelzofen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72090364198912
+    m_Localized: Starthilfe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72394300243968
+    m_Localized: Während deiner Ausbildung bei deinem Mentor hast du dich besonders für Schmuggelware interessiert. Du bist ein routinierter Schwarzmarkthändler und hast sogar ein verstecktes Lagerfach in deinem Laden, um deine Ware vor den wachsamen Augen der Security zu verbergen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73142996090880
+    m_Localized: Weitere Ausrüstung (Schmugglerbox)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73278484692992
+    m_Localized: Mit Schmuggelware starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73328950558720
+    m_Localized: Höheres Ansehen zu Beginn (Schwarzmarkt)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73330057854976
+    m_Localized: Weniger Ansehen zu Beginn (Security)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73331030933504
+    m_Localized: Direkter Zugang zur Unterweltbörse der Hausmeister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73389046546432
+    m_Localized: Höhere Miete zu Beginn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74131299942400
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du an Schwarzgebranntem Gefallen gefunden. Du weißt, wie du mit Schwarzgebranntem handeln, ihn bewerten und selbst produzieren kannst. Dank seinem geringen Preis ist Schwarzgebrannter auf den Unterdecks sehr beliebt, aber auch illegal und nicht reguliert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74164715962368
+    m_Localized: Handbuch für Schwarzbrenner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74261122039808
+    m_Localized: Schwarzbrenner-Starterset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74542706638848
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du ein Händchen für Betäubungsmittel entwickelt. Du bist Experte für den illegalen, suchterzeugenden und lukrativen Handel kontrollierter Substanzen. Im Labor bist du auch nicht schlecht, falls deine Vorräte einmal knapp werden sollten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698969628672
+    m_Localized: Chemiehandbuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74729940369408
+    m_Localized: Chemielabor-Ausrüstung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75185236262912
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du eine makabre Faszination für den Handel mit menschlichen Organen entwickelt. Zertifizierte Organe aus ethisch einwandfreien Quellen sind zwar legal … aber es ist wesentlich profitabler, die illegale, von lebenden Patienten entnommene Version zu verkaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75262713446400
+    m_Localized: Handbuch für Organhandel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75305663119360
+    m_Localized: Weitere Ausrüstung (Organ-Lagerbehälter)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75308548800512
+    m_Localized: Bluttransfusions-Set
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75463129874432
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du ein Interesse für freiverkäufliche Medikamente entwickelt. Du hast die Grundlagen des Apothekergewerbes erlernt, wie du kranken Patienten helfen und Medikamente synthetisieren kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75501117685760
+    m_Localized: Handbuch für Arzneimittel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75502254342144
+    m_Localized: Handbuch für Erste Hilfe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75503260975104
+    m_Localized: Mit Medizinzubehör starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75997584867328
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du eine Leidenschaft für Kochen und Streetfood entwickelt. Du kannst schnelle, schmackhafte Mahlzeiten zubereiten, die perfekt auf die vielbeschäftigten Bewohner der Unterdecks zugeschnitten sind. Ein Streetfood-Stand ist ein beliebter und flexibler Job, und mit den richtigen Zutaten kannst du hübschen Profit erzielen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76052249231360
+    m_Localized: Kochhandbuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76054665150464
+    m_Localized: Weitere Ausrüstung (Ofen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76056204460032
+    m_Localized: Mit Zutaten starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76194914287616
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du dein Wissen über Hydrokultur-Farming vertieft – eine effiziente Methode, Pflanzen auf dem begrenzten Platz der Station anzubauen. Mit deiner Expertise kannst du helfen, die Unterdecks zu ernähren, und dabei auch noch gute Gewinne erzielen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76197867077632
+    m_Localized: Handbuch fürs Hydro-Farmen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76201893609472
+    m_Localized: Weitere Ausrüstung (Hydrokultursysteme)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76203508416512
+    m_Localized: Mit Farmvorräten und Saatgut starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76509856186368
+    m_Localized: Höhere Miete zu Beginn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229462627368960
+    m_Localized: Waffenschmied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229510593429504
+    m_Localized: Während der Ausbildung bei deinem Mentor hast du einen Enthusiasmus für Feuerwaffen und Munition entwickelt. Du hast gelernt, Waffen zu modifizieren, von handgefertigten Seitenwaffen bis hin zu mächtigen Maschinengewehren. Mit einer Lizenz kannst du nun Sonderaufträge erledigen und durch die Bewaffnung der Stationsbewohner an eine regelmäßige Einkommensquelle kommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230746092781568
+    m_Localized: Waffenschein, Klasse I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230752501678080
+    m_Localized: Mit Feuerwaffen und Waffen-Mods starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230769882873856
+    m_Localized: Mit Munition starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99670006883467264
+    m_Localized: Defekter Speicherstand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99065213836115968
+    m_Localized: Tiefstniveau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069229261438976
+    m_Localized: Nichts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069202615025664
+    m_Localized: Der Mentor hat nur deinen Mietvertrag mit dem Vermieter ausgehandelt, dir ansonsten aber nicht weiter geholfen. Du hast nichts als den Laden und deinen Überlebenswillen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069305866207232
+    m_Localized: Ultraschwerer Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004236062720
+    m_Localized: Rattentreiber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108082834627674112
+    m_Localized: Zum großen Ärgernis des Mentors hast du eine große Leidenschaft für Viehhaltung entwickelt. Genau genommen die Haltung von Ratten. Du hast gelernt, wie man Ratten züchtet, um ihr Fleisch zu verarbeiten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811456
+    m_Localized: Tierkäfig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811457
+    m_Localized: Ratten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811458
+    m_Localized: Essen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112700634117750784
+    m_Localized: "Du bist Ladenbesitzer auf den Unterdecks einer großen Raumstation. Als armer Recycler wurdest du von einer mysteriösen Gestalt unter die Fittiche genommen, die sich selbst „der Mentor“ nennt. Der Mentor hat dir ein großzügiges Darlehen gewährt und dir beigebracht, wie man einen eigenen Laden führt. Seine wahren Motive bleiben allerdings unklar.\nNun musst du die gnadenlosen Mietforderungen deines Vermieters erfüllen, sonst wirft er dich hinaus. Sorge dafür, dass deinen Laden schwarze Zahlen schreibt, sichere dir ein Hypothekendarlehen und kaufe den Laden, um dich auf der Station zu behaupten.\nÜberlebe um jeden Preis. Verdiene dir deine Zukunft."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915136
+    m_Localized: Fischzüchter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915137
+    m_Localized: Während deiner Ausbildung bei deinem Mentor hast du gelernt, Fische in Aquarien zur Fleischgewinnung zu züchten. Du beginnst mit einem kleinen geschlossenen System und einem Bestand an Startfischen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915138
+    m_Localized: Geschlossene Aquakultursysteme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915139
+    m_Localized: Mit einem Bestand aus Tilapia und Fischfutter starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915140
+    m_Localized: Höhere Miete zu Beginn
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

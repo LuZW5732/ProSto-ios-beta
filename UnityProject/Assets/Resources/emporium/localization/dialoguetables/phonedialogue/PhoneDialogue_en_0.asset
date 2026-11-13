@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PhoneDialogue_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8b0b65347ae18a441b3344762bbb2aae, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6171895735871340625
+  m_TableData:
+  - m_Id: 311964778496
+    m_Localized: '[End Call]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525270302720
+    m_Localized: '[Browse Wild''s Service]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014057713664
+    m_Localized: Hello, This is Mr. Wild's office...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1030969147392
+    m_Localized: How may I help you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212431515648
+    m_Localized: Here's what we can do for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435664957440
+    m_Localized: Goodbye!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882173120512
+    m_Localized: Ah yes, Mr. Wild informed us you would call.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956194197504
+    m_Localized: I will be your contact at Red Imp Brewery.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3982169522176
+    m_Localized: Call this number to make an order.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3990079979520
+    m_Localized: And we will send someone to deliver the next day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996421767168
+    m_Localized: Since you are a new customer...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006756532224
+    m_Localized: We will send you a free sample tomorrow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5439690162176
+    m_Localized: Hello, this is Red Imp Sales...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5445696405504
+    m_Localized: Would you like to place an order?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5773825196032
+    m_Localized: Ok, I'll arrange that for you and have it dropped off.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7844754407424
+    m_Localized: I'm afraid we are currently out of stock...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7957669265408
+    m_Localized: Call us then.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7886064107520
+    m_Localized: The next batch should be ready in {0} days.
+    m_Metadata:
+      m_Items:
+      - rid: 6171895735871340625
+  - m_Id: 96081138988924928
+    m_Localized: '[Order {0} Beers (Next Day Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896448
+    m_Localized: '[Order {0} Beers ({1} Days Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896449
+    m_Localized: '[Order {0} Dream Dust (Next Day Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896450
+    m_Localized: '[Order {0} Dream Dust ({1} Days Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896451
+    m_Localized: '[Order {0} Ores (Next Day Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896452
+    m_Localized: '[Order {0} Ores ({1} Days Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896453
+    m_Localized: '[Order {0} Oxymore Injectors (Next Day Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896454
+    m_Localized: '[Order {0} Oxymore Injectors ({1} Days Delivery)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896456
+    m_Localized: Lovely! You must be the one Joe mentioned. I'm Ashish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896457
+    m_Localized: Just tell me what y'need, and I'll whip it up for ya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896458
+    m_Localized: No questions, alright?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896459
+    m_Localized: You'll get your stuff next day. No fuss.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896460
+    m_Localized: Got it. Cheers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896461
+    m_Localized: I'll send you a free sample tomorrow, my treat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896462
+    m_Localized: Hey, Ashish here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896463
+    m_Localized: What do you need
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896464
+    m_Localized: Ok, I'll get it ready for the dropoff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896465
+    m_Localized: Hi, Ashish here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896466
+    m_Localized: I am busy working on another order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896467
+    m_Localized: Can you call me in {0} days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896469
+    m_Localized: So, you're the one Joe sent my way?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896470
+    m_Localized: The name's Caulson. I run the GP Minin' Coop.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896471
+    m_Localized: We've got bulk ore if that's what you're after.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896472
+    m_Localized: Once you've placed your order-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896473
+    m_Localized: -our crew'll come for ya next day. Simple as that.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896474
+    m_Localized: Got it. Thanks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896475
+    m_Localized: Since you are new, I'll send you a free sample tomorrow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896476
+    m_Localized: '''Ello, GP Minin'' ''ere.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896477
+    m_Localized: You want ore?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896478
+    m_Localized: Ok, I'll get it ready for dropoff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896479
+    m_Localized: Hey, GP Minin' 'ere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896480
+    m_Localized: We are all out, I'm afraid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896481
+    m_Localized: Call me in... let me see... {0} days?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896482
+    m_Localized: Might  'ave somethin' for you then.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896483
+    m_Localized: I see, thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896485
+    m_Localized: I was expecting your call...Good.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896486
+    m_Localized: Call me "Dale", and don't use my name anywhere else.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896487
+    m_Localized: I... might have access to certain meds from the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896488
+    m_Localized: Strictly off the books, of course. We clear on that?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896489
+    m_Localized: Once I get the order,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896490
+    m_Localized: a courier will handle it next day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896491
+    m_Localized: Don't follow up unless something goes wrong. Understand?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896492
+    m_Localized: I understand. Thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896493
+    m_Localized: I'll send you a free sample tomorrow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896494
+    m_Localized: You need to place an order?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896495
+    m_Localized: Make sure you are alone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896496
+    m_Localized: What do you need?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896497
+    m_Localized: Ok, I'll get it ready for the dropoff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896498
+    m_Localized: Hi.. I can't take anymore order right now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896499
+    m_Localized: Call me again in {0} days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896500
+    m_Localized: I understand. Thank you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896501
+    m_Localized: Can't talk right now. Call me again in a few days.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896502
+    m_Localized: Odin Haraldsson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896503
+    m_Localized: We know what you did.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896504
+    m_Localized: Don't call this number again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896505
+    m_Localized: We are done.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896506
+    m_Localized: Can't talk right now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896507
+    m_Localized: Call me again when this Crackdown is over.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896508
+    m_Localized: Yes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896509
+    m_Localized: Sorry, wrong number. [End Call]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896510
+    m_Localized: Is it you? You have something for us?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090752
+    m_Localized: Ok, hold on to it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090753
+    m_Localized: I can drop by in {0} days.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090754
+    m_Localized: Goodbye.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6171895735871340625
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00c00c1e2c070000

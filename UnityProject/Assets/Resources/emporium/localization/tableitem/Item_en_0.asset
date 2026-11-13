@@ -1,0 +1,3943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Item_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 93fe472e9fd181141974a1f58c3bef9e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5225789046784
+    m_Localized: ETERNAL Rejuvenation Serum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5296811196416
+    m_Localized: A sleek glass jar containing a shimmering serum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5267547537408
+    m_Localized: A sought-after luxurious serum designed to rejuvenate and restore skin using ethically sourced stem cells.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582820036608
+    m_Localized: Box of PAX Tampons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230912
+    m_Localized: Promising protection and discretion, sanitary products like these are a luxury that few in the Lower Levels can afford.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230913
+    m_Localized: Pack of Hemingway Cigarettes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230914
+    m_Localized: The most luxurious smoking experience one can have, with a flavor, and a price tag, that makes sure you remember it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230915
+    m_Localized: Box of REX Condoms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230916
+    m_Localized: Surprisingly common in the Lower Levels thanks to a subsidised distribution program. Population control, after all, is cheaper than riot control.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230917
+    m_Localized: Bottle of 4 In 1 Wash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230918
+    m_Localized: Shampoo, conditioner, body wash and toothpaste, all in one convenient bottle, with rejuvenating Nutrifruit extract.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230919
+    m_Localized: Tube of Toothpaste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230920
+    m_Localized: A minty gel that promises fresh breath.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230921
+    m_Localized: Roll of Paper Towels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230922
+    m_Localized: Roll of Toilet Paper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230923
+    m_Localized: Affordable toilet paper that offers strength and reliability. Two-ply is a luxury in the Lower Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230924
+    m_Localized: Water Testing Kit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230925
+    m_Localized: A small bottle of color strips used to test water quality.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230926
+    m_Localized: Water Testing Strip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230927
+    m_Localized: A testing strip used to accurately determine the quality of a water sample.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230928
+    m_Localized: UV Lamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230929
+    m_Localized: Can be used on a water container.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230930
+    m_Localized: A lamp that emits ultraviolet light to kill bacteria and other microorganisms.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230931
+    m_Localized: AquaScan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230932
+    m_Localized: A device used to accurately determine the quality of a water sample. Displays detected impurities.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230933
+    m_Localized: Scav Scanner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230934
+    m_Localized: A device that improves your chance of finding valuables when scavenging. (You can only benefit from one Scav Scanner at a time.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230935
+    m_Localized: Ever wanted a third eye? Or a second nose? Cut through the clutter with a Scav Scanner!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230936
+    m_Localized: Bottle of Water Purification Tablets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230937
+    m_Localized: A small bottle of tablets used to purify water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230938
+    m_Localized: Water Purification Tablet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230939
+    m_Localized: Eliminate large amount of microbial contaminants and partially reduce chemical contaminants. No effect against other types of contaminants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230940
+    m_Localized: Hydroponic Nutrient Tablet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230941
+    m_Localized: Contains minerals that are essential for plant growth. Can be added to a water container.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230942
+    m_Localized: Do Not Consume. For hydroponic use only.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230943
+    m_Localized: Hydroponic Nutrient Tablet Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230944
+    m_Localized: A bottle containing hydroponic nutrient tablets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230945
+    m_Localized: Do Not Consume. For hydroponic use only.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230946
+    m_Localized: Kotton Fabric
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230947
+    m_Localized: Used in chemistry to strain large particles from liquids. Far too coarse for water purification.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230948
+    m_Localized: A versatile fabric made of organic fibers. Commonly used for reinforced workwear and shock-insulating wraps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230949
+    m_Localized: Water Filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230950
+    m_Localized: Slightly improves water purity when used inside a filter system. Ineffective above a certain threshold.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230951
+    m_Localized: A lightweight, consumer grade filter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230952
+    m_Localized: Hydroreed Filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425216
+    m_Localized: Remove certain type of contaminants when used inside a filter system
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425217
+    m_Localized: A biological filter grown from Hydroreed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425218
+    m_Localized: Lottery Ticket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425219
+    m_Localized: The winning numbers are revealed each Saturday morning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425220
+    m_Localized: A jackpot ticket could buy you a lifetime in the Upper Levels' safety and comfort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425221
+    m_Localized: Old Lottery Ticket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425222
+    m_Localized: A worthless ticket from the Lower Levels Lottery. No winning numbers, just faded hope.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425223
+    m_Localized: A jackpot ticket could buy you a lifetime in the Upper Levels' safety and comfort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425224
+    m_Localized: SYNC Neuroactive Perfume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425225
+    m_Localized: Use to boost trading bonus by 15% with the current customer. You can only benefit from the effects of one perfume at a time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425226
+    m_Localized: Developed from grief therapy research, this perfume use adaptive scent-mapping tech to evoke positive personal memories. Common in high-end hospitality venues, where workers found that the tips earned by wearing the perfume more than make up for the price tag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425227
+    m_Localized: L'ESSENCE Pheromone Perfume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425228
+    m_Localized: Use to boost trading bonus by 25% with the current customer. You can only benefit from the effects of one perfume at a time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425229
+    m_Localized: An illegal fragrance formulated from engineered human pheromones. It pushes attraction and emotional receptivity. Despite being illegal, it is highly sought after by social climbers in the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425230
+    m_Localized: Screwdriver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425231
+    m_Localized: The humble screwdriver, a common fixture of the spare drawers of citizens in the Upper and Lower Levels alike.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425232
+    m_Localized: While carrying this, scavenging in the Dumping Grounds yields 10% more Screws.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425233
+    m_Localized: Plasma Cutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425234
+    m_Localized: High frequency ignition plasma cutter. Manufactured for guaranteed stability, and a fast, strong and smooth cut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425235
+    m_Localized: Can be used to salvage Scrap Metal by disassembling broken machines. While carrying this, scavenging in the Dumping Grounds yields 10% more Scrap Metal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425236
+    m_Localized: Wire Cutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425237
+    m_Localized: Spring action ensures good leverage and reduces strain on the user, while the soft rubber handles give good grip and comfort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425238
+    m_Localized: Can be used to salvage Wire by disassembling broken machines. While carrying this, scavenging in the Dumping Grounds yields 10% more Wire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425239
+    m_Localized: Portable XRay Scanner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425240
+    m_Localized: Can be use to see what's inside sealed containers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425241
+    m_Localized: Labeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425242
+    m_Localized: Used to edit the label of an item.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425243
+    m_Localized: Magnifying Glass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425244
+    m_Localized: Used to inspect certain items more closely.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425245
+    m_Localized: Water Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425246
+    m_Localized: A neon sign that, when placed in the Display Case, will attract customers willing to sell Water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425247
+    m_Localized: Expedition Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425248
+    m_Localized: Place it in the display case to attract new hirelings for hire and current hirelings ready for expedition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425249
+    m_Localized: Disposable Turbo Booster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425250
+    m_Localized: A tool that can immediately power machines that require time to operate. Ensure the target machine has all the necessary inputs before using. Consumed upon use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425251
+    m_Localized: Advanced Turbo Booster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425252
+    m_Localized: A tool that can immediately power machines that require time to operate. Ensure the target machine has all the necessary inputs before using. Recharges over time. This advanced version will not be consumed upon use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425253
+    m_Localized: Plastic Explosive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425254
+    m_Localized: Handle with care.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425255
+    m_Localized: Plastic Explosive (Armed)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425256
+    m_Localized: 3... 2... 1... KABOOM!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425257
+    m_Localized: Backpack (Small)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425258
+    m_Localized: A compact, well-worn backpack with reinforced stitching. Lightweight but roomy enough for essential supplies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425259
+    m_Localized: Backpack (Basic)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425260
+    m_Localized: Backpack (Army-Issue)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425261
+    m_Localized: A heavy duty backpack designed for military use. The fabric are very durable and some soldier wear it in the front to use it as additional armor when in battle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425262
+    m_Localized: Backpack (Large)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425263
+    m_Localized: Large Military Backpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425264
+    m_Localized: A heavy duty backpack designed for military use. The fabric are very durable and some soldier wear it in the front to use it as additional armor when in battle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425265
+    m_Localized: Satchel (Small)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425266
+    m_Localized: Packet of Nutrifruit Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425267
+    m_Localized: Security Department Supply Crate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425268
+    m_Localized: A locked crate. Labeled for the Station Security Armory. Full of supplies. Access card required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425269
+    m_Localized: Engineering Foundry Supply Crate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425270
+    m_Localized: A locked crate. Labeled for the Station Engineering Foundry. Full of supplies. Access card required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425271
+    m_Localized: Those hard hats will regret losing their tools...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425272
+    m_Localized: Medical Bay Supply Crate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425273
+    m_Localized: A locked crate. Labeled for the Station Medical Bay. Full of supplies. Access card required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425274
+    m_Localized: Surely these missing supplies won't cost anyone their lives... right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425275
+    m_Localized: Security Department Evidence Locker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425276
+    m_Localized: There's enough here to put the entire Lower Levels behind bars.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425277
+    m_Localized: A locked crate. Labeled for the Station Security Evidence Locker. Valuable. Access card required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425278
+    m_Localized: Service Department Supply Crate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425279
+    m_Localized: A secure crate. Labeled for the Station Service Department. Full of supplies. Access card required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425280
+    m_Localized: The Station Service Department distributes utility supplies to those who need, or pay, for them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425281
+    m_Localized: Red Imp Beer Case
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425282
+    m_Localized: High Durability Internal Springs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425283
+    m_Localized: A set of advanced internal springs that improve the cycling and resistance to failure under stress.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425284
+    m_Localized: Tuned Trigger Group
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425285
+    m_Localized: A trigger group that improves the trigger pull. Reduces trigger pull weight and creep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425286
+    m_Localized: Match Grade Barrel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425287
+    m_Localized: A high precision barrel that improves accuracy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425288
+    m_Localized: Pistol Auto Sear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425289
+    m_Localized: A special handgun mod. When installed, it alters the internal mechanics so that the gun fires continuously as long as the trigger is held down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425290
+    m_Localized: Ammo Display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425291
+    m_Localized: A smart display that shows the current ammo count and ammo type.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425292
+    m_Localized: Tactile Memory Grip Gel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425293
+    m_Localized: Bio-reactive gel under grip surface conforms subtly to user's hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425294
+    m_Localized: Red Dot Sight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425295
+    m_Localized: A legacy compact red dot sight for quick target acquisition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425296
+    m_Localized: Makeshift Red Dot Sight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425297
+    m_Localized: A 3D printed RDS with a red LED and plastic lens. It is not very reliable, but it works surprising well.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425298
+    m_Localized: Suppressor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425299
+    m_Localized: A simple multi-caliber suppressor that reduces the noise of gunfire, making it harder to detect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425300
+    m_Localized: Night Owl Suppressor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425301
+    m_Localized: A sophisticated multi-caliber suppressor that reduces the noise of gunfire, making it harder to detect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425302
+    m_Localized: Makeshift Suppressor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425303
+    m_Localized: A makeshift suppressor made from a plastic bottle and scrap metal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425304
+    m_Localized: Attachable Extended Barrel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425305
+    m_Localized: A multi-caliber extended barrel that improve bullet velocity and accuracy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425306
+    m_Localized: Compensator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425307
+    m_Localized: A muzzle device that reduce muzzle rise when firing by redirecting escaping gases
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425308
+    m_Localized: Laser Sight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425309
+    m_Localized: A simple laser sight that projects a beam onto the target, improving ergonomic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425310
+    m_Localized: Target Acquisition Device
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425311
+    m_Localized: A smart tactical device that projects a beam onto the target based on various conditions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425312
+    m_Localized: Toy Laser Pointer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425313
+    m_Localized: A low powered toy laser pointer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425314
+    m_Localized: Bipod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425315
+    m_Localized: A bipod that can be attached to firearms, providing stability.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425316
+    m_Localized: Underbarrel 25mm Grenade Launcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425317
+    m_Localized: A compact 25mm underbarrel grenade launcher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425318
+    m_Localized: Foregrip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425319
+    m_Localized: 10mm Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425320
+    m_Localized: A 9 round compact 10mm magazine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425321
+    m_Localized: High Capacity 10mm Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425322
+    m_Localized: A 14 round high capacity 10mm magazine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425323
+    m_Localized: Extended 10mm Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425324
+    m_Localized: A 19 round extended 10mm magazine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425325
+    m_Localized: 10mm SMG Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425326
+    m_Localized: A 20 round 10mm magazine specially made for the Peacemaker Heavy SMG.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425327
+    m_Localized: 10mm High Capacity SMG Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425328
+    m_Localized: A 35 round 10mm magazine specially made for the Peacemaker Heavy SMG.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425329
+    m_Localized: 10mm SMG Box Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425330
+    m_Localized: A 150 round 10mm magazine specially made for the Peacemaker Heavy SMG.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425331
+    m_Localized: .22 Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425332
+    m_Localized: A cheap 3D printed 12 round compact .22 magazine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425333
+    m_Localized: High Capacity .22 Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425334
+    m_Localized: A cheap 3D 24 round compact .22 magazine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425335
+    m_Localized: Extended .22 Magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425336
+    m_Localized: A cheap 3D 48 round compact .22 magazine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425337
+    m_Localized: Guardian Stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425338
+    m_Localized: A sturdy stock compatible with Meridian firearms, designed to improve recoil handling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425339
+    m_Localized: Buckler Stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425340
+    m_Localized: A short stock compatible with Meridian firearms, designed to improve recoil control without sacrificing ergonomic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425341
+    m_Localized: Metal Ingot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425342
+    m_Localized: Chemical Supplies (Common)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425343
+    m_Localized: Can be unpacked into items that are useful for basic chemical crafting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425344
+    m_Localized: A collection of common chemical supplies you could likely find in the Station Hardware Depot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425345
+    m_Localized: Chemical Supplies (Restricted)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425346
+    m_Localized: Can be unpacked into items that are useful for advanced chemical crafting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425347
+    m_Localized: A collection of restricted chemical supplies needed for crafting narcotics, or explosives.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425348
+    m_Localized: Medical Supplies (Common)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425349
+    m_Localized: A collection of common medical supplies, mostly over-the-counter pharmacy items.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425350
+    m_Localized: Medical Supplies (Restricted)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425351
+    m_Localized: A collection of restricted medical supplies, necessary for the care of the Station's infirm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425352
+    m_Localized: Scrap Metal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425353
+    m_Localized: Can be smelted into Metal Ore. With limited resources available on the Station, salvage and recycling are important habits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425354
+    m_Localized: Junk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425355
+    m_Localized: Broken scraps and useless rubbish. Barely recyclable, worth next to nothing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425356
+    m_Localized: Metal Ore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425357
+    m_Localized: Rare Metal Ore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425358
+    m_Localized: Electronic Parts (Common)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425359
+    m_Localized: 'An assortment of all kinds of useful, if common, electronics: connectors, switches, capacitors, processors and processing units...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425360
+    m_Localized: Electronic Parts (Rare)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425361
+    m_Localized: An assortment of uncommon, high-end electronic parts. A certain inventor would be very interested in this...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425362
+    m_Localized: Wire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425363
+    m_Localized: A bundle of electrical wires. From the looks of it, it was harvested from somewhere...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425364
+    m_Localized: 3D Printing Filament
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425365
+    m_Localized: 'A spool of premium filament for use in a 3D printer. Made from recycled plastics where possible. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425366
+    m_Localized: Gun Parts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425367
+    m_Localized: Obtained from disassembling firearm with a screwdriver. Can be used to refurbish used firearms. Repeated attempts will increase refurbish chance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425368
+    m_Localized: A collection of internal gun parts, including screws, springs, and other small components.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425369
+    m_Localized: Radioactive Waste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425370
+    m_Localized: Radioactive waste material. Handle with care.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425371
+    m_Localized: A collection of hazardous nuclear waste. No one wants to deal with this stuff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425372
+    m_Localized: Flux Smelting Agent (Basic)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425373
+    m_Localized: A useful additive that improves the purity of Metal Ore when used during smelting. It is consumed in the process.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425374
+    m_Localized: Flux Smelting Agent (Advanced)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425375
+    m_Localized: 'A useful additive that improves the purity of Metal Ore when used during smelting. Reusable. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425376
+    m_Localized: Liberator 3D Printed Pistol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425377
+    m_Localized: A low cost plastic 3D printed pistol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425378
+    m_Localized: Doesn't get cheaper than this. It's good for a few shots.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425379
+    m_Localized: Nestfire Compact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425380
+    m_Localized: A small open-sourced pistol chambered in .22 SR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425381
+    m_Localized: Widely used for home defence in the Lower Level. Mostly tolerated by Security. Probably handmade by a Lower Level gunsmith.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425382
+    m_Localized: Ironcraft 10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425383
+    m_Localized: A heavy open-sourced pistol chambered in 10mm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425384
+    m_Localized: Capable of piercing body armor. A popular weapon for Lower Level Revolutionary.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425385
+    m_Localized: Sentinel Mk. III.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425386
+    m_Localized: A reliable handgun, chambered in 10mm. Mostly carried by Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425387
+    m_Localized: Peacemaker Heavy SMG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425388
+    m_Localized: A heavy SMG, chambered in 10mm. Used sparingly by Security during high stakes operations.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425389
+    m_Localized: Rampart Dual-Action Shotgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425390
+    m_Localized: A dependable and adaptable shotgun built for law enforcement, featuring a dual-action mechanism that ensures reliable performance with a wide range of ammunition types.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425391
+    m_Localized: PulseGuard Stun Gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425392
+    m_Localized: A well made self-defence option officially endorsed by Security. Mostly used by Upper Level due to high cost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425393
+    m_Localized: Lancewell Revolver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425394
+    m_Localized: A 5" general purpose Lancewell revolver chambered in .45 AFP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425395
+    m_Localized: A simple and highly reliable weapon. Designed to endure extreme conditions, while requiring minimum maintenance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425396
+    m_Localized: .22 SR Ammunition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425397
+    m_Localized: A handful of .22 SR ammo. While small, it still can be lethal at close range. Most importantly, it is very cheap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425398
+    m_Localized: .22 SR Ammunition (AP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425399
+    m_Localized: A handful of .22 SR Armor-Piercing ammo. Capable of piercing body armor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425400
+    m_Localized: .22 SR Ammunition (Non-Lethal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425401
+    m_Localized: A handful of .22 SR Non-Lethal ammo. Tip with rubber, it is designed to incapacitate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425402
+    m_Localized: 10mm Ammunition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425403
+    m_Localized: A handful of 10mm ammo. Powerful and reliable, it is the standard round for heavy pistols.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425404
+    m_Localized: 10mm Ammunition (AP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425405
+    m_Localized: A handful of high velocity 10mm Armor-Piercing Discarding Sabot (APDS) ammo. Capable of piercing body armor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425406
+    m_Localized: 10mm Ammunition (Non-Lethal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425407
+    m_Localized: A handful of 10mm Non-Lethal ammo. Tip with rubber, it is designed to incapacitate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425408
+    m_Localized: Tazer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425409
+    m_Localized: A compact stun weapon used for self-defense and enforcement. Delivers a painful jolt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425410
+    m_Localized: Birth Control Pill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425411
+    m_Localized: A contraceptive pill that prevents pregnancy. It's a combination of estrogen and progestin hormones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425412
+    m_Localized: Phagimycin Pill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425413
+    m_Localized: A powerful antibiotic made with bacteriophages and fungi to counter antibiotic resistance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425414
+    m_Localized: Unlicensed Phagimycin Pill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425415
+    m_Localized: A powerful antibiotic. This one is made illegally without license to the carmicheal's patent in an underground lab.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425416
+    m_Localized: Zyanide Pill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425417
+    m_Localized: A fast-acting and deadly chemical compound. Handle with caution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425418
+    m_Localized: Phanta Pill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425419
+    m_Localized: An extremely addictive, dangerous and cheap synthetic opioid drug used for treatment of severe pain.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425420
+    m_Localized: More than 50 times stronger than Oxymore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425421
+    m_Localized: ZeroChew Tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425422
+    m_Localized: A tab of ZeroChew, an affordable appetite suppressant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425423
+    m_Localized: Used by some Lower Levels inhabitants looking to stretch their credits by skipping meals. Marketed as Regime-X, a weight loss drug in the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425424
+    m_Localized: Smelling Salts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425425
+    m_Localized: A thin glass tube containing alcohol and ammonia that helps restore consciousness after fainting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425426
+    m_Localized: Blood Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425427
+    m_Localized: A 500ml blood transfusion bag drawn from a universal, though not necessarily willing, donor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425428
+    m_Localized: Bag of "Blue Blood"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425429
+    m_Localized: An injectable biogel engineered to dissolve arterial plaque and microclots over time. It effectively prevents coronary artery disease, ischemic stroke and hypertension-related complications.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425430
+    m_Localized: It's not actually blood. Not so common even in the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425431
+    m_Localized: Vial of "Dream Dust"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425432
+    m_Localized: A cheap, euphoria inducing powder, created in the Lower Levels. Used as a brief escape from the harsh realities of Station life.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425433
+    m_Localized: Vial of "Nightmare Dust"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425434
+    m_Localized: A fine powder that acts as both a poison and a hallucinogen. Ingestion or inhalation causes severe nausea, weakness, and disorientation, followed terrifying hallucinations. High doses can be lethal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425435
+    m_Localized: Caffeine Pill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425436
+    m_Localized: Synthesized from the waste of Upper Levels espresso bars, these pills are essential for the long shift workers of the Lower Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425437
+    m_Localized: Nightingale's Salve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425438
+    m_Localized: Made from modified aloe and medical grade honey. This salve has antibacterial properties and promotes cell regeneration and growth.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425439
+    m_Localized: Rubbing Alcohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425440
+    m_Localized: A potent disinfectant used for cleaning wounds and surfaces. Highly toxic if ingested, but that doesn't stop it being used as an alternative to Nudka in the Lower Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425441
+    m_Localized: Basic Bandage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425442
+    m_Localized: A simple, clean bandage for dressing wounds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425443
+    m_Localized: Hemostatic Bandage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425444
+    m_Localized: A bandage coated with a potent hemostatic agent capable of stopping heavy and light bleeding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425445
+    m_Localized: Topical Medication Bandage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425446
+    m_Localized: A bandage coated with a mild topical medical gel that aids in the healing process.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425447
+    m_Localized: Immunivax Injector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425448
+    m_Localized: A high-precision immuno-regulator developed to temporarily suppress the hyper-reactive immune response associated with Sentinel Collapse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425449
+    m_Localized: Synaprest Injector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425450
+    m_Localized: Next-generation treatment for drug addiction, designed to suppress the brain's reward system, reduce cravings, and support long-term recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425451
+    m_Localized: Works best with concurrent psychological therapy and social support.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425452
+    m_Localized: Oxymore Injector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425453
+    m_Localized: Oxymore is a legal, but dangerous medication used to relieve severe pain and produce feelings of euphoria. Oxymore addiction and overdose are widespread due to over-prescription.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425454
+    m_Localized: Nomore Injector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425455
+    m_Localized: A non-addictive alternative to Oxymore for pain relief. Provides effective analgesia without the risk of dependence or overdose. This one is a prototype packaged in a repurposed injector.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425456
+    m_Localized: Naloxgone Injector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425457
+    m_Localized: Naloxgone is a emergency medication used to counter Oxymore overdose.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425458
+    m_Localized: Composition Spectrometer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425459
+    m_Localized: A device used to analyze the chemical composition of substances.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425460
+    m_Localized: Glass Shiv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425461
+    m_Localized: A sharp-edged piece of broken glass wrapped in cloth that can be used as a weapon.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425462
+    m_Localized: Combat Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425463
+    m_Localized: A fighting knife designed for military use and primarily intended for hand-to-hand or close combat fighting, but also useful for utility.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425464
+    m_Localized: Box Cutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425465
+    m_Localized: A sturdy utility knife with a retractable blade commonly used in construction, crafting and warehouse work.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425466
+    m_Localized: Meat Cleaver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425467
+    m_Localized: Kitchen Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619520
+    m_Localized: A stainless steel knife. Keep out of reach of children and scheming Upper Levels Housewives.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619521
+    m_Localized: Combat Machete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619522
+    m_Localized: A heavy-duty machete built for combat and survival.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619523
+    m_Localized: Crowbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619524
+    m_Localized: The trusty tool of every experienced scavenger and theoretical physicist on the Station. Useful as a weapon in a pinch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619525
+    m_Localized: Hatchet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619526
+    m_Localized: Small but sturdy. Can be used on a Hydroponic Farm to clear whatever is currently growing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619527
+    m_Localized: Lead Pipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619528
+    m_Localized: A heavy lead pipe. After the Station overhauled the water line, tonnes of leftover lead piping found its way into the hands of scavs and thieves.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619529
+    m_Localized: Stun Baton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619530
+    m_Localized: Standard-issue stun baton with STUN and HARM modes. An everyday carry for Security Officers maintaining order in the station.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619531
+    m_Localized: Energy Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619532
+    m_Localized: In an effort to reduce waste, single-use batteries were made illegal by the Republic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619533
+    m_Localized: A basic power source that is compatible with most machines. Rechargeable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619534
+    m_Localized: Energy Cell (Mk. II)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619535
+    m_Localized: Improving on the standard model, the Mk. II cell is bigger, better and even more of a choking hazard.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619536
+    m_Localized: An improved power source that is compatible with most machines. Rechargeable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619537
+    m_Localized: Self Charging Energy Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619538
+    m_Localized: An advanced and rare energy cell capable of self charging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619539
+    m_Localized: Glass Shard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619540
+    m_Localized: Security Record
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619541
+    m_Localized: A copy of your security record file from the Security Department
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619542
+    m_Localized: Your contact will keep this up to date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619543
+    m_Localized: Flashlight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619544
+    m_Localized: A heavy duty flashlight. While carrying this, you are less likely to be injured while scavenging in the Dumping Grounds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619545
+    m_Localized: Newspaper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619546
+    m_Localized: A fresh newspaper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619547
+    m_Localized: Mentor's Handbook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619548
+    m_Localized: A book for keeping track of all notes given to you by The Mentor. Handy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619549
+    m_Localized: Hemingway Identification Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619550
+    m_Localized: A guide that helps identify counterfeit Hemingway Cigarettes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619551
+    m_Localized: Hemingway Color Checker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619552
+    m_Localized: An official Hemingway color swatch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619553
+    m_Localized: Lower Levels Lottery Information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619554
+    m_Localized: Plasma Cartridge Appraisal Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619555
+    m_Localized: A guide for determining the appropriate value of Plasma Cartridges.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619556
+    m_Localized: Ribwich Appraisal Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619557
+    m_Localized: A handy guide that helps with determining the correct value of a Ribwich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619558
+    m_Localized: Food Stamp Identification Handbook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619559
+    m_Localized: A handy guide to identifying a genuine Food Stamp from a counterfeit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619560
+    m_Localized: Immunivax Assessment Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619561
+    m_Localized: Contains all the information you need to reliably assess the condition of Immunivax Injectors.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619562
+    m_Localized: Water Trading Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619563
+    m_Localized: A handy manual that contains all the information on buying and selling Water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619564
+    m_Localized: Hydroponic Farming Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619565
+    m_Localized: A handy manual that contains all the information on hydroponic farming.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619566
+    m_Localized: Chemistry Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619567
+    m_Localized: A handy manual that contains the basics of chemistry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619568
+    m_Localized: Metallurgy Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619569
+    m_Localized: Republic Logo Checker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619570
+    m_Localized: A reference for the Official Republic Logo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619571
+    m_Localized: Lease Agreement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619572
+    m_Localized: Your lease. Signed by you, and your Landlord.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619573
+    m_Localized: Deed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619574
+    m_Localized: The deed to the Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619575
+    m_Localized: Business Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619576
+    m_Localized: A permit issued by the Republic. Required to legally operate a business in the Lower Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619577
+    m_Localized: Handnote
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619578
+    m_Localized: A simple note, written by hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619579
+    m_Localized: Scavenger's Token
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619580
+    m_Localized: A form of recognition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619581
+    m_Localized: A token given by the Scavenger community. Each token placed in the display case will increase the chance of a Scavenger visit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619582
+    m_Localized: Dossier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619583
+    m_Localized: Can hold documents, notes, books and magnifying glasses.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619584
+    m_Localized: Trash Can
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619585
+    m_Localized: Items inside will be permanently removed at night if Janitorial Service is paid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619586
+    m_Localized: Water Drain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619587
+    m_Localized: Unwanted water can be dump here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619588
+    m_Localized: Water Faucet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619589
+    m_Localized: No water... Maybe someone can help connect it to a water line?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619590
+    m_Localized: Disposable Keycard (Command)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619591
+    m_Localized: A master keycard, to be carried only by Station Command.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619592
+    m_Localized: A single-use keycard for Station Command. Can open most locks that require keycard access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619593
+    m_Localized: Disposable Keycard (Security)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619594
+    m_Localized: Could be dangerous if this falls into the wrong hands...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619595
+    m_Localized: A single-use keycard for Station Security. Can open locks that require Security Department access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619596
+    m_Localized: Disposable Keycard (Research)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619597
+    m_Localized: Keycard carried by the Station's Research Officers. Valuable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619598
+    m_Localized: A single-use keycard for Research and Development. Can open locks that require Science Department access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619599
+    m_Localized: Disposable Keycard (Medical)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619600
+    m_Localized: A single-use keycard for the Station's Medical Department. Can open locks that require Medical access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619601
+    m_Localized: Disposable Keycard (Engineering)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619602
+    m_Localized: A single-use keycard for the Station's Engineering Department. Can open locks that require Engineer access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619603
+    m_Localized: Disposable Keycard (Supply)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619604
+    m_Localized: A single-use keycard for the Station's Supply Department. Can open locks that require Supply access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619605
+    m_Localized: Disposable Keycard (Service)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619606
+    m_Localized: A single-use keycard for the Station's Service Department. Can open locks that require Service access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619607
+    m_Localized: Disposable Keycard (Blank)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619608
+    m_Localized: As close to a skeleton key as you'll find on the Station.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619609
+    m_Localized: An unwritten keycard. With the right machine, this can be reprogrammed with all kinds of access.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619610
+    m_Localized: Business Card (Joe Wild)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619611
+    m_Localized: At your service.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619612
+    m_Localized: Business Card (Red Imp Brewery)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619613
+    m_Localized: Fiendishly good.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619614
+    m_Localized: Business Card (GP Mining Coop)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619615
+    m_Localized: No one really know what GP stands for anymore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619616
+    m_Localized: Business Card (Pharmacist)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619617
+    m_Localized: A very plain card with only a name and a phone number.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619618
+    m_Localized: Business Card (Chemist)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619619
+    m_Localized: It really is just a piece a paper with a phone number on it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619620
+    m_Localized: Business Card (Green)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619621
+    m_Localized: A simple green business card with a phone number on it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619622
+    m_Localized: Class I Weapon Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619623
+    m_Localized: Increases the chance of gun buying customers to visit while in the display case. This permit will be revoked if Security Reputation is below 0.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619624
+    m_Localized: A permit issued by the Warden allowing the holder to legally own and trade low level contraband firearms and ammunition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619625
+    m_Localized: Class II Weapon Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619626
+    m_Localized: Increases the chance of gun buying customers to visit while in the display case. This permit will be revoked if Security Reputation is below 30.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619627
+    m_Localized: A permit issued by the Warden allowing the holder to legally own and trade mid level contraband weapons.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619628
+    m_Localized: Class III Weapon Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619629
+    m_Localized: Increases the chance of gun buying customers to visit while in the display case. This permit will be revoked if Security Reputation is below 60.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619630
+    m_Localized: A permit issued by the Warden allowing the holder to legally own and trade high level contraband weapons.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619631
+    m_Localized: Incident Slip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619632
+    m_Localized: A slip given by the Security Department after responding to an incident.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619633
+    m_Localized: Security Wanted List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619634
+    m_Localized: MBS Nerve Gas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619635
+    m_Localized: Handle with care.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619636
+    m_Localized: 'A highly toxic chemical weapon designed to disrupt the nervous system. Symptoms include: Respiratory failure, Convulsions, Loss of bodily functions, Unconsciousness and Death.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619637
+    m_Localized: Food Stamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619638
+    m_Localized: Redeem it at the Commissary to buy Food.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619639
+    m_Localized: A prepaid card valid only to buy groceries. Part of a benefit program to assist the less fortunate in the Lower Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619640
+    m_Localized: Appraisal Board Junior Certificate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619641
+    m_Localized: Certifies you as a junior appraiser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619642
+    m_Localized: Place it in the display case to attract customers needing appraisal service to visit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619643
+    m_Localized: Postit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619644
+    m_Localized: 'Music Cassette - '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619645
+    m_Localized: ' (Pristine)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619646
+    m_Localized: ' (Damaged)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619647
+    m_Localized: ' (Corrupted)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619648
+    m_Localized: Perseverance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619649
+    m_Localized: Datasphere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619650
+    m_Localized: High Stakes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619651
+    m_Localized: Stardust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619652
+    m_Localized: Afterglow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619653
+    m_Localized: Spaceflight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619654
+    m_Localized: Dark Matter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619655
+    m_Localized: Packaged Rib Sandwich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619656
+    m_Localized: A shelf stable limited edition sandwich consists of a restructured boneless pork patty shaped like a miniature rack of ribs. It has a cult following.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619657
+    m_Localized: Scratcher Ticket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619658
+    m_Localized: Scratch off at least 2 matching symbols to win a prize!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619659
+    m_Localized: A popular form of gambling in the Lower Levels. It is banned in the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619660
+    m_Localized: Stack of Scratcher Tickets (5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619661
+    m_Localized: Make sure to have enough space before unpacking it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619662
+    m_Localized: A stack of five lottery scratch cards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619663
+    m_Localized: Procurement Slip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619664
+    m_Localized: Slip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619665
+    m_Localized: Underground Exchange Directive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619666
+    m_Localized: Expedition Log
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619667
+    m_Localized: Plasma Cartridge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619668
+    m_Localized: A compact, solid-state fuel cartridge used in Pulse Plasma Drives for space travel. Value varies wildly depending on the quality of the cartridge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619669
+    m_Localized: Makeshift Storage Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619670
+    m_Localized: A improvised storage bay for storing items. Can't store other containers or machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619671
+    m_Localized: Storage Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619672
+    m_Localized: A standard bay for storing items.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619673
+    m_Localized: Storage Bay (Extended)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619674
+    m_Localized: An expanded bay for storing items.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619675
+    m_Localized: Gunsmith Storage Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619676
+    m_Localized: A specialized storage bay for storing firearms and modifications. Can't store other containers or machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619677
+    m_Localized: Chemist Storage Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619678
+    m_Localized: A specialized storage bay for storing chemistry equipments and supplies. Can't store other containers or machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619679
+    m_Localized: Machine Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619680
+    m_Localized: A standard bay for storing machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619681
+    m_Localized: Machine Bay (Expanded)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619682
+    m_Localized: A expanded bay for storing machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619683
+    m_Localized: Smuggler's Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619684
+    m_Localized: A small disguised storage bay designed to hide its contents from inspection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619685
+    m_Localized: Smuggler's Bay (Modified)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619686
+    m_Localized: A disguised storage bay designed to hide its contents from inspection. This one has been modified to allow for more storage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619687
+    m_Localized: Mini Smuggler's Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619688
+    m_Localized: A disguised storage bay designed to hide its contents from inspection. This one is mini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619689
+    m_Localized: PowerBloc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619690
+    m_Localized: A compact power source that can charge adjacent Energy Cells.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619691
+    m_Localized: Restores +2 power each night to adjacent Energy Cells, or Energy Cells inside adjacent Machines (excluding Recharger) as long as the Power Service is paid. This effect can be stacked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619692
+    m_Localized: Blank Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619693
+    m_Localized: A blank module. With the right machine, this could rewrite this into something useful.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619694
+    m_Localized: Performance Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619695
+    m_Localized: Efficiency Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619696
+    m_Localized: Quality Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619697
+    m_Localized: Overclock Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619698
+    m_Localized: Eco Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619699
+    m_Localized: Refinement Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619700
+    m_Localized: Streamlining Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619701
+    m_Localized: Ruined Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619702
+    m_Localized: A completely ruined module. Still holds some value as salvage. Can be broken down with a Screwdriver.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619703
+    m_Localized: Corrupted Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619704
+    m_Localized: A corrupted module. Can be restored with Electronic parts... and a little know-how.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619705
+    m_Localized: Neural Core Module (Uncapped)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619706
+    m_Localized: High-performance, but unstable, and illegal. An AI core housed inside a system module. These type of AI core have a tendency to go rogue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619707
+    m_Localized: Neural Core Module (Capped)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619708
+    m_Localized: AI Cores are illegal onboard the Station. This unit features integrated safeguards that curb rogue behavior, while throttling its performance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619709
+    m_Localized: Cryptographic Desequencer Chip (Command)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619710
+    m_Localized: A module that allows the Cryptographic Desequencer to write Command permissions to Blank Keycards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619711
+    m_Localized: Cryptographic Desequencer Chip (Security)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619712
+    m_Localized: A module that allows the Cryptographic Desequencer to write Security permissions to Blank Keycards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619713
+    m_Localized: Cryptographic Desequencer Chip (Medical)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619714
+    m_Localized: A module that allows the Cryptographic Desequencer to write Medical permissions to Blank Keycards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619715
+    m_Localized: Cryptographic Desequencer Chip (Engineering)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619716
+    m_Localized: A module that allows the Cryptographic Desequencer to write Engineering permissions to Blank Keycards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619717
+    m_Localized: Cryptographic Desequencer Chip (Supply)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619718
+    m_Localized: A module that allows the Cryptographic Desequencer to write Supply permissions to Blank Keycards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619719
+    m_Localized: Cryptographic Desequencer Chip (Service)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619720
+    m_Localized: A module that allows the Cryptographic Desequencer to write Service permissions to Blank Keycards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619721
+    m_Localized: A chip that contains the 3D printer blueprint.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619722
+    m_Localized: .22 Pistol 3D Printer Chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619723
+    m_Localized: 3D Printer Chip (x{0} Makeshift RDS)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619724
+    m_Localized: 3D Printer Chip (x{0} Toy Laser Pointer)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619725
+    m_Localized: 3D Printer Chip (x{0} Small Plastic Bottle)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619726
+    m_Localized: 3D Printer Chip (x{0} RDS)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619727
+    m_Localized: 3D Printer Chip (x{0} Laser Sight)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619728
+    m_Localized: 3D Printer Chip (x{0} Silencer)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619729
+    m_Localized: 3D Printer Chip (x{0} .22 Magazine)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619730
+    m_Localized: 3D Printer Chip (x{0} Ext. .22 Mag.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619731
+    m_Localized: 3D Printer Chip (x{0} High Cap. .22 Mag.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619732
+    m_Localized: 3D Printer Chip (x{0} 10MM Magazine)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619733
+    m_Localized: 3D Printer Chip (x{0} Ext. 10MM Mag.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619734
+    m_Localized: 3D Printer Chip (x{0} High Cap. 10MM Mag.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619735
+    m_Localized: Hydroponic Smuggler Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619736
+    m_Localized: A module that remove the contrabands status of any growing seeds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619737
+    m_Localized: Hydroreed Filter Hydroponic Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619738
+    m_Localized: A Module that allows the stem of a grown Hydroreed to be harvested and used as a water filter. Does not affect other plants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619739
+    m_Localized: Fillerweed Production Hydroponic Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619740
+    m_Localized: A module will improve yield of Fillerweed at the cost of losing seeds. This module's unique effect doesn't affect other plants. This effect is not stackable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619741
+    m_Localized: Dream Cap Nightmare Hydroponic Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619742
+    m_Localized: A module that concentrate psychoactive propreties of Dream Cap when farming them, turning them into Nightmare Cap, a toxic variant. This module's unique effect doesn't affect other plants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619743
+    m_Localized: Dream Cap Neutralizer Hydroponic Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619744
+    m_Localized: A module that neutralize all psychoactive propreties of Dream Cap when farming them, turning them into Meal Cap. This module's unique effect can be stacked but doesn't affect other plants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619745
+    m_Localized: Nutrifruit Hydroponic Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619746
+    m_Localized: A module by pastel that allow Hydroponic System to yield more Nutrifruit when farming them. This module's unique effect doesn't affect other plants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619747
+    m_Localized: Kotton Auto Loom Hydroponic Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619748
+    m_Localized: A module that wove the Kotton Fiber into a fabric when farming them. This module's unique effect doesn't affect other plants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619749
+    m_Localized: Evaporator Solvent Recovery Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619750
+    m_Localized: Metal Printer Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619751
+    m_Localized: A module that allows the printer to use metal printer chips.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619752
+    m_Localized: Alarm Transmitter Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619753
+    m_Localized: "Currently Transmitting To: <b>{0}</b> \n Transmitting twice to the same faction has no additional effect."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619754
+    m_Localized: This module will transmit security camera footage captured by your cameras to the set faction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619755
+    m_Localized: Furnace Module (Blast)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619756
+    m_Localized: A special Module that modifies the Furnace, allowing {0} Materials to create {1} Metal Ingots (at slightly lower purity). Does not stack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619757
+    m_Localized: Furnace Module (Junk Processing)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619758
+    m_Localized: A special Module that modifies the Furnace, allowing Junk to be processed into Scrap Metal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619759
+    m_Localized: Module Extractor (Basic)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619760
+    m_Localized: Allows you to extract stuck modules from machines without breaking them. Has {0} uses. Can be partially refurbished with Electronic Parts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619761
+    m_Localized: Module Extractor (Advanced)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619762
+    m_Localized: Allows you to extract stuck modules from machines without breaking them. This advanced model will not degrade with use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619763
+    m_Localized: Module Bay Expansion Kit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619764
+    m_Localized: A one time use kit that will allow you to expand Machine's Module capacity. This kit is not compatible with Chemical or other special Machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619765
+    m_Localized: Chemical Equipment Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619766
+    m_Localized: Require a module extractor to remove once installed. A special module that can improve the Blender, the Heating Plate and the Chem Finisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619767
+    m_Localized: A specialized circuit that can provide or receive bonuses from adjacent Modules when installed in certain Machines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619768
+    m_Localized: Node (Small)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619769
+    m_Localized: Node (Medium)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619770
+    m_Localized: Expedition Supply Box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619771
+    m_Localized: Put supplies and equipments in this box for your hireling to use during expeditions. Unused gear will be returned to you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619772
+    m_Localized: Primary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619773
+    m_Localized: Secondary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619774
+    m_Localized: Pocket #1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619775
+    m_Localized: Pocket #2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813824
+    m_Localized: Backpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813825
+    m_Localized: Kotton Lining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813826
+    m_Localized: Kotton fabric made into padding. Provide modest protection to its wearer. Can protect against small arms if multiple layers are stacked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813827
+    m_Localized: Designed for workers in hazardous environment. Also an essential piece of equipment for scavs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813828
+    m_Localized: Remove Contraband Status of Growing Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813829
+    m_Localized: Will only recover Solvent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813830
+    m_Localized: Metal Printing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813831
+    m_Localized: Gain +{0} reputation per night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813832
+    m_Localized: "Increased Input Used \n -Increased Output Per Night\n -Decreased Purity"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813833
+    m_Localized: Convert {0} Junk into {1} Scrap Metal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813834
+    m_Localized: Hydroreed Filter Yield +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813835
+    m_Localized: "Fillerweed will no longer yield seeds \n -Fillerweed yield +{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813836
+    m_Localized: Farmed Dream Cap will be Nightmare Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813837
+    m_Localized: "Remove Dream Cap Contraband Status \n -Set type to Food \n -Dream Cap Yield +{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813838
+    m_Localized: Nutrifruit Yield +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813839
+    m_Localized: Produce Kotton Fabric instead of Kotton Fiber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813840
+    m_Localized: Pilk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813841
+    m_Localized: A carton of processed milk, or rather, a sweet, carbonated 'milk-based' beverage. Tastes better than you'd expect.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813842
+    m_Localized: Puice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813843
+    m_Localized: A carton of processed juice. All the natural sugars have been extracted and replaced with refined sugars. Contains 0.1% real fruit juice!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813844
+    m_Localized: Peat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813845
+    m_Localized: A can of salty processed meat made by Davre. It is cheap, available and filling. As long as one does not care about what type of meat it is made of.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813846
+    m_Localized: Hot Sauce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813847
+    m_Localized: Bottle of Spring Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813848
+    m_Localized: A sealed bottle of water supposedly drawn from a natural spring on a distant planet untouched by any industrial activity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813849
+    m_Localized: No one in the Lower Levels would drink this, even if they were dying of thirst, such is its value.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813850
+    m_Localized: Red Imp Beer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813851
+    m_Localized: A popular beer brewed in the Lower Levels. Every batch tastes a bit different, but there is nothing cheaper. 3.5% ABV.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813852
+    m_Localized: Empty Beer Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813853
+    m_Localized: Not a drop left. To prevent waste, brewers typically offer some kind of "buyback" program for their bottles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813854
+    m_Localized: Bottle of Water (Standard)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813855
+    m_Localized: Bottle of Water (Small)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813856
+    m_Localized: Bottle of Water (Micro)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813857
+    m_Localized: Bottle of Acidic Solution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813858
+    m_Localized: 'Warning: Corrosive. Handle with care.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813859
+    m_Localized: Can be used to clump Protein and Stabilizing Agent for easier filtering. Also counteracts bases.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813860
+    m_Localized: Bottle of Basic Solution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813861
+    m_Localized: 'Warning: Caustic. Handle with care.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813862
+    m_Localized: Can be used to clump Protein and Stabilizing Agent for easier filtering. Also counteracts acid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813863
+    m_Localized: Bottle of N-Methylol Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813864
+    m_Localized: A versatile chemical base used in many legitimate chemical manufacturing but also a common precursor for Phanta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813865
+    m_Localized: Bottle of Reducing Agent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813866
+    m_Localized: Donates electrons to another substance, changing the other substance's chemical state.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813867
+    m_Localized: Essential for certain chemical reaction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813868
+    m_Localized: Bottle of Lipobond Agent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813869
+    m_Localized: Clump Oils and Fat together allowing them to be filtered off easily. This agent can then be evaporate off.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813870
+    m_Localized: 1ml Dropper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813871
+    m_Localized: A high-precision dropper for dispensing small amount of liquid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813872
+    m_Localized: 5ml Dropper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813873
+    m_Localized: 25ml Graduated Cylinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813874
+    m_Localized: 50ml Graduated Cylinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813875
+    m_Localized: 100ml Graduated Cylinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813876
+    m_Localized: Bottle of Water (Large)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813877
+    m_Localized: Jug of Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813878
+    m_Localized: Soda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813879
+    m_Localized: A sweet carbonated beverage. On some parts of the Station, it's cheaper than clean water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813880
+    m_Localized: Energy Drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813881
+    m_Localized: Nudka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813882
+    m_Localized: A strong spirit made from Nutrifruit. Originally developed to be a heavy-duty paint stripper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813883
+    m_Localized: Galaxy Blend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813884
+    m_Localized: A nutritious puree made from pastel Inc.'s Nutrifruit and fortified with additional vitamins and minerals. One of the healthiest, and least popular foods available in the Lower Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813885
+    m_Localized: Cat Chocolate Bar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813886
+    m_Localized: A chocolate-covered wafer bar. Made to share, mostly eaten alone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813887
+    m_Localized: Li-Eat Snack Bar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813888
+    m_Localized: A high protein chocolate flavored candy bar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813889
+    m_Localized: Raw Meat (Small)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813890
+    m_Localized: A small piece of raw meat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813891
+    m_Localized: Fresh meat is a rare sight in the Lower Levels, where it comes from is of little interest to them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813892
+    m_Localized: Raw Meat (Standard)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813893
+    m_Localized: A piece of raw meat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813894
+    m_Localized: Fresh meat is a rare sight in the Lower Levels, where it comes from is of little interest to them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813895
+    m_Localized: Animal Fat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813896
+    m_Localized: A pound of suet. Cheap, and commonly used for rendering into tallow, or adding flavor to broths.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813897
+    m_Localized: Offal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813898
+    m_Localized: Organs, entrails, cartilage and trimming. While comestible and nutritious, is considered undesirable by most cuisines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813899
+    m_Localized: Instant Ramen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813900
+    m_Localized: Contains a single use, flameless heater. Just add water for cooking.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813901
+    m_Localized: Artificial Braised Beef Flavored. A certified Lower Levels classic. MSG, white pepper and Sichuan peppercorns give this instant noodle a spicy kick.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813902
+    m_Localized: Sealed Water Ration (Standard)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813903
+    m_Localized: Can be poured into a liquid container for 750ml of Basewater.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813904
+    m_Localized: Sealed Water Ration (Small)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813905
+    m_Localized: Can be poured into a liquid container for 375ml of Basewater.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158976881508352
+    m_Localized: '"Ancient Alien Relics"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158979263873024
+    m_Localized: 100% Pure Dehydrated Water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158981042257920
+    m_Localized: Scav's journal entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159203780771840
+    m_Localized: Looks like scrap metal... "Ancient Alien" scrap metal?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159205794037760
+    m_Localized: '   Here I am, deep in the Abandoned Sections. Everywhere else on the station has been picked clean, but this place... it''s different. I''ve heard the stories, but so far, the loot''s been good. Still, there''s an eerie weight in the air, like something unseen is lurking just out of sight.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772018733056
+    m_Localized: Alarm System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510272
+    m_Localized: A smart security alarm system, equipped with a suite of sensors and connects to cameras installed by the previous owner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510273
+    m_Localized: Greatly reduces the chance of theft during the night. Requires a dedicated power source to function.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510274
+    m_Localized: Alarm Instruction Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510275
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: Prevention Rate Bonus\n  Quality: No Effect"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510276
+    m_Localized: Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510277
+    m_Localized: A flimsy looking blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510278
+    m_Localized: Chem Finisher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510279
+    m_Localized: Package chemicals into pills, vials and other containers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510280
+    m_Localized: Cryptographic Desequencer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510281
+    m_Localized: Can be used to write various permissions to Blank Keycards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510282
+    m_Localized: Requires a Desequencer Chip and an Access Keycard. Requires Energy. Overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510283
+    m_Localized: Modified Access Card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510284
+    m_Localized: 'How To: The Desequencer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510285
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: Speed\n  Quality: No Effect\nInsert a Desequencer Chip, and an Access Keycard. Requires Energy. Overnight."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510286
+    m_Localized: Evaporator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510287
+    m_Localized: A slow machine that works overnight to evaporate liquids out of a solution using low heat and dry air.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510288
+    m_Localized: Evaporator Instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510289
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: Volume Evaporate Per Night\n  Quality: Volume of Vapor Captured\nWorks overnight when power and a water container are provided."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510290
+    m_Localized: Furnace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510291
+    m_Localized: Refines 2 pieces of either metal scrap or ores into a metal ingot. Requires Energy. Overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510292
+    m_Localized: 'How To: The Furnace'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510293
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: No Effect\n  Quality: Maximum Purity"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510294
+    m_Localized: Insert (2) Metal Ore or Scrap Metal to produce (1) Metal Ingot. The quality of the ingot is determined by the purity of the materials used. Using ore results in a higher purity than scrap. Overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510295
+    m_Localized: Heating Plate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510296
+    m_Localized: A shabby looking underpowered and inaccurate heating plate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510297
+    m_Localized: Bottle Printer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510298
+    m_Localized: A pre-programmed 3D printer that is capable of creating small Water Bottles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510299
+    m_Localized: Cassette Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510300
+    m_Localized: Recharger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510301
+    m_Localized: A device for recharging Energy Cell. Will slowly recharge an Energy Cell as long as the power service has been paid. Overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510302
+    m_Localized: Mirage Projector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510303
+    m_Localized: A sophisticated device that emits captivating holographic projections, making your Store more attractive to customers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510304
+    m_Localized: Requires a night to charge, but improves the street attractiveness of your Store on the next day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510305
+    m_Localized: 'How To: The Projector'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510306
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance (0.25 Ratio): Attractiveness\n  Quality (0.5 Ratio): Attractiveness"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510307
+    m_Localized: 3D Printer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510308
+    m_Localized: A machine that can print various items using plastic. Works overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510309
+    m_Localized: 3D Printer Instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510310
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: Printer Speed Rate\n  Quality (0.25 Ratio): Print Quality On Eligible Items"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510311
+    m_Localized: Insert power source, printer chip and materials. Printer will work automatically overnight if requirements are met.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510312
+    m_Localized: Hydroponic System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510313
+    m_Localized: A compact hydroponic system. Requires a dedicated power source to function. Works overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510314
+    m_Localized: Hydroponic Instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510315
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance  (0.5 Ratio): Growth Rate\n  Quality (0.5 Ratio): Max Yield %"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510316
+    m_Localized: Insert a water container with the cleanest water you can get, a seed, and a power source with enough energy. The hydroponic works overnight. This machine can accept optional modules to improve its capabilities.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510317
+    m_Localized: Moisture Farm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510318
+    m_Localized: A machine designed to extract Water from the humid ambient air of the Station.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510319
+    m_Localized: Produces Water when provided with a container. Requires Energy. Overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510320
+    m_Localized: 'How To: The Moisture Farm'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510321
+    m_Localized: This machine produces Water by harvesting it from the atmosphere, and deposits it into a provided container. Requires a power source with enough energy. This is an overnight process. This machine can be improved with Modules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510322
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: Volume Produced\n  Quality: Purity"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510323
+    m_Localized: Water Purifier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510324
+    m_Localized: A machine that uses reverse osmosis to purify Water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510325
+    m_Localized: Purifies the contents of an inserted Water container. Requires Energy. Overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510326
+    m_Localized: Water Purifier Instructions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510327
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: Amount Removed Per Night\n  Quality (0.5 Ratio): Maximum Purity"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510328
+    m_Localized: This machine purifies Water inside a provided container. Significantly more effective for highly contaminated Water. Requires a power source with enough energy. This is an overnight process. This machine can be improved with Modules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510329
+    m_Localized: Vending Machine Core
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510330
+    m_Localized: Vending Machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510331
+    m_Localized: A vending machine that sells items automatically overnight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510332
+    m_Localized: Items will be sold at +10% additional value and with Retail Markup if applicable but is not affected by event related modifiers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510333
+    m_Localized: Vending Fountain Core
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510334
+    m_Localized: Vending Fountain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510335
+    m_Localized: A vending water fountain machine that sells water automatically overnight. Only Basewater, High Quality Water and Pure Water can be sold.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510336
+    m_Localized: Items will be sold at +10% additional value and with Retail Markup if applicable but is not affected by event related modifiers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747959889920
+    m_Localized: Water Testing Strip (Used)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747976667136
+    m_Localized: A used water quality testing strip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594865029120
+    m_Localized: Nutrifruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806336
+    m_Localized: Created by pastel Inc., the Nutrifruit is a highly modified tuber that is resistant to pests and diseases. It is cheap, has a high yield and is easy to grow, extremely nutritious, but purposefully seedless.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806337
+    m_Localized: Kotton Fiber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806338
+    m_Localized: A modified variant of traditional Cotton. Can be woven into highly durable and versatile fabric
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806339
+    m_Localized: Nutrifruit Seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806340
+    m_Localized: A tuber, genetically modified to be hardy and fast growing. Requires nutrients and water to grow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806341
+    m_Localized: Kotton Seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806342
+    m_Localized: A hard to grow seed that can be planted to grow more Kotton Fiber. It is a modified Cotton that can be woven into a durable fabric.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806343
+    m_Localized: Dream Cap Spores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806344
+    m_Localized: Coffee Beans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806345
+    m_Localized: A handful of coffee beans.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806346
+    m_Localized: Dream Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806347
+    m_Localized: Cause a slight euphoria and stomach pain when consumed. A key ingredient in Dream Dust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806348
+    m_Localized: Nightmare Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806349
+    m_Localized: Highly poisonous variant of the common Dream Cap. Can be processed into a deadly poison. Survivors report having horrible hallucinations after ingesting it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806350
+    m_Localized: Plant Analyzer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806351
+    m_Localized: A specialized tool that can be used to analyse the growth of plants. It can be used to determine the optimal growing conditions for a plant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806352
+    m_Localized: Fillerweed Seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806353
+    m_Localized: A beginner-friendly, fast-growing seed that is not affected by nutrient or water quality.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806354
+    m_Localized: Fillerweed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806355
+    m_Localized: A fast-growing, yellowish leafy crop cultivated primarily in the Lower Levels. Offers almost no nutritional value, it is used as a filler in meals to stretch rations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806356
+    m_Localized: Has a mushy texture with a slightly bitter aftertaste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806357
+    m_Localized: Hydroreed Seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806358
+    m_Localized: A utility crops that produce no food. The Hydroreed will purify the water it is in while growing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6113839712878592
+    m_Localized: Metal Screws
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073686130688
+    m_Localized: Processed Cheese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490816
+    m_Localized: Holes are drilled into the cheese for the classic look, whilst also cutting production costs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490817
+    m_Localized: Cleaner Robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490818
+    m_Localized: Automatically collects Animal Feces from its surroundings during the night. Can also be activated manually for an immediate cleanup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490819
+    m_Localized: Animal Feces (Small)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490820
+    m_Localized: Animal Feces
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490821
+    m_Localized: Rat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490822
+    m_Localized: This serum will slightly boost an animal's growth rate, but at the cost of increased hunger and reduced immunity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490823
+    m_Localized: This serum will slightly boost an animal's immunity but at the cost of increased hunger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196139339776
+    m_Localized: Blue Labeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196160311296
+    m_Localized: Used to rename an item.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343674576896
+    m_Localized: Livestock Feed Dispenser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343699742720
+    m_Localized: A machine that blends food into stored calories for livestock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070918529024
+    m_Localized: Aug Scanner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500544
+    m_Localized: An energy hungry electromagnetic field detector fine tuned to pick up on the unique signatures of the Augmentation chip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500545
+    m_Localized: Used to confirm the presence of a suspected Aug with 100% accuracy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500546
+    m_Localized: Surgery Toolset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500547
+    m_Localized: A set of high quality surgery tools.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726051295232
+    m_Localized: Gene Scanner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726118404096
+    m_Localized: Can be toggled on to reveal the full genetic makeup of an animal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960660115456
+    m_Localized: Flashbang Grenade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086976
+    m_Localized: Smoke Grenade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086977
+    m_Localized: Medical Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086978
+    m_Localized: Food Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086979
+    m_Localized: Household Item Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086980
+    m_Localized: Luxury Item Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086981
+    m_Localized: Material Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086982
+    m_Localized: Place it in the display case to attract customer that will sell {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308168081408
+    m_Localized: Fanny Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830144
+    m_Localized: Mouse Trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830145
+    m_Localized: Putting some cheese inside will probably help.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149553991680
+    m_Localized: A guide for determining the appropriate value of cybernetic hands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351808
+    m_Localized: Cybernetic Hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351809
+    m_Localized: A marvel of biomechanical engineering, designed to mirror the form and function of the hand it replaces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692160
+    m_Localized: AgeWell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692161
+    m_Localized: Accelerates the aging process of certain items inside. Ages items such as Wine and Cheese by an extra day each cycle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692162
+    m_Localized: AgeWell Instructions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692163
+    m_Localized: "[Module Impact]: \n  Efficiency: Power Consumption\n  Performance: Power Consumption\n  Quality: +1 Day age per 125 Quality\nWorks overnight when power and a finished bottle of wine are provided."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692164
+    m_Localized: BloomBerry Wine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692165
+    m_Localized: A popular alcoholic beverage in both the Upper and Lower Levels. Coaxing a fine vintage out of humble BloomBerries is considered an art.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174904340480
+    m_Localized: Yeast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506304
+    m_Localized: A versatile yeast culture with countless uses, from leavening bread to brewing. For winemaking, it speeds up fermentation and improves the quality of the brew.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506305
+    m_Localized: Super Yeast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506306
+    m_Localized: A highly potent, all-purpose yeast culture prized across countless crafts. For winemaking, it dramatically speeds up the fermentation process.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506307
+    m_Localized: Yeast Bioreactor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506308
+    m_Localized: An infinite source of yeast. Will be returned to inventory when fermentation starts instead of being consumed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506309
+    m_Localized: A self-sustaining culture vat that continuously regrows its own yeast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506310
+    m_Localized: Wine Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506311
+    m_Localized: A fancy glass bottle used for fermenting wine. This one has a integrated airlock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506312
+    m_Localized: BloomBerry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506313
+    m_Localized: A sweet berry modified for hydroponic growth. While not particularly filling, it's one of few fruits that is accessible in the Lower Levels. Good for making wine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506314
+    m_Localized: BloomBerry Wine Fermenting Guide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253248
+    m_Localized: GloomBerry Wine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253249
+    m_Localized: Looks like a Homebrew BloomBerry wine but this one is cheap and mildly carcinogenic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253250
+    m_Localized: Synthetic Yeast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253251
+    m_Localized: An illegal substance that can be used instead of yeast to cheaply produce mildly carcinogenic wine. Requires only water.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662026989568
+    m_Localized: A sealed and certified ration of Basewater.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662052155392
+    m_Localized: A sealed and certified ration of Basewater.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349696
+    m_Localized: Bloomberry Seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349697
+    m_Localized: A perennial bush. It doesn't die after fruiting. Keep its water clean for better bloomberries. Use a hatchet on the planter to clear it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318361403392
+    m_Localized: Advanced Water Filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763520
+    m_Localized: Will recover 50 durability at the start of each day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763521
+    m_Localized: A premium water filter for pitchers used in the Upper Levels. Slowly self-cleans.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763522
+    m_Localized: HydraTech Micro Water Purifier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763523
+    m_Localized: Use on a water container to bring its contents up to Basewater purity, whatever's in it. It will use 1 durability per 100ml.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763524
+    m_Localized: A disposable advanced water purifier, common in the Upper Levels. The discarded ones wash up in the Dumping Grounds, still good for a few more pours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651641692160
+    m_Localized: Black Lamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651650080768
+    m_Localized: When placed in the display case, it signals thieves that this shop fences stolen goods. Your Black Market reputation affects how likely they are to respond.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545411469312
+    m_Localized: Meal Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545453412352
+    m_Localized: A neutralized Dream Cap with no psychoactive properties. Legal and safe to eat. Cannot be processed into Dream Dust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698507987632128
+    m_Localized: Skinning Knife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380864
+    m_Localized: The perfect knife for a veteran rancher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380865
+    m_Localized: Animal Feces (Large)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146879209472
+    m_Localized: Toolbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346816
+    m_Localized: Holds tools. Press 1-9 on the keyboard to equip the stored item.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346817
+    m_Localized: Quite robust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199391264768
+    m_Localized: Fridge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430592
+    m_Localized: Chills stored drinks overnight. Chilled goods sell for more. Wine and unsealed water are unaffected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430593
+    m_Localized: Bei's Premium Vanilla Icecream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430594
+    m_Localized: A delicious treat that is legally categorized as Artificially Flavored Frozen Dairy Product. Somehow it doesn't melt when unrefrigerated.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430595
+    m_Localized: Can be sold at a higher value when frozen overnight in the fridge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298531184640
+    m_Localized: Water Pitcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298564739072
+    m_Localized: Holds a water filter to strip some contaminants from the water poured through it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279426768896
+    m_Localized: Morsel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279460323328
+    m_Localized: Small Morsel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289481588736
+    m_Localized: Tilapia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948864
+    m_Localized: Gutter Tilapia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948865
+    m_Localized: Graft Tilapia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948866
+    m_Localized: Common farm fish. Grows fast, eats most things and breeds without much help.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948867
+    m_Localized: A sewer strain of tilapia. Grows slower and makes less meat for its feed, but dirty water does not bother it, and it takes heavy metal and chemical contaminants out of the tank while it lives there.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948868
+    m_Localized: A modified tilapia. Makes less meat for its feed and needs clean water, but its skin can be sterilized and used as a bandage, and its unfertilized roe dresses a wound as it is.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948869
+    m_Localized: Tilapia Roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948870
+    m_Localized: Gutter Tilapia Roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948871
+    m_Localized: Graft Tilapia Roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948872
+    m_Localized: Tilapia Roe (Fertilized)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948873
+    m_Localized: Gutter Tilapia Roe (Fertilized)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948874
+    m_Localized: Graft Tilapia Roe (Fertilized)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948875
+    m_Localized: Tilapia Fry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948876
+    m_Localized: Gutter Tilapia Fry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948877
+    m_Localized: Graft Tilapia Fry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948878
+    m_Localized: Graft tilapia eggs. Thick with the repair protein that makes the skin heal, which is why medics buy them by the clutch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948879
+    m_Localized: Tilapia Skin Graft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948880
+    m_Localized: Sterilized skin of a graft tilapia. Stops the bleeding and closes a wound.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948881
+    m_Localized: Tiny Fish Fillet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948882
+    m_Localized: Small Fish Fillet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948883
+    m_Localized: Fish Fillet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948884
+    m_Localized: Large Fish Fillet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948885
+    m_Localized: Fish Scrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948886
+    m_Localized: Recirculating Aquaculture System
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948887
+    m_Localized: A closed water loop for raising fish. Needs a water tank, power, and filters to keep the water clean.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948888
+    m_Localized: RAS Water Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948889
+    m_Localized: The water reservoir of a recirculating aquaculture system.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948890
+    m_Localized: Gutterflow Pellet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948891
+    m_Localized: Pressed gutter sludge. Cheap calories for omnivore fish, not for people.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421783789568
+    m_Localized: Eel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149696
+    m_Localized: Electric Eel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149697
+    m_Localized: Sturgeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149698
+    m_Localized: Raised for its luxury fillets, worth far more than any other fish. Does not breed in captivity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149699
+    m_Localized: A living generator. From adolescent on, it charges its tank's battery and every battery beside the tank each night, more as it grows. Does not breed in captivity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149700
+    m_Localized: Farmed for caviar. Its eggs can be harvested using surgery tools while the fish is alive, or collected in full at slaughter. Does not breed in captivity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149701
+    m_Localized: Caviar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149702
+    m_Localized: Sturgeon Roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149703
+    m_Localized: Small Eel Fillet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149704
+    m_Localized: Eel Fillet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149705
+    m_Localized: A delicacy on the station.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888699678720
+    m_Localized: Industrial Fish Feed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888733233152
+    m_Localized: Mass produced factory-made feed for omnivore and herbivore fish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676618002432
+    m_Localized: DNA Data Disk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362560
+    m_Localized: A blank data disk. A DNA Manipulator can extract a trait onto it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362561
+    m_Localized: DNA Manipulator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362562
+    m_Localized: Extracts DNA data onto DNA Data Disks and installs a disk's trait on a target. The higher the target's genetic complexity, the lower the chance of success.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362563
+    m_Localized: DNA Manipulator instructions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362564
+    m_Localized: How to use the DNA Manipulator.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362565
+    m_Localized: "INSTALL: put a written DNA Data Disk in the input slot and the target in the target slot. The target gains the trait. Installing a trait the target already has stacks a rank. Every successful install uses one charge of the disk.\nEXTRACT: put a blank DNA Data Disk in the output slot and the target in the target slot. One random trait is copied onto the disk and the target is lost, unless a genetic stabilizer module is installed. A disk already holding a trait the target carries can be used instead of a blank one: the extraction adds uses to it.\nEvery edit heats the target's genetics. Heat and complexity make the next edit slower and riskier until the target matures. Switch a gene scanner on to read a target's genetics.\nMODULES: a genetic stabilizer keeps the target through extraction; the trait filters restrict a random extraction to positive or negative traits; the precision module, once used on a written disk, extracts that trait specifically.\nOUTPUT: after each operation the disk is ejected to the output tray. Toggle the machine to keep disks in their slots instead.\n[Module Impact]: \n  Efficiency: Power Consumption\n  Performance (0.5 Ratio): Operation Speed\n  Quality (0.5 Ratio): Success Chance"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362566
+    m_Localized: Genetic Stabilizer Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362567
+    m_Localized: 'Lets the target survive DNA extraction: a trait can be removed without destroying the target.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362568
+    m_Localized: The target survives extraction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362569
+    m_Localized: Positive Trait Filter Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362570
+    m_Localized: Restricts DNA extraction to positive traits. Nothing is extracted from a target that has none.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362571
+    m_Localized: Extracts positive traits only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362572
+    m_Localized: Negative Trait Filter Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362573
+    m_Localized: Restricts DNA extraction to negative traits. Nothing is extracted from a target that has none.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362574
+    m_Localized: Extracts negative traits only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362575
+    m_Localized: Precision Extraction Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362576
+    m_Localized: Use this module on a DNA Data Disk containing a trait to scan it. When installed in a DNA Manipulator, it will only extract the scanned trait.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362577
+    m_Localized: Extracts the scanned trait only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82432951786979328
+    m_Localized: Running multiple Moisture Farms decreases the output of each.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906176339968
+    m_Localized: 3D Printer Chip (x{0} Box Cutter)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700096
+    m_Localized: 3D Printer Chip (x{0} Kitchen Knife)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700097
+    m_Localized: 3D Printer Chip (x{0} Hatchet)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700098
+    m_Localized: 3D Printer Chip (x{0} Meat Cleaver)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700099
+    m_Localized: 3D Printer Chip (x{0} Combat Knife)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700100
+    m_Localized: 3D Printer Chip (x{0} Combat Machete)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700101
+    m_Localized: Melee Batch Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700102
+    m_Localized: A printer module that adds one more weapon to every melee weapon print. Slow and power hungry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700103
+    m_Localized: Printed Melee Weapon Output +{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700104
+    m_Localized: 3D Printer Chip (x{0} .22 Pistol)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700105
+    m_Localized: Nestfire Compact Frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700106
+    m_Localized: Ironcraft 10 Frame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700107
+    m_Localized: An incomplete gun frame, add a gun part on it to finish it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700108
+    m_Localized: Nestfire Compact Frame 3D Printer Chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700109
+    m_Localized: Ironcraft 10 Frame 3D Printer Chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700110
+    m_Localized: Gun Part 3D Printer Chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700111
+    m_Localized: Computer Numerical Control Module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700112
+    m_Localized: A module that allows the printer to use gun frame and gun part chips, together with the Metal Printing Module.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700113
+    m_Localized: Computer Numerical Control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801482706944
+    m_Localized: Pile of Debris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067072
+    m_Localized: You will spend some time clearing the debris whenever you sleep without going out of the Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067073
+    m_Localized: You will need tools to clear this one. Each tool used on it will be destroyed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067074
+    m_Localized: Far too heavy to move yourself. The Debris Removal nightly service will be needed to clear it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067075
+    m_Localized: Makeshift Micro Nuclear Reactor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067076
+    m_Localized: Powers the Store while its integrity is above {0}. Loses integrity every night and explodes at 0. Scrap metal restores {1} integrity. Junk restores {2} integrity but lowers maximum integrity by {3}. Each common electronic part reduces the nightly loss by 1.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997352247296
+    m_Localized: Appraisal Board Certificate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607424
+    m_Localized: Certifies your rank on the Appraiser Board.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607425
+    m_Localized: Appraisal Board Senior Certificate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607426
+    m_Localized: Appraisal Board Master Certificate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760602595328
+    m_Localized: A Bao A Qu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344064
+    m_Localized: The Wailing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344065
+    m_Localized: Long Star River
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344066
+    m_Localized: Deluge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344067
+    m_Localized: Spellsinger Radio Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344068
+    m_Localized: Golden Lotus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344069
+    m_Localized: Junkyard Jockey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687331373056
+    m_Localized: Firearm Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687343955968
+    m_Localized: Heavy Firearm Neon Sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274678018048
+    m_Localized: Current Converter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274715766784
+    m_Localized: Draw power directly from the Lower Levels' grid to power any machine instead of a battery. The Current Converter nightly service must be paid in order to receive power.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056494051328
+    m_Localized: Li Bei Wen's Nomore Formula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411456
+    m_Localized: Armed Plastic Explosive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411457
+    m_Localized: This is what Lou planted. According to the timer, it will explode at midnight. You'd better disarm it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411458
+    m_Localized: Fake Plastic Explosive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411459
+    m_Localized: This is the bomb Lou planted, but it looks like there's no actual payload inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411460
+    m_Localized: Old Republic Orders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411461
+    m_Localized: A yellowed, brittle sheet. It looks like it has been folded and unfolded many times. It's a written order addressed to Lou, dated years ago. A faded Republic seal is still visible at the top.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411462
+    m_Localized: "REPUBLIC JOINT SPECIAL OPERATIONS COMMAND, PRIORITY ORDER\nTO: Emergency Response Team Leader Lou\n\nStop stalling for time and carry out this order immediately. Take your team and start the self-destruct sequence of the research ship Icarus. Disable all the escape pods and do not allow any survivor from the Icarus to escape with your team. Do it, or I will have you court-martialed.\n\n(The signature has faded beyond reading.)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411463
+    m_Localized: Lou's Box of Toys
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411464
+    m_Localized: Looks like a repurposed evidence locker from the Security Department. Better not touch anything inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649152
+    m_Localized: Liquid Luck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649153
+    m_Localized: Will 100% increase your luck for 3 days! Georgio's guarantee! It tastes like Rustwater.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649154
+    m_Localized: Kid's Backpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649155
+    m_Localized: Kid's Backpack (Large)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785493061632
+    m_Localized: Improved Internal Springs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810368
+    m_Localized: A set of sturdier internal springs that help the action cycle reliably.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810369
+    m_Localized: 3D Printer Chip (x{0} Improved Internal Springs)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004867645440
+    m_Localized: Gambler's Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004905394176
+    m_Localized: A coin from a currency nobody remembers. They say it brings luck. Mostly, it scratches tickets faster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245508415488
+    m_Localized: Care Package for Eleanor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387008
+    m_Localized: 'A sealed crate of fine goods from the Upper Levels. Whoever packed it spared no expense. Strange, though: your Security feed lists it as reported stolen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387009
+    m_Localized: SYNC Self-Refilling Neuroactive Perfume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387010
+    m_Localized: Use to boost trading bonus by 15% with the current customer. You can only benefit from the effects of one perfume at a time. Refills on its own.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387011
+    m_Localized: The premium edition of the SYNC perfume. A sealed reservoir in the cap slowly synthesizes a new dose, so the bottle never quite runs dry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387012
+    m_Localized: Storage Bay Expansion Kit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387013
+    m_Localized: Use it on a Storage Bay to add two storage tabs, or on an Extended Storage Bay to add one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798324109312
+    m_Localized: Storage Coordinator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275136
+    m_Localized: Assign containers and machines to presets. Give each preset a hotkey to open them quickly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275137
+    m_Localized: Electronic Parts (Hypertech)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275138
+    m_Localized: The bleeding edge of electronics. Nobody on the station can make these.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275139
+    m_Localized: Used to upgrade or charge certain Hypertech items.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275140
+    m_Localized: Hypertech Power Cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275141
+    m_Localized: An experimental cell with no stored charge. It powers any machine whose draw stays within the cell's output rating, indefinitely. Machines that draw more than the rating get nothing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275142
+    m_Localized: Hypertech Turbo Booster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275143
+    m_Localized: A turbo booster powered by an Energy Cell. It charges every cycle and banks spare charge. Once charged, it instantly completes a machine's current cycle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275144
+    m_Localized: Hypertech Storage Bay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275145
+    m_Localized: Mind Reprogrammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275146
+    m_Localized: Can remove and add certain perks. Consume Electronic Parts (Hypertech) to charge it. The device needs time to reset after each use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356914843648
+    m_Localized: Auto Butcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426560
+    m_Localized: A configurable auto butcher. It needs to be installed inside an Animal Cage or a RAS. Every night it harvests the animals that match its settings into its tray. It always ignores animals marked with the Marking Pen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426561
+    m_Localized: The mighty Gibber. Do not climb inside. Do not let anyone help you climb inside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426562
+    m_Localized: Marking Pen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426563
+    m_Localized: Marks an animal or a fish with a colour. The Auto Butcher never touches a marked animal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259386847232
+    m_Localized: Intake Hopper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401664
+    m_Localized: Can be linked to an Outlet Hopper and configured to send the items of its inventory into the Outlet Hopper's inventory every night. Use it on an Outlet Hopper to link them, double-click to set it up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401665
+    m_Localized: Outlet Hopper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401666
+    m_Localized: Receives the items sent by its linked Intake Hoppers into its inventory every night. Use it on an Intake Hopper to link them, double-click to run them now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160964653056
+    m_Localized: Disposable Battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818880
+    m_Localized: A high capacity single-use energy cell. Cannot be recharged.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818881
+    m_Localized: Favored in the Upper Levels for its convenience.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818882
+    m_Localized: Mini Alcohol Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818883
+    m_Localized: Water Tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818884
+    m_Localized: A large liquid container. Use scrap metal or a metal ingot on it to enlarge it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89901428357513216
+    m_Localized: Use a bandage on it to wrap a Glass Shiv. The bandage is not used up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728700862464
+    m_Localized: Republic Transmitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833984
+    m_Localized: A tiny transmitter given to you by the Republic Operative.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833985
+    m_Localized: Hide it in something Lou takes away with her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833986
+    m_Localized: A single round, left on your counter overnight. "{0}" is etched into the casing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833987
+    m_Localized: Lou's Locker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833988
+    m_Localized: Empty, unlocked, waiting. Fill it and leave it on the front counter when you close.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

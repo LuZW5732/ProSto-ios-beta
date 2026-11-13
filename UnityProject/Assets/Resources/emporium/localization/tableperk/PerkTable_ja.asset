@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PerkTable_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: b8081521f90d5004a96ecf7f776becff, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9267617513472
+    m_Localized: '{0}クレジット多い状態で開始する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1443059515392
+    m_Localized: 貯金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902080
+    m_Localized: 悪質な契約
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902081
+    m_Localized: 開始時の家賃が{0}クレジット増加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902086
+    m_Localized: 犯罪者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902087
+    m_Localized: 警察からの評判が{0}の状態で開始し、指名手配されている客を通報した際の報酬が{1}%減少する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902088
+    m_Localized: 模範市民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902089
+    m_Localized: 警察からの評判が+{0}の状態で開始し、指名手配されている客を通報した際の報酬が{1}%増加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902090
+    m_Localized: 広い人脈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902091
+    m_Localized: すべての派閥からの評判が{0}多い状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902092
+    m_Localized: 警戒態勢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902093
+    m_Localized: 夜間に盗難に遭わない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902094
+    m_Localized: ソイヤーの仲間
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902095
+    m_Localized: 開始時からアングラ取引が使える。店が荒らされない限り、清掃サービスがいつでも無料になる。荒らされたときの片付け費用が大幅に減少する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902096
+    m_Localized: 世渡り上手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902097
+    m_Localized: 取引によって得られる評判が{0}%増加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902098
+    m_Localized: 威圧的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902099
+    m_Localized: すべての犯罪の証拠が{0}%減少する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902100
+    m_Localized: 横通り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902101
+    m_Localized: 毎日、ランダムな客が1人減る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902102
+    m_Localized: ニコチン中毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902103
+    m_Localized: 定期的にニコチンを摂取しなければ、取引に{0}%のペナルティが課される。治癒可能な依存症。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902104
+    m_Localized: 麻薬中毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902105
+    m_Localized: 定期的に麻薬を摂取しなければ、取引に{0}%のペナルティが課される。治癒可能な依存症。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902106
+    m_Localized: アルコール中毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902107
+    m_Localized: 定期的にアルコールを摂取しなければ、取引に{0}%のペナルティが課される。治癒可能な依存症。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902108
+    m_Localized: 隠れファン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902109
+    m_Localized: 店を開くとき、隠れファンからランダムなアイテムをもらうことがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902110
+    m_Localized: 個性派
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902111
+    m_Localized: 開始時のパークスロットが{0}個追加される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902112
+    m_Localized: 恐喝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902113
+    m_Localized: 過去の悪い秘密を暴露すると脅される。毎週少額の支払いをしなければ暴露されてしまい、大半の派閥からの評判が一度限りで大幅に下がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902114
+    m_Localized: おしゃべり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902115
+    m_Localized: すべての犯罪の証拠が{0}%増加する。闇市場と革命家からの評判が50%減少する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902116
+    m_Localized: 購読解除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902117
+    m_Localized: 進行中の出来事を伝える日刊新聞を受け取らなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902118
+    m_Localized: ミニマリスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902119
+    m_Localized: メインインベントリが24x10から20x10に縮小される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902120
+    m_Localized: センチネル崩壊症候群
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902121
+    m_Localized: 不治の自己免疫疾患を患い、生き延びるためには毎週「Immunivax」の注射を打たなければならない。「Immunivax」の注射器を1個所持した状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902124
+    m_Localized: 早足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902125
+    m_Localized: 毎晩、閉店後に最大2か所訪問できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902126
+    m_Localized: 広場恐怖症
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902128
+    m_Localized: 福祉プログラム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902129
+    m_Localized: 最初から売店を利用できる。月曜日に、全財産に応じてフードスタンプを受け取ることがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902130
+    m_Localized: 熟練の漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902131
+    m_Localized: ゴミ捨て場に行くたびに、最大2回追加で調べられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902132
+    m_Localized: 革命支持者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902133
+    m_Localized: 革命家からの評判が{0}多い状態で開始する。革命家からマーケット依頼を受け取る頻度が多くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902134
+    m_Localized: ギャンブル中毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902135
+    m_Localized: 可能な限り、宝くじ券を買う。最初からすべての宝くじコンテンツがアンロックされる。治癒可能な依存症。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902136
+    m_Localized: テープヘッド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902137
+    m_Localized: カセットプレイヤーにすべてのカセットが入った状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902138
+    m_Localized: 遠征隊の監督
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902139
+    m_Localized: 特定のキャラクターを雇い、遠征隊を編成できる。最初から遠征コンテンツがアンロックされ、1人を雇える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902140
+    m_Localized: 自動販売機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902141
+    m_Localized: 店の前に自動販売機が設置された状態で開始する。閉店後でも、客が自動的に商品を買えるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12200241315840
+    m_Localized: パークポイント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791168
+    m_Localized: 閉店後に出かけた次の日、客を逃さなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313910013952
+    m_Localized: ショートスリーパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791169
+    m_Localized: 使える水道管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791170
+    m_Localized: 水道管が接続され、ラストウォーターが無限に得られる状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791171
+    m_Localized: 教養ゼロ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791172
+    m_Localized: どのガイドも読むことができない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791173
+    m_Localized: 優良物件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313930985472
+    m_Localized: '毎日、店に来る一般客が1人増えるが、開始時の家賃が{0}クレジット高くなる。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876391931904
+    m_Localized: 変形性関節症
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263552
+    m_Localized: ゴミ捨て場で、最初の1週間は通常通り廃品漁りできるが、その後は1週間ごとに最大試行回数が1回減少する。最大回数が{0}回を下回ると、完全に廃品漁りできなくなる。通常、1日あたりの最大回数は{1}回から始まる。外用包帯を{2}個追加で持っている状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263553
+    m_Localized: 有名な密告者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263554
+    m_Localized: 指名手配されている客が店に来なくなる。革命家と闇市場からの評判が{0}の状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180758536192
+    m_Localized: 器用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673536
+    m_Localized: ボロボロの道具箱と、ボロボロの道具一式（ドライバー、ワイヤーカッター、バール、プラズマカッター）がある状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673537
+    m_Localized: 社会の敵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673538
+    m_Localized: すべての派閥からの評判が{0}の状態で開始する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673539
+    m_Localized: 禁欲主義
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673540
+    m_Localized: メインインベントリが24x10から{0}x10に縮小される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673541
+    m_Localized: 不自由な体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673542
+    m_Localized: ゴミ捨て場に行けなくなる。一切廃品漁りできない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673543
+    m_Localized: ワイルドのお気に入り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673544
+    m_Localized: ワイルド・ネットワークでの改良が{0}%、保険が{1}%安くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673545
+    m_Localized: ワイルドの敵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673546
+    m_Localized: ワイルド・ネットワークでの改良が{0}%、保険が{1}%高くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673547
+    m_Localized: AI人間の脅威
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673548
+    m_Localized: ゲーム開始時に、AI人間のコンテンツがアンロックされる。AI人間を殺したときに獲得できるクレジットが{0}%増加する。脅威が止むことはなく、AI人間を逃しすぎると、どの難易度でもゲームオーバーになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673549
+    m_Localized: 幸運
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673550
+    m_Localized: 運が上がる。たぶん。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673551
+    m_Localized: 不運
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673552
+    m_Localized: 運が下がる。たぶん。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593216
+    m_Localized: 機械いじり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593217
+    m_Localized: アイテムを改良する際、{0}%の確率で使用した素材が消費されない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593218
+    m_Localized: 慎重な漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593219
+    m_Localized: ゴミ捨て場に行くたびに行動回数が{0}回減るが、調べても負傷しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593220
+    m_Localized: ごますり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593221
+    m_Localized: 上層世界からの評判が+{0}の状態で開始する。上層世界から得られる評判が{1}%増加し、上層世界の客の予算が{2}%増加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593222
+    m_Localized: 閉店後に出かけてから、夜に店で{0}回休まなければまた外出できない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593223
+    m_Localized: 交渉下手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593224
+    m_Localized: 客との交渉ができず、永続的に{0}%の取引ペナルティを受ける。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593225
+    m_Localized: 売店の利用禁止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593226
+    m_Localized: 売店が利用できなくなる。フードスタンプは導入されない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593227
+    m_Localized: 溜め込み屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593228
+    m_Localized: インベントリの下部に、動かせないガラクタの山が3つある状態で開始する。どの山も取り除ける。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593229
+    m_Localized: 即席の原子炉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593230
+    m_Localized: ステーションの電力網を完全に利用できなくなり、停電の影響を受けない。ジャックソン博士から買った、改良可能な即席のマイクロ原子炉を所持した状態で開始する。これで電力は供給されるが、定期的な修理が必要。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

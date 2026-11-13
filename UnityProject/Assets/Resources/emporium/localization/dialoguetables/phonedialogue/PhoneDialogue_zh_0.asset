@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PhoneDialogue_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 8b0b65347ae18a441b3344762bbb2aae, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 311964778496
+    m_Localized: '[结束通话]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525270302720
+    m_Localized: '[浏览王尔德的服务]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014057713664
+    m_Localized: 你好，这里是王尔德先生的办公室……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1030969147392
+    m_Localized: 请问我能怎样帮助您？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212431515648
+    m_Localized: 以下是我们能为您提供的服务。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435664957440
+    m_Localized: 再见！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882173120512
+    m_Localized: 啊对，王尔德先生已事先通知过您的来电。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956194197504
+    m_Localized: 我将是您在红魔鬼酿酒厂的联系人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3982169522176
+    m_Localized: 拨打这个号码来下订单。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3990079979520
+    m_Localized: 我们会在第二天派人给您送货。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996421767168
+    m_Localized: 既然您是新顾客……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006756532224
+    m_Localized: 我们明天会给您寄送一份免费样品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5439690162176
+    m_Localized: 你好，这里是红魔鬼酿酒厂销售部……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5445696405504
+    m_Localized: 您想下订单吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5773825196032
+    m_Localized: 好的，我会为您安排并派人送过去。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7844754407424
+    m_Localized: 抱歉，我们目前缺货了……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7957669265408
+    m_Localized: 到时候再打给我们吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7886064107520
+    m_Localized: 下一批货应该会在{0}天后准备好。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081138988924928
+    m_Localized: '[订购{0}份啤酒（次日送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896448
+    m_Localized: '[订购{0}份啤酒（{1}日后送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896451
+    m_Localized: '[订购{0}份矿石（次日送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896452
+    m_Localized: '[订购{0}份矿石（{1}日后送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896456
+    m_Localized: 太好了！你肯定就是乔提起的那个人。我是阿希什。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896457
+    m_Localized: 告诉我你需要什么，我会立马为你赶制出来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896458
+    m_Localized: 少打听多余的，明白吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896459
+    m_Localized: 第二天按时交货。不扯有的没的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896460
+    m_Localized: 知道了。谢谢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896461
+    m_Localized: 明天我会送你一份免费样品，算我请客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896469
+    m_Localized: 哟，你就是老乔打发来找我的那人？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896470
+    m_Localized: 我叫科尔森，负责经营GP采矿合作社。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896471
+    m_Localized: 如果你要的是散装原矿，我们这儿有。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896472
+    m_Localized: 一旦你下了订单——
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896473
+    m_Localized: ——我们的伙计第二天就给你送上门。就这么简单。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896474
+    m_Localized: 知道了。谢谢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896475
+    m_Localized: 看在你是生面孔的份上，明天送你一份免费样品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896476
+    m_Localized: 你好，GP矿业。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896477
+    m_Localized: 要进矿石？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896478
+    m_Localized: 行，我这就叫人备货给你送过去。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896479
+    m_Localized: 嘿，GP矿业。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896480
+    m_Localized: 真不好意思，我们全卖光了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896481
+    m_Localized: 过个……我看看啊……过个{0}天再打过来吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896482
+    m_Localized: 到时候可能就有货给你了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896483
+    m_Localized: 我明白了，多谢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896501
+    m_Localized: 现在不方便说话。过几天再打给我吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896502
+    m_Localized: 奥丁·哈拉尔德森
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896503
+    m_Localized: 我们知道你干了什么。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896504
+    m_Localized: 永远别再拨这个号码了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896505
+    m_Localized: 我们到此为止。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896506
+    m_Localized: 现在不能说话。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896507
+    m_Localized: 等这次戒严结束再打给我。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896508
+    m_Localized: 讲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896509
+    m_Localized: 抱歉，打错了。[结束通话]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896510
+    m_Localized: 是你吗？手里有给我们的货？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090752
+    m_Localized: 好的，帮我留着。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090753
+    m_Localized: 我{0}天后过来一趟。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090754
+    m_Localized: 再见。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896449
+    m_Localized: '[订购{0}份梦尘（次日送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896450
+    m_Localized: '[订购{0}份梦尘（{1}天后送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896453
+    m_Localized: '[订购{0}支奥克西莫注射器（次日送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896454
+    m_Localized: '[订购{0}支奥克西莫注射器（{1}天后送达）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896462
+    m_Localized: 嘿，我是阿希什。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896463
+    m_Localized: 你需要什么？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896464
+    m_Localized: 好，我会备好货送过去。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896465
+    m_Localized: 你好，我是阿希什。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896466
+    m_Localized: 我手头正忙着另一单呢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896467
+    m_Localized: '{0}天后再联系我吧。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896485
+    m_Localized: 我一直在等你的电话……很好。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896486
+    m_Localized: 叫我“戴尔”就行，在其他地方千万别提我的名字。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896487
+    m_Localized: 我……或许能弄到一些上层区的药。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896488
+    m_Localized: 当然，这些交易绝不能留下记录。懂吧？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896489
+    m_Localized: 我一收到订单，
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896490
+    m_Localized: 第二天就会安排快递员送货。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896491
+    m_Localized: 除非出了问题，否则别再联系我。明白吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896492
+    m_Localized: 我明白。谢谢。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896493
+    m_Localized: 我明天会送一份免费样品给你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896494
+    m_Localized: 要下单吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896495
+    m_Localized: 确保你身边没人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896496
+    m_Localized: 你需要什么？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896497
+    m_Localized: 好，我会备好货送过去。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896498
+    m_Localized: 你好……我现在暂时不能再接单了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896499
+    m_Localized: '{0}天后再联系我。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896500
+    m_Localized: 我明白。谢谢。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

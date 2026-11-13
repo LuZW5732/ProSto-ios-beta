@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PhoneDialogue_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 8b0b65347ae18a441b3344762bbb2aae, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 311964778496
+    m_Localized: '[電話を切る]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525270302720
+    m_Localized: '[ワイルドのサービスを見る]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014057713664
+    m_Localized: こちらはワイルド様のオフィスです……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1030969147392
+    m_Localized: ご用件は何でしょうか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212431515648
+    m_Localized: プランはこちらとなります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435664957440
+    m_Localized: 失礼します！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882173120512
+    m_Localized: ああ、ワイルド様がおっしゃっていた方ですね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956194197504
+    m_Localized: レッド・インプ醸造所の窓口担当です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3982169522176
+    m_Localized: ご注文の際はこちらにおかけください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3990079979520
+    m_Localized: 翌日には配達員がお届けにまいります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996421767168
+    m_Localized: 新規のお客様ですので……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006756532224
+    m_Localized: 明日、無料サンプルをお送りします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5439690162176
+    m_Localized: はい、レッド・インプ販売部門です……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5445696405504
+    m_Localized: ご注文の依頼でしょうか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5773825196032
+    m_Localized: かしこまりました、手配してお届けします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7844754407424
+    m_Localized: あいにく在庫が切れておりまして……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7957669265408
+    m_Localized: またお電話ください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7886064107520
+    m_Localized: 次回の入荷は{0}日後になる予定です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081138988924928
+    m_Localized: '[ビールを{0}個注文する（翌日配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896448
+    m_Localized: '[ビールを{0}個注文する（{1}日後の配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896451
+    m_Localized: '[鉱石を{0}個注文する（翌日配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896452
+    m_Localized: '[鉱石を{0}個注文する（{1}日後の配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896456
+    m_Localized: ジョーさんの言っていた人ですね！ アシシュです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896457
+    m_Localized: 必要なものを教えてくだされば、すぐに用意しますよ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896458
+    m_Localized: ただし、質問はなしで。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896459
+    m_Localized: 商品は明日届きます。楽ちんでしょう？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896460
+    m_Localized: わかりました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896461
+    m_Localized: 明日、無料サンプルを送りますね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896469
+    m_Localized: ジョーさんに紹介されたのですよね？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896470
+    m_Localized: GP採掘共同組合を運営しているコールソンと申します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896471
+    m_Localized: 鉱石をお求めであれば、大量に用意できますよ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896472
+    m_Localized: 注文が済めば……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896473
+    m_Localized: うちのスタッフが翌日お届けに伺うだけです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896474
+    m_Localized: かしこまりました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896475
+    m_Localized: 初回ですので、明日に無料サンプルをお送りします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896476
+    m_Localized: GP採掘協同組合です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896477
+    m_Localized: 鉱石でしょうか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896478
+    m_Localized: わかりました、手配を進めます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896479
+    m_Localized: GP採掘協同組合です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896480
+    m_Localized: すみませんが、在庫切れです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896481
+    m_Localized: ……{0}日後におかけ直しください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896482
+    m_Localized: その頃には用意できるかもしれません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896483
+    m_Localized: わかりました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896501
+    m_Localized: 今は話せません。数日後にまたおかけください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896502
+    m_Localized: オーディン・ハラルドソン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896503
+    m_Localized: お前のしたことは知っているぞ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896504
+    m_Localized: 二度とこの番号にかけるな。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896505
+    m_Localized: もう話すことはない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896506
+    m_Localized: 今は話せない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896507
+    m_Localized: 取り締まりが終わってからにしてくれ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896508
+    m_Localized: はい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896509
+    m_Localized: すみません、間違えました。[電話を切る]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896510
+    m_Localized: お前か。何か持っているのか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090752
+    m_Localized: わかった、取りにいく。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090753
+    m_Localized: '{0}日後に寄れるはずだ。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090754
+    m_Localized: またな。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896449
+    m_Localized: '[ドリームダストを{0}個注文する（翌日配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896450
+    m_Localized: '[ドリームダストを{0}個注文する（{1}日後の配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896453
+    m_Localized: '[Oxymoreの注射器を{0}個注文する（翌日配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896454
+    m_Localized: '[Oxymoreの注射器を{0}個注文する（{1}日後の配達）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896462
+    m_Localized: どうも、アシシュです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896463
+    m_Localized: どうしましたか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896464
+    m_Localized: では、用意しておきますね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896465
+    m_Localized: アシシュです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896466
+    m_Localized: 今は別の注文で忙しくてですね……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896467
+    m_Localized: '{0}日後にご連絡ください。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896485
+    m_Localized: お電話をお待ちしておりましたよ……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896486
+    m_Localized: 「デール」です。他でこの名前は出さないでください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896487
+    m_Localized: ……上層世界から、特定の薬を入手できるかもしれません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896488
+    m_Localized: ええ、裏ルートでね。ご理解いただけましたか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896489
+    m_Localized: 注文が入り次第……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896490
+    m_Localized: 翌日には配達人が対応します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896491
+    m_Localized: 何もなければ、追跡調査はしないでください。いいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896492
+    m_Localized: はい。ありがとうございます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896493
+    m_Localized: 明日、無料サンプルを送ります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896494
+    m_Localized: ご注文でしょうか。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896495
+    m_Localized: 周りに人はいませんね？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896496
+    m_Localized: 必要なものは何でしょう？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896497
+    m_Localized: わかりました、準備を始めます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896498
+    m_Localized: すみませんが、今はこれ以上受けられません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896499
+    m_Localized: '{0}日後にまたご連絡ください。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896500
+    m_Localized: わかりました。ありがとうございます。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

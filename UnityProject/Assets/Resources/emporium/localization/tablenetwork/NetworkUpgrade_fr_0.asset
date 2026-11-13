@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NetworkUpgrade_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: ef5e742d7be785d4a95e7fbda87e1d96, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 70813270016
+    m_Localized: Brasserie du Diable carmin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077454618624
+    m_Localized: Wild vous présentera un commercial de la brasserie du Diable carmin qui vous fournira régulièrement en bière. Vous recevrez une carte de visite pour le contacter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916352
+    m_Localized: Mise en relation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916353
+    m_Localized: Faveur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916354
+    m_Localized: Informateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916355
+    m_Localized: Recommandation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916356
+    m_Localized: Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916357
+    m_Localized: Permis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916358
+    m_Localized: Fournisseur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916359
+    m_Localized: Labo de chimie des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916360
+    m_Localized: Wild vous présentera une personne originaire des strates inférieures versée dans la chimie. Elle fabrique des substances bon marché dans l'illégalité, qui sont utilisées à des fins récréatives et médicales. Vous recevrez une carte de visite pour la contacter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916361
+    m_Localized: Pharmacie des strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916362
+    m_Localized: Wild vous présentera le responsable d'inventaire d'une pharmacie des strates supérieures qui vous fournira régulièrement en médicaments rares licites. Vous recevrez une carte de visite pour le contacter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916363
+    m_Localized: Coopérative minière GP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916364
+    m_Localized: Wild vous présentera le directeur de la coopérative minière GP, qui vous laissera commander du minerai en grande quantité. Vous recevrez une carte de visite pour le contacter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916365
+    m_Localized: Délai de grâce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916366
+    m_Localized: Wild convaincra votre propriétaire de vous laisser régler votre loyer impayé la semaine prochaine, en même temps que le prochain loyer. Il s'agit d'une faveur exceptionnelle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916367
+    m_Localized: Vous êtes déjà dans les bonnes grâces du propriétaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916368
+    m_Localized: Clémence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916369
+    m_Localized: L'influence politique de Wild vous permettra d'échapper à la prison si un inspecteur trouve de la contrebande chez vous. Vous écoperez uniquement d'un avertissement. Il s'agit d'une faveur exceptionnelle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916370
+    m_Localized: Vous avez déjà bénéficié de cette faveur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916371
+    m_Localized: Alerte inspection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916372
+    m_Localized: Wild vous présentera son indic au sein du service de sécurité. Tant que vous payez son tarif journalier, il vous avertira des inspections standards. En revanche, il ne pourra pas vous prévenir en cas d'inspection surprise.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916373
+    m_Localized: '"Nettoyeurs" de Wild'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916374
+    m_Localized: Vous pouvez embaucher les "nettoyeurs" de Wild. Contre un tarif journalier, ils réduisent les témoins au silence et font disparaître les preuves qui ne sont pas encore entre les mains du service de sécurité. Vous réduisez alors votre niveau de criminalité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916375
+    m_Localized: Destruction de preuves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916376
+    m_Localized: Wild demandera à ses contacts du service de sécurité de détruire toutes les preuves récupérées et de fermer les enquêtes menées sur vous. Vous devrez attendre {0:plural:{} jour|{} jours} avant de bénéficier à nouveau de cette faveur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916377
+    m_Localized: Recommandation d'acheteurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916378
+    m_Localized: Wild recommandera votre boutique à son réseau d'acheteurs contre un tarif journalier. En plus, votre vitrine attirera des clients supplémentaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916379
+    m_Localized: Recommandation de vendeurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916380
+    m_Localized: Wild recommandera votre boutique à son réseau de vendeurs contre un tarif journalier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916381
+    m_Localized: Réseau criminel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916382
+    m_Localized: Wild recommandera votre boutique à des passionnés de contrebande fortunés contre un tarif journalier. En plus, vous aurez une meilleure réputation auprès du marché noir. Vous devrez attendre {0:plural:{} jour|{} jours} avant de bénéficier à nouveau de cette recommandation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916383
+    m_Localized: Détournement d'électricité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916384
+    m_Localized: Votre électricité proviendra d'un panneau solaire appartenant à quelqu'un qui n'en a (sans doute) pas besoin. Le service électricité nocturne deviendra gratuit. Les convertisseurs de courant restent payants, car le panneau ne produit pas assez pour les alimenter, mais ils coûtent 15 % de moins. Les coupures de courant n'affectent plus votre boutique ni vos convertisseurs de courant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916385
+    m_Localized: Alimentation de compétition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916386
+    m_Localized: La capacité de recharge du bloc d'alimentation et de la station de recharge sera {0} % plus rapide.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110656
+    m_Localized: Agrandissement de vitrine I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110657
+    m_Localized: Votre vitrine est plus grande et peut contenir davantage d'articles. Chaque jour, {0:plural:{} client supplémentaire viendra|{} clients supplémentaires viendront} acheter les articles exposés en vitrine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110658
+    m_Localized: Agrandissement de vitrine II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110659
+    m_Localized: Votre vitrine est encore plus grande. Chaque jour, {0:plural:{} client supplémentaire viendra|{} clients supplémentaires viendront} acheter les articles exposés en vitrine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110660
+    m_Localized: Jus d'égout à volonté
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110661
+    m_Localized: Wild vous fournira un accès illimité au jus d'égout grâce à un raccordement aux égouts. Le niveau de pureté de votre eau changera tous les jours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110662
+    m_Localized: Eau-de-rouille à volonté
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110663
+    m_Localized: Wild vous fournira un accès illimité à l'eau-de-rouille grâce à un raccordement à un tuyau d'évacuation industriel. Le niveau de pureté de votre eau changera tous les jours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110664
+    m_Localized: Recyclage de machines cassées
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110665
+    m_Localized: Dès demain, un recycleur vous rendra visite. Il vous montrera comment récupérer des pièces sur les machines cassées. (Permet de démanteler les appareils endommagés.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110666
+    m_Localized: Agriculteur retraité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110667
+    m_Localized: Vous recevrez immédiatement un kit d'hydroponie pour débutants. Dès demain, un agriculteur à la retraite vous rendra visite. Ensuite, il passera vous vendre des graines et du matériel hydroponique une fois par semaine. (Permet de se lancer dans l'hydroponie.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110668
+    m_Localized: Armurier retraité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110669
+    m_Localized: Vous recevrez immédiatement un kit d'armurier pour débutants. Dès demain, un armurier à la retraite vous rendra visite. Ensuite, il passera vous vendre des modificateurs d'arme et des munitions une fois par semaine. (Permet de se lancer dans la vente d'armes.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110670
+    m_Localized: Permis de vente d'armes I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110671
+    m_Localized: Wild vous remettra un permis de vente d'armes réservé aux commerçants des strates inférieures. Vous pourrez acheter et vendre des armes et munitions de contrebande (faible niveau) en toute légalité. Le permis vous sera remis dès que votre réputation auprès du service de sécurité atteindra {0}, et retiré si elle passe sous 0. Le service de sécurité vous laisse garder un fusil à pompe pour vous défendre, une fois que vous l'avez obtenu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110672
+    m_Localized: Permis de vente d'armes II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110673
+    m_Localized: Wild vous remettra un permis de vente d'armes réservé aux commerçants des strates supérieures. Vous pourrez acheter et vendre des armes et munitions de contrebande (niveau moyen) en toute légalité. Vous obtiendrez ce permis après avoir acquis une réputation de {0} auprès du service de sécurité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110674
+    m_Localized: Permis de vente d'armes III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110675
+    m_Localized: Wild vous remettra un permis de vente d'armes réservé aux gardes-magasin du service de sécurité. Vous pourrez acheter et vendre des armes et munitions de contrebande (niveau supérieur) en toute légalité. Vous obtiendrez ce permis après avoir acquis une réputation de {0} auprès du service de sécurité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110676
+    m_Localized: Chimiste retraité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110677
+    m_Localized: Vous recevrez immédiatement un kit de chimie pour débutants. Dès demain, un chimiste à la retraite vous rendra visite. Ensuite, il passera vous vendre du matériel chimique une fois par semaine. (Permet de fabriquer des substances.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110678
+    m_Localized: Vendeur d'eau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110679
+    m_Localized: Vous recevrez immédiatement un kit de vente d'eau pour débutants. Un vendeur d'eau vous rendra régulièrement visite. (Permet de vendre de l'eau.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110680
+    m_Localized: Demandes du marché
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110681
+    m_Localized: Wild vous intégrera au réseau du marché. Vous pourrez consulter les diverses demandes des acheteurs et y répondre. Le prix des articles demandés est généralement supérieur au prix courant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110682
+    m_Localized: Investissement I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110683
+    m_Localized: Wild convaincra le Pr Jackson d'accepter un petit investissement de votre part. Vous augmenterez son budget et son stock de façon permanente. En plus, il aura toujours des modules dans son inventaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110684
+    m_Localized: Investissement II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110685
+    m_Localized: Wild convaincra le Pr Jackson d'accepter un autre investissement de votre part. Vous augmenterez son budget et son stock de façon permanente. En plus, il aura toujours des modules supplémentaires dans son inventaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110686
+    m_Localized: Rénovations I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110687
+    m_Localized: Wild embauchera des entrepreneurs qui rénoveront légèrement votre boutique pour lui octroyer {0:plural:{} point|{} points} d'attractivité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110688
+    m_Localized: Rénovations II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110689
+    m_Localized: Wild embauchera des entrepreneurs qui rénoveront considérablement votre boutique pour lui octroyer {0:plural:{} point d'attractivité supplémentaire|{} points d'attractivité supplémentaires}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110690
+    m_Localized: Rénovations III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110691
+    m_Localized: Wild embauchera des entrepreneurs qui transformeront complètement votre boutique pour lui octroyer {0:plural:{} point d'attractivité supplémentaire|{} points d'attractivité supplémentaires}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217368723456
+    m_Localized: Aquaculture II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217402277888
+    m_Localized: À chaque visite, l'aquaculteur retraité vous proposera aussi des poissons plus gros et plus rentables. Vous recevrez immédiatement deux jeunes anguilles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919055683584
+    m_Localized: Génétique végétale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238016
+    m_Localized: Vous recevez immédiatement un manipulateur d'ADN, un scanner génétique et des disquettes de données génétiques vierges. Le Pr Jackson propose maintenant de l'équipement de généticien.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238017
+    m_Localized: Range-documents amélioré
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238018
+    m_Localized: Augmente la capacité du range-documents.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238019
+    m_Localized: Poubelle améliorée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238020
+    m_Localized: Augmente la capacité de la poubelle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238021
+    m_Localized: Distributeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238022
+    m_Localized: Un distributeur est installé dans votre boutique. Les articles qu'il contient sont vendus passivement pendant la nuit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238023
+    m_Localized: Machine à eau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238024
+    m_Localized: Une machine à eau est installée dans votre boutique. L'eau qu'elle contient est vendue passivement pendant la nuit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238025
+    m_Localized: Boutique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759671308288
+    m_Localized: Raterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759692279808
+    m_Localized: Wild recommandera votre boutique à un éleveur de rats qui vous rendra visite une fois par semaine. Vous recevrez immédiatement un kit de raterie. (Permet de se lancer dans l'élevage de rats.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088798810112
+    m_Localized: Vigneron retraité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088832364544
+    m_Localized: Vous recevrez immédiatement un kit de vinification pour débutants. Dès demain, un vigneron à la retraite vous rendra visite. Ensuite, il passera vous vendre du matériel vinicole une fois par semaine. (Permet de produire du vin.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254073679872
+    m_Localized: 'Actions : brasserie du Diable carmin'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428608
+    m_Localized: Vous achetez une part minoritaire de la brasserie du Diable carmin, qui vous proposera désormais un rabais de {0} % sur les lots. Tous les jeudis matin, vous recevez votre dividende sous la forme de {1:plural:{} pack|{} packs} de bière.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428609
+    m_Localized: 'Actions : coopérative minière GP'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428610
+    m_Localized: Vous achetez une part minoritaire de la coopérative minière GP, qui vous proposera désormais un rabais de {0} % sur les lots. Tous les vendredis matin, vous recevez votre dividende sous la forme de {1:plural:{} minerai|{} minerais}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428611
+    m_Localized: 'Actions : labo des strates inférieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428612
+    m_Localized: Vous achetez une part minoritaire du labo de chimie des strates inférieures, qui vous proposera désormais un rabais de {0} % sur les lots. Tous les samedis matin, vous recevez votre dividende sous la forme de {1:plural:{} flacon|{} flacons} de poussière onirique basique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428613
+    m_Localized: 'Actions : pharmacie des strates supérieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428614
+    m_Localized: Vous achetez une part minoritaire de la pharmacie des strates supérieures, qui vous proposera désormais un rabais de {0} % sur les lots. Tous les dimanches matin, vous recevez votre dividende sous la forme de {1:plural:{} injecteur|{} injecteurs} d'Oxymore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428615
+    m_Localized: Stock spécial du lundi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428616
+    m_Localized: Le Pr Jackson organise désormais une ouverture spéciale le lundi, exclusivement pour vous. Ce jour-là, son stock est plus rare (et plus cher !)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081375535104
+    m_Localized: Aquaculture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081438449664
+    m_Localized: Wild recommandera votre boutique à un aquaculteur retraité qui vous rendra visite une fois par semaine pour vendre du matériel aquacole et des œufs fécondés. Vous recevrez immédiatement un kit d'aquaculture. (Permet de se lancer dans l'aquaculture.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592013217792
+    m_Localized: Contrebandier Hypertech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577920
+    m_Localized: Joe Wild vous met en contact avec un contrebandier qui vend des objets Hypertech, une technologie bien au-delà de ce que l'industrie de la station peut produire. Débloque le service nocturne Contrebandier Hypertech.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577921
+    m_Localized: Soutien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577922
+    m_Localized: Soutien de Wild I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577923
+    m_Localized: Joe Wild recommande personnellement votre boutique. Les clients qui vous rendent visite ont {0} % de budget en plus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577924
+    m_Localized: Soutien de Wild II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577925
+    m_Localized: Joe Wild vante votre boutique auprès de ses meilleurs contacts. Les clients ont encore {0} % de budget en plus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577926
+    m_Localized: Soutien de Wild III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577927
+    m_Localized: Joe Wild engage sa propre réputation pour votre boutique. Les clients ont encore {0} % de budget en plus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577928
+    m_Localized: '"Nettoyeurs" de Wild II'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577929
+    m_Localized: 'Wild vous confie ses "nettoyeurs" les plus expérimentés. Ils font disparaître les preuves plus vite : votre niveau de criminalité baisse davantage chaque nuit. Le tarif journalier augmente.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577930
+    m_Localized: '"Nettoyeurs" de Wild III'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577931
+    m_Localized: Wild met sa meilleure équipe sur votre boutique. Les témoins oublient, les preuves disparaissent, et votre niveau de criminalité baisse encore plus vite chaque nuit. Le tarif journalier augmente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291312619520
+    m_Localized: Détournement d'électricité II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785344
+    m_Localized: 'L''équipe de Wild branche un plus grand champ de panneaux solaires sur votre ligne. Il assure désormais une partie de la charge de vos convertisseurs de courant : leur fonctionnement coûte {0} % de moins.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785345
+    m_Localized: Détournement d'électricité III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785346
+    m_Localized: L'équipe de Wild vous branche sur tout un toit de panneaux. Le fonctionnement de vos convertisseurs de courant coûte désormais {0} % de moins au total.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Hint_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 6e81ea0c9d8aba746a2d484dabb0a7ae, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 79625502720
+    m_Localized: Телефон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104598388736
+    m_Localized: Позвонить кому-нибудь, чей номер вы знаете
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125435691008
+    m_Localized: Витрина
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146742755328
+    m_Localized: Поместите сюда товары, чтобы привлечь покупателей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188882927616
+    m_Localized: Показывает количество оставшихся клиентов в очереди на сегодня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166976077824
+    m_Localized: Оставшееся количество клиентов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202543775744
+    m_Localized: Торговый стол
+    m_Metadata:
+      m_Items: []
+  - m_Id: 256063094784
+    m_Localized: Поместите сюда товар, который вы ходите продать или купить, и откройте интерфейс торговли
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292633231360
+    m_Localized: Нажмите клавишу O, чтобы показать или скрыть подсказки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352905379840
+    m_Localized: Вы не сможете закончить рабочий день, если в очереди ещё стоят важные люди
+    m_Metadata:
+      m_Items: []
+  - m_Id: 309112651776
+    m_Localized: Начать/закончить день
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411323645952
+    m_Localized: Вы можете позвать следующего клиента или отпустить текущего
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388569546752
+    m_Localized: Позвать следующего клиента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465782489088
+    m_Localized: Предметы, помещённые на торговый стол, можно купить или продать через интерфейс торговли
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432559407104
+    m_Localized: Интерфейс торговли
+    m_Metadata:
+      m_Items: []
+  - m_Id: 511542345728
+    m_Localized: Вы можете послушать предыдущие диалоги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486678511616
+    m_Localized: Диктофон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523219288064
+    m_Localized: Спальный мешок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559659401216
+    m_Localized: Поспите, чтобы закончить день
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576273039360
+    m_Localized: Игра АВТОМАТИЧЕСКИ СОХРАНИТСЯ, когда вы поспите.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 594551816192
+    m_Localized: Закрыть подсказки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1083674771456
+    m_Localized: Быстрые сочетания клавиш
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1803182456832
+    m_Localized: Быстро переместить в инвентарь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841333846016
+    m_Localized: Быстро переместить на витрину
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1862678659072
+    m_Localized: Быстро переместить на прилавок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1883302051840
+    m_Localized: Повернуть предмет влево
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1916290252800
+    m_Localized: Повернуть предмет вправо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1944815714304
+    m_Localized: Закрыть интерфейс / открыть главное меню
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1978437255168
+    m_Localized: Пропустить диалог
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72260938283925504
+    m_Localized: Перевернуть предмет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96180185099714560
+    m_Localized: Щёлкнуть мышкой
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96180234504421376
+    m_Localized: Перетащить предмет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125495997362913280
+    m_Localized: Интерфейс репутации
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125495997396467712
+    m_Localized: Здесь можно увидеть, какая у вас репутация в разных фракциях.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

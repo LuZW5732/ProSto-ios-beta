@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: MainMenu_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 8595c3b31db4e4b4197c997175a5415c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 128057131008
+    m_Localized: はじめから
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27025948327936
+    m_Localized: クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26937549176832
+    m_Localized: ロード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27007459835904
+    m_Localized: 設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393761192820736
+    m_Localized: 終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414435592519680
+    m_Localized: Discordに来てね！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415424718454784
+    m_Localized: 感謝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415526723928064
+    m_Localized: コミュニティの貢献者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415597255344128
+    m_Localized: 閉じる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415661109428224
+    m_Localized: ご支援してくださったコミュニティの皆様に感謝を！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418489995509760
+    m_Localized: リードデベロッパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418544991223808
+    m_Localized: アーティスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422978999697408
+    m_Localized: ゲームプレイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423044611194880
+    m_Localized: 次の客を自動で呼び出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423139700260864
+    m_Localized: オーディオ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423175637057536
+    m_Localized: 表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423212513378304
+    m_Localized: お使いのモニターの解像度は、全画面モードに完全には対応していません。全画面モードでは、画面に黒いバーが表示されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423323075231744
+    m_Localized: 解像度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423377332748288
+    m_Localized: 全画面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423449676103680
+    m_Localized: セリフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423491417817088
+    m_Localized: セリフの速さ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423542080815104
+    m_Localized: セリフの音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423659152228352
+    m_Localized: 適用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424598437249024
+    m_Localized: 全体の音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425290828759040
+    m_Localized: 下層世界へようこそ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425310856560640
+    m_Localized: 皆様からのご意見は、とても参考になります。ぜひDiscordサーバーに参加して、『Probably Stolen』の開発にご協力ください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427776507527168
+    m_Localized: Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427886381514752
+    m_Localized: ハードモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427924532903936
+    m_Localized: イントロをスキップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1428966523846656
+    m_Localized: 開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791467572740096
+    m_Localized: Loading...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49680125533143040
+    m_Localized: エンドレスモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63469971271630848
+    m_Localized: セリフの自動進行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68914510270611456
+    m_Localized: BGMの音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217292363907072
+    m_Localized: アートディレクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260403609419776
+    m_Localized: サウンドデザイナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260471221600256
+    m_Localized: コンポーザー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262198301769728
+    m_Localized: 制作にインスピレーションを与えてくださった開発者の皆様に感謝申し上げます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262222729396224
+    m_Localized: 追加の効果音はZapsplatから
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264139253694464
+    m_Localized: ロード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264686660698112
+    m_Localized: はい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264698710933504
+    m_Localized: いいえ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992209629954048
+    m_Localized: 技術的な支援をしてくださったBowen Pengさんに感謝申し上げます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98258866009849856
+    m_Localized: キャラクターアーティスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992394410016768
+    m_Localized: 開発チーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041827549593600
+    m_Localized: 開始時のパーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041931161485312
+    m_Localized: 利用可能なパーク：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101042014783324160
+    m_Localized: 選択中のパーク：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053347759177728
+    m_Localized: すべての導入部分と来店時のチュートリアルをスキップする。全コンテンツが即座にアンロックされる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053534732861440
+    m_Localized: "・小売価格で販売されない\n・家賃の猶予がない状態で開始する\n・特定のサービス料が高くなる\n・家賃が2倍になる"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053623253647360
+    m_Localized: 特定のシナリオイベントや客が出現しない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112030429184
+    m_Localized: 使用済みパークポイント：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112034623488
+    m_Localized: 合計パーク：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103629527129571328
+    m_Localized: デモ版では利用不可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457938636800
+    m_Localized: ウィッシュリスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457959608320
+    m_Localized: フィードバック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892356329472
+    m_Localized: 匿名でプレイデータを共有して、ゲームの改善に協力する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892381495296
+    m_Localized: プレイデータを共有し、改善に協力する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123860245336080384
+    m_Localized: タイプライター効果を有効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125321176029118464
+    m_Localized: 初回プレイ時は、開始時のパークを選択できない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125426057079472128
+    m_Localized: 本当にイントロをスキップしますか？ 初めての方はチュートリアルをプレイするのがお勧めです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128916364517490688
+    m_Localized: 本当にこのシナリオで始めますか？ 初めての方には「見習い」がお勧めです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137315070048518144
+    m_Localized: 決定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328426020864
+    m_Localized: 任意
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328459575296
+    m_Localized: または
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148594413932429312
+    m_Localized: このセーブデータは、現在選択されている言語（{1}）とは違う言語（{0}）で作成されました。一部のテキストが正しく表示されない可能性があります。それでもロードしますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156521139916292096
+    m_Localized: MOD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202098683904
+    m_Localized: 最小化時のFPS上限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044032
+    m_Localized: すぐに客を帰らせる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044033
+    m_Localized: すぐに警察を呼ぶ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044034
+    m_Localized: すぐに次の客を呼び出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744927363072
+    m_Localized: プレイテストが終了しました！ プレイしていただきありがとうございました。Steamにて、正式なデモ版が公開されています。セーブデータは、ゲームのバージョンが更新されたデモ版へ自動的に引き継がれます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744956723200
+    m_Localized: デモ版をプレイ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014241841152
+    m_Localized: 右クリックで並べ替えメニューを開かない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395584
+    m_Localized: 並べ替え中の自動回転を有効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395585
+    m_Localized: 一度のクリックでアイテムにインタラクトする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395586
+    m_Localized: 一度のクリックでアイテムを起動する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395587
+    m_Localized: キー割り当て
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395588
+    m_Localized: 手に持ったアイテムを時計回りに回転させる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395589
+    m_Localized: 手に持ったアイテムを反時計回りに回転させる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395590
+    m_Localized: 手に持ったアイテムを裏返す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395591
+    m_Localized: 手に持ったアイテムの向きをリセットする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395592
+    m_Localized: カーソルを合わせたアイテムをゴミ箱に移動させる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395593
+    m_Localized: 並べ替えメニューを開く（空きマスにカーソルを合わせながら）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395594
+    m_Localized: インベントリに即時移動させる（長押し+クリック）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395595
+    m_Localized: ショーケースに即時移動させる（長押し+クリック）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395596
+    m_Localized: 保管スペースに即時移動させる（長押し+クリック）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395597
+    m_Localized: 固定モード（アイテムをクリックして固定または固定解除）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395598
+    m_Localized: 設定を開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395599
+    m_Localized: 操作ヒントの表示を切り替える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395600
+    m_Localized: セリフを進める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395601
+    m_Localized: 道具箱スロット{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395602
+    m_Localized: なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395603
+    m_Localized: キーを押してね
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395604
+    m_Localized: キーを押すか、Escでキャンセルしてください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395605
+    m_Localized: '{0}は割り当てられません。別のキーを押してください。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395606
+    m_Localized: '{0}はすでに「{1}」に使用されています。別のキーを押してください。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959590076416
+    m_Localized: 専門分野
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436544
+    m_Localized: 開始時
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436545
+    m_Localized: 続行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436546
+    m_Localized: この専門分野では、イントロをプレイできない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436547
+    m_Localized: マイナスのパークを選んでポイントを獲得し、それをプラスのパークに使おう。一部のパークは、同時に成り立たない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436548
+    m_Localized: 利用可能なパークポイント：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436549
+    m_Localized: パーク：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436550
+    m_Localized: 難易度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436551
+    m_Localized: ぼったくり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436552
+    m_Localized: のんびりモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436553
+    m_Localized: 利益高め
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436554
+    m_Localized: ノーマルモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436555
+    m_Localized: 利益低め
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436556
+    m_Localized: ハードモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436557
+    m_Localized: 赤字
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436558
+    m_Localized: チャレンジモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436559
+    m_Localized: 小売価格で販売されない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436560
+    m_Localized: '{0}%の小売価格で販売される'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436561
+    m_Localized: 家賃が毎回{0}%高くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436562
+    m_Localized: 夜ごとのサービス料金は通常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630848
+    m_Localized: 夜ごとのサービス料金が高くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630849
+    m_Localized: 夜ごとのサービス料金が安くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630850
+    m_Localized: 販売許可証に{0}クレジットかかる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630851
+    m_Localized: 改良価格は通常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630852
+    m_Localized: 改良の価格が{0}%高くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630853
+    m_Localized: 改良の価格が{0}%安くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630854
+    m_Localized: 仕入れ上乗せは通常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630855
+    m_Localized: 仕入れ先に請求される上乗せ価格が高くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630856
+    m_Localized: 仕入れ先に請求される上乗せ価格が安くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630857
+    m_Localized: 不動産価格は通常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630858
+    m_Localized: 不動産価格が高くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630859
+    m_Localized: 不動産価格が安くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630860
+    m_Localized: 評判の上がる量が{0}倍になる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630861
+    m_Localized: 評判の下がる量が{0}倍になる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630862
+    m_Localized: ワイルドの好感度の上がる量は通常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630863
+    m_Localized: ワイルドの好感度の上がる量が増える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630864
+    m_Localized: ワイルドの好感度の上がる量が減る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786102989209600
+    m_Localized: 背景の音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764032
+    m_Localized: 交渉UIを自動で開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764033
+    m_Localized: 一度のクリックでアイテムの選択を確定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171368485997035520
+    m_Localized: 選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182605126153584640
+    m_Localized: UIデザイナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709276405760
+    m_Localized: アイテムのツールチップにMOD名を表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709318348800
+    m_Localized: 会話レコーダーにMOD名を表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693632
+    m_Localized: 最新をロード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693633
+    m_Localized: やめる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693634
+    m_Localized: セーブデータを削除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693635
+    m_Localized: セーブデータが見つからないため、項目を削除した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693636
+    m_Localized: バージョン：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693637
+    m_Localized: '{0}（コピー）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693638
+    m_Localized: セーブデータをコピーできなかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693639
+    m_Localized: セーブフォルダーに新しいセーブデータは見つからなかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693640
+    m_Localized: '{0}件のセーブデータをリストに追加した。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693641
+    m_Localized: プレイごとの保存日数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693642
+    m_Localized: パークによりロック中：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189602199839227904
+    m_Localized: 新聞をゴミ箱へ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189604507520122880
+    m_Localized: デモ版のセーブデータを読み込もうとしています。このセーブデータは互換性がありますが、<color=#CC4849><b>新キャラクターのストーリーやその他の新コンテンツは遊べず</b></color>、ゲームが<color=#CC4849><b>不安定になる可能性があります</b></color>。<color=#CC4849><b>新しくゲームを始めることを強くおすすめします</b></color>。それでも読み込みますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189909383209533440
+    m_Localized: FPS上限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464770031616
+    m_Localized: 垂直同期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464807780352
+    m_Localized: 次の客を呼び出す（ベル）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190649068024328192
+    m_Localized: Esc（代替キー）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611836174336
+    m_Localized: ローカライズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505984
+    m_Localized: ディレクター＆プロジェクトマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505985
+    m_Localized: コミュニティマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505986
+    m_Localized: チームマスコット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505987
+    m_Localized: パブリッシング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505988
+    m_Localized: CEO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505989
+    m_Localized: 最高財務責任者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505990
+    m_Localized: エグゼクティブアシスタント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505991
+    m_Localized: 事業開発・パートナーライセンス担当ディレクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505992
+    m_Localized: セールスディレクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505993
+    m_Localized: パブリッシング責任者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505994
+    m_Localized: エグゼクティブプロデューサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505995
+    m_Localized: プロデューサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505996
+    m_Localized: アソシエイトプロデューサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505997
+    m_Localized: シニアマーケティングマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505998
+    m_Localized: マーケティングマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505999
+    m_Localized: インフルエンサーマネジメント責任者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506000
+    m_Localized: シニアインフルエンサーマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506001
+    m_Localized: シニアコミュニティマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506002
+    m_Localized: ソーシャルメディアマーケティングマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506003
+    m_Localized: ユーザー獲得マネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506004
+    m_Localized: 移植プロデューサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506005
+    m_Localized: ライブオペレーションプロデューサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506006
+    m_Localized: 開発サービス責任者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506007
+    m_Localized: リリースマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506008
+    m_Localized: ローカライズマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506009
+    m_Localized: Discordマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506010
+    m_Localized: カスタマーサポートマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506011
+    m_Localized: QAマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506012
+    m_Localized: メディア制作責任者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506013
+    m_Localized: メディアプロジェクトマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506014
+    m_Localized: トレーラープロデューサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506015
+    m_Localized: 映像編集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506016
+    m_Localized: グラフィックデザイナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506017
+    m_Localized: 人事責任者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506018
+    m_Localized: システム管理者／DevOpsエンジニア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506019
+    m_Localized: ポップカルチャー由来のキャラクターを無効化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506020
+    m_Localized: 購入品をインベントリへ移動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506021
+    m_Localized: 吹き出しのサイズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762898788352
+    m_Localized: '{0}の最新セーブデータは破損していた（書き込み中にコンピューターの電源が落ちた）ため、脇に退避した。この周回は{1}日目から続く。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342784
+    m_Localized: '{0}のセーブデータは破損しており（書き込み中にコンピューターの電源が落ちた）、それより前の日のデータも残っていない。ファイルはセーブフォルダー内で脇に退避してあり、削除はしていない。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342785
+    m_Localized: このセーブデータは破損しており（書き込み中にコンピューターの電源が落ちた）、ロードできない。セーブフォルダー内で脇に退避してある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342786
+    m_Localized: Alt-Tab後に表示モードを復元
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342787
+    m_Localized: アイテムメニュー、キャンセル（右クリック）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342788
+    m_Localized: アイテムを裏返す（代替キー）
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

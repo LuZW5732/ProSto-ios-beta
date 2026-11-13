@@ -1,0 +1,791 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: ClientName_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: d0d60c60bdff4f94c9a6abcde2567fb6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1638467944448
+    m_Localized: Mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662761353216
+    m_Localized: Propriétaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2041150488576
+    m_Localized: Georgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1565721935872
+    m_Localized: Joe Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1601390297088
+    m_Localized: Sawyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1402513178624
+    m_Localized: Odin Haraldsson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1385803071488
+    m_Localized: Dale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1293192839168
+    m_Localized: Caulson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1256899526656
+    m_Localized: Ashish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1490727780352
+    m_Localized: Agent Lun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070660967415808
+    m_Localized: Assistant de Joe Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070596811341824
+    m_Localized: Commercial du Diable carmin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393252068704256
+    m_Localized: James Bailey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393311434883072
+    m_Localized: Arthur Lafleur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394096562454528
+    m_Localized: Lou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394134080503808
+    m_Localized: Li Bei Wen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394240880066560
+    m_Localized: Juan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394291748585472
+    m_Localized: Pierre Martin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394655776423936
+    m_Localized: Leroy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396315055669248
+    m_Localized: Papi Cheng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396442461847552
+    m_Localized: Nellis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396618454843392
+    m_Localized: Cadet Serpico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396678919929856
+    m_Localized: Eleanor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505600
+    m_Localized: Touriste gastronome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505601
+    m_Localized: '[g:Voleur|Voleuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505602
+    m_Localized: Citoyen[g:|ne] des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505603
+    m_Localized: Citoyen[g:|ne] des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505604
+    m_Localized: Agent de sécurité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527839547392
+    m_Localized: '[g:Fureteur|Fureteuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130304
+    m_Localized: Ouvrier des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130305
+    m_Localized: Boucher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990354276352
+    m_Localized: Citoyen[g:|ne]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470656
+    m_Localized: Addict désespéré[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470657
+    m_Localized: '[g:Fournisseur|Fournisseuse] d''expéditions'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470658
+    m_Localized: Stationaute affamé[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470659
+    m_Localized: Stationaute blessé[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470660
+    m_Localized: Médecin des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664960
+    m_Localized: '[g:Réparateur|Réparatrice] des strates inférieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664961
+    m_Localized: Inventrice des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664962
+    m_Localized: Parent des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664963
+    m_Localized: Technicien[g:|ne] de maintenance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664964
+    m_Localized: '[g:Infirmier|Infirmière] des strates intermédiaires'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664965
+    m_Localized: Agent de sécurité privée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664966
+    m_Localized: '[g:Fureteur|Fureteuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664967
+    m_Localized: '[g:Amateur|Amatrice] de ferraille'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664968
+    m_Localized: Fan d'autodéfense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664969
+    m_Localized: Parent d'enfant malade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664970
+    m_Localized: Stationaute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664971
+    m_Localized: '[g:Cuisinier|Cuisinière]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664972
+    m_Localized: Mécanicien[g:|ne] de la station
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664973
+    m_Localized: Stationaute assoiffé[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664974
+    m_Localized: '[g:Fournisseur|Fournisseuse] de l''hôpital supérieur'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664975
+    m_Localized: Chef à domicile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664976
+    m_Localized: Domestique des strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664977
+    m_Localized: '[g:Amassseur|Amasseuse] d''eau'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664978
+    m_Localized: Stationaute exténué[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664979
+    m_Localized: Jeune stationaute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664980
+    m_Localized: '[g:Livreur|Livreuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664981
+    m_Localized: '[g:Livreur|Livreuse] de la coopérative minière GP'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664982
+    m_Localized: '[g:Vendeur|Vendeuse] d''armes des strates inférieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664983
+    m_Localized: '[g:Vendeur|Vendeuse] des strates inférieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664984
+    m_Localized: Commerçant[g:|e] des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664985
+    m_Localized: Mercenaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664986
+    m_Localized: '[g:Livreur|Livreuse] du Diable carmin'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664987
+    m_Localized: Soldat révolutionnaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664988
+    m_Localized: '[g:Vendeur|Vendeuse] de ferraille'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664989
+    m_Localized: Addict [g:véreux|véreuse]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664990
+    m_Localized: '[g:Dealeur véreux|Dealeuse véreuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664991
+    m_Localized: Stationaute [g:nerveux|nerveuse]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664992
+    m_Localized: Citoyen[g:|ne] des strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664993
+    m_Localized: Résident[g:|e] [g:inquiet|inquiète]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149120589824
+    m_Localized: Mécanicien[g:|ne] en rogne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978432
+    m_Localized: Envoyé[g:|e] du cartel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978433
+    m_Localized: Sbire du cartel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978434
+    m_Localized: Complotiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978435
+    m_Localized: Gestionnaire des déchets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978436
+    m_Localized: '[g:Dealeur|Dealeuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978437
+    m_Localized: '[g:Amoureux|Amoureux] paniqué[g:|e]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978438
+    m_Localized: '[g:Agriculteur|Agricultrice] expert[g:|e] en hydroponie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978439
+    m_Localized: '[g:Infirmier|Infirmière] des strates inférieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978440
+    m_Localized: Personne âgée des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978441
+    m_Localized: Mineur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978442
+    m_Localized: Fureteuse âgée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978443
+    m_Localized: Garde-magasin révolutionnaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978444
+    m_Localized: Pillard[g:|e] révolutionnaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978445
+    m_Localized: Pilote de vaisseau de furetage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978446
+    m_Localized: '[g:Agriculteur véreux|Agricultrice véreuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978447
+    m_Localized: Citoyen[g:|ne] malade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978448
+    m_Localized: '[g:Fureteur|Fureteuse] malade'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978449
+    m_Localized: Homme blessé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978450
+    m_Localized: Citoyen[g:|ne] en colère
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978451
+    m_Localized: Mendiant[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978452
+    m_Localized: Maître-[g:chanteur|chanteuse]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978453
+    m_Localized: Bénévole de la clinique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978454
+    m_Localized: Représentant[g:|e] d'entreprise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978455
+    m_Localized: '[g:Agriculteur|Agricultrice]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978456
+    m_Localized: '[g:Amateur|Amatrice] de bonne chère'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978457
+    m_Localized: Contremaître[g:|sse]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978458
+    m_Localized: '[g:Mineur|Mineuse] de glace'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978459
+    m_Localized: Commerçant[g:|e] angoissé[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978460
+    m_Localized: Pharmacien[g:|ne]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978461
+    m_Localized: Chimiste retraité[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978462
+    m_Localized: '[g:Agriculteur retraité|Agricultrice retraitée]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978463
+    m_Localized: '[g:Armurier retraité|Armurière retraitée]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978464
+    m_Localized: '[g:Recycleur retraité|Recycleuse retraitée]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978465
+    m_Localized: '[g:Vendeur d''eau retraité|Vendeuse d''eau retraitée]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978466
+    m_Localized: Client[g:|e] [g:véreux|véreuse]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978467
+    m_Localized: Résident[g:|e] des strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978468
+    m_Localized: Chef de gang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978469
+    m_Localized: Assassin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978470
+    m_Localized: Assassin du cartel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978471
+    m_Localized: '[g:Fureteur|Fureteuse] addict'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978472
+    m_Localized: '[g:Fureteur|Fureteuse] pauvre'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978473
+    m_Localized: Addict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978474
+    m_Localized: Chimiste des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978475
+    m_Localized: Mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978476
+    m_Localized: Joe Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978477
+    m_Localized: Agent Lun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978478
+    m_Localized: Membre du comité d'estimation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978479
+    m_Localized: Agent en civil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978480
+    m_Localized: '[g:Banquier|Banquière]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978481
+    m_Localized: Pr Jackson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978482
+    m_Localized: '[g:Ferrailleur|Ferrailleuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978483
+    m_Localized: Propriétaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978484
+    m_Localized: Marchand[g:|e]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978485
+    m_Localized: Bénévole des strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978486
+    m_Localized: Usurier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978487
+    m_Localized: Fournisseur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978489
+    m_Localized: Marchand[g:|e] [g:véreux|véreuse]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978491
+    m_Localized: Agent de réquisition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978493
+    m_Localized: Touriste de la station
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978494
+    m_Localized: Pharmacien[g:|ne] des strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978495
+    m_Localized: '[g:Recycleur|Recycleuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978497
+    m_Localized: '[g:Voleur|Voleuse] de nourriture'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978498
+    m_Localized: Coursier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978499
+    m_Localized: Mercenaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978500
+    m_Localized: '[g:Fureteur|Fureteuse] anémique'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978502
+    m_Localized: '[g:Inspecteur|Inspectrice]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978503
+    m_Localized: Représentante du comité de commerce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978504
+    m_Localized: '[g:Visiteur|Visiteuse] des strates supérieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978505
+    m_Localized: '[g:Inspecteur véreux|Inspectrice véreuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978506
+    m_Localized: '[g:Inspecteur fainéant|Inspectrice fainéante]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978507
+    m_Localized: '[g:Fournisseur|Fournisseuse] de la banque alimentaire'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978508
+    m_Localized: Représentante de la loterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978509
+    m_Localized: Client[g:|e] louche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978510
+    m_Localized: '[g:Vendeur|Vendeuse] d''articles rares'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978512
+    m_Localized: '[g:Armurier|Armurière] des strates inférieures'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978513
+    m_Localized: '[g:Voleur|Voleuse]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172736
+    m_Localized: Touriste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172737
+    m_Localized: Vendeur d'eau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172738
+    m_Localized: Petite frappe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784342097920
+    m_Localized: Groupe pastel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875136
+    m_Localized: Carmicheal Pharma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875137
+    m_Localized: Davre Délices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875138
+    m_Localized: Société MNSL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875139
+    m_Localized: Éminence Énergie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875140
+    m_Localized: Éminence Énergie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875141
+    m_Localized: Atelier républicain 13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875142
+    m_Localized: Marine républicaine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875143
+    m_Localized: Sanctuaire neural
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875144
+    m_Localized: Sentinelle neurale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875145
+    m_Localized: Front socialiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875146
+    m_Localized: Industries Sokolov
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875147
+    m_Localized: Labo Monovision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875148
+    m_Localized: ZhongHua Aéronautique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875149
+    m_Localized: Tout pour l'espace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875150
+    m_Localized: Armurerie Meridian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875151
+    m_Localized: Systèmes tactiques Échelon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875152
+    m_Localized: Munitions Bouclier azur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875153
+    m_Localized: Armurerie Frontières
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875154
+    m_Localized: Ashvin Santé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875155
+    m_Localized: Labo biogénétique Solana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875156
+    m_Localized: A.L.I.S.O.N
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732051034112
+    m_Localized: Strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422720
+    m_Localized: Strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422721
+    m_Localized: Sécurité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422722
+    m_Localized: Marché noir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422723
+    m_Localized: Révolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422724
+    m_Localized: Cartel du secteur 13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102613085076635648
+    m_Localized: '[g:Inspecteur|Inspectrice] d''entreprise'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103108984169086976
+    m_Localized: Décharge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107368985712705536
+    m_Localized: '[g:Éleveur de rats retraité|Éleveuse de rats retraitée]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101362749440
+    m_Localized: Vigneron retraité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101396303872
+    m_Localized: Hédoniste des strates supérieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177674309933514752
+    m_Localized: '[g:Aquaculteur retraité|Aquacultrice retraitée]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183888579314630656
+    m_Localized: Spéculateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184153730559295488
+    m_Localized: M. Harvey Bee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186448655309127680
+    m_Localized: Fan de caisses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265071149056
+    m_Localized: Oncle d'Eleanor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265100509184
+    m_Localized: Homme de main du marché noir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186991818453073920
+    m_Localized: Contrebandier Hypertech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189734698179411968
+    m_Localized: Agent de la République
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

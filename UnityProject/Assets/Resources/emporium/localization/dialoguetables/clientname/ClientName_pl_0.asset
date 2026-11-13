@@ -1,0 +1,791 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: ClientName_pl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: d0d60c60bdff4f94c9a6abcde2567fb6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1256899526656
+    m_Localized: Ashish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1293192839168
+    m_Localized: Caulson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1385803071488
+    m_Localized: Dale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1402513178624
+    m_Localized: Odin Haraldsson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1490727780352
+    m_Localized: Oficer Lun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1565721935872
+    m_Localized: Joe Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1601390297088
+    m_Localized: Sawyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1638467944448
+    m_Localized: Mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662761353216
+    m_Localized: Właściciel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2041150488576
+    m_Localized: Georgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070660967415808
+    m_Localized: Asystent Joego Wilda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070596811341824
+    m_Localized: Przedstawiciel Bordowego Biesa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393252068704256
+    m_Localized: James Bailey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393311434883072
+    m_Localized: Arthur Lafleur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394096562454528
+    m_Localized: Lou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394134080503808
+    m_Localized: Li Bei Wen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394240880066560
+    m_Localized: Juan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394291748585472
+    m_Localized: John Smith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394655776423936
+    m_Localized: Leroy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396315055669248
+    m_Localized: Dziadek Cheng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396442461847552
+    m_Localized: Główna Inżynier Nellis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396618454843392
+    m_Localized: Kadet Serpico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396678919929856
+    m_Localized: Eleanor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505600
+    m_Localized: Turysta smakosz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505601
+    m_Localized: '[g:Złodziej|Złodziejka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505602
+    m_Localized: '[g:Mieszkaniec Niższych Poziomów|Mieszkanka Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505603
+    m_Localized: '[g:Mieszkaniec Niższych Poziomów|Mieszkanka Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505604
+    m_Localized: Funkcjonariusz Ochrony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527839547392
+    m_Localized: '[g:Złomiarz|Złomiarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130304
+    m_Localized: Pracownik z Niższych Poziomów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130305
+    m_Localized: Rzeźnik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990354276352
+    m_Localized: '[g:Mieszkaniec|Mieszkanka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470656
+    m_Localized: Uzależniony desperat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470657
+    m_Localized: '[g:Dostawca ekspedycji|Dostawczyni ekspedycji]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470658
+    m_Localized: '[g:Głodny Astrak|Głodna Astraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470659
+    m_Localized: '[g:Ranny Astrak|Ranna Astraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470660
+    m_Localized: '[g:Lekarz z Niższych Poziomów|Lekarka z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664960
+    m_Localized: '[g:Mechanik z Niższych Poziomów|Mechaniczka z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664961
+    m_Localized: Wynalazczyni z Niższych Poziomów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664962
+    m_Localized: Rodzic z Niższych Poziomów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664963
+    m_Localized: '[g:Konserwator|Konserwatorka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664964
+    m_Localized: '[g:Pielęgniarz ze Średnich Poziomów|Pielęgniarka ze Średnich Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664965
+    m_Localized: '[g:Pracownik firmy ochroniarskiej|Pracowniczka firmy ochroniarskiej]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664966
+    m_Localized: '[g:Złomiarz|Złomiarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664967
+    m_Localized: Kupiec złomu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664968
+    m_Localized: '[g:Entuzjasta samooobrony|Entuzjastka samoobrony]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664969
+    m_Localized: '[g:Opiekun chorego dziecka|Opiekunka chorego dziecka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664970
+    m_Localized: '[g:Astrak|Astraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664971
+    m_Localized: '[g:Astrak kucharz|Astraczka kucharka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664972
+    m_Localized: '[g:Inżynier ze stacji|Inżynierka ze stacji]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664973
+    m_Localized: '[g:Spragniony Astrak|Spragniona Astraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664974
+    m_Localized: '[g:Dostawca szpitalny z Wyższych Poziomów|Dostawczyni szpitalna z wyższych poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664975
+    m_Localized: '[g:Prywatny kucharz z Wyższych Poziomów|Prywatna kucharka z Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664976
+    m_Localized: '[g:Służący z Wyższych Poziomów|Służąca z Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664977
+    m_Localized: '[g:Skupujący wodę|Skupująca wodę]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664978
+    m_Localized: '[g:Zmęczony Astrak|Zmęczona Astraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664979
+    m_Localized: '[g:Młody Astrak|Młoda Astraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664980
+    m_Localized: '[g:Kurier|Kurierka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664981
+    m_Localized: Kurier Spółdzielni Górniczej GP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664982
+    m_Localized: '[g:Handlarz bronią z Niższych Poziomów|Handlarka bronią z Niższe Poziomy]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664983
+    m_Localized: '[g:Handlarz z Niższych Poziomów|Handlarka z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664984
+    m_Localized: '[g:Sprzedawca Niższych Poziomów|Sprzedawczyni z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664985
+    m_Localized: '[g:Najemnik|Najemniczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664986
+    m_Localized: Kurier Bordowego Biesa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664987
+    m_Localized: Rewolucjonista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664988
+    m_Localized: '[g:Sprzedawca złomu|Sprzedawczyni złomu]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664989
+    m_Localized: Podejrzany nałogowiec
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664990
+    m_Localized: '[g:Podejrzany sprzedawca|Podejrzana sprzedawczyni]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664991
+    m_Localized: '[g:Spięty mieszkaniec|Spięta mieszkanka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664992
+    m_Localized: '[g:Mieszkaniec Wyższych Poziomów|Mieszkanka Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664993
+    m_Localized: '[g:Zmartwiony mieszkaniec|Zmartwiona mieszkanka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149120589824
+    m_Localized: '[g:Poirytowany inżynier|Poirytowana inżynierka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978432
+    m_Localized: Kontakt z Kartelu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978433
+    m_Localized: '[g:Żołnierz Kartelu|Żołnierka Kartelu]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978434
+    m_Localized: Wyznawca teorii spiskowych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978435
+    m_Localized: '[g:Manager odpadów korporacyjnych|Managerka odpadów korporacyjnych]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978436
+    m_Localized: '[g:Diler|Dilerka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978437
+    m_Localized: '[g:Zdesperowany kochanek|Zdesperowana kochanka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978438
+    m_Localized: '[g:Rolnik hydroponiczny|Rolniczka hydroponiczna]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978439
+    m_Localized: '[g:Pielęgniarz z Niższych Poziomów|Pielęgniarka z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978440
+    m_Localized: '[g:Staruszek z Niższych Poziomów|Staruszka z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978441
+    m_Localized: Górnik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978442
+    m_Localized: Stara złomiarka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978443
+    m_Localized: '[g:Kwatermistrz Rewolucji|Kwatermistrzyni Rewolucji]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978444
+    m_Localized: '[g:Siepacz Rewolucji|Siepaczka Rewolucji]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978445
+    m_Localized: '[g:Pilot holownika|Pilotka holownika]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978446
+    m_Localized: '[g:Podejrzany rolnik|Podejrzana rolniczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978447
+    m_Localized: '[g:Chory mieszkaniec Niższych Poziomów|Chora mieszkanka Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978448
+    m_Localized: '[g:Chory złomiarz|Chora złomiarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978449
+    m_Localized: Ranny mężczyzna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978450
+    m_Localized: '[g:Wściekły mieszkaniec|Wściekła mieszkanka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978452
+    m_Localized: '[g:Szantażysta|Szantażystka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978453
+    m_Localized: '[g:Wolontariusz z kliniki|Wolontariuszka z kliniki]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978454
+    m_Localized: '[g:Przedstawiciel korporacji|Przedstawicielka korporacji]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978455
+    m_Localized: '[g:Rolnik|Rolniczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978456
+    m_Localized: '[g:Kupujący żywność|Kupująca żywność]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978457
+    m_Localized: '[g:Brygadzista|Brygadzistka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978458
+    m_Localized: '[g:Górnik lodu|Górniczka lodu]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978459
+    m_Localized: '[g:Spanikowany sklepikarz|Spanikowana sklepikarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978460
+    m_Localized: '[g:Farmaceuta|Farmaceutka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978461
+    m_Localized: Emerytowany chemik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978462
+    m_Localized: Emerytowany rolnik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978463
+    m_Localized: Emerytowany rusznikarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978464
+    m_Localized: Emerytowany szrociarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978465
+    m_Localized: '[g:Emerytowany handlarz wodą|Emerytowana handlarka wodą]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978466
+    m_Localized: '[g:Podejrzany klient|Podejrzana klientka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978467
+    m_Localized: '[g:Rezydent Wyższych Poziomów|Rezydent Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978468
+    m_Localized: '[g:Prowodyr|Prowodyrka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978469
+    m_Localized: '[g:Zabójca|Zabójczyni]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978470
+    m_Localized: '[g:Zabójca z Kartelu|Zabójczyni z Kartelu]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978471
+    m_Localized: '[g:Uzależniony złomiarz|Uzależniona złomiarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978472
+    m_Localized: '[g:Biedny złomiarz|Biedna złomiarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978473
+    m_Localized: '[g:Uzależniony|Uzależniona]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978474
+    m_Localized: '[g:Chemik z Niższych Poziomów|Chemiczka z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978475
+    m_Localized: Mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978476
+    m_Localized: Joe Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978477
+    m_Localized: Oficer Lun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978478
+    m_Localized: Członkini Rady Rzeczoznawców
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978479
+    m_Localized: Funkcjonariusz po służbie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978480
+    m_Localized: '[g:Specjalista kredytowy|Specjalistka kredytowa]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978481
+    m_Localized: Dr Jackson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978482
+    m_Localized: '[g:Zbieracz|Zbieraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978483
+    m_Localized: Właściciel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978484
+    m_Localized: Handlarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978485
+    m_Localized: '[g:Ochotnik z Wyższych Poziomów|Ochotniczka z Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978486
+    m_Localized: Lichwiarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978487
+    m_Localized: Dostawca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978489
+    m_Localized: Podejrzany handlarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978491
+    m_Localized: '[g:Oficer Zaopatrzeniowy Ochrony|Oficer Zaopatrzeniowa Ochrony]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978493
+    m_Localized: '[g:Turysta kosmiczny|Turystka kosmiczna]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978494
+    m_Localized: '[g:Farmaceuta z Wyższych Poziomów|Farmaceutka z Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978495
+    m_Localized: '[g:Szrociarz|Szrociarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978497
+    m_Localized: '[g:Złodziej jedzenia|Złodziejka jedzenia]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978498
+    m_Localized: Mobilny dostawca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978499
+    m_Localized: '[g:Najemnik na zakupach|Najemniczka na zakupach]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978500
+    m_Localized: '[g:Blady złomiarz|Blada złomiarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978502
+    m_Localized: '[g:Inspektor Ochrony|Inspektorka Ochrony]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978503
+    m_Localized: Przedstawicielka Rady Handlowej
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978504
+    m_Localized: '[g:Gość z Wyższych Poziomów|Gościni z Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978505
+    m_Localized: '[g:Podejrzany inspektor Ochrony|Podejrzana inspektorka Ochrony]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978506
+    m_Localized: Leniwy inspektor Ochrony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978507
+    m_Localized: '[g:Dostawca banku żywności|Dostawczyni banku żywności]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978508
+    m_Localized: Przedstawicielka loterii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978509
+    m_Localized: '[g:Podejrzany kupujący|Podejrzana kupująca]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978510
+    m_Localized: '[g:Handlarz przedmiotów rzadkich|Handlarka przedmiotów rzadkich]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978512
+    m_Localized: '[g:Rusznikarz z Niższych Poziomów|Rusznikarka z Niższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978513
+    m_Localized: '[g:Złodziej na zakupach|Złodziejka na zakupach]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172736
+    m_Localized: '[g:Turysta|Turystyka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172737
+    m_Localized: Handlarz wodą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172738
+    m_Localized: '[g:Złodziejaszek|Złodziejaszka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784342097920
+    m_Localized: pastel Inc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875136
+    m_Localized: Carmicheal Pharmaceutical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875137
+    m_Localized: Davre Food Ltd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875138
+    m_Localized: MNSL Holdings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875139
+    m_Localized: Eminence Power Company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875140
+    m_Localized: Eninence Power Company
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875141
+    m_Localized: Biuro Projektowe Republiki 13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875142
+    m_Localized: Marynarka Republiki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875143
+    m_Localized: Kościół Neuronowy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875144
+    m_Localized: Straż Neuronowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875145
+    m_Localized: Front Socjalistyczny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875146
+    m_Localized: Sokolov Heavy Industry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875147
+    m_Localized: One Vision Lab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875148
+    m_Localized: Zhonghua Shipbuilding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875149
+    m_Localized: '[g:Astrak|Astraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875150
+    m_Localized: Meridian Ballistics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875151
+    m_Localized: Echelon Tactical Systems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875152
+    m_Localized: Blue Shield Munitions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875153
+    m_Localized: Frontier Arms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875154
+    m_Localized: Ashvin Medical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875155
+    m_Localized: Solana Biogenics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875156
+    m_Localized: A.L.I.S.O.N.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732051034112
+    m_Localized: Niższe Poziomy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422720
+    m_Localized: Wyższe Poziomy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422721
+    m_Localized: Ochrona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422722
+    m_Localized: Czarny Rynek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422723
+    m_Localized: Rewolucja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422724
+    m_Localized: Kartel 13 Sektora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102613085076635648
+    m_Localized: Inspektor Ochrony z korporacji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103108984169086976
+    m_Localized: Śmietnisko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107368985712705536
+    m_Localized: '[g:Emerytowany hodowca szczurów|Emerytowana hodowczyni szczurów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101362749440
+    m_Localized: '[g:Emerytowany winiarz|Emerytowana winiarka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101396303872
+    m_Localized: '[g:Hedonista z Wyższych Poziomów|Hedonistka z Wyższych Poziomów]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177674309933514752
+    m_Localized: '[g:Emerytowany hodowca ryb|Emerytowana hodowczyni ryb]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978451
+    m_Localized: '[g:Żebrak|Żebraczka]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183888579314630656
+    m_Localized: Konik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184153730559295488
+    m_Localized: M. Harvey Bee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186448655309127680
+    m_Localized: Fan skrzynek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265071149056
+    m_Localized: Wujek Eleanor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265100509184
+    m_Localized: Zbir z Czarnego Rynku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186991818453073920
+    m_Localized: Przemytnik Hypertechu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189734698179411968
+    m_Localized: Agent Republiki
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

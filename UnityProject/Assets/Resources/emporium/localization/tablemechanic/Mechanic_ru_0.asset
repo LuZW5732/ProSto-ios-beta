@@ -1,0 +1,6335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Mechanic_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 821373c5acd58274cbaedad422711bd6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 193096479195136
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166656
+    m_Localized: Модули
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166657
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166658
+    m_Localized: 'Уровень предотвращения краж: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360960
+    m_Localized: Если передать информацию в одну и ту же фракцию более одного раза, то это не даст никакого дополнительного эффекта.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360961
+    m_Localized: Передаётся в <b>Службу безопасности</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360962
+    m_Localized: Передаётся на <b>Чёрный рынок</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360963
+    m_Localized: Передаётся на <b>Верхние уровни</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360964
+    m_Localized: Передаётся в <b>Штаб революционеров</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360979
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360980
+    m_Localized: Модули
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360981
+    m_Localized: Разъём для чипа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360982
+    m_Localized: Ввод
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360983
+    m_Localized: Вывод
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360984
+    m_Localized: Производится десеквенирование… ({0} из {1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360985
+    m_Localized: 'Состояние: производится десеквенирование…'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360986
+    m_Localized: ({0} из {1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360987
+    m_Localized: 'Состояние: готово'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360993
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360994
+    m_Localized: Модули
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360995
+    m_Localized: Ввод
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360996
+    m_Localized: Вывод
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360997
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361019
+    m_Localized: Хранилище для кассет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361020
+    m_Localized: Кассета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361021
+    m_Localized: Управление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361022
+    m_Localized: Громкость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361023
+    m_Localized: '<'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361024
+    m_Localized: P
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361025
+    m_Localized: S
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361026
+    m_Localized: '>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361027
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361028
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361029
+    m_Localized: 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361030
+    m_Localized: '{0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361031
+    m_Localized: Энергоэлементы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361032
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361033
+    m_Localized: 'Состояние: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361034
+    m_Localized: Готово
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361035
+    m_Localized: Идёт зарядка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361036
+    m_Localized: ({0} из {1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361037
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361038
+    m_Localized: Модули
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361039
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361040
+    m_Localized: 'Привлекательность при включённом проекторе: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361041
+    m_Localized: 'Привлекательность при выключенном проекторе: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361064
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361065
+    m_Localized: Модули
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361066
+    m_Localized: Контейнер для воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361067
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361068
+    m_Localized: 'Вырабатываемый объём: {0} мл/день ({1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361069
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361070
+    m_Localized: Модули
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361071
+    m_Localized: Контейнер для воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361072
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361073
+    m_Localized: 'Удалено загрязнений за последнюю ночь: {0} мл'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054720
+    m_Localized: Еда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054721
+    m_Localized: Лекарство
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054722
+    m_Localized: Материал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054723
+    m_Localized: Предмет быта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054724
+    m_Localized: Вещество
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054725
+    m_Localized: Оружие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054726
+    m_Localized: Не для перепродажи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054727
+    m_Localized: Ящик с припасами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054728
+    m_Localized: Инструмент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054729
+    m_Localized: Медицинский инструмент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054730
+    m_Localized: Все типы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054731
+    m_Localized: Все типы, кроме контрабанды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054732
+    m_Localized: Контрабанда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054733
+    m_Localized: С ограниченным доступом I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054734
+    m_Localized: С ограниченным доступом II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054735
+    m_Localized: С ограниченным доступом III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054736
+    m_Localized: Самопал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054737
+    m_Localized: Низкотехнологичное устройство
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054738
+    m_Localized: Среднее качество
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054739
+    m_Localized: Высокотехнологичное устройство
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054740
+    m_Localized: Редкость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054741
+    m_Localized: Предмет роскоши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054742
+    m_Localized: Предмет искусства
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054743
+    m_Localized: Вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054744
+    m_Localized: Порция воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054745
+    m_Localized: Медицинские припасы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054746
+    m_Localized: Сельскохозяйственные припасы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054747
+    m_Localized: Химические припасы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054748
+    m_Localized: Свежие продукты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054749
+    m_Localized: Переработанные продукты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054750
+    m_Localized: Угощение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054751
+    m_Localized: Напиток
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054752
+    m_Localized: Документ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054753
+    m_Localized: Карта доступа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054754
+    m_Localized: Семена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054755
+    m_Localized: Обычный материал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054756
+    m_Localized: Очищенный материал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054757
+    m_Localized: Энергоэлемент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054758
+    m_Localized: Наркотик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054759
+    m_Localized: Яд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054760
+    m_Localized: Хранилище
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054761
+    m_Localized: Припасы для очистки воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054762
+    m_Localized: Кислород
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054763
+    m_Localized: Алкоголь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054764
+    m_Localized: Оружие ближнего боя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054765
+    m_Localized: Огнестрельное оружие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054766
+    m_Localized: Можно модифицировать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054767
+    m_Localized: Боеприпасы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054768
+    m_Localized: Военное снаряжение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054769
+    m_Localized: Модификация для оружия
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054770
+    m_Localized: Модули
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054771
+    m_Localized: Узел
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054772
+    m_Localized: Модуль гидропоники
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054773
+    m_Localized: Модуль сигнализации
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054774
+    m_Localized: Модуль принтера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054775
+    m_Localized: Модуль испарителя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054776
+    m_Localized: Устройство
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054777
+    m_Localized: Орган
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054778
+    m_Localized: Броня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054779
+    m_Localized: Фильтр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054780
+    m_Localized: Лотерея
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915584
+    m_Localized: '[Украдено. Палево: {0}%.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915585
+    m_Localized: Контрабанда низкого уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915586
+    m_Localized: Контрабанда среднего уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915587
+    m_Localized: Контрабанда высокого уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915588
+    m_Localized: Контрабанда критического уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915589
+    m_Localized: (отключено)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915590
+    m_Localized: '[Заблокировано — устройство работает] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915591
+    m_Localized: '[Заблокировано]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915597
+    m_Localized: 'Оценочная стоимость: {0}, базовая стоимость: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915599
+    m_Localized: ' Выполните двойной щелчок, чтобы обменять на продукты'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915600
+    m_Localized: Подача электроэнергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915601
+    m_Localized: Услуги уборщиков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915602
+    m_Localized: Страховка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915603
+    m_Localized: Защита Картеля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915604
+    m_Localized: Раннее предупреждение о проверках
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915605
+    m_Localized: Направление покупателей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915606
+    m_Localized: Направление продавцов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915607
+    m_Localized: Направление покупателей контрабанды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915608
+    m_Localized: Помощь ребят Уайлда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915609
+    m_Localized: Арендная плата
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915610
+    m_Localized: Оплата
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915611
+    m_Localized: Сегодня нужно заплатить {0} Кр.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915612
+    m_Localized: Завтра нужно заплатить {0} Кр.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915613
+    m_Localized: Через {1} дн. нужно заплатить {0} Кр.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915614
+    m_Localized: День {0} ({1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915615
+    m_Localized: воскресенье
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915616
+    m_Localized: понедельник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915617
+    m_Localized: вторник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915618
+    m_Localized: среда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915619
+    m_Localized: четверг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915620
+    m_Localized: пятница
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915621
+    m_Localized: суббота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915622
+    m_Localized: Нейтральное отношение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915623
+    m_Localized: Знакомый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915624
+    m_Localized: Зарекомендовавший себя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915625
+    m_Localized: Замеченный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109888
+    m_Localized: Надёжный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109889
+    m_Localized: Рекомендуемый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109890
+    m_Localized: Доверенный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109891
+    m_Localized: Почитаемый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109892
+    m_Localized: Знаменитый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109893
+    m_Localized: Глубоко уважаемый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109894
+    m_Localized: Прославленный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109895
+    m_Localized: Непоследовательный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109896
+    m_Localized: Лишённый расположения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109897
+    m_Localized: Ненадёжный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109898
+    m_Localized: Сомнительный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109899
+    m_Localized: Неоднозначный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109900
+    m_Localized: Подозрительный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109901
+    m_Localized: Скандально известный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109902
+    m_Localized: Позорный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109903
+    m_Localized: Избегаемый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109904
+    m_Localized: Бойкотируемый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109905
+    m_Localized: В чёрном списке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109906
+    m_Localized: Привлекательность магазина
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109907
+    m_Localized: Кредиты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109908
+    m_Localized: День {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818283970560
+    m_Localized: сегодня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359168
+    m_Localized: завтра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359169
+    m_Localized: через {0} дн.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359170
+    m_Localized: Нелегальный ростовщик придёт забрать {0} {0:plural:кредит|кредита|кредитов} в уплату долга {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359171
+    m_Localized: Арендодатель придёт забрать {0} Кр. арендной платы {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359172
+    m_Localized: Арендодатель придёт забрать {0}+{1} Кр. арендной платы за эту и прошлую неделю {2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359173
+    m_Localized: Текущая стоимость этой недвижимости составляет {0} Кр.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359202
+    m_Localized: '{0} Кр.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359203
+    m_Localized: '{0} (до возможности повторного использования: {1} дн.)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141968977920
+    m_Localized: Можно осмотреть через увеличительное стекло
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560832
+    m_Localized: Выполните двойной щелчок, чтобы открыть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560833
+    m_Localized: 'Эффект модуля:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560834
+    m_Localized: Показатели
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560835
+    m_Localized: Эффективность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560836
+    m_Localized: Качество
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560837
+    m_Localized: ' [Застрял. Требуется извлекатель модулей.]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560838
+    m_Localized: Базовое значение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560839
+    m_Localized: Премиальный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560840
+    m_Localized: Базовые значения характеристик этого модуля на {0}% выше, но он стоит значительно дороже.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560841
+    m_Localized: Плохой
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560842
+    m_Localized: Базовые значения характеристик этого модуля на {0}% ниже, но он стоит значительно дешевле.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560843
+    m_Localized: Принимающий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560844
+    m_Localized: Этот модуль получает временный бонус {0}% к своим характеристикам за каждый находящийся рядом [узел].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560845
+    m_Localized: Верхний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560846
+    m_Localized: Этот модуль получает временный бонус {0}% к своим характеристикам, если хотя бы одна его сторона касается ВЕРХНЕГО края отсека для модулей.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560847
+    m_Localized: Боковой
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560848
+    m_Localized: Этот модуль получает временный бонус {0}% к своим характеристикам, если хотя бы одна его сторона касается ЛЕВОГО края отсека для модулей.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560849
+    m_Localized: Перезаряженный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560850
+    m_Localized: Базовые значения характеристик этого модуля на {0}% выше, но с шансом {1}% он может сломаться во время использования без возможности ремонта в дальнейшем.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560851
+    m_Localized: Деградирующий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560852
+    m_Localized: Базовые значения характеристик этого модуля изначально в два раза выше, но он теряет {0}% от своих положительных характеристик при каждом использовании.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560853
+    m_Localized: Самообучающийся
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560854
+    m_Localized: В начале у этого модуля нет положительных характеристик, но при каждом его использовании одна из его характеристик будет увеличиваться на значение, равное {0} от её базового положительного значения (до тех пор, пока все характеристики, которые могут стать положительными, не достигнут максимума).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560855
+    m_Localized: С отрицательной обратной связью
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560856
+    m_Localized: Базовые положительные значения характеристик этого модуля на {0}% выше, но он получает {1}% от базовых отрицательных значений характеристик соседних модулей.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560857
+    m_Localized: Узел поддержки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560858
+    m_Localized: Этот модуль получает временный бонус {0}% от базовых значений характеристик каждого соседнего [модуля].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560859
+    m_Localized: Соотношение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560860
+    m_Localized: 'Эффект от модулей:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560861
+    m_Localized: 'Требуется энергии: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560862
+    m_Localized: '{0} в день'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560863
+    m_Localized: ' (базовое значение: {0} в день)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560864
+    m_Localized: 'Скорость процесса: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560865
+    m_Localized: 'Внутренний аккумулятор:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560866
+    m_Localized: Зарядка приостановлена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560867
+    m_Localized: Готово
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560868
+    m_Localized: Недостаточно энергии для зарядки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560869
+    m_Localized: Идёт зарядка…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560870
+    m_Localized: 'Прогресс:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560871
+    m_Localized: Режим энергосбережения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808787431424
+    m_Localized: Состояние ваших ран стабилизировалось, и они медленно заживают.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014336
+    m_Localized: Ваши раны полностью зажили.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014337
+    m_Localized: Ваши раны заживают, и вы восстановили подвижность.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014338
+    m_Localized: Ваши лёгкие раны заживают.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014339
+    m_Localized: Состояние вашей необработанной раны ухудшилось, и вы потеряли подвижность.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014340
+    m_Localized: Состояние ваших необработанных серьёзных ран ухудшилось.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014341
+    m_Localized: Состояние ваших необработанных лёгких ран ухудшилось.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208640
+    m_Localized: Вы получили лёгкое ранение, пока рылись в мусоре!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208641
+    m_Localized: Вы получили серьёзное ранение, пока рылись в мусоре!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208642
+    m_Localized: Вы преодолели свою зависимость от никотина!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208643
+    m_Localized: Вы преодолели свою зависимость от алкоголя!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208644
+    m_Localized: Вы преодолели свою зависимость от наркотиков!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208645
+    m_Localized: Вы страдаете от отсутствия никотина, из-за чего вам сложнее торговаться!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208646
+    m_Localized: Вы страдаете от отсутствия алкоголя, из-за чего вам сложнее торговаться!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208647
+    m_Localized: Вы страдаете от наркотической ломки, из-за чего вам сложнее торговаться!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208648
+    m_Localized: Вы больше не чувствуете такую сильную тягу, зависимость немного ослабла... пока что.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208649
+    m_Localized: Вам кажется, будто всё в вашем теле ополчилось против вас. Ваше состояние очень быстро ухудшается.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208650
+    m_Localized: Вам тяжело дышать, а мышцы сводит судорогой. Ваше состояние быстро ухудшается.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208651
+    m_Localized: У вас высокая температура и слабость. Ваше состояние ухудшается.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208652
+    m_Localized: Вы начинаете чувствовать себя неважно. Скоро вам нужно будет сделать укол Иммунивакса.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208653
+    m_Localized: Ваш синдром коллапса Сентинеля почти достиг терминальной стадии. Больше не пропускайте ни одного укола!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208654
+    m_Localized: У вас запущенный синдром коллапса Сентинеля. Вам нужно прекратить пропускать уколы!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208655
+    m_Localized: ' Теперь вы чувствуете себя гораздо лучше'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208656
+    m_Localized: ' Теперь вы чувствуете себя лучше'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208657
+    m_Localized: ' Теперь вы чувствуете себя немного лучше'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208658
+    m_Localized: ' Вы не чувствуете какой-то особой разницы'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208659
+    m_Localized: Укол прошёл без малейших проблем или неудобств.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208660
+    m_Localized: Укол был почти безболезненным.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208661
+    m_Localized: Ощущения от укола были какими-то неприятными.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208662
+    m_Localized: '{0} больше не имеет над вами власти. Вы излечились от неё.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087236
+    m_Localized: 'Сейчас вы не застрахованы. В последний раз вы были застрахованы столько дней назад: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087237
+    m_Localized: Вы заплатили за страховку, и теперь вы застрахованы!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087255
+    m_Localized: '<i>Ваша репутация в Службе безопасности улучшилась.</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087258
+    m_Localized: '<i>Ваша репутация в Службе безопасности немного улучшилась.</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087264
+    m_Localized: '<i>Ваша репутация в Службе безопасности ухудшилась.</i>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365892
+    m_Localized: Аутентичность сигарет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365893
+    m_Localized: Аутентичность продуктовой карточки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365894
+    m_Localized: Аутентичность Иммунивакса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586880
+    m_Localized: Эти сигареты поддельные!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586881
+    m_Localized: Тут проблемы с {0}, разве не видно?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586882
+    m_Localized: текстом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586883
+    m_Localized: цветом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586884
+    m_Localized: печатью
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586885
+    m_Localized: логотипом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586886
+    m_Localized: упаковкой
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586887
+    m_Localized: А, да, теперь я вижу.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586888
+    m_Localized: Я снижу цену.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586889
+    m_Localized: Надо проверить ещё раз, с ними всё в порядке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586891
+    m_Localized: А, Джорджио об этом не знал.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586892
+    m_Localized: Джорджио снизит цену.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586893
+    m_Localized: С этими сигаретами буквально всё не так.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586894
+    m_Localized: Ладно, ладно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586895
+    m_Localized: Эти — на самом деле настоящие.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586896
+    m_Localized: Правда? Спасибо, буду знать!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586897
+    m_Localized: Нет, не может быть. Они же проверены, я точно знаю.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586899
+    m_Localized: Продуктовая карточка ({0} Кр.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586900
+    m_Localized: номиналом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586901
+    m_Localized: чипом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586903
+    m_Localized: Да? Мне казалось, что всё в порядке, честно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586904
+    m_Localized: Я снижу цену.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586906
+    m_Localized: Иммунивакс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586907
+    m_Localized: индикатором
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586908
+    m_Localized: маркировкой
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586909
+    m_Localized: серийным номером
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586910
+    m_Localized: корпусом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083968
+    m_Localized: '{0} КР.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361015
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361016
+    m_Localized: Вывод
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361017
+    m_Localized: Состояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361018
+    m_Localized: Начать печать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915598
+    m_Localized: 'Стоимость при покупке: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208663
+    m_Localized: ' и '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208664
+    m_Localized: ', '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208665
+    m_Localized: Преступлений не зафиксировано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208666
+    m_Localized: Не применимо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208667
+    m_Localized: Нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208668
+    m_Localized: Незаконная торговля оружием
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208669
+    m_Localized: Незаконная торговля наркотиками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208670
+    m_Localized: Незаконная торговля картами доступа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208671
+    m_Localized: Торговля контрабандой
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208672
+    m_Localized: Подкуп персонала Службы безопасности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208673
+    m_Localized: Преднамеренное введение в заблуждение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208674
+    m_Localized: Создание угрозы жизни или здоровью потребителей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208675
+    m_Localized: Хранение краденого
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208676
+    m_Localized: Работа без лицензии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208677
+    m_Localized: Другое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208678
+    m_Localized: Штраф
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208679
+    m_Localized: Тюремное заключение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208680
+    m_Localized: Казнь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208681
+    m_Localized: Отправлять только надёжных инспекторов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208682
+    m_Localized: Дополнительная проверка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208683
+    m_Localized: Оперативный эксперимент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208684
+    m_Localized: Расследование
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208685
+    m_Localized: Планируется вынесение приговора
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208686
+    m_Localized: Требуется привести вынесенный приговор в исполнение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208687
+    m_Localized: Кадет Джефф
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208688
+    m_Localized: Офицер Валентайн
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208689
+    m_Localized: Детектив Хуан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208690
+    m_Localized: Инспектор Пейдж
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208691
+    m_Localized: Главный инспектор Карлсон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208692
+    m_Localized: "\nПредполагаемая сумма штрафа — {0}<sprite name=\"c\" tint=1 > "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208693
+    m_Localized: Расследование Службы безопасности в отношении вашего бизнеса ускоряется, потому что вы чаще стали совершать преступления.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208694
+    m_Localized: Расследование Службы безопасности в отношении вашего бизнеса сильно ускоряется, потому что вы намного чаще стали совершать преступления.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208695
+    m_Localized: '(<b>этого у вас нет</b>) '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208696
+    m_Localized: Вы что-то нашли в мусоре!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208697
+    m_Localized: Можно улучшить, использовав для этого электронные компоненты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208698
+    m_Localized: 'Шанс получения двойной добычи: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830324310016
+    m_Localized: В Подземном обменнике доступны новые предложения по акции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892928
+    m_Localized: Уайлд направил в ваш магазин покупателя — он придёт завтра.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892929
+    m_Localized: Уайлд направил в ваш магазин продавца — он придёт завтра.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892930
+    m_Localized: Уайлд направил в ваш магазин богатого покупателя контрабанды — он придёт завтра.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892931
+    m_Localized: Информатор в Службе безопасности передал, что через 2 дня в вашем магазине будет проверка.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892932
+    m_Localized: Информатор в Службе безопасности передал, что на завтра назначена проверка.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892933
+    m_Localized: Информатор в Службе безопасности передал, что проверка неизбежна.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892934
+    m_Localized: Один из ваших контактов сообщил, что вчера к вам в магазин приходил разыскиваемый преступник — {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892935
+    m_Localized: У вас неплохое финансовое положение, и вам следует подумать об инвестировании средств в улучшение магазина или расширение круга контактов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892936
+    m_Localized: Так как вы вовлечены в крупную торговлю контрабандой, Служба безопасности готова проводить в отношении вас оперативные эксперименты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892937
+    m_Localized: Активное расследование, которое проводит в отношении вас Служба безопасности, практически завершено.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892938
+    m_Localized: Вы проспали из-за того, что вчера легли поздно, и поэтому открыли магазин не вовремя. Вы упустили одного клиента.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892939
+    m_Localized: Сегодня ночью один из ребят Уайлда отправился затыкать свидетелям рты и уничтожать улики. В результате вас теперь меньше подозревают в преступлениях.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892940
+    m_Localized: Вход в магазин и витрину этой ночью не убирали, {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892941
+    m_Localized: Вход в магазин и витрина снаружи были убраны, мусор собран и выброшен.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892942
+    m_Localized: Уборщики устранили последствия недавнего вандализма. Теперь покупатели могут снова чувствовать себя в вашем магазине в безопасности.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892943
+    m_Localized: но убирать всё равно было нечего.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892944
+    m_Localized: у магазина лежат мешки с мусором, что может отпугнуть некоторых клиентов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892945
+    m_Localized: у магазина скопилось столько мусора, что это отпугивает потенциальных клиентов!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087232
+    m_Localized: дела совсем плохи! Столько мусора и обломков, что к магазину подойти трудно — даже тем, кто захочет туда идти.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087233
+    m_Localized: Вам отключили подачу электроэнергии из-за того, что вы не оплатили счёт. Включено тусклое аварийное освещение.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087234
+    m_Localized: Вы оплатили счёт за электричество.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087235
+    m_Localized: Картель защищает ваш магазин. Воры не посмеют вас ограбить.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087238
+    m_Localized: К вам в магазин кто-то вломился! К счастью, сработала сигнализация и вор ушёл с пустыми руками.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087239
+    m_Localized: 'Прошлой ночью вас ограбили! Какого чёрта?! Сигнализация не сработала! Вот что было украдено: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087240
+    m_Localized: 'Вас ограбили! Вот что было украдено: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087241
+    m_Localized: 'Произошло ограбление. Вот что было украдено: {0}. К счастью, люди Джо Уайлда нашли вора и утром вернули украденное.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087242
+    m_Localized: Ваш магазин разгромили разозлённые обитатели Нижних уровней!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087243
+    m_Localized: Ваш магазин разгромили сторонники Службы безопасности!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087244
+    m_Localized: Ваш магазин разгромили бандиты, нанятые обитателями Верхних уровней!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087245
+    m_Localized: Ваш магазин разгромили сторонники революции!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087246
+    m_Localized: Ваш магазин разгромили люди из Картеля, чтобы показать, что их угрозы реальны!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087247
+    m_Localized: Ваш магазин разгромили разозлённые клиенты!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087248
+    m_Localized: Ваш магазин был разгромлен! К вам будут реже приходить клиенты, а на уборку всего этого беспорядка придётся потратить значительно больше денег, чем обычно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087249
+    m_Localized: Благодаря вашей репутации одна из фракций сообщила вам дату предстоящей операции.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087250
+    m_Localized: Ваш контакт ({0}) теперь снова может принимать заказы.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087251
+    m_Localized: Электричество отключилось, но благодаря врезке в линию к вам оно продолжает поступать.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087252
+    m_Localized: Света нет! Электричество отключилось. Включено тусклое аварийное освещение.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087265
+    m_Localized: Состояние электропитания
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087266
+    m_Localized: ' - Энергия: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087267
+    m_Localized: Самозарядка ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087268
+    m_Localized: 'Цена на товар «{0}» изменилась по этой причине: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840624394240
+    m_Localized: Требуется оплатить аренду
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365762
+    m_Localized: Взломано хранилище для вещдоков!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365763
+    m_Localized: Дерзкое проникновение в центральное хранилище вещественных доказательств станции вынудило Службу безопасности действовать в спешке. По сообщениям, пропал ящик с конфискованными контрабандными товарами, среди которых были ключевые доказательства по текущему расследованию. Служба безопасности рекомендует жителям Нижних уровней отслеживать подозрительные товары, поступающие в оборот.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365764
+    m_Localized: На Нижних уровнях всё спокойно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365765
+    m_Localized: На Нижних уровнях сегодня необычно тихо, никаких серьёзных инцидентов не зафиксировано. Рынки стабильны, жители заняты своими повседневными делами.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365766
+    m_Localized: Запланированы работы в системе подачи электроэнергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365767
+    m_Localized: На Верхних уровнях временно отключат электричество в связи с проведением плановых работ по техническому обслуживанию оборудования.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365768
+    m_Localized: Нутрифрукты для всех!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365769
+    m_Localized: Группа техников, занимающихся обслуживанием Нижних уровней, разработала недорогую гидропонную систему, способную стабильно производить небольшие партии нутрифруктов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365770
+    m_Localized: Сколько мяса на самом деле в PEAT?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365771
+    m_Localized: Мясные консервы PEAT, которые можно найти почти на каждой кухне на Нижних уровнях, попали под пристальное внимание. Независимые исследователи пытаются выяснить, сколько в этом продукте мяса на самом деле.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365772
+    m_Localized: Запущена кампания по информированию о переработке отходов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365773
+    m_Localized: На Средних уровнях запущена небольшая информационная кампания по переработке отходов, направленная на поощрение правильной утилизации мусора. Ожидается, что у этой кампании будет минимальный практический эффект.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365774
+    m_Localized: Выставка работ местных художников
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365775
+    m_Localized: На Нижних уровнях станции проходит выставка работ местных художников, на которой жители могут полюбоваться произведениями искусства, созданными из переработанных материалов, и даже приобрести их.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365776
+    m_Localized: Краткая забастовка работников техобслуживания завершена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365777
+    m_Localized: Кратковременная забастовка ремонтных бригад завершена, вопросы урегулированы, существенных задержек или повреждений не зафиксировано. Работа возобновилась в обычном режиме.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365778
+    m_Localized: Взгляд в будущее!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365779
+    m_Localized: На Верхних уровнях организована технологическая выставка, на которой демонстрируются последние инновации от стартапов и технологических компаний. Большинство представленных товаров ориентированы на покупателей из высших классов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365780
+    m_Localized: На Средних уровнях открылась новая транспортная линия
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365781
+    m_Localized: На Средних уровнях открылась новая транспортная линия, соединяющая несколько жилых районов с коммерческим центром. Ожидается, что это улучшение транспортной доступности немного облегчит поездки на работу жителям Средних уровней.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365782
+    m_Localized: Представляем декоративный водяной фонтан!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365783
+    m_Localized: В рамках продолжающегося проекта по благоустройству на Верхних уровнях был открыт новый водяной фонтан. Служба безопасности предупредила, что любой гражданин, пойманный за распитием воды из фонтана, будет арестован и оштрафован.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365784
+    m_Localized: Общественный сад Нижних уровней расширен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365785
+    m_Localized: Жители Нижних уровней расширили свой общественный сад, добавив несколько новых участков для выращивания основных овощей. Маловероятно, что это повлияет на цены на продукты питания.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365786
+    m_Localized: На Средних уровнях проведён художественный конкурс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365787
+    m_Localized: В одном из общественных центров Средних уровней был проведён художественный конкурс среди местных жителей. Лучшие из представленных работ будут выставлены в общественных местах на неделю.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365788
+    m_Localized: Праздник на Верхних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365789
+    m_Localized: Группа работников культуры с Верхних уровней организует небольшой праздник с традиционными представлениями, музыкой и угощениями. Это мероприятие, как ожидается, посетят преимущественно жители Верхних уровней, и оно практически не повлияет на рынок.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365790
+    m_Localized: Плановая тренировка выхода в открытый космос
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365791
+    m_Localized: 'Плановая тренировка выхода в открытый космос для технических специалистов станции успешно завершилась. Никаких сбоев в работе станции не зарегистрировано. Сообщается, что одному мужчине с Нижних уровней была оказана медицинская помощь: он оказался в состоянии шока из-за того, что принял участника тренировки за инопланетянина.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365792
+    m_Localized: Сезон сбора щедрого урожая на ферме нутрифруктов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365793
+    m_Localized: Сбор нутрифруктов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365794
+    m_Localized: На крупной ферме на Средних уровнях идёт сбор урожая нутрифруктов. Ожидается поступление свежих нутрифруктов на рынок и снижение цен на продукты питания на некоторое время.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365795
+    m_Localized: Сокрушительный неурожай нутрифруктов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365796
+    m_Localized: Плохой урожай нутрифруктов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365797
+    m_Localized: 'Нутрифруктовая ферма на Нижних уровнях пережила ужасный сезон: урожай погиб из-за нехватки ресурсов и ненадлежащего ухода. Ожидается, что на некоторое время вырастут цены на продукты питания и возникнет дефицит свежих продуктов.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365798
+    m_Localized: Украдены семена нутрифруктов!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365799
+    m_Localized: Дефицит семян нутрифруктов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365800
+    m_Localized: Со склада гидропонной фермы в результате дерзкой ночной кражи исчезли семена нутрифруктов. Ожидается резкое повышение цен на семена и еду на всей территории станции.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365801
+    m_Localized: Обнаружены поддельные медицинские товары!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365802
+    m_Localized: Дефицит медицинских товаров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365803
+    m_Localized: Во множестве клиник и больниц обнаружено большое количество контрафактных медицинских товаров. Ожидается резкий рост спроса на подлинные лекарства и медицинские изделия.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365804
+    m_Localized: Авария на водоочистной станции грозит проблемами с водоснабжением
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365805
+    m_Localized: Кризис водоснабжения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365806
+    m_Localized: Поломка насоса на центральной водоочистной станции вызвала серьёзный перебой в водоснабжении. Служба безопасности призывает сохранять спокойствие, а эксперты ожидают, что в ближайшие несколько дней резко вырастут цены на воду, а также на материалы и устройства для её очистки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365807
+    m_Localized: На водоочистной станции будет проведено плановое техобслуживание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365808
+    m_Localized: Небольшая нехватка воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365809
+    m_Localized: Служба безопасности информирует, что на центральной водоочистительной станции будет проводиться плановое техобслуживание в соответствии с графиком. Ожидаются ограниченные перебои водоснабжения.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365810
+    m_Localized: Шахтёры возвращаются с ледяного астероида!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365811
+    m_Localized: Избыток воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365812
+    m_Localized: Одна из бригад наших отважных шахтёров вернулась из успешной экспедиции к богатому льдом астероиду, известному как «Бейра 41-А». Ожидается, что в результате рынок «затопит» качественной водой и снизятся цены.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365813
+    m_Localized: Самосуд на Нижних уровнях!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365814
+    m_Localized: Линчевание на Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365815
+    m_Localized: Жители Нижних уровней, уставшие от махинаций нечестного продавца, взяли правосудие в свои руки. Служба безопасности станции призывает соблюдать спокойствие.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365816
+    m_Localized: Найден и открыт забытый склад!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365817
+    m_Localized: Избыток товаров для дома
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365818
+    m_Localized: Группа мусорщиков с Нижних уровней наткнулась на потайную комнату, забитую предметами домашнего обихода. Большое количество товаров направляются на рынок, что скорее всего приведёт к снижению цен уже сегодня.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365819
+    m_Localized: Возвращается шахтёрская экспедиция
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365820
+    m_Localized: Избыток материалов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365821
+    m_Localized: Группа шахтёров вернулась из экспедиции на богатый минералами астероид. Ожидается, что цены на материалы некоторое время будут падать.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365822
+    m_Localized: Строительные проекты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365823
+    m_Localized: В последнее время появилось множество проектов строительства на Нижних уровнях. Ожидается повышенный спрос на стройматериалы и умелых работников.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365824
+    m_Localized: Метеоритный дождь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365825
+    m_Localized: Вчера вечером на станцию обрушился метеоритный дождь, причинив ущерб и образовав проломы в нескольких секторах. Больше всего пострадали Нижние уровни, не защищённые усиленным корпусом — следует ожидать повышения цен на материалы.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365826
+    m_Localized: Низкий уровень энергии на Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365827
+    m_Localized: Отключение электроэнергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365828
+    m_Localized: Из-за неисправности генератора на Нижних уровнях произошло отключение электроэнергии. На время проведения ремонтных работ ожидается дефицит энергоэлементов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365829
+    m_Localized: Плановое техническое обслуживание электростанции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365830
+    m_Localized: Техобслуживание электростанции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365831
+    m_Localized: На одной из главных электростанций Нижних уровней началось плановое техобслуживание. Жителей предупредили о возможных незначительных перебоях электроснабжения в течение всего периода плановых работ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365832
+    m_Localized: Кто выключил свет?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365833
+    m_Localized: Катастрофический сбой в центральной энергосистеме погрузил всю станцию во тьму. Ожидается резкий рост спроса на энергоэлементы и другую соответствующую продукцию.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365834
+    m_Localized: Где у вас тут бассейн?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365835
+    m_Localized: Наплыв туристов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365836
+    m_Localized: Круизный лайнер пришвартовался на Верхних уровнях, высадив множество туристов. Ожидается, что некоторые любопытствующие могут даже спуститься на Нижние уровни. Служба безопасности станции призвала граждан уважительно к ним относиться.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365837
+    m_Localized: Растёт зависимость от Оксимора
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365838
+    m_Localized: Зафиксирован резкий рост употребления Оксимора по всей станции. Врачи отмечают всплеск случаев возникновения зависимости и передозировок. Ожидается рост спроса на лечение и медицинские товары.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365857
+    m_Localized: Чистая вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365858
+    m_Localized: Качественная вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365859
+    m_Localized: Стандартная вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365860
+    m_Localized: Призрачная вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365861
+    m_Localized: Техническая вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365868
+    m_Localized: Оригинал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365890
+    m_Localized: Чистота воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365899
+    m_Localized: Розничная наценка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365902
+    m_Localized: Бонус от нейроактивных духов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365903
+    m_Localized: Бонус от духов с феромонами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083972
+    m_Localized: 'Использование воды: {0} мл в день'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083974
+    m_Localized: '[ПРОМАРКИРОВАНО]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083975
+    m_Localized: '[ПРОВЕРЕНО]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083985
+    m_Localized: Вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254276825088
+    m_Localized: Вы не смогли оплатить аренду
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796608
+    m_Localized: Из-за неуплаты арендной платы вас выселили. Забытый покупателями, знакомыми и даже Наставником, вы вынуждены вернуться к жизни мусорщика. Вскоре магазин сдают в аренду другому человеку, и вы оказываетесь по другую сторону прилавка, торгуясь из-за пары кредитов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796632
+    m_Localized: Выбрать рюкзак
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796633
+    m_Localized: Выйти наружу без рюкзака
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796634
+    m_Localized: 'Выбрать: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796635
+    m_Localized: 'Нажмите ещё раз, чтобы '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796636
+    m_Localized: подтвердить,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796637
+    m_Localized: ' что вы хотите активировать: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796638
+    m_Localized: 'Не удалось активировать: {0}!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796639
+    m_Localized: Вещи, которые вы оставите, будут потеряны, и вы их больше не увидите. Вы уверены, что хотите уйти?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796640
+    m_Localized: Доктор Джексон пришлёт своего ассистента забрать все вещи, которые вы оставили. Вы уверены, что хотите уйти?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796641
+    m_Localized: Уйти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796642
+    m_Localized: Отмена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796643
+    m_Localized: 'Осталось попыток: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796644
+    m_Localized: 'Осталось попыток: 0 (вы не можете рыться в мусоре, когда ранены)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796645
+    m_Localized: 'Шанс получить лёгкое ранение: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796646
+    m_Localized: 'Шанс получить серьёзное ранение: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109824
+    m_Localized: Открыть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109825
+    m_Localized: Осмотреть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109826
+    m_Localized: Использовать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109827
+    m_Localized: Прочитать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109828
+    m_Localized: Употребить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109829
+    m_Localized: Активировать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109830
+    m_Localized: Распаковать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109831
+    m_Localized: Упаковать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109832
+    m_Localized: Включить/выключить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109833
+    m_Localized: Разгрузить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055920013312
+    m_Localized: Ваш водопровод сейчас подключён к канализации.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179136
+    m_Localized: Ваш водопровод сейчас подключён к сливной трубе завода.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355192635392
+    m_Localized: Ого… Вода на самом деле ещё чище!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995520
+    m_Localized: Ух ты, спасибо, буду знать.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995521
+    m_Localized: Это техническая вода. Я вижу, в ней плавают частицы.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995522
+    m_Localized: Да? Ладно, я снижу цену.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995523
+    m_Localized: Это совершенно точно канализационная жижа. Она коричневая, видите?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995524
+    m_Localized: Ну хорошо, я снижу цену.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995525
+    m_Localized: Это призрачная вода. Её трудно определить, но в таком деле невозможно быть слишком осторожным.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995526
+    m_Localized: Правда? Тогда я снижу цену.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995527
+    m_Localized: Это стандартная вода. Пытаетесь меня одурачить, что ли?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189824
+    m_Localized: Степень чистоты отличается от указанной.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189825
+    m_Localized: Ладно, я изменю цену.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189826
+    m_Localized: У меня нет денег на чистую воду.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189827
+    m_Localized: Я не могу себе позволить качественную воду.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189828
+    m_Localized: Стандартная вода? Я такое не пью!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189829
+    m_Localized: Я не пью призрачную воду…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189830
+    m_Localized: Что за бред? Я не пью техническую воду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189831
+    m_Localized: Да за кого ты меня держишь? Я эту дрянь пить не буду!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189832
+    m_Localized: Эм, нет… я это пить не буду.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359210
+    m_Localized: 'В наличии: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171502
+    m_Localized: Бесплатно раздали товары для дома!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171503
+    m_Localized: Акция помощи домохозяйствам
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171504
+    m_Localized: 'Благотворительная организация с Верхних уровней сделала щедрое пожертвование: передала базовые товары для дома жителям Нижних уровней. Некоторые по-прежнему настроены скептически и рассуждают о том, какие мотивы были у этой организации. Однако эта помощь поспособствует улучшению условий жизни людей и урегулированию растущего недовольства.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365839
+    m_Localized: (подделка)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365867
+    m_Localized: Подделка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365881
+    m_Localized: Уличный стандарт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365909
+    m_Localized: Скидка за хороший исход проверки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365923
+    m_Localized: Скидка новому клиенту
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528109809664
+    m_Localized: '[Маркировка]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083969
+    m_Localized: 'Прочность: {0} из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848249237504
+    m_Localized: Стероидная сыворотка для скота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014720
+    m_Localized: Иммунная сыворотка для скота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014721
+    m_Localized: Старая особь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014722
+    m_Localized: Взрослая особь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014723
+    m_Localized: Подросток
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014724
+    m_Localized: Детёныш
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014725
+    m_Localized: Младенец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014726
+    m_Localized: Неизвестно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014727
+    m_Localized: Самец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014728
+    m_Localized: Самка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014729
+    m_Localized: 'Возраст: {0} дн. ({1} г)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014730
+    m_Localized: 'Здоровье: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014731
+    m_Localized: 'Голод: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014732
+    m_Localized: 'Фертильность: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014733
+    m_Localized: '{0}% (стандартная: {1}%)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014734
+    m_Localized: Скорость роста
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014735
+    m_Localized: Ожидаемое количество детёнышей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014736
+    m_Localized: Иммунитет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014737
+    m_Localized: Максимальное здоровье
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014738
+    m_Localized: Продолжительность жизни
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014739
+    m_Localized: 'Скорость наступления голода:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014740
+    m_Localized: 'Беременность: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014741
+    m_Localized: ({0} из {1} дней)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209024
+    m_Localized: Труп
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209025
+    m_Localized: Голодает
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209026
+    m_Localized: Беременная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209027
+    m_Localized: Произошёл выкидыш
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209028
+    m_Localized: Стерилизованное животное
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209029
+    m_Localized: Болеет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209030
+    m_Localized: Расчёсы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209031
+    m_Localized: Особь среднего возраста
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209032
+    m_Localized: Сильный иммунитет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209033
+    m_Localized: Иммунодефицит
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209034
+    m_Localized: Перенаселённость {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164525137920
+    m_Localized: Клетка для животных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526528
+    m_Localized: Небольшая клетка для содержания животных. Выглядит не особенно уютно, но, вероятно, она всё равно лучше, чем те, в которых живут некоторые люди на Нижних уровнях.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526529
+    m_Localized: Животные
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526530
+    m_Localized: 'Прочность: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526531
+    m_Localized: '[Использовать металлолом для починки]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526532
+    m_Localized: '[Использовать слиток металла для расширения (осталось улучшений: {0})]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526533
+    m_Localized: '[Достигнут максимальный размер]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526534
+    m_Localized: '[Полностью отремонтирована]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526535
+    m_Localized: Прекрати продавать нам призрачную воду, ты нас убиваешь!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526536
+    m_Localized: Мы знаем, что ты творишь. Прекрати мошенничать с водой СЕЙЧАС ЖЕ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526537
+    m_Localized: Продолжишь продавать грязную воду — и пожалеешь об этом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526538
+    m_Localized: Как ты спишь вообще, зная, что продаёшь призрачную воду под видом питьевой?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526539
+    m_Localized: Прекрати торговать призрачной водой, или мы сами тебя остановим!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526540
+    m_Localized: Твоя фальшивая вода нас убивает! Раз так, ты следующий в очереди на смерть!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526541
+    m_Localized: Твои боеприпасы чуть меня не убили!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526542
+    m_Localized: Каждый день я прохожу мимо твоего магазина… однажды я наберусь смелости, чтобы сказать «привет».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526543
+    m_Localized: Ты меня не знаешь, но я знаю о тебе всё. Просто продолжай быть собой.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526544
+    m_Localized: Я там оставила кое-что для тебя. Просто маленький символ… признательности.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526545
+    m_Localized: 'Интересно, замечал ли ты хоть раз, как я любуюсь тобой из тени… '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526546
+    m_Localized: Одно твоё присутствие делает Нижние уровни немного светлее…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526547
+    m_Localized: Ты — единственная причина, по которой я продолжаю сюда приходить. Пожалуйста, будь осторожнее.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526548
+    m_Localized: Мой самый любимый продавец, не забудь сегодня улыбнуться!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526549
+    m_Localized: '{0} (немного)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526550
+    m_Localized: '{0} (много)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526551
+    m_Localized: '{0} (очень много)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526552
+    m_Localized: Сломано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526553
+    m_Localized: Окончательно поломанное устройство. Починить невозможно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526554
+    m_Localized: Концентрированный питательный раствор (75%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526555
+    m_Localized: Бутылка для вещества ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526556
+    m_Localized: Старая гидропонная система
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526557
+    m_Localized: Глючащий модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12846119084933120
+    m_Localized: 'Запасённые калории:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412624089088
+    m_Localized: Прионное заболевание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283392
+    m_Localized: Мясо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283393
+    m_Localized: Другое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359174
+    m_Localized: Огневая мощь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359175
+    m_Localized: Стиль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359176
+    m_Localized: Надёжность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359177
+    m_Localized: Контроль отдачи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359178
+    m_Localized: Эргономика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359179
+    m_Localized: Точность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087254
+    m_Localized: 'На ваш счёт поступила награда: {0} Кр. Благодаря вашей помощи Служба безопасности поймала преступника — это {1}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087256
+    m_Localized: 'На ваш счёт поступила награда: {0} Кр. Благодаря вашей помощи Служба безопасности поймала торговца контрабандой.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087257
+    m_Localized: 'На ваш счёт поступила награда: {0} Кр. Благодаря вашей помощи Служба безопасности поймала вора.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171461
+    m_Localized: Прибыла партия нелегального оружия!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171462
+    m_Localized: Партия нелегального оружия
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171463
+    m_Localized: Крупная партия нелегального оружия проскользнула мимо патрулей охраны и попала на Нижние уровни. Ожидается резкое увеличение доступности оружия и снижение цен.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171464
+    m_Localized: Спрос на оружие увеличился
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171465
+    m_Localized: Сообщают, что на Нижних уровнях наблюдается незначительное увеличение спроса на оружие со стороны тайных покупателей.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365760
+    m_Localized: Схвачен революционер с Нижних уровней!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365862
+    m_Localized: Канализационная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365904
+    m_Localized: Скидка на краденое IV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365905
+    m_Localized: Скидка на краденое III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365906
+    m_Localized: Скидка на краденое II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365907
+    m_Localized: Скидка на краденое I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365911
+    m_Localized: Наценка на контрабанду низкого уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365912
+    m_Localized: Наценка на контрабанду среднего уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365913
+    m_Localized: Наценка на контрабанду высокого уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365914
+    m_Localized: Наценка на контрабанду критического уровня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365920
+    m_Localized: Скидка в связи с распродажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365921
+    m_Localized: Скидка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365922
+    m_Localized: Наценка поставщика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083970
+    m_Localized: 'Требуемая работа: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083971
+    m_Localized: 'Собрано: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083986
+    m_Localized: Тяжёлые металлы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083987
+    m_Localized: Органические отходы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083988
+    m_Localized: Микропластик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083989
+    m_Localized: Микробы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083990
+    m_Localized: Химическое загрязнение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083991
+    m_Localized: Физическое загрязнение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083992
+    m_Localized: Минералы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083997
+    m_Localized: Кофеин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278280
+    m_Localized: Жиросвязывающий агент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278281
+    m_Localized: '[Закрыто]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278282
+    m_Localized: Опечатано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748402831540224
+    m_Localized: 'Осталось использований:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805506109440
+    m_Localized: Аугментирован
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805522886656
+    m_Localized: Численность аугов достигла критической точки, и теперь они действуют открыто. Ночью группа аугментированных вломилась к вам в магазин и силой установила чип аугментации. Из Службы безопасности так никто и не появился. Имплант активировался. Теперь вы — всего лишь пассажир в собственном теле.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853199155200
+    m_Localized: Вооружиться дробовиком
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853220126720
+    m_Localized: Вы не можете вооружиться дробовиком прямо сейчас.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17612012079857664
+    m_Localized: Опустошить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19813141920399360
+    m_Localized: 'На ваш счёт поступила награда: {0} Кр. Благодаря вам был ликвидирован ауг.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22771451896315904
+    m_Localized: Убийство
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26281714880659456
+    m_Localized: Жетоны ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069152714752
+    m_Localized: Особое винтажное
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269184
+    m_Localized: Выдержанное
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269185
+    m_Localized: Вино массового производства
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269186
+    m_Localized: Домашнее
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269187
+    m_Localized: Бормотуха
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269188
+    m_Localized: Непригодное для питья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32910981274058752
+    m_Localized: Один из ваших контактов сообщил, что вчера к вам в магазин заходил ауг.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712365101056
+    m_Localized: Договорная скидка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461184
+    m_Localized: Договорная наценка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461185
+    m_Localized: Результат шантажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461186
+    m_Localized: Договорная наценка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461187
+    m_Localized: Договорная скидка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461188
+    m_Localized: Результат угрозы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691844919296
+    m_Localized: Начать брожение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890816
+    m_Localized: Идёт брожение…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890817
+    m_Localized: Ингредиент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890818
+    m_Localized: Недостаточно ингредиентов для начала брожения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890819
+    m_Localized: Недостаточно воды для начала брожения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890820
+    m_Localized: 'Возраст: {0} дн.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890821
+    m_Localized: Идёт брожение… До конца осталось {0} дн.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925092061184
+    m_Localized: Условия всегда будут приняты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170048
+    m_Localized: 'Шанс принятия: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170049
+    m_Localized: 'Шанс отказа: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170050
+    m_Localized: 'Шанс, что клиент уйдёт: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170051
+    m_Localized: При работе со сделкоделом +{0}% к шансу того, что предложение будет принято.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113908625408
+    m_Localized: Открыв это, вы получите химикаты, которые невозможно будет продать. Вы уверены, что хотите это сделать?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113992511488
+    m_Localized: Можно изменить внешний вид этого предмета.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732093977280512
+    m_Localized: Эта вода уже стандартная или ещё лучше.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732094002446336
+    m_Localized: В очистителе недостаточно заряда для очистки такого количества воды.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43763292053487616
+    m_Localized: Вы получили сообщение от Службы безопасности, что сегодня к вам в магазин, вероятно, придёт ауг.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826371
+    m_Localized: 'Требуемая работа:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826372
+    m_Localized: 'Требуется:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45488749983612928
+    m_Localized: '[Соответствие]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427832188928
+    m_Localized: 'Цель послания: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427878326272
+    m_Localized: Выполните двойной щелчок, чтобы выбрать нового адресата послания.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48380974841249792
+    m_Localized: Хлам
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826370
+    m_Localized: 'Состояние: работает'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826373
+    m_Localized: Вода неизвестного качества
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48476019179175936
+    m_Localized: Со временем ценность этого возрастает.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43370373127651328
+    m_Localized: Предметы, добавленные на витрину после начала дня, ни на что не повлияют до следующего дня. Заполняйте витрину до открытия магазина.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56007818054778880
+    m_Localized: 'Требуемые предметы:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365851
+    m_Localized: Идеальная чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365852
+    m_Localized: Очень высокая чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365853
+    m_Localized: Высокая чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365854
+    m_Localized: Достаточная чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365855
+    m_Localized: Низкая чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365856
+    m_Localized: Очень низкая чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365889
+    m_Localized: Чистота металла в слитке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6348201574400
+    m_Localized: заглушка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360965
+    m_Localized: Химический модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360966
+    m_Localized: Исходные материалы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360967
+    m_Localized: Контейнер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360968
+    m_Localized: Управление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360969
+    m_Localized: Запуск
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360970
+    m_Localized: 'Потеряно содержимого: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360971
+    m_Localized: Химический модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360972
+    m_Localized: Контейнер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360973
+    m_Localized: Выход продукции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360974
+    m_Localized: Панель управления
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360975
+    m_Localized: Настроить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360976
+    m_Localized: Запуск
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360977
+    m_Localized: Не выбран конечный продукт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360978
+    m_Localized: 'Внесено загрязнителей: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360988
+    m_Localized: Батарея
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360989
+    m_Localized: Модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360990
+    m_Localized: Контейнер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360991
+    m_Localized: Дистиллят
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360992
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360998
+    m_Localized: Химический модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360999
+    m_Localized: Термоплита
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361000
+    m_Localized: Температура
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361001
+    m_Localized: Управление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361002
+    m_Localized: Целевая температура
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361003
+    m_Localized: выкл.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361004
+    m_Localized: низко
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361005
+    m_Localized: высоко
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361006
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361007
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361009
+    m_Localized: Н/Д
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361010
+    m_Localized: Нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361011
+    m_Localized: 'Макс. температура: {0}°C, '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361012
+    m_Localized: 'Скорость нагрева: медленно'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361013
+    m_Localized: 'Скорость нагрева: быстро'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361014
+    m_Localized: 'Скорость нагрева: очень быстро'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361042
+    m_Localized: Питание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361043
+    m_Localized: Модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361044
+    m_Localized: Исходные материалы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361045
+    m_Localized: Чип
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361046
+    m_Localized: Выход продукции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361047
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361048
+    m_Localized: Батарея
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361049
+    m_Localized: Модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361050
+    m_Localized: Вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361051
+    m_Localized: Отсек для семян
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361052
+    m_Localized: Выход продукции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361053
+    m_Localized: Примечание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361054
+    m_Localized: Недостаточно воды и энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361055
+    m_Localized: Недостаточно энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361056
+    m_Localized: Недостаточно воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361057
+    m_Localized: Идёт запуск...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361058
+    m_Localized: Ожидается внесение семян
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361059
+    m_Localized: Идёт выращивание...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361060
+    m_Localized: 'Состояние: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361062
+    m_Localized: 'Состояние: Готово.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361063
+    m_Localized: 'Выращивается: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361074
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361075
+    m_Localized: Содержимое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361076
+    m_Localized: Управление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361077
+    m_Localized: Центральный блок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361078
+    m_Localized: '{0} {0:plural:кредит|кредита|кредитов}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361079
+    m_Localized: Переместить всё
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361080
+    m_Localized: Торговый автомат будет продавать товары с фиксированной наценкой независимо от текущих событий.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361081
+    m_Localized: Определённые виды товаров охотнее покупают из торговых автоматов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361082
+    m_Localized: Можно увеличить привлекательность, использовав для этого электронные компоненты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361083
+    m_Localized: Можно увеличить вместимость, использовав для этого слиток металла.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361084
+    m_Localized: 'Текущая привлекательность: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361085
+    m_Localized: Источник энергии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361086
+    m_Localized: Бак для стандартной воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361087
+    m_Localized: Бак для качественной воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361088
+    m_Localized: Бак для чистой воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361089
+    m_Localized: Управление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361090
+    m_Localized: Центральный блок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361091
+    m_Localized: Можно увеличить привлекательность, использовав для этого электронные компоненты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915592
+    m_Localized: '[СКРЫТО] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915593
+    m_Localized: '[ВАЖНО] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915594
+    m_Localized: '[РЕПУТАЦИЯ] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915595
+    m_Localized: 'Обменная ценность предмета: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915596
+    m_Localized: 'Общая обменная ценность: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359180
+    m_Localized: Размер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359181
+    m_Localized: С глушителем
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359182
+    m_Localized: 'Оптимальный диапазон питательных веществ: {0}-{1}% минералов'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359183
+    m_Localized: 'Потребление минералов: {0} мл на стадию роста'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359184
+    m_Localized: 'Чувствительность к загрязнениям: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359185
+    m_Localized: 'Использование воды: {0} мл в день'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359186
+    m_Localized: 'Качество жизни растения: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359187
+    m_Localized: Средняя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359188
+    m_Localized: Очень высокая
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359189
+    m_Localized: Повышенная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359190
+    m_Localized: Немного повышенная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359191
+    m_Localized: Значительно сниженная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359192
+    m_Localized: Сниженная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359193
+    m_Localized: Немного сниженная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359194
+    m_Localized: Полностью отсутствует
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359195
+    m_Localized: Неизвестно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359196
+    m_Localized: '[Готов к новому заказу]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359197
+    m_Localized: '[Через {0} день]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359198
+    m_Localized: '[Через {0} {0:plural:день|дня|дней}]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359199
+    m_Localized: Неизвестно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359200
+    m_Localized: 'Требуемый объём: {0} мл'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359201
+    m_Localized: Нельзя использовать влажные ингредиенты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359204
+    m_Localized: 'Заказчик: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359206
+    m_Localized: Остался {0} день
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359207
+    m_Localized: '{0:plural:Остался {} день|Осталось {} дня|Осталось {} дней}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359208
+    m_Localized: -{0} {0:plural:кредит|кредита|кредитов}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359209
+    m_Localized: -{0} от репутации во фракции «{1}»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359211
+    m_Localized: 'Получить весь выигрыш по лотерейным билетам: {0} {0:plural:кредит|кредита|кредитов}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087253
+    m_Localized: Отчёт об инциденте
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087259
+    m_Localized: "\n<i>Ваша репутация во фракции «{0}» снизилась.</i>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087260
+    m_Localized: ' Вы пожаловались в Службу безопасности на невиновного человека. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087261
+    m_Localized: ' Вам назначили штраф: {0} {0:plural:кредит|кредита|кредитов}. Деньги были сняты с вашего счёта. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087262
+    m_Localized: ' Следующая жалоба на невиновного приведёт к вашему аресту. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087263
+    m_Localized: ' Если вы продолжите ложно обвинять невиновных, это может иметь серьёзные последствия. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171456
+    m_Localized: Плата за ипотеку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171457
+    m_Localized: Визит Картеля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171458
+    m_Localized: Война банд на Нижних уровнях!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171459
+    m_Localized: На Нижних уровнях идёт война банд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171460
+    m_Localized: Враждующие банды объявили друг другу войну! На Нижних уровнях вспыхнули стычки и перестрелки. Ожидается повышенный спрос на медицинские принадлежности.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171466
+    m_Localized: Активность революционеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171467
+    m_Localized: На Нижних уровнях зафиксирована активная деятельность революционеров. Революционные ячейки завершают подготовку к крупной операции. Ожидается резкий рост цен на оружие, медицинские принадлежности и броню.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171468
+    m_Localized: Налёты революционеров на Верхние уровни!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171469
+    m_Localized: Революционеры совершают налёты на Верхние уровни
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171470
+    m_Localized: Революционеры совершают дерзкие набеги на Верхние уровни. Они грабят дома и организации, а потом продают награбленное на Нижних уровнях, чтобы финансировать свою деятельность. Ожидается увеличение предложения товаров для дома.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171471
+    m_Localized: Налёт революционеров на Службу безопасности!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171472
+    m_Localized: Революционеры совершили налёт на Службу безопасности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171473
+    m_Localized: Революционеры напали на крупный пост Службы безопасности на Нижних уровнях. Столкновения привели к потерям с обеих сторон, также под перекрёстный огонь попали жители Нижних уровней. В результате спрос на медицинские принадлежности увеличился, а влияние Службы безопасности ослабло.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171474
+    m_Localized: Служба безопасности усиливает патрули!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171475
+    m_Localized: Расширенные маршруты патрулей и новые КПП
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171476
+    m_Localized: Служба безопасности временно расширила патрулирование и установила новые контрольно-пропускные пункты на Нижних уровнях. Деятельность революционеров и чёрного рынка удалось немного пресечь, благодаря чему на Нижние уровни хотя бы частично вернулся порядок.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171477
+    m_Localized: Массовые проверки на станции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171478
+    m_Localized: В ответ на растущую обеспокоенность по поводу усиления активности на чёрном рынке и наплыва нелегальных товаров на станцию командование объявило о масштабной борьбе с контрабандой. С сегодняшнего дня во всех секторах будут проводиться более строгие проверки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171479
+    m_Localized: Рейд на чёрный рынок!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171480
+    m_Localized: Служба безопасности устроила облаву на чёрном рынке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171481
+    m_Localized: Служба безопасности провела внезапный рейд на основные центры чёрного рынка. Было изъято большое количество оружия и наркотиков, что осложнило незаконную торговлю.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171482
+    m_Localized: Вскрыто логово революционеров!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171483
+    m_Localized: Облава на революционеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171484
+    m_Localized: Служба безопасности провела обыск в недавно открытом убежище революционеров. Аресты и конфискации ослабили революционное движение.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171485
+    m_Localized: Объявлено военное положение!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171486
+    m_Localized: Военное положение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171487
+    m_Localized: В связи с недавними событиями на Нижних уровнях объявлено военное положение. Введён комендантский час, установлены контрольно-пропускные пункты, ведётся повсеместное видеонаблюдение. Деятельность революционеров и чёрного рынка подавлена.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171488
+    m_Localized: Увеличение бюджета Службы безопасности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171489
+    m_Localized: Командование значительное увеличивает бюджет Службы безопасности, благодаря чему будут начаты дополнительные операции.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171490
+    m_Localized: Начались беспорядки!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171491
+    m_Localized: Беспорядки на Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171492
+    m_Localized: В результате недавних событий толпы жителей Нижних уровней устроили жестокие беспорядки. Они грабят магазины и атакуют посты Службы безопасности. Повсюду быстро распространяется хаос. Спрос на продукты питания и оружие очень высок.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171493
+    m_Localized: Рабочие бастуют!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171494
+    m_Localized: Забастовка рабочих
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171495
+    m_Localized: В связи с недавними событиями недовольные рабочие с Нижних уровней объявили забастовку. Происходят перебои с поставками продуктов питания и воды.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171496
+    m_Localized: Раздача лекарств и медицинская помощь!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171497
+    m_Localized: Благотворительная медицинская помощь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171498
+    m_Localized: Благотворительные организации с Верхних уровней отправили дополнительный медицинский персонал и медикаменты на Нижние уровни. Хотя некоторые жители по-прежнему настроены скептически, эти усилия позволяют снизить общественную напряжённость.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171499
+    m_Localized: Раздача еды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171500
+    m_Localized: Благотворительная раздача продуктов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171501
+    m_Localized: 'Командование совершило редкий жест доброй воли: распределило пайки и продуктовые наборы во множестве мест на Нижних уровнях. Эта инициатива снижает напряжение в обществе, но некоторые всё-таки считают, что это, скорее, инструмент пропаганды.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171505
+    m_Localized: Розыгрыш лотереи!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171506
+    m_Localized: Очередной розыгрыш лотереи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171507
+    m_Localized: 'Выигрышные числа: {0}. Если в вашем билете есть хотя бы 3 из них, вы выиграли приз! Получить его можно у представителя лотереи. Желаем удачи!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365761
+    m_Localized: В ходе молниеносной операции Службы безопасности станции был задержан Артур Лафлёр — известный активист и бывший лидер мятежников, которые неоднократно, но безуспешно пытались устроить революцию на Нижних уровнях.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365840
+    m_Localized: (непригодно для использования)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365841
+    m_Localized: (срок годности истёк)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365842
+    m_Localized: Бесплатно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365843
+    m_Localized: Нормальное состояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365844
+    m_Localized: Истёк срок годности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365845
+    m_Localized: Срок годности не истёк
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365846
+    m_Localized: Есть вмятина
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365847
+    m_Localized: (Скрыто)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365848
+    m_Localized: Упаковка открыта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365849
+    m_Localized: Есть печать изготовителя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365850
+    m_Localized: Ржавчина
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365863
+    m_Localized: Очень свежее
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365864
+    m_Localized: Свежее
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365865
+    m_Localized: Лежалое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365866
+    m_Localized: Испортилось
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365869
+    m_Localized: Непригодно для использования
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365870
+    m_Localized: Застряло
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365871
+    m_Localized: Новое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365872
+    m_Localized: Отличное состояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365873
+    m_Localized: Хорошее состояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365874
+    m_Localized: Сносное состояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365875
+    m_Localized: Плохое состояние
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365876
+    m_Localized: Реплика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365877
+    m_Localized: В рабочем состоянии
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365878
+    m_Localized: Лабораторная чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365879
+    m_Localized: Фармацевтическая чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365880
+    m_Localized: Аптечная чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365882
+    m_Localized: Разведённое вещество
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365883
+    m_Localized: Низкая чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365884
+    m_Localized: Почти крахмал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365885
+    m_Localized: Упаковка открыта?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365886
+    m_Localized: Наличие ржавчины
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365887
+    m_Localized: Срок годности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365888
+    m_Localized: Состояние упаковки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365891
+    m_Localized: Свежесть продукта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365895
+    m_Localized: Состояние модуля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365896
+    m_Localized: Бесплатный предмет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365897
+    m_Localized: Химическая чистота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365898
+    m_Localized: Скидка от клиента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365900
+    m_Localized: Бонус автомата по продаже воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365901
+    m_Localized: «Пожертвование»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365908
+    m_Localized: Негативное влияние зависимости на умение торговаться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365915
+    m_Localized: Наценка на ограниченные товары I класса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365916
+    m_Localized: Наценка на ограниченные товары II класса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365917
+    m_Localized: Наценка на ограниченные товары III класса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365918
+    m_Localized: Скидка поставщика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365919
+    m_Localized: Чаевые
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365924
+    m_Localized: Бонус, который покупатель даёт за разнообразие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365925
+    m_Localized: Туристический налог
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365926
+    m_Localized: Застрявший модуль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586898
+    m_Localized: Выпуск №{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090714495401984
+    m_Localized: Место производства и упаковки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083973
+    m_Localized: 'Состояние: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083976
+    m_Localized: 'Общий объём: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083977
+    m_Localized: 'Токсичность: летально'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083978
+    m_Localized: 'Токсичность: токсично'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083979
+    m_Localized: 'Эйфория: слабая'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083980
+    m_Localized: 'Эйфория: средняя'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083981
+    m_Localized: 'Эйфория: сильная'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083982
+    m_Localized: 'Эйфория: очень сильная'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083983
+    m_Localized: 'Средство против зависимостей: да'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083984
+    m_Localized: 'Противозачаточное: да'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083993
+    m_Localized: Паста из сонников
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083994
+    m_Localized: Экстракт сонников
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083995
+    m_Localized: Растительная масса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083996
+    m_Localized: Алкоголь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083998
+    m_Localized: Протеины
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083999
+    m_Localized: Жир или масло
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084000
+    m_Localized: Крахмал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084001
+    m_Localized: Сахар
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084002
+    m_Localized: Паста из кофейных зёрен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084003
+    m_Localized: Гормональные противозачаточные
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084004
+    m_Localized: Зианид
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084005
+    m_Localized: Экстракт кошмарников
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084006
+    m_Localized: Паста из кошмарников
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084007
+    m_Localized: Хлор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278272
+    m_Localized: Синапрест
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278273
+    m_Localized: Фента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278274
+    m_Localized: N-метилоловое основание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278275
+    m_Localized: Восстановитель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278276
+    m_Localized: Кислота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278277
+    m_Localized: Щёлочь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278278
+    m_Localized: Стабилизатор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278279
+    m_Localized: Нерастворимый осадок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796609
+    m_Localized: Вас арестовали
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796610
+    m_Localized: Служба безопасности арестовала вас и посадила в тюрьму за преступления против станции. Пока вы отбывали наказание, ваш магазин сдали в аренду другому человеку. После освобождения, потеряв магазин, вы вернулись к жизни нищего мусорщика.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796611
+    m_Localized: Вас казнили
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796612
+    m_Localized: Служба безопасности арестовала и казнила вас за тяжкие преступления против станции. После вашей казни магазин сдали в аренду другому человеку. Бывшие клиенты быстро забыли о вас, и со временем на станции от вас не осталось ни следа.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796613
+    m_Localized: Вы выкупили магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796614
+    m_Localized: Вы подписываете договор, и тут же с ваших плеч спадает бремя арендной платы, а стоявшая за ними неумолимая тень арендодателя растворяется без следа. Магазин ваш, целиком и полностью — с трудом завоёванная победа в мире, который никогда не был к вам добр. Впервые вы сами управляете своим будущим, руководствуясь лишь собственными амбициями.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796615
+    m_Localized: Вы подписываете оставшиеся документы, и тут же цепь, на которой вас держал ростовщик, разрывается. Магазин теперь и правда ваш — без угрозы конфискации, без необходимости жить и работать в тени преступного мира. Вы преодолели все трудности, выжили и вышли победителем. Будущее в ваших руках.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796616
+    m_Localized: У вас отобрали магазин за долги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796617
+    m_Localized: Это конец пути. У вас отбирают магазин, и вы чувствуете, как всё, за что вы боролись, ускользает сквозь пальцы. Холодная хватка ростовщика сжимается — и так же, как вам кажется, сжимаются стены вокруг вас. Вы остались бездомным банкротом — горьким напоминанием для других о том, как быстро можно всё потерять в этом безжалостном мире.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796618
+    m_Localized: Вас линчевали
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796619
+    m_Localized: Вы слишком много раз причиняли вред жителям Нижних уровней, и после очередного вашего проступка разъярённая толпа ворвалась к вам в магазин. Они забрали всё, что там было, а вас выбросили в космос через шлюз. Таково правосудие на Нижних уровнях.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796620
+    m_Localized: Вас подставили
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796621
+    m_Localized: Служба безопасности арестовала вас по сфабрикованным обвинениям. Магазин конфисковали и продали, чтобы оплатить крупный штраф. Вас отпустили через несколько недель, но магазина уже давно не было. Вы вернулись к жизни нищего мусорщика.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796622
+    m_Localized: К вам подослали наёмного убийцу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796623
+    m_Localized: Вы слишком много раз причиняли вред жителям Верхних уровней. Представители элиты наняли киллера, чтобы избавить свою станцию от вас раз и навсегда.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796624
+    m_Localized: Вы умерли от синдрома коллапса Сентинеля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796625
+    m_Localized: Вы пропустили слишком много инъекций Иммунивакса, и ваша иммунная система окончательно ополчилась против вашего тела. Но на самом деле вас убила не болезнь, вы сами довели себя до этого.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796626
+    m_Localized: Вас взорвали
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796627
+    m_Localized: После того как вас объявили врагом революции, в вашем магазине заложили бомбу. Взрыв разрушил магазин и убил вас. Руины вашего магазина послужили предупреждением тем, кто мог бы осмелиться противостоять революционерам.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796628
+    m_Localized: Вас отстранили от дел
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796629
+    m_Localized: Картель решил, что вы больше не нужны. Вас отстранили от дел.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796630
+    m_Localized: Вы остались без разрешения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796631
+    m_Localized: Вам не удалось получить разрешение на торговлю, и вы были вынуждены закрыть свой магазин.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179137
+    m_Localized: Критически важный ремонт Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179138
+    m_Localized: Метеорный поток повредил несколько участков на Нижних уровнях. Мы закрыли прилегающие зоны и начали ремонтировать повреждения, но работы продвигаются медленно из-за нехватки материалов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179139
+    m_Localized: Инженеры Нижних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179140
+    m_Localized: Ремонт бассейна на Верхних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179141
+    m_Localized: Общественный бассейн Верхних уровней был повреждён метеоритным потоком. И в любом случае его планировали ремонтировать. Мы заинтересованы в покупке припасов для ремонта, чтобы ускорить этот процесс.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179142
+    m_Localized: Менеджер по работе с сообществом Верхних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179143
+    m_Localized: Медицинские припасы для благотворительной клиники Нижних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179144
+    m_Localized: У нас закончились запасы. Из-за нехватки медикаментов многие люди остались без надлежащего лечения. Любая помощь будет очень кстати.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179145
+    m_Localized: Благотворительная клиника Нижних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179146
+    m_Localized: Медицинские припасы для больницы Верхних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179147
+    m_Localized: У нас задержки с поставкой жизненно важных медикаментов. Хотя у нас ещё есть запасы, мы готовы заплатить дополнительно, чтобы создать резерв медицинских принадлежностей.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179148
+    m_Localized: Больница Верхних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179149
+    m_Localized: Медицинские припасы для чёрного рынка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179150
+    m_Localized: С таким дефицитом мы скупаем все запасы, чтобы ещё больше поднять цены! Достань нам товар, и тебе щедро заплатим.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179151
+    m_Localized: Подозрительный торговец
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179152
+    m_Localized: Материалы для строительства на Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179153
+    m_Localized: На Нижних уровнях ведётся строительство нового жилого блока, но обеспечение материалами оказалось проблемой. Нам необходимы материалы, чтобы проект продолжал продвигаться вперёд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179154
+    m_Localized: Строитель с Нижних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179155
+    m_Localized: Поставки стройматериалов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179156
+    m_Localized: Спрос на стройматериалы растёт, и мы намерены контролировать поставки. Достань нам материалы раньше других, и мы хорошо заплатим.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179157
+    m_Localized: Подозрительный брокер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179158
+    m_Localized: Запасы для столовой для нуждающихся на Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179159
+    m_Localized: После недавних событий многие остались в нужде. Мы не можем много заплатить, но обязательно расскажем всем о вашей доброте.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179160
+    m_Localized: Координатор столовой для нуждающихся
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179161
+    m_Localized: Пропал ящик для вещдоков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179162
+    m_Localized: Пропал ящик с важными уликами. Нам нужно вернуть его как можно скорее, без лишних вопросов. Доставьте его быстро, и получите соответствующую компенсацию.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179163
+    m_Localized: Глава Службы безопасности на Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179164
+    m_Localized: Украден ящик с вещдоками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179165
+    m_Localized: В недавно украденном ящике с вещественными доказательствами содержится компромат на моего клиента. Мы готовы заплатить дополнительно, если получим его раньше, чем его вернёт себе Служба безопасности или заберёт ещё кто-нибудь похуже.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179166
+    m_Localized: Неизвестный заказчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179167
+    m_Localized: Ячейка революционеров «Тень»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179168
+    m_Localized: Золотой отряд революционеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179169
+    m_Localized: Ячейка революционеров «Орёл»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179170
+    m_Localized: Штаб-квартира революционеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179171
+    m_Localized: Ячейка революционеров «Альфа»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179172
+    m_Localized: Ячейка революционеров «Тета»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179173
+    m_Localized: Александра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179174
+    m_Localized: Джордан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179175
+    m_Localized: Тейлор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179176
+    m_Localized: Луи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179177
+    m_Localized: Харун
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179178
+    m_Localized: Ким
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179179
+    m_Localized: Заказ закусок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179180
+    m_Localized: Нужны закуски на день рождения друга. Извините, что не успели заказать вовремя, опаздываем.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179181
+    m_Localized: Закуска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179182
+    m_Localized: Заказ металлолома
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179183
+    m_Localized: Нужен металлолом для постройки нового сада. Старый совсем обветшал.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179184
+    m_Localized: Подарок на новоселье
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179185
+    m_Localized: Мы тут решили собраться, отметить новоселье друга, ищем ему подарок.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179186
+    m_Localized: Подарок на новоселье
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179187
+    m_Localized: Заказ мясных консервов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179188
+    m_Localized: Мы запасаемся продуктами для пикника в саду, лучше всего такими, которые не портятся. Идеальный вариант — мясные консервы.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179189
+    m_Localized: Об этом попросил один из наших клиентов. Мы хорошо заплатим.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179190
+    m_Localized: Представитель Верхних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179191
+    m_Localized: Мы собираем вещи на благотворительность, чтобы помочь нуждающимся на Нижних уровнях. Будем благодарны за любую помощь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179192
+    m_Localized: Организатор благотворительных мероприятий с Верхних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179193
+    m_Localized: Припасы для рабочих
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179194
+    m_Localized: Нужно что-нибудь, чтобы пережить эти долгие смены.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179195
+    m_Localized: Рабочий с Нижних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179196
+    m_Localized: Туалетная бумага для Джорджио.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179197
+    m_Localized: Джорджио нужна туалетная бумага для коллекции.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179198
+    m_Localized: Джорджио
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179199
+    m_Localized: Топорик для мяса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179200
+    m_Localized: Нужен новый топорик. Старый затупился.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179201
+    m_Localized: Анонимный заказчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179202
+    m_Localized: Пиво для бригады уборщиков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179203
+    m_Localized: Моя команда усердно работала. Пора бы отдохнуть. Достань мне пива «Красный бес».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179204
+    m_Localized: Сойер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179205
+    m_Localized: Батончики Li-Eat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179206
+    m_Localized: Мои любимые батончики везде закончились. Достаньте мне парочку, и я хорошо заплачу.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179207
+    m_Localized: Офицер Лунь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179208
+    m_Localized: Лом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179209
+    m_Localized: Кое-кто убирался самостоятельно, без нашего разрешения. Мы должны показать, что за это бывает.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179210
+    m_Localized: Энергетики
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179211
+    m_Localized: Нужны энергетики, чтоб не спать. Должен закончить эксперименты!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179212
+    m_Localized: Д-р Джексон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179213
+    m_Localized: Особый заказ от арендодателя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179214
+    m_Localized: Один из моих арендаторов постоянно просит меня починить дверь. Просто достаньте мне металлолома, и я посмотрю, что смогу сделать.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179215
+    m_Localized: Арендодатель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179216
+    m_Localized: Особый заказ от арендодателя 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179217
+    m_Localized: Один надоедливый арендатор постоянно просит меня починить вентиляцию. Наверное я просто подниму на следующей неделе арендную плату, и всё.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179218
+    m_Localized: Особый заказ от арендодателя 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179219
+    m_Localized: В одном из моих зданий разбилось окно, выходящее на улицу. Просто заделаю его какой-нибудь тканью.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179220
+    m_Localized: Вечеринка с барбекю в честь выхода на пенсию
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179221
+    m_Localized: Мы организовываем славную вечеринку с барбекю в честь выхода офицера Буше на пенсию.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179222
+    m_Localized: Корм для питомца
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179223
+    m_Localized: Достаньте мне настоящего сырого мяса, свежего, необработанного. Для моего любимца — только самое лучшее.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179224
+    m_Localized: Важный человек с Верхних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179225
+    m_Localized: Детское питание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179226
+    m_Localized: 'Не могу поверить: из всего, что можно найти на Нижних уровнях, единственная достаточно приличная и питательная еда, которую можно давать младенцам, — это паста «Галактика». Помогите мне её раздобыть.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179227
+    m_Localized: Мать с Нижних уровней
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189833
+    m_Localized: Не может такого быть,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189834
+    m_Localized: это слишком дорого.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189835
+    m_Localized: это слишком дёшево.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189836
+    m_Localized: Передо мной человек, который явно не понимает, что делает.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189837
+    m_Localized: Я ухожу.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189838
+    m_Localized: '{0} оценка'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189839
+    m_Localized: "Получена комиссия за оценку: \n{0} {0:plural:кредит|кредита|кредитов} ({1}%)\n{2} {0:plural:кредит|кредита|кредитов} (базовая комиссия)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189840
+    m_Localized: Купон с информацией об оценке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189841
+    m_Localized: Идеальная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189842
+    m_Localized: Отличная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189843
+    m_Localized: Хорошая
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189844
+    m_Localized: Посредственная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189845
+    m_Localized: Ужасная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189846
+    m_Localized: Да, это прямо идеально!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189847
+    m_Localized: Спасибо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189848
+    m_Localized: М-м, понятно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189849
+    m_Localized: Ниже ожидаемого.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189850
+    m_Localized: Угу, похоже на правду.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189851
+    m_Localized: Немного ниже ожидаемого.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189852
+    m_Localized: Да, звучит неплохо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189853
+    m_Localized: Да, звучит отлично.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189854
+    m_Localized: Выше ожидаемого.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189855
+    m_Localized: Немного выше ожидаемого.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174125625344
+    m_Localized: Планка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596864
+    m_Localized: Ствол
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596865
+    m_Localized: Магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596866
+    m_Localized: Подствольник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596867
+    m_Localized: Ложа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596868
+    m_Localized: Особая модификация 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596869
+    m_Localized: Особая модификация 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596870
+    m_Localized: Особая модификация 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382631989559296
+    m_Localized: Рецепт не выбран
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530816
+    m_Localized: Обнаружен влажный ингредиент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530817
+    m_Localized: Недостаточно реагента
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084774883328
+    m_Localized: Здесь продают <b>{0}</b>, я [g:купил|купила], а толку ноль — безвреднее воды!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437760
+    m_Localized: Здесь продают <b>{0}</b>, я [g:купил|купила], но результата не [g:добился|добилась] — слабовато средство оказалось!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437761
+    m_Localized: Моя цель до сих пор жива.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437762
+    m_Localized: А ещё он от этого кайф словил!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437763
+    m_Localized: Что за <b>{0}</b> здесь продают?! Я чуть не [g:откинулся|откинулась]!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437764
+    m_Localized: Какого хрена, чувак?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437765
+    m_Localized: '<b>{0}</b> — это ты продал моему другу эту дрянь! И теперь он мёртв!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437766
+    m_Localized: Ты за это заплатишь!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437767
+    m_Localized: Я [g:думал|думала], что покупаю <b>{0}</b>, а [g:купил|купила] пустышку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437768
+    m_Localized: Теперь я беременна!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437769
+    m_Localized: Теперь она беременна!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437770
+    m_Localized: Я [g:думал|думала], что покупаю <b>{0}</b>, а [g:купил|купила] пустышку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437771
+    m_Localized: Я как [g:торчал|торчала], так и торчу!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437772
+    m_Localized: Хуже того, я когда эту дрянь [g:поюзал, тоже кайф словил|поюзала, тоже кайф словила]!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437773
+    m_Localized: А я на это кучу денег [g:потратил, которые долго копил|потратила, которые долго копила]!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437774
+    m_Localized: '<b>{0}</b> из этого магазина — какая-то лажа! Никакого эффекта.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437775
+    m_Localized: Там хоть капля настоящей наркоты была, а?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437776
+    m_Localized: Меня вообще не вставило.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437777
+    m_Localized: '<b>{0}</b> из этого магазина — полная ерунда! Эффект очень слабый.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437778
+    m_Localized: Я почти ничего не [g:почувствовал|почувствовала].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437779
+    m_Localized: Это лекарство, как его, <b>{0}</b>, — не особо помогло!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437780
+    m_Localized: Слабовато средство оказалось.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437781
+    m_Localized: А ещё я после него себя странно [g:чувствовал|чувствовала]…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437782
+    m_Localized: Мне здесь продали <b>{0}</b>, и что-то с этим веществом не так. Не могу точно сказать..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826368
+    m_Localized: Меня здесь развели, продали <b>{0}</b>!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826369
+    m_Localized: Чистота была весьма далеко от обещанной!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60693662015471616
+    m_Localized: Винный экстракт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479060475904
+    m_Localized: Можно улучшить с помощью обычной электроники, чтобы открыть встроенный мусоросжигатель.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418944
+    m_Localized: 'Мусоросжигатель: включён'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418945
+    m_Localized: 'Мусоросжигатель: выключен'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418946
+    m_Localized: После уборки сжигает все собранные экскременты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62159031347494912
+    m_Localized: Последнее сканирование
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62538283863556096
+    m_Localized: 'Забито животных: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240793124864
+    m_Localized: Напечатать бутылку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319168
+    m_Localized: Напечатать большую бутылку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319169
+    m_Localized: 'Печатает маленькую бутылку для воды: {0} ед. энергии'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319170
+    m_Localized: 'Печатает бутылку для воды: {0} ед. энергии'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319171
+    m_Localized: 'Печатает большую бутылку для воды: {0} ед. энергии'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319172
+    m_Localized: 'Улучшения (обычными электронными компонентами): {0} из {1} '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923241672704
+    m_Localized: Взять
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421440
+    m_Localized: Отсек {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421441
+    m_Localized: Заблокирован
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421442
+    m_Localized: 'Отсеков разблокировано: {0} из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421443
+    m_Localized: Используйте металлолом для улучшения.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392552988327936
+    m_Localized: Вы получили {0} {0:plural:кредит|кредита|кредитов}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392553026076672
+    m_Localized: Дважды щёлкните, чтобы получить выигрыш
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049709674496
+    m_Localized: Сортировать сверху вниз, слева направо, начиная с больших предметов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617536
+    m_Localized: Сортировать сверху вниз, слева направо, начиная с маленьких предметов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617537
+    m_Localized: Сортировать снизу вверх, справа налево, начиная с больших предметов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617538
+    m_Localized: Сортировать снизу вверх, справа налево, начиная с маленьких предметов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984083615744
+    m_Localized: Охлаждённое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170176
+    m_Localized: Замороженное
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170177
+    m_Localized: Ледяное
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074797178880
+    m_Localized: Холодильная камера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733312
+    m_Localized: Морозильник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733313
+    m_Localized: '<b>Вставить</b> объект «{0}» в предмет «{1}»'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733314
+    m_Localized: '<b>Вставить</b> {0} в {2} ({1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733315
+    m_Localized: '<b>Отдать</b> {0} ({1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733316
+    m_Localized: Невозможно вставить объект «{0}» в предмет «{1}»!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733317
+    m_Localized: Нельзя отдать {0} ({1})!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733318
+    m_Localized: '<b>Использовать</b> объект «{0}» на предмете «{1}»'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733319
+    m_Localized: Невозможно использовать объект «{0}» на предмете «{1}»!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733320
+    m_Localized: '<b>Разобрать</b> предмет «{0}»'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733321
+    m_Localized: '<b>Попытаться отремонтировать</b> предмет «{0}» (шанс успеха: {1}%)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733322
+    m_Localized: 'Улучшения:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733323
+    m_Localized: 'Объём (требуется {0}): {1} из {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733324
+    m_Localized: 'Эффективность (требуется {0}): {1} из {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73440099060989952
+    m_Localized: Лучше сразу убрать всё с прилавка, чтобы хватило места положить всё, что вы можете принести. Вы уверены, что хотите уйти, оставив вещи на прилавке?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73448114220744704
+    m_Localized: '{0} ({1}% к цене)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849913851904
+    m_Localized: Записка с информацией
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823424
+    m_Localized: Информация
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823425
+    m_Localized: '{0} — начнётся через {1} {1:plural:день|дня|дней}, продлится {2} {2:plural:день|дня|дней}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823426
+    m_Localized: '{0} — начнётся сегодня, продлится {1} {1:plural:день|дня|дней}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499588513792
+    m_Localized: '{0} за одно сканирование'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456832
+    m_Localized: Готов к сканированию
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456833
+    m_Localized: ОБНАРУЖЕН АУГ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456834
+    m_Localized: Ауг не обнаружен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203698147328
+    m_Localized: Расписка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507456
+    m_Localized: Джорджио должен владельцу магазина {0} {0:plural:кредит|кредита|кредитов}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507457
+    m_Localized: Джорджио всё вернёт с процентами.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507458
+    m_Localized: '- Джорджио'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75956810117070848
+    m_Localized: '{2} ({0}) — {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065948909568
+    m_Localized: Фильтры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464000
+    m_Localized: Дозатор корма
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464001
+    m_Localized: Бак
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464002
+    m_Localized: Перемешать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464003
+    m_Localized: Нет бака для воды.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464004
+    m_Localized: 'В системе: {0} мл воды. Должно быть: {1} мл'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464005
+    m_Localized: 'Загрязнители: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464006
+    m_Localized: 'Живой рыбы и кладок икры: {0} шт.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464007
+    m_Localized: 'Живой рыбы и кладок икры: {0} шт. Мёртвых рыб: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464008
+    m_Localized: 'Икринок: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464009
+    m_Localized: 'Оплодотворённых икринок: {0}, мальки вылупятся через {1} {1:plural:день|дня|дней}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464010
+    m_Localized: 'Мальков: {0}, подрастут через {1} {1:plural:день|дня|дней}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464011
+    m_Localized: Нужно {0} мл воды для целой кладки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464012
+    m_Localized: Нужно {0} мл воды для рыбы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464013
+    m_Localized: 'Труп. Съедено другими рыбами: {0} ккал из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464014
+    m_Localized: 'Тип питания: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464015
+    m_Localized: всеядная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464016
+    m_Localized: растительноядная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464017
+    m_Localized: хищник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464018
+    m_Localized: Не страдает от грязной воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464019
+    m_Localized: Чувствительна к грязной воде
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464020
+    m_Localized: Очищает воду от загрязнений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464021
+    m_Localized: Достигнет следующей стадии развития {0:plural:через день|через {} дня|через {} дней}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464022
+    m_Localized: Постареет {0:plural:через день|через {} дня|через {} дней}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464023
+    m_Localized: Может умереть от старости в любой момент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464024
+    m_Localized: 'Гранулы: {0}% от всего корма'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464025
+    m_Localized: 'Гранулы: {0}% от всего корма — рыба будет мусорного качества'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464026
+    m_Localized: Задыхается
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464027
+    m_Localized: Хочет есть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464028
+    m_Localized: Нет воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464029
+    m_Localized: Мало воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464030
+    m_Localized: Грязная вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464031
+    m_Localized: Токсичная вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464032
+    m_Localized: Оплодотворённая
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464033
+    m_Localized: Неоплодотворённая
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464034
+    m_Localized: Мусорная
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464035
+    m_Localized: Рыба мусорного качества не пригодна в пищу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464036
+    m_Localized: Рыба становится мусорной, если её корм состоит из гранул более чем на {0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464037
+    m_Localized: Щёлкните дважды, чтобы разделить. Переместите на другую кучку гранул, чтобы сложить их вместе.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464038
+    m_Localized: 'Канализационные гранулы: {0} ккал (только для рыб)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464039
+    m_Localized: 'Мясо: {0} ккал'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198129475584
+    m_Localized: Даёт {0} кДж для своей СЗЦ и каждой батареи рядом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641408
+    m_Localized: Голодает, не вырабатывает энергию
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641409
+    m_Localized: Начнёт вырабатывать энергию через {0} {0:plural:день|дня|дней}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641410
+    m_Localized: Угри вырабатывают {0} кДж за ночь для батареи устройства, в котором находятся, и каждой батареи рядом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641411
+    m_Localized: 'Икры: {0} г из {1} {1:plural:возможного|возможных|возможных}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641412
+    m_Localized: 'Икры: {0} г из {1} {1:plural:возможного|возможных|возможных} (максимум)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641413
+    m_Localized: 'Икры: {0} г из {1} {1:plural:возможного|возможных|возможных}, выработка икры приостановлена до выздоровления этой особи до {2}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641414
+    m_Localized: Не размножается
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641415
+    m_Localized: Полна икры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641416
+    m_Localized: Выздоравливает
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664676265984
+    m_Localized: На этом корме рыба растёт со скоростью {0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431808
+    m_Localized: Щёлкните дважды, чтобы разделить. Переместите на другой пакет, чтобы сложить вместе
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431809
+    m_Localized: 'Корм промышленного производства для рыб: {0} ккал (только для рыб)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431810
+    m_Localized: На этой диете рыба растёт со скоростью {0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431811
+    m_Localized: Не страдает от поедания канализационных гранул
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431812
+    m_Localized: На корме животного происхождения растёт на {0}% быстрее
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452674281472
+    m_Localized: Генетическая сложность {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447296
+    m_Localized: Цена продажи съедобных плодов {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447297
+    m_Localized: '{0} активных ингредиентов.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447298
+    m_Localized: Удаляет по {0}% каждого вида загрязнителей за ночь (вплоть до {1}%-й чистоты воды). Не удаляет минералы.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447299
+    m_Localized: За одну ночь превращает {0}% воды в органические отходы, микробы и частицы мусора.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447300
+    m_Localized: 'Продукт: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447301
+    m_Localized: 'В каждом собранном экземпляре будет это: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447302
+    m_Localized: 'В каждом собранном экземпляре будет {0} мл этого вещества: {1}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447303
+    m_Localized: 'В каждом собранном экземпляре будет {0} мл этого вещества: {1}, в результате чего такие экземпляры будут считаться контрабандой.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447304
+    m_Localized: 'Генетика (сложность {0}):'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447305
+    m_Localized: 'Генетика (сложность {0}, перегрузка +{1}):'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447306
+    m_Localized: Нет черт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447307
+    m_Localized: '{0} (нельзя изменить)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447308
+    m_Localized: '{0} (врождённая черта)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447309
+    m_Localized: '{0} (не оказывает эффекта)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447310
+    m_Localized: '- {0} (врождённая черта, удалена)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447311
+    m_Localized: '{0} (можно использовать {1} {1:plural:раз|раза|раз})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447312
+    m_Localized: Пустой диск для записи генетических данных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447313
+    m_Localized: 'Осталось использований: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447314
+    m_Localized: Сложность {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447315
+    m_Localized: Эту черту можно поднять до уровня {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447316
+    m_Localized: 'Нельзя сочетать с этой чертой: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447317
+    m_Localized: 'Не оказывает влияние на эти растения: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447318
+    m_Localized: нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447319
+    m_Localized: не выбрана черта для внедрения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447320
+    m_Localized: черта «{0}» уже присуща этому растению
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447321
+    m_Localized: черту «{0}» нельзя внедрить в растение с чертой «{1}»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447322
+    m_Localized: черта «{0}» уже на максимальном уровне
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447323
+    m_Localized: черта «{0}» блокирует черту «{1}»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447324
+    m_Localized: 'черта «{0}» не оказывает влияние на это растение: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447325
+    m_Localized: черта «{0}» ни на что не повлияет в этом растении
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447326
+    m_Localized: черта «{0}» является неотъемлемой частью этого растения, поэтому не может быть извлечена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447327
+    m_Localized: у этого растения нет черты «{0}» для извлечения на диск
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447328
+    m_Localized: у этого растения нет черты «{0}» для извлечения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447329
+    m_Localized: установлены оба фильтрационных модуля одновременно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447330
+    m_Localized: у этого растения нет позитивных черт для извлечения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447331
+    m_Localized: у этого растения нет негативных черт для извлечения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447332
+    m_Localized: у этого растения нет черт для извлечения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447333
+    m_Localized: 'Невозможно вставить объект «{0}» в предмет «{1}» по этой причине: {2}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447334
+    m_Localized: Диск с записанной чертой
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447335
+    m_Localized: Цель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447336
+    m_Localized: Диск для записи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447337
+    m_Localized: Вывод данных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447338
+    m_Localized: 'Автоматическое извлечение диска: включено'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447339
+    m_Localized: 'Автоматическое извлечение диска: выключено'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447340
+    m_Localized: Включение/выключение автоматического извлечения диска.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447341
+    m_Localized: Внедряется черта «{0}».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447342
+    m_Localized: Извлекается черта.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447343
+    m_Localized: Готов к работе.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447344
+    m_Localized: 'Не удалось запустить по этой причине: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447345
+    m_Localized: 'Следующая операция: внедрить черту «{0}» (при успешном внедрении будет использован один набор генетических данных с диска).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447346
+    m_Localized: 'Следующая операция: увеличить уровень черты «{0}» (при успешном внедрении будет использован один набор генетических данных с диска).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447347
+    m_Localized: 'Следующая операция: извлечь черту.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447348
+    m_Localized: 'Следующая операция: извлечь черту «{0}».'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447349
+    m_Localized: 'Следующая операция: извлечь черту «{0}» повторно.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447350
+    m_Localized: Цель не будет уничтожена.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447351
+    m_Localized: Цель будет уничтожена.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447352
+    m_Localized: 'Шанс успеха: {0}%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447353
+    m_Localized: съедобность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447354
+    m_Localized: Всё, что производит это растение, съедобно.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447355
+    m_Localized: высокая питательность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447356
+    m_Localized: низкая питательность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447357
+    m_Localized: быстрый рост
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447358
+    m_Localized: медленный рост
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447359
+    m_Localized: обильное плодоношение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447360
+    m_Localized: слабое плодоношение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447361
+    m_Localized: исключительный вкус
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447362
+    m_Localized: плохой вкус
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447363
+    m_Localized: устойчивость к засухе
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447364
+    m_Localized: повышенная потребность в воде
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447365
+    m_Localized: выносливость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447366
+    m_Localized: слабость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447367
+    m_Localized: повышенная плодовитость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447368
+    m_Localized: сниженная плодовитость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447369
+    m_Localized: простой геном
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447370
+    m_Localized: сложный геном
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447371
+    m_Localized: многоразовость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447372
+    m_Localized: Переживает плодоношение и продолжает плодоносить далее.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447373
+    m_Localized: очищение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447374
+    m_Localized: загрязнение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447375
+    m_Localized: плотность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447376
+    m_Localized: мощный эффект
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447377
+    m_Localized: слабый эффект
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447378
+    m_Localized: скорость роста
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447379
+    m_Localized: продуктивность за 1 цикл сбора урожая
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447380
+    m_Localized: потребление воды
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447381
+    m_Localized: устойчивость к отклонению от требуемого уровня минералов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447382
+    m_Localized: чувствительность к загрязнениям
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447383
+    m_Localized: начальное здоровье
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447384
+    m_Localized: калорийность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447385
+    m_Localized: выход семян
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447386
+    m_Localized: прочность получаемой продукции
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427712
+    m_Localized: Выбросить весь корм? Будет потеряно {0} ккал.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427713
+    m_Localized: '{0} ккал'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427714
+    m_Localized: '{0} ккал (корм животного происхождения)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427715
+    m_Localized: Модифицированные семена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427716
+    m_Localized: Закрепить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427717
+    m_Localized: Открепить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427718
+    m_Localized: Отменить сортировку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427719
+    m_Localized: 'Закреплённый предмет: остаётся на этом месте при сортировке'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078630248448
+    m_Localized: Вам повезло — вы не поранились!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025664
+    m_Localized: Вам повезло — сотрудник Службы безопасности не обратил внимание на нелегальные товары.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025665
+    m_Localized: Вам не повезло — вы перерыли целую кучу хлама, но ничего не нашли.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025666
+    m_Localized: Вам повезло — символ оказался не тем, что вам изначально показалось, а более подходящим.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025667
+    m_Localized: Вам не повезло — символ оказался не тем, что вам изначально показалось, а менее подходящим.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025668
+    m_Localized: Удача оказалась на вашей стороне во время розыгрыша лотереи.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025669
+    m_Localized: Удача оказалась не на вашей стороне во время розыгрыша лотереи.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902970552320
+    m_Localized: 'Нельзя вставить {0} в устройство «{1}»: модули нельзя вставлять в устройства и извлекать из них, когда устройство работает.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718145
+    m_Localized: 'Воры не сразу лезут в новые магазины: {0:plural:осталась одна ночь|остались {} ночи|осталось {} ночей}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025670
+    m_Localized: 'Запасённые калории: {0} из {1} ккал'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025671
+    m_Localized: 'Мясо ({0}): {1} ккал'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025672
+    m_Localized: 'Мясо (неизвестно): {0} ккал'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025673
+    m_Localized: 'Другой корм: {0} ккал'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025674
+    m_Localized: Икра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025675
+    m_Localized: Мальки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025676
+    m_Localized: ' -{0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718144
+    m_Localized: Покупатели нашли {0} {0:plural:перемаркированный товар|перемаркированных товара|перемаркированных товаров} в одном из ваших торговых автоматов и сообщили об этом в Службу безопасности.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727931338752
+    m_Localized: 'Работающих конденсаторов влаги: {0} (эффективность каждого: {1}%)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504576
+    m_Localized: Свежий сброс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504577
+    m_Localized: Служба уборки Верхних уровней только что сбросила свежую партию мусора.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504578
+    m_Localized: Хлама меньше на {0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504579
+    m_Localized: Вероятность пораниться повышена на {0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504580
+    m_Localized: только сегодня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504581
+    m_Localized: '{0:plural:остался {} день|остались {} дня|осталось {} дней}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504582
+    m_Localized: Помощь Джорджио
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504583
+    m_Localized: Джорджио придёт и поможет вам на свалке.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504584
+    m_Localized: Вы не поранитесь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504585
+    m_Localized: +{0} к попыткам поиска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504586
+    m_Localized: Особые товары
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504587
+    m_Localized: В продаже появятся особые товары.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504588
+    m_Localized: Цены на {0}% выше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698880
+    m_Localized: Скидка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698881
+    m_Localized: Цены на {0}% ниже
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698882
+    m_Localized: Ограбление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698883
+    m_Localized: Кто-то вломился прошлой ночью и вынес всё с полок.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698884
+    m_Localized: Меньше товаров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698885
+    m_Localized: Свежая закупка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698886
+    m_Localized: На {0}% больше товаров каждого вида
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237053218816
+    m_Localized: '{0}, как обычно, отправляет вам «дивиденды» — они на прилавке.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773248
+    m_Localized: Закрыто
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773249
+    m_Localized: Магазин доктора Джексона закрыт по понедельникам.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773250
+    m_Localized: Значительный износ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773251
+    m_Localized: Значительный износ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836480
+    m_Localized: 'Улучшения для привлекательности с использованием предметов {0}: {1} из {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836481
+    m_Localized: Каждое улучшение с использованием предметов {0} увеличивает расход энергии за ночь на {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836482
+    m_Localized: Каждое {1}-е улучшение с использованием предметов {0} увеличивает расход энергии за ночь на {2}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682702381056
+    m_Localized: .22 SR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741184
+    m_Localized: 10 мм
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741185
+    m_Localized: .45 AFP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741186
+    m_Localized: 12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741187
+    m_Localized: Калибр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741188
+    m_Localized: 'Увеличения лотка для продукции (используемый материал: {0}): {1} из {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578398818304
+    m_Localized: 'Смешивать автоматически: да'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178432
+    m_Localized: 'Смешивать автоматически: нет'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178433
+    m_Localized: Вы достаточно отдохнули. Вы чувствуете, что готовы выйти наружу сегодня ночью.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178434
+    m_Localized: У вас совсем не получается торговаться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178435
+    m_Localized: Вывоз мусора
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178436
+    m_Localized: Невозможно переместить.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178437
+    m_Localized: Вы никуда не пошли, а расчищали кучу мусора ({0}-ю ночь из {1}).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178438
+    m_Localized: Служба вывоза мусора вынесла часть мусорной кучи (всего {0:plural:вынесена {} часть|вынесены {} части|вынесено {} частей} из {1}).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178439
+    m_Localized: Вы наконец-то избавились от кучи мусора.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178440
+    m_Localized: 'Работоспособность: {0} из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178441
+    m_Localized: 'Потеря работоспособности за ночь: {0} ед.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178442
+    m_Localized: 'Улучшения: {0} из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178443
+    m_Localized: Даёт расположенным рядом батареям и устройствам по {0} ед. заряда каждую ночь.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178444
+    m_Localized: Ваш реактор слишком сильно повреждён — он не может вырабатывать энергию для магазина.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178445
+    m_Localized: Если вы не почините свой реактор, он взорвётся сегодня ночью!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178446
+    m_Localized: Расплавление реактора
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178447
+    m_Localized: 'Самодельный реактор в конце концов сломался из-за вашей преступной халатности. Взрыв уничтожил магазин и целый блок вокруг него. Служба безопасности начала расследование: возможно, с произошедшим как-то связан доктор Джексон.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791880241152
+    m_Localized: Младший оценщик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601280
+    m_Localized: Оценщик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601281
+    m_Localized: Старший оценщик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601282
+    m_Localized: Мастер-оценщик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601283
+    m_Localized: 'Базовая оплата за оценку: {0} {0:plural:кредит|кредита|кредитов}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601284
+    m_Localized: '{0}: +{1}% к оплате за оценку'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601285
+    m_Localized: '{0} оценка: клиент отказался'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601286
+    m_Localized: 'Шанс того, что к вам придёт клиент, которому нужны услуги оценки: {0}% за день'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601287
+    m_Localized: 'Предметы, которые обучен оценивать обладатель этого сертификата:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601288
+    m_Localized: 'Прогресс до следующего ранга: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601289
+    m_Localized: Вы готовы к повышению. К вам зайдут представители Комиссии.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601290
+    m_Localized: Активируйте, чтобы выбрать, какие предметы будут приносить клиенты.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038272
+    m_Localized: Это был в основном балласт. Симптомы отмены нисколько не облегчились.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038273
+    m_Localized: Симптомы отмены облегчились, но эта доза была слабой, её надолго не хватит.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038274
+    m_Localized: Это было мощно! Симптомы отмены вернутся не скоро.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86858013764009984
+    m_Localized: Напечатать маленькую бутылку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86869480580104192
+    m_Localized: 'Клиенты обнаружили товары с неправильной маркировкой среди того, что вы поставили по их заказам: {0} шт.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051770290176
+    m_Localized: Преобразователь тока
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650304
+    m_Localized: 'Состояние: включён'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650305
+    m_Localized: 'Состояние: выключен'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650306
+    m_Localized: 'Эффективность: 1 кДж стоит {0} Кр.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650307
+    m_Localized: 'Питает: {0} ({1} кДж)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650308
+    m_Localized: 'Плата за ночь: {0} Кр.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833481465856
+    m_Localized: Оксинет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825984
+    m_Localized: '- Измельчите в блендере несколько сонников, чтобы получить пасту из сонников'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825985
+    m_Localized: "- Добавьте алкоголь, в 5 раз превышающий объём пасты из сонников\n- Нагрейте смесь до 40–50 °C, чтобы получить экстракт сонников"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825986
+    m_Localized: "- Профильтруйте через коттоновую ткань, затем используйте испаритель\n- (ОБЯЗАТЕЛЬНОЕ ТРЕБОВАНИЕ) Вся вода и весь алкоголь должны быть выпарены"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825987
+    m_Localized: 'Шаг 4: реакция'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825988
+    m_Localized: "- Добавьте восстановитель в том же объёме, что и экстракт сонников\n- Добавьте жиросвязывающий агент в объёме четверти от него\n- Нагрейте смесь до 45–55 °C, чтобы получить Оксинет"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825989
+    m_Localized: 'ПРЕДУПРЕЖДЕНИЕ: ЭКСТРАКТ СОННИКОВ РАЗЛАГАЕТСЯ ВЫШЕ 60 °C'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825990
+    m_Localized: 'Шаг 5: упаковка'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825991
+    m_Localized: "- Снова профильтруйте и выпарите жиросвязывающий агент\n- Выберите «Инъектор Оксинета» в упаковщике химической продукции"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825992
+    m_Localized: Ваш магазин подвергся вандализму. Кто-то написал на фасаде «МЯСО»... кровью!?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825993
+    m_Localized: Лучше раздобудь себе пушку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825994
+    m_Localized: Я терпеливый. Стоит тебе выйти из магазина, я уже буду ждать.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825995
+    m_Localized: Рано или поздно тебе придётся выйти.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825996
+    m_Localized: Нужно взять с собой оружие, иначе {0} вас убьёт.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825997
+    m_Localized: Вы чувствуете на себе чей-то недобрый взгляд. Хорошо, что вы взяли с собой оружие.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825998
+    m_Localized: Охота на Мясника
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825999
+    m_Localized: '{0} прошлой ночью принимал гостей: к нему наведалась команда Сойера. Больше он ничьим свежим мясом торговать не будет.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510826000
+    m_Localized: Лу предупреждала вас не трогать её игрушки. Она оставила на вашем прилавке ещё один подарочек, и на этот раз настоящий. Взрыв уничтожил магазин и убил вас.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87729210584252416
+    m_Localized: Действие «Жидкой удачи» закончилось.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413656555520
+    m_Localized: Еды для Серпико должно хватить.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498560
+    m_Localized: Вы оставили для Серпико на свалке еду на {0} ккал ({1} из {2} ккал).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498561
+    m_Localized: Это Серпико. Меня подстрелили, когда я пытался сбежать. Сейчас я на свалке. Один добрый мусорщик меня подлатал и согласился передать вам это письмо.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498562
+    m_Localized: Перед уходом я прихватил кое-какие улики. Мне нужно время, чтобы во всём разобраться, но без еды я не протяну.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498563
+    m_Localized: Хочу попросить вас об очень большом одолжении. Можете оставить на свалке еды на {0} ккал? Просто положите её на землю. Я заберу, когда никого не будет рядом.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498564
+    m_Localized: Боюсь, я не протяну больше {0:plural:{} дня|{} дней|{} дней}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498565
+    m_Localized: На свалке найден мёртвым сотрудник Службы безопасности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498566
+    m_Localized: Кадет Серпико, в отношении которого велось расследование по делу о коррупции, найден мёртвым на свалке. Служба безопасности пока не сообщает никаких подробностей.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498567
+    m_Localized: Коррупция в Службе безопасности раскрыта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498568
+    m_Localized: По всей станции опубликованы документы, разоблачающие коррупцию в Службе безопасности станции. Нескольким рядовым сотрудникам предъявлены уголовные обвинения. Ни один высокопоставленный офицер не понёс никакой ответственности.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498569
+    m_Localized: Обвинения в коррупции дошли до руководства Службы безопасности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498570
+    m_Localized: Улики, переданные одному из старших офицеров, привели к уголовным обвинениям против сотрудников Службы безопасности всех званий. Создана новая антикоррупционная группа.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498571
+    m_Localized: 'Вы не смогли вернуть Лу долг, и она свела счёты по-своему: оставила на вашем прилавке маленький подарочек, и на этот раз настоящий. Взрыв уничтожил магазин и убил вас.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498572
+    m_Localized: Убит высокопоставленный адмирал, прибывший с визитом!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498573
+    m_Localized: Прошлой ночью у стыковочных шлюзов были застрелены прибывший с визитом адмирал Республики и его охрана. По словам свидетелей, стрелявшая, блондинка в украденной форме Службы безопасности, подошла к свите адмирала вплотную и только потом открыла огонь. Сотрудники на месте несколько раз попали в неё, но она скрылась, и её следов пока не нашли.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624640
+    m_Localized: 'Стёрто билетов: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624641
+    m_Localized: 'Средний выигрыш (кредиты): {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624642
+    m_Localized: 'Ночью ваш магазин подвергся вандализму. На фасаде огромными буквами написано баллончиком: «ДЖОН СМИТ».'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624643
+    m_Localized: 'Режим закрепления: нажмите на предмет, чтобы закрепить или открепить его.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624644
+    m_Localized: 'Нельзя закрепить: {0}. Закреплять можно только свои предметы в инвентаре.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624645
+    m_Localized: 'Нажмите, чтобы закрепить: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624646
+    m_Localized: 'Нажмите, чтобы открепить: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022676185088
+    m_Localized: 1 использование восстанавливается раз в {0} {0:plural:день|дня|дней}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350912
+    m_Localized: Следующее использование через {0} {0:plural:день|дня|дней}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350913
+    m_Localized: Следующее использование завтра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350914
+    m_Localized: Подержанный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350915
+    m_Localized: Чёрный рынок заплатил вам {0} {0:plural:кредит|кредита|кредитов} за накопитель Элеоноры.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350916
+    m_Localized: Раскрыта тайна нутрифруктов pastel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350917
+    m_Localized: Опубликована научная работа, показывающая, как заставить обычные нутрифрукты снова давать семена. Биохакеры по всей станции уже выращивают новый сорт, а цены на семена рухнули. В то же утро бывшая руководительница крупнейшей гидропонной фермы станции, осуждённая за растрату, была найдена мёртвой в своей камере. В pastel от комментариев отказались.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350918
+    m_Localized: Вкладка {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022705545216
+    m_Localized: 'Вкладки хранения: {0} из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575454130176
+    m_Localized: Контрабандист гипертеха
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490304
+    m_Localized: Наборов пока нет. Активируйте предмет, чтобы их создать.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490305
+    m_Localized: '{0}: {1} ({2} {2:plural:предмет|предмета|предметов})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490306
+    m_Localized: '{0}: {1} (1 предмет)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490307
+    m_Localized: нет клавиши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490308
+    m_Localized: 'Мощность: {0} кДж за цикл, без ограничений'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490309
+    m_Localized: 'Улучшение: электронные компоненты (гипертех), +{0} кДж мощности за каждый (применено: {1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490310
+    m_Localized: 'Питает: {0} ({1} кДж)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490311
+    m_Localized: Потребление устройства в пределах мощности
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490312
+    m_Localized: 'Потребление устройства выше мощности: питания нет'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490313
+    m_Localized: 'Заряд: {0} из {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490314
+    m_Localized: 'Накоплено ускорений: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490315
+    m_Localized: 'Скорость зарядки: {0} за цикл (уровень {1}), потребляет {0} кДж из энергоэлемента'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490316
+    m_Localized: Используйте на нём продвинутый турбоусилитель, чтобы навсегда повысить скорость зарядки и потребление энергии.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684608
+    m_Localized: 'Заряд: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684609
+    m_Localized: 'Перезарядка: осталось {0} {0:plural:день|дня|дней}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684610
+    m_Localized: 'Перезарядка: остался 1 день'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684611
+    m_Localized: Готово
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684612
+    m_Localized: Используйте на нём электронные компоненты (гипертех), чтобы добавить 1 заряд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777344
+    m_Localized: Настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777345
+    m_Localized: Выход
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777346
+    m_Localized: Клетка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777347
+    m_Localized: Аквариум
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777348
+    m_Localized: Разделать сейчас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777349
+    m_Localized: Разделать содержимое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777350
+    m_Localized: Копировать настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777351
+    m_Localized: Вставить настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777352
+    m_Localized: Разделка при перетаскивании
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777353
+    m_Localized: Только убить и сложить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777354
+    m_Localized: Сбор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777355
+    m_Localized: Оставить производителей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777356
+    m_Localized: Выкл.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777357
+    m_Localized: Только туши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777358
+    m_Localized: Вес
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360256
+    m_Localized: Возраст
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360257
+    m_Localized: 'Вес: от {0} до {1} г'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360258
+    m_Localized: 'Вес: от {0} г'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360259
+    m_Localized: 'Возраст: от {0} до {1} дн.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360260
+    m_Localized: 'Возраст: от {0} дн.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360261
+    m_Localized: Самки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360262
+    m_Localized: Самцы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360263
+    m_Localized: Считать именованных и помеченных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360264
+    m_Localized: Каждое помеченное или именованное животное учитывается в числе оставляемых самок и самцов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360265
+    m_Localized: Беречь беременных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360266
+    m_Localized: Отбраковывать больных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360267
+    m_Localized: Отбраковывать носителей прионов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360268
+    m_Localized: Беречь икряных рыб
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360269
+    m_Localized: Разделывать туши
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360270
+    m_Localized: Мясо в кормушку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360271
+    m_Localized: Собирать неоплодотворённую икру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360272
+    m_Localized: 'Последний запуск: разделано {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360273
+    m_Localized: 'Последний запуск: разделано {0}, собрано икры: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360274
+    m_Localized: Лоток автобойни заполнен.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360275
+    m_Localized: Бойня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360276
+    m_Localized: Чернила
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360277
+    m_Localized: Красный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360278
+    m_Localized: Фиолетовый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360279
+    m_Localized: Зелёный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360280
+    m_Localized: Синий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360281
+    m_Localized: Оранжевый
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360282
+    m_Localized: Ластик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360283
+    m_Localized: 'Чернила: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052836904960
+    m_Localized: Не связан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070784
+    m_Localized: Связан с {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070785
+    m_Localized: Связан с {0} ({1})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070786
+    m_Localized: магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070787
+    m_Localized: 'Порядок запуска: {0} ({1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070788
+    m_Localized: До устройств
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070789
+    m_Localized: После устройств
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070790
+    m_Localized: После всего
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070791
+    m_Localized: Перемещает всё
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070792
+    m_Localized: Перемещает только виды предметов из списка ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070793
+    m_Localized: Перемещает всё, кроме видов предметов из списка ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070794
+    m_Localized: Оставлять по {0} каждого вида
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070795
+    m_Localized: 'Оставлять: ничего, перемещать всё'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070796
+    m_Localized: Также запускать при добавлении предмета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070797
+    m_Localized: Также запускать при перемещении этого бункера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070798
+    m_Localized: Переместить сейчас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070799
+    m_Localized: Отвязать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070800
+    m_Localized: Добавить предметы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070801
+    m_Localized: Фильтр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070802
+    m_Localized: Перемещать всё
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070803
+    m_Localized: Только белый список
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070804
+    m_Localized: Всё, кроме чёрного списка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070805
+    m_Localized: Нажмите на предмет, чтобы добавить его в список.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070806
+    m_Localized: 'Белый список пуст: ничего не перемещается, пока вы не добавите предметы.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070807
+    m_Localized: 'Чёрный список пуст: перемещается всё.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070808
+    m_Localized: Нажмите, чтобы убрать {0} из списка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070809
+    m_Localized: '{0}: нельзя добавить в список.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070810
+    m_Localized: '{0} уже в списке.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070811
+    m_Localized: Нажмите, чтобы добавить {0} в список.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89088954657980416
+    m_Localized: 'Кормить до: {0}% голода'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664064
+    m_Localized: '{0}: {1} мкл (-{2} мкл в день)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664065
+    m_Localized: Отчёт о проверке
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664066
+    m_Localized: 'Конфискован 1 предмет: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664067
+    m_Localized: 'Конфисковано {0} {0:plural:предмет|предмета|предметов}: {1}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664068
+    m_Localized: '{0} и ещё {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664069
+    m_Localized: '{0} ({1} Кр.)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664070
+    m_Localized: ', '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664071
+    m_Localized: Растёт с каждым днём без клиента, базовый шанс {0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89359339031252992
+    m_Localized: 'Максимальная чистота: {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366424240128
+    m_Localized: 'Еда даст Серпико ещё один день. Осталось ночей, чтобы принести остальное: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366449405952
+    m_Localized: Джорджио оставил для Серпико на свалке ящик нутрифруктов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90934939390533632
+    m_Localized: 'Сигнализация не включилась: её элемент питания не может выдать {0} кДж, которые она потребляет за ночь.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522599710720
+    m_Localized: Синдром оставил в вашем теле необратимые повреждения. Пока это не опасно, но и не пройдёт.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070848
+    m_Localized: Ваше тело не переживёт ещё одного пропущенного укола. Ещё один запоздалый укол, и вы умрёте.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070849
+    m_Localized: НЕДОСТАТОЧНО ЭНЕРГИИ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070850
+    m_Localized: Цвет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070851
+    m_Localized: Настроить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070852
+    m_Localized: 'На ваш счёт поступило {0} {0:plural:кредит|кредита|кредитов}. {1}: обезврежен(а) у вашего прилавка, оформлено как задержание.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070853
+    m_Localized: Нутрифруктик. Было больно. Я не злюсь, я ВПЕЧАТЛЕНА. Но у девушки есть расходы. Положи в этот шкафчик товара на {0} {0:plural:кредит|кредита|кредитов} и оставь его на прилавке, когда будешь закрываться. У тебя {1} {1:plural:ночь|ночи|ночей}. Следующей ночью весь магазин взлетит на воздух. Целую.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070854
+    m_Localized: Нутрифруктик! Ты не подвёл. Я знала, что ты справишься. Маленький подарочек для магазина. Целую.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070855
+    m_Localized: Перестрелка на Нижних уровнях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070856
+    m_Localized: Прошлой ночью жители Нижних уровней сообщили о продолжительной стрельбе из заброшенного склада в старом грузовом районе. Служба безопасности обнаружила, что здание было заминировано растяжками, а внутри нашла тела нескольких тяжело вооружённых людей в штатском, ни у кого из них не было станционных документов. Никто не явился, чтобы забрать тела.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230687866880
+    m_Localized: '{0} / {1} кредитов товаром, как потребовала Лу.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230721421312
+    m_Localized: '{0:plural:Осталась {} ночь|Осталось {} ночи|Осталось {} ночей}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93331566923399168
+    m_Localized: 'Нутрифруктик. Мой шкафчик уже куда-то делся? Какая небрежность. Вот ещё один, условия те же: товара на {0} {0:plural:кредит|кредита|кредитов}, на прилавке, когда будешь закрываться, {1} {1:plural:ночь|ночи|ночей}. Третьего не будет. Целую.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

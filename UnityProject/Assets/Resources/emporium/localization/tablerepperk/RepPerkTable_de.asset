@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: RepPerkTable_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 45c4f39619603fc4d843907cae64818b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1034312007680
+    m_Localized: Kontaktvermittlung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1174275932160
+    m_Localized: '{0} % Chance, dass dein Laden pro Tag {1} Kunde(n) zusätzlich hat.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214239260672
+    m_Localized: Auf den Unterdecks verbreiten sich Neuigkeiten wie ein Lauffeuer. Ein zufriedener Kunde ist mehr als nur einmaliger Profit – er ist die Werbung, die du dir wünschen kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773368455168
+    m_Localized: Gerüchteküche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649472
+    m_Localized: Gelegentlich erhältst du Tipps von Unterdecklern zu bevorstehenden Ereignissen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649473
+    m_Localized: Die Bewohner der Unterdecks haben ihre Augen und Ohren überall. Wenn sie dir vertrauen, halten sie dich auf dem Laufenden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649474
+    m_Localized: Raritäten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649475
+    m_Localized: Dein Laden wird von neuen Kundentypen frequentiert, die seltene Waren oder Schmuggelware anbieten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649476
+    m_Localized: Mit den richtigen Beziehungen machen dir selbst Unterdeckler attraktive Angebote.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649477
+    m_Localized: Verschwiegenheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649478
+    m_Localized: Wenn du Schmuggelware an Unterdeckler verkaufst, wird nur {0:P0} ihres Werts als verfügbare Beweismittel generiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649479
+    m_Localized: Du hast dir ihr Vertrauen erarbeitet. Sie wissen, auf dich ist Verlass, und verpfeifen dich nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649480
+    m_Localized: Legende der Unterdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649481
+    m_Localized: Du erhältst jetzt von Joe Wild und Dr. Jackson {0} % Rabatt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649482
+    m_Localized: Du hast dir den Respekt der Unterdecks verdient. Selbst andere Anführer auf den Unterdecks erkennen, dass du Gutes tust.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649483
+    m_Localized: Schlechte Bewertungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649484
+    m_Localized: '{0} % Chance, dass pro Tag {1} Kunden weniger in deinen Laden kommen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649485
+    m_Localized: Es braucht nur ein paar unzufriedene Kunden und schon ist dein Ansehen auf den Unterdecks angeschlagen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649486
+    m_Localized: Misstrauen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649487
+    m_Localized: Unterdeckler verkaufen dir keine Schmuggelware mehr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649488
+    m_Localized: Auf den ganzen Unterdecks bist du als unzuverlässig verschrien. Niemand wird dir mehr Schmuggelware anbieten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649489
+    m_Localized: Leichtes Opfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649490
+    m_Localized: Du wirst häufiger Opfer von Diebstählen. Deine Versicherung kostet nun {0}-mal mehr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649491
+    m_Localized: Dein miserables Ansehen hat dich zur Zielscheibe gemacht. Die Unterdecks vergessen nie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649492
+    m_Localized: Geächtet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649493
+    m_Localized: Alle Lieferanten weigern sich, deine Anrufe anzunehmen. Dr. Jackson betritt deinen Laden nur noch in besonderen Ausnahmefällen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649494
+    m_Localized: Niemand will noch etwas mit dir zu tun haben, weil alle um ihr eigenes Ansehen fürchten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649495
+    m_Localized: Die Justiz der Straße
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649496
+    m_Localized: Ein Mob aus den Unterdecks greift deinen Laden an und lyncht dich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649497
+    m_Localized: Die Leute von den Unterdecks haben die Nase voll und nehmen die Sache nun selbst in die Hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649498
+    m_Localized: Requirierung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649499
+    m_Localized: Ein Requirierungs-Officer der Security besucht gelegentlich deinen Laden, um Lebensmittel und Medizinzubehör zu kaufen. Wenn du mit ihm handelst, erhöht sich dein Ansehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649500
+    m_Localized: Selbst die Security muss ihre Ausrüstung von irgendwo beziehen. Sie wird dir einen fairen Preis zahlen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649501
+    m_Localized: War wohl der Wind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649502
+    m_Localized: Die Security wird nicht mehr auf deine Alarmrufe reagieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649503
+    m_Localized: Du hast zu oft falschen Alarm geschlagen – oder vielleicht bist du die Mühe nicht mehr wert. So oder so, wenn es hart auf hart kommt, bist du auf dich gestellt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649504
+    m_Localized: Im Visier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649505
+    m_Localized: Die Security hat dich genau im Blick. Jegliche Ermittlungen gegen dich werden {0}-mal schneller abgewickelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649506
+    m_Localized: Dein schlechter Ruf hat die Aufmerksamkeit der Security erregt. Zieh den Kopf ein, bevor du ihn noch verlierst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649507
+    m_Localized: Meistgesucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649508
+    m_Localized: Jegliche Ermittlungen gegen dich werden {0}-mal schneller abgewickelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649509
+    m_Localized: Ein neuer Tag, eine neue Akte mit deinem Namen drauf. Sie liegt auf dem Schreibtisch des Leiters der Station-Security.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649510
+    m_Localized: Nichts unversucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649511
+    m_Localized: Die Security schickt keine faulen oder dubiosen Inspektoren mehr zu dir. Zudem werden nun häufiger Inspektionen durchgeführt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649512
+    m_Localized: Schluss mit oberflächlichen Überprüfungen und zugedrückten Augen. Jede Inspektion ist jetzt äußerst gründlich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649513
+    m_Localized: Kein Erbarmen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649514
+    m_Localized: Sollte die Security im Rahmen einer Inspektion Schmuggelware bei dir finden, wird sie dich im vollen Umfang des Gesetzes strafrechtlich verfolgen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649515
+    m_Localized: Keine weiteren Warnungen. Keine Bestechungen. Selbst das winzigste bisschen Schmuggelware kann dich hinter Gitter bringen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649516
+    m_Localized: Egal wie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649517
+    m_Localized: Die Security verhaftet dich sofort und sperrt dich ein, egal, welche Beweismittel sie gegen dich hat (oder auch nicht).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649518
+    m_Localized: Wenn sie dich aus dem Weg haben will, spielt die Wahrheit keine Rolle. Die Security sorgt dafür, dass die „Beweise“ genau das Richtige zeigen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843776
+    m_Localized: Schutz durch die Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843777
+    m_Localized: Dank deines hohen Ansehens bei der Security machen Diebe tendenziell einen Bogen um deinen Laden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843778
+    m_Localized: Es hat auch Vorteile, wenn die Security dich im Blick behält.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843779
+    m_Localized: Security-Restposten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843780
+    m_Localized: Ein Restpostenhändler der Security besucht gelegentlich deinen Laden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843781
+    m_Localized: Die Security hat sich bereit erklärt, dir ausrangierte Ausrüstung zu verkaufen, einschließlich Waffen und Munition.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843782
+    m_Localized: Zuverlässiger Händler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843783
+    m_Localized: Der Restpostenhändler der Security bietet bessere Waren an, und Security-Kundschaft besitzt {0} % mehr Credits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843784
+    m_Localized: Du hast dich als zuverlässiger Handelspartner erwiesen. Die Security ist bereit, mehr Geschäfte mit dir abzuwickeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843785
+    m_Localized: VIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843786
+    m_Localized: Dank deinem ausgezeichneten Ansehen bei der Security gerät dein Laden nicht mehr ins Visier von Dieben. Du wirst auch keiner Inspektion mehr unterzogen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843787
+    m_Localized: Du bist unantastbar. Die Security steht dir bei und lässt nicht zu, dass sich jemand mit dir anlegt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843788
+    m_Localized: Vertrauenswürdig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843789
+    m_Localized: Es finden weniger Inspektionen statt, und Ermittlungen kommen langsamer voran. Du wirst im Voraus über bevorstehenden Security-Aktionen gewarnt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843790
+    m_Localized: Wenn du als vertrauenswürdig giltst, hast du weniger Ärger mit der Security. Inspektionen kommen jetzt nur noch sehr selten vor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843791
+    m_Localized: Untergrundnetzwerk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843792
+    m_Localized: Du wirst über die meisten Schwarzmarkt-Ereignissen im Voraus informiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843793
+    m_Localized: Es kommt ganz darauf an, wen man kennt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843794
+    m_Localized: Auf der schwarzen Liste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843795
+    m_Localized: Schwarzmarktkunden werden dir keine Schmuggelware mehr verkaufen. Du bist von der Unterweltbörse ausgeschlossen. Der Hausmeisterservice kostet das Doppelte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843796
+    m_Localized: Deine Credits sind nichts mehr wert, wenn dir niemand mehr etwas verkaufen will.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843797
+    m_Localized: Nicht zu versichern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843798
+    m_Localized: Du hast keine Möglichkeit mehr, dich versichern zu lassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843799
+    m_Localized: Du bist auf dem Schwarzmarkt derart berüchtigt, dass nicht einmal Joe Wild dich noch versichern will. Du bist auf dich allein gestellt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843800
+    m_Localized: Hinterhofbroker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843801
+    m_Localized: Es besteht eine größere Chance, dass dein Laden von Gelegenheitsdieben besucht wird. Mit höherem Schwarzmarkt-Ansehen verbessern sich auch ihre Waren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843802
+    m_Localized: Du erarbeitest dir langsam ein gewisses Ansehen auf dem Schwarzmarkt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843803
+    m_Localized: Ehre unter Dieben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843804
+    m_Localized: Du verlierst beim Schwarzmarkt {0}-mal schneller, ganz egal, wie hoch dein Ansehen derzeit ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843805
+    m_Localized: Vertrauen ist unsere Währung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843806
+    m_Localized: In sicheren Händen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843807
+    m_Localized: Du erhältst einmal pro Woche garantiert Besuch von einem Dieb. Alle Diebe bieten jetzt bessere Waren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843808
+    m_Localized: Die Diebe des Schwarzmarkts wissen, dass auf dich Verlass ist, und wollen daher eher mit dir handeln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843809
+    m_Localized: Klatschtante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843810
+    m_Localized: Du wirst über die meisten Oberdeck-Ereignisse im Voraus informiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843811
+    m_Localized: Die da oben quatschen in einer Tour … Manchmal sagen sie sogar was Sinnvolles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843812
+    m_Localized: Trinkgeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843813
+    m_Localized: Du erhältst {0} % Bonus, wenn du Waren an Oberdeckler verkaufst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843814
+    m_Localized: Sie feilschen nicht. Sie packen einfach ein paar Extra-Credits drauf und nennen es „Anstand“.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843815
+    m_Localized: Spenden von den Oberdecks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843816
+    m_Localized: Ein Wohltäter von den Oberdecks bringt gelegentlich Waren als Geschenk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843817
+    m_Localized: Publicity-Stunt oder echte Wohltätigkeit? Egal, geschenkte Waren lehnst du nicht ab.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843818
+    m_Localized: Allseits bekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843819
+    m_Localized: Du hast eine Chance von {0} %, {1} zusätzlichen Oberdeckler pro Tag als Kunden zu erhalten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843820
+    m_Localized: Dein Laden ist auf den Oberdecks in aller Munde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843821
+    m_Localized: Begeisterte Bewertungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843822
+    m_Localized: Alle Kunden von den Oberdecks verfügen über {0} % mehr Credits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843823
+    m_Localized: Dein Laden ist auf den Oberdecks ein schlecht gehütetes Geheimnis. Oberdeckler sind bereit, bei einem Besuch mehr auszugeben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843824
+    m_Localized: Touristenfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843825
+    m_Localized: Oberdeckler werden tendenziell um deinen Laden einen Bogen machen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843826
+    m_Localized: Kunden von den Oberdecks erwarten mehr. Und in letzter Zeit lieferst du nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843827
+    m_Localized: Petition an die Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843828
+    m_Localized: Du verlierst {0}-mal schneller Ansehen bei der Security. Aktive Ermittlungen werden um {1:P0} schneller abgewickelt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843829
+    m_Localized: Die Oberdeckler haben ihren Einfluss spielen lassen und eine Petition eingereicht, dass die Security dich stärker im Auge behält.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843830
+    m_Localized: Auftragskiller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843831
+    m_Localized: Die Oberdeckler setzen sofort ein Kopfgeld auf dich aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843832
+    m_Localized: In einer Luxussuite auf dem Oberdeck wurde ein Auftragskiller beauftragt, dich zu töten. Du hast es dir mit den falschen Leuten verscherzt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843833
+    m_Localized: Freund der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843834
+    m_Localized: Du wirst über die meisten Revolutions-Ereignisse im Voraus informiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843835
+    m_Localized: Die Revolution wird dafür sorgen, dass du nicht im Kreuzfeuer landest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843836
+    m_Localized: Tötungsliste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843837
+    m_Localized: Ein Exekutionskommando der Revolution wird sofort damit beauftragt, dich zu eliminieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843838
+    m_Localized: Du wurdest zum Feind der Revolution erklärt. Sie wird vor nichts Halt machen, um dich aus dem Weg zu räumen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843839
+    m_Localized: Auf der schwarzen Liste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843840
+    m_Localized: Kunden, die mit der Revolution sympathisieren, werden tendenziell einen Bogen um deinen Laden machen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843841
+    m_Localized: In den Revolutionszellen wird davor gewarnt, Geschäfte mit dir zu betreiben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843842
+    m_Localized: 'Marktplatz-Anfrage: Revolution'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843843
+    m_Localized: Du erhältst gelegentlich Marktplatz-Anfragen von verschiedenen Zellen der Revolution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843844
+    m_Localized: Jeder tut, was er kann, und jeder kriegt, was er braucht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843845
+    m_Localized: Diebesgut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843846
+    m_Localized: Mitglieder der Revolution besuchen gelegentlich deinen Laden, um ihre Beute zu verkaufen. Mit höherem Ansehen steigen auch deine Preise.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843847
+    m_Localized: Die Befreiung des Volks erfordert auch die Befreiung von Vorräten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843848
+    m_Localized: Quartiermeister der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843849
+    m_Localized: Ein Revolutions-Quartiermeister besucht gelegentlich deinen Laden, um Material zu vergünstigten Preisen zu verkaufen. Mit höherem Ansehen steigt auch der Rabatt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843850
+    m_Localized: Die Revolution kann nicht allein von Idealen leben. Der Quartiermeister verkauft billige Bestände, um insgeheim die nächste Aktion zu finanzieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843851
+    m_Localized: Erzwungener Ruhestand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843852
+    m_Localized: Ein Auftragskiller des Kartells wurde beauftragt, dich zu eliminieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843853
+    m_Localized: Manchmal ist es besser, den Hund zu erlösen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843854
+    m_Localized: Lohnerhöhung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843855
+    m_Localized: Dein wöchentlicher Lohn steigt jetzt mit deinem Ansehen beim Kartell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843856
+    m_Localized: 'Mach dir keine Illusionen: Das ist keine Herzensgüte, sondern eine Investition.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843857
+    m_Localized: Zuverlässiger Chemiker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843858
+    m_Localized: Die Bestellung von zusätzlichem Material kostet jetzt {0} % des üblichen Ansehens.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843859
+    m_Localized: Das Kartell belohnt regelmäßige, zuverlässige Dienste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843860
+    m_Localized: Abgang bewilligt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843861
+    m_Localized: Du darfst das Kartell verlassen. Deine Kontaktperson veranlasst alles Nötige.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843862
+    m_Localized: Du hast Glück – die meisten kommen machen einen Abgang in einem Leichensack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314774175744
+    m_Localized: Anspruchsvoller Geschmack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730176
+    m_Localized: Wenn du Luxusware in deinem Schaufenster ausstellst, besteht täglich eine {0}%ige Chance, dass ein zusätzlicher Kunde Interesse hat, Luxuswaren zu erwerben. Chance erhöht sich je nach Ansehen. Der entsprechende Kunde kann deinen Laden nur einmal alle {1} Tage besuchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730177
+    m_Localized: Exklusive Waren in einem Unterdeck-Schaufenster? Die Oberdeckler werden allein deswegen vorbeikommen, um behaupten zu können, dass sie es zuerst entdeckt haben.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

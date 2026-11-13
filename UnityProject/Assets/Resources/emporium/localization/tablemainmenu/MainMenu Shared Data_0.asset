@@ -1,0 +1,840 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: MainMenu Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: MainMenu
+  m_TableCollectionNameGuidString: 24240f2be6c8b6d47bff53b69918bf4b
+  m_Entries:
+  - m_Id: 128057131008
+    m_Key: new_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26937549176832
+    m_Key: load_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27007459835904
+    m_Key: option
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27025948327936
+    m_Key: credit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393761192820736
+    m_Key: exit_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414435592519680
+    m_Key: join_discord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415424718454784
+    m_Key: credit_ack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415526723928064
+    m_Key: credit_community
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415597255344128
+    m_Key: close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415661109428224
+    m_Key: credit_community_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418489995509760
+    m_Key: credit_lead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418544991223808
+    m_Key: credit_artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422978999697408
+    m_Key: option_game_setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423044611194880
+    m_Key: option_auto_call_customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423139700260864
+    m_Key: option_sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423175637057536
+    m_Key: option_graphic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423212513378304
+    m_Key: option_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423323075231744
+    m_Key: option_resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423377332748288
+    m_Key: option_fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423449676103680
+    m_Key: option_dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423491417817088
+    m_Key: option_dialogue_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423542080815104
+    m_Key: option_dialogue_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423659152228352
+    m_Key: option_apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424598437249024
+    m_Key: option_master_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425290828759040
+    m_Key: welcome_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425310856560640
+    m_Key: welcome_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427776507527168
+    m_Key: new_welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427886381514752
+    m_Key: new_hard_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427924532903936
+    m_Key: new_skip_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1428966523846656
+    m_Key: new_start_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791467572740096
+    m_Key: loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49680125533143040
+    m_Key: new_endless_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63469971271630848
+    m_Key: option_dialogue_auto_advance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68914510270611456
+    m_Key: music_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217292363907072
+    m_Key: lead_art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260403609419776
+    m_Key: sound_designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260471221600256
+    m_Key: composer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262198301769728
+    m_Key: credit_inspo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262222729396224
+    m_Key: credit_zapsplat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264139253694464
+    m_Key: load_button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264686660698112
+    m_Key: yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264698710933504
+    m_Key: no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98258866009849856
+    m_Key: character_artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992209629954048
+    m_Key: thanks_bowen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992394410016768
+    m_Key: dev_team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041827549593600
+    m_Key: main_starting_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041931161485312
+    m_Key: main_available_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101042014783324160
+    m_Key: main_selected_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053347759177728
+    m_Key: main_skip_intro_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053534732861440
+    m_Key: main_hard_mode_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053623253647360
+    m_Key: main_endless_mode_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112030429184
+    m_Key: main_perk_points_used
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112034623488
+    m_Key: main_perk_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103629527129571328
+    m_Key: main_demo_notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457938636800
+    m_Key: main_wishlist_now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457959608320
+    m_Key: main_provide_feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892356329472
+    m_Key: main_menu_data_consent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892381495296
+    m_Key: option_data_consent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123860245336080384
+    m_Key: option_dialogue_typewriter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125321176029118464
+    m_Key: main_perk_blocker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125426057079472128
+    m_Key: skip_intro_first_run_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128916364517490688
+    m_Key: first_run_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137315070048518144
+    m_Key: confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328426020864
+    m_Key: general_optional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328459575296
+    m_Key: general_or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148594413932429312
+    m_Key: load_locale_mismatch_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156521139916292096
+    m_Key: mods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202098683904
+    m_Key: option_fps_cap_background
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044032
+    m_Key: option_instant_customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044033
+    m_Key: option_instant_security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044034
+    m_Key: option_instant_next_customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171368485997035520
+    m_Key: general_select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744927363072
+    m_Key: demo_notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744956723200
+    m_Key: demo_notice_button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014241841152
+    m_Key: option_disable_sort_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395584
+    m_Key: option_sort_auto_rotate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395585
+    m_Key: option_single_click_interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395586
+    m_Key: option_single_click_activate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395587
+    m_Key: option_keybind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395588
+    m_Key: option_key_rotate_cw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395589
+    m_Key: option_key_rotate_ccw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395590
+    m_Key: option_key_flip_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395591
+    m_Key: option_key_reset_orientation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395592
+    m_Key: option_key_trash_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395593
+    m_Key: option_key_sort_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395594
+    m_Key: option_key_quick_move_inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395595
+    m_Key: option_key_quick_move_showcase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395596
+    m_Key: option_key_quick_move_storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395597
+    m_Key: option_key_pin_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395598
+    m_Key: option_key_open_options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395599
+    m_Key: option_key_control_hints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395600
+    m_Key: option_key_advance_dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395601
+    m_Key: option_key_toolbox_slot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395602
+    m_Key: option_key_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395603
+    m_Key: option_keybind_press_key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395604
+    m_Key: option_keybind_status_waiting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395605
+    m_Key: option_keybind_status_reserved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395606
+    m_Key: option_keybind_status_conflict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959590076416
+    m_Key: new_specialization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436544
+    m_Key: new_start_with
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436545
+    m_Key: new_continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436546
+    m_Key: new_intro_unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436547
+    m_Key: new_perk_instruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436548
+    m_Key: new_perk_points_available
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436549
+    m_Key: new_perk_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436550
+    m_Key: new_difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436551
+    m_Key: difficulty_cozy_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436552
+    m_Key: difficulty_cozy_subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436553
+    m_Key: difficulty_normal_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436554
+    m_Key: difficulty_normal_subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436555
+    m_Key: difficulty_hard_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436556
+    m_Key: difficulty_hard_subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436557
+    m_Key: difficulty_challenge_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436558
+    m_Key: difficulty_challenge_subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436559
+    m_Key: difficulty_effect_no_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436560
+    m_Key: difficulty_effect_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436561
+    m_Key: difficulty_effect_rent_increase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436562
+    m_Key: difficulty_effect_standard_service_fees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630848
+    m_Key: difficulty_effect_higher_service_fees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630849
+    m_Key: difficulty_effect_lower_service_fees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630850
+    m_Key: difficulty_effect_vendor_permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630851
+    m_Key: difficulty_effect_standard_upgrade_prices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630852
+    m_Key: difficulty_effect_upgrades_pricier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630853
+    m_Key: difficulty_effect_upgrades_cheaper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630854
+    m_Key: difficulty_effect_standard_supplier_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630855
+    m_Key: difficulty_effect_supplier_pricier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630856
+    m_Key: difficulty_effect_supplier_cheaper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630857
+    m_Key: difficulty_effect_standard_property_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630858
+    m_Key: difficulty_effect_higher_property_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630859
+    m_Key: difficulty_effect_lower_property_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630860
+    m_Key: difficulty_effect_reputation_gain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630861
+    m_Key: difficulty_effect_reputation_loss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630862
+    m_Key: difficulty_effect_standard_wild_favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630863
+    m_Key: difficulty_effect_more_wild_favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630864
+    m_Key: difficulty_effect_less_wild_favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182605126153584640
+    m_Key: ui_designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786102989209600
+    m_Key: option_background_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764032
+    m_Key: option_auto_open_negotiation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764033
+    m_Key: option_single_click_choice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709276405760
+    m_Key: option_show_mod_source_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709318348800
+    m_Key: option_show_mod_source_recorder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693632
+    m_Key: load_latest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693633
+    m_Key: load_cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693634
+    m_Key: load_delete_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693635
+    m_Key: load_save_missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693636
+    m_Key: load_version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693637
+    m_Key: load_copy_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693638
+    m_Key: load_duplicate_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693639
+    m_Key: load_discover_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693640
+    m_Key: load_discover_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693641
+    m_Key: option_save_history_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693642
+    m_Key: new_perk_locked_by
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189602199839227904
+    m_Key: option_newspaper_to_trash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189604507520122880
+    m_Key: load_demo_save_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189909383209533440
+    m_Key: option_enable_fps_cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464770031616
+    m_Key: option_vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464807780352
+    m_Key: option_key_call_next_customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190649068024328192
+    m_Key: option_key_menu_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611836174336
+    m_Key: credit_localization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505984
+    m_Key: credit_loc_director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505985
+    m_Key: credit_community_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505986
+    m_Key: credit_team_mascot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505987
+    m_Key: credit_publishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505988
+    m_Key: credit_pub_ceo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505989
+    m_Key: credit_pub_cfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505990
+    m_Key: credit_pub_exec_assistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505991
+    m_Key: credit_pub_bizdev_director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505992
+    m_Key: credit_pub_sales_director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505993
+    m_Key: credit_pub_head_publishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505994
+    m_Key: credit_pub_exec_producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505995
+    m_Key: credit_pub_producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505996
+    m_Key: credit_pub_associate_producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505997
+    m_Key: credit_pub_senior_marketing_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505998
+    m_Key: credit_pub_marketing_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505999
+    m_Key: credit_pub_head_influencer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506000
+    m_Key: credit_pub_senior_influencer_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506001
+    m_Key: credit_pub_senior_community_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506002
+    m_Key: credit_pub_social_media_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506003
+    m_Key: credit_pub_user_acquisition_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506004
+    m_Key: credit_pub_porting_producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506005
+    m_Key: credit_pub_liveops_producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506006
+    m_Key: credit_pub_head_dev_services
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506007
+    m_Key: credit_pub_release_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506008
+    m_Key: credit_pub_localization_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506009
+    m_Key: credit_pub_discord_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506010
+    m_Key: credit_pub_support_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506011
+    m_Key: credit_pub_qa_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506012
+    m_Key: credit_pub_head_media
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506013
+    m_Key: credit_pub_media_project_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506014
+    m_Key: credit_pub_trailer_producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506015
+    m_Key: credit_pub_video_editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506016
+    m_Key: credit_pub_graphic_designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506017
+    m_Key: credit_pub_head_hr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506018
+    m_Key: credit_pub_sysadmin_devops
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506019
+    m_Key: option_disable_pop_culture_clients
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506020
+    m_Key: option_move_bought_to_inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506021
+    m_Key: option_dialogue_bubble_scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762898788352
+    m_Key: load_damaged_repaired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342784
+    m_Key: load_damaged_lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342785
+    m_Key: load_save_damaged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342786
+    m_Key: option_restore_display_after_focus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342787
+    m_Key: option_key_secondary_click
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342788
+    m_Key: option_key_flip_item_alt
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6171895735871340568
+  references:
+    version: 2
+    RefIds:
+    - rid: 6171895735871340568
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1747950688041

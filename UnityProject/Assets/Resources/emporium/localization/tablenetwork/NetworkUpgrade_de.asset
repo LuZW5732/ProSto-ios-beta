@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NetworkUpgrade_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 51497bd2ea02b6c4b8fe669147dd7259, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 70813270016
+    m_Localized: Red-Imp-Brauerei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077454618624
+    m_Localized: Wild stellt dich einem Vertriebsmitarbeiter der Red-Imp-Brauerei vor, was dir sofort permanenten Zugang zu ihrem Biervorrat gewährt. Außerdem erhältst du eine Visitenkarte, mit der du diesen Lieferanten kontaktieren kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916352
+    m_Localized: Einführung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916353
+    m_Localized: Gefallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916354
+    m_Localized: Informant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916355
+    m_Localized: Kontaktvermittlung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916356
+    m_Localized: Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916357
+    m_Localized: Genehmigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916358
+    m_Localized: Lieferant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916359
+    m_Localized: Unterdeck-Chemiker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916360
+    m_Localized: Wild stellt dich einem Unterdeck-Chemiker vor, der billig illegale Drogen für private und medizinische Zwecke produziert. Außerdem erhältst du eine Visitenkarte, mit der du diesen Lieferanten kontaktieren kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916361
+    m_Localized: Apotheker (Oberdecks)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916362
+    m_Localized: Wild stellt dich einem Verwaltungsmanager eines anonymen Oberdeck-Apothekers vor, wodurch du sofort permanenten Zugang zu legalen, aber schwer bezüglichen Medikamenten erhältst. Außerdem erhältst du eine Visitenkarte, mit der du diesen Lieferanten kontaktieren kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916363
+    m_Localized: GP Mining Coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916364
+    m_Localized: Wild stellt dich dem Direktor der GP Mining Coop vor, mit dessen Hilfe du große Mengen Mineralerze beziehen kannst. Außerdem erhältst du eine Visitenkarte, mit der du diesen Lieferanten kontaktieren kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916365
+    m_Localized: Mietaufschub
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916366
+    m_Localized: Wenn du eine Mietzahlung versäumt hast, überzeugt Wild deinen Vermieter, dass du die fällige Zahlung zusammen mit der nächsten Wochenmiete begleichst. Dieser Gefallen ist nur einmal verfügbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916367
+    m_Localized: Dein Vermieter ist bereits gut auf dich zu sprechen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916368
+    m_Localized: Nachsicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916369
+    m_Localized: Wenn ein Inspektor von der Security bei dir Schmuggelware findet, für die du normalerweise inhaftiert werden würdest, nutzt Wild seinen politischen Einfluss aus, damit du nur verwarnt wirst. Dieser Gefallen ist nur einmal verfügbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916370
+    m_Localized: Diesen Gefallen hat Wild dir bereits erwiesen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916371
+    m_Localized: 'Warnung: Inspektion'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916372
+    m_Localized: Wild stellt dich seinem Informanten in der Security-Abteilung vor. Für eine nächtliche Gebühr weist dich der Informant auf reguläre Sicherheitsinspektionen hin. Bei unangekündigten Inspektionen kann der Informant dir nicht helfen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916373
+    m_Localized: Wilds Fixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916374
+    m_Localized: Wild erlaubt dir, einen seiner Fixer anzuheuern. Für eine nächtliche Gebühr bringen seine Fixer Zeugen zum Schweigen und beseitigen Beweismaterial, das noch nicht im Besitz der Security ist. So wirst du schneller weniger krimineller Machenschaften verdächtigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916375
+    m_Localized: Beweisvernichtung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916376
+    m_Localized: Wild befiehlt seinen Kontakten bei der Security, alle gesammelten Beweise zu vernichten und die laufenden Ermittlungen gegen dich zu sabotieren. Dieser Gefallen hat eine Abklingzeit von {0} Tagen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916377
+    m_Localized: Käuferkontakt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916378
+    m_Localized: Wild stimmt zu, deinen Laden für eine nächtliche Gebühr an potenziellen Kunden aus seinem Netzwerk weiterzuempfehlen. Außerdem werden mehr Kunden von den Waren in deinem Schaufenster angelockt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916379
+    m_Localized: Verkäuferkontakt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916380
+    m_Localized: Wild stimmt zu, deinen Laden für eine nächtliche Gebühr an potenzielle Verkäufer aus seinem Netzwerk weiterzuempfehlen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916381
+    m_Localized: Kriminelles Netzwerken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916382
+    m_Localized: Wild stimmt zu, deinen Laden für eine nächtliche Gebühr an finanzstarke Kunden weiterzuempfehlen, die am Kauf von Schmuggelware interessiert sind. Mit diesem Service erhältst du auch eine kleine Menge Schwarzmarkt-Ansehen. ({0} Tage Abklingzeit).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916383
+    m_Localized: Gehackte Stromleitung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916384
+    m_Localized: Du beziehst deinen Strom von einem externen Solarpanel, dessen Besitzer ihn (vermutlich) nicht braucht. Der nächtliche Stromservice ist jetzt kostenlos. Stromwandler werden weiterhin abgerechnet, da die Leistung des Panels für sie nicht ausreicht, kosten aber 15 % weniger. Stromausfälle betreffen weder deinen Laden noch deine Stromwandler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916385
+    m_Localized: Kommerzielle Stromversorgung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916386
+    m_Localized: Dein Stromversorgungsgerät wird ausgebaut, um mehr Leistung zu erzielen. Ladegerät und PowerBlock werden um {0} % schneller aufgeladen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110656
+    m_Localized: Schaufenstererweiterung I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110657
+    m_Localized: Du kannst in deinem Schaufenster mehr Waren ausstellen. Dein Laden wird täglich von {0} zusätzlichen Kunden besucht, die Waren aus dem Schaufenster kaufen wollen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110658
+    m_Localized: Schaufenstererweiterung II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110659
+    m_Localized: Dein Schaufenster erhält weitere Kapazitäten. Dein Laden wird täglich von {0} zusätzlichen Kunden besucht, die Waren aus dem Schaufenster kaufen wollen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110660
+    m_Localized: Kloakenbrühe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110661
+    m_Localized: Wild verbindet deine Wasserleitung mit der Kanalisation, sodass du unbegrenzt Kloakenbrühe erhältst. Die Reinheit des Wassers schwankt von Tag zu Tag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110662
+    m_Localized: Dreckwasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110663
+    m_Localized: Wild verbindet deine Wasserleitung mit einer industriellen Abwasserleitung, sodass du unbegrenzt Dreckwasser erhältst. Die Reinheit des Wassers schwankt von Tag zu Tag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110664
+    m_Localized: Maschinenschrott-Recycling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110665
+    m_Localized: Am nächsten Tag besucht dich ein Schrotthändler, der dir beibringt, defekte Maschinen in brauchbare Einzelteile zu zerlegen. (Schaltet Maschinenschrott-Inhalte frei.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110666
+    m_Localized: Farmer im Ruhestand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110667
+    m_Localized: Du erhältst sofort ein Hydrokultur-Starterset. Ein Farmer im Ruhestand besucht dich am folgenden Tag und danach einmal pro Woche, um dir Saatgut und Hydrokultur-Ausrüstung zu verkaufen. (Schaltet Farmer-Inhalte (fortgeschritten) frei.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110668
+    m_Localized: Waffenschmied im Ruhestand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110669
+    m_Localized: Du erhältst sofort ein Waffenschmied-Starterset. Ein Waffenschmied im Ruhestand besucht dich am folgenden Tag und danach einmal pro Woche, um dir Waffen-Mods und Munition zu verkaufen. (Schaltet Waffenschmied-Inhalte (fortgeschritten) frei.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110670
+    m_Localized: Waffenschein I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110671
+    m_Localized: Wild verhandelt in deinem Namen und sichert dir eine Schusswaffen-Genehmigung, die normalerweise Unterdeck-Händlern vorbehalten ist. Damit kannst du legal mit minderwertigen geschmuggelten Schusswaffen und Munition handeln. Die Genehmigung wird geliefert, sobald du {0} Security-Ansehen erreichst, und entzogen, wenn es unter 0 fällt. Security lässt dich eine Schrotflinte zur Selbstverteidigung behalten, sobald du sie erhalten hast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110672
+    m_Localized: Waffenschein II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110673
+    m_Localized: Wild verhandelt in deinem Namen und sichert dir eine Schusswaffen-Genehmigung, die normalerweise Oberdeck-Händlern vorbehalten ist. Damit kannst du legal mit mittelklassigen geschmuggelten Schusswaffen und Munition handeln. Die Genehmigung wird erst geliefert, wenn du mindestens {0} Security-Ansehen hast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110674
+    m_Localized: Waffenschein III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110675
+    m_Localized: Wild verhandelt in deinem Namen und sichert dir einen Waffenschein, der normalerweise Quartiermeistern der Security vorbehalten ist. Damit kannst du legal mit hochwertigen geschmuggelten Schusswaffen und Munition handeln. Der Schein wird erst geliefert, wenn du mindestens {0} Security-Ansehen hast.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110676
+    m_Localized: Chemiker im Ruhestand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110677
+    m_Localized: Du erhältst sofort ein Chemiker-Starterset. Ein Chemiker im Ruhestand besucht dich am folgenden Tag und danach einmal pro Woche, um dir Chemikalien und Zubehör zu verkaufen. (Schaltet Chemie-Inhalte (fortgeschritten) frei.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110678
+    m_Localized: Wasserhandel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110679
+    m_Localized: Du erhältst sofort ein Wasserhandel-Starterset. Ein Wasserhändler besucht ab jetzt deinen Laden. (Schaltet Wasserhandel-Inhalte frei.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110680
+    m_Localized: Marktplatz-Anfragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110681
+    m_Localized: Wild verbindet dich mit dem Marktplatz-Netzwerk. Dort kannst du Anfragen von potenziellen Käufern durchsuchen und annehmen. Die Belohnung für angefragte Ware ist üblicherweise höher als der normale Marktwert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110682
+    m_Localized: Jackson-Investment I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110683
+    m_Localized: Wild überredet Dr. Jackson, ein kleines Investment von dir zu akzeptieren. Damit werden sein Budget sowie seine verfügbaren Waren dauerhaft erweitert. Dr. Jackson wird immer Module auf Lager haben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110684
+    m_Localized: Jackson-Investment II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110685
+    m_Localized: Wild überredet Dr. Jackson, ein kleines Investment von dir zu akzeptieren. Damit werden sein Budget sowie seine verfügbaren Waren dauerhaft erweitert. Dr. Jackson wird immer Module auf Lager haben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110686
+    m_Localized: Ladenrenovierung I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110687
+    m_Localized: Wild heuert seine Handwerker für kleine Renovierungsarbeiten an, um die grundlegende Attraktivität deines Ladens um {0} Punkte zu steigern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110688
+    m_Localized: Ladenrenovierung II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110689
+    m_Localized: Wild heuert seine Handwerker für aufwendige Renovierungsarbeiten an, um die grundlegende Attraktivität deines Ladens um weitere {0} Punkte zu steigern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110690
+    m_Localized: Ladenrenovierung III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110691
+    m_Localized: Wild heuert seine Handwerker für umfassende Renovierungsarbeiten an, um die grundlegende Attraktivität deines Ladens um weitere {0} Punkte zu steigern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759671308288
+    m_Localized: Viehhaltung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759692279808
+    m_Localized: Wild bringt dich mit einem Rattentreiber in Kontakt, der einmal die Woche vorbeikommt. Du erhältst sofort ein Rattentreiber-Starterset. (Viehhaltungs-Inhalte werden freigeschaltet)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088798810112
+    m_Localized: Winzer im Ruhestand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088832364544
+    m_Localized: Du erhältst sofort ein Winzer-Starterset. Ein Winzer im Ruhestand besucht dich am folgenden Tag und danach einmal pro Woche, um dir Zubehör zur Weinherstellung zu verkaufen. (Schaltet Winzer-Inhalte frei.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081375535104
+    m_Localized: Aquakultur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081438449664
+    m_Localized: Wild bringt dich mit einem pensionierten Fischzüchter in Kontakt, der einmal die Woche vorbeikommt und Ausrüstung sowie befruchteten Laich verkauft. Du erhältst sofort ein Aquakultur-Starterset. (Aquakultur-Inhalte werden freigeschaltet)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217368723456
+    m_Localized: Aquakultur II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217402277888
+    m_Localized: Der pensionierte Fischzüchter bringt mit jedem Besuch größere, profitablere Fische zur Aufzucht mit. Du erhältst sofort zwei junge Aale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919055683584
+    m_Localized: Pflanzengenetik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238016
+    m_Localized: Du erhältst sofort einen DNA-Manipulator, einen Genscanner sowie leere DNA-Datendisks. Dr. Jackson hat ab sofort Zubehör zur DNA-Manipulation auf Lager.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238017
+    m_Localized: Verbessertes Dossier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238018
+    m_Localized: Erweitert das Fassungsvermögen des Dossiers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238019
+    m_Localized: Verbesserter Mülleimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238020
+    m_Localized: Erweitert das Fassungsvermögen des Mülleimers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238021
+    m_Localized: Verkaufsautomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238022
+    m_Localized: Im Laden wird sofort ein Verkaufsautomat aufgestellt. Damit können Waren auch nachts verkauft werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238023
+    m_Localized: Wasserautomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238024
+    m_Localized: Im Laden wird sofort ein Wasserautomat aufgestellt. Damit kann Wasser auch nachts verkauft werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238025
+    m_Localized: Laden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254073679872
+    m_Localized: 'Kleinteilhaber: Red-Imp-Brauerei'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428608
+    m_Localized: Kaufe einen kleinen Anteil an der Red-Imp-Brauerei. Der Großhandelsrabatt ihres Lieferanten steigt um {0} %, und jeden Donnerstagmorgen wartet eine Dividende in Form von {1} Kasten Bier auf deinem Tresen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428609
+    m_Localized: 'Kleinteilhaber: GP Mining Coop'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428610
+    m_Localized: Kaufe einen kleinen Anteil an der GP Mining Coop. Der Großhandelsrabatt ihres Lieferanten steigt um {0} %, und jeden Freitagmorgen wartet eine Dividende in Form von {1} Erz auf deinem Tresen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428611
+    m_Localized: 'Kleinteilhaber: Unterdeck-Chemiker'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428612
+    m_Localized: Kaufe einen kleinen Anteil am Geschäft des Unterdeck-Chemikers. Der Großhandelsrabatt seines Lieferanten steigt um {0} %, und jeden Samstagmorgen wartet eine Dividende in Form von {1} Traumstaub (Straßenstandard) auf deinem Tresen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428613
+    m_Localized: 'Kleinteilhaber: Oberdeck-Apotheker'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428614
+    m_Localized: Kaufe einen kleinen Anteil am Geschäft des Oberdeck-Apothekers. Der Großhandelsrabatt seines Lieferanten steigt um {0} %, und jeden Sonntagmorgen wartet eine Dividende in Form von {1} OxyMore-Injektoren auf deinem Tresen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428615
+    m_Localized: Montagsware
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428616
+    m_Localized: Dr. Jackson öffnet montags sein Geschäft nur für dich und hat eine Auswahl an selteneren Waren zum Premiumpreis auf Lager.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592013217792
+    m_Localized: Hypertech-Schmuggler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577920
+    m_Localized: 'Joe Wild vermittelt dich an einen Schmuggler, der mit Hypertech-Gegenständen handelt: Technologie, die weit über das hinausgeht, was die Industrie der Station herstellen kann. Schaltet den nächtlichen Service Hypertech-Schmuggler frei.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577921
+    m_Localized: Empfehlung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577922
+    m_Localized: Wilds Empfehlung I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577923
+    m_Localized: Joe Wild empfiehlt deinen Laden persönlich. Besuchende Kunden haben {0} % mehr Budget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577924
+    m_Localized: Wilds Empfehlung II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577925
+    m_Localized: Joe Wild preist deinen Laden bei seinen besten Kontakten an. Besuchende Kunden haben weitere {0} % mehr Budget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577926
+    m_Localized: Wilds Empfehlung III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577927
+    m_Localized: Joe Wild steht mit seinem eigenen Namen für deinen Laden ein. Besuchende Kunden haben weitere {0} % mehr Budget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577928
+    m_Localized: Wilds Fixer II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577929
+    m_Localized: Wild teilt dir erfahrenere Fixer zu. Sie beseitigen Beweise schneller, sodass der Verdacht gegen dich jede Nacht stärker sinkt. Die nächtliche Gebühr steigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577930
+    m_Localized: Wilds Fixer III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577931
+    m_Localized: Wild setzt seine beste Truppe auf deinen Laden an. Zeugen vergessen, Beweise verschwinden, und der Verdacht gegen dich sinkt jede Nacht noch schneller. Die nächtliche Gebühr steigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291312619520
+    m_Localized: Gehackte Stromleitung II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785344
+    m_Localized: 'Wilds Crew klemmt eine größere Solaranlage an deine Leitung. Sie trägt jetzt einen Teil der Last deiner Stromwandler: Ihr Betrieb kostet {0} % weniger.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785345
+    m_Localized: Gehackte Stromleitung III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785346
+    m_Localized: Wilds Crew zapft für dich ein ganzes Dach voller Panels an. Deine Stromwandler kosten im Betrieb jetzt insgesamt {0} % weniger.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

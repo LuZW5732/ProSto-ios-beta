@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: RepPerkTable_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 45c4f39619603fc4d843907cae64818b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1034312007680
+    m_Localized: Referral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1174275932160
+    m_Localized: '{0}% chance that {1} additional random customer will visit the Store per day.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214239260672
+    m_Localized: Word travels fast in the Lower Levels. A satisfied customer is more than just a sale, they're your best advertisement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773368455168
+    m_Localized: Word on the Street
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649472
+    m_Localized: You will occasionally receive tips from the Lower Levels about upcoming events.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649473
+    m_Localized: The people of the Lower Levels have their ears to the ground. If they trust you, they'll keep you in the loop, too.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649474
+    m_Localized: Rare Goods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649475
+    m_Localized: New types of customers offering Rare or Contraband goods will start to visit your Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649476
+    m_Localized: With the right connections, even the Lower Levels can offer up something worth your while.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649477
+    m_Localized: Tight Lips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649478
+    m_Localized: Selling Contraband to customers from the Lower Levels will only create {0:P0} of its value in available evidence.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649479
+    m_Localized: You've earned their trust. They know you're good for it, and they're not going to rat you out.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649480
+    m_Localized: Pillar of the Lower Levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649481
+    m_Localized: You will now receive {0}% discount from Joe Wild and Dr. Jackson.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649482
+    m_Localized: You've earned the respect of the Lower Levels. Even other Lower Levels leaders recognize the good you do.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649483
+    m_Localized: Poor Reviews
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649484
+    m_Localized: '{0}% chance that {1} less random customer will visit your Store per day.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649485
+    m_Localized: All it takes is a few dissatisfied customers, and your Reputation in the Lower Levels takes a hit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649486
+    m_Localized: Mistrusted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649487
+    m_Localized: Customers from the Lower Levels will no longer sell you Contraband items.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649488
+    m_Localized: You are known throughout the Lower Levels as a liability. Those with contraband to sell will take it elsewhere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649489
+    m_Localized: Marked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649490
+    m_Localized: You will be targeted more frequently by thieves. Insurance will now cost {0}x.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649491
+    m_Localized: Your poor reputation has put a target on your back. The Lower Levels never forget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649492
+    m_Localized: Shunned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649493
+    m_Localized: All suppliers will refuse to take your calls. Dr. Jackson will no longer visit your Store, except under special circumstances.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649494
+    m_Localized: No one want to associate with you anymore. Fearing for their own reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649495
+    m_Localized: Mob Justice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649496
+    m_Localized: A mob from the Lower Levels will attack your Store and lynch you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649497
+    m_Localized: The people of the Lower Levels have had enough, they'll take matters into their own hands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649498
+    m_Localized: Requisition Order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649499
+    m_Localized: A Security Requisition Officer will occasionally visit your Store to purchase Food and Medical Supplies. Trading with them will increase your Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649500
+    m_Localized: Even Station Security has to get their supplies from someone. They will pay you a fair price.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649501
+    m_Localized: Must Be The Wind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649502
+    m_Localized: Security will not longer respond to your alarms.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649503
+    m_Localized: You've cried wolf one too many times, or maybe you're just not worth the trouble anymore. Either way, when things go south, you're on your own.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649504
+    m_Localized: Watchlist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649505
+    m_Localized: Security has added you on their watchlist. Any investigation on you will progress x{0} times faster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649506
+    m_Localized: Your notoriety has caught the eye of Station Security. Keep your head down, or lose it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649507
+    m_Localized: Most Wanted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649508
+    m_Localized: Any investigation on you will progress x{0} times faster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649509
+    m_Localized: Another day, another case file with your name on it on the desk of the Head of Station Security...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649510
+    m_Localized: No Stone Unturned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649511
+    m_Localized: Security will no longer sent you lazy or shady inspectors. Additionally, inspections will be more frequent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649512
+    m_Localized: No more easy passes or conveniently blind inspectors. Every visit is now a full sweep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649513
+    m_Localized: No Quarter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649514
+    m_Localized: Security will prosecute you to the maximum extent of the law regarding contraband found during inspection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649515
+    m_Localized: No more warnings. No more bribes. Even the smallest contraband could land you in serious trouble.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649516
+    m_Localized: By Any Means
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649517
+    m_Localized: Security will immediately arrest and jail you, regardless of any evidence they have (or don't have).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649518
+    m_Localized: When they want you gone, the truth doesn't matter. They'll make sure the "evidence" says exactly what they need it to.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843776
+    m_Localized: Security Protection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843777
+    m_Localized: Due to your good Reputation with Security, Thieves are more reluctant to target your Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843778
+    m_Localized: Having the eyes of Station Security on you isn't always a bad thing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843779
+    m_Localized: Security Surplus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843780
+    m_Localized: A Security Surplus Merchant will occasionally visit the Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843781
+    m_Localized: Station Security has agreed to sell you their decommissioned equipment, including weapons and armor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843782
+    m_Localized: Reliable Vendor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843783
+    m_Localized: The Security Surplus Merchant will have improved wares, and Security customers will have {0}% more credits to spend.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843784
+    m_Localized: You've proven yourself to be a reliable vendor. Station Security is willing to do more business with you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843785
+    m_Localized: VIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843786
+    m_Localized: Due to your excellent Reputation with Security, Thieves will no longer target your Store. You will no longer be subject to inspection.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843787
+    m_Localized: You're untouchable. Security has your back, and they're not going to let anyone mess with you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843788
+    m_Localized: Trusted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843789
+    m_Localized: Inspections will be less frequent, and any investigations will progress slower. You will receive advanced warning of any impending Security Operation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843790
+    m_Localized: Being trusted means less hassle from Security. Inspections are now few and far between.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843791
+    m_Localized: Underground Network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843792
+    m_Localized: You will receive advanced notice of most Black Market events.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843793
+    m_Localized: It's who you know that matters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843794
+    m_Localized: Blacklisted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843795
+    m_Localized: Customers from the Black Market will no longer sell you Contraband items. You are barred from the Underground Exchange. The Janitorial Service cost double.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843796
+    m_Localized: Your credits aren't worth a thing if nobody trusts you enough to sell.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843797
+    m_Localized: Uninsurable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843798
+    m_Localized: Insurance services will not longer be available to you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843799
+    m_Localized: Due to your infamy with the Black Market, even Joe Wild can't insure you anymore. You're on your own now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843800
+    m_Localized: Small Time Broker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843801
+    m_Localized: Petty Thieves have an increased chance of visiting your Store. Their wares will now improve with higher Black Market Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843802
+    m_Localized: You are starting to build a reputation with the Black Market.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843803
+    m_Localized: Honor Amongst Thieves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843804
+    m_Localized: Reputation is lost with the Black Market at a rate of x{0}, regardless of your current Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843805
+    m_Localized: Trust is our currency.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843806
+    m_Localized: Safe Hands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843807
+    m_Localized: You are guaranteed a visit from a Thief once per week. All thieves will now offer improved wares.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843808
+    m_Localized: The Thieves of the Black Market know you're good for it, and more are willing to deal with you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843809
+    m_Localized: Gossipmonger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843810
+    m_Localized: You will receive advanced notice of most Upper Levels events.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843811
+    m_Localized: They never stop talking up there... sometimes they even say something useful.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843812
+    m_Localized: Pourboire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843813
+    m_Localized: You will receive {0}% bonus when selling items to customers from the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843814
+    m_Localized: They don't haggle. They just drop a few extra credits and call it etiquette.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843815
+    m_Localized: Upper Level Charity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843816
+    m_Localized: A benefactor from the Upper Levels will occasionally donate goods to your Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843817
+    m_Localized: Publicity stunts or genuine kindness? You won't argue with free goods.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843818
+    m_Localized: Household Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843819
+    m_Localized: You have {0}% chance of receiving {1} additional daily customer from the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843820
+    m_Localized: Your Store has become the talk of the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843821
+    m_Localized: Rave Reviews
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843822
+    m_Localized: All customers from the Upper Levels have {0}% more credits to spend.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843823
+    m_Localized: Your Store is the worst kept secret in the Upper Levels. Customers from the Upper Levels are willing to spend more when they visit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843824
+    m_Localized: Tourist Trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843825
+    m_Localized: Customers from the Upper Levels are less likely to visit your Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843826
+    m_Localized: Upper Levels clients expect better. Lately, you're not delivering.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843827
+    m_Localized: Petition to Security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843828
+    m_Localized: You lose Reputation with Security {0}x faster and active investigations progress {1:P0} faster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843829
+    m_Localized: Using their influence, the Upper Levels have petitioned Security to keep a closer eye on you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843830
+    m_Localized: Hired Hitman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843831
+    m_Localized: A hit will be immediately placed on you by the Upper Levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843832
+    m_Localized: A contract has been signed in a luxury suites above. You've made the wrong enemies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843833
+    m_Localized: Friend of the Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843834
+    m_Localized: You will receive advanced notice of most Revolution events.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843835
+    m_Localized: The revolution will make sure you are not caught in the crossfire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843836
+    m_Localized: Hit list
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843837
+    m_Localized: A revolution hit squad will be immediately tasked with eliminating you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843838
+    m_Localized: You have been declared an enemy of the revolution. They will stop at nothing to see you gone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843839
+    m_Localized: Blacklisted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843840
+    m_Localized: Customers sympathetic to the Revolution are less likely to visit your Store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843841
+    m_Localized: Notice has been circulated among revolutionary cells, warning members to avoid doing business with you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843842
+    m_Localized: Revolution Marketplace Request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843843
+    m_Localized: You will occasionally receive Marketplace Requests from various Revolution cells.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843844
+    m_Localized: From each according to his ability, to each according to his needs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843845
+    m_Localized: Raid Loot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843846
+    m_Localized: Members of the Revolution will occasionally visit to sell off their loot from raids. Prices will improve with higher Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843847
+    m_Localized: The liberation of people requires the liberation of supplies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843848
+    m_Localized: Revolution Quartermaster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843849
+    m_Localized: A Revolution Quartermaster will occasionally visit your Store to sell Materials at a discount. The discount will improve with higher Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843850
+    m_Localized: Revolutions can't run on ideals alone. The Quartermaster sells cheap stock to quietly fund the next move.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843851
+    m_Localized: Forced Retirement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843852
+    m_Localized: A Cartel Hitman has been dispatched to eliminate you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843853
+    m_Localized: Sometimes what is best for the dog is to put it down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843854
+    m_Localized: Increased Stipend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843855
+    m_Localized: Your weekly stipend now scales with your Cartel Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843856
+    m_Localized: Don't mistake it for kindness, it's an investment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843857
+    m_Localized: Reliable Chemist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843858
+    m_Localized: Requesting additional Materials now costs {0}% of the usual Reputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843859
+    m_Localized: The Cartel will reward consistency, and service.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843860
+    m_Localized: Authorized Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843861
+    m_Localized: Your handler will start to process your authorized exit from the Cartel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843862
+    m_Localized: You're lucky, not many get to leave without a body bag...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314774175744
+    m_Localized: Discerning Taste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730176
+    m_Localized: While a Luxury Item is in your display case, you have {0}% chance each day of receiving an additional customer looking to buy Luxury Items. Rises with Reputation. This customer can only visit once every {1} days.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730177
+    m_Localized: Something expensive in a Lower Levels window? The Upper Levels will come down just to say they found it first.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

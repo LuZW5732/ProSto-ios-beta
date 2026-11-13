@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: RepPerkTable_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 45c4f39619603fc4d843907cae64818b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1034312007680
+    m_Localized: 推薦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1174275932160
+    m_Localized: 毎日、{0}%の確率で店に来るランダムな客が{1}人増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214239260672
+    m_Localized: 下層世界では、噂があっという間に広まる。客を満足させることは売上以上の意味があり、最高の宣伝になるのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773368455168
+    m_Localized: 巷の噂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649472
+    m_Localized: 下層世界から、今後の出来事に関する情報を得られることがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649473
+    m_Localized: 下層世界の住民は情報に敏感だ。信頼を得られれば、こちらにも共有してもらえるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649474
+    m_Localized: 希少品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649475
+    m_Localized: 希少品や禁制品を扱う新しいタイプの客が、店に来るようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649476
+    m_Localized: 上手く人脈を使えば、下層世界でも十分稼げる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649477
+    m_Localized: 秘密厳守
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649478
+    m_Localized: 下層世界の客に禁制品を売っても、その価格の{0:P0}分しか証拠にならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649479
+    m_Localized: 彼らの信頼を勝ち取ったのだ。信用できる相手だと知られていれば、密告されることはないだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649480
+    m_Localized: 下層世界の大黒柱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649481
+    m_Localized: ジョー・ワイルドとジャックソン博士から、{0}%の割引を受けるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649482
+    m_Localized: 下層世界で尊敬されるようになった。他の下層世界のリーダーにも、功績を認められている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649483
+    m_Localized: 低評価
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649484
+    m_Localized: 毎日、{0}%の確率で店に来るランダムな客が{1}人減る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649485
+    m_Localized: 不満を持った客が数人いるだけで、下層世界での評判は悪くなってしまう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649486
+    m_Localized: 不信感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649487
+    m_Localized: 下層世界の客から、禁制品を買えなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649488
+    m_Localized: 下層世界全体で、厄介者扱いされるようになってしまった。禁制品を売りたい人は別の場所に持っていくだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649489
+    m_Localized: 標的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649490
+    m_Localized: 泥棒に狙われやすくなる。保険料が{0}倍になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649491
+    m_Localized: 評判が悪いせいで、攻撃の対象になってしまった。下層世界の住民は根に持つだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649492
+    m_Localized: 孤立
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649493
+    m_Localized: すべての仕入れ先が電話に出なくなる。ジャックソン博士も、特別な事情がない限りは店に来なくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649494
+    m_Localized: 周りから煙たがられるようになった。関われば自分の評判が下がってしまうからだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649495
+    m_Localized: 私刑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649496
+    m_Localized: 下層世界の暴徒が店を襲撃し、殺しにくる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649497
+    m_Localized: 下層世界の住民はもう我慢の限界だ。自らの手で事態を解決しようとしている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649498
+    m_Localized: 調達依頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649499
+    m_Localized: 警察の調達部が、食品や医療用品を買いにくることがある。取引することで評判が上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649500
+    m_Localized: ステーションの警察と言えど、物資を調達しなければならない。適正な価格を支払ってくれるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649501
+    m_Localized: 無視
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649502
+    m_Localized: 非常ボタンを押しても、警察が反応しなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649503
+    m_Localized: 虚偽の通報をしすぎたのか、あるいは面倒を見る価値がないと判断されたのか。いずれにせよ、事態が悪化しても誰も助けてくれないだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649504
+    m_Localized: 監視リスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649505
+    m_Localized: 警察から監視リストに入れられた。あらゆる捜査が{0}倍の速さで進行する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649506
+    m_Localized: ステーションの警察まで悪評が届いてしまった。目立たないようにしないと、首が飛んでしまう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649507
+    m_Localized: 最重要指名手配
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649508
+    m_Localized: あらゆる捜査が{0}倍の速さで進行する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649509
+    m_Localized: 日が変われば、別のケースの記録がステーションの警備責任者の机の上に置かれる……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649510
+    m_Localized: 徹底捜査
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649511
+    m_Localized: 警察から、怠慢な検査員や怪しい検査員が送られなくなる。さらに、検査員が来る頻度が多くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649512
+    m_Localized: もう手抜きで検査されることも、都合よく見逃してもらえることもない。検査員が来るたびに、徹底的な検査が行われる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649513
+    m_Localized: 非情
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649514
+    m_Localized: 検査中に禁制品が見つかった場合、法が許す限り最大の罰が下される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649515
+    m_Localized: もう警告はしてもらえず、賄賂も効かない。ほんの少しの禁制品でも、重い処分が下るかもしれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649516
+    m_Localized: 実力行使
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649517
+    m_Localized: 証拠の有無に関わらず、直ちに逮捕されて投獄される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649518
+    m_Localized: 警察が追い出すと決めたら、真実など些末なことだ。「証拠」は警察の都合のいいように解釈されてしまう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843776
+    m_Localized: 警察の保護
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843777
+    m_Localized: 警察からの評判が良好なため、泥棒に狙われにくくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843778
+    m_Localized: ステーションの警察に見られていることには、いい面もある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843779
+    m_Localized: 警察の余りもの
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843780
+    m_Localized: 警察が余ったものを売りにくることがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843781
+    m_Localized: ステーションの警察から、武器や防具など、廃棄しなければならない装備を売ってもらえることになった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843782
+    m_Localized: 信頼できる商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843783
+    m_Localized: 警察が売ってくれる商品の品ぞろえと品質がよくなり、警察の予算が{0}%増加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843784
+    m_Localized: 信頼できる商人であることを証明できた。ステーションの警察は、取引を増やしたいと考えている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843785
+    m_Localized: VIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843786
+    m_Localized: 警察からの評判がとても高いため、泥棒に狙われなくなる。検査の対象にもならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843787
+    m_Localized: もう誰も敵にならない。警察が守ってくれる今、手出しできる者はいないのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843788
+    m_Localized: 信頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843789
+    m_Localized: 検査の頻度が減り、捜査の進行が遅くなる。警察による作戦が実施される場合は、事前に情報を得られる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843790
+    m_Localized: 信頼されていれば、警察に振り回されることもない。検査は滅多に行われない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843791
+    m_Localized: 闇ネットワーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843792
+    m_Localized: 大半の闇市場の出来事について、事前に情報を得られる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843793
+    m_Localized: 大切なのは人脈だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843794
+    m_Localized: ブラックリスト入り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843795
+    m_Localized: 闇市場の客から、禁制品を買えなくなる。アングラ取引を利用できなくなる。清掃サービスの費用が2倍になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843796
+    m_Localized: 誰もに疑われて商品を売ってもらえなくなれば、クレジットなどないも同然だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843797
+    m_Localized: 保険対象外
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843798
+    m_Localized: 保険サービスが利用できなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843799
+    m_Localized: 闇市場での評判が悪いため、あのジョー・ワイルドも保険をかけてくれない。これからは1人でやっていくしかない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843800
+    m_Localized: 小規模ブローカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843801
+    m_Localized: コソ泥が店に来る確率が上がる。闇市場からの評判が高いほど、商品の品ぞろえと品質がよくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843802
+    m_Localized: 闇市場からの評判を順調に築いている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843803
+    m_Localized: 盗人にも仁義あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843804
+    m_Localized: 現在の評判に関わらず、闇市場からの評判が{0}倍の速度で減少する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843805
+    m_Localized: 信頼こそが通貨だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843806
+    m_Localized: 安心の相手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843807
+    m_Localized: 週に1回、必ず泥棒が店に来る。すべての泥棒が売ってくれる商品の品ぞろえと品質がよくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843808
+    m_Localized: 闇市場の泥棒たちに信頼された。店で取引したがる泥棒が増えている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843809
+    m_Localized: 噂好き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843810
+    m_Localized: 大半の上層世界の出来事について、事前に情報を得られる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843811
+    m_Localized: 上層の連中は噂話が大好きだ……たまには役に立つことも言う。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843812
+    m_Localized: チップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843813
+    m_Localized: 上層世界の客に商品を売ると、{0}%のボーナスを得られる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843814
+    m_Localized: 彼らはうるさく値切ったりしない。ほんの少し多めにクレジットを置いていくことが礼儀なのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843815
+    m_Localized: 上層世界の慈悲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843816
+    m_Localized: 上層世界の支援者が店に商品を寄贈してくれることがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843817
+    m_Localized: 宣伝行為にせよ、純粋な善意にせよ、無料で何かもらえるなら文句はないだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843818
+    m_Localized: おなじみの店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843819
+    m_Localized: 毎日、{0}%の確率で上層世界の客が{1}人増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843820
+    m_Localized: 上層世界で話題にのぼる店になった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843821
+    m_Localized: 大絶賛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843822
+    m_Localized: 上層世界の客の予算が{0}%増加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843823
+    m_Localized: 上層世界に知れ渡る店になった。上層世界の客は、この店でもっと買い物したがっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843824
+    m_Localized: 悪徳商法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843825
+    m_Localized: 上層世界の客があまり店に来なくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843826
+    m_Localized: 最近、上層世界の客が求める水準を下回っているようだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843827
+    m_Localized: 警察への請願
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843828
+    m_Localized: 警察からの評判が{0}倍の速度で減少し、進行中の捜査が{1:P0}速く進行する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843829
+    m_Localized: 上層世界の連中は権威を使い、警察にこの店を監視するよう請願した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843830
+    m_Localized: 殺し屋の雇用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843831
+    m_Localized: 上層世界の働きにより、すぐに殺し屋が派遣される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843832
+    m_Localized: 上層の高級スイートルームで、とある契約が結ばれた。嫌な相手を敵に回してしまった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843833
+    m_Localized: 革命の友
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843834
+    m_Localized: 大半の革命家の出来事について、事前に情報を得られる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843835
+    m_Localized: これで革命家の行為に巻き込まれることはない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843836
+    m_Localized: 暗殺リスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843837
+    m_Localized: 革命家の暗殺部隊が命令を受け、すぐに始末しにくる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843838
+    m_Localized: 革命家の敵に認定されてしまった。相手はこちらを排除するためなら、手段を選ばないだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843839
+    m_Localized: 要注意人物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843840
+    m_Localized: 革命家に共感する客があまり店に来なくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843841
+    m_Localized: 革命組織の間で、この店との取引は避けるべきだという情報が広まっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843842
+    m_Localized: 革命家のマーケット依頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843843
+    m_Localized: さまざまな革命組織から、マーケット依頼が届くことがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843844
+    m_Localized: 各人はその能力に応じて、各人にはその必要に応じて。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843845
+    m_Localized: 襲撃の戦利品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843846
+    m_Localized: 革命家のメンバーが店に来て、襲撃の戦利品を売り払うことがある。価格は評判が高いほど下がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843847
+    m_Localized: 人々の解放には、物資の解放が不可欠だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843848
+    m_Localized: 革命家の補給係
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843849
+    m_Localized: 革命家の補給係が店に来て、素材を割引価格で売ってくれることがある。割引率は評判が高いほど上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843850
+    m_Localized: 革命は理想だけでは成り立たない。補給係は安く商品を売り、次の行動のための資金をひそかに貯めている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843851
+    m_Localized: 強制引退
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843852
+    m_Localized: カルテルの殺し屋が派遣され、命を狙われるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843853
+    m_Localized: 安楽死させることが、犬にとって一番いい選択になることもある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843854
+    m_Localized: 週給増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843855
+    m_Localized: 週給がカルテルからの評判によって増加するようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843856
+    m_Localized: 親切心だと思ってはいけない。これは投資なのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843857
+    m_Localized: 信頼の化学者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843858
+    m_Localized: 追加の素材を依頼するのに必要な評判が、通常の{0}%になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843859
+    m_Localized: 一貫性を大切に貢献すれば、カルテルは評価してくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843860
+    m_Localized: 正式な脱退
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843861
+    m_Localized: 担当者によって、カルテルからの正式な脱退手続きが始まる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843862
+    m_Localized: これでも運がいい方だ。遺体袋に入らずに脱退できる者は多くない……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314774175744
+    m_Localized: 洗練されたセンス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730176
+    m_Localized: 贅沢品がショーケースにある間、毎日{0}%の確率で贅沢品を買いにくる客が1人増える。確率は評判とともに上がる。この客は{1}日に1回しか来ない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730177
+    m_Localized: 下層世界のショーケースに、高価なものが？ 上層世界の住民が、自分が先に見つけたと言わんばかりにやってくるだろう。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
