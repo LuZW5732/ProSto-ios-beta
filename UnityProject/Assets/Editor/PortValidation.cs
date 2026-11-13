@@ -4,6 +4,7 @@ using System.IO;
 using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 
 // Batch-mode validation only. Never enters Play Mode or writes game saves.
 public static class PortValidation
@@ -15,15 +16,36 @@ public static class PortValidation
         public int lootTables;
         public int lootGroups;
         public int shaders;
+        public string localizationSettings;
         public List<string> errors = new List<string>();
     }
 
     public static void Run()
     {
         var report = new Report { unityVersion = Application.unityVersion };
+        Application.LogCallback captureError = (message, stackTrace, type) =>
+        {
+            if (type != LogType.Error && type != LogType.Exception && type != LogType.Assert) return;
+            var entry = "Unity " + type + ": " + message;
+            if (!report.errors.Contains(entry)) report.errors.Add(entry);
+        };
+        Application.logMessageReceived += captureError;
         try
         {
             AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
+            // The recovered runtime DLL cannot discover unloaded editor assets.
+            // Load the same settings already registered in PlayerSettings preloadedAssets.
+            const string localizationPath = "Assets/Resources/emporium/localization/Localization Settings.asset";
+            var localization = AssetDatabase.LoadAssetAtPath<LocalizationSettings>(localizationPath);
+            if (localization == null)
+                report.errors.Add("Unreadable localization settings: " + localizationPath);
+            else
+            {
+                LocalizationSettings.Instance = localization;
+                report.localizationSettings = localizationPath;
+                if (Array.IndexOf(PlayerSettings.GetPreloadedAssets(), localization) < 0)
+                    report.errors.Add("Localization settings missing from PlayerSettings preloaded assets.");
+            }
             foreach (var guid in AssetDatabase.FindAssets("t:LootTable"))
             {
                 var path = AssetDatabase.GUIDToAssetPath(guid);
@@ -64,6 +86,7 @@ public static class PortValidation
             }
         }
         catch (Exception error) { report.errors.Add(error.ToString()); }
+        finally { Application.logMessageReceived -= captureError; }
         System.IO.Directory.CreateDirectory("PortReports");
         File.WriteAllText("PortReports/unity-validation.json", JsonUtility.ToJson(report, true));
         if (report.errors.Count > 0)
