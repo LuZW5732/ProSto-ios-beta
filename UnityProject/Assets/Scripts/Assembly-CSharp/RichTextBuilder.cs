@@ -205,112 +205,218 @@ public class RichTextBuilder
 			select (!char.IsControl(c)) ? replace : c).ToArray());
 	}
 
-	public RichTextBuilder Add(RichTextBuilder builder)
-	{
-		slices.AddRange(builder.slices);
-		nextBegin = builder.nextBegin;
-		return this;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "Add", new System.Type[] { typeof(RichTextBuilder) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder Add(RichTextBuilder builder)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
 
-	public RichTextBuilder AddProgressBarOld(float ratio, int length, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, char[] style = null, string end = "", bool addFullLength = true, bool bold = false)
-	{
-		if (!float.IsFinite(ratio))
-		{
-			ratio = 0f;
-		}
-		ratio = Math.Clamp(ratio, 0f, 1f);
-		if (style == null)
-		{
-			style = defaultStyle;
-		}
-		int num = style.Length;
-		int num2 = (int)(ratio * (float)length);
-		int value = (int)((ratio * (float)length - (float)num2) * (float)(num - 1));
-		value = Math.Clamp(value, 0, num - 1);
-		string text = ((num2 > 0) ? new string(style[num - 1], num2) : "");
-		if (text.Length < length)
-		{
-			text += style[value];
-		}
-		if ((text.Length < length) & addFullLength)
-		{
-			text += new string(style[0], length - text.Length);
-		}
-		Add(text, color, end, bold, italic: false, underline: false, strikethrough: false, backgroundColor);
-		return MarkLastSliceNoBreak();
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook0, this, new object[] { builder }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        slices.AddRange(builder.slices);
+        nextBegin = builder.nextBegin;
+        return this;
+    }
+}
 
-	public RichTextBuilder AddProgressTest(float ratio, int length, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, char[] style = null, string end = "", bool addFullLength = true, bool bold = false)
-	{
-		if (!float.IsFinite(ratio))
-		{
-			ratio = 0f;
-		}
-		ratio = Math.Clamp(ratio, 0f, 1f);
-		string[] array = new string[5] { "<sprite=1 tint=1>", "<sprite=2 tint=1>", "<sprite=3 tint=1>", "<sprite=4 tint=1>", "<sprite name=\"bar16\" tint=1>" };
-		int[] array2 = new int[5] { 1, 2, 4, 8, 16 };
-		int num = (int)(ratio * (float)length);
-		int i = 0;
-		string text = "";
-		for (int num2 = array.Length - 1; num2 >= 0; num2--)
-		{
-			for (; i + array2[num2] <= num; i += array2[num2])
-			{
-				text += array[num2];
-			}
-		}
-		if (i < num)
-		{
-			for (int j = 0; j < array2.Length; j++)
-			{
-				if (array2[j] <= num - i)
-				{
-					text += array[j];
-					i += array2[j];
-					break;
-				}
-			}
-		}
-		if (addFullLength && i < length)
-		{
-			int num3 = length - i;
-			while (num3 > 0)
-			{
-				int num4 = 0;
-				text += array[num4];
-				num3 -= array2[num4];
-			}
-		}
-		Add(text, color, end, bold, italic: false, underline: false, strikethrough: false, backgroundColor);
-		return MarkLastSliceNoBreak();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook9 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "AddProgressBarOld", new System.Type[] { typeof(float), typeof(int), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette), typeof(char[]), typeof(string), typeof(bool), typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder AddProgressBarOld(float ratio, int length, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, char[] style = null, string end = "", bool addFullLength = true, bool bold = false)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook9))
+    {
+        return __PortOriginal();
+    }
 
-	public RichTextBuilder AddProgressBar(float ratio, int length, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, char[] style = null, string end = "", bool addFullLength = true, bool bold = false)
-	{
-		if (!float.IsFinite(ratio))
-		{
-			ratio = 0f;
-		}
-		ratio = Math.Clamp(ratio, 0f, 1f);
-		int num = (int)(ratio * (float)length);
-		int num2 = (addFullLength ? (length - num) : 0);
-		StringBuilder stringBuilder = new StringBuilder(length + 2);
-		stringBuilder.Append('[');
-		if (num > 0)
-		{
-			stringBuilder.Append('=', num);
-		}
-		if (num2 > 0)
-		{
-			stringBuilder.Append(' ', num2);
-		}
-		stringBuilder.Append(']');
-		backgroundColor = RenderHandler.ColorPalette.None;
-		string text = stringBuilder.ToString();
-		RenderHandler.ColorPalette backgroundColor2 = backgroundColor;
-		Add(text, color, end, bold, italic: false, underline: false, strikethrough: false, backgroundColor2);
-		return MarkLastSliceNoBreak();
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook9, this, new object[] { ratio, length, color, backgroundColor, style, end, addFullLength, bold }, __portArguments =>
+    {
+        ratio = (float)__portArguments[0];
+        length = (int)__portArguments[1];
+        color = (RenderHandler.ColorPalette)__portArguments[2];
+        backgroundColor = (RenderHandler.ColorPalette)__portArguments[3];
+        style = (char[])__portArguments[4];
+        end = (string)__portArguments[5];
+        addFullLength = (bool)__portArguments[6];
+        bold = (bool)__portArguments[7];
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        if (!float.IsFinite(ratio))
+        {
+            ratio = 0f;
+        }
+
+        ratio = Math.Clamp(ratio, 0f, 1f);
+        if (style == null)
+        {
+            style = defaultStyle;
+        }
+
+        int num = style.Length;
+        int num2 = (int)(ratio * (float)length);
+        int value = (int)((ratio * (float)length - (float)num2) * (float)(num - 1));
+        value = Math.Clamp(value, 0, num - 1);
+        string text = ((num2 > 0) ? new string (style[num - 1], num2) : "");
+        if (text.Length < length)
+        {
+            text += style[value];
+        }
+
+        if ((text.Length < length) & addFullLength)
+        {
+            text += new string (style[0], length - text.Length);
+        }
+
+        Add(text, color, end, bold, italic: false, underline: false, strikethrough: false, backgroundColor);
+        return MarkLastSliceNoBreak();
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook10 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "AddProgressTest", new System.Type[] { typeof(float), typeof(int), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette), typeof(char[]), typeof(string), typeof(bool), typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder AddProgressTest(float ratio, int length, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, char[] style = null, string end = "", bool addFullLength = true, bool bold = false)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook10))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook10, this, new object[] { ratio, length, color, backgroundColor, style, end, addFullLength, bold }, __portArguments =>
+    {
+        ratio = (float)__portArguments[0];
+        length = (int)__portArguments[1];
+        color = (RenderHandler.ColorPalette)__portArguments[2];
+        backgroundColor = (RenderHandler.ColorPalette)__portArguments[3];
+        style = (char[])__portArguments[4];
+        end = (string)__portArguments[5];
+        addFullLength = (bool)__portArguments[6];
+        bold = (bool)__portArguments[7];
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        if (!float.IsFinite(ratio))
+        {
+            ratio = 0f;
+        }
+
+        ratio = Math.Clamp(ratio, 0f, 1f);
+        string[] array = new string[5]
+        {
+            "<sprite=1 tint=1>",
+            "<sprite=2 tint=1>",
+            "<sprite=3 tint=1>",
+            "<sprite=4 tint=1>",
+            "<sprite name=\"bar16\" tint=1>"
+        };
+        int[] array2 = new int[5]
+        {
+            1,
+            2,
+            4,
+            8,
+            16
+        };
+        int num = (int)(ratio * (float)length);
+        int i = 0;
+        string text = "";
+        for (int num2 = array.Length - 1; num2 >= 0; num2--)
+        {
+            for (; i + array2[num2] <= num; i += array2[num2])
+            {
+                text += array[num2];
+            }
+        }
+
+        if (i < num)
+        {
+            for (int j = 0; j < array2.Length; j++)
+            {
+                if (array2[j] <= num - i)
+                {
+                    text += array[j];
+                    i += array2[j];
+                    break;
+                }
+            }
+        }
+
+        if (addFullLength && i < length)
+        {
+            int num3 = length - i;
+            while (num3 > 0)
+            {
+                int num4 = 0;
+                text += array[num4];
+                num3 -= array2[num4];
+            }
+        }
+
+        Add(text, color, end, bold, italic: false, underline: false, strikethrough: false, backgroundColor);
+        return MarkLastSliceNoBreak();
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "AddProgressBar", new System.Type[] { typeof(float), typeof(int), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette), typeof(char[]), typeof(string), typeof(bool), typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder AddProgressBar(float ratio, int length, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, char[] style = null, string end = "", bool addFullLength = true, bool bold = false)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook1, this, new object[] { ratio, length, color, backgroundColor, style, end, addFullLength, bold }, __portArguments =>
+    {
+        ratio = (float)__portArguments[0];
+        length = (int)__portArguments[1];
+        color = (RenderHandler.ColorPalette)__portArguments[2];
+        backgroundColor = (RenderHandler.ColorPalette)__portArguments[3];
+        style = (char[])__portArguments[4];
+        end = (string)__portArguments[5];
+        addFullLength = (bool)__portArguments[6];
+        bold = (bool)__portArguments[7];
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        if (!float.IsFinite(ratio))
+        {
+            ratio = 0f;
+        }
+
+        ratio = Math.Clamp(ratio, 0f, 1f);
+        int num = (int)(ratio * (float)length);
+        int num2 = (addFullLength ? (length - num) : 0);
+        StringBuilder stringBuilder = new StringBuilder(length + 2);
+        stringBuilder.Append('[');
+        if (num > 0)
+        {
+            stringBuilder.Append('=', num);
+        }
+
+        if (num2 > 0)
+        {
+            stringBuilder.Append(' ', num2);
+        }
+
+        stringBuilder.Append(']');
+        backgroundColor = RenderHandler.ColorPalette.None;
+        string text = stringBuilder.ToString();
+        RenderHandler.ColorPalette backgroundColor2 = backgroundColor;
+        Add(text, color, end, bold, italic: false, underline: false, strikethrough: false, backgroundColor2);
+        return MarkLastSliceNoBreak();
+    }
+}
 
 	private RichTextBuilder MarkLastSliceNoBreak()
 	{
@@ -325,23 +431,50 @@ public class RichTextBuilder
 		return this;
 	}
 
-	public RichTextBuilder AddLine(string text = null, bool ignoreEmpty = true, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, bool bold = false, bool italic = false, bool underline = false, bool strikethrough = false, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette underlineColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette strikethroughColor = RenderHandler.ColorPalette.None)
-	{
-		if (text == null)
-		{
-			if (nextBegin == "\n")
-			{
-				ignoreEmpty = false;
-			}
-			text = "";
-		}
-		if (ignoreEmpty && text.Length <= 0)
-		{
-			nextBegin = "\n";
-			return this;
-		}
-		return Add(text, color, "\n", bold, italic, underline, strikethrough, backgroundColor, underlineColor, strikethroughColor);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "AddLine", new System.Type[] { typeof(string), typeof(bool), typeof(RenderHandler.ColorPalette), typeof(bool), typeof(bool), typeof(bool), typeof(bool), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder AddLine(string text = null, bool ignoreEmpty = true, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, bool bold = false, bool italic = false, bool underline = false, bool strikethrough = false, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette underlineColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette strikethroughColor = RenderHandler.ColorPalette.None)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook2, this, new object[] { text, ignoreEmpty, color, bold, italic, underline, strikethrough, backgroundColor, underlineColor, strikethroughColor }, __portArguments =>
+    {
+        text = (string)__portArguments[0];
+        ignoreEmpty = (bool)__portArguments[1];
+        color = (RenderHandler.ColorPalette)__portArguments[2];
+        bold = (bool)__portArguments[3];
+        italic = (bool)__portArguments[4];
+        underline = (bool)__portArguments[5];
+        strikethrough = (bool)__portArguments[6];
+        backgroundColor = (RenderHandler.ColorPalette)__portArguments[7];
+        underlineColor = (RenderHandler.ColorPalette)__portArguments[8];
+        strikethroughColor = (RenderHandler.ColorPalette)__portArguments[9];
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        if (text == null)
+        {
+            if (nextBegin == "\n")
+            {
+                ignoreEmpty = false;
+            }
+
+            text = "";
+        }
+
+        if (ignoreEmpty && text.Length <= 0)
+        {
+            nextBegin = "\n";
+            return this;
+        }
+
+        return Add(text, color, "\n", bold, italic, underline, strikethrough, backgroundColor, underlineColor, strikethroughColor);
+    }
+}
 
 	public RichTextBuilder NextLine()
 	{
@@ -350,134 +483,236 @@ public class RichTextBuilder
 		return this;
 	}
 
-	public RichTextBuilder AddEmptyLine(int heightPixels)
-	{
-		NextLine();
-		Add($"<size={heightPixels}px> </size>");
-		return this;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "AddEmptyLine", new System.Type[] { typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder AddEmptyLine(int heightPixels)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        return __PortOriginal();
+    }
 
-	public RichTextBuilder Add(string text, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, string end = "", bool bold = false, bool italic = false, bool underline = false, bool strikethrough = false, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette underlineColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette strikethroughColor = RenderHandler.ColorPalette.None)
-	{
-		if (text == null)
-		{
-			text = "";
-		}
-		TextSlice textSlice = new TextSlice();
-		textSlice.isNewLine = true;
-		TextSlice textSlice2 = new TextSlice();
-		textSlice2.text = nextBegin;
-		string[] array = nextBegin.Split('\n');
-		for (int i = 0; i < array.Length; i++)
-		{
-			if (array[i].Length > 0)
-			{
-				slices.Add(textSlice2.Copy(array[i]));
-			}
-			if (i < array.Length - 1)
-			{
-				slices.Add(textSlice.Copy());
-			}
-		}
-		bold &= RenderHandler.current.windowUICanvas.scaleFactor > 1f;
-		TextSlice textSlice3 = new TextSlice();
-		textSlice3.text = text;
-		textSlice3.bold = bold;
-		textSlice3.italic = italic;
-		textSlice3.underline = underline;
-		textSlice3.strikethrough = strikethrough;
-		textSlice3.color = color;
-		textSlice3.backgroundColor = backgroundColor;
-		textSlice3.underlineColor = underlineColor;
-		textSlice3.strikethroughColor = strikethroughColor;
-		string[] array2 = text.Split('\n');
-		for (int j = 0; j < array2.Length; j++)
-		{
-			if (array2[j].Length > 0)
-			{
-				slices.Add(textSlice3.Copy(array2[j]));
-			}
-			if (j < array2.Length - 1)
-			{
-				slices.Add(textSlice.Copy());
-			}
-		}
-		nextBegin = end ?? "";
-		return this;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook3, this, new object[] { heightPixels }, __portArguments =>
+    {
+        heightPixels = (int)__portArguments[0];
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        NextLine();
+        Add($"<size={heightPixels}px> </size>");
+        return this;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook4 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "Add", new System.Type[] { typeof(string), typeof(RenderHandler.ColorPalette), typeof(string), typeof(bool), typeof(bool), typeof(bool), typeof(bool), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder Add(string text, RenderHandler.ColorPalette color = RenderHandler.ColorPalette.None, string end = "", bool bold = false, bool italic = false, bool underline = false, bool strikethrough = false, RenderHandler.ColorPalette backgroundColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette underlineColor = RenderHandler.ColorPalette.None, RenderHandler.ColorPalette strikethroughColor = RenderHandler.ColorPalette.None)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook4))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook4, this, new object[] { text, color, end, bold, italic, underline, strikethrough, backgroundColor, underlineColor, strikethroughColor }, __portArguments =>
+    {
+        text = (string)__portArguments[0];
+        color = (RenderHandler.ColorPalette)__portArguments[1];
+        end = (string)__portArguments[2];
+        bold = (bool)__portArguments[3];
+        italic = (bool)__portArguments[4];
+        underline = (bool)__portArguments[5];
+        strikethrough = (bool)__portArguments[6];
+        backgroundColor = (RenderHandler.ColorPalette)__portArguments[7];
+        underlineColor = (RenderHandler.ColorPalette)__portArguments[8];
+        strikethroughColor = (RenderHandler.ColorPalette)__portArguments[9];
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        if (text == null)
+        {
+            text = "";
+        }
+
+        TextSlice textSlice = new TextSlice();
+        textSlice.isNewLine = true;
+        TextSlice textSlice2 = new TextSlice();
+        textSlice2.text = nextBegin;
+        string[] array = nextBegin.Split('\n');
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i].Length > 0)
+            {
+                slices.Add(textSlice2.Copy(array[i]));
+            }
+
+            if (i < array.Length - 1)
+            {
+                slices.Add(textSlice.Copy());
+            }
+        }
+
+        bold &= RenderHandler.current.windowUICanvas.scaleFactor > 1f;
+        TextSlice textSlice3 = new TextSlice();
+        textSlice3.text = text;
+        textSlice3.bold = bold;
+        textSlice3.italic = italic;
+        textSlice3.underline = underline;
+        textSlice3.strikethrough = strikethrough;
+        textSlice3.color = color;
+        textSlice3.backgroundColor = backgroundColor;
+        textSlice3.underlineColor = underlineColor;
+        textSlice3.strikethroughColor = strikethroughColor;
+        string[] array2 = text.Split('\n');
+        for (int j = 0; j < array2.Length; j++)
+        {
+            if (array2[j].Length > 0)
+            {
+                slices.Add(textSlice3.Copy(array2[j]));
+            }
+
+            if (j < array2.Length - 1)
+            {
+                slices.Add(textSlice.Copy());
+            }
+        }
+
+        nextBegin = end ?? "";
+        return this;
+    }
+}
 
 	public RichTextBuilder AddIcon(Sprite icon, string end = "")
 	{
 		return this;
 	}
 
-	public RichTextBuilder Clear()
-	{
-		slices.Clear();
-		nextBegin = "";
-		return this;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook5 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "Clear", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextBuilder Clear()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook5))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook5, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        slices.Clear();
+        nextBegin = "";
+        return this;
+    }
+}
 
 	public RichTextBuilder AddRichTable(RichTableBuilder table)
 	{
 		return this;
 	}
 
-	private static (int, int) FindBestSlice(List<TextSlice> slices, int beginIndex, int endIndex, int maxLength, int currentLength)
-	{
-		for (int num = endIndex; num >= beginIndex; num--)
-		{
-			if (num >= 0 && num < slices.Count)
-			{
-				if (slices[num].noBreak)
-				{
-					currentLength -= slices[num].GetLength();
-				}
-				else
-				{
-					foreach (int reversedIndex in slices[num].GetReversedIndices(' '))
-					{
-						if (currentLength - slices[num].GetLength() + reversedIndex <= maxLength)
-						{
-							return (num, reversedIndex);
-						}
-					}
-					currentLength -= slices[num].GetLength();
-				}
-			}
-		}
-		return (-1, -1);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook6 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "FindBestSlice", new System.Type[] { typeof(List<TextSlice>), typeof(int), typeof(int), typeof(int), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static (int, int) FindBestSlice(List<TextSlice> slices, int beginIndex, int endIndex, int maxLength, int currentLength)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook6))
+    {
+        return __PortOriginal();
+    }
 
-	private static (int, int) FindCharBreak(List<TextSlice> slices, int beginIndex, int endIndex, int maxLength)
-	{
-		int num = 0;
-		for (int i = beginIndex; i <= endIndex; i++)
-		{
-			if (i < 0 || i >= slices.Count || slices[i].isNewLine)
-			{
-				continue;
-			}
-			int length = slices[i].GetLength();
-			if (slices[i].noBreak)
-			{
-				if (num + length > maxLength && num > 0)
-				{
-					return (i, 0);
-				}
-				num += length;
-				continue;
-			}
-			if (num + length > maxLength)
-			{
-				int val = Math.Max(1, maxLength - num);
-				val = Math.Min(val, slices[i].text.Length);
-				return (i, val);
-			}
-			num += length;
-		}
-		return (-1, -1);
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<(int, int)>(__portHook6, null, new object[] { slices, beginIndex, endIndex, maxLength, currentLength }, __portArguments =>
+    {
+        slices = (List<TextSlice>)__portArguments[0];
+        beginIndex = (int)__portArguments[1];
+        endIndex = (int)__portArguments[2];
+        maxLength = (int)__portArguments[3];
+        currentLength = (int)__portArguments[4];
+        return __PortOriginal();
+    });
+    (int, int) __PortOriginal()
+    {
+        for (int num = endIndex; num >= beginIndex; num--)
+        {
+            if (num >= 0 && num < slices.Count)
+            {
+                if (slices[num].noBreak)
+                {
+                    currentLength -= slices[num].GetLength();
+                }
+                else
+                {
+                    foreach (int reversedIndex in slices[num].GetReversedIndices(' '))
+                    {
+                        if (currentLength - slices[num].GetLength() + reversedIndex <= maxLength)
+                        {
+                            return (num, reversedIndex);
+                        }
+                    }
+
+                    currentLength -= slices[num].GetLength();
+                }
+            }
+        }
+
+        return (-1, -1);
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook7 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "FindCharBreak", new System.Type[] { typeof(List<TextSlice>), typeof(int), typeof(int), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static (int, int) FindCharBreak(List<TextSlice> slices, int beginIndex, int endIndex, int maxLength)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook7))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<(int, int)>(__portHook7, null, new object[] { slices, beginIndex, endIndex, maxLength }, __portArguments =>
+    {
+        slices = (List<TextSlice>)__portArguments[0];
+        beginIndex = (int)__portArguments[1];
+        endIndex = (int)__portArguments[2];
+        maxLength = (int)__portArguments[3];
+        return __PortOriginal();
+    });
+    (int, int) __PortOriginal()
+    {
+        int num = 0;
+        for (int i = beginIndex; i <= endIndex; i++)
+        {
+            if (i < 0 || i >= slices.Count || slices[i].isNewLine)
+            {
+                continue;
+            }
+
+            int length = slices[i].GetLength();
+            if (slices[i].noBreak)
+            {
+                if (num + length > maxLength && num > 0)
+                {
+                    return (i, 0);
+                }
+
+                num += length;
+                continue;
+            }
+
+            if (num + length > maxLength)
+            {
+                int val = Math.Max(1, maxLength - num);
+                val = Math.Min(val, slices[i].text.Length);
+                return (i, val);
+            }
+
+            num += length;
+        }
+
+        return (-1, -1);
+    }
+}
 
 	private static (int, int) FindFirstSlice(List<TextSlice> slices, int beginIndex)
 	{
@@ -503,126 +738,150 @@ public class RichTextBuilder
 		return (-1, -1);
 	}
 
-	public RichText Build(int truncateLength = -1)
-	{
-		List<TextSlice> list = new List<TextSlice>(slices);
-		float num = ((UISettings.current != null) ? UISettings.current.GetCharWidthScale() : 1f);
-		float num2 = (list.Any((TextSlice s) => s.noBreak) ? 0.875f : 0.66f);
-		int num3 = ((num > 1f) ? Math.Max(1, (int)((float)maxCharWidth * num2)) : maxCharWidth);
-		int beginIndex = 0;
-		int num4 = 0;
-		TextSlice textSlice = new TextSlice();
-		textSlice.isNewLine = true;
-		for (int num5 = 0; num5 < list.Count; num5++)
-		{
-			if (list[num5].isNewLine)
-			{
-				beginIndex = num5 + 1;
-				num4 = 0;
-				continue;
-			}
-			num4 += list[num5].GetLength();
-			if (num4 <= num3)
-			{
-				continue;
-			}
-			int num6;
-			int num7;
-			(num6, num7) = FindBestSlice(list, beginIndex, num5, num3, num4);
-			if (num6 < 0)
-			{
-				(num6, num7) = FindCharBreak(list, beginIndex, num5, num3);
-				if (num6 >= 0 && num7 <= 0)
-				{
-					list.Insert(num6, textSlice.Copy());
-					num5 = num6;
-					beginIndex = num6 + 1;
-					num4 = 0;
-					continue;
-				}
-				if (num6 >= 0)
-				{
-					string text = list[num6].text.Substring(0, num7);
-					string text2 = list[num6].text.Substring(num7);
-					TextSlice textSlice2 = list[num6];
-					list.RemoveAt(num6);
-					list.Insert(num6, textSlice2.Copy(text2));
-					list.Insert(num6, textSlice.Copy());
-					list.Insert(num6, textSlice2.Copy(text));
-					num5 = num6;
-					beginIndex = num6 + 2;
-					num4 = 0;
-					continue;
-				}
-				(num6, num7) = FindFirstSlice(list, num5 + 1);
-				if (num6 < 0)
-				{
-					break;
-				}
-				if (num7 < 0)
-				{
-					num5 = num6;
-					beginIndex = num5 + 1;
-					num4 = 0;
-					continue;
-				}
-				string text3 = list[num6].text.Substring(0, num7);
-				string text4 = list[num6].text.Substring(num7 + 1);
-				TextSlice textSlice3 = list[num6];
-				list.RemoveAt(num6);
-				list.Insert(num6, textSlice3.Copy(text4));
-				list.Insert(num6, textSlice.Copy());
-				list.Insert(num6, textSlice3.Copy(text3));
-				num5 = num6;
-			}
-			else
-			{
-				string text5 = list[num6].text.Substring(0, num7);
-				string text6 = list[num6].text.Substring(num7 + 1);
-				TextSlice textSlice4 = list[num6];
-				list.RemoveAt(num6);
-				list.Insert(num6, textSlice4.Copy(text6));
-				list.Insert(num6, textSlice.Copy());
-				list.Insert(num6, textSlice4.Copy(text5));
-				num5 = num6;
-			}
-		}
-		string text7 = "";
-		string text8 = "";
-		string text9 = "";
-		string text10 = "";
-		string text11 = "";
-		int num8 = 0;
-		bool isTruncated = false;
-		foreach (TextSlice item6 in list)
-		{
-			num8 += item6.text.Length;
-			int num9 = -1;
-			if (truncateLength > -1 && num8 > truncateLength)
-			{
-				num9 = item6.text.Length - (num8 - truncateLength);
-			}
-			(string, string, string, string, string) tuple4 = item6.GetString(num9);
-			string item = tuple4.Item1;
-			string item2 = tuple4.Item2;
-			string item3 = tuple4.Item3;
-			string item4 = tuple4.Item4;
-			string item5 = tuple4.Item5;
-			text7 += item;
-			text8 += item2;
-			text9 += item3;
-			text10 += item4;
-			text11 += item5;
-			if (num9 > -1)
-			{
-				isTruncated = true;
-				break;
-			}
-		}
-		int recommendedWidth = text7.Split("\n").Max((string s) => s.Count((char c) => !char.IsControl(c)));
-		int recommendedHeight = list.Count((TextSlice s) => s.isNewLine) + 1;
-		return new RichText(text7, text8, text9, text10, text11, recommendedWidth, recommendedHeight, isTruncated);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook8 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextBuilder), "Build", new System.Type[] { typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichText Build(int truncateLength = -1)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook8))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichText>(__portHook8, this, new object[] { truncateLength }, __portArguments =>
+    {
+        truncateLength = (int)__portArguments[0];
+        return __PortOriginal();
+    });
+    RichText __PortOriginal()
+    {
+        List<TextSlice> list = new List<TextSlice>(slices);
+        float num = ((UISettings.current != null) ? UISettings.current.GetCharWidthScale() : 1f);
+        float num2 = (list.Any((TextSlice s) => s.noBreak) ? 0.875f : 0.66f);
+        int num3 = ((num > 1f) ? Math.Max(1, (int)((float)maxCharWidth * num2)) : maxCharWidth);
+        int beginIndex = 0;
+        int num4 = 0;
+        TextSlice textSlice = new TextSlice();
+        textSlice.isNewLine = true;
+        for (int num5 = 0; num5 < list.Count; num5++)
+        {
+            if (list[num5].isNewLine)
+            {
+                beginIndex = num5 + 1;
+                num4 = 0;
+                continue;
+            }
+
+            num4 += list[num5].GetLength();
+            if (num4 <= num3)
+            {
+                continue;
+            }
+
+            int num6;
+            int num7;
+            (num6, num7) = FindBestSlice(list, beginIndex, num5, num3, num4);
+            if (num6 < 0)
+            {
+                (num6, num7) = FindCharBreak(list, beginIndex, num5, num3);
+                if (num6 >= 0 && num7 <= 0)
+                {
+                    list.Insert(num6, textSlice.Copy());
+                    num5 = num6;
+                    beginIndex = num6 + 1;
+                    num4 = 0;
+                    continue;
+                }
+
+                if (num6 >= 0)
+                {
+                    string text = list[num6].text.Substring(0, num7);
+                    string text2 = list[num6].text.Substring(num7);
+                    TextSlice textSlice2 = list[num6];
+                    list.RemoveAt(num6);
+                    list.Insert(num6, textSlice2.Copy(text2));
+                    list.Insert(num6, textSlice.Copy());
+                    list.Insert(num6, textSlice2.Copy(text));
+                    num5 = num6;
+                    beginIndex = num6 + 2;
+                    num4 = 0;
+                    continue;
+                }
+
+                (num6, num7) = FindFirstSlice(list, num5 + 1);
+                if (num6 < 0)
+                {
+                    break;
+                }
+
+                if (num7 < 0)
+                {
+                    num5 = num6;
+                    beginIndex = num5 + 1;
+                    num4 = 0;
+                    continue;
+                }
+
+                string text3 = list[num6].text.Substring(0, num7);
+                string text4 = list[num6].text.Substring(num7 + 1);
+                TextSlice textSlice3 = list[num6];
+                list.RemoveAt(num6);
+                list.Insert(num6, textSlice3.Copy(text4));
+                list.Insert(num6, textSlice.Copy());
+                list.Insert(num6, textSlice3.Copy(text3));
+                num5 = num6;
+            }
+            else
+            {
+                string text5 = list[num6].text.Substring(0, num7);
+                string text6 = list[num6].text.Substring(num7 + 1);
+                TextSlice textSlice4 = list[num6];
+                list.RemoveAt(num6);
+                list.Insert(num6, textSlice4.Copy(text6));
+                list.Insert(num6, textSlice.Copy());
+                list.Insert(num6, textSlice4.Copy(text5));
+                num5 = num6;
+            }
+        }
+
+        string text7 = "";
+        string text8 = "";
+        string text9 = "";
+        string text10 = "";
+        string text11 = "";
+        int num8 = 0;
+        bool isTruncated = false;
+        foreach (TextSlice item6 in list)
+        {
+            num8 += item6.text.Length;
+            int num9 = -1;
+            if (truncateLength > -1 && num8 > truncateLength)
+            {
+                num9 = item6.text.Length - (num8 - truncateLength);
+            }
+
+            (string, string, string, string, string) tuple4 = item6.GetString(num9);
+            string item = tuple4.Item1;
+            string item2 = tuple4.Item2;
+            string item3 = tuple4.Item3;
+            string item4 = tuple4.Item4;
+            string item5 = tuple4.Item5;
+            text7 += item;
+            text8 += item2;
+            text9 += item3;
+            text10 += item4;
+            text11 += item5;
+            if (num9 > -1)
+            {
+                isTruncated = true;
+                break;
+            }
+        }
+
+        int recommendedWidth = text7.Split("\n").Max((string s) => s.Count((char c) => !char.IsControl(c)));
+        int recommendedHeight = list.Count((TextSlice s) => s.isNewLine) + 1;
+        return new RichText(text7, text8, text9, text10, text11, recommendedWidth, recommendedHeight, isTruncated);
+    }
+}
 
 	public static string Color(string text, RenderHandler.ColorPalette color)
 	{

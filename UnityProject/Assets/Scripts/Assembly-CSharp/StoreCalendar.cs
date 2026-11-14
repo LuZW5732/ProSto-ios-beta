@@ -4,10 +4,24 @@ public class StoreCalendar : TooltipInterface, IClickable
 {
 	public TextMeshProUGUI dayTMP;
 
-	public override string GetTooltip()
-	{
-		return LocHelper.GetLocalizedUI("inte_calendar_hover");
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(StoreCalendar), "GetTooltip", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public override string GetTooltip()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<string>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    string __PortOriginal()
+    {
+        return LocHelper.GetLocalizedUI("inte_calendar_hover");
+    }
+}
 
 	public override bool IsTooltipEnabled()
 	{

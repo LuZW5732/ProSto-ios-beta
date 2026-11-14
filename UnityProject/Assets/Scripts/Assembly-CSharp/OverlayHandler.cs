@@ -1024,10 +1024,29 @@ public class OverlayHandler : MonoBehaviour, Cancelable
 		currentCancelAction = null;
 	}
 
-	public void ShowTooltip(Vector2 position, RichText richText, int maxCharWidth = 60)
-	{
-		ShowTooltip(position, Vector2.zero, richText, maxCharWidth);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(OverlayHandler), "ShowTooltip", new System.Type[] { typeof(Vector2), typeof(RichText), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ShowTooltip(Vector2 position, RichText richText, int maxCharWidth = 60)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { position, richText, maxCharWidth }, __portArguments =>
+    {
+        position = (Vector2)__portArguments[0];
+        richText = (RichText)__portArguments[1];
+        maxCharWidth = (int)__portArguments[2];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        ShowTooltip(position, Vector2.zero, richText, maxCharWidth);
+    }
+}
 
 	public void ShowTooltip2(Vector2 position, Vector2 localTranslation, RichText richText, int maxCharWidth = 60)
 	{
@@ -1037,25 +1056,62 @@ public class OverlayHandler : MonoBehaviour, Cancelable
 		tooltipWindow.handler.rectTransform.SetAsLastSibling();
 	}
 
-	public void ShowTooltip(Vector2 position, Vector2 localTranslation, RichText richText, int maxCharWidth = 60)
-	{
-		if (richText != null)
-		{
-			if (!richText.QuickEquals(previousRichTextCache))
-			{
-				tooltipElement.SetRichText(richText, maxCharWidth);
-				tooltipWindow.Validate();
-			}
-			previousRichTextCache = richText;
-			tooltipWindow.Show(position, localTranslation, fixTooltipBounds: true);
-			tooltipWindow.ToFront(force: true);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(OverlayHandler), "ShowTooltip", new System.Type[] { typeof(Vector2), typeof(Vector2), typeof(RichText), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ShowTooltip(Vector2 position, Vector2 localTranslation, RichText richText, int maxCharWidth = 60)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void HideTooltip()
-	{
-		tooltipWindow.Hide();
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { position, localTranslation, richText, maxCharWidth }, __portArguments =>
+    {
+        position = (Vector2)__portArguments[0];
+        localTranslation = (Vector2)__portArguments[1];
+        richText = (RichText)__portArguments[2];
+        maxCharWidth = (int)__portArguments[3];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (richText != null)
+        {
+            if (!richText.QuickEquals(previousRichTextCache))
+            {
+                tooltipElement.SetRichText(richText, maxCharWidth);
+                tooltipWindow.Validate();
+            }
+
+            previousRichTextCache = richText;
+            tooltipWindow.Show(position, localTranslation, fixTooltipBounds: true);
+            tooltipWindow.ToFront(force: true);
+        }
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(OverlayHandler), "HideTooltip", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void HideTooltip()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        tooltipWindow.Hide();
+    }
+}
 
 	public void AppendLog(string text, bool scrollDown = true)
 	{

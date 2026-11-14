@@ -727,64 +727,105 @@ public static class PlantGeneticsHelper
 		return false;
 	}
 
-	public static int GetTooltipWidth(GameItem item, int defaultWidth)
-	{
-		if (item == null || !item.IsTag("SEED_ITEM_TAG"))
-		{
-			return defaultWidth;
-		}
-		if (HydroponicHelper.GetPlant(item) == null || !IsScannerOn())
-		{
-			return defaultWidth;
-		}
-		return Math.Max(defaultWidth, 60);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlantGeneticsHelper), "GetTooltipWidth", new System.Type[] { typeof(GameItem), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static int GetTooltipWidth(GameItem item, int defaultWidth)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
 
-	public static void CreateSeedGeneticsTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if (item == null || !item.IsTag("SEED_ITEM_TAG") || HydroponicHelper.GetPlant(item) == null || !IsScannerOn())
-		{
-			return;
-		}
-		PlantDefinition plant = HydroponicHelper.GetPlant(item);
-		List<(PlantTrait trait, int rank)> traits = GetTraits(item);
-		int heat = GetHeat(item);
-		builder.AddLine((heat > 0) ? PlantGeneticsText.ReadoutHeaderHeat(GetComplexity(item), heat) : PlantGeneticsText.ReadoutHeader(GetComplexity(item)), ignoreEmpty: true, RenderHandler.ColorPalette.LightPurple);
-		if (traits.Count == 0)
-		{
-			builder.AddLine(PlantGeneticsText.ReadoutNoTraits(), ignoreEmpty: true, RenderHandler.ColorPalette.Gray);
-		}
-		foreach (var item4 in traits)
-		{
-			PlantTrait item2 = item4.trait;
-			int item3 = item4.rank;
-			bool flag = plant.GetInnateRank(item2.id) >= item3;
-			RenderHandler.ColorPalette color = (item2.IsNegative ? RenderHandler.ColorPalette.LightRed : RenderHandler.ColorPalette.LightGreen);
-			bool num = IsTraitUsable(item, item2, out var _);
-			string traitLabel = ((item2.maxRank > 1) ? PlantGeneticsText.TraitWithRank(item2.displayName, RankLabel(item3)) : item2.displayName);
-			if (item2.locked)
-			{
-				traitLabel = PlantGeneticsText.OriginLocked(traitLabel);
-			}
-			else if (flag)
-			{
-				traitLabel = PlantGeneticsText.OriginInnate(traitLabel);
-			}
-			if (!num)
-			{
-				traitLabel = PlantGeneticsText.NoEffectSuffix(traitLabel);
-			}
-			builder.AddLine(PlantGeneticsText.ReadoutTraitLine(traitLabel, DescribeEffect(item2, item3)), ignoreEmpty: true, color);
-		}
-		foreach (KeyValuePair<string, int> innateTrait in plant.innateTraits)
-		{
-			PlantTrait plantTrait = PlantTraitRegistry.Get(innateTrait.Key);
-			if (plantTrait != null && GetTraitRank(item, plantTrait.id) < innateTrait.Value)
-			{
-				builder.AddLine(PlantGeneticsText.ReadoutInnateRemoved(plantTrait.displayName), ignoreEmpty: true, RenderHandler.ColorPalette.Gray);
-			}
-		}
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<int>(__portHook0, null, new object[] { item, defaultWidth }, __portArguments =>
+    {
+        item = (GameItem)__portArguments[0];
+        defaultWidth = (int)__portArguments[1];
+        return __PortOriginal();
+    });
+    int __PortOriginal()
+    {
+        if (item == null || !item.IsTag("SEED_ITEM_TAG"))
+        {
+            return defaultWidth;
+        }
+
+        if (HydroponicHelper.GetPlant(item) == null || !IsScannerOn())
+        {
+            return defaultWidth;
+        }
+
+        return Math.Max(defaultWidth, 60);
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlantGeneticsHelper), "CreateSeedGeneticsTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateSeedGeneticsTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (item == null || !item.IsTag("SEED_ITEM_TAG") || HydroponicHelper.GetPlant(item) == null || !IsScannerOn())
+        {
+            return;
+        }
+
+        PlantDefinition plant = HydroponicHelper.GetPlant(item);
+        List<(PlantTrait trait, int rank)> traits = GetTraits(item);
+        int heat = GetHeat(item);
+        builder.AddLine((heat > 0) ? PlantGeneticsText.ReadoutHeaderHeat(GetComplexity(item), heat) : PlantGeneticsText.ReadoutHeader(GetComplexity(item)), ignoreEmpty: true, RenderHandler.ColorPalette.LightPurple);
+        if (traits.Count == 0)
+        {
+            builder.AddLine(PlantGeneticsText.ReadoutNoTraits(), ignoreEmpty: true, RenderHandler.ColorPalette.Gray);
+        }
+
+        foreach (var item4 in traits)
+        {
+            PlantTrait item2 = item4.trait;
+            int item3 = item4.rank;
+            bool flag = plant.GetInnateRank(item2.id) >= item3;
+            RenderHandler.ColorPalette color = (item2.IsNegative ? RenderHandler.ColorPalette.LightRed : RenderHandler.ColorPalette.LightGreen);
+            bool num = IsTraitUsable(item, item2, out var _);
+            string traitLabel = ((item2.maxRank > 1) ? PlantGeneticsText.TraitWithRank(item2.displayName, RankLabel(item3)) : item2.displayName);
+            if (item2.locked)
+            {
+                traitLabel = PlantGeneticsText.OriginLocked(traitLabel);
+            }
+            else if (flag)
+            {
+                traitLabel = PlantGeneticsText.OriginInnate(traitLabel);
+            }
+
+            if (!num)
+            {
+                traitLabel = PlantGeneticsText.NoEffectSuffix(traitLabel);
+            }
+
+            builder.AddLine(PlantGeneticsText.ReadoutTraitLine(traitLabel, DescribeEffect(item2, item3)), ignoreEmpty: true, color);
+        }
+
+        foreach (KeyValuePair<string, int> innateTrait in plant.innateTraits)
+        {
+            PlantTrait plantTrait = PlantTraitRegistry.Get(innateTrait.Key);
+            if (plantTrait != null && GetTraitRank(item, plantTrait.id) < innateTrait.Value)
+            {
+                builder.AddLine(PlantGeneticsText.ReadoutInnateRemoved(plantTrait.displayName), ignoreEmpty: true, RenderHandler.ColorPalette.Gray);
+            }
+        }
+    }
+}
 
 	public static string DescribeEffect(PlantTrait trait, int rank)
 	{

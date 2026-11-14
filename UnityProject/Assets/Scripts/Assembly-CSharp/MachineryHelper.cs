@@ -315,96 +315,121 @@ public class MachineryHelper
 		}
 	}
 
-	public static void CreateMachineryTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if ((!item.IsTag("machinery") && !item.IsTag("machinery_drawn_power")) || item.IsTag("BROKEN_MACHINE_TAG"))
-		{
-			return;
-		}
-		builder.AddLine(" ");
-		int num = item.GetTagReadonly("machinery_drawn_power").GetInt();
-		int num2 = item.GetTagReadonly("MACHINERY_DRAWN_POWER_BASE").GetInt();
-		if (num > 0)
-		{
-			builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_required_energy"), RenderHandler.ColorPalette.LightCyan);
-			if (num > num2)
-			{
-				builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num), RenderHandler.ColorPalette.LightRed);
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num2), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-			else if (num < num2)
-			{
-				builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num), RenderHandler.ColorPalette.LightGreen);
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num2), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-			else
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-			CreatePowerInsufficientTooltip(builder, item, num);
-		}
-		if (item.IsTag("PROGRESS_TYPE_MACHINE_TAG"))
-		{
-			int num3 = item.GetTagReadonly("BASE_PROCESSING_SPEED_TAG").GetInt();
-			int num4 = item.GetTagReadonly("CURRENT_PROCESSING_SPEED_TAG").GetInt();
-			builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_progress_speed"), RenderHandler.ColorPalette.LightCyan);
-			if (num3 < num4)
-			{
-				builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num4), RenderHandler.ColorPalette.LightGreen);
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num3), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-			else if (num3 > num4)
-			{
-				builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num4), RenderHandler.ColorPalette.LightRed);
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num3), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-			else
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num4), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-		}
-		if (item.IsTag("IS_DRAW_TYPE_MACHINE"))
-		{
-			int num5 = item.GetTagReadonly("DRAW_CURRENT_INT").GetInt();
-			int num6 = item.GetTagReadonly("DRAW_TARGET_INT").GetInt();
-			bool flag = item.GetTagReadonly("is_machinery_powered").GetBool();
-			bool flag2 = item.GetTagReadonly("WILL_MACHINERY_RECEIVED_POWER").GetBool();
-			builder.AddLine(" ");
-			builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_accumulator"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			builder.AddProgressBar((float)num5 / (float)num6, 10, RenderHandler.ColorPalette.LightCyan, RenderHandler.ColorPalette.VeryDarkCyan, null, " ");
-			builder.AddLine("(" + num5 + "/" + (float)num6 + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			if (!flag)
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_charging_paused"), ignoreEmpty: true, RenderHandler.ColorPalette.LightOrange);
-			}
-			else if (num5 == num6)
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_ready"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-			else if (!flag2)
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_insufficient_power"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed);
-			}
-			else
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_charging"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed);
-			}
-		}
-		if (item.IsTag("IS_PROCESSING_TYPE_MACHINE") && item.GetTagReadonly("IS_ACTIVE_PROCESSING_BOOL").GetBool())
-		{
-			int num7 = item.GetTagReadonly("PROCESSING_CURRENT_PROGRESS_INT").GetInt();
-			int num8 = item.GetTagReadonly("PROCESSING_MAX_PROGRESS_INT").GetInt();
-			builder.AddLine(" ");
-			builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_progress"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			builder.AddProgressBar((float)num7 / (float)num8, 10, RenderHandler.ColorPalette.LightCyan, RenderHandler.ColorPalette.VeryDarkCyan, null, " ");
-			builder.AddLine("(" + num7 + "/" + (float)num8 + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-		}
-		if (item.GetTagReadonly("LOW_POWER_MODE_BOOL").GetBool())
-		{
-			builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_low_power"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-		}
-		AddTooltipModuleBonus(builder, item);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MachineryHelper), "CreateMachineryTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateMachineryTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if ((!item.IsTag("machinery") && !item.IsTag("machinery_drawn_power")) || item.IsTag("BROKEN_MACHINE_TAG"))
+        {
+            return;
+        }
+
+        builder.AddLine(" ");
+        int num = item.GetTagReadonly("machinery_drawn_power").GetInt();
+        int num2 = item.GetTagReadonly("MACHINERY_DRAWN_POWER_BASE").GetInt();
+        if (num > 0)
+        {
+            builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_required_energy"), RenderHandler.ColorPalette.LightCyan);
+            if (num > num2)
+            {
+                builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num), RenderHandler.ColorPalette.LightRed);
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num2), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+            else if (num < num2)
+            {
+                builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num), RenderHandler.ColorPalette.LightGreen);
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num2), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+            else
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+
+            CreatePowerInsufficientTooltip(builder, item, num);
+        }
+
+        if (item.IsTag("PROGRESS_TYPE_MACHINE_TAG"))
+        {
+            int num3 = item.GetTagReadonly("BASE_PROCESSING_SPEED_TAG").GetInt();
+            int num4 = item.GetTagReadonly("CURRENT_PROCESSING_SPEED_TAG").GetInt();
+            builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_progress_speed"), RenderHandler.ColorPalette.LightCyan);
+            if (num3 < num4)
+            {
+                builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num4), RenderHandler.ColorPalette.LightGreen);
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num3), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+            else if (num3 > num4)
+            {
+                builder.Add(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num4), RenderHandler.ColorPalette.LightRed);
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day_base", num3), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+            else
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_per_day", num4), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+        }
+
+        if (item.IsTag("IS_DRAW_TYPE_MACHINE"))
+        {
+            int num5 = item.GetTagReadonly("DRAW_CURRENT_INT").GetInt();
+            int num6 = item.GetTagReadonly("DRAW_TARGET_INT").GetInt();
+            bool flag = item.GetTagReadonly("is_machinery_powered").GetBool();
+            bool flag2 = item.GetTagReadonly("WILL_MACHINERY_RECEIVED_POWER").GetBool();
+            builder.AddLine(" ");
+            builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_accumulator"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            builder.AddProgressBar((float)num5 / (float)num6, 10, RenderHandler.ColorPalette.LightCyan, RenderHandler.ColorPalette.VeryDarkCyan, null, " ");
+            builder.AddLine("(" + num5 + "/" + (float)num6 + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            if (!flag)
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_charging_paused"), ignoreEmpty: true, RenderHandler.ColorPalette.LightOrange);
+            }
+            else if (num5 == num6)
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_ready"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+            else if (!flag2)
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_insufficient_power"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed);
+            }
+            else
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_charging"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed);
+            }
+        }
+
+        if (item.IsTag("IS_PROCESSING_TYPE_MACHINE") && item.GetTagReadonly("IS_ACTIVE_PROCESSING_BOOL").GetBool())
+        {
+            int num7 = item.GetTagReadonly("PROCESSING_CURRENT_PROGRESS_INT").GetInt();
+            int num8 = item.GetTagReadonly("PROCESSING_MAX_PROGRESS_INT").GetInt();
+            builder.AddLine(" ");
+            builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_progress"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            builder.AddProgressBar((float)num7 / (float)num8, 10, RenderHandler.ColorPalette.LightCyan, RenderHandler.ColorPalette.VeryDarkCyan, null, " ");
+            builder.AddLine("(" + num7 + "/" + (float)num8 + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+        }
+
+        if (item.GetTagReadonly("LOW_POWER_MODE_BOOL").GetBool())
+        {
+            builder.AddLine(LocHelper.GetLocalizedMechanic("mech_machinery_low_power"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+        }
+
+        AddTooltipModuleBonus(builder, item);
+    }
+}
 
 	public static void AddTooltipModuleBonus(RichTextBuilder builder, GameItem item, string performanceStr = null, string efficiencyStr = null, string qualityStr = null)
 	{

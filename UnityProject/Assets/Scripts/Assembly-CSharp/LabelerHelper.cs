@@ -31,16 +31,35 @@ public class LabelerHelper
 		}
 	}
 
-	public static void HandleLine(RichTextBuilder builder, ItemFeature itemFeature)
-	{
-		RenderHandler.ColorPalette color = RenderHandler.ColorPalette.White;
-		if (itemFeature.IsFeatureDiscovered())
-		{
-			color = ((!itemFeature.IsFeatureMatch()) ? RenderHandler.ColorPalette.LightRed : RenderHandler.ColorPalette.LightGreen);
-		}
-		builder.Add(LocHelper.GetLocalizedMechanic("mech_label_tooltip_prefix") + " ", color);
-		builder.AddLine(itemFeature.GetBaseCurrentDisplay());
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(LabelerHelper), "HandleLine", new System.Type[] { typeof(RichTextBuilder), typeof(ItemFeature) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void HandleLine(RichTextBuilder builder, ItemFeature itemFeature)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, itemFeature }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        itemFeature = (ItemFeature)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        RenderHandler.ColorPalette color = RenderHandler.ColorPalette.White;
+        if (itemFeature.IsFeatureDiscovered())
+        {
+            color = ((!itemFeature.IsFeatureMatch()) ? RenderHandler.ColorPalette.LightRed : RenderHandler.ColorPalette.LightGreen);
+        }
+
+        builder.Add(LocHelper.GetLocalizedMechanic("mech_label_tooltip_prefix") + " ", color);
+        builder.AddLine(itemFeature.GetBaseCurrentDisplay());
+    }
+}
 
 	public static bool CanEditLabel(ItemFeature itemFeature)
 	{

@@ -187,227 +187,244 @@ public class EmporiumEntry : MonoBehaviour
 		}
 	}
 
-	private void Start()
-	{
-		Stopwatch stopwatch = Stopwatch.StartNew();
-		AudioManager.Instance.PauseAllSource();
-		Debug.Log("Starting EmporiumEntry...");
-		TooltipContainer.isPaused = false;
-		vendingFountainWindow = new PixelWindow();
-		vendingFountainWindow.SetTransparency(1f);
-		vendingFountainElement = new GameSlotInventory();
-		vendingFountainElement.SetTransparency(1f);
-		vendingFountainWindow.Attach(vendingFountainElement);
-		vendingFountainWindow.Validate();
-		vendingFountainWindow.handler.gameObject.name = "Node VendingFountainWindow";
-		vendingMachineWindow = new PixelWindow();
-		vendingMachineWindow.SetTransparency(1f);
-		vendingMachineElement = new GameSlotInventory();
-		vendingMachineElement.SetTransparency(1f);
-		vendingMachineWindow.Attach(vendingMachineElement);
-		vendingMachineWindow.Validate();
-		vendingMachineWindow.handler.gameObject.name = "Node VendingMachineWindow";
-		frontInvWindow = new PixelWindow();
-		frontInvWindow.SetTransparency(0.99f);
-		frontInvinvElement = new GameGridInventory(18, 4);
-		frontInvinvElement.SetTransparency(0.99f);
-		frontInvWindow.Attach(frontInvinvElement);
-		frontInvWindow.Validate();
-		frontInvWindow.Show();
-		frontInvWindow.handler.gameObject.name = "Node FrontInvWindow";
-		frontInvinvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 8;
-		showcaseWindow = new PixelWindow();
-		showcaseWindow.SetTransparency(0.99f);
-		showcaseElement = new GameGridInventory(7, 5);
-		showcaseElement.SetTransparency(0.8f);
-		showcaseWindow.Attach(showcaseElement);
-		showcaseWindow.HideBorder();
-		showcaseElement.HideBorder();
-		showcaseWindow.Validate();
-		showcaseWindow.Show();
-		showcaseElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		docInvWindow = new PixelWindow();
-		docInvWindow.SetTransparency(1f);
-		docInvElement = new GameSlotInventory();
-		docInvElement.SetTransparency(1f);
-		docInvWindow.Attach(docInvElement);
-		docInvWindow.Validate();
-		docInvWindow.Show();
-		showcaseElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		trashInvWindow = new PixelWindow();
-		trashInvWindow.SetTransparency(1f);
-		trashInvElement = new GameSlotInventory();
-		trashInvElement.SetTransparency(1f);
-		trashInvWindow.Attach(trashInvElement);
-		trashInvWindow.Validate();
-		trashInvWindow.Show();
-		trashInvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		swapBufferElement = new GameSlotInventory();
-		swapBufferElement.mayInventoryAddItemFunc = (GameItem _, GameInventory _) => true;
-		swapBufferElement.handler.gameObject.name = "Node SwapBuffer";
-		swapBufferElement.handler.gameObject.SetActive(value: false);
-		drainInvWindow = new PixelWindow();
-		drainInvWindow.SetTransparency(1f);
-		drainInvElement = new GameSlotInventory();
-		drainInvElement.SetTransparency(1f);
-		drainInvWindow.Attach(drainInvElement);
-		drainInvWindow.Validate();
-		drainInvWindow.Show();
-		drainInvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		invWindow = new PixelWindow();
-		invElement = new GameGridInventory(24, 10);
-		invWindow.Attach(invElement);
-		invWindow.Validate();
-		invWindow.Show();
-		invElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		backInvWindow = new PixelWindow();
-		backInvWindow.SetTransparency(0.85f);
-		backInvinvElement = new GameGridInventory(18, 4);
-		backInvinvElement.SetTransparency(0.85f);
-		backInvWindow.Attach(backInvinvElement);
-		backInvWindow.HideBorder();
-		backInvinvElement.HideBorder();
-		backInvWindow.Validate();
-		backInvWindow.Show();
-		backInvinvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		backInvinvElementCounter = new GameGridInventory(18, 4);
-		hiddenWindow = new PixelWindow();
-		hiddenWindow.SetTransparency(0.99f);
-		hiddenElement = new GameGridInventory(2, 2);
-		hiddenElement.SetTransparency(0.8f);
-		hiddenWindow.Attach(hiddenElement);
-		hiddenWindow.HideBorder();
-		hiddenElement.HideBorder();
-		hiddenWindow.Validate();
-		hiddenWindow.Show();
-		hiddenElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		hiddenWindow.rectTransform.gameObject.SetActive(value: false);
-		faucetWindow = new PixelWindow();
-		faucetWindow.SetTransparency(1f);
-		faucetElement = new GameSlotInventory();
-		faucetElement.SetTransparency(1f);
-		faucetWindow.Attach(faucetElement);
-		faucetWindow.Validate();
-		faucetWindow.Show();
-		faucetElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		cassettePlayerWindow = new PixelWindow();
-		cassettePlayerWindow.SetTransparency(1f);
-		cassettePlayerElement = new GameSlotInventory();
-		cassettePlayerElement.SetTransparency(1f);
-		cassettePlayerWindow.Attach(cassettePlayerElement);
-		cassettePlayerWindow.Validate();
-		cassettePlayerWindow.Show();
-		cassettePlayerElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		hirelingWindow = new PixelWindow();
-		hirelingWindow.SetTransparency(1f);
-		hirelingInv = new GameGridInventory(10, 10);
-		hirelingInv.SetTransparency(1f);
-		hirelingWindow.Attach(hirelingInv);
-		hirelingWindow.Validate();
-		bazarLeftInvWindow = new PixelWindow();
-		bazarLeftInvWindow.SetTransparency(0.5f);
-		bazarLeftinvElement = new GameGridInventory(24, 4);
-		bazarLeftinvElement.SetTransparency(0.8f);
-		bazarLeftInvWindow.Attach(bazarLeftinvElement);
-		bazarLeftInvWindow.Validate();
-		bazarLeftinvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
-		SetupAfterhourInv();
-		soldElement = new GameGridInventory(50, 50);
-		DisableAllHandlers();
-		EnableAllHandlers();
-		GameGridInventory gameGridInventory = backInvinvElement;
-		gameGridInventory.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.AddedItemToWeightedArea(addedItem);
-		}));
-		GameGridInventory gameGridInventory2 = backInvinvElement;
-		gameGridInventory2.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory2.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.RemovedItemToWeightedArea(addedItem);
-		}));
-		GameGridInventory gameGridInventory3 = invElement;
-		gameGridInventory3.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory3.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.AddedItemToMainInvArea(addedItem);
-		}));
-		GameGridInventory gameGridInventory4 = invElement;
-		gameGridInventory4.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory4.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.RemovedItemToMainInvArea(addedItem);
-		}));
-		GameGridInventory gameGridInventory5 = frontInvinvElement;
-		gameGridInventory5.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory5.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.AddedItemToClientArea(addedItem);
-		}));
-		GameGridInventory gameGridInventory6 = frontInvinvElement;
-		gameGridInventory6.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory6.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.RemovedItemToClientArea(addedItem);
-		}));
-		GameGridInventory gameGridInventory7 = showcaseElement;
-		gameGridInventory7.onSlotAddItemLateFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory7.onSlotAddItemLateFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.AddedItemToDisplayCase(addedItem);
-		}));
-		GameGridInventory gameGridInventory8 = showcaseElement;
-		gameGridInventory8.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory8.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			PlayerStore.Instance.RemovedItemToDisplayCase(addedItem);
-		}));
-		GameGridInventory gameGridInventory9 = hiddenElement;
-		gameGridInventory9.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory9.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			if (!ContrabandHelper.IsSmugglerBay(addedItem))
-			{
-				addedItem.DisableTag("ITEM_HIDDEN_TAG");
-			}
-		}));
-		invElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => CanInsertIntoPlayerInventories(item);
-		showcaseElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => CanInsertIntoPlayerInventories(item);
-		hiddenElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => CanInsertIntoPlayerInventories(item);
-		frontInvinvElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => (!GeneralHelper.IsHazardousWaste(item) || !MapUIManager.Instance.IsOutside) ? true : false;
-		backInvinvElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => (!GeneralHelper.IsHazardousWaste(item) || !MapUIManager.Instance.IsOutside) ? true : false;
-		InitResponseWindow();
-		AddAlwayItems();
-		PlayerStore preloadedStore = PlayerStore.PreLoadStore();
-		LoadDisplayCaseUpgrade(preloadedStore);
-		LoadFixtureUpgrades(preloadedStore);
-		if (NewGameData.Instance != null && NewGameData.Instance.saveSlot != -1)
-		{
-			Debug.Log("Loaded save slot: " + NewGameData.Instance.saveSlot);
-			PlayerStore.Instance.LoadGame();
-			if (PlayerStore.Instance.nightLogs.Count > 0)
-			{
-				StartOfDayUIManager.Instance.ShowMorningReport();
-			}
-		}
-		else
-		{
-			PlayerStore.Instance.StartNewGame();
-			StartingPerkContent.HandleNewGamePerkBeforeItems();
-			AddStartingItem();
-			PlayerStore.Instance.HandleSkipIntro();
-			StartingPerkContent.HandleNewGamePerk();
-			PlayerStore.Instance.InitialSave();
-		}
-		LoadFaucetUpdate(PlayerStore.Instance);
-		SetAspectRatio();
-		HandleLocale();
-		AudioManager.Instance.ResumeAllSource();
-		frontInvWindow.Hide();
-		EmporiumOption.Instance.ApplySetting(applyResolution: false);
-		EmporiumOption.Instance.ApplyPixelPerfectCamera();
-		frontInvWindow.handler.gameObject.transform.SetAsFirstSibling();
-		vendingFountainWindow.handler.gameObject.transform.SetAsFirstSibling();
-		vendingMachineWindow.handler.gameObject.transform.SetAsFirstSibling();
-		StoreSoundPlayer.Instance.PlayStoreAmbient();
-		Debug.Log($"[EmporiumEntry.Start] TOTAL load time: {stopwatch.ElapsedMilliseconds}ms");
-		if (sceneLoadStartTime > 0f)
-		{
-			StartCoroutine(LogSceneTransitionOnFirstFrame());
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(EmporiumEntry), "Start", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void Start()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        Stopwatch stopwatch = Stopwatch.StartNew();
+        AudioManager.Instance.PauseAllSource();
+        Debug.Log("Starting EmporiumEntry...");
+        TooltipContainer.isPaused = false;
+        vendingFountainWindow = new PixelWindow();
+        vendingFountainWindow.SetTransparency(1f);
+        vendingFountainElement = new GameSlotInventory();
+        vendingFountainElement.SetTransparency(1f);
+        vendingFountainWindow.Attach(vendingFountainElement);
+        vendingFountainWindow.Validate();
+        vendingFountainWindow.handler.gameObject.name = "Node VendingFountainWindow";
+        vendingMachineWindow = new PixelWindow();
+        vendingMachineWindow.SetTransparency(1f);
+        vendingMachineElement = new GameSlotInventory();
+        vendingMachineElement.SetTransparency(1f);
+        vendingMachineWindow.Attach(vendingMachineElement);
+        vendingMachineWindow.Validate();
+        vendingMachineWindow.handler.gameObject.name = "Node VendingMachineWindow";
+        frontInvWindow = new PixelWindow();
+        frontInvWindow.SetTransparency(0.99f);
+        frontInvinvElement = new GameGridInventory(18, 4);
+        frontInvinvElement.SetTransparency(0.99f);
+        frontInvWindow.Attach(frontInvinvElement);
+        frontInvWindow.Validate();
+        frontInvWindow.Show();
+        frontInvWindow.handler.gameObject.name = "Node FrontInvWindow";
+        frontInvinvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 8;
+        showcaseWindow = new PixelWindow();
+        showcaseWindow.SetTransparency(0.99f);
+        showcaseElement = new GameGridInventory(7, 5);
+        showcaseElement.SetTransparency(0.8f);
+        showcaseWindow.Attach(showcaseElement);
+        showcaseWindow.HideBorder();
+        showcaseElement.HideBorder();
+        showcaseWindow.Validate();
+        showcaseWindow.Show();
+        showcaseElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        docInvWindow = new PixelWindow();
+        docInvWindow.SetTransparency(1f);
+        docInvElement = new GameSlotInventory();
+        docInvElement.SetTransparency(1f);
+        docInvWindow.Attach(docInvElement);
+        docInvWindow.Validate();
+        docInvWindow.Show();
+        showcaseElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        trashInvWindow = new PixelWindow();
+        trashInvWindow.SetTransparency(1f);
+        trashInvElement = new GameSlotInventory();
+        trashInvElement.SetTransparency(1f);
+        trashInvWindow.Attach(trashInvElement);
+        trashInvWindow.Validate();
+        trashInvWindow.Show();
+        trashInvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        swapBufferElement = new GameSlotInventory();
+        swapBufferElement.mayInventoryAddItemFunc = (GameItem _, GameInventory _) => true;
+        swapBufferElement.handler.gameObject.name = "Node SwapBuffer";
+        swapBufferElement.handler.gameObject.SetActive(value: false);
+        drainInvWindow = new PixelWindow();
+        drainInvWindow.SetTransparency(1f);
+        drainInvElement = new GameSlotInventory();
+        drainInvElement.SetTransparency(1f);
+        drainInvWindow.Attach(drainInvElement);
+        drainInvWindow.Validate();
+        drainInvWindow.Show();
+        drainInvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        invWindow = new PixelWindow();
+        invElement = new GameGridInventory(24, 10);
+        invWindow.Attach(invElement);
+        invWindow.Validate();
+        invWindow.Show();
+        invElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        backInvWindow = new PixelWindow();
+        backInvWindow.SetTransparency(0.85f);
+        backInvinvElement = new GameGridInventory(18, 4);
+        backInvinvElement.SetTransparency(0.85f);
+        backInvWindow.Attach(backInvinvElement);
+        backInvWindow.HideBorder();
+        backInvinvElement.HideBorder();
+        backInvWindow.Validate();
+        backInvWindow.Show();
+        backInvinvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        backInvinvElementCounter = new GameGridInventory(18, 4);
+        hiddenWindow = new PixelWindow();
+        hiddenWindow.SetTransparency(0.99f);
+        hiddenElement = new GameGridInventory(2, 2);
+        hiddenElement.SetTransparency(0.8f);
+        hiddenWindow.Attach(hiddenElement);
+        hiddenWindow.HideBorder();
+        hiddenElement.HideBorder();
+        hiddenWindow.Validate();
+        hiddenWindow.Show();
+        hiddenElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        hiddenWindow.rectTransform.gameObject.SetActive(value: false);
+        faucetWindow = new PixelWindow();
+        faucetWindow.SetTransparency(1f);
+        faucetElement = new GameSlotInventory();
+        faucetElement.SetTransparency(1f);
+        faucetWindow.Attach(faucetElement);
+        faucetWindow.Validate();
+        faucetWindow.Show();
+        faucetElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        cassettePlayerWindow = new PixelWindow();
+        cassettePlayerWindow.SetTransparency(1f);
+        cassettePlayerElement = new GameSlotInventory();
+        cassettePlayerElement.SetTransparency(1f);
+        cassettePlayerWindow.Attach(cassettePlayerElement);
+        cassettePlayerWindow.Validate();
+        cassettePlayerWindow.Show();
+        cassettePlayerElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        hirelingWindow = new PixelWindow();
+        hirelingWindow.SetTransparency(1f);
+        hirelingInv = new GameGridInventory(10, 10);
+        hirelingInv.SetTransparency(1f);
+        hirelingWindow.Attach(hirelingInv);
+        hirelingWindow.Validate();
+        bazarLeftInvWindow = new PixelWindow();
+        bazarLeftInvWindow.SetTransparency(0.5f);
+        bazarLeftinvElement = new GameGridInventory(24, 4);
+        bazarLeftinvElement.SetTransparency(0.8f);
+        bazarLeftInvWindow.Attach(bazarLeftinvElement);
+        bazarLeftInvWindow.Validate();
+        bazarLeftinvElement.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 4;
+        SetupAfterhourInv();
+        soldElement = new GameGridInventory(50, 50);
+        DisableAllHandlers();
+        EnableAllHandlers();
+        GameGridInventory gameGridInventory = backInvinvElement;
+        gameGridInventory.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.AddedItemToWeightedArea(addedItem);
+        }));
+        GameGridInventory gameGridInventory2 = backInvinvElement;
+        gameGridInventory2.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory2.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.RemovedItemToWeightedArea(addedItem);
+        }));
+        GameGridInventory gameGridInventory3 = invElement;
+        gameGridInventory3.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory3.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.AddedItemToMainInvArea(addedItem);
+        }));
+        GameGridInventory gameGridInventory4 = invElement;
+        gameGridInventory4.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory4.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.RemovedItemToMainInvArea(addedItem);
+        }));
+        GameGridInventory gameGridInventory5 = frontInvinvElement;
+        gameGridInventory5.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory5.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.AddedItemToClientArea(addedItem);
+        }));
+        GameGridInventory gameGridInventory6 = frontInvinvElement;
+        gameGridInventory6.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory6.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.RemovedItemToClientArea(addedItem);
+        }));
+        GameGridInventory gameGridInventory7 = showcaseElement;
+        gameGridInventory7.onSlotAddItemLateFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory7.onSlotAddItemLateFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.AddedItemToDisplayCase(addedItem);
+        }));
+        GameGridInventory gameGridInventory8 = showcaseElement;
+        gameGridInventory8.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory8.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            PlayerStore.Instance.RemovedItemToDisplayCase(addedItem);
+        }));
+        GameGridInventory gameGridInventory9 = hiddenElement;
+        gameGridInventory9.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameGridInventory9.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            if (!ContrabandHelper.IsSmugglerBay(addedItem))
+            {
+                addedItem.DisableTag("ITEM_HIDDEN_TAG");
+            }
+        }));
+        invElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => CanInsertIntoPlayerInventories(item);
+        showcaseElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => CanInsertIntoPlayerInventories(item);
+        hiddenElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => CanInsertIntoPlayerInventories(item);
+        frontInvinvElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => (!GeneralHelper.IsHazardousWaste(item) || !MapUIManager.Instance.IsOutside) ? true : false;
+        backInvinvElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => (!GeneralHelper.IsHazardousWaste(item) || !MapUIManager.Instance.IsOutside) ? true : false;
+        InitResponseWindow();
+        AddAlwayItems();
+        PlayerStore preloadedStore = PlayerStore.PreLoadStore();
+        LoadDisplayCaseUpgrade(preloadedStore);
+        LoadFixtureUpgrades(preloadedStore);
+        if (NewGameData.Instance != null && NewGameData.Instance.saveSlot != -1)
+        {
+            Debug.Log("Loaded save slot: " + NewGameData.Instance.saveSlot);
+            PlayerStore.Instance.LoadGame();
+            if (PlayerStore.Instance.nightLogs.Count > 0)
+            {
+                StartOfDayUIManager.Instance.ShowMorningReport();
+            }
+        }
+        else
+        {
+            PlayerStore.Instance.StartNewGame();
+            StartingPerkContent.HandleNewGamePerkBeforeItems();
+            AddStartingItem();
+            PlayerStore.Instance.HandleSkipIntro();
+            StartingPerkContent.HandleNewGamePerk();
+            PlayerStore.Instance.InitialSave();
+        }
+
+        LoadFaucetUpdate(PlayerStore.Instance);
+        SetAspectRatio();
+        HandleLocale();
+        AudioManager.Instance.ResumeAllSource();
+        frontInvWindow.Hide();
+        EmporiumOption.Instance.ApplySetting(applyResolution: false);
+        EmporiumOption.Instance.ApplyPixelPerfectCamera();
+        frontInvWindow.handler.gameObject.transform.SetAsFirstSibling();
+        vendingFountainWindow.handler.gameObject.transform.SetAsFirstSibling();
+        vendingMachineWindow.handler.gameObject.transform.SetAsFirstSibling();
+        StoreSoundPlayer.Instance.PlayStoreAmbient();
+        Debug.Log($"[EmporiumEntry.Start] TOTAL load time: {stopwatch.ElapsedMilliseconds}ms");
+        if (sceneLoadStartTime > 0f)
+        {
+            StartCoroutine(LogSceneTransitionOnFirstFrame());
+        }
+    }
+}
 
 	private IEnumerator LogSceneTransitionOnFirstFrame()
 	{

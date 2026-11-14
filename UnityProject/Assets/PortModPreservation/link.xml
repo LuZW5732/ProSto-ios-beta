@@ -1,0 +1,5 @@
+<linker>
+  <!-- Static callback adapters inspect private game members and invoke compiled
+       mod methods by reflection. Keep this boundary intact for the first port. -->
+  <assembly fullname="Assembly-CSharp" preserve="all" />
+</linker>

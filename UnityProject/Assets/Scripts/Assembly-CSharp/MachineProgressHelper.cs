@@ -315,24 +315,42 @@ public class MachineProgressHelper
 		}
 	}
 
-	public static void CreateMachineTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if (item.IsTag("PROGRESS_TYPE_MACHINE_TAG") && item.IsTag("PROGRESS_TYPE_DEFAULT_TOOLTIP"))
-		{
-			if (GetMachineState(item).Equals("STATE_WORKING"))
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_status_working"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-				int num = item.GetTagReadonly("MACHINE_PROGRESS_CURRENT_TAG").GetInt();
-				int num2 = item.GetTagReadonly("MACHINE_PROGRESS_TARGET_TAG").GetInt();
-				builder.AddProgressBar((float)num / (float)num2, 10, RenderHandler.ColorPalette.LightGreen, RenderHandler.ColorPalette.VeryDarkGreen, null, " ");
-				builder.AddLine("(" + num + "/" + (float)num2 + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-			}
-			else
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_desequencer_status_ready"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MachineProgressHelper), "CreateMachineTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateMachineTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (item.IsTag("PROGRESS_TYPE_MACHINE_TAG") && item.IsTag("PROGRESS_TYPE_DEFAULT_TOOLTIP"))
+        {
+            if (GetMachineState(item).Equals("STATE_WORKING"))
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_status_working"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+                int num = item.GetTagReadonly("MACHINE_PROGRESS_CURRENT_TAG").GetInt();
+                int num2 = item.GetTagReadonly("MACHINE_PROGRESS_TARGET_TAG").GetInt();
+                builder.AddProgressBar((float)num / (float)num2, 10, RenderHandler.ColorPalette.LightGreen, RenderHandler.ColorPalette.VeryDarkGreen, null, " ");
+                builder.AddLine("(" + num + "/" + (float)num2 + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+            }
+            else
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_desequencer_status_ready"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+        }
+    }
+}
 
 	public static void SetAdditionalRequiredItems(GameItem sourceItem, List<(string itemID, int count)> requirements)
 	{

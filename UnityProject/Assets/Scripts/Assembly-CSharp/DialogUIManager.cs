@@ -222,18 +222,36 @@ public class DialogUIManager : MonoBehaviour
 	{
 	}
 
-	public void UpdateDialogHistory(string text)
-	{
-		PlayerStore.Instance.dialogHistory.Enqueue(RemoveTag(text));
-		if (PlayerStore.Instance.dialogHistory.Count > 100)
-		{
-			PlayerStore.Instance.dialogHistory.Dequeue();
-		}
-		if (RecorderUIManager.Instance != null)
-		{
-			RecorderUIManager.Instance.RefreshUI();
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(DialogUIManager), "UpdateDialogHistory", new System.Type[] { typeof(string) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void UpdateDialogHistory(string text)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { text }, __portArguments =>
+    {
+        text = (string)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        PlayerStore.Instance.dialogHistory.Enqueue(RemoveTag(text));
+        if (PlayerStore.Instance.dialogHistory.Count > 100)
+        {
+            PlayerStore.Instance.dialogHistory.Dequeue();
+        }
+
+        if (RecorderUIManager.Instance != null)
+        {
+            RecorderUIManager.Instance.RefreshUI();
+        }
+    }
+}
 
 	public static string RemoveTag(string text)
 	{

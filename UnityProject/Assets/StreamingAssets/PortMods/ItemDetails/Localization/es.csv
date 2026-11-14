@@ -1,0 +1,358 @@
+﻿# Item Details Español (es)
+auth.amount,Valor de la tarjeta
+auth.body,Desperfectos en el objeto
+auth.box,Caja
+auth.chip,Microchip
+auth.color,Colores
+auth.indicator,Estado
+auth.label,Etiqueta
+auth.lettering,Tipografía
+auth.logo,Logotipo
+auth.seal,Sello de Seguridad
+auth.serial,Número de serie
+# key,value
+alert.aug_kill_reward,Recompensa al matar: {0}
+alert.aug_presence,Amenaza de aumentados: {0}/100
+alert.bounty," (recompensa {0})"
+alert.real_name,Nombre real: {0}
+alert.title_augmented,Cliente ciberaumentado
+alert.title_both,Se busca · Cliente ciberaumentado
+alert.title_wanted,Se busca
+appraisal.armor,Revestimiento defensivo
+appraisal.base,Base
+appraisal.blade,Filo
+appraisal.build_deluxe,Combinación de lujo
+appraisal.build_tactical,Combinación táctica
+appraisal.carbon,Compuesto de carbono
+appraisal.casing_crack,Resquebrajado
+appraisal.casing_reinforced,Reforzado
+appraisal.casing_screws,Tornillos expuestos
+appraisal.casing_wear,Desgaste ligero
+appraisal.casing_wear_heavy,Desgaste pesado
+appraisal.damaged,Desperfectos
+appraisal.emgplus,Interfaz EMG+
+appraisal.finish_cheap,Color de baja calidad
+appraisal.finish_premium,Color de alta calidad
+appraisal.gold,Baño de oro
+appraisal.iface_unknown,Control sin especificar
+appraisal.neural,Interfaz neuronal
+appraisal.ribwich_deluxe,Edición Deluxe
+appraisal.ribwich_double_meat,Doble de carne
+appraisal.ribwich_first_batch,Primer lote
+appraisal.ribwich_month_edge,Primer o último mes
+appraisal.ribwich_opened,Abierto o falso (40 fijo)
+appraisal.ribwich_plant_grade_a,Instalación de alta calidad {0:D2}
+appraisal.ribwich_plant_grade_c,Instalación de baja calidad {0:D2}
+appraisal.seal_ignition,Bono: Laboratorios Ignición
+appraisal.seal_ll,Bono: Expediciones Wild
+appraisal.seal_republic,Bono: Requisición Naval de la República
+appraisal.seal_zhonghua,Bono: Construcciones Navales ZhongHua
+appraisal.worn,Marcas de uso
+auth.counterfeit,× Falsificación ({0})
+auth.defect,× {0} ({1})
+auth.genuine,√ Auténtico
+berry.dried,Seca
+berry.line,Calidad de {0}: {1}
+berry.wine," (valor vinícola {0})"
+berry.moldy,Picada
+berry.normal,Normal
+berry.small,Pequeña
+berry.unripe,Verde
+calorie.line,Energía: {0} {1}
+calorie.per_credit," ({0} {1}/{2})"
+calorie.unit,kcal
+condition.line,Estado: {0} {1}
+contraband.markup,Mercado negro: +{0}%
+generic.line,Origen: {0}
+hidden.chem_purity,Pureza química: {0}%
+hidden.durability,Durabilidad: {0}/{1}
+hidden.durability_faked,Durabilidad real: {0}/{1} (muestra {2}/{3})
+hidden.purity,Pureza: {0}
+hidden.purity_faked,Pureza real: {0} (muestra {1})
+hidden.purity_level,Pureza: {0}/10
+hidden.purity_level_faked,Pureza real: {0}/10 (muestra {1}/10)
+hint.double_click,Doble clic para inspeccionar
+menu.scan,Escanear
+list.sep,", "
+lottery.matched_none,Acertados {0}/6 -> sin premio
+lottery.matched_prize,Acertados {0}/6 -> premio {1}
+lottery.not_drawn,Sorteo {0}: pendiente (sáb. mañana)
+lottery.winning,Números ganadores: {0}
+market.line,Mercado: {0}
+faucet.header,Agua del grifo: {0}
+calendar.today_events,Eventos de hoy
+module.power,{0} energía/día
+module.speed,{0} velocidad
+price.buy,"Compra: "
+price.cost_close,)
+price.cost_open," (Coste "
+price.list," Precio: {0}"
+price.sell,Venta: {0}
+reveal.modifier,Modificador real: {0}% (muestra {1}%)
+reveal.real,Real: {0} (disfrazado como {1})
+reveal.real_with_mod,Real: {0} {1} (disfrazado como {2})
+ribwich.header,Motivos del falso:
+ribwich.more,... y {0} más
+ribwich.reason_bun_no_pickles,Pan de sésamo sin extra de pepinillos
+ribwich.reason_date_missing,Sin fecha de producción
+ribwich.reason_davre_missing,Falta el logotipo de Davre
+ribwich.reason_davre_wrong,Logotipo de Davre incorrecto
+ribwich.reason_first_sticker,1.er lote: sin pegatina de costidillo
+ribwich.reason_month_range,Mes {0} fuera de 1-12
+ribwich.reason_pickles_no_bun,Extra de pepinillos sin pan de sésamo
+ribwich.reason_plant_missing,Sin código de instalación
+ribwich.reason_plant_range,Instalación {0} fuera de 01-35
+ribwich.reason_second_sticker_missing,2.º lote: falta pegatina de costidillo
+ribwich.reason_second_sticker_wrong,2.º lote: pegatina de costidillo errónea
+ribwich.reason_unknown,{0}
+ribwich.reason_year_range,Año {0} fuera de 425-429 / 432-438
+scratcher.no_prize,Rasca y Gana: sin premio
+scratcher.progress_part,", rascado {0}/3"
+scratcher.win,Rasca y Gana: gana {0} ({1} coincidencias)
+seed.header,Genes (sin analizar)
+seed.rank,Rango {0}
+seed.more,... y {0} más
+seed.trait_rank,{0} (rango {1})
+seed.innate_lowered,Innato ({0}→{1})
+seed.innate_removed,Eliminado
+storage.contains,"Contiene: "
+storage.more_kinds," ... {0} {0|tipo|tipos} en total"
+storage.ratio,Compresión: {0} ({1}/{2} {2|celda|celdas})
+grid.title,Contenido {0}
+grid.title_sealed,Contenido {0}
+grid.title_sealed_value,Contenido {0} (valor est. {1})
+title.appraisal_suffix,"{0} Precio {1}, mejor oferta {2}"
+value.from,"Origen: "
+value.part,{0} {1}
+value.cost_perf,Valor por celda: {0}
+value.cost_perf_detail," ({0}/{1} {1|celda|celdas})"
+value.perfect_range," | perfecto {0}-{1}"
+value.total_line,Total: {0}
+water.mismatch," (etiqueta no coincide)"
+water.trace_count,(+{0} más bajo el umbral de visualización)
+water.fold_inactive,{0} para ver componentes inactivos
+chem.effects,Efectos: {0}
+chem.lethal,letal ({0}x dosis letal)
+chem.toxic,tóxico
+chem.euphoria_weak,euforia leve
+chem.euphoria_mild,euforia moderada
+chem.euphoria_strong,euforia fuerte
+chem.euphoria_extreme,euforia extrema
+chem.synaprest,antiadicción
+chem.contraceptive,anticonceptivo
+wine.aging,Bono de crianza: +{0}/día (total +{1})
+wine.composition,"Contenido: extracto {0}‰, impurezas {1}‰"
+wine.counterfeit,Falso: levadura ilegal
+wine.empty,Vacío
+wine.fermenting,Fermentando
+wine.finished,Acabado
+wine.score_part,", puntuación {0}"
+wine.state,Vino: {0}
+wine.preview,Puntuación tras fermentar: {0}
+wine.tier,", nivel {0}"
+wine.unknown_state,Desconocido ({0})
+wine.yeast_power,Potencia de levadura: {0}/ciclo
+wine.yeast_effect,"Vino +{0} (no acumula), fermenta {1} {1|ciclo|ciclos}"
+wine.yeast_illegal,El vino será falso
+machine.energy_label,"Consumo: "
+machine.energy_unit,/día
+machine.energy_battery," {0}/{1} kJ, para {2} {2|día|días}"
+machine.energy_left," {0} kJ, para {1} {1|día|días}"
+config.section.layout,Diseño
+config.authenticity,Comprobación de autenticidad
+config.authenticity.tip,Distingue lo auténtico de lo falso e indica los defectos y los motivos del falso.
+config.plant_analysis,Análisis de plantas
+config.plant_analysis.tip,Muestra la calidad de la bayaúva y los rasgos sin analizar de las semillas. «Con analizador» solo muestra los rasgos de las semillas mientras tengas un analizador de plantas; la calidad de la bayaúva se muestra en ambos modos.
+config.plant_analysis.off,Desactivado
+config.plant_analysis.analyser,Con analizador
+config.plant_analysis.always,Siempre
+config.valuation,Cálculo de tasación
+config.valuation.tip,"Muestra el desglose del valor real y el rango de precio perfecto de los objetos de tasación, y el precio y la mejor oferta en el título del servicio de tasación."
+config.cost_performance,Valor por celda
+config.cost_performance.tip,Muestra el valor por celda del inventario y la compresión de los contenedores.
+config.container_contents,Contenido del contenedor
+config.container_contents.tip,Muestra los objetos de los contenedores desbloqueados como iconos en un panel junto al tooltip.
+config.section.info,Información adicional
+config.info_enhance,Información adicional de objetos
+config.info_enhance.tip,Añade a los tooltips la información de objetos de la lista inferior. Al desactivarlo se oculta toda y se conservan las opciones individuales.
+config.tooltip_formatting,Formato del texto emergente
+config.tooltip_formatting.tip,"Etiquetas de precio más claras, descripciones ajustadas, notas de calorías y espaciado del bloque de precio. Desactívalo para conservar el diseño original."
+config.type_badge,Etiquetas de categoría
+config.type_badge.tip,Muestra las categorías del objeto sobre la descripción emergente.
+config.type_badge_muted,Atenuar colores de etiquetas
+config.type_badge_muted.tip,Las etiquetas no prohibidas usan el fondo oscuro del tooltip y un color de categoría aclarado; el contrabando mantiene el texto rojo de aviso.
+config.item_name_display,Mostrar nombres de objetos
+config.item_name_display.tip,"Muestra un nombre en la parte inferior de los iconos. «Contenedores y máquinas» etiqueta todos los contenedores y máquinas, con su nombre personalizado si lo tienen. «Objetos renombrados» solo etiqueta los objetos con nombre personalizado."
+config.item_name_display.off,Desactivado
+config.item_name_display.containers,Contenedores y máquinas
+config.item_name_display.renamed,Objetos renombrados
+config.container_name_bg,Fondo de los nombres
+config.container_name_bg.tip,Opacidad del fondo negro detrás del nombre (0–100 %); en 0 no hay fondo.
+config.slider_percent,{0} %
+config.customer_alert,Aviso de llegada de clientes
+config.customer_alert.tip,"Avisa cuando llega un cliente buscado o ciberaumentado y muestra la recompensa real, su nombre real, y la recompensa al matar y la amenaza de los ciberaumentados."
+config.customer_history,Historial al pasar el cursor
+config.customer_history.tip,Al pasar el cursor sobre un cliente de la tienda se muestra la conversación de esta visita.
+config.section.interaction,Controles
+config.double_click_inspect,Doble clic para inspeccionar
+config.double_click_inspect.tip,"Haz doble clic en un objeto de tasación o de verificación de autenticidad (inyectores, cigarrillos, tarjetas de alimentos, etc.) para abrir el panel de inspección sin la lupa. Con el panel abierto, haz doble clic en otro objeto para cambiar a él."
+config.double_click_scan,Doble clic para escanear
+config.double_click_scan.tip,"Si tienes el dispositivo correspondiente, haz doble clic en un objeto para abrir su panel de escaneo: escáner de agua o químico para líquidos y productos químicos, escáner de rayos X para cajas de suministros cerradas y analizador de plantas para semillas. Los objetos que ya se abren o usan con doble clic conservan esa acción, y sin el dispositivo se mantiene el doble clic original."
+config.context_menu_scan,Añadir escaneo al menú contextual
+config.context_menu_scan.tip,"Si tienes el dispositivo correspondiente, el menú del clic derecho de un objeto incluye «Escanear», que abre su panel de escaneo: escáner de agua o químico para líquidos y productos químicos, escáner de rayos X para cajas de suministros cerradas y analizador de plantas para semillas."
+config.expand_key,Tecla para desplegar
+config.expand_key.tip,Mantén pulsada esta tecla para ver los componentes inactivos plegados en las tablas de composición de los cultivos.
+config.expand_key.ctrl,Ctrl
+config.expand_key.shift,Mayús
+config.expand_key.alt,Alt
+config.section.reveal,Revelación
+config.hidden_truth,Revelar disfraces y valores reales
+config.hidden_truth.tip,"Muestra qué ocultan las características disfrazadas, la durabilidad real y la pureza real de lingotes y productos químicos. Delata las falsificaciones y facilita mucho la tasación."
+config.liquid_analysis,Análisis de componentes líquidos
+config.liquid_analysis.tip,"Muestra la pureza y las impurezas del agua, y la composición y los efectos de medicamentos y productos químicos. «Con escáner» solo lo muestra mientras tengas un escáner de agua o químico."
+config.color_liquid_components,Colorear impurezas por tipo
+config.color_liquid_components.tip,"Da a cada tipo de impureza de la tabla de composición su propio color: contaminantes químicos, desechos orgánicos, microbios, minerales, metales pesados y contaminantes físicos. Desactivado, todas son blancas."
+config.liquid_analysis.off,Desactivado
+config.liquid_analysis.scanner,Con escáner
+config.liquid_analysis.always,Siempre
+config.water_advice,Consejos de purificación
+config.water_advice.tip,"En un recipiente de agua, indica cuánto aumentaría la pureza cada método de purificación (filtros, máquinas). Si «Análisis de componentes líquidos» está en «Con escáner», esto también necesita un escáner."
+config.scratcher,Vista previa de Rasca y Gana
+config.scratcher.tip,"Antes de rascar, muestra si un Rasca y Gana tiene premio, cuánto y cuánto se ha rascado ya. Solo lectura con las reglas del juego; nunca rasca por ti."
+config.sealed_box,Rayos X de contenedores cerrados
+config.sealed_box.tip,"Muestra el contenido y el valor total de los contenedores cerrados (cajas fuertes, armeros) antes de abrirlos. Equivale a saltarse la cerradura."
+config.result_prefill,Rellenar resultado de inspección
+config.result_prefill.tip,"Al abrir el panel de inspección, marca los defectos reales de falsificación y rellena el precio de tasación con el valor real o la mejor oferta, según lo elegido abajo. Solo rellena los controles; nunca envía ni confirma."
+config.result_prefill_source,Precio rellenado
+config.result_prefill_source.tip,Valor real = el valor real del juego; mejor oferta = el límite superior del rango perfecto que muestra la descripción.
+config.result_prefill_source.true,Valor real
+config.result_prefill_source.best,Mejor oferta
+machine.eta,{0|Falta|Faltan} unos {0} {0|día|días} para terminar
+machine.eta_battery," (batería para {0} {0|día|días})"
+machine.eta_battery_short," (batería insuficiente)"
+machine.eta_water," (agua para {0} {0|día|días})"
+machine.paused,En pausa: {0}
+machine.paused_label,En pausa
+hydro.water,"Agua: {0}{3} ({2}{3}/día), {1} {1|día|días}"
+hydro.water_short,"Agua: {0}{3} ({2}{3}/día), <1 día"
+hydro.status_label,Estado: 
+hydro.eta_paused,"aprox. {0} {0|día|días}, {1}"
+hydro.eta_growing,"aprox. {0} {0|día|días}, {1}"
+hydro.progress,{0}/{1} ({2} {2|día|días})
+hydro.label,Agua
+hydro.value,{0}{1} ({2}{1}/día)
+hydro.left,{0} {0|día|días}
+hydro.left_short,<1 día
+purifier.estimate,"Eliminación estimada esta noche: {0} ml"
+purifier.tier," ({0} → {1})"
+purifier.label,Purificación
+purifier.rate,{0}mL/esta noche
+hydro.purify_rank,Gen purificador nv. {0}
+ras.purify_fish,{0} {0|pez|peces} absorbiendo
+fridge.no_effect,", {0} sin efecto"
+fridge.label,Nevera
+wine.rack,"{0} {0|botella|botellas} envejeciendo, +{1} {1|día|días}/día"
+wine.rack_idle,", {0} no envejecen"
+wine.rack_label,Añejado
+inner.line,{0}: {1}
+inner.input_slot,Ranura de entrada
+inner.output_slot,Ranura de salida
+inner.printer_material_slot,Ranura de material
+inner.printer_product_slot,Ranura de producto
+inner.durability,{0}: durabilidad {1}/{2}
+inner.faked," (indica {0})"
+inner.filter_spent," (agotado, ya no filtra)"
+filter.label,Filtro
+filter.lowest,"×{0}, mínima {1}/{2}"
+inner.filters,Filtros ×{0}: durabilidad mínima {1}/{2}
+inner.spent_count,", {0} agotados"
+inner.liquid,{0}/{1}{2}
+inner.liquid_empty,vacío
+inner.liquid_purity,", {0}% {1}"
+unit.ml," ml"
+unit.liter," L"
+inner.uses,{0}: usos restantes {1}/{2}
+inner.tools,"Herramientas ×{0}, menos usos: {1} ({2}/{3})"
+inner.energy,{0}: energía {1}/{2}
+learning.progress,Aprendizaje: {0}
+learning.stat,{0} {1}/{2}
+learning.stat_full,{0} al máximo
+learning.machine,Aprendizaje: {0}/{1} {1|módulo|módulos}
+learning.nights,({0} {0|día|días})
+recharger.label,Carga
+module.days_faster,", unos {0} {0|día|días} antes"
+module.output,{0} ml al día
+module.evaporate,{0} ml evaporados por noche
+module.recover,{0}% de destilado recuperado
+module.attract,{0}% de atractivo
+module.bargain,{0}% de éxito al regatear
+module.theft,{0}% de prevención de robos
+module.aging_next,+{0}% para +1 vel. de envejecimiento
+module.print_quality,{0} de calidad de impresión
+module.success,{0}% de probabilidad de éxito
+module.harvest,{0}% de cosecha
+module.water_next,+{0}% para producir {1}
+module.water_top,produce {0}
+module.purifier_next,+{0}% para purificar hasta {1}
+module.purifier_full,+{0}% para 100% de pureza
+module.purifier_top,purifica hasta 100%
+module.furnace_gain,Pureza {0}
+module.furnace_step,+{0}% para pureza {1}
+module.furnace_result,lingote ×{0}: {1}/10
+module.furnace_cap,pureza máxima
+module.furnace_basic,se consume fundente normal
+module.furnace_junk,sin efecto en el reciclaje
+history.empty,Todavía no hay diálogo.
+history.earlier,…{0} {0|línea anterior|líneas anteriores}
+history.unknown,Cliente
+appraisal.minimum_adjustment,Ajuste al valor mínimo
+meat.source,Origen de la carne: {0}
+meat.unknown,Desconocido
+meat.fish,Pescado
+meat.prion,Priones: {0}
+meat.prion.present,Presentes
+meat.prion.unmarked,Sin marcar
+berry.wine_value,Valor vinícola: {0}
+config.info_price_modifiers,Modificadores de precio
+config.info_price_modifiers.tip,"Muestra los modificadores de precio de etiquetas, estados y eventos de la tienda."
+config.info_black_market,Recargo del mercado negro
+config.info_black_market.tip,Muestra el recargo del mercado negro para el contrabando.
+config.info_lottery,Lotería
+config.info_lottery.tip,"Muestra los números sorteados, los aciertos y los premios. No cambia los resultados del sorteo."
+config.info_brewing,Elaboración de vino
+config.info_brewing.tip,"Muestra los valores vinícolas de los ingredientes, los efectos de la levadura, la puntuación y composición del vino, la fermentación y el envejecimiento."
+config.info_meat,Carne
+config.info_meat.tip,Muestra la especie de origen de la carne y los marcadores de priones.
+config.info_machines,Máquinas
+config.info_machines.tip,"Muestra efectos de módulos, aprendizaje, días restantes, consumo de agua, refrigeración, envejecimiento, purificación y productos previstos del horno."
+config.info_batteries,Baterías
+config.info_batteries.tip,"Muestra la carga y los días restantes, incluida cada batería del cargador."
+config.info_progress_bar,Barras de progreso de color
+config.info_progress_bar.tip,Sustituye las barras de texto por bloques de colores. Desactiva para mantener el estilo original.
+config.info_manufacturer_inline,Empresa en la línea del nombre
+config.info_manufacturer_inline.tip,Mueve el nombre de la empresa a la derecha en la línea del nombre del objeto.
+config.info_container_units,Optimizar unidades de líquido
+config.info_container_units.tip,"Las capacidades superiores a 3 L se muestran en litros (hasta 3 L, en mL). Las cantidades de componentes siempre en mL con cifras significativas; los porcentajes traza conservan 3 cifras significativas."
+config.gene_rank_arabic,Niveles en cifras árabes
+config.gene_rank_arabic.tip,"Muestra los niveles de los rasgos de las semillas en cifras árabes (1, 2, 3...). Desactivado, vuelve a los números romanos del juego original (I, II, III...)."
+list.zone_sep,; 
+module.special_label,Especial
+module.learn_chance,{0} % de probabilidad por noche de «Algoritmo de aprendizaje»
+module.learn_extra,{0} pasos de aprendizaje extra al día
+animal.next_stage,Siguiente etapa: {0} (+{1} {1|día de edad|días de edad})
+exchange.tonight,Previsto para esta noche: {0}
+exchange.reputation,Reputación del mercado negro
+exchange.module,"Raro: {0}; de lo contrario, sin recompensa"
+exchange.keycards,Dos al azar entre: {0}
+exchange.low_purity,Sin recompensa (polvo onírico de baja pureza)
+exchange.unknown,La recompensa se determina al liquidar el intercambio
+exchange.candidates,Al azar entre: {0}
+exchange.module_candidates,{0}; raro: {1}
+animal.genes_trait,Rasgo
+animal.genes_expression,Expresión
+animal.genes_alleles,Alelos
+animal.genes_grade,Grado
+luck.current,Suerte actual: {0}
+luck.base,Suerte base: {0}
+luck.coin,Moneda en posesión: {0}
+luck.liquid,{0}: {1} (quedan {2} {2|día|días})

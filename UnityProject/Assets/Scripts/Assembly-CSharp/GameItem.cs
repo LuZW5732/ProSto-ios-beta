@@ -1597,106 +1597,124 @@ public abstract class GameItem : GameItemFunc, GraphNodeStorage, DirectoryEntry,
 		});
 	}
 
-	public void DisplayManufacturer(RichTextBuilder builder, string manufacturer)
-	{
-		builder.Add(" ");
-		if (manufacturer.Equals("pastel"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_pastel"), ignoreEmpty: true, RenderHandler.ColorPalette.VeryLightGreen, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("carmicheal"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_carmicheal"), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("davre"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_davre"), ignoreEmpty: true, RenderHandler.ColorPalette.Green, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("mnsl"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_mnsl"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("eminence"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_eminence"), ignoreEmpty: true, RenderHandler.ColorPalette.LightYellow, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("eninence"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_eninence"), ignoreEmpty: true, RenderHandler.ColorPalette.LightYellow, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("republic"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_republic"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("republic_navy"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_republic_navy"), ignoreEmpty: true, RenderHandler.ColorPalette.Blue, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("neural"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_neural"), ignoreEmpty: true, RenderHandler.ColorPalette.VeryLightGray, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("watch"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_watch"), ignoreEmpty: true, RenderHandler.ColorPalette.Black, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("front"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_front"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("sokolov"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_sokolov"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("vision"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_vision"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("zhonghua"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_zhonghua"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("spacer"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_spacer"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGray, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("meridian"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_meridian"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("echelon"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_echelon"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("blueshield"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_blueshield"), ignoreEmpty: true, RenderHandler.ColorPalette.Blue, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("frontier"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_frontier"), ignoreEmpty: true, RenderHandler.ColorPalette.Green, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("ashvins"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_ashvins"), ignoreEmpty: true, RenderHandler.ColorPalette.Green, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("solana"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_solana"), ignoreEmpty: true, RenderHandler.ColorPalette.Turquoise, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("alison"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_alison"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("harvey_bee"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedOrDefault("ClientName", "corpo_name_harvey_bee", "M. Harvey Bee"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
-		}
-		else if (manufacturer.Equals("georgio"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedClientName("name_georgio"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: false, italic: false, underline: true);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItem), "DisplayManufacturer", new System.Type[] { typeof(RichTextBuilder), typeof(string) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void DisplayManufacturer(RichTextBuilder builder, string manufacturer)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { builder, manufacturer }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        manufacturer = (string)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        builder.Add(" ");
+        if (manufacturer.Equals("pastel"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_pastel"), ignoreEmpty: true, RenderHandler.ColorPalette.VeryLightGreen, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("carmicheal"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_carmicheal"), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("davre"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_davre"), ignoreEmpty: true, RenderHandler.ColorPalette.Green, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("mnsl"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_mnsl"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("eminence"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_eminence"), ignoreEmpty: true, RenderHandler.ColorPalette.LightYellow, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("eninence"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_eninence"), ignoreEmpty: true, RenderHandler.ColorPalette.LightYellow, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("republic"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_republic"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("republic_navy"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_republic_navy"), ignoreEmpty: true, RenderHandler.ColorPalette.Blue, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("neural"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_neural"), ignoreEmpty: true, RenderHandler.ColorPalette.VeryLightGray, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("watch"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_watch"), ignoreEmpty: true, RenderHandler.ColorPalette.Black, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("front"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_front"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("sokolov"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_sokolov"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("vision"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_vision"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("zhonghua"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_zhonghua"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("spacer"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_spacer"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGray, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("meridian"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_meridian"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("echelon"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_echelon"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("blueshield"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_blueshield"), ignoreEmpty: true, RenderHandler.ColorPalette.Blue, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("frontier"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_frontier"), ignoreEmpty: true, RenderHandler.ColorPalette.Green, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("ashvins"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_ashvins"), ignoreEmpty: true, RenderHandler.ColorPalette.Green, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("solana"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_solana"), ignoreEmpty: true, RenderHandler.ColorPalette.Turquoise, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("alison"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("corpo_name_alison"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("harvey_bee"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedOrDefault("ClientName", "corpo_name_harvey_bee", "M. Harvey Bee"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue, bold: false, italic: false, underline: true);
+        }
+        else if (manufacturer.Equals("georgio"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedClientName("name_georgio"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: false, italic: false, underline: true);
+        }
+    }
+}
 
 	public void SetType(string type)
 	{

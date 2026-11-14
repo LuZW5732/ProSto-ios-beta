@@ -391,177 +391,201 @@ public class ExchangeList
 		return exchangeBarter;
 	}
 
-	private static (Action Value, int Weight)[] ImprovedDreamDustRewards(double averagePurity)
-	{
-		if (!(averagePurity >= 99.0))
-		{
-			if (!(averagePurity >= 90.0))
-			{
-				if (!(averagePurity >= 80.0))
-				{
-					if (!(averagePurity >= 60.0))
-					{
-						if (!(averagePurity >= 45.0))
-						{
-							if (!(averagePurity >= 30.0))
-							{
-								return new (Action, int)[1] { (() =>
-								{
-									GiveExchangeItem("bandage_item", 2);
-								}, 100) };
-							}
-							return new (Action, int)[3]
-							{
-								(() =>
-								{
-									GiveExchangeItem("bandage_item");
-									GiveExchangeItem("hemostatic_bandage_item");
-									GiveExchangeItem("topical_bandage_item");
-								}, 40),
-								(() =>
-								{
-									GiveExchangeItem("common_medical");
-								}, 35),
-								(() =>
-								{
-									GiveExchangeItem("pink_injector");
-								}, 25)
-							};
-						}
-						return new (Action, int)[5]
-						{
-							(() =>
-							{
-								GiveExchangeItem("pink_injector", 2);
-							}, 35),
-							(() =>
-							{
-								GiveExchangeItem("common_medical", 2);
-							}, 25),
-							(() =>
-							{
-								GiveExchangeItem(PreBuiltItemHelper.CreateRealExpiredInjector);
-							}, 20),
-							(() =>
-							{
-								GiveExchangeItem("blood_bag", 3);
-							}, 15),
-							(() =>
-							{
-								GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
-							}, 5)
-						};
-					}
-					return new (Action, int)[7]
-					{
-						(() =>
-						{
-							GiveExchangeItem("pink_injector", 3);
-						}, 44),
-						(() =>
-						{
-							GiveExchangeItem("common_medical", 5);
-						}, 14),
-						(() =>
-						{
-							GiveExchangeItem(PreBuiltItemHelper.CreateRealExpiredInjector);
-							GiveExchangeItem("blood_bag", 2);
-						}, 12),
-						(() =>
-						{
-							GiveExchangeItem("blood_bag", 5);
-						}, 11),
-						(() =>
-						{
-							GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
-						}, 7),
-						(() =>
-						{
-							GiveExchangeItem("black_injector");
-						}, 6),
-						(() =>
-						{
-							GiveExchangeItem("blue_blood_bag");
-						}, 6)
-					};
-				}
-				return new (Action, int)[5]
-				{
-					(() =>
-					{
-						GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
-						GiveExchangeItem("pink_injector", 3);
-					}, 30),
-					(() =>
-					{
-						GiveExchangeItem("common_medical", 5);
-						GiveExchangeItem("salve");
-					}, 20),
-					(() =>
-					{
-						GiveExchangeItem("blue_blood_bag");
-						GiveExchangeItem("blood_bag");
-					}, 20),
-					(() =>
-					{
-						GiveExchangeItem("surgery_tool");
-						GiveExchangeItem("blood_bag", 2);
-					}, 15),
-					(() =>
-					{
-						GiveExchangeItem("black_injector");
-					}, 15)
-				};
-			}
-			return new (Action, int)[5]
-			{
-				(() =>
-				{
-					GiveExchangeItem("black_injector");
-				}, 30),
-				(() =>
-				{
-					GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector, 2);
-					GiveExchangeItem("salve");
-				}, 25),
-				(() =>
-				{
-					GiveExchangeItem("blue_blood_bag");
-					GiveExchangeItem("pink_injector", 2);
-				}, 20),
-				(() =>
-				{
-					GiveExchangeItem("surgery_tool");
-					GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
-				}, 15),
-				(() =>
-				{
-					GiveExchangeItem("black_injector");
-					GiveExchangeItem("blue_blood_bag");
-				}, 10)
-			};
-		}
-		return new (Action, int)[4]
-		{
-			(() =>
-			{
-				GiveExchangeItem("black_injector");
-				GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
-			}, 40),
-			(() =>
-			{
-				GiveExchangeItem("blue_blood_bag", 2);
-			}, 30),
-			(() =>
-			{
-				GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector, 3);
-			}, 20),
-			(() =>
-			{
-				GiveExchangeItem("black_injector", 2);
-			}, 10)
-		};
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ExchangeList), "ImprovedDreamDustRewards", new System.Type[] { typeof(double) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static (Action Value, int Weight)[] ImprovedDreamDustRewards(double averagePurity)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<(Action Value, int Weight)[]>(__portHook0, null, new object[] { averagePurity }, __portArguments =>
+    {
+        averagePurity = (double)__portArguments[0];
+        return __PortOriginal();
+    });
+    (Action Value, int Weight)[] __PortOriginal()
+    {
+        if (!(averagePurity >= 99.0))
+        {
+            if (!(averagePurity >= 90.0))
+            {
+                if (!(averagePurity >= 80.0))
+                {
+                    if (!(averagePurity >= 60.0))
+                    {
+                        if (!(averagePurity >= 45.0))
+                        {
+                            if (!(averagePurity >= 30.0))
+                            {
+                                return new (Action, int)[1]
+                                {
+                                    (() =>
+                                    {
+                                        GiveExchangeItem("bandage_item", 2);
+                                    }, 100)
+                                };
+                            }
+
+                            return new (Action, int)[3]
+                            {
+                                (() =>
+                                {
+                                    GiveExchangeItem("bandage_item");
+                                    GiveExchangeItem("hemostatic_bandage_item");
+                                    GiveExchangeItem("topical_bandage_item");
+                                }, 40),
+                                (() =>
+                                {
+                                    GiveExchangeItem("common_medical");
+                                }, 35),
+                                (() =>
+                                {
+                                    GiveExchangeItem("pink_injector");
+                                }, 25)
+                            };
+                        }
+
+                        return new (Action, int)[5]
+                        {
+                            (() =>
+                            {
+                                GiveExchangeItem("pink_injector", 2);
+                            }, 35),
+                            (() =>
+                            {
+                                GiveExchangeItem("common_medical", 2);
+                            }, 25),
+                            (() =>
+                            {
+                                GiveExchangeItem(PreBuiltItemHelper.CreateRealExpiredInjector);
+                            }, 20),
+                            (() =>
+                            {
+                                GiveExchangeItem("blood_bag", 3);
+                            }, 15),
+                            (() =>
+                            {
+                                GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
+                            }, 5)
+                        };
+                    }
+
+                    return new (Action, int)[7]
+                    {
+                        (() =>
+                        {
+                            GiveExchangeItem("pink_injector", 3);
+                        }, 44),
+                        (() =>
+                        {
+                            GiveExchangeItem("common_medical", 5);
+                        }, 14),
+                        (() =>
+                        {
+                            GiveExchangeItem(PreBuiltItemHelper.CreateRealExpiredInjector);
+                            GiveExchangeItem("blood_bag", 2);
+                        }, 12),
+                        (() =>
+                        {
+                            GiveExchangeItem("blood_bag", 5);
+                        }, 11),
+                        (() =>
+                        {
+                            GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
+                        }, 7),
+                        (() =>
+                        {
+                            GiveExchangeItem("black_injector");
+                        }, 6),
+                        (() =>
+                        {
+                            GiveExchangeItem("blue_blood_bag");
+                        }, 6)
+                    };
+                }
+
+                return new (Action, int)[5]
+                {
+                    (() =>
+                    {
+                        GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
+                        GiveExchangeItem("pink_injector", 3);
+                    }, 30),
+                    (() =>
+                    {
+                        GiveExchangeItem("common_medical", 5);
+                        GiveExchangeItem("salve");
+                    }, 20),
+                    (() =>
+                    {
+                        GiveExchangeItem("blue_blood_bag");
+                        GiveExchangeItem("blood_bag");
+                    }, 20),
+                    (() =>
+                    {
+                        GiveExchangeItem("surgery_tool");
+                        GiveExchangeItem("blood_bag", 2);
+                    }, 15),
+                    (() =>
+                    {
+                        GiveExchangeItem("black_injector");
+                    }, 15)
+                };
+            }
+
+            return new (Action, int)[5]
+            {
+                (() =>
+                {
+                    GiveExchangeItem("black_injector");
+                }, 30),
+                (() =>
+                {
+                    GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector, 2);
+                    GiveExchangeItem("salve");
+                }, 25),
+                (() =>
+                {
+                    GiveExchangeItem("blue_blood_bag");
+                    GiveExchangeItem("pink_injector", 2);
+                }, 20),
+                (() =>
+                {
+                    GiveExchangeItem("surgery_tool");
+                    GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
+                }, 15),
+                (() =>
+                {
+                    GiveExchangeItem("black_injector");
+                    GiveExchangeItem("blue_blood_bag");
+                }, 10)
+            };
+        }
+
+        return new (Action, int)[4]
+        {
+            (() =>
+            {
+                GiveExchangeItem("black_injector");
+                GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector);
+            }, 40),
+            (() =>
+            {
+                GiveExchangeItem("blue_blood_bag", 2);
+            }, 30),
+            (() =>
+            {
+                GiveExchangeItem(PreBuiltItemHelper.CreateRealGenuineInjector, 3);
+            }, 20),
+            (() =>
+            {
+                GiveExchangeItem("black_injector", 2);
+            }, 10)
+        };
+    }
+}
 
 	private static void GiveExchangeItem(string identifier, int count = 1)
 	{

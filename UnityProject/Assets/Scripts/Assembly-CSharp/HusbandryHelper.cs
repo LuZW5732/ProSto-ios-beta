@@ -140,27 +140,48 @@ public class HusbandryHelper
 		}
 	}
 
-	private static RenderHandler.ColorPalette GetStatCompareColor(string tagID, float value, float baseValue)
-	{
-		bool flag = !StatHigherIsBetter.TryGetValue(tagID, out var value2) | value2;
-		if (value > baseValue * 1.05f)
-		{
-			if (!flag)
-			{
-				return RenderHandler.ColorPalette.LightRed;
-			}
-			return RenderHandler.ColorPalette.Green;
-		}
-		if (value < baseValue * 0.95f)
-		{
-			if (!flag)
-			{
-				return RenderHandler.ColorPalette.Green;
-			}
-			return RenderHandler.ColorPalette.LightRed;
-		}
-		return RenderHandler.ColorPalette.LightCyan;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(HusbandryHelper), "GetStatCompareColor", new System.Type[] { typeof(string), typeof(float), typeof(float) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static RenderHandler.ColorPalette GetStatCompareColor(string tagID, float value, float baseValue)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RenderHandler.ColorPalette>(__portHook0, null, new object[] { tagID, value, baseValue }, __portArguments =>
+    {
+        tagID = (string)__portArguments[0];
+        value = (float)__portArguments[1];
+        baseValue = (float)__portArguments[2];
+        return __PortOriginal();
+    });
+    RenderHandler.ColorPalette __PortOriginal()
+    {
+        bool flag = !StatHigherIsBetter.TryGetValue(tagID, out var value2) | value2;
+        if (value > baseValue * 1.05f)
+        {
+            if (!flag)
+            {
+                return RenderHandler.ColorPalette.LightRed;
+            }
+
+            return RenderHandler.ColorPalette.Green;
+        }
+
+        if (value < baseValue * 0.95f)
+        {
+            if (!flag)
+            {
+                return RenderHandler.ColorPalette.Green;
+            }
+
+            return RenderHandler.ColorPalette.LightRed;
+        }
+
+        return RenderHandler.ColorPalette.LightCyan;
+    }
+}
 
 	public static void InitAnimalItem(GameItem item, AnimalSpecies species, string forcedSex = null)
 	{
@@ -1344,7 +1365,7 @@ public class HusbandryHelper
 				builder.AddLine(LocHelper.GetLocalizedMechanic("husbandry_tooltip_fertility") + Mathf.RoundToInt(num3) + "%", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
 			}
 		}
-		if (species != null)
+		if (ItemDetails.AnimalGenes.ShowVanillaStats(species, builder, item))
 		{
 			AddStatLine("husbandry_stat_growth_rate", "ANIMAL_GROWTH_RATE_TAG");
 			AddStatLine("husbandry_stat_litter_size", "ANIMAL_LITTER_SIZE_TAG");

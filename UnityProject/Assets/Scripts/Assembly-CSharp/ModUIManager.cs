@@ -127,9 +127,11 @@ public class ModUIManager : MonoBehaviour
 		handle?.Get("search")?.SetString("");
 		PopulateLayoutList();
 		panel.SetActive(value: true);
+#if !UNITY_IOS
 		ModWorkshop.RequestDetails(from m in ModLoader.Mods.Where(IsWorkshopMod)
 			select m.WorkshopId);
 		ModWarningUI.ShowIfNeeded(DialogRoot());
+#endif
 	}
 
 	public void ClosePanel()
@@ -188,12 +190,14 @@ public class ModUIManager : MonoBehaviour
 			customUIBuilder.AddSeparator(null, 4);
 			customUIBuilder.BeginRow(12f, TextAnchor.MiddleCenter);
 			customUIBuilder.AddFlexibleSpace();
+#if !UNITY_IOS
 			customUIBuilder.AddButton(LocHelper.GetLocalizedUI("ui_mods_open_folder"), OpenModFolder, "open_folder");
 			customUIBuilder.Last.SetFixedWidth(260f);
 			customUIBuilder.AddButton(LocHelper.GetLocalizedUI("ui_mods_workshop"), ModWorkshop.OpenHub, "workshop");
 			customUIBuilder.Last.SetFixedWidth(260f);
 			customUIBuilder.AddButton(LocHelper.GetLocalizedUI("ui_mods_unsubscribe"), ConfirmUnsubscribe, "unsubscribe");
 			customUIBuilder.Last.SetFixedWidth(260f).SetInteractable(interactable: false);
+#endif
 			customUIBuilder.AddButton(LocHelper.GetLocalizedUI("ui_mods_autosort"), ConfirmAutoSort, "autosort");
 			customUIBuilder.Last.SetFixedWidth(260f);
 			customUIBuilder.AddFlexibleSpace();

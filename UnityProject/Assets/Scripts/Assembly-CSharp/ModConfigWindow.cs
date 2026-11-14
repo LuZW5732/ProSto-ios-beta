@@ -18,69 +18,89 @@ public static class ModConfigWindow
 
 	private const string TOOLTIP_LINK_PREFIX = "modcfg:";
 
-	public static CustomUIWindow Open(LoadedMod mod)
-	{
-		if (mod == null)
-		{
-			return null;
-		}
-		ModConfig config = ModConfig.Find(mod.Manifest.ID);
-		if (config == null || !config.HasEntries)
-		{
-			UnityEngine.Debug.Log("[ModConfig] '" + mod.Manifest.ID + "' has no configuration entries");
-			return null;
-		}
-		CustomUIManager instance = CustomUIManager.Instance;
-		if (instance == null)
-		{
-			Debug.LogError("[ModConfig] No CustomUIManager in the scene, cannot open the configuration panel");
-			return null;
-		}
-		bool flag = StoreUIManager.Instance != null;
-		string layerId = (flag ? "meta" : "menu");
-		CustomUIWindow window = null;
-		CustomUIBuilder customUIBuilder = instance.CreateWindow("mod_config:" + mod.Manifest.ID, mod.Manifest.Name, layerId, instance.optionUIPrefab).SetCloseOnEscape(!flag);
-		customUIBuilder.BeginScrollFlexible();
-		foreach (string section in config.Sections)
-		{
-			customUIBuilder.BeginRow(4f, TextAnchor.MiddleLeft);
-			customUIBuilder.AddHeader(section, "section_" + section);
-			customUIBuilder.End();
-			customUIBuilder.AddSeparator(null, 2);
-			foreach (ConfigEntry entry in config.Entries)
-			{
-				if (entry.Section == section)
-				{
-					BuildEntry(customUIBuilder, config, entry);
-				}
-			}
-			customUIBuilder.AddSpace(12f);
-		}
-		customUIBuilder.End();
-		customUIBuilder.AddSeparator(null, 2);
-		customUIBuilder.BeginRow(12f, TextAnchor.MiddleCenter);
-		customUIBuilder.AddFlexibleSpace();
-		customUIBuilder.AddButton(LocHelper.GetLocalizedUI("ui_modcfg_reset"), () =>
-		{
-			ResetWidgets(window, config);
-		}, "reset");
-		customUIBuilder.Last.SetFixedWidth(220f);
-		customUIBuilder.AddButton(LocHelper.GetLocalizedMainMenu("option_apply"), () =>
-		{
-			Apply(window, config);
-		}, "apply");
-		customUIBuilder.Last.SetFixedWidth(220f);
-		customUIBuilder.AddFlexibleSpace();
-		customUIBuilder.End();
-		customUIBuilder.BeginRow(0f, TextAnchor.MiddleCenter);
-		customUIBuilder.AddFlexibleSpace();
-		customUIBuilder.AddWarning(LocHelper.GetLocalizedUI("ui_mods_restart_note"), "restart_note");
-		customUIBuilder.AddFlexibleSpace();
-		customUIBuilder.End();
-		window = customUIBuilder.Show();
-		window.Get("restart_note")?.SetVisible(visible: false);
-		return window;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ModConfigWindow), "Open", new System.Type[] { typeof(LoadedMod) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static CustomUIWindow Open(LoadedMod mod)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<CustomUIWindow>(__portHook0, null, new object[] { mod }, __portArguments =>
+    {
+        mod = (LoadedMod)__portArguments[0];
+        return __PortOriginal();
+    });
+    CustomUIWindow __PortOriginal()
+    {
+        if (mod == null)
+        {
+            return null;
+        }
+
+        ModConfig config = ModConfig.Find(mod.Manifest.ID);
+        if (config == null || !config.HasEntries)
+        {
+            UnityEngine.Debug.Log("[ModConfig] '" + mod.Manifest.ID + "' has no configuration entries");
+            return null;
+        }
+
+        CustomUIManager instance = CustomUIManager.Instance;
+        if (instance == null)
+        {
+            Debug.LogError("[ModConfig] No CustomUIManager in the scene, cannot open the configuration panel");
+            return null;
+        }
+
+        bool flag = StoreUIManager.Instance != null;
+        string layerId = (flag ? "meta" : "menu");
+        CustomUIWindow window = null;
+        CustomUIBuilder customUIBuilder = instance.CreateWindow("mod_config:" + mod.Manifest.ID, mod.Manifest.Name, layerId, instance.optionUIPrefab).SetCloseOnEscape(!flag);
+        customUIBuilder.BeginScrollFlexible();
+        foreach (string section in config.Sections)
+        {
+            customUIBuilder.BeginRow(4f, TextAnchor.MiddleLeft);
+            customUIBuilder.AddHeader(section, "section_" + section);
+            customUIBuilder.End();
+            customUIBuilder.AddSeparator(null, 2);
+            foreach (ConfigEntry entry in config.Entries)
+            {
+                if (entry.Section == section)
+                {
+                    BuildEntry(customUIBuilder, config, entry);
+                }
+            }
+
+            customUIBuilder.AddSpace(12f);
+        }
+
+        customUIBuilder.End();
+        customUIBuilder.AddSeparator(null, 2);
+        customUIBuilder.BeginRow(12f, TextAnchor.MiddleCenter);
+        customUIBuilder.AddFlexibleSpace();
+        customUIBuilder.AddButton(LocHelper.GetLocalizedUI("ui_modcfg_reset"), () =>
+        {
+            ResetWidgets(window, config);
+        }, "reset");
+        customUIBuilder.Last.SetFixedWidth(220f);
+        customUIBuilder.AddButton(LocHelper.GetLocalizedMainMenu("option_apply"), () =>
+        {
+            Apply(window, config);
+        }, "apply");
+        customUIBuilder.Last.SetFixedWidth(220f);
+        customUIBuilder.AddFlexibleSpace();
+        customUIBuilder.End();
+        customUIBuilder.BeginRow(0f, TextAnchor.MiddleCenter);
+        customUIBuilder.AddFlexibleSpace();
+        customUIBuilder.AddWarning(LocHelper.GetLocalizedUI("ui_mods_restart_note"), "restart_note");
+        customUIBuilder.AddFlexibleSpace();
+        customUIBuilder.End();
+        window = customUIBuilder.Show();
+        window.Get("restart_note")?.SetVisible(visible: false);
+        return window;
+    }
+}
 
 	private static void BuildEntry(CustomUIBuilder b, ModConfig config, ConfigEntry entry)
 	{
@@ -238,21 +258,40 @@ public static class ModConfigWindow
 		}
 	}
 
-	private static void ResetWidgets(CustomUIWindow window, ModConfig config)
-	{
-		if (window == null || !window.IsAlive)
-		{
-			return;
-		}
-		foreach (ConfigEntry entry in config.Entries)
-		{
-			CustomUIElement customUIElement = window.Get(entry.Key);
-			if (customUIElement != null && customUIElement.IsAlive)
-			{
-				WriteWidget(entry, customUIElement, entry.BoxedDefault);
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ModConfigWindow), "ResetWidgets", new System.Type[] { typeof(CustomUIWindow), typeof(ModConfig) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static void ResetWidgets(CustomUIWindow window, ModConfig config)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, null, new object[] { window, config }, __portArguments =>
+    {
+        window = (CustomUIWindow)__portArguments[0];
+        config = (ModConfig)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (window == null || !window.IsAlive)
+        {
+            return;
+        }
+
+        foreach (ConfigEntry entry in config.Entries)
+        {
+            CustomUIElement customUIElement = window.Get(entry.Key);
+            if (customUIElement != null && customUIElement.IsAlive)
+            {
+                WriteWidget(entry, customUIElement, entry.BoxedDefault);
+            }
+        }
+    }
+}
 
 	private static T Safe<T>(Func<T> getter, T fallback)
 	{

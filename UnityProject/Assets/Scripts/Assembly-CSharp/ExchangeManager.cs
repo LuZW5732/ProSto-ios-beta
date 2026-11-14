@@ -45,31 +45,49 @@ public class ExchangeManager
 		promotionalBarter.Add(ExchangeList.ImmunivaxBarter());
 	}
 
-	public void HandleExchange()
-	{
-		Debug.Log("HandlingExchange");
-		int num = 0;
-		List<ExchangeBarter> list = new List<ExchangeBarter>();
-		list.AddRange(activeBarter);
-		foreach (ExchangeBarter item in promotionalBarter)
-		{
-			if (activePromotionalBarterIds.Contains(item.identifier))
-			{
-				list.Add(item);
-			}
-		}
-		list.Sort((ExchangeBarter x, ExchangeBarter y) => y.priority.CompareTo(x.priority));
-		foreach (ExchangeBarter item2 in list)
-		{
-			if (item2.CanAccept())
-			{
-				num++;
-				item2.Accept();
-				StoreReputation.GetBMFaction().ModProgressReputation(75);
-			}
-		}
-		Debug.Log(num + " barter(s) accepted");
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ExchangeManager), "HandleExchange", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void HandleExchange()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        Debug.Log("HandlingExchange");
+        int num = 0;
+        List<ExchangeBarter> list = new List<ExchangeBarter>();
+        list.AddRange(activeBarter);
+        foreach (ExchangeBarter item in promotionalBarter)
+        {
+            if (activePromotionalBarterIds.Contains(item.identifier))
+            {
+                list.Add(item);
+            }
+        }
+
+        list.Sort((ExchangeBarter x, ExchangeBarter y) => y.priority.CompareTo(x.priority));
+        foreach (ExchangeBarter item2 in list)
+        {
+            if (item2.CanAccept())
+            {
+                num++;
+                item2.Accept();
+                StoreReputation.GetBMFaction().ModProgressReputation(75);
+            }
+        }
+
+        Debug.Log(num + " barter(s) accepted");
+    }
+}
 
 	public void Reset()
 	{

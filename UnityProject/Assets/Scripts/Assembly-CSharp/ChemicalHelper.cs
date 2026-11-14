@@ -124,40 +124,59 @@ public class ChemicalHelper
 		chemicalItem.Destroy();
 	}
 
-	public static void DissolveInto(GameItem chemicalItem, GameItem liquidContainer)
-	{
-		int freeCapacity = WaterHelper.GetFreeCapacity(liquidContainer);
-		int totalVolume = GetTotalVolume(chemicalItem);
-		if (totalVolume <= freeCapacity)
-		{
-			foreach (Liquid liquid in Liquid.Liquids)
-			{
-				int amount = chemicalItem.GetTagReadonly(liquid.currentPart).GetInt();
-				int currentAmount = liquidContainer.GetTagReadonly(liquid.currentPart).GetInt();
-				liquidContainer.ModifyTag(liquid.currentPart, (TagState state) =>
-				{
-					state.Enable().SetInt(currentAmount + amount);
-				}, skipValidate: true);
-			}
-		}
-		else
-		{
-			int volumeInPart = totalVolume - freeCapacity;
-			WaterHelper.Remove(liquidContainer, volumeInPart);
-			foreach (Liquid liquid2 in Liquid.Liquids)
-			{
-				int amount2 = chemicalItem.GetTagReadonly(liquid2.currentPart).GetInt();
-				int currentAmount2 = liquidContainer.GetTagReadonly(liquid2.currentPart).GetInt();
-				liquidContainer.ModifyTag(liquid2.currentPart, (TagState state) =>
-				{
-					state.Enable().SetInt(currentAmount2 + amount2);
-				}, skipValidate: true);
-			}
-		}
-		chemicalItem.Destroy();
-		WaterFeatureHelper.UpdateWaterFeature(liquidContainer, isExpose: false);
-		SpriteHelper.UpdateWaterContainerSprite(liquidContainer);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ChemicalHelper), "DissolveInto", new System.Type[] { typeof(GameItem), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void DissolveInto(GameItem chemicalItem, GameItem liquidContainer)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { chemicalItem, liquidContainer }, __portArguments =>
+    {
+        chemicalItem = (GameItem)__portArguments[0];
+        liquidContainer = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        int freeCapacity = WaterHelper.GetFreeCapacity(liquidContainer);
+        int totalVolume = GetTotalVolume(chemicalItem);
+        if (totalVolume <= freeCapacity)
+        {
+            foreach (Liquid liquid in Liquid.Liquids)
+            {
+                int amount = chemicalItem.GetTagReadonly(liquid.currentPart).GetInt();
+                int currentAmount = liquidContainer.GetTagReadonly(liquid.currentPart).GetInt();
+                liquidContainer.ModifyTag(liquid.currentPart, (TagState state) =>
+                {
+                    state.Enable().SetInt(currentAmount + amount);
+                }, skipValidate: true);
+            }
+        }
+        else
+        {
+            int volumeInPart = totalVolume - freeCapacity;
+            WaterHelper.Remove(liquidContainer, volumeInPart);
+            foreach (Liquid liquid2 in Liquid.Liquids)
+            {
+                int amount2 = chemicalItem.GetTagReadonly(liquid2.currentPart).GetInt();
+                int currentAmount2 = liquidContainer.GetTagReadonly(liquid2.currentPart).GetInt();
+                liquidContainer.ModifyTag(liquid2.currentPart, (TagState state) =>
+                {
+                    state.Enable().SetInt(currentAmount2 + amount2);
+                }, skipValidate: true);
+            }
+        }
+
+        chemicalItem.Destroy();
+        WaterFeatureHelper.UpdateWaterFeature(liquidContainer, isExpose: false);
+        SpriteHelper.UpdateWaterContainerSprite(liquidContainer);
+    }
+}
 
 	private static double GetCooledTemp(double initialTemp, double ambientTemp, int volume, double timeSeconds, double coolingFactor = 0.05)
 	{

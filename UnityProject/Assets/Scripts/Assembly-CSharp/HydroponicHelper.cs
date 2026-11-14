@@ -480,42 +480,83 @@ public class HydroponicHelper
 		}));
 	}
 
-	public static void CreateSeedItemTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if (!item.IsTag("SEED_ITEM_TAG"))
-		{
-			return;
-		}
-		PlantDefinition plant = GetPlant(item);
-		bool showBase = plant != null && PlantGeneticsHelper.IsScannerOn();
-		int baseValue = ((plant != null) ? (IsPerennialEstablished(item) ? GetRefruitBaseProgress(plant, plant.requiredProgress) : plant.requiredProgress) : 0);
-		AddSeedStatLine(builder, LocHelper.GetLocalizedMechanic("mech_seed_required_work", GetRequiredProgress(item)), baseValue, showBase);
-		AddSeedStatLine(builder, LocHelper.GetLocalizedMechanic("mech_seed_harvest_quantity", GetBaseHarvestQuantity(item)), plant?.harvestQuantity ?? 0, showBase);
-		AddSeedStatLine(builder, LocHelper.GetLocalizedMechanic("mech_seed_water_use_rate", GetWaterUsePerCycle(item)), plant?.waterUseRate ?? 0, showBase);
-		if (item.IsTag("GROWING_TAG"))
-		{
-			GameItem associatedHydroponic = GetAssociatedHydroponic(item);
-			if (associatedHydroponic != null)
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_seed_status", MachineHydroponic.GetGrowStatus(associatedHydroponic)), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-			}
-			int num = item.GetTagReadonly("GROWING_PROGRESS").GetInt();
-			int val = item.GetTagReadonly("REQUIRED_PROGRESS").GetInt();
-			builder.AddProgressBar((float)num / (float)Math.Max(1, val), 10, RenderHandler.ColorPalette.LightGreen, RenderHandler.ColorPalette.VeryDarkGreen, null, " ");
-			builder.AddLine("(" + num + "/" + val + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(HydroponicHelper), "CreateSeedItemTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateSeedItemTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	private static void AddSeedStatLine(RichTextBuilder builder, string effectiveText, int baseValue, bool showBase)
-	{
-		if (!showBase)
-		{
-			builder.AddLine(effectiveText, ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			return;
-		}
-		builder.Add(effectiveText, RenderHandler.ColorPalette.LightCyan, " ");
-		builder.AddLine("(Base: " + baseValue + ")", ignoreEmpty: true, RenderHandler.ColorPalette.Gray);
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!item.IsTag("SEED_ITEM_TAG"))
+        {
+            return;
+        }
+
+        PlantDefinition plant = GetPlant(item);
+        bool showBase = plant != null && PlantGeneticsHelper.IsScannerOn();
+        int baseValue = ((plant != null) ? (IsPerennialEstablished(item) ? GetRefruitBaseProgress(plant, plant.requiredProgress) : plant.requiredProgress) : 0);
+        AddSeedStatLine(builder, LocHelper.GetLocalizedMechanic("mech_seed_required_work", GetRequiredProgress(item)), baseValue, showBase);
+        AddSeedStatLine(builder, LocHelper.GetLocalizedMechanic("mech_seed_harvest_quantity", GetBaseHarvestQuantity(item)), plant?.harvestQuantity ?? 0, showBase);
+        AddSeedStatLine(builder, LocHelper.GetLocalizedMechanic("mech_seed_water_use_rate", GetWaterUsePerCycle(item)), plant?.waterUseRate ?? 0, showBase);
+        if (item.IsTag("GROWING_TAG"))
+        {
+            GameItem associatedHydroponic = GetAssociatedHydroponic(item);
+            if (associatedHydroponic != null)
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_seed_status", MachineHydroponic.GetGrowStatus(associatedHydroponic)), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+            }
+
+            int num = item.GetTagReadonly("GROWING_PROGRESS").GetInt();
+            int val = item.GetTagReadonly("REQUIRED_PROGRESS").GetInt();
+            builder.AddProgressBar((float)num / (float)Math.Max(1, val), 10, RenderHandler.ColorPalette.LightGreen, RenderHandler.ColorPalette.VeryDarkGreen, null, " ");
+            builder.AddLine("(" + num + "/" + val + ")", ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+        }
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(HydroponicHelper), "AddSeedStatLine", new System.Type[] { typeof(RichTextBuilder), typeof(string), typeof(int), typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static void AddSeedStatLine(RichTextBuilder builder, string effectiveText, int baseValue, bool showBase)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, null, new object[] { builder, effectiveText, baseValue, showBase }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        effectiveText = (string)__portArguments[1];
+        baseValue = (int)__portArguments[2];
+        showBase = (bool)__portArguments[3];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!showBase)
+        {
+            builder.AddLine(effectiveText, ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            return;
+        }
+
+        builder.Add(effectiveText, RenderHandler.ColorPalette.LightCyan, " ");
+        builder.AddLine("(Base: " + baseValue + ")", ignoreEmpty: true, RenderHandler.ColorPalette.Gray);
+    }
+}
 
 	public static int ApplyBonusModuleYield(int yield, GameItem system, GameInventory invModule)
 	{

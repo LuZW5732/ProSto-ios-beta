@@ -67,44 +67,68 @@ public class AppraisalServiceHelper
 		return BuildAcceptDialogue(estimatePrecision, isLow);
 	}
 
-	private static int GetEstimatePrecision(int correctValue, int value)
-	{
-		int num = RNG.CalculatePercentage(correctValue, 95);
-		int num2 = RNG.CalculatePercentage(correctValue, 105);
-		if (value >= num && value <= num2)
-		{
-			return 1;
-		}
-		if (value < num)
-		{
-			if (value <= RNG.CalculatePercentage(correctValue, 75))
-			{
-				return 5;
-			}
-			if (value <= RNG.CalculatePercentage(correctValue, 85))
-			{
-				return 4;
-			}
-			if (value <= RNG.CalculatePercentage(correctValue, 90))
-			{
-				return 3;
-			}
-			return 2;
-		}
-		if (value >= RNG.CalculatePercentage(correctValue, 125))
-		{
-			return 5;
-		}
-		if (value >= RNG.CalculatePercentage(correctValue, 115))
-		{
-			return 4;
-		}
-		if (value >= RNG.CalculatePercentage(correctValue, 110))
-		{
-			return 3;
-		}
-		return 2;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(AppraisalServiceHelper), "GetEstimatePrecision", new System.Type[] { typeof(int), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static int GetEstimatePrecision(int correctValue, int value)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<int>(__portHook0, null, new object[] { correctValue, value }, __portArguments =>
+    {
+        correctValue = (int)__portArguments[0];
+        value = (int)__portArguments[1];
+        return __PortOriginal();
+    });
+    int __PortOriginal()
+    {
+        int num = RNG.CalculatePercentage(correctValue, 95);
+        int num2 = RNG.CalculatePercentage(correctValue, 105);
+        if (value >= num && value <= num2)
+        {
+            return 1;
+        }
+
+        if (value < num)
+        {
+            if (value <= RNG.CalculatePercentage(correctValue, 75))
+            {
+                return 5;
+            }
+
+            if (value <= RNG.CalculatePercentage(correctValue, 85))
+            {
+                return 4;
+            }
+
+            if (value <= RNG.CalculatePercentage(correctValue, 90))
+            {
+                return 3;
+            }
+
+            return 2;
+        }
+
+        if (value >= RNG.CalculatePercentage(correctValue, 125))
+        {
+            return 5;
+        }
+
+        if (value >= RNG.CalculatePercentage(correctValue, 115))
+        {
+            return 4;
+        }
+
+        if (value >= RNG.CalculatePercentage(correctValue, 110))
+        {
+            return 3;
+        }
+
+        return 2;
+    }
+}
 
 	private static Dialogue BuildAcceptDialogue(int precision, bool isLow)
 	{

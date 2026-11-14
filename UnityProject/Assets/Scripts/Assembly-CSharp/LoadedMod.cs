@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+#if !UNITY_IOS
 using HarmonyLib;
+#endif
 using UnityEngine;
 
 public class LoadedMod
@@ -12,7 +14,9 @@ public class LoadedMod
 
 	public Assembly Assembly;
 
+#if !UNITY_IOS
 	public Harmony HarmonyInstance;
+#endif
 
 	public string FolderPath;
 

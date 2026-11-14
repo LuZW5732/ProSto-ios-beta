@@ -243,21 +243,39 @@ public class MachineHydroponic
 		return gameItem;
 	}
 
-	public static void CreateMachineTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if (item.IsTag("HYDROPONIC_MACHINE_TAG"))
-		{
-			if (MachineProgressHelper.GetMachineState(item).Equals("STATE_WORKING"))
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_hydroponic_tooltip_status", GetGrowStatus(item)), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-				var (num, b) = MachineProgressHelper.GetProgress(item);
-				builder.AddProgressBar((float)num / (float)Mathf.Max(1, b), 10, RenderHandler.ColorPalette.LightGreen, RenderHandler.ColorPalette.VeryDarkGreen, null, " ");
-				builder.AddLine(num + "/" + b, ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-			}
-			else
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_hydroponic_tooltip_ready"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MachineHydroponic), "CreateMachineTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateMachineTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (item.IsTag("HYDROPONIC_MACHINE_TAG"))
+        {
+            if (MachineProgressHelper.GetMachineState(item).Equals("STATE_WORKING"))
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_hydroponic_tooltip_status", GetGrowStatus(item)), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+                var(num, b) = MachineProgressHelper.GetProgress(item);
+                builder.AddProgressBar((float)num / (float)Mathf.Max(1, b), 10, RenderHandler.ColorPalette.LightGreen, RenderHandler.ColorPalette.VeryDarkGreen, null, " ");
+                builder.AddLine(num + "/" + b, ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+            }
+            else
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_hydroponic_tooltip_ready"), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+        }
+    }
+}
 }

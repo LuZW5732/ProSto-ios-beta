@@ -5,7 +5,9 @@ using System.Linq;
 using System.Text;
 using DseCecil;
 using DseCecil.Cil;
+#if !UNITY_IOS
 using HarmonyLib;
+#endif
 using Mono.Collections.Generic;
 using UnityEngine;
 
@@ -2188,7 +2190,9 @@ public static class ModScanner
 	{
 		HashSet<string> dirs = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 		Add(typeof(object).Assembly.Location);
+#if !UNITY_IOS
 		Add(typeof(Harmony).Assembly.Location);
+#endif
 		Add(typeof(ModScanner).Assembly.Location);
 		Add(typeof(UnityEngine.Object).Assembly.Location);
 		foreach (string dllPath in dllPaths)

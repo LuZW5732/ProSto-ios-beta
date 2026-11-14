@@ -141,12 +141,28 @@ public class InspectionUIManager : MonoBehaviour
 		insBerryUILarge.transform.localPosition = insBerryInitialPosition;
 	}
 
-	public void CloseUI()
-	{
-		currentInspectingItem = null;
-		panel.SetActive(value: false);
-		EmporiumAudioPlayer.Instance.audioButton1.Play();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(InspectionUIManager), "CloseUI", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void CloseUI()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        currentInspectingItem = null;
+        panel.SetActive(value: false);
+        EmporiumAudioPlayer.Instance.audioButton1.Play();
+    }
+}
 
 	public void CloseConfrontPanel()
 	{
@@ -156,66 +172,106 @@ public class InspectionUIManager : MonoBehaviour
 		}
 	}
 
-	public void OnInspectItem(GameItem gameItem)
-	{
-		EmporiumEntry.Instance.frontInvinvElement.ClearHighlight();
-		ResetUI();
-		currentInspectingItem = gameItem;
-		OpenUI();
-		if (gameItem.IsTag("CIGARETTE_TAG"))
-		{
-			HandleCigarette(gameItem);
-		}
-		if (gameItem.IsTag("PLASMA_CELL_TAG"))
-		{
-			HandlePlasma(gameItem);
-		}
-		if (gameItem.IsTag("FOOD_STAMP_TAG"))
-		{
-			HandleStamp(gameItem);
-		}
-		if (gameItem.IsTag("INS_INJECTOR_TAG"))
-		{
-			HandleInjector(gameItem);
-		}
-		if (gameItem.IsTag("RIBWICH_TAG"))
-		{
-			HandleRibwich(gameItem);
-		}
-		if (gameItem.IsTag("HAND_TAG"))
-		{
-			HandleAppHand(gameItem);
-		}
-		if (gameItem.IsTag("BERRY_TAG"))
-		{
-			HandleInsBerry(gameItem);
-		}
-		if (gameItem.IsTag("APPRAISAL_ITEM"))
-		{
-			appraisalPanel.SetActive(value: true);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(InspectionUIManager), "OnInspectItem", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void OnInspectItem(GameItem gameItem)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void ResetUI()
-	{
-		cigaretteUISmall.gameObject.SetActive(value: false);
-		cigaretteUILarge.gameObject.SetActive(value: false);
-		fuelUISmall.gameObject.SetActive(value: false);
-		fuelUILarge.gameObject.SetActive(value: false);
-		stampUISmall.gameObject.SetActive(value: false);
-		stampUILarge.gameObject.SetActive(value: false);
-		injectorUISmall.gameObject.SetActive(value: false);
-		injectorUILarge.gameObject.SetActive(value: false);
-		ribwichUISmall.gameObject.SetActive(value: false);
-		ribwichUILarge.gameObject.SetActive(value: false);
-		appHandUISmall.gameObject.SetActive(value: false);
-		appHandUILarge.gameObject.SetActive(value: false);
-		insBerryUISmall.gameObject.SetActive(value: false);
-		insBerryUILarge.gameObject.SetActive(value: false);
-		confrontPanel.SetActive(value: false);
-		appraisalPanel.SetActive(value: false);
-		ResetAllConfrontToggle();
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { gameItem }, __portArguments =>
+    {
+        gameItem = (GameItem)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        EmporiumEntry.Instance.frontInvinvElement.ClearHighlight();
+        ResetUI();
+        currentInspectingItem = gameItem;
+        OpenUI();
+        if (gameItem.IsTag("CIGARETTE_TAG"))
+        {
+            HandleCigarette(gameItem);
+        }
+
+        if (gameItem.IsTag("PLASMA_CELL_TAG"))
+        {
+            HandlePlasma(gameItem);
+        }
+
+        if (gameItem.IsTag("FOOD_STAMP_TAG"))
+        {
+            HandleStamp(gameItem);
+        }
+
+        if (gameItem.IsTag("INS_INJECTOR_TAG"))
+        {
+            HandleInjector(gameItem);
+        }
+
+        if (gameItem.IsTag("RIBWICH_TAG"))
+        {
+            HandleRibwich(gameItem);
+        }
+
+        if (gameItem.IsTag("HAND_TAG"))
+        {
+            HandleAppHand(gameItem);
+        }
+
+        if (gameItem.IsTag("BERRY_TAG"))
+        {
+            HandleInsBerry(gameItem);
+        }
+
+        if (gameItem.IsTag("APPRAISAL_ITEM"))
+        {
+            appraisalPanel.SetActive(value: true);
+        }
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(InspectionUIManager), "ResetUI", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ResetUI()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        cigaretteUISmall.gameObject.SetActive(value: false);
+        cigaretteUILarge.gameObject.SetActive(value: false);
+        fuelUISmall.gameObject.SetActive(value: false);
+        fuelUILarge.gameObject.SetActive(value: false);
+        stampUISmall.gameObject.SetActive(value: false);
+        stampUILarge.gameObject.SetActive(value: false);
+        injectorUISmall.gameObject.SetActive(value: false);
+        injectorUILarge.gameObject.SetActive(value: false);
+        ribwichUISmall.gameObject.SetActive(value: false);
+        ribwichUILarge.gameObject.SetActive(value: false);
+        appHandUISmall.gameObject.SetActive(value: false);
+        appHandUILarge.gameObject.SetActive(value: false);
+        insBerryUISmall.gameObject.SetActive(value: false);
+        insBerryUILarge.gameObject.SetActive(value: false);
+        confrontPanel.SetActive(value: false);
+        appraisalPanel.SetActive(value: false);
+        ResetAllConfrontToggle();
+    }
+}
 
 	public void HandleCigarette(GameItem gameItem)
 	{

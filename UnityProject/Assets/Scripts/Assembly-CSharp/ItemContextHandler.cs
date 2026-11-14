@@ -97,103 +97,119 @@ public class ItemContextHandler : EmptyActionHandler
 		current = this;
 	}
 
-	protected override bool OnEventInit()
-	{
-		contextWindow = new PixelWindow();
-		contextWindow.forceRaycast = true;
-		contextWindow.handler.SetParent(RenderHandler.current.overlayRoot);
-		contextWindow.xPadding = 2;
-		contextWindow.yPadding = 2;
-		contextWindow.handler.gameObject.name = "ContextMenuNode";
-		contextWindow.handler.gameObject.tag = "ContextMenuNode";
-		GridPixelElement gridPixelElement = (contextButtons = new GridPixelElement(1, 8));
-		buttonOpen = new RichTextElement();
-		buttonUse = new RichTextElement();
-		buttonEquip = new RichTextElement();
-		buttonActivate = new RichTextElement();
-		buttonConfigure = new RichTextElement();
-		buttonToggle = new RichTextElement();
-		buttonUnload = new RichTextElement();
-		buttonPin = new RichTextElement();
-		ResetButtonColor();
-		buttonActivate.handler.name = "nodeButtonActivate";
-		buttonOpen.handler.tag = "ContextMenuNode";
-		buttonUse.handler.tag = "ContextMenuNode";
-		buttonEquip.handler.tag = "ContextMenuNode";
-		buttonActivate.handler.tag = "ContextMenuNode";
-		buttonConfigure.handler.tag = "ContextMenuNode";
-		buttonToggle.handler.tag = "ContextMenuNode";
-		buttonUnload.handler.tag = "ContextMenuNode";
-		buttonPin.handler.tag = "ContextMenuNode";
-		buttonOpen.handler.gameObject.name = "nodeButtonOpen";
-		buttonUse.handler.gameObject.name = "nodeButtonUse";
-		buttonEquip.handler.gameObject.name = "nodeButtonEquip";
-		buttonActivate.handler.gameObject.name = "nodeButtonActivate";
-		buttonConfigure.handler.gameObject.name = "nodeButtonConfigure";
-		buttonToggle.handler.gameObject.name = "nodeButtonToggle";
-		buttonUnload.handler.gameObject.name = "nodeButtonUnload";
-		buttonPin.handler.gameObject.name = "nodeButtonPin";
-		gridPixelElement.Attach(buttonOpen);
-		gridPixelElement.Attach(buttonUse);
-		gridPixelElement.Attach(buttonEquip);
-		gridPixelElement.Attach(buttonActivate);
-		gridPixelElement.Attach(buttonConfigure);
-		gridPixelElement.Attach(buttonToggle);
-		gridPixelElement.Attach(buttonUnload);
-		gridPixelElement.Attach(buttonPin);
-		gridPixelElement.Validate();
-		contextWindow.Attach(gridPixelElement);
-		Transform[] componentsInChildren = contextWindow.handler.GetComponentsInChildren<Transform>(includeInactive: true);
-		foreach (Transform transform in componentsInChildren)
-		{
-			if (transform != base.transform)
-			{
-				transform.gameObject.tag = "ContextMenuNode";
-			}
-		}
-		contextWindow.Validate();
-		sortWindow = new PixelWindow();
-		sortWindow.forceRaycast = true;
-		sortWindow.handler.SetParent(RenderHandler.current.overlayRoot);
-		sortWindow.xPadding = 2;
-		sortWindow.yPadding = 2;
-		sortWindow.handler.gameObject.name = "SortContextMenuNode";
-		sortWindow.handler.gameObject.tag = "ContextMenuNode";
-		GridPixelElement gridPixelElement2 = new GridPixelElement(1, 5);
-		buttonSortBigStart = new RichTextElement();
-		buttonSortSmallStart = new RichTextElement();
-		buttonSortBigEnd = new RichTextElement();
-		buttonSortSmallEnd = new RichTextElement();
-		buttonSortUndo = new RichTextElement();
-		ResetSortButtonColor();
-		buttonSortBigStart.handler.tag = "ContextMenuNode";
-		buttonSortSmallStart.handler.tag = "ContextMenuNode";
-		buttonSortBigEnd.handler.tag = "ContextMenuNode";
-		buttonSortSmallEnd.handler.tag = "ContextMenuNode";
-		buttonSortUndo.handler.tag = "ContextMenuNode";
-		buttonSortBigStart.handler.gameObject.name = "nodeButtonSortBigStart";
-		buttonSortSmallStart.handler.gameObject.name = "nodeButtonSortSmallStart";
-		buttonSortBigEnd.handler.gameObject.name = "nodeButtonSortBigEnd";
-		buttonSortSmallEnd.handler.gameObject.name = "nodeButtonSortSmallEnd";
-		buttonSortUndo.handler.gameObject.name = "nodeButtonSortUndo";
-		gridPixelElement2.Attach(buttonSortBigStart);
-		gridPixelElement2.Attach(buttonSortSmallStart);
-		gridPixelElement2.Attach(buttonSortBigEnd);
-		gridPixelElement2.Attach(buttonSortSmallEnd);
-		gridPixelElement2.Attach(buttonSortUndo);
-		gridPixelElement2.Validate();
-		sortWindow.Attach(gridPixelElement2);
-		componentsInChildren = sortWindow.handler.GetComponentsInChildren<Transform>(includeInactive: true);
-		foreach (Transform transform2 in componentsInChildren)
-		{
-			if (transform2 != base.transform)
-			{
-				transform2.gameObject.tag = "ContextMenuNode";
-			}
-		}
-		sortWindow.Validate();
-		return true;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "OnEventInit", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+protected override bool OnEventInit()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        contextWindow = new PixelWindow();
+        contextWindow.forceRaycast = true;
+        contextWindow.handler.SetParent(RenderHandler.current.overlayRoot);
+        contextWindow.xPadding = 2;
+        contextWindow.yPadding = 2;
+        contextWindow.handler.gameObject.name = "ContextMenuNode";
+        contextWindow.handler.gameObject.tag = "ContextMenuNode";
+        GridPixelElement gridPixelElement = (contextButtons = new GridPixelElement(1, 8));
+        buttonOpen = new RichTextElement();
+        buttonUse = new RichTextElement();
+        buttonEquip = new RichTextElement();
+        buttonActivate = new RichTextElement();
+        buttonConfigure = new RichTextElement();
+        buttonToggle = new RichTextElement();
+        buttonUnload = new RichTextElement();
+        buttonPin = new RichTextElement();
+        ResetButtonColor();
+        buttonActivate.handler.name = "nodeButtonActivate";
+        buttonOpen.handler.tag = "ContextMenuNode";
+        buttonUse.handler.tag = "ContextMenuNode";
+        buttonEquip.handler.tag = "ContextMenuNode";
+        buttonActivate.handler.tag = "ContextMenuNode";
+        buttonConfigure.handler.tag = "ContextMenuNode";
+        buttonToggle.handler.tag = "ContextMenuNode";
+        buttonUnload.handler.tag = "ContextMenuNode";
+        buttonPin.handler.tag = "ContextMenuNode";
+        buttonOpen.handler.gameObject.name = "nodeButtonOpen";
+        buttonUse.handler.gameObject.name = "nodeButtonUse";
+        buttonEquip.handler.gameObject.name = "nodeButtonEquip";
+        buttonActivate.handler.gameObject.name = "nodeButtonActivate";
+        buttonConfigure.handler.gameObject.name = "nodeButtonConfigure";
+        buttonToggle.handler.gameObject.name = "nodeButtonToggle";
+        buttonUnload.handler.gameObject.name = "nodeButtonUnload";
+        buttonPin.handler.gameObject.name = "nodeButtonPin";
+        gridPixelElement.Attach(buttonOpen);
+        gridPixelElement.Attach(buttonUse);
+        gridPixelElement.Attach(buttonEquip);
+        gridPixelElement.Attach(buttonActivate);
+        gridPixelElement.Attach(buttonConfigure);
+        gridPixelElement.Attach(buttonToggle);
+        gridPixelElement.Attach(buttonUnload);
+        gridPixelElement.Attach(buttonPin);
+        gridPixelElement.Validate();
+        contextWindow.Attach(gridPixelElement);
+        Transform[] componentsInChildren = contextWindow.handler.GetComponentsInChildren<Transform>(includeInactive: true);
+        foreach (Transform transform in componentsInChildren)
+        {
+            if (transform != base.transform)
+            {
+                transform.gameObject.tag = "ContextMenuNode";
+            }
+        }
+
+        contextWindow.Validate();
+        sortWindow = new PixelWindow();
+        sortWindow.forceRaycast = true;
+        sortWindow.handler.SetParent(RenderHandler.current.overlayRoot);
+        sortWindow.xPadding = 2;
+        sortWindow.yPadding = 2;
+        sortWindow.handler.gameObject.name = "SortContextMenuNode";
+        sortWindow.handler.gameObject.tag = "ContextMenuNode";
+        GridPixelElement gridPixelElement2 = new GridPixelElement(1, 5);
+        buttonSortBigStart = new RichTextElement();
+        buttonSortSmallStart = new RichTextElement();
+        buttonSortBigEnd = new RichTextElement();
+        buttonSortSmallEnd = new RichTextElement();
+        buttonSortUndo = new RichTextElement();
+        ResetSortButtonColor();
+        buttonSortBigStart.handler.tag = "ContextMenuNode";
+        buttonSortSmallStart.handler.tag = "ContextMenuNode";
+        buttonSortBigEnd.handler.tag = "ContextMenuNode";
+        buttonSortSmallEnd.handler.tag = "ContextMenuNode";
+        buttonSortUndo.handler.tag = "ContextMenuNode";
+        buttonSortBigStart.handler.gameObject.name = "nodeButtonSortBigStart";
+        buttonSortSmallStart.handler.gameObject.name = "nodeButtonSortSmallStart";
+        buttonSortBigEnd.handler.gameObject.name = "nodeButtonSortBigEnd";
+        buttonSortSmallEnd.handler.gameObject.name = "nodeButtonSortSmallEnd";
+        buttonSortUndo.handler.gameObject.name = "nodeButtonSortUndo";
+        gridPixelElement2.Attach(buttonSortBigStart);
+        gridPixelElement2.Attach(buttonSortSmallStart);
+        gridPixelElement2.Attach(buttonSortBigEnd);
+        gridPixelElement2.Attach(buttonSortSmallEnd);
+        gridPixelElement2.Attach(buttonSortUndo);
+        gridPixelElement2.Validate();
+        sortWindow.Attach(gridPixelElement2);
+        componentsInChildren = sortWindow.handler.GetComponentsInChildren<Transform>(includeInactive: true);
+        foreach (Transform transform2 in componentsInChildren)
+        {
+            if (transform2 != base.transform)
+            {
+                transform2.gameObject.tag = "ContextMenuNode";
+            }
+        }
+
+        sortWindow.Validate();
+        return true;
+    }
+}
 
 	private void ResetButtonColor()
 	{
@@ -217,37 +233,70 @@ public class ItemContextHandler : EmptyActionHandler
 		SetSortButtonColor(buttonSortUndo);
 	}
 
-	private void UpdateConditions()
-	{
-		if (currentItem != null)
-		{
-			GameItem gameItem = currentItem;
-			canOpen = currentItem.contentWindow != null && !currentItem.contentWindow.isLocked && GeneralHelper.IsItemOwned(currentItem);
-			canUnload = canOpen && !currentItem.IsTag("IS_UNLOAD_DISABLED_TAG");
-			canUse = gameItem.MaySelectSlotItem() && gameItem.CanSelectSlotItem();
-			canActivate = gameItem.MayActivateSlotItem() && gameItem.CanActivateSlotItem();
-			bool flag = gameItem.MayConfigureSlotItem();
-			canConfigure = flag && gameItem.CanConfigureSlotItem();
-			buttonConfigure.handler.gameObject.SetActive(flag);
-			canToggle = gameItem.MayToggleSlotItem() && gameItem.CanToggleSlotItem();
-			canPin = ItemPinHelper.MayPin(currentItem);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "UpdateConditions", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void UpdateConditions()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	private void UpdateSelectButtonColor(RichTextElement selectedButton)
-	{
-		if (currentItem != null)
-		{
-			SetButtonColor(buttonOpen, selectedButton, canOpen);
-			SetButtonColor(buttonUse, selectedButton, canUse);
-			SetButtonColor(buttonEquip, selectedButton, canUse);
-			SetButtonColor(buttonActivate, selectedButton, canActivate);
-			SetButtonColor(buttonConfigure, selectedButton, canConfigure);
-			SetButtonColor(buttonToggle, selectedButton, canToggle);
-			SetButtonColor(buttonUnload, selectedButton, canUnload);
-			SetButtonColor(buttonPin, selectedButton, canPin);
-		}
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (currentItem != null)
+        {
+            GameItem gameItem = currentItem;
+            canOpen = currentItem.contentWindow != null && !currentItem.contentWindow.isLocked && GeneralHelper.IsItemOwned(currentItem);
+            canUnload = canOpen && !currentItem.IsTag("IS_UNLOAD_DISABLED_TAG");
+            canUse = gameItem.MaySelectSlotItem() && gameItem.CanSelectSlotItem();
+            canActivate = gameItem.MayActivateSlotItem() && gameItem.CanActivateSlotItem();
+            bool flag = gameItem.MayConfigureSlotItem();
+            canConfigure = flag && gameItem.CanConfigureSlotItem();
+            buttonConfigure.handler.gameObject.SetActive(flag);
+            canToggle = gameItem.MayToggleSlotItem() && gameItem.CanToggleSlotItem();
+            canPin = ItemPinHelper.MayPin(currentItem);
+        }
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "UpdateSelectButtonColor", new System.Type[] { typeof(RichTextElement) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void UpdateSelectButtonColor(RichTextElement selectedButton)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { selectedButton }, __portArguments =>
+    {
+        selectedButton = (RichTextElement)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (currentItem != null)
+        {
+            SetButtonColor(buttonOpen, selectedButton, canOpen);
+            SetButtonColor(buttonUse, selectedButton, canUse);
+            SetButtonColor(buttonEquip, selectedButton, canUse);
+            SetButtonColor(buttonActivate, selectedButton, canActivate);
+            SetButtonColor(buttonConfigure, selectedButton, canConfigure);
+            SetButtonColor(buttonToggle, selectedButton, canToggle);
+            SetButtonColor(buttonUnload, selectedButton, canUnload);
+            SetButtonColor(buttonPin, selectedButton, canPin);
+        }
+    }
+}
 
 	private void UpdateSortSelectButtonColor(RichTextElement selectedButton)
 	{
@@ -314,30 +363,58 @@ public class ItemContextHandler : EmptyActionHandler
 		}
 	}
 
-	private void EqualizeButtonWidths()
-	{
-		List<RichTextElement> list = new List<RichTextElement> { buttonOpen, buttonUse, buttonEquip, buttonActivate, buttonToggle, buttonUnload, buttonPin };
-		if (buttonConfigure.handler.gameObject.activeSelf)
-		{
-			list.Add(buttonConfigure);
-		}
-		foreach (RichTextElement item in list)
-		{
-			item.SetFixedSize(-1, -1);
-		}
-		int num = 0;
-		foreach (RichTextElement item2 in list)
-		{
-			if (item2.widthPixels > num)
-			{
-				num = item2.widthPixels;
-			}
-		}
-		foreach (RichTextElement item3 in list)
-		{
-			item3.SetFixedSize(num, -1);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "EqualizeButtonWidths", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void EqualizeButtonWidths()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook3, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        List<RichTextElement> list = new List<RichTextElement>
+        {
+            buttonOpen,
+            buttonUse,
+            buttonEquip,
+            buttonActivate,
+            buttonToggle,
+            buttonUnload,
+            buttonPin
+        };
+        if (buttonConfigure.handler.gameObject.activeSelf)
+        {
+            list.Add(buttonConfigure);
+        }
+
+        foreach (RichTextElement item in list)
+        {
+            item.SetFixedSize(-1, -1);
+        }
+
+        int num = 0;
+        foreach (RichTextElement item2 in list)
+        {
+            if (item2.widthPixels > num)
+            {
+                num = item2.widthPixels;
+            }
+        }
+
+        foreach (RichTextElement item3 in list)
+        {
+            item3.SetFixedSize(num, -1);
+        }
+    }
+}
 
 	private void SetButtonColor(RichTextElement button, RichTextElement selectedButton = null, bool isEnabled = false)
 	{
@@ -418,75 +495,92 @@ public class ItemContextHandler : EmptyActionHandler
 		}
 	}
 
-	private void TriggerButton(RichTextElement button)
-	{
-		if (currentInventory != null)
-		{
-			GameGridInventory inventory = currentInventory;
-			if (canSort && (button == buttonSortBigStart || button == buttonSortSmallStart || button == buttonSortBigEnd || button == buttonSortSmallEnd))
-			{
-				bool bigFirst = button == buttonSortBigStart || button == buttonSortBigEnd;
-				bool fromEnd = button == buttonSortBigEnd || button == buttonSortSmallEnd;
-				OnEventReset();
-				InventorySortHelper.Sort(inventory, bigFirst, fromEnd);
-				if (TutorialUIManager.Instance != null)
-				{
-					TutorialUIManager.Instance.OnInventorySorted();
-				}
-			}
-			else if (canUndoSort && button == buttonSortUndo)
-			{
-				OnEventReset();
-				InventorySortHelper.Undo(inventory);
-			}
-		}
-		else if (currentItem != null)
-		{
-			GameItem gameItem = currentItem;
-			GameItem gameItem2 = currentItem;
-			Vector2 mousePosition = Input.mousePosition;
-			if (button == buttonOpen && canOpen)
-			{
-				OnEventReset();
-				ItemMouseDoubleClickHandler.current.OpenContentAction(gameItem, mousePosition);
-			}
-			else if (button == buttonUse && canUse)
-			{
-				OnEventReset();
-				ItemSelectHandler.current.TrySelectItem(gameItem);
-			}
-			else if (button == buttonEquip && canUse)
-			{
-				OnEventReset();
-				ItemSelectHandler.current.TryEquipItem(gameItem);
-			}
-			else if (button == buttonActivate && canActivate)
-			{
-				OnEventReset();
-				gameItem2.ActivateSlotItem();
-			}
-			else if (button == buttonConfigure && canConfigure)
-			{
-				OnEventReset();
-				gameItem2.ConfigureSlotItem();
-			}
-			else if (button == buttonToggle && canToggle)
-			{
-				OnEventReset();
-				gameItem2.ToggleSlotItem();
-			}
-			else if (button == buttonUnload && canUnload)
-			{
-				OnEventReset();
-				gameItem2.TryUnloadAll(skipPinned: true);
-			}
-			else if (button == buttonPin && canPin)
-			{
-				OnEventReset();
-				ItemPinHelper.TogglePinned(gameItem);
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook4 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "TriggerButton", new System.Type[] { typeof(RichTextElement) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void TriggerButton(RichTextElement button)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook4))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook4, this, new object[] { button }, __portArguments =>
+    {
+        button = (RichTextElement)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (currentInventory != null)
+        {
+            GameGridInventory inventory = currentInventory;
+            if (canSort && (button == buttonSortBigStart || button == buttonSortSmallStart || button == buttonSortBigEnd || button == buttonSortSmallEnd))
+            {
+                bool bigFirst = button == buttonSortBigStart || button == buttonSortBigEnd;
+                bool fromEnd = button == buttonSortBigEnd || button == buttonSortSmallEnd;
+                OnEventReset();
+                InventorySortHelper.Sort(inventory, bigFirst, fromEnd);
+                if (TutorialUIManager.Instance != null)
+                {
+                    TutorialUIManager.Instance.OnInventorySorted();
+                }
+            }
+            else if (canUndoSort && button == buttonSortUndo)
+            {
+                OnEventReset();
+                InventorySortHelper.Undo(inventory);
+            }
+        }
+        else if (currentItem != null)
+        {
+            GameItem gameItem = currentItem;
+            GameItem gameItem2 = currentItem;
+            Vector2 mousePosition = Input.mousePosition;
+            if (button == buttonOpen && canOpen)
+            {
+                OnEventReset();
+                ItemMouseDoubleClickHandler.current.OpenContentAction(gameItem, mousePosition);
+            }
+            else if (button == buttonUse && canUse)
+            {
+                OnEventReset();
+                ItemSelectHandler.current.TrySelectItem(gameItem);
+            }
+            else if (button == buttonEquip && canUse)
+            {
+                OnEventReset();
+                ItemSelectHandler.current.TryEquipItem(gameItem);
+            }
+            else if (button == buttonActivate && canActivate)
+            {
+                OnEventReset();
+                gameItem2.ActivateSlotItem();
+            }
+            else if (button == buttonConfigure && canConfigure)
+            {
+                OnEventReset();
+                gameItem2.ConfigureSlotItem();
+            }
+            else if (button == buttonToggle && canToggle)
+            {
+                OnEventReset();
+                gameItem2.ToggleSlotItem();
+            }
+            else if (button == buttonUnload && canUnload)
+            {
+                OnEventReset();
+                gameItem2.TryUnloadAll(skipPinned: true);
+            }
+            else if (button == buttonPin && canPin)
+            {
+                OnEventReset();
+                ItemPinHelper.TogglePinned(gameItem);
+            }
+        }
+    }
+}
 
 	protected override void OnEventPress(ISet<KeyCode> keysPressed)
 	{
@@ -529,30 +623,46 @@ public class ItemContextHandler : EmptyActionHandler
 		}
 	}
 
-	private bool TryOpenSortMenu(Vector2 mousePosition)
-	{
-		GameGridInventory gameGridInventory = RenderHandler.RaycastElement<GameGridInventory>(mousePosition);
-		if (gameGridInventory == null || !InventorySortHelper.MaySort(gameGridInventory))
-		{
-			return false;
-		}
-		InputActionManager.current.ResetAfter(this);
-		contextWindow.Hide();
-		currentItem = null;
-		currentInventory = gameGridInventory;
-		canSort = InventorySortHelper.CanSort(currentInventory);
-		canUndoSort = InventorySortHelper.CanUndo(currentInventory);
-		UpdateSortSelectButtonColor(null);
-		EqualizeSortButtonWidths();
-		sortWindow.Validate();
-		sortWindow.Show(mousePosition, contextTranslation);
-		delayFrame = true;
-		SlotMarker slotMarker = new SlotMarker();
-		slotMarker.inventory = currentInventory;
-		slotMarker.itemGridShape = new GridShapeBuilder(currentInventory.inventoryShape.width, currentInventory.inventoryShape.height).SetDataFill(1).Build();
-		highlightManager.Try(slotMarker, contextHighlight);
-		return true;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook5 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "TryOpenSortMenu", new System.Type[] { typeof(Vector2) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private bool TryOpenSortMenu(Vector2 mousePosition)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook5))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook5, this, new object[] { mousePosition }, __portArguments =>
+    {
+        mousePosition = (Vector2)__portArguments[0];
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        GameGridInventory gameGridInventory = RenderHandler.RaycastElement<GameGridInventory>(mousePosition);
+        if (gameGridInventory == null || !InventorySortHelper.MaySort(gameGridInventory))
+        {
+            return false;
+        }
+
+        InputActionManager.current.ResetAfter(this);
+        contextWindow.Hide();
+        currentItem = null;
+        currentInventory = gameGridInventory;
+        canSort = InventorySortHelper.CanSort(currentInventory);
+        canUndoSort = InventorySortHelper.CanUndo(currentInventory);
+        UpdateSortSelectButtonColor(null);
+        EqualizeSortButtonWidths();
+        sortWindow.Validate();
+        sortWindow.Show(mousePosition, contextTranslation);
+        delayFrame = true;
+        SlotMarker slotMarker = new SlotMarker();
+        slotMarker.inventory = currentInventory;
+        slotMarker.itemGridShape = new GridShapeBuilder(currentInventory.inventoryShape.width, currentInventory.inventoryShape.height).SetDataFill(1).Build();
+        highlightManager.Try(slotMarker, contextHighlight);
+        return true;
+    }
+}
 
 	protected override void OnEventRelease(ISet<KeyCode> keysReleased)
 	{
@@ -641,16 +751,32 @@ public class ItemContextHandler : EmptyActionHandler
 		return null;
 	}
 
-	protected override void OnEventReset()
-	{
-		highlightManager.Clear();
-		contextWindow.Hide();
-		sortWindow.Hide();
-		ResetButtonColor();
-		currentItem = null;
-		currentInventory = null;
-		delayFrame = false;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook6 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "OnEventReset", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+protected override void OnEventReset()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook6))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook6, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        highlightManager.Clear();
+        contextWindow.Hide();
+        sortWindow.Hide();
+        ResetButtonColor();
+        currentItem = null;
+        currentInventory = null;
+        delayFrame = false;
+    }
+}
 
 	public void Stop(bool nonOwnedOnly = false)
 	{

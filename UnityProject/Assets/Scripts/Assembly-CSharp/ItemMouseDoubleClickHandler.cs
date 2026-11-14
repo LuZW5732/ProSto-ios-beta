@@ -122,15 +122,33 @@ public class ItemMouseDoubleClickHandler : EmptyActionHandler
 		pressFrame = -1;
 	}
 
-	private void DoubleClickAction(GameItem newItem, Vector2 mousePosition)
-	{
-		if (newItem != null)
-		{
-			bool interact = !EmporiumOption.SingleClickInteract;
-			bool activate = !EmporiumOption.SingleClickActivate || newItem.activateDefault;
-			ClickAction(newItem, mousePosition, interact, activate);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemMouseDoubleClickHandler), "DoubleClickAction", new System.Type[] { typeof(GameItem), typeof(Vector2) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void DoubleClickAction(GameItem newItem, Vector2 mousePosition)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { newItem, mousePosition }, __portArguments =>
+    {
+        newItem = (GameItem)__portArguments[0];
+        mousePosition = (Vector2)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (newItem != null)
+        {
+            bool interact = !EmporiumOption.SingleClickInteract;
+            bool activate = !EmporiumOption.SingleClickActivate || newItem.activateDefault;
+            ClickAction(newItem, mousePosition, interact, activate);
+        }
+    }
+}
 
 	private void ClickAction(GameItem newItem, Vector2 mousePosition, bool interact, bool activate)
 	{

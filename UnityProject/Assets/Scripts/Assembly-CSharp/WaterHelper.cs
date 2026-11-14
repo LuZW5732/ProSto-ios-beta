@@ -514,45 +514,67 @@ public class WaterHelper
 		return "Empty";
 	}
 
-	public static void CreateWaterContainerTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if (item.IsTag("WINE_CONTAINER_TAG") || !item.IsTag("LIQUID_CONTAINER_TAG"))
-		{
-			return;
-		}
-		int num = item.GetTagReadonly("LIQUID_CONTAINER_CAPACITY").GetInt();
-		int num2 = 0;
-		foreach (Liquid liquid in Liquid.Liquids)
-		{
-			num2 += item.GetTagReadonly(liquid.currentPart).GetInt();
-		}
-		if (item.IsTag("GRADUATED_CONTAINER_TAG") || StartingPerk.IsExperiencedChemist())
-		{
-			float ratio = (float)num2 / (float)num;
-			builder.AddProgressBar(ratio, 10, RenderHandler.ColorPalette.LightCyan, RenderHandler.ColorPalette.VeryDarkCyan, null, " ");
-			builder.AddLine(" " + ((float)num2 / 1000f).ToString("F0") + " ml / " + ((float)num / 1000f).ToString("F0") + " ml", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-		}
-		else
-		{
-			string estimatedVolume = GetEstimatedVolume(num2, num);
-			builder.AddLine(estimatedVolume + ", Capacity:" + ((float)num / 1000f).ToString("F0") + " ml", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-		}
-		if (item.IsTag("LAST_SCAN_RESULT_TAG"))
-		{
-			string text = item.GetTagReadonly("LAST_SCAN_RESULT_TAG").GetString();
-			if (!string.IsNullOrEmpty(text))
-			{
-				builder.AddLine(text, ignoreEmpty: true, RenderHandler.ColorPalette.LightYellow);
-			}
-		}
-		if (PlayerStore.Instance.devMode)
-		{
-			ItemFeature waterFeature = WaterFeatureHelper.GetWaterFeature(item);
-			builder.AddLine("[Debug]Real Condition: " + waterFeature.GetBaseRealDisplay());
-			builder.AddLine("[Debug]Fake Condition: " + waterFeature.GetBaseFakeDisplay());
-			builder.AddLine("Liquid Base: " + Liquid.GetColorBase(GetLiquidContainerColor(item)));
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(WaterHelper), "CreateWaterContainerTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateWaterContainerTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (item.IsTag("WINE_CONTAINER_TAG") || !item.IsTag("LIQUID_CONTAINER_TAG"))
+        {
+            return;
+        }
+
+        int num = item.GetTagReadonly("LIQUID_CONTAINER_CAPACITY").GetInt();
+        int num2 = 0;
+        foreach (Liquid liquid in Liquid.Liquids)
+        {
+            num2 += item.GetTagReadonly(liquid.currentPart).GetInt();
+        }
+
+        if (item.IsTag("GRADUATED_CONTAINER_TAG") || StartingPerk.IsExperiencedChemist())
+        {
+            float ratio = (float)num2 / (float)num;
+            builder.AddProgressBar(ratio, 10, RenderHandler.ColorPalette.LightCyan, RenderHandler.ColorPalette.VeryDarkCyan, null, " ");
+            builder.AddLine(" " + ((float)num2 / 1000f).ToString("F0") + " ml / " + ((float)num / 1000f).ToString("F0") + " ml", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+        }
+        else
+        {
+            string estimatedVolume = GetEstimatedVolume(num2, num);
+            builder.AddLine(estimatedVolume + ", Capacity:" + ((float)num / 1000f).ToString("F0") + " ml", ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+        }
+
+        if (item.IsTag("LAST_SCAN_RESULT_TAG"))
+        {
+            string text = item.GetTagReadonly("LAST_SCAN_RESULT_TAG").GetString();
+            if (!string.IsNullOrEmpty(text))
+            {
+                builder.AddLine(text, ignoreEmpty: true, RenderHandler.ColorPalette.LightYellow);
+            }
+        }
+
+        if (PlayerStore.Instance.devMode)
+        {
+            ItemFeature waterFeature = WaterFeatureHelper.GetWaterFeature(item);
+            builder.AddLine("[Debug]Real Condition: " + waterFeature.GetBaseRealDisplay());
+            builder.AddLine("[Debug]Fake Condition: " + waterFeature.GetBaseFakeDisplay());
+            builder.AddLine("Liquid Base: " + Liquid.GetColorBase(GetLiquidContainerColor(item)));
+        }
+    }
+}
 
 	public static int GetWaterPurity(GameItem gameItem)
 	{
@@ -736,58 +758,80 @@ public class WaterHelper
 		return num;
 	}
 
-	public static void PurifyToBaseWater(GameItem container)
-	{
-		if (!container.IsTag("LIQUID_CONTAINER_TAG"))
-		{
-			return;
-		}
-		int total = GetTotalVolume(container);
-		if (total <= 0)
-		{
-			return;
-		}
-		int num = container.GetTagReadonly(Liquid.GetCurrentPartFromId("water")).GetInt();
-		int num2 = (int)(((long)total * 9800L + 9999) / 10000);
-		if (num >= num2)
-		{
-			return;
-		}
-		List<Liquid> list = new List<Liquid>();
-		List<Liquid> list2 = new List<Liquid>();
-		foreach (Liquid liquid in Liquid.Liquids)
-		{
-			if (!(liquid.identifier == "water"))
-			{
-				if (liquid.identifier == "chemical_contaminant" || liquid.identifier == "heavy_metal")
-				{
-					list.Add(liquid);
-				}
-				else
-				{
-					list2.Add(liquid);
-				}
-			}
-		}
-		int num3 = num2 - num;
-		int num4 = SumParts(container, list2);
-		int num5 = SumParts(container, list);
-		int newContaminantSum;
-		if (num4 >= num3)
-		{
-			newContaminantSum = ShrinkProportionally(container, list2, num4, num4 - num3) + num5;
-		}
-		else
-		{
-			ShrinkProportionally(container, list2, num4, 0);
-			newContaminantSum = ShrinkProportionally(container, list, num5, num5 - (num3 - num4));
-		}
-		container.ModifyTag(Liquid.GetCurrentPartFromId("water"), (TagState state) =>
-		{
-			state.Enable().SetInt(total - newContaminantSum);
-		});
-		WaterFeatureHelper.SetPresumedPurity(container, GetWaterPurity(container));
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(WaterHelper), "PurifyToBaseWater", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void PurifyToBaseWater(GameItem container)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, null, new object[] { container }, __portArguments =>
+    {
+        container = (GameItem)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!container.IsTag("LIQUID_CONTAINER_TAG"))
+        {
+            return;
+        }
+
+        int total = GetTotalVolume(container);
+        if (total <= 0)
+        {
+            return;
+        }
+
+        int num = container.GetTagReadonly(Liquid.GetCurrentPartFromId("water")).GetInt();
+        int num2 = (int)(((long)total * 9800L + 9999) / 10000);
+        if (num >= num2)
+        {
+            return;
+        }
+
+        List<Liquid> list = new List<Liquid>();
+        List<Liquid> list2 = new List<Liquid>();
+        foreach (Liquid liquid in Liquid.Liquids)
+        {
+            if (!(liquid.identifier == "water"))
+            {
+                if (liquid.identifier == "chemical_contaminant" || liquid.identifier == "heavy_metal")
+                {
+                    list.Add(liquid);
+                }
+                else
+                {
+                    list2.Add(liquid);
+                }
+            }
+        }
+
+        int num3 = num2 - num;
+        int num4 = SumParts(container, list2);
+        int num5 = SumParts(container, list);
+        int newContaminantSum;
+        if (num4 >= num3)
+        {
+            newContaminantSum = ShrinkProportionally(container, list2, num4, num4 - num3) + num5;
+        }
+        else
+        {
+            ShrinkProportionally(container, list2, num4, 0);
+            newContaminantSum = ShrinkProportionally(container, list, num5, num5 - (num3 - num4));
+        }
+
+        container.ModifyTag(Liquid.GetCurrentPartFromId("water"), (TagState state) =>
+        {
+            state.Enable().SetInt(total - newContaminantSum);
+        });
+        WaterFeatureHelper.SetPresumedPurity(container, GetWaterPurity(container));
+    }
+}
 
 	public static void OnHydroponicNutrientTabletAdded(GameItem waterContainer)
 	{

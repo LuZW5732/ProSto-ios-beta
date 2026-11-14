@@ -160,25 +160,45 @@ public class ModuleHelper
 		}
 	}
 
-	public static void CreateModuleTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if (item.IsTag("MODULE_TAG"))
-		{
-			builder.AddLine(LocHelper.GetLocalizedMechanic("mech_module_effect_header"), ignoreEmpty: true, RenderHandler.ColorPalette.Cyan);
-			AddModuleStatLine(builder, LocHelper.GetLocalizedMechanic("mech_module_stat_performance"), item.GetTagReadonly("BONUS_PERCENTAGE_PERFORMANCE_INT").GetInt(), item.GetTagReadonly("TEMP_PERCENTAGE_PERFORMANCE_INT").GetInt());
-			AddModuleStatLine(builder, LocHelper.GetLocalizedMechanic("mech_module_stat_efficiency"), item.GetTagReadonly("BONUS_PERCENTAGE_EFFICIENCY_INT").GetInt(), item.GetTagReadonly("TEMP_PERCENTAGE_EFFICIENCY_INT").GetInt());
-			AddModuleStatLine(builder, LocHelper.GetLocalizedMechanic("mech_module_stat_quality"), item.GetTagReadonly("BONUS_PERCENTAGE_QUALITY_INT").GetInt(), item.GetTagReadonly("TEMP_PERCENTAGE_QUALITY_INT").GetInt());
-			if (item.IsTag("ADDITIONAL_EFFECT_STRING"))
-			{
-				builder.AddLine(LocHelper.BulletLines(item.GetTagReadonly("ADDITIONAL_EFFECT_STRING").GetString()), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
-			}
-			if (item.IsTag("MODULE_STUCK_TAG"))
-			{
-				builder.AddLine(LocHelper.GetLocalizedMechanic("mech_module_stuck"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed);
-			}
-			ModuleEffectHelper.CreateModuleEffectTooltip(builder, item);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ModuleHelper), "CreateModuleTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateModuleTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (item.IsTag("MODULE_TAG"))
+        {
+            builder.AddLine(LocHelper.GetLocalizedMechanic("mech_module_effect_header"), ignoreEmpty: true, RenderHandler.ColorPalette.Cyan);
+            AddModuleStatLine(builder, LocHelper.GetLocalizedMechanic("mech_module_stat_performance"), item.GetTagReadonly("BONUS_PERCENTAGE_PERFORMANCE_INT").GetInt(), item.GetTagReadonly("TEMP_PERCENTAGE_PERFORMANCE_INT").GetInt());
+            AddModuleStatLine(builder, LocHelper.GetLocalizedMechanic("mech_module_stat_efficiency"), item.GetTagReadonly("BONUS_PERCENTAGE_EFFICIENCY_INT").GetInt(), item.GetTagReadonly("TEMP_PERCENTAGE_EFFICIENCY_INT").GetInt());
+            AddModuleStatLine(builder, LocHelper.GetLocalizedMechanic("mech_module_stat_quality"), item.GetTagReadonly("BONUS_PERCENTAGE_QUALITY_INT").GetInt(), item.GetTagReadonly("TEMP_PERCENTAGE_QUALITY_INT").GetInt());
+            if (item.IsTag("ADDITIONAL_EFFECT_STRING"))
+            {
+                builder.AddLine(LocHelper.BulletLines(item.GetTagReadonly("ADDITIONAL_EFFECT_STRING").GetString()), ignoreEmpty: true, RenderHandler.ColorPalette.LightCyan);
+            }
+
+            if (item.IsTag("MODULE_STUCK_TAG"))
+            {
+                builder.AddLine(LocHelper.GetLocalizedMechanic("mech_module_stuck"), ignoreEmpty: true, RenderHandler.ColorPalette.LightRed);
+            }
+
+            ModuleEffectHelper.CreateModuleEffectTooltip(builder, item);
+        }
+    }
+}
 
 	public static void ComputeModuleEffect(GameInventory invModule, GameItem item, GameItem system)
 	{

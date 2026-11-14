@@ -146,34 +146,53 @@ public class RichTextElement : PixelElement
 		Validate();
 	}
 
-	public RichTextElement SetRichText(RichText richText, int maxWidth = 10000)
-	{
-		if (richText == null)
-		{
-			return this;
-		}
-		if (fixedWidth >= 0)
-		{
-			maxWidth = Math.Min(maxWidth, fixedWidth / UISettings.current.effectiveFontWidth);
-		}
-		textBackgroundNode.text.enabled = true;
-		textUnderlineNode.text.enabled = true;
-		textStrikethroughNode.text.enabled = true;
-		textNode.text.enabled = true;
-		textNode.text.overflowMode = TextOverflowModes.Overflow;
-		textNode.text.enableWordWrapping = false;
-		textNode.text.text = richText.richTextForeground;
-		textBackgroundNode.text.text = richText.richTextBackground;
-		textUnderlineNode.text.text = richText.richTextUnderline;
-		textStrikethroughNode.text.text = richText.richTextStrikethrough;
-		maxCharWidth = richText.recommendedWidth;
-		if (maxCharWidth > maxWidth)
-		{
-			maxCharWidth = maxWidth;
-		}
-		ResizePixels(widthPixels, heightPixels);
-		return this;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RichTextElement), "SetRichText", new System.Type[] { typeof(RichText), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextElement SetRichText(RichText richText, int maxWidth = 10000)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextElement>(__portHook0, this, new object[] { richText, maxWidth }, __portArguments =>
+    {
+        richText = (RichText)__portArguments[0];
+        maxWidth = (int)__portArguments[1];
+        return __PortOriginal();
+    });
+    RichTextElement __PortOriginal()
+    {
+        if (richText == null)
+        {
+            return this;
+        }
+
+        if (fixedWidth >= 0)
+        {
+            maxWidth = Math.Min(maxWidth, fixedWidth / UISettings.current.effectiveFontWidth);
+        }
+
+        textBackgroundNode.text.enabled = true;
+        textUnderlineNode.text.enabled = true;
+        textStrikethroughNode.text.enabled = true;
+        textNode.text.enabled = true;
+        textNode.text.overflowMode = TextOverflowModes.Overflow;
+        textNode.text.enableWordWrapping = false;
+        textNode.text.text = richText.richTextForeground;
+        textBackgroundNode.text.text = richText.richTextBackground;
+        textUnderlineNode.text.text = richText.richTextUnderline;
+        textStrikethroughNode.text.text = richText.richTextStrikethrough;
+        maxCharWidth = richText.recommendedWidth;
+        if (maxCharWidth > maxWidth)
+        {
+            maxCharWidth = maxWidth;
+        }
+
+        ResizePixels(widthPixels, heightPixels);
+        return this;
+    }
+}
 
 	public RichTextElement ClearText()
 	{

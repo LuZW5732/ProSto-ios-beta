@@ -266,22 +266,40 @@ public class GameItemElement : GameItem, PixelElement, TooltipListener
 		}
 	}
 
-	public void ValidateSelect(bool updateBackground = true)
-	{
-		if (validateLock)
-		{
-			return;
-		}
-		validateLock = true;
-		try
-		{
-			ValidateSelectLocked(updateBackground);
-		}
-		finally
-		{
-			validateLock = false;
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "ValidateSelect", new System.Type[] { typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ValidateSelect(bool updateBackground = true)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { updateBackground }, __portArguments =>
+    {
+        updateBackground = (bool)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (validateLock)
+        {
+            return;
+        }
+
+        validateLock = true;
+        try
+        {
+            ValidateSelectLocked(updateBackground);
+        }
+        finally
+        {
+            validateLock = false;
+        }
+    }
+}
 
 	private void ValidateSelectLocked(bool updateBackground)
 	{
@@ -925,31 +943,51 @@ public class GameItemElement : GameItem, PixelElement, TooltipListener
 		return rotator.rectTransform.TransformPoint(rotator.rectTransform.rect.center);
 	}
 
-	public override void Destroy()
-	{
-		if (!destroyed)
-		{
-			destroyed = true;
-			if (base.parentInventory != null)
-			{
-				base.parentInventory.Expel(this);
-			}
-			if (base.contentWindow != null)
-			{
-				base.contentWindow.Hide();
-			}
-			if (base.uniqueId != 0)
-			{
-				PlayerStore.Instance?.contentWindowPositions?.Remove(base.uniqueId);
-			}
-			DestroyContentWindow();
-			if (fakeMiddle != null)
-			{
-				UnityEngine.Object.Destroy(fakeMiddle.gameObject);
-			}
-			UnityEngine.Object.Destroy(handler.gameObject);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "Destroy", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public override void Destroy()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!destroyed)
+        {
+            destroyed = true;
+            if (base.parentInventory != null)
+            {
+                base.parentInventory.Expel(this);
+            }
+
+            if (base.contentWindow != null)
+            {
+                base.contentWindow.Hide();
+            }
+
+            if (base.uniqueId != 0)
+            {
+                PlayerStore.Instance?.contentWindowPositions?.Remove(base.uniqueId);
+            }
+
+            DestroyContentWindow();
+            if (fakeMiddle != null)
+            {
+                UnityEngine.Object.Destroy(fakeMiddle.gameObject);
+            }
+
+            UnityEngine.Object.Destroy(handler.gameObject);
+        }
+    }
+}
 
 	public bool IsDestroyed()
 	{
@@ -960,228 +998,307 @@ public class GameItemElement : GameItem, PixelElement, TooltipListener
 		return true;
 	}
 
-	public bool HasTooltip()
-	{
-		if (IsTag("IS_TOOLTIP_DISABLED_TAG"))
-		{
-			return false;
-		}
-		return true;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "HasTooltip", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public bool HasTooltip()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        return __PortOriginal();
+    }
 
-	private RichTextBuilder GetTooltipBasic()
-	{
-		int num = PlantGeneticsHelper.GetTooltipWidth(this, 40);
-		if (IsTag("MACHINE_MANUAL_TAG"))
-		{
-			num = (int)((float)num * 2f);
-		}
-		if (IsTag("FEED_DISPENSER_TAG"))
-		{
-			num = (int)((float)num * 1.5f);
-		}
-		RichTextBuilder richTextBuilder = new RichTextBuilder(num);
-		GeneralHelper.CreateGeneralItemTooltip(richTextBuilder, this);
-		if (GeneralHelper.HasCustomName(this))
-		{
-			richTextBuilder.AddLine(GeneralHelper.GetCustomName(this) + " (" + GetDisplayName() + ")", ignoreEmpty: true, RenderHandler.ColorPalette.White, bold: true);
-		}
-		else
-		{
-			richTextBuilder.AddLine(GetDisplayName(), ignoreEmpty: true, RenderHandler.ColorPalette.White, bold: true);
-		}
-		if (IsTag("manufacturer"))
-		{
-			DisplayManufacturer(richTextBuilder, GetTagReadonly("manufacturer").GetString());
-		}
-		if (base.forceDisableActivate || base.forceDisableUse)
-		{
-			richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_disabled"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: true, italic: false, underline: true);
-		}
-		StolenHelper.CreateStolenItemTooltip(richTextBuilder, this);
-		ItemPinHelper.CreatePinnedTooltip(richTextBuilder, this);
-		CommonTooltipHelper.CreateItemTypeTooltip(richTextBuilder, this);
-		ToggleAppearanceHelper.CreateToggleAppearanceTooltip(richTextBuilder, this);
-		ContrabandHelper.CreateContrabandItemTooltip(richTextBuilder, this);
-		if (base.parentInventory != null && base.parentInventory.IsInsertLocked() && base.parentInventory.IsRemoveLocked())
-		{
-			richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_locked_machine"), ignoreEmpty: true, RenderHandler.ColorPalette.Red);
-		}
-		richTextBuilder.AddEmptyLine(14);
-		if (PlayerStore.Instance.devMode)
-		{
-			if (IsTag("ITEM_HIDDEN_TAG"))
-			{
-				richTextBuilder.Add(LocHelper.GetLocalizedMechanic("mech_tooltip_hidden_dev"), RenderHandler.ColorPalette.Black);
-			}
-			if (IsTag("IMPORTANT_TAG"))
-			{
-				richTextBuilder.Add(LocHelper.GetLocalizedMechanic("mech_tooltip_important_dev"), RenderHandler.ColorPalette.Red);
-			}
-			if (PlayerStore.Instance.IsEligibleForRepo(this))
-			{
-				richTextBuilder.Add(LocHelper.GetLocalizedMechanic("mech_tooltip_repo_dev"), RenderHandler.ColorPalette.Yellow);
-			}
-			richTextBuilder.AddLine(base.uniqueId + " Unique Id");
-			richTextBuilder.AddLine(base.spriteAtlasPath + " " + base.spritePath);
-			richTextBuilder.AddLine("");
-		}
-		if (GeneralHelper.IsItemLocked(this))
-		{
-			richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_locked"), ignoreEmpty: true, RenderHandler.ColorPalette.Red);
-		}
-		long value = GetValue(new List<GameCharacterItem>(), OverlayHandler.current.currentBarterCharacter);
-		long value2 = GetValue(new List<GameCharacterItem>(), OverlayHandler.current.currentBarterCharacter, singleValue: true);
-		int num2 = GetTagReadonly("BOUGHT_PRICE_TAG").GetInt();
-		if (GetCurrentValue(useRetailMarkup: false, withChild: true, includeEvents: true, forceMarkup: false, 0L) != 0L)
-		{
-			if (value != value2)
-			{
-				richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_unit_barter", value2), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
-				richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_total_barter", value), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
-			}
-			else if (GetCurrentValue(useRetailMarkup: false, withChild: true, includeEvents: true, forceMarkup: false, 0L) != 0L)
-			{
-				richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_est_value", GetCurrentValue(useRetailMarkup: false, withChild: true, includeEvents: true, forceMarkup: false, 0L), GetBaseValue()), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
-			}
-			if (num2 != 0)
-			{
-				richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_bought_at", num2), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
-			}
-			BarterHelper.CreateDiscountedBarteringItemTooltip(richTextBuilder, this);
-			BarterHelper.CreateTaggedItemAsPaymentTooltip(richTextBuilder, this);
-		}
-		ModInternal.CreateTooltipEarly(richTextBuilder, this);
-		if (PlayerStore.Instance.devMode)
-		{
-			ModInternal.CreateDevTooltipEarly(richTextBuilder, this);
-		}
-		AppraisalHelper.CreateAppraisalTooltip(richTextBuilder, this);
-		AppraisalRankHelper.CreateCertificateTooltip(richTextBuilder, this);
-		PowerHelper.CreatePowerSourceItemTooltip(richTextBuilder, this);
-		EquipmentHelper.CreateEquipmentTooltip(richTextBuilder, this);
-		InspectableHelper.CreateInspectableTooltip(richTextBuilder, this);
-		InsCigaretteHelper.CreateDebugTooltip(richTextBuilder, this);
-		InsStampHelper.CreateDebugTooltip(richTextBuilder, this);
-		InsInjectorHelper.CreateDebugTooltip(richTextBuilder, this);
-		RibwichHelper.CreateDebugTooltip(richTextBuilder, this);
-		AppHandHelper.CreateDebugTooltip(richTextBuilder, this);
-		TechnicianBackpackHelper.CreateComplexeEquipmentTooltip(richTextBuilder, this);
-		TechnicianBackpackHelper.CreateComplexeModuleTooltip(richTextBuilder, this);
-		TechnicianBackpackHelper.CreateComplexeSystemTooltip(richTextBuilder, this);
-		UseCountHelper.CreateUseCountItemTooltip(richTextBuilder, this);
-		ToolboxHelper.CreateToolboxTooltip(richTextBuilder, this);
-		DebrisHelper.CreateTooltip(richTextBuilder, this);
-		ReactorHelper.CreateTooltip(richTextBuilder, this);
-		StorageExpansionHelper.CreateTooltip(richTextBuilder, this);
-		MachineStorageCoordinator.CreateTooltip(richTextBuilder, this);
-		HopperHelper.CreateTooltip(richTextBuilder, this);
-		LouOperativeHelper.CreateLockerTooltip(richTextBuilder, this);
-		OrganHelper.CreateOrganItemTooltip(richTextBuilder, this);
-		MachineDesequencer.CreateMachineDesequencerTooltip(richTextBuilder, this);
-		MachineBlender.CreateTooltip(richTextBuilder, this);
-		MachineHeatingPlate.CreateTooltip(richTextBuilder, this);
-		MachineChemFinisher.CreateTooltip(richTextBuilder, this);
-		MachineAlarm.CreateAlarmTooltip(richTextBuilder, this);
-		MachineProjector.CreateProjectorTooltip(richTextBuilder, this);
-		MachineDealMaker.CreateTooltip(richTextBuilder, this);
-		MachineMoistureFarm.CreateTooltip(richTextBuilder, this);
-		MachinePurifier.CreateTooltip(richTextBuilder, this);
-		MachineBottlePrinter.CreateTooltip(richTextBuilder, this);
-		VendingMachineHelper.CreateTooltip(richTextBuilder, this);
-		VendingFountainHelper.CreateTooltip(richTextBuilder, this);
-		ScavHelper.CreateTooltip(richTextBuilder, this);
-		HusbandryHelper.CreateVacuumRobotTooltip(richTextBuilder, this);
-		MachineryHelper.CreateMachineryTooltip(richTextBuilder, this);
-		MachineProgressHelper.CreateMachineTooltip(richTextBuilder, this);
-		MachineHydroponic.CreateMachineTooltip(richTextBuilder, this);
-		MachineDnaManipulator.CreateMachineTooltip(richTextBuilder, this);
-		MachineTurboBoosterAdv.CreateMachineTooltip(richTextBuilder, this);
-		CurrentConverterHelper.CreateTooltip(richTextBuilder, this);
-		HypertechBatteryHelper.CreateTooltip(richTextBuilder, this);
-		MindReprogrammerHelper.CreateTooltip(richTextBuilder, this);
-		PropulsionHelper.CreatePropulsionSystemTooltip(richTextBuilder, this);
-		MachineryHelper.CreateTrashPileTooltip(richTextBuilder, this);
-		CanteenHelper.CreateCanteenTooltip(richTextBuilder, this);
-		WaterFeatureHelper.CreateWaterFeatureTooltip(richTextBuilder, this);
-		WaterHelper.CreateWaterContainerTooltip(richTextBuilder, this);
-		IngotPurityHelper.CreateIngotTooltip(richTextBuilder, this);
-		DurabilityHelper.CreateIngotTooltip(richTextBuilder, this);
-		GunHelper.CreateTooltip(richTextBuilder, this);
-		GunModHelper.CreateTooltip(richTextBuilder, this);
-		LockHelper.CreateLockerContainerTooltip(richTextBuilder, this);
-		LotteryHelper.CreateLotteryTicketTooltip(richTextBuilder, this);
-		SecuredContainerHelper.CreateKeyItemTip(richTextBuilder, this);
-		SecuredContainerHelper.CreateSecuredContainerToolTip(richTextBuilder, this);
-		HydroponicHelper.CreateSeedItemTooltip(richTextBuilder, this);
-		PlantGeneticsHelper.CreateSeedGeneticsTooltip(richTextBuilder, this);
-		PlantGeneticsHelper.CreateDiskTooltip(richTextBuilder, this);
-		MachineProgressHelper.CreateSourceItemDefaultTooltip(richTextBuilder, this);
-		LabelerHelper.CreateLabeledItemTooltip(richTextBuilder, this);
-		ModuleHelper.CreateModuleTooltip(richTextBuilder, this);
-		HusbandryHelper.CreateItemTooltip(richTextBuilder, this);
-		HusbandryHelper.CreateButcherTallyTooltip(richTextBuilder, this);
-		LotteryHelper.CreateGamblersCoinTooltip(richTextBuilder, this);
-		AnimalMarkHelper.CreateTooltip(richTextBuilder, this);
-		IngesterHelper.CreateIngesterTooltip(richTextBuilder, this);
-		FoodItemHelper.CreateFoodItemTooltip(richTextBuilder, this);
-		AnimalCage.CreateTooltip(richTextBuilder, this);
-		MachineFridge.CreateTooltip(richTextBuilder, this);
-		MachineFeedDispenser.CreateTooltip(richTextBuilder, this);
-		MachineAutoButcher.CreateTooltip(richTextBuilder, this);
-		AquacultureHelper.CreateTooltip(richTextBuilder, this);
-		MachineRAS.CreateTooltip(richTextBuilder, this);
-		GutterflowPelletHelper.CreateTooltip(richTextBuilder, this);
-		IndustrialFishFeedHelper.CreateTooltip(richTextBuilder, this);
-		AugScanner.CreateTooltip(richTextBuilder, this);
-		WineHelper.CreateTooltip(richTextBuilder, this);
-		BlackLampHelper.CreateBlackLampTooltip(richTextBuilder, this);
-		ModInternal.CreateTooltipLate(richTextBuilder, this);
-		if (PlayerStore.Instance.devMode)
-		{
-			ModInternal.CreateDevTooltipLate(richTextBuilder, this);
-		}
-		if (!base.shortDescription.Equals(""))
-		{
-			richTextBuilder.AddLine(base.shortDescription, ignoreEmpty: true, RenderHandler.ColorPalette.White);
-		}
-		if (!base.flavorText.Equals(""))
-		{
-			richTextBuilder.AddLine(" " + base.flavorText, ignoreEmpty: true, RenderHandler.ColorPalette.Gray, bold: false, italic: true);
-		}
-		ContainerHelper.CreateContainerTooltip(richTextBuilder, this);
-		ScratcherHelper.CreateScratcherTooltip(richTextBuilder, this);
-		LotteryHelper.CreateLotteryRedeemTooltip(richTextBuilder, this);
-		if (base.identifier.Equals("food_stamp"))
-		{
-			richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_food_stamp"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue);
-		}
-		if (IsTag("IS_ITEM_TOGGLE_ON_TAG"))
-		{
-			richTextBuilder.AddLine(LocHelper.GetLocalizedUI("ui_rep_active"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
-		}
-		return richTextBuilder;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        if (IsTag("IS_TOOLTIP_DISABLED_TAG"))
+        {
+            return false;
+        }
 
-	public virtual RichText GetTooltip()
-	{
-		RichTextBuilder richTextBuilder = GetTooltipBasic();
-		if (base.parentInventory != null && base.tooltipRichTextFunc != null)
-		{
-			richTextBuilder = base.tooltipRichTextFunc(this, base.parentInventory, base.parentInventory.GetIncompleteItemInventorySlot(this), base.modifiedShape, base.modifiedState) ?? richTextBuilder;
-		}
-		ModSourceHelper.CreateTooltip(richTextBuilder, this);
-		return richTextBuilder.Build();
-	}
+        return true;
+    }
+}
 
-	public virtual RichText GetTooltipAdvanced()
-	{
-		RichTextBuilder richTextBuilder = GetTooltipBasic();
-		if (base.parentInventory != null && base.tooltipRichTextFunc != null)
-		{
-			richTextBuilder = base.tooltipRichTextFunc(this, base.parentInventory, base.parentInventory.GetIncompleteItemInventorySlot(this), base.modifiedShape, base.modifiedState) ?? richTextBuilder;
-		}
-		ModSourceHelper.CreateTooltip(richTextBuilder, this);
-		return richTextBuilder.Build();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GetTooltipBasic", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private RichTextBuilder GetTooltipBasic()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextBuilder>(__portHook3, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    RichTextBuilder __PortOriginal()
+    {
+        int num = PlantGeneticsHelper.GetTooltipWidth(this, 40);
+        if (IsTag("MACHINE_MANUAL_TAG"))
+        {
+            num = (int)((float)num * 2f);
+        }
+
+        if (IsTag("FEED_DISPENSER_TAG"))
+        {
+            num = (int)((float)num * 1.5f);
+        }
+
+        RichTextBuilder richTextBuilder = new RichTextBuilder(num);
+        GeneralHelper.CreateGeneralItemTooltip(richTextBuilder, this);
+        if (GeneralHelper.HasCustomName(this))
+        {
+            richTextBuilder.AddLine(GeneralHelper.GetCustomName(this) + " (" + GetDisplayName() + ")", ignoreEmpty: true, RenderHandler.ColorPalette.White, bold: true);
+        }
+        else
+        {
+            richTextBuilder.AddLine(GetDisplayName(), ignoreEmpty: true, RenderHandler.ColorPalette.White, bold: true);
+        }
+
+        if (IsTag("manufacturer"))
+        {
+            DisplayManufacturer(richTextBuilder, GetTagReadonly("manufacturer").GetString());
+        }
+
+        if (base.forceDisableActivate || base.forceDisableUse)
+        {
+            richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_disabled"), ignoreEmpty: true, RenderHandler.ColorPalette.Red, bold: true, italic: false, underline: true);
+        }
+
+        StolenHelper.CreateStolenItemTooltip(richTextBuilder, this);
+        ItemPinHelper.CreatePinnedTooltip(richTextBuilder, this);
+        CommonTooltipHelper.CreateItemTypeTooltip(richTextBuilder, this);
+        ToggleAppearanceHelper.CreateToggleAppearanceTooltip(richTextBuilder, this);
+        ContrabandHelper.CreateContrabandItemTooltip(richTextBuilder, this);
+        if (base.parentInventory != null && base.parentInventory.IsInsertLocked() && base.parentInventory.IsRemoveLocked())
+        {
+            richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_locked_machine"), ignoreEmpty: true, RenderHandler.ColorPalette.Red);
+        }
+
+        richTextBuilder.AddEmptyLine(14);
+        if (PlayerStore.Instance.devMode)
+        {
+            if (IsTag("ITEM_HIDDEN_TAG"))
+            {
+                richTextBuilder.Add(LocHelper.GetLocalizedMechanic("mech_tooltip_hidden_dev"), RenderHandler.ColorPalette.Black);
+            }
+
+            if (IsTag("IMPORTANT_TAG"))
+            {
+                richTextBuilder.Add(LocHelper.GetLocalizedMechanic("mech_tooltip_important_dev"), RenderHandler.ColorPalette.Red);
+            }
+
+            if (PlayerStore.Instance.IsEligibleForRepo(this))
+            {
+                richTextBuilder.Add(LocHelper.GetLocalizedMechanic("mech_tooltip_repo_dev"), RenderHandler.ColorPalette.Yellow);
+            }
+
+            richTextBuilder.AddLine(base.uniqueId + " Unique Id");
+            richTextBuilder.AddLine(base.spriteAtlasPath + " " + base.spritePath);
+            richTextBuilder.AddLine("");
+        }
+
+        if (GeneralHelper.IsItemLocked(this))
+        {
+            richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_locked"), ignoreEmpty: true, RenderHandler.ColorPalette.Red);
+        }
+
+        long value = GetValue(new List<GameCharacterItem>(), OverlayHandler.current.currentBarterCharacter);
+        long value2 = GetValue(new List<GameCharacterItem>(), OverlayHandler.current.currentBarterCharacter, singleValue: true);
+        int num2 = GetTagReadonly("BOUGHT_PRICE_TAG").GetInt();
+        if (ItemDetails.TooltipPipeline.ReadNativeSell(this, false, true, true, false, 0L) != 0L)
+        {
+            if (value != value2)
+            {
+                richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_unit_barter", value2), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
+                richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_total_barter", value), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
+            }
+            else if (ItemDetails.TooltipPipeline.ReadNativeSell(this, false, true, true, false, 0L) != 0L)
+            {
+                richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_est_value", ItemDetails.TooltipPipeline.ReadNativeSell(this, false, true, true, false, 0L), ItemDetails.TooltipPipeline.ReadNativeList(this)), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
+            }
+
+            if (num2 != 0)
+            {
+                richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_bought_at", num2), ignoreEmpty: true, RenderHandler.ColorPalette.LightTurquoise);
+            }
+
+            BarterHelper.CreateDiscountedBarteringItemTooltip(richTextBuilder, this);
+            BarterHelper.CreateTaggedItemAsPaymentTooltip(richTextBuilder, this);
+        }
+
+        ModInternal.CreateTooltipEarly(richTextBuilder, this);
+        if (PlayerStore.Instance.devMode)
+        {
+            ModInternal.CreateDevTooltipEarly(richTextBuilder, this);
+        }
+
+        AppraisalHelper.CreateAppraisalTooltip(richTextBuilder, this);
+        AppraisalRankHelper.CreateCertificateTooltip(richTextBuilder, this);
+        PowerHelper.CreatePowerSourceItemTooltip(richTextBuilder, this);
+        EquipmentHelper.CreateEquipmentTooltip(richTextBuilder, this);
+        InspectableHelper.CreateInspectableTooltip(richTextBuilder, this);
+        InsCigaretteHelper.CreateDebugTooltip(richTextBuilder, this);
+        InsStampHelper.CreateDebugTooltip(richTextBuilder, this);
+        InsInjectorHelper.CreateDebugTooltip(richTextBuilder, this);
+        RibwichHelper.CreateDebugTooltip(richTextBuilder, this);
+        AppHandHelper.CreateDebugTooltip(richTextBuilder, this);
+        TechnicianBackpackHelper.CreateComplexeEquipmentTooltip(richTextBuilder, this);
+        TechnicianBackpackHelper.CreateComplexeModuleTooltip(richTextBuilder, this);
+        TechnicianBackpackHelper.CreateComplexeSystemTooltip(richTextBuilder, this);
+        UseCountHelper.CreateUseCountItemTooltip(richTextBuilder, this);
+        ToolboxHelper.CreateToolboxTooltip(richTextBuilder, this);
+        DebrisHelper.CreateTooltip(richTextBuilder, this);
+        ReactorHelper.CreateTooltip(richTextBuilder, this);
+        StorageExpansionHelper.CreateTooltip(richTextBuilder, this);
+        MachineStorageCoordinator.CreateTooltip(richTextBuilder, this);
+        HopperHelper.CreateTooltip(richTextBuilder, this);
+        LouOperativeHelper.CreateLockerTooltip(richTextBuilder, this);
+        OrganHelper.CreateOrganItemTooltip(richTextBuilder, this);
+        MachineDesequencer.CreateMachineDesequencerTooltip(richTextBuilder, this);
+        MachineBlender.CreateTooltip(richTextBuilder, this);
+        MachineHeatingPlate.CreateTooltip(richTextBuilder, this);
+        MachineChemFinisher.CreateTooltip(richTextBuilder, this);
+        MachineAlarm.CreateAlarmTooltip(richTextBuilder, this);
+        MachineProjector.CreateProjectorTooltip(richTextBuilder, this);
+        MachineDealMaker.CreateTooltip(richTextBuilder, this);
+        MachineMoistureFarm.CreateTooltip(richTextBuilder, this);
+        MachinePurifier.CreateTooltip(richTextBuilder, this);
+        MachineBottlePrinter.CreateTooltip(richTextBuilder, this);
+        VendingMachineHelper.CreateTooltip(richTextBuilder, this);
+        VendingFountainHelper.CreateTooltip(richTextBuilder, this);
+        ScavHelper.CreateTooltip(richTextBuilder, this);
+        HusbandryHelper.CreateVacuumRobotTooltip(richTextBuilder, this);
+        MachineryHelper.CreateMachineryTooltip(richTextBuilder, this);
+        MachineProgressHelper.CreateMachineTooltip(richTextBuilder, this);
+        MachineHydroponic.CreateMachineTooltip(richTextBuilder, this);
+        MachineDnaManipulator.CreateMachineTooltip(richTextBuilder, this);
+        MachineTurboBoosterAdv.CreateMachineTooltip(richTextBuilder, this);
+        CurrentConverterHelper.CreateTooltip(richTextBuilder, this);
+        HypertechBatteryHelper.CreateTooltip(richTextBuilder, this);
+        MindReprogrammerHelper.CreateTooltip(richTextBuilder, this);
+        PropulsionHelper.CreatePropulsionSystemTooltip(richTextBuilder, this);
+        MachineryHelper.CreateTrashPileTooltip(richTextBuilder, this);
+        CanteenHelper.CreateCanteenTooltip(richTextBuilder, this);
+        WaterFeatureHelper.CreateWaterFeatureTooltip(richTextBuilder, this);
+        WaterHelper.CreateWaterContainerTooltip(richTextBuilder, this);
+        IngotPurityHelper.CreateIngotTooltip(richTextBuilder, this);
+        DurabilityHelper.CreateIngotTooltip(richTextBuilder, this);
+        GunHelper.CreateTooltip(richTextBuilder, this);
+        GunModHelper.CreateTooltip(richTextBuilder, this);
+        LockHelper.CreateLockerContainerTooltip(richTextBuilder, this);
+        LotteryHelper.CreateLotteryTicketTooltip(richTextBuilder, this);
+        SecuredContainerHelper.CreateKeyItemTip(richTextBuilder, this);
+        SecuredContainerHelper.CreateSecuredContainerToolTip(richTextBuilder, this);
+        HydroponicHelper.CreateSeedItemTooltip(richTextBuilder, this);
+        PlantGeneticsHelper.CreateSeedGeneticsTooltip(richTextBuilder, this);
+        PlantGeneticsHelper.CreateDiskTooltip(richTextBuilder, this);
+        MachineProgressHelper.CreateSourceItemDefaultTooltip(richTextBuilder, this);
+        LabelerHelper.CreateLabeledItemTooltip(richTextBuilder, this);
+        ModuleHelper.CreateModuleTooltip(richTextBuilder, this);
+        HusbandryHelper.CreateItemTooltip(richTextBuilder, this);
+        HusbandryHelper.CreateButcherTallyTooltip(richTextBuilder, this);
+        LotteryHelper.CreateGamblersCoinTooltip(richTextBuilder, this);
+        AnimalMarkHelper.CreateTooltip(richTextBuilder, this);
+        IngesterHelper.CreateIngesterTooltip(richTextBuilder, this);
+        FoodItemHelper.CreateFoodItemTooltip(richTextBuilder, this);
+        AnimalCage.CreateTooltip(richTextBuilder, this);
+        MachineFridge.CreateTooltip(richTextBuilder, this);
+        MachineFeedDispenser.CreateTooltip(richTextBuilder, this);
+        MachineAutoButcher.CreateTooltip(richTextBuilder, this);
+        AquacultureHelper.CreateTooltip(richTextBuilder, this);
+        MachineRAS.CreateTooltip(richTextBuilder, this);
+        GutterflowPelletHelper.CreateTooltip(richTextBuilder, this);
+        IndustrialFishFeedHelper.CreateTooltip(richTextBuilder, this);
+        AugScanner.CreateTooltip(richTextBuilder, this);
+        WineHelper.CreateTooltip(richTextBuilder, this);
+        BlackLampHelper.CreateBlackLampTooltip(richTextBuilder, this);
+        ModInternal.CreateTooltipLate(richTextBuilder, this);
+        if (PlayerStore.Instance.devMode)
+        {
+            ModInternal.CreateDevTooltipLate(richTextBuilder, this);
+        }
+
+        if (!base.shortDescription.Equals(""))
+        {
+            richTextBuilder.AddLine(base.shortDescription, ignoreEmpty: true, RenderHandler.ColorPalette.White);
+        }
+
+        if (!base.flavorText.Equals(""))
+        {
+            richTextBuilder.AddLine(" " + base.flavorText, ignoreEmpty: true, RenderHandler.ColorPalette.Gray, bold: false, italic: true);
+        }
+
+        ContainerHelper.CreateContainerTooltip(richTextBuilder, this);
+        ScratcherHelper.CreateScratcherTooltip(richTextBuilder, this);
+        LotteryHelper.CreateLotteryRedeemTooltip(richTextBuilder, this);
+        if (base.identifier.Equals("food_stamp"))
+        {
+            richTextBuilder.AddLine(LocHelper.GetLocalizedMechanic("mech_tooltip_food_stamp"), ignoreEmpty: true, RenderHandler.ColorPalette.LightBlue);
+        }
+
+        if (IsTag("IS_ITEM_TOGGLE_ON_TAG"))
+        {
+            richTextBuilder.AddLine(LocHelper.GetLocalizedUI("ui_rep_active"), ignoreEmpty: true, RenderHandler.ColorPalette.LightGreen);
+        }
+
+        return richTextBuilder;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook4 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GetTooltip", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public virtual RichText GetTooltip()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook4))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichText>(__portHook4, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    RichText __PortOriginal()
+    {
+        RichTextBuilder richTextBuilder = GetTooltipBasic();
+        if (base.parentInventory != null && base.tooltipRichTextFunc != null)
+        {
+            richTextBuilder = base.tooltipRichTextFunc(this, base.parentInventory, base.parentInventory.GetIncompleteItemInventorySlot(this), base.modifiedShape, base.modifiedState) ?? richTextBuilder;
+        }
+
+        ModSourceHelper.CreateTooltip(richTextBuilder, this);
+        return richTextBuilder.Build();
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook5 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GetTooltipAdvanced", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public virtual RichText GetTooltipAdvanced()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook5))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichText>(__portHook5, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    RichText __PortOriginal()
+    {
+        RichTextBuilder richTextBuilder = GetTooltipBasic();
+        if (base.parentInventory != null && base.tooltipRichTextFunc != null)
+        {
+            richTextBuilder = base.tooltipRichTextFunc(this, base.parentInventory, base.parentInventory.GetIncompleteItemInventorySlot(this), base.modifiedShape, base.modifiedState) ?? richTextBuilder;
+        }
+
+        ModSourceHelper.CreateTooltip(richTextBuilder, this);
+        return richTextBuilder.Build();
+    }
+}
 }

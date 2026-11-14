@@ -46,49 +46,96 @@ public class ExchangeBarter
 		return list2;
 	}
 
-	public List<GameItem> GetRequiredItems()
-	{
-		List<GameItem> source = GraphUtils.FindAllChildrenType<GameItem>(EmporiumEntry.Instance.trashcan) ?? new List<GameItem>();
-		List<GameItem> list = new List<GameItem>();
-		HashSet<GameItem> usedItems = new HashSet<GameItem>();
-		foreach (BarterCondition condition in conditions)
-		{
-			GameItem gameItem = source.FirstOrDefault((GameItem gameItem2) => !usedItems.Contains(gameItem2) && condition.IsItemValid(gameItem2));
-			if (gameItem != null)
-			{
-				list.Add(gameItem);
-				usedItems.Add(gameItem);
-			}
-		}
-		return list;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ExchangeBarter), "GetRequiredItems", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public List<GameItem> GetRequiredItems()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
 
-	public bool CanAccept()
-	{
-		if (IsRequiredItemPresent())
-		{
-			return currentBarterCounter > 0;
-		}
-		return false;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<List<GameItem>>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    List<GameItem> __PortOriginal()
+    {
+        List<GameItem> source = GraphUtils.FindAllChildrenType<GameItem>(EmporiumEntry.Instance.trashcan) ?? new List<GameItem>();
+        List<GameItem> list = new List<GameItem>();
+        HashSet<GameItem> usedItems = new HashSet<GameItem>();
+        foreach (BarterCondition condition in conditions)
+        {
+            GameItem gameItem = source.FirstOrDefault((GameItem gameItem2) => !usedItems.Contains(gameItem2) && condition.IsItemValid(gameItem2));
+            if (gameItem != null)
+            {
+                list.Add(gameItem);
+                usedItems.Add(gameItem);
+            }
+        }
 
-	public void Accept()
-	{
-		if (IsRequiredItemPresent())
-		{
-			Debug.Log(identifier + " Exchange Accepted");
-			List<GameItem> requiredItems = GetRequiredItems();
-			currentBarterCounter--;
-			if (onAccept != null)
-			{
-				onAccept(requiredItems);
-			}
-			for (int num = requiredItems.Count - 1; num >= 0; num--)
-			{
-				requiredItems[num].Destroy();
-			}
-		}
-	}
+        return list;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ExchangeBarter), "CanAccept", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public bool CanAccept()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        if (IsRequiredItemPresent())
+        {
+            return currentBarterCounter > 0;
+        }
+
+        return false;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ExchangeBarter), "Accept", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void Accept()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (IsRequiredItemPresent())
+        {
+            Debug.Log(identifier + " Exchange Accepted");
+            List<GameItem> requiredItems = GetRequiredItems();
+            currentBarterCounter--;
+            if (onAccept != null)
+            {
+                onAccept(requiredItems);
+            }
+
+            for (int num = requiredItems.Count - 1; num >= 0; num--)
+            {
+                requiredItems[num].Destroy();
+            }
+        }
+    }
+}
 
 	public void Reset()
 	{

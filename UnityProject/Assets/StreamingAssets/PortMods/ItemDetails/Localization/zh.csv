@@ -1,0 +1,358 @@
+﻿# Item Details 简体中文 (zh)
+auth.amount,票券面值
+auth.body,瓶体问题
+auth.box,包装盒问题
+auth.chip,芯片
+auth.color,颜色问题
+auth.indicator,指示灯问题
+auth.label,标签问题
+auth.lettering,字母印刷问题
+auth.logo,商标问题
+auth.seal,防伪标问题
+auth.serial,序列号
+# key,value
+alert.aug_kill_reward,击杀奖励：{0}
+alert.aug_presence,改造体威胁：{0}/100
+alert.bounty,（赏金 {0}）
+alert.real_name,真名：{0}
+alert.title_augmented,改造体顾客
+alert.title_both,通缉犯 · 改造体顾客
+alert.title_wanted,通缉犯
+appraisal.armor,装甲
+appraisal.base,基础
+appraisal.blade,刀刃
+appraisal.build_deluxe,豪华型套装加成
+appraisal.build_tactical,战术型套装加成
+appraisal.carbon,碳复合材料
+appraisal.casing_crack,外壳破裂
+appraisal.casing_reinforced,加固处理
+appraisal.casing_screws,螺丝外露
+appraisal.casing_wear,轻度磨损
+appraisal.casing_wear_heavy,重度磨损
+appraisal.damaged,受损
+appraisal.emgplus,EMG+ 接口
+appraisal.finish_cheap,低级等离子颜色
+appraisal.finish_premium,高级等离子颜色
+appraisal.gold,镀金
+appraisal.iface_unknown,规格不明接口
+appraisal.neural,神经接口
+appraisal.ribwich_deluxe,豪华版
+appraisal.ribwich_double_meat,双层肉饼
+appraisal.ribwich_first_batch,第一生产批次
+appraisal.ribwich_month_edge,首月或末月
+appraisal.ribwich_opened,已开封或赝品（固定 40）
+appraisal.ribwich_plant_grade_a,高品质包装工厂 {0:D2}
+appraisal.ribwich_plant_grade_c,低品质包装工厂 {0:D2}
+appraisal.seal_ignition,点火实验室加成
+appraisal.seal_ll,王尔德载具加成
+appraisal.seal_republic,共和国海军征用部加成
+appraisal.seal_zhonghua,中华船舶加成
+appraisal.worn,磨损
+auth.counterfeit,× 赝品（{0}）
+auth.defect,× {0}（{1}）
+auth.genuine,✓ 正品
+berry.dried,干枯
+berry.line,{0}品质：{1}
+berry.wine,（酿酒值 {0}）
+berry.moldy,发霉
+berry.normal,正常
+berry.small,较小
+berry.unripe,未熟
+calorie.line,能量：{0}{1}
+calorie.per_credit,（{0}{1}/{2}）
+calorie.unit,千卡
+condition.line,状态：{0} {1}
+contraband.markup,黑市溢价：+{0}%
+generic.line,来源：{0}
+hidden.chem_purity,化学纯度：{0}%
+hidden.durability,耐久度：{0}/{1}
+hidden.durability_faked,真实耐久度：{0}/{1}（显示 {2}/{3}）
+hidden.purity,纯度：{0}
+hidden.purity_faked,真实纯度：{0}（显示 {1}）
+hidden.purity_level,纯度：{0}/10
+hidden.purity_level_faked,真实纯度：{0}/10（显示 {1}/10）
+hint.double_click,双击以鉴定
+menu.scan,扫描
+list.sep,、
+lottery.matched_none,命中 {0}/6 → 未中奖
+lottery.matched_prize,命中 {0}/6 → 奖金 {1}
+lottery.not_drawn,第{0}期尚未开奖（每周六上午公布）
+lottery.winning,中奖号码：{0}
+market.line,市场：{0}
+faucet.header,出水水质：{0}
+calendar.today_events,今日事件
+module.power,{0}能量/天
+module.speed,{0}作业速度
+price.buy,进价：
+price.cost_close,）
+price.cost_open,"（进价 "
+price.list," 标价：{0}"
+price.sell,售价：{0}
+reveal.modifier,真实修正：{0}%（伪装为 {1}%）
+reveal.real,真实：{0}（伪装为 {1}）
+reveal.real_with_mod,真实：{0} {1}（伪装为 {2}）
+ribwich.header,赝品原因：
+ribwich.more,…另有 {0} 项
+ribwich.reason_bun_no_pickles,有芝麻面包，缺加量酸黄瓜
+ribwich.reason_date_missing,缺少生产日期
+ribwich.reason_davre_missing,缺少达夫雷标志
+ribwich.reason_davre_wrong,达夫雷标志错误
+ribwich.reason_first_sticker,第一生产批次不应带 Ribwich 贴纸
+ribwich.reason_month_range,生产月份 {0} 不在 1–12 之内
+ribwich.reason_pickles_no_bun,有加量酸黄瓜，缺芝麻面包
+ribwich.reason_plant_missing,缺少包装工厂编号
+ribwich.reason_plant_range,包装工厂编号 {0} 不在 01–35 之内
+ribwich.reason_second_sticker_missing,第二生产批次缺少 Ribwich 贴纸
+ribwich.reason_second_sticker_wrong,第二生产批次的 Ribwich 贴纸错误
+ribwich.reason_unknown,{0}
+ribwich.reason_year_range,年份 {0} 不在 425-429/432-438
+scratcher.no_prize,刮刮乐：不中奖
+scratcher.progress_part,，已刮开 {0}/3
+scratcher.win,刮刮乐：中奖 {0}（{1} 个相同）
+seed.header,基因（未分析）
+seed.rank,等级{0}
+seed.more,…另有 {0} 项
+seed.trait_rank,{0}（等级 {1}）
+seed.innate_lowered,固有({0}→{1})
+seed.innate_removed,已移除
+storage.contains,内含：
+storage.more_kinds," 等 {0} 类"
+storage.ratio,压缩率：{0}（{1}/{2} 格）
+grid.title,内容物 {0}
+grid.title_sealed,箱内 {0}
+grid.title_sealed_value,箱内 {0}（估价 {1}）
+title.appraisal_suffix,{0} 标价{1}，最优报价{2}
+value.from,来源：
+value.part,{0}{1}
+value.cost_perf,性价比：{0}
+value.cost_perf_detail,（{0}/{1}格）
+value.perfect_range," ｜ 完美 {0}–{1}"
+value.total_line,总价：{0}
+water.mismatch,（与标签不符）
+water.trace_count,（另 {0} 项低于显示阈值）
+water.fold_inactive,按 {0} 展开非活性成分
+chem.effects,药效：{0}
+chem.lethal,致死（{0} 倍致死量）
+chem.toxic,有毒
+chem.euphoria_weak,轻微欣快
+chem.euphoria_mild,中度欣快
+chem.euphoria_strong,强烈欣快
+chem.euphoria_extreme,极度欣快
+chem.synaprest,戒瘾
+chem.contraceptive,避孕
+wine.aging,陈化加成：+{0}/天（共 +{1}）
+wine.composition,成分：糖度 {0}‰、污染物 {1}‰
+wine.counterfeit,赝品：使用了非法酵母
+wine.empty,空瓶
+wine.fermenting,发酵中
+wine.finished,已酿成
+wine.score_part,，评分 {0}
+wine.state,果酿：{0}
+wine.preview,发酵后评分 {0}
+wine.tier,，第 {0} 档
+wine.unknown_state,未知（{0}）
+wine.yeast_power,酵母强度：{0}/次
+wine.yeast_effect,果酿评分 +{0}（不叠加），发酵 {1} 次
+wine.yeast_illegal,会酿成赝品
+machine.energy_label,耗能：
+machine.energy_unit,/天
+machine.energy_battery, {0}/{1}kJ（{2}天）
+machine.energy_left, {0}kJ（{1}天）
+config.section.layout,排版
+config.authenticity,真伪鉴定
+config.authenticity.tip,直接判定真品还是赝品，并列出瑕疵和判为赝品的原因。
+config.plant_analysis,植物分析
+config.plant_analysis.tip,显示荧光莓品质和未分析种子的性状。选「有植物分析仪时开启」时，种子性状要有植物分析仪才显示，荧光莓品质不受影响。
+config.plant_analysis.off,关闭
+config.plant_analysis.analyser,有植物分析仪时开启
+config.plant_analysis.always,总是开启
+config.valuation,估价计算
+config.valuation.tip,显示待鉴定物品的真实价值构成和完美报价区间；鉴定服务的标题里也会显示标价和最优报价。
+config.cost_performance,每格价值
+config.cost_performance.tip,显示物品每格的价值，以及容器的压缩率。
+config.container_contents,容器内容物
+config.container_contents.tip,悬停未上锁的容器时，在提示框右侧用图标列出里面的物品。
+config.section.info,信息补充
+config.info_enhance,物品信息补充
+config.info_enhance.tip,在物品提示框里补充下面列出的信息。关闭后全部隐藏，下面各项的勾选会保留。
+config.tooltip_formatting,提示框文字优化
+config.tooltip_formatting.tip,让提示框文字更好读：价格名称更明确、长描述自动换行、食物标出卡路里、价格之间留出间距。关闭后恢复原版排版。
+config.type_badge,物品分类标签
+config.type_badge.tip,在物品提示框顶部用小标签显示物品分类。
+config.type_badge_muted,淡化标签颜色
+config.type_badge_muted.tip,分类标签改用深色底和彩色文字，不那么抢眼；违禁品标签仍是红色警示。
+config.item_name_display,物品名称显示
+config.item_name_display.tip,在物品图标底部一直显示名字。选「显示容器和机器名称」时，所有容器和机器都显示，改过名的显示新名字；选「显示命名过的物品名称」时，只有改过名的物品显示。
+config.item_name_display.off,关闭
+config.item_name_display.containers,显示容器和机器名称
+config.item_name_display.renamed,显示命名过的物品名称
+config.container_name_bg,名称标签底色
+config.container_name_bg.tip,名字后面黑色底板的不透明度，0 为不加底板。
+config.slider_percent,{0}%
+config.customer_alert,顾客到店提示
+config.customer_alert.tip,通缉犯或改造体顾客进店时弹出提示，显示真实赏金和真名；改造体还会显示击杀奖励和威胁值。
+config.customer_history,悬停顾客查看本次对话
+config.customer_history.tip,鼠标停在店里的顾客身上，可以看到这次接待中说过的话；下一位顾客进店时清空。
+config.section.interaction,操作
+config.double_click_inspect,双击鉴定
+config.double_click_inspect.tip,双击待鉴定物品或需要辨别真伪的物品（注射器、香烟、食品券等），不用放大镜就能打开检视面板；面板开着时双击另一件物品可直接切换。
+config.double_click_scan,双击扫描
+config.double_click_scan.tip,拥有对应扫描设备时，双击液体、化学品、种子或上锁补给箱，直接打开扫描结果。本来双击就能打开或使用的物品不受影响。
+config.context_menu_scan,右键菜单添加扫描
+config.context_menu_scan.tip,拥有对应扫描设备时，物品右键菜单多出「扫描」：液体和化学品用水质/化学扫描仪，上锁补给箱用X射线扫描仪，种子用植物分析仪。
+config.expand_key,展开键
+config.expand_key.tip,作物成分表里不起作用的成分默认收起，按住这个键可以展开查看。
+config.expand_key.ctrl,Ctrl
+config.expand_key.shift,Shift
+config.expand_key.alt,Alt
+config.section.reveal,透视
+config.hidden_truth,揭示伪装与真实属性
+config.hidden_truth.tip,直接显示被伪装特性的真实情况、真实耐久度，以及金属锭和化学品的真实纯度。假货一眼就能看穿，鉴定难度大幅降低。
+config.liquid_analysis,液体组分分析
+config.liquid_analysis.tip,显示水的纯度和杂质，以及药品、化学品的成分和药效。选「有扫描器时开启」时，要有水质扫描仪或化学扫描仪才显示。
+config.color_liquid_components,杂质按种类着色
+config.color_liquid_components.tip,成分表里的杂质按种类分别上色：化学污染物、有机废物、微生物、矿物质、重金属、物理污染物。关闭时都显示为白色。
+config.liquid_analysis.off,关闭
+config.liquid_analysis.scanner,有扫描器时开启
+config.liquid_analysis.always,总是开启
+config.water_advice,净化建议
+config.water_advice.tip,在装水的容器上列出各种净化方式（滤水器、机器等）能把纯度提高多少。液体组分分析选「有扫描器时开启」时，这里同样要有扫描器才显示。
+config.scratcher,刮刮乐预知
+config.scratcher.tip,刮开之前就显示这张刮刮乐能不能中奖、奖金多少、已经刮了多少。只提前告诉你结果，不会替你刮。
+config.sealed_box,带锁容器透视
+config.sealed_box.tip,保险箱、枪柜等带锁容器不用开锁就能看到里面的物品和总价值，相当于跳过开锁环节。
+config.result_prefill,鉴定结果预填
+config.result_prefill.tip,打开检视面板时，自动勾好赝品的实际问题，并按「预填价格」填好鉴定报价。只帮你填写，不会提交或确认。
+config.result_prefill_source,预填价格
+config.result_prefill_source.tip,「真实估价」填物品的真实价值；「最优报价」填完美报价区间的上限，也就是提示框里显示的最高价。
+config.result_prefill_source.true,真实估价
+config.result_prefill_source.best,最优报价
+machine.eta,预计还需 {0} 天完成
+machine.eta_battery,（电量只够 {0} 天）
+machine.eta_battery_short,（电力不足）
+machine.eta_water,（水只够 {0} 天）
+machine.paused,暂停：{0}
+machine.paused_label,暂停
+hydro.water,水量: {0}{3} ({2}{3}/天)，{1}天
+hydro.water_short,水量: {0}{3} ({2}{3}/天)，不足1天
+hydro.status_label,状态: 
+hydro.eta_paused,预计{0}天，{1}
+hydro.eta_growing,预计{0}天，{1}
+hydro.progress,{0}/{1}（{2}天）
+hydro.label,水量
+hydro.value,{0}{1}（{2}{1}/天）
+hydro.left,{0}天
+hydro.left_short,不足1天
+purifier.estimate,预计今晚净化：{0}毫升
+purifier.tier,（{0} → {1}）
+purifier.label,净化
+purifier.rate,{0}mL/今晚
+hydro.purify_rank,净化基因 {0} 级
+ras.purify_fish,{0} 条鱼吸收
+fridge.no_effect,，{0} 件无效果
+fridge.label,冰箱
+wine.rack,{0} 瓶陈化中，每天陈化 {1} 天
+wine.rack_idle,，{0} 瓶不陈化
+wine.rack_label,陈化
+inner.line,{0}：{1}
+inner.input_slot,输入槽内
+inner.output_slot,输出槽内
+inner.printer_material_slot,投料槽内
+inner.printer_product_slot,产物槽内
+inner.durability,{0}：耐久度 {1}/{2}
+inner.faked,（标示为 {0}）
+inner.filter_spent,（已耗尽，不再过滤）
+filter.label,滤芯
+filter.lowest,×{0}，最低 {1}/{2}
+inner.filters,滤水器 ×{0}：最低耐久度 {1}/{2}
+inner.spent_count,，{0} 件已耗尽
+inner.liquid,{0}/{1}{2}
+inner.liquid_empty,已空
+inner.liquid_purity,，{0}% {1}
+unit.ml,毫升
+unit.liter,升
+inner.uses,{0}：剩余使用次数 {1}/{2}
+inner.tools,工具 ×{0}：最少剩余 {1}（{2}/{3}）
+inner.energy,{0}：能量 {1}/{2}
+learning.progress,学习进度：{0}
+learning.stat,{0} {1}/{2}
+learning.stat_full,{0}已学满
+learning.machine,自学习：{0}/{1} 个模组学习中
+learning.nights,（{0}天）
+recharger.label,充能
+module.days_faster,，约快 {0} 天
+module.output,{0}毫升/天
+module.evaporate,{0}毫升蒸发量/晚
+module.recover,{0}%蒸馏液回收
+module.attract,{0}%吸引力
+module.bargain,{0}%议价成功率
+module.theft,{0}%防盗率
+module.aging_next,+{0}%后+1陈化速度
+module.print_quality,{0}打印品质
+module.success,{0}%成功率
+module.harvest,{0}%收获数量
+module.water_next,+{0}%后产出{1}
+module.water_top,已产出{0}
+module.purifier_next,+{0}%后可产出{1}
+module.purifier_full,+{0}%后纯度上限达100%
+module.purifier_top,纯度上限已达100%
+module.furnace_gain,纯度{0}
+module.furnace_step,+{0}%后纯度{1}
+module.furnace_result,金属锭×{0}：{1}/10
+module.furnace_cap,已达最高纯度
+module.furnace_basic,消耗普通助熔剂
+module.furnace_junk,废物转换不受质量影响
+history.empty,还没有对话。
+history.earlier,…更早 {0} 条
+history.unknown,顾客
+appraisal.minimum_adjustment,最低价值补差
+meat.source,肉类来源：{0}
+meat.unknown,未知
+meat.fish,鱼类
+meat.prion,朊病毒：{0}
+meat.prion.present,携带
+meat.prion.unmarked,未标记
+berry.wine_value,酿酒值：{0}
+config.info_price_modifiers,价格修正
+config.info_price_modifiers.tip,显示物品标签、物品状况和店铺事件让价格变动了多少。
+config.info_black_market,黑市溢价
+config.info_black_market.tip,显示违禁品在黑市上的溢价。
+config.info_lottery,彩票
+config.info_lottery.tip,显示彩票的开奖号码、命中几个号码和奖金。只是显示，不影响开奖结果。
+config.info_brewing,酿酒
+config.info_brewing.tip,显示原料的酿酒值、酵母的作用、果酿评分和成分，以及发酵、陈化等信息。
+config.info_meat,肉类
+config.info_meat.tip,显示肉品来源物种与朊病毒标记。
+config.info_machines,机器
+config.info_machines.tip,显示机器模组的实际效果、自学习进度、剩余天数、用水、冷藏、陈化、净化收益和熔炉预计产物。
+config.info_batteries,电池
+config.info_batteries.tip,显示电量和可用天数，包括充电器内逐个电池的电量。
+config.info_progress_bar,彩色进度条
+config.info_progress_bar.tip,把文字进度条换成彩色方块。关闭后恢复原版样式。
+config.info_manufacturer_inline,公司名并入名称行
+config.info_manufacturer_inline.tip,把生产公司名移到物品名称那一行的右侧。
+config.info_container_units,液体单位优化
+config.info_container_units.tip,容量超过 3 L 时用 L 显示（3 L 及以下用 mL）。成分用量始终用 mL 并按有效数字取位，微量成分的百分比保留 3 位有效数字。
+config.gene_rank_arabic,基因等级使用阿拉伯数字
+config.gene_rank_arabic.tip,种子性状等级用阿拉伯数字（1、2、3……）显示；关闭后恢复游戏原本的罗马数字（I、II、III……）。
+list.zone_sep,；
+module.special_label,特殊
+module.learn_chance,每晚{0}%概率赋予模组自学习
+module.learn_extra,每日{0}次额外学习
+animal.next_stage,下一阶段：{0}（日龄还差 {1} 天）
+exchange.tonight,今晚预计换到：{0}
+exchange.reputation,黑市声望
+exchange.module,小概率：{0}，否则无回礼
+exchange.keycards,随机抽取两张：{0}
+exchange.low_purity,无回礼（梦尘纯度不足）
+exchange.unknown,回礼以夜间结算为准
+exchange.candidates,随机候选：{0}
+exchange.module_candidates,{0}（小概率：{1}）
+animal.genes_trait,性状
+animal.genes_expression,表达值
+animal.genes_alleles,等位基因
+animal.genes_grade,评级
+luck.current,当前幸运：{0}
+luck.base,基础幸运：{0}
+luck.coin,随身硬币：{0}
+luck.liquid,{0}：{1}（剩余 {2} 天）

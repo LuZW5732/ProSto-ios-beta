@@ -1,0 +1,598 @@
+#nullable enable
+using System;
+using System.Collections.Generic;
+
+namespace ItemDetails
+{
+
+/// <summary>
+/// 机器「模组效果」三项加成的实际影响：在探针上用游戏自己的函数各算一次
+/// 「当前加成」与「这一项清零」，差值就是这一项的贡献。
+///
+/// 第三列的规则，按这项加成对结果的影响方式决定：
+///   · 连续量（加成稍有变化，结果就跟着变）：写这项加成现在带来的变化，如 +14作业速度、+2000毫升/天、-10能量/天。
+///   · 分档量（要跨过门槛才变，一档通常差几十个百分点）：写还差多少到下一档，如 +50%后产出优质水、+125%后+1陈化速度。
+///     到顶后写当前结论。净水器进入纯水档后，下一个目标是纯度上限 100%。
+/// 机器不具备的指标不写：作业速度只属于有进度的机器（BASE_PROCESSING_SPEED_TAG &gt; 0）。
+///
+/// 为什么用差分而不是照抄公式：
+///   · 性能、效率、质量在每台机器上含义不同（集水器是出水量、投影仪是吸引力、净水器是纯度上限……），
+///     数值全交给游戏函数算，其它模组用 StaticHookOwner 改了这些函数，显示自动跟上；
+///   · 两项都影响耗电的机器（交易机的性能也省电、催陈器的性能抵扣耗电）能拆开各算各的；
+///   · 分档的质量能向上试探出「再加多少到下一档」，并写明下一档是什么（优质水、+1 陈化速度、纯水）。
+///
+/// 耗电和加工速度先做模型校验：探针按原版公式算出的值必须等于机器上的实际值，
+/// 对不上（涡轮增压、第三方改了耗电等）就不给这两项，宁可少写也不写错。
+///
+/// 原版机器在 Profiles 表中登记「调哪个游戏函数、写成什么单位」，未登记机器不做推算。
+/// 第三方机器通过 ItemDetailsApi 显式注入自己的注释。
+/// 蒸发器的质量公式在夜间回调里，暂不做质量注释；熔炉使用已验证的只读规则显示纯度。
+/// </summary>
+internal static class ModuleStatEffects
+{
+    internal const char Performance = 'p';
+    internal const char Efficiency = 'e';
+    internal const char Quality = 'q';
+
+    private const string PerfTag = "TOTAL_PERCENTAGE_PERFORMANCE_BONUS_INT";
+    private const string PowerTag = "TOTAL_PERCENTAGE_POWER_BONUS_INT";
+    private const string QualityTag = "TOTAL_PERCENTAGE_QUALITY_BONUS_INT";
+    private const string DrawnTag = "machinery_drawn_power";
+    private const string SpeedTag = "CURRENT_PROCESSING_SPEED_TAG";
+
+    /// <summary>向上试探下一档的最大加成增量（百分点）。</summary>
+    private const int StepSearchLimit = 1000;
+    /// <summary>
+    /// 缓存键已覆盖全部会变的输入（三项加成、耗电、速度、进度、状态、语言），值不变结果就不变；
+    /// TTL 只兜底键外的变化，不能短到悬停时周期性重算。
+    /// </summary>
+    private const float CacheSeconds = 30f;
+    private const int MaxEntries = 32;
+
+    private static GameItem? _probe;
+
+    private sealed class Entry
+    {
+        internal GameItem Machine = null!;
+        internal string Key = "";
+        internal float At;
+        internal readonly Dictionary<char, IReadOnlyList<(string Metric, double Delta)>> Changes = new();
+        internal readonly Dictionary<char, string> Notes = new();
+    }
+
+    private static readonly List<Entry> Entries = new();
+
+    internal static void Stop()
+    {
+        Entries.Clear();
+        var probe = _probe;
+        _probe = null;
+        if (probe != null) { try { probe.Destroy(); } catch { } }
+    }
+
+    /// <summary>某一项加成的注释（不含括号）；没有可靠结论返回空串。</summary>
+    internal static string Note(char stat, GameItem machine) => Note(stat, machine, out _);
+
+    /// <summary>同 <see cref="Note(char, GameItem)"/>，并带出逐项数值差供结构化快照使用。</summary>
+    internal static string Note(char stat, GameItem machine, out IReadOnlyList<(string Metric, double Delta)>? changes)
+    {
+        changes = null;
+        try
+        {
+            // 显式第三方提供方优先且不走原版缓存；提供方完全拥有这个 ID 的注释语义。
+            if (ThirdPartyProviders.TryMachineNote(machine, stat, out string injected)) return injected;
+
+            string key = CacheKey(machine);
+            float now = UnityEngine.Time.unscaledTime;
+            var entry = Entries.Find(e => ReferenceEquals(e.Machine, machine));
+            if (entry == null || entry.Key != key || now - entry.At > CacheSeconds)
+            {
+                if (entry == null)
+                {
+                    entry = new Entry { Machine = machine };
+                    Entries.Add(entry);
+                    while (Entries.Count > MaxEntries) Entries.RemoveAt(0);
+                }
+                entry.Key = key;
+                entry.At = now;
+                entry.Notes.Clear();
+                entry.Changes.Clear();
+                Build(machine, entry);
+            }
+            entry.Changes.TryGetValue(stat, out changes);
+            return entry.Notes.TryGetValue(stat, out var note) ? note : "";
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModuleStatEffects", ex);
+            return "";
+        }
+    }
+
+    private static string CacheKey(GameItem machine)
+        => string.Join("|", Loc.Code,
+            GameRead.TagInt(machine, PerfTag), GameRead.TagInt(machine, PowerTag),
+            GameRead.TagInt(machine, QualityTag), GameRead.TagInt(machine, DrawnTag),
+            GameRead.TagInt(machine, SpeedTag), GameRead.TagInt(machine, "MACHINE_PROGRESS_CURRENT_TAG"),
+            GameRead.TagString(machine, "MACHINE_STATE_TAG"), PurifierWaterKey(machine));
+
+    // ---------------- 原版机器能力表 ----------------
+
+    private delegate string? QualityNote(GameItem machine, out int? nextBonus);
+
+    private sealed class MachineEffectProfile
+    {
+        internal Func<GameItem, int>? Performance;
+        internal string PerformanceKey = "";
+        internal string PerformanceEn = "";
+        internal int PerformanceDivisor = 1;
+        /// <summary>性能值本身就是绝对量（如概率），不写「+」号。</summary>
+        internal bool PerformancePlain;
+        internal Func<GameItem, int>? Quality;
+        internal string QualityKey = "";
+        internal string QualityEn = "";
+        internal QualityNote? CustomQuality;
+        /// <summary>性能的影响要结合机器内容才算得出；返回显示文字与数值差，算不出返回 null。</summary>
+        internal Func<GameItem, (string Metric, string Text, double Delta)?>? CustomPerformance;
+        internal bool UseDealMakerPower;
+    }
+
+    /// <summary>
+    /// 原版机器的唯一语义登记处。游戏数值或函数变化时改表，不为兼容而猜测未知机器。
+    /// 空表项仍可使用原版共同的耗电/速度模型；熔炉、拆解机没有可调用的质量函数，故不登记质量。
+    /// </summary>
+    private static readonly Dictionary<string, MachineEffectProfile> Profiles = new(StringComparer.Ordinal)
+    {
+        // 冶炼预览是机器状态，不是仅在质量百分比行存在时才显示的质量模组注释。
+        ["furnace"] = new(),
+        ["desequencer"] = new(),
+        ["moisture_farm"] = new()
+        {
+            Performance = MachineMoistureFarm.GetOutputVolume,
+            PerformanceKey = "module.output", PerformanceEn = "{0} ml/day", PerformanceDivisor = 1000,
+            CustomQuality = MoistureNextWater,
+        },
+        // 蒸发器（MachineEvaporator 夜间回调）：每晚蒸发 300 ml × (1 + 性能%)；
+        // 蒸馏液回收比例 = 质量加成限制在 0..100 后的百分比（装溶剂回收模组时只回收酒精）
+        ["evaporator"] = new()
+        {
+            Performance = m => (int)Math.Round(300000 * Math.Max(0f, 1f + MachineryHelper.GetCurrentPerformanceBonus(m) / 100f)),
+            PerformanceKey = "module.evaporate", PerformanceEn = "{0} ml evaporated per night", PerformanceDivisor = 1000,
+            Quality = m => Math.Clamp(MachineryHelper.GetCurrentQualityBonus(m), 0, 100),
+            QualityKey = "module.recover", QualityEn = "{0}% distillate recovered",
+        },
+        ["mirage_projector"] = new()
+        {
+            Performance = MachineProjector.GetAttractivenessBoost,
+            PerformanceKey = "module.attract", PerformanceEn = "{0}% attractiveness",
+            Quality = MachineProjector.GetAttractivenessBoost,
+            QualityKey = "module.attract", QualityEn = "{0}% attractiveness",
+        },
+        ["deal_maker"] = new()
+        {
+            Quality = MachineDealMaker.GetChanceIncrease,
+            QualityKey = "module.bargain", QualityEn = "{0}% bargain chance",
+            UseDealMakerPower = true,
+        },
+        ["security_alarm"] = new()
+        {
+            Performance = p => MachineAlarm.GetAlarmeStopRate(p),
+            PerformanceKey = "module.theft", PerformanceEn = "{0}% theft prevention",
+        },
+        // Pen 的自学习强化机（工坊 3828925546）：性能 = 每晚让模组获得「自学习」词条的概率
+        [SelfLearningMachine.MachineId] = LearningMachineProfile(),
+        [SelfLearningMachine.LegacyMachineId] = LearningMachineProfile(),
+        ["wine_rack"] = new() { CustomQuality = WineNextAging },
+        // 酿酒拓展（工坊 3829730904）的流年：AgeWell() 改 ID，耗电与陈化都走原版函数
+        ["be_liunian_ager"] = new() { CustomQuality = WineNextAging },
+        ["water_purifier"] = new() { CustomPerformance = PurifierRemoved, CustomQuality = PurifierPureWater },
+        ["printer"] = new()
+        {
+            Quality = ModuleHelper.GetAjustedQuality,
+            QualityKey = "module.print_quality", QualityEn = "{0} print quality",
+        },
+        ["plant_dna_manipulator"] = new()
+        {
+            Quality = ModuleHelper.GetAjustedQuality,
+            QualityKey = "module.success", QualityEn = "{0}% success chance",
+        },
+        ["hydroponic"] = new()
+        {
+            Quality = ModuleHelper.GetAjustedQuality,
+            QualityKey = "module.harvest", QualityEn = "{0}% harvest",
+        },
+    };
+
+    private static MachineEffectProfile LearningMachineProfile() => new()
+    {
+        Performance = SelfLearningMachine.GrantChance,
+        PerformanceKey = "module.learn_chance",
+        PerformanceEn = "{0}% chance each night to give a module the learning algorithm",
+        PerformancePlain = true,
+        CustomQuality = LearningExtraSteps,
+    };
+
+    // ---------------- 组装 ----------------
+
+    /// <summary>
+    /// 每种加成状态只建一次探针：当前加成 1 次，性能/效率/质量各清零 1 次。
+    /// 同一状态下的只读函数与耗电模型共用这一次拷贝，不再每个差分各拷两次。
+    /// </summary>
+    private static void Build(GameItem machine, Entry entry)
+    {
+        var notes = entry.Notes;
+        if (!Profiles.TryGetValue(machine.identifier ?? "", out var profile)) return;
+
+        var power = PowerModel(machine, profile);
+        var now = Take(machine, profile, power);
+        if (now == null) return;
+        if (power != null && !Reproduces(machine, now))
+        {
+            // 耗电与速度的注释因此整体消失；同一台机器时有时无，就是这里的结论随真实标签变了。
+            // 每种读数只记一次，把探针与真实值都写出来，下次出现时能直接对上是哪一项不一致。
+            LogMismatch(machine, now);
+            power = null;
+        }
+
+        int perfBonus = GameRead.TagInt(machine, PerfTag) ?? 0;
+        int powerBonus = GameRead.TagInt(machine, PowerTag) ?? 0;
+        int qualityBonus = GameRead.TagInt(machine, QualityTag) ?? 0;
+
+        // 效率：只算效率自己省下的电。
+        if (power != null && powerBonus != 0
+            && Diff(now.Drawn, Take(machine, profile, power, (PowerTag, 0))?.Drawn) is int ep)
+        {
+            notes[Efficiency] = Loc.T("module.power", "{0} power/day", Signed(ep));
+            entry.Changes[Efficiency] = Array.AsReadOnly(new[] { ("module.power", (double)ep) });
+        }
+
+        var perf = new List<string>();
+        var deltas = new List<(string Metric, double Delta)>();
+        var noPerf = perfBonus != 0 && (power != null || profile.Performance != null)
+            ? Take(machine, profile, power, (PerfTag, 0))
+            : null;
+        if (power != null && noPerf != null)
+        {
+            // 没有进度的机器（集水器、净水器……）游戏也会写速度标签，但这个指标对它们没有意义，不写。
+            // 有进度的机器速度差为 0 也写出来（+0 速度）：性能加成被原版整数取整吃掉时，玩家能看到「加了但没用」
+            if ((GameRead.TagInt(machine, "BASE_PROCESSING_SPEED_TAG") ?? 0) > 0
+                && Diff(now.Speed, noPerf.Speed) is int sp)
+            {
+                deltas.Add(("module.speed", sp));
+                string text = Loc.T("module.speed", "{0} speed", Plus(sp));
+                int faster = DaysFaster(machine, noPerf.Speed ?? 0);
+                if (faster > 0) deltas.Add(("module.days_faster", faster));
+                if (faster > 0) text += Loc.T("module.days_faster", ", about {0} {0|day|days} faster", faster);
+                perf.Add(text);
+            }
+            // 交易机、催陈器的性能也会降低耗电
+            if (Diff(now.Drawn, noPerf.Drawn) is int pp && pp != 0)
+            {
+                perf.Add(Loc.T("module.power", "{0} power/day", Signed(pp)));
+                deltas.Add(("module.power", pp));
+            }
+        }
+
+        if (profile.Performance != null && noPerf != null
+            && Diff(now.Performance, noPerf.Performance) is int delta && delta != 0)
+        {
+            var amount = delta / profile.PerformanceDivisor;
+            perf.Add(Loc.T(profile.PerformanceKey, profile.PerformanceEn, profile.PerformancePlain ? amount.ToString() : Plus(amount)));
+            deltas.Add((profile.PerformanceKey, amount));
+        }
+
+        if (profile.CustomPerformance != null && perfBonus != 0 && profile.CustomPerformance(machine) is { } custom)
+        {
+            perf.Add(custom.Text);
+            deltas.Add((custom.Metric, custom.Delta));
+        }
+
+        string? quality = null;
+        if (profile.CustomQuality != null)
+        {
+            quality = profile.CustomQuality(machine, out var step);
+            if (step.HasValue) entry.Changes[Quality] = Array.AsReadOnly(new[] { ("nextQualityBonus", (double)step.Value) });
+        }
+        else if (profile.Quality != null && qualityBonus != 0
+                 && Diff(now.Quality, Take(machine, profile, null, (QualityTag, 0))?.Quality) is int qualityDelta)
+        {
+            entry.Changes[Quality] = Array.AsReadOnly(new[] { (profile.QualityKey, (double)qualityDelta) });
+            quality = Loc.T(profile.QualityKey, profile.QualityEn, Plus(qualityDelta));
+        }
+
+        if (deltas.Count > 0) entry.Changes[Performance] = deltas.AsReadOnly();
+        if (perf.Count > 0) notes[Performance] = string.Join(Loc.T("list.sep", ", "), perf);
+        if (!string.IsNullOrEmpty(quality)) notes[Quality] = quality!;
+    }
+
+    private static int? Diff(int? now, int? zero)
+        => now == null || zero == null ? null : now.Value - zero.Value;
+
+    // ---------------- 耗电 / 速度模型 ----------------
+
+    /// <summary>这台机器把加成换算成耗电与速度用的游戏函数；能否采用由 <see cref="Reproduces"/> 校验。</summary>
+    private static Action<GameItem>? PowerModel(GameItem machine, MachineEffectProfile profile)
+    {
+        if (GameRead.TagInt(machine, DrawnTag) == null) return null;
+        if (profile.UseDealMakerPower) return MachineDealMaker.UpdatePowerUse;
+        if (GameRead.IsTag(machine, "SYSTEM_TAG")) return ModuleHelper.ApplyModifiedPower;
+        return p => ModuleHelper.ApplyBasicModuleEffect(null!, null!, p);
+    }
+
+    /// <summary>
+    /// 探针在当前加成下必须复现机器上的实际值，否则说明有别的东西改过
+    /// （涡轮增压、第三方公式），不给耗电和速度。
+    /// </summary>
+    private static bool Reproduces(GameItem machine, Sample now)
+    {
+        if (now.Drawn == null || now.Drawn != GameRead.TagInt(machine, DrawnTag)) return false;
+
+        // 有加工速度的机器，速度也要能复现；系统类模型不算速度，跳过
+        int baseSpeed = GameRead.TagInt(machine, "BASE_PROCESSING_SPEED_TAG") ?? 0;
+        if (baseSpeed > 0 && !GameRead.IsTag(machine, "SYSTEM_TAG")
+            && now.Speed != GameRead.TagInt(machine, SpeedTag))
+            return false;
+        return true;
+    }
+
+    private static readonly HashSet<string> LoggedMismatch = new();
+
+    private static void LogMismatch(GameItem machine, Sample now)
+    {
+        try
+        {
+            string line = string.Join(" ", machine.identifier,
+                "drawn(real/probe)=" + GameRead.TagInt(machine, DrawnTag) + "/" + now.Drawn,
+                "speed(real/probe)=" + GameRead.TagInt(machine, SpeedTag) + "/" + now.Speed,
+                "base=" + GameRead.TagInt(machine, "BASE_PROCESSING_SPEED_TAG") + "/" + GameRead.TagInt(machine, "MACHINERY_DRAWN_POWER_BASE"),
+                "bonus(p/e/q)=" + GameRead.TagInt(machine, PerfTag) + "/" + GameRead.TagInt(machine, PowerTag) + "/" + GameRead.TagInt(machine, QualityTag),
+                "state=" + GameRead.TagString(machine, "MACHINE_STATE_TAG"));
+            if (LoggedMismatch.Count < 64 && LoggedMismatch.Add(line))
+                Log.Warn("ModuleStatEffects.Reproduces", line);
+        }
+        catch { }
+    }
+
+    /// <summary>正在加工的进度型机器：去掉性能后要多花几天。<paramref name="speed0"/> 是性能清零后的速度。</summary>
+    private static int DaysFaster(GameItem machine, int speed0)
+    {
+        if (speed0 <= 0) return 0;
+        if (GameRead.TagString(machine, "MACHINE_STATE_TAG") != "STATE_WORKING") return 0;
+        int cur = GameRead.TagInt(machine, "MACHINE_PROGRESS_CURRENT_TAG") ?? 0;
+        int target = GameRead.TagInt(machine, "MACHINE_PROGRESS_TARGET_TAG") ?? 0;
+        int speed = GameRead.TagInt(machine, SpeedTag) ?? 0;
+        if (target <= cur || speed <= 0) return 0;
+
+        int left = target - cur;
+        return Ceil(left, speed0) - Ceil(left, speed);
+    }
+
+    private static int Ceil(int a, int b) => (a + b - 1) / b;
+
+    // ---------------- 采样 ----------------
+
+    /// <summary>一种加成状态下的读数；读不到的项为 null。</summary>
+    private sealed class Sample
+    {
+        internal int? Performance;
+        internal int? Quality;
+        internal int? Drawn;
+        internal int? Speed;
+    }
+
+    /// <summary>
+    /// 按 overrides 建一次探针：先调只读的性能/质量函数，再跑耗电模型（会改探针）读出耗电和速度。
+    /// 顺序不能反，否则只读函数会读到模型写过的标签。
+    /// </summary>
+    private static Sample? Take(GameItem machine, MachineEffectProfile profile, Action<GameItem>? model,
+                                params (string Tag, int Value)[] overrides)
+    {
+        var probe = Probe(machine, overrides);
+        if (probe == null) return null;
+
+        var s = new Sample();
+        if (profile.Performance != null) { try { s.Performance = profile.Performance(probe); } catch { } }
+        if (profile.Quality != null) { try { s.Quality = profile.Quality(probe); } catch { } }
+        if (model != null)
+        {
+            try
+            {
+                model(probe);
+                s.Drawn = GameRead.TagInt(probe, DrawnTag);
+                s.Speed = GameRead.TagInt(probe, SpeedTag);
+            }
+            catch { }
+        }
+        return s;
+    }
+
+    /// <summary>分档结果：当前档位下，再加多少百分点会进下一档；已到顶或找不到返回 -1。</summary>
+    private static int NextStep<T>(GameItem machine, string statTag, Func<GameItem, T> f)
+    {
+        int cur = GameRead.TagInt(machine, statTag) ?? 0;
+        // f 只读：整个二分共用一次拷贝，每步只改这一项加成
+        var probe = Probe(machine);
+        if (probe == null || !probe.modifiedState.dict.TryGetValue(statTag, out var slot) || slot == null)
+            throw new InvalidOperationException("probe");
+        T Eval(int bonus)
+        {
+            slot.SetInt(bonus);
+            return f(probe);
+        }
+
+        var now = Eval(cur);
+        if (EqualityComparer<T>.Default.Equals(Eval(cur + StepSearchLimit), now)) return -1;
+
+        // 分档函数单调：找最小的 d 使结果变化
+        int lo = 1, hi = StepSearchLimit;
+        while (lo < hi)
+        {
+            int mid = (lo + hi) / 2;
+            if (EqualityComparer<T>.Default.Equals(Eval(cur + mid), now)) lo = mid + 1;
+            else hi = mid;
+        }
+        return lo;
+    }
+
+    /// <summary>集水器：再加多少质量出水升到下一档，档名用游戏自己的水质名。</summary>
+    private static string? MoistureNextWater(GameItem machine, out int? nextBonus)
+    {
+        nextBonus = null;
+        try
+        {
+            int step = NextStep(machine, QualityTag, MachineMoistureFarm.GetOutputQuality);
+            if (step < 0)
+                return Loc.T("module.water_top", "producing {0}", MachineMoistureFarm.GetOutputQualityDisplay(machine));
+
+            int cur = GameRead.TagInt(machine, QualityTag) ?? 0;
+            var probe = Probe(machine, (QualityTag, cur + step));
+            if (probe == null) return null;
+            nextBonus = step;
+            return Loc.T("module.water_next", "+{0}% to produce {1}",
+                step, MachineMoistureFarm.GetOutputQualityDisplay(probe));
+        }
+        catch { return null; }
+    }
+
+    /// <summary>催陈器：再加多少质量每天多陈化一天。陈化天数随质量无上限递增。</summary>
+    /// <summary>自学习强化机：质量每满一档（说明里的百分数）多推进 1 次学习，写「每日+N次额外学习」。</summary>
+    private static string? LearningExtraSteps(GameItem machine, out int? nextBonus)
+    {
+        nextBonus = null;
+        if (SelfLearningMachine.QualityPerAdvance(machine) is not int per) return null;
+        int quality = Math.Max(-80, GameRead.TagInt(machine, QualityTag) ?? 0);
+        return Loc.T("module.learn_extra", "{0} extra learning steps per day", Plus(quality / per));   // 向零取整，同 Pen
+    }
+
+    private static string? WineNextAging(GameItem machine, out int? nextBonus)
+    {
+        nextBonus = null;
+        try
+        {
+            int step = NextStep(machine, QualityTag, MachineWineRack.GetAgingDays);
+            if (step > 0) nextBonus = step;
+            return step > 0 ? Loc.T("module.aging_next", "+{0}% for +1 aging speed", step) : null;
+        }
+        catch { return null; }
+    }
+
+    /// <summary>
+    /// 净水器：原版已写「纯度上限」，这里补再加多少质量能到纯水；已到纯水再补还差多少到 100%。
+    /// 上限与纯水线都取游戏的（GetMaxPurityCap、WATER_PURITIES[0]），按原始质量算，不除比率。
+    /// </summary>
+    private static string? PurifierPureWater(GameItem machine, out int? nextBonus)
+    {
+        nextBonus = null;
+        try
+        {
+            int q = GameRead.TagInt(machine, QualityTag) ?? 0;
+            int pure = WaterFeatureHelper.WATER_PURITIES[0];
+            string name = LocHelper.GetLocalizedMechanic("mech_condition_pure_water");
+            int cap = MachinePurifier.GetMaxPurityCap(q);
+            if (cap >= WaterInfo.PurityFull) return Loc.T("module.purifier_top", "purity cap at 100%");
+
+            bool toFull = cap >= pure;
+            int target = toFull ? WaterInfo.PurityFull : pure;
+
+            // 纯函数，直接按质量值试探，不需要探针
+            if (MachinePurifier.GetMaxPurityCap(q + StepSearchLimit) < target) return null;
+            int lo = 1, hi = StepSearchLimit;
+            while (lo < hi)
+            {
+                int mid = (lo + hi) / 2;
+                if (MachinePurifier.GetMaxPurityCap(q + mid) < target) lo = mid + 1;
+                else hi = mid;
+            }
+            nextBonus = lo;
+            return toFull
+                ? Loc.T("module.purifier_full", "+{0}% for 100% purity", lo)
+                : Loc.T("module.purifier_next", "+{0}% to purify to {1}", lo, name);
+        }
+        catch { return null; }
+    }
+
+    /// <summary>净水器容器里的水；没有容器、不是液体或已空时为 null。</summary>
+    private static GameItem? PurifierWater(GameItem machine)
+    {
+        var tank = MachineInterior.ReadContext(machine)?.FindPanel("container");
+        if (tank == null || tank.Items.Count == 0) return null;
+        var water = tank.Items[0];
+        return GameRead.IsTag(water, "LIQUID_CONTAINER_TAG") && !WaterHelper.IsEmpty(water) ? water : null;
+    }
+
+    /// <summary>今晚能净化多少取决于容器里的水，水变了要重算；其他机器不产生额外开销。</summary>
+    private static string PurifierWaterKey(GameItem machine)
+    {
+        if (!string.Equals(machine.identifier, "water_purifier", StringComparison.Ordinal)) return "";
+        var water = PurifierWater(machine);
+        return water == null ? "" : WaterAdvice.SafePurity(water) + "/"
+            + GameRead.TagInt(water, Liquid.GetCurrentPartFromId("water"));
+    }
+
+    /// <summary>净水器的性能决定今晚能净化多少：在探针上各模拟一次「当前」与「性能清零」，差值就是贡献。</summary>
+    private static (string Metric, string Text, double Delta)? PurifierRemoved(GameItem machine)
+    {
+        var water = PurifierWater(machine);
+        if (water == null) return null;
+
+        // 模拟用的壳按物品 ID 复用：先用真机器建好，探针再借同一个 ID 进去，不会克隆空物品
+        var (removed, _) = WaterAdvice.SimulateMachineRemoval(machine, water);
+        if (removed < 0) return null;
+        var probe = Probe(machine, (PerfTag, 0));
+        if (probe == null) return null;
+        string probeId = probe.identifier;
+        int zero;
+        try
+        {
+            probe.identifier = machine.identifier;
+            (zero, _) = WaterAdvice.SimulateMachineRemoval(probe, water);
+        }
+        finally { probe.identifier = probeId; }
+        if (zero < 0) return null;
+
+        int delta = removed - zero;
+        string amount = (delta < 0 ? "-" : "+") + WaterInfo.Ml(Math.Abs(delta));
+        return ("purifier.rate", Loc.T("purifier.rate", "{0}mL/tonight", amount), delta / 1000.0);
+    }
+
+    // ---------------- 探针 ----------------
+
+    /// <summary>
+    /// 复用同一个空物品壳，每次重新深拷贝机器的标签再改写指定加成。
+    /// 游戏函数在探针上调用 ModifyTag 只改探针，不碰真实机器。
+    /// </summary>
+    private static GameItem? Probe(GameItem machine, params (string Tag, int Value)[] overrides)
+    {
+        try
+        {
+            var tags = GameRead.DeepCloneTags(machine.modifiedState);
+            if (tags == null) return null;
+            foreach (var (tag, value) in overrides)
+            {
+                if (!tags.dict.TryGetValue(tag, out var state) || state == null) return null;
+                state.SetInt(value);
+            }
+
+            // 壳被游戏或别的模组销毁后不能再写：丢掉重建，否则模型在死壳上跑不出结果，注释整段消失
+            if (_probe != null && ProbeDestroyGuard.IsDestroyed(_probe)) _probe = null;
+            _probe ??= ItemDirectory.CreateEmptyItem("itemdetails_stat_probe");
+            _probe.modifiedState = tags;
+            _probe.state = tags;
+            _probe.flavorText = machine.flavorText;   // 自学习强化机按说明有几句判断是否授予词条
+            return _probe;
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModuleStatEffects.Probe", ex);
+            return null;
+        }
+    }
+
+    /// <summary>耗电：零变化也写成负数（-0），和玩家「效率+16% 应该减耗」的直觉一致。</summary>
+    private static string Signed(int delta) => delta <= 0 ? "-" + (-delta) : "+" + delta;
+
+    /// <summary>其它收益：零写成 +0。</summary>
+    private static string Plus(int delta) => delta >= 0 ? "+" + delta : delta.ToString();
+}
+
+}

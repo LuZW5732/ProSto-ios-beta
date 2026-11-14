@@ -1,3 +1,14 @@
+#if UNITY_IOS
+using System;
+public static class ModSteamGuard
+{
+    public static int GuardedCount => 0;
+    public static int BlockedCount => 0;
+    public static void Install() => throw new PlatformNotSupportedException("Desktop runtime guards require the desktop mod loader.");
+    public static void Verify() => throw new PlatformNotSupportedException("No desktop guards are installed on iOS.");
+    public static void Drain() => throw new PlatformNotSupportedException("No desktop mod guard queue exists on iOS.");
+}
+#else
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -247,3 +258,5 @@ public static class ModSteamGuard
 		return ModLoader.CallingModId();
 	}
 }
+
+#endif

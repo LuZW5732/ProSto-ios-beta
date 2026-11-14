@@ -1781,35 +1781,55 @@ public class AquacultureHelper
 		SpriteHelper.UpdateWaterContainerSprite(waterTank);
 	}
 
-	private static void RunRemediation(GameItem waterTank, float ml)
-	{
-		int num = Mathf.RoundToInt(ml * 1000f);
-		if (num <= 0)
-		{
-			return;
-		}
-		string currentPartFromId = Liquid.GetCurrentPartFromId("water");
-		int removed = 0;
-		string[] rEMEDIATED_LIQUIDS = REMEDIATED_LIQUIDS;
-		foreach (string text in rEMEDIATED_LIQUIDS)
-		{
-			Liquid liquidFromId = Liquid.GetLiquidFromId(text);
-			if (liquidFromId != null)
-			{
-				removed += WaterHelper.RemoveContaminantFromContainer(waterTank, text, num, liquidFromId.GetMaxPurityFromMachine(1.0));
-			}
-		}
-		if (removed > 0)
-		{
-			int water = waterTank.GetTagReadonly(currentPartFromId).GetInt();
-			waterTank.ModifyTag(currentPartFromId, (TagState state) =>
-			{
-				state.Enable().SetInt(water + removed);
-			});
-			WaterFeatureHelper.UpdateWaterFeature(waterTank, isExpose: false);
-			SpriteHelper.UpdateWaterContainerSprite(waterTank);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(AquacultureHelper), "RunRemediation", new System.Type[] { typeof(GameItem), typeof(float) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private static void RunRemediation(GameItem waterTank, float ml)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { waterTank, ml }, __portArguments =>
+    {
+        waterTank = (GameItem)__portArguments[0];
+        ml = (float)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        int num = Mathf.RoundToInt(ml * 1000f);
+        if (num <= 0)
+        {
+            return;
+        }
+
+        string currentPartFromId = Liquid.GetCurrentPartFromId("water");
+        int removed = 0;
+        string[] rEMEDIATED_LIQUIDS = REMEDIATED_LIQUIDS;
+        foreach (string text in rEMEDIATED_LIQUIDS)
+        {
+            Liquid liquidFromId = Liquid.GetLiquidFromId(text);
+            if (liquidFromId != null)
+            {
+                removed += WaterHelper.RemoveContaminantFromContainer(waterTank, text, num, liquidFromId.GetMaxPurityFromMachine(1.0));
+            }
+        }
+
+        if (removed > 0)
+        {
+            int water = waterTank.GetTagReadonly(currentPartFromId).GetInt();
+            waterTank.ModifyTag(currentPartFromId, (TagState state) =>
+            {
+                state.Enable().SetInt(water + removed);
+            });
+            WaterFeatureHelper.UpdateWaterFeature(waterTank, isExpose: false);
+            SpriteHelper.UpdateWaterContainerSprite(waterTank);
+        }
+    }
+}
 
 	private static void RunFilter(GameItem waterTank, GameItem filter)
 	{

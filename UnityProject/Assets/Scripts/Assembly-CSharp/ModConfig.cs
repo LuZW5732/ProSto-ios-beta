@@ -183,42 +183,53 @@ public class ModConfig
 		}
 	}
 
-	public void Save()
-	{
-		try
-		{
-			foreach (ConfigEntry entry in entries)
-			{
-				rawValues[entry.Key] = entry.Serialize();
-			}
-			ConfigFile configFile = new ConfigFile();
-			foreach (ConfigEntry entry2 in entries)
-			{
-				configFile.entries.Add(new ConfigFileEntry
-				{
-					key = entry2.Key,
-					value = rawValues[entry2.Key]
-				});
-			}
-			foreach (KeyValuePair<string, string> rawValue in rawValues)
-			{
-				if (Get(rawValue.Key) == null)
-				{
-					configFile.entries.Add(new ConfigFileEntry
-					{
-						key = rawValue.Key,
-						value = rawValue.Value
-					});
-				}
-			}
-			System.IO.Directory.CreateDirectory(RootFolder);
-			File.WriteAllText(FilePath, JsonUtility.ToJson(configFile, prettyPrint: true));
-		}
-		catch (Exception ex)
-		{
-			Debug.LogError("[ModConfig] " + ModId + ": could not write " + FilePath + ": " + ex.Message);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ModConfig), "Save", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void Save()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        try
+        {
+            foreach (ConfigEntry entry in entries)
+            {
+                rawValues[entry.Key] = entry.Serialize();
+            }
+
+            ConfigFile configFile = new ConfigFile();
+            foreach (ConfigEntry entry2 in entries)
+            {
+                configFile.entries.Add(new ConfigFileEntry { key = entry2.Key, value = rawValues[entry2.Key] });
+            }
+
+            foreach (KeyValuePair<string, string> rawValue in rawValues)
+            {
+                if (Get(rawValue.Key) == null)
+                {
+                    configFile.entries.Add(new ConfigFileEntry { key = rawValue.Key, value = rawValue.Value });
+                }
+            }
+
+            System.IO.Directory.CreateDirectory(RootFolder);
+            File.WriteAllText(FilePath, JsonUtility.ToJson(configFile, prettyPrint: true));
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError("[ModConfig] " + ModId + ": could not write " + FilePath + ": " + ex.Message);
+        }
+    }
+}
 
 	public void ResetToDefaults()
 	{

@@ -111,34 +111,54 @@ public class MachinePurifier
 		return machine;
 	}
 
-	public static int PurifyContainer(GameItem machine, GameItem waterContainer, bool ignoreBonus = false)
-	{
-		if (!waterContainer.IsTag("LIQUID_CONTAINER_TAG"))
-		{
-			return 0;
-		}
-		Debug.Log("Purifying water container");
-		int num = MachineryHelper.GetCurrentPerformanceBonus(machine);
-		int bonusQuality = MachineryHelper.GetCurrentQualityBonus(machine);
-		int totalVolume = WaterHelper.GetTotalVolume(waterContainer);
-		if (ignoreBonus)
-		{
-			num = 0;
-			bonusQuality = 0;
-		}
-		double dirtBonus = GetDirtBonus(WaterHelper.GetWaterPurity(waterContainer));
-		dirtBonus += (double)num / 100.0;
-		if (dirtBonus < 0.0)
-		{
-			dirtBonus = 0.0;
-		}
-		dirtBonus *= 1.25;
-		Debug.Log("Amount multiplier: " + dirtBonus);
-		long budget = (long)((double)((long)Math.Min(totalVolume, 10000000) * 3L / 1000 + 25000) * dirtBonus);
-		int result = RemoveLargestFirst(waterContainer, GetMaxPurityCap(bonusQuality), budget);
-		WaterFeatureHelper.UpdateWaterFeature(waterContainer, isExpose: false);
-		return result;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MachinePurifier), "PurifyContainer", new System.Type[] { typeof(GameItem), typeof(GameItem), typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static int PurifyContainer(GameItem machine, GameItem waterContainer, bool ignoreBonus = false)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<int>(__portHook0, null, new object[] { machine, waterContainer, ignoreBonus }, __portArguments =>
+    {
+        machine = (GameItem)__portArguments[0];
+        waterContainer = (GameItem)__portArguments[1];
+        ignoreBonus = (bool)__portArguments[2];
+        return __PortOriginal();
+    });
+    int __PortOriginal()
+    {
+        if (!waterContainer.IsTag("LIQUID_CONTAINER_TAG"))
+        {
+            return 0;
+        }
+
+        Debug.Log("Purifying water container");
+        int num = MachineryHelper.GetCurrentPerformanceBonus(machine);
+        int bonusQuality = MachineryHelper.GetCurrentQualityBonus(machine);
+        int totalVolume = WaterHelper.GetTotalVolume(waterContainer);
+        if (ignoreBonus)
+        {
+            num = 0;
+            bonusQuality = 0;
+        }
+
+        double dirtBonus = GetDirtBonus(WaterHelper.GetWaterPurity(waterContainer));
+        dirtBonus += (double)num / 100.0;
+        if (dirtBonus < 0.0)
+        {
+            dirtBonus = 0.0;
+        }
+
+        dirtBonus *= 1.25;
+        Debug.Log("Amount multiplier: " + dirtBonus);
+        long budget = (long)((double)((long)Math.Min(totalVolume, 10000000) * 3L / 1000 + 25000) * dirtBonus);
+        int result = RemoveLargestFirst(waterContainer, GetMaxPurityCap(bonusQuality), budget);
+        WaterFeatureHelper.UpdateWaterFeature(waterContainer, isExpose: false);
+        return result;
+    }
+}
 
 	public static (PixelWindow, GameSlotInventory, GameInventory, GameSlotInventory, GameSlotInventory) CreateMachineInventoryWindow(bool isDraggable = true, bool isCentered = true, int minWidth = 5)
 	{

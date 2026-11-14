@@ -7,7 +7,11 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
+#if !UNITY_IOS
 using HarmonyLib;
+#endif
+using ProbablyStolen.Port.Mods;
+// PORT_BUNDLED_HOST
 using QFSW.QC;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -69,7 +73,9 @@ public class ModLoader : MonoBehaviour
 
 	private static ModFingerprint loadingFingerprint;
 
+#if !UNITY_IOS
 	private static readonly Dictionary<string, Harmony> harmonies = new Dictionary<string, Harmony>();
+#endif
 
 	private static readonly Dictionary<string, ModFingerprint> fingerprints = new Dictionary<string, ModFingerprint>();
 
@@ -141,6 +147,10 @@ public class ModLoader : MonoBehaviour
 
 	private static string TranspilingModOf(StackFrame frame, MethodBase replacement, List<(LoadedMod mod, string folder)> folders)
 	{
+#if UNITY_IOS
+return null; // No emitted replacement methods in the static iOS loader.
+#else
+
 		MethodBase methodBase = null;
 		try
 		{
@@ -189,7 +199,9 @@ public class ModLoader : MonoBehaviour
 			}
 		}
 		return null;
-	}
+
+#endif
+}
 
 	public static string ModIdOfAssembly(Assembly assembly)
 	{
@@ -314,6 +326,27 @@ public class ModLoader : MonoBehaviour
 
 	private void Awake()
 	{
+#if UNITY_IOS
+
+        if (Instance != null) { UnityEngine.Object.Destroy(gameObject); return; }
+        Instance = this;
+        UnityEngine.Object.DontDestroyOnLoad(gameObject);
+        LoadModOrder();
+        var bundled = BundledModCatalog.Create();
+        mods.AddRange(bundled);
+        if (!ES3.KeyExists("portBundledDefaultsV1"))
+        {
+            foreach (var mod in bundled)
+                if (EnabledMods.Add(mod.Manifest.ID)) _modOrder.Add(mod.Manifest.ID);
+            ES3.Save("modOrder", _modOrder);
+            ES3.Save("portBundledDefaultsV1", true);
+        }
+        ApplySavedOrder();
+        foreach (var mod in bundled) LoadLocalization(mod);
+        foreach (var mod in mods) BundledModCatalog.Initialize(mod, EnabledMods.Contains(mod.Manifest.ID));
+
+#else
+
 		if (Instance != null)
 		{
 			UnityEngine.Object.Destroy(base.gameObject);
@@ -343,7 +376,9 @@ public class ModLoader : MonoBehaviour
 		LoadModAssets();
 		LogAudit();
 		StartCoroutine(ModTrustList.Fetch());
-	}
+
+#endif
+}
 
 	private void Start()
 	{
@@ -355,6 +390,10 @@ public class ModLoader : MonoBehaviour
 
 	private void Update()
 	{
+#if UNITY_IOS
+if (Instance == this) ModHelper.DrainMainThread();
+#else
+
 		if (!(Instance != this))
 		{
 			ModSteamGuard.Drain();
@@ -366,7 +405,9 @@ public class ModLoader : MonoBehaviour
 				ModSteamGuard.Verify();
 			}
 		}
-	}
+
+#endif
+}
 
 	public static string GetModLabel(ModManifest manifest)
 	{
@@ -432,6 +473,16 @@ public class ModLoader : MonoBehaviour
 	[ModRestricted("loader-target", "enables or disables mods, which only the player does")]
 	public static void SetModEnabled(string id, bool enabled)
 	{
+#if UNITY_IOS
+
+        if (!BundledModCatalog.Contains(id)) throw new PlatformNotSupportedException("This build supports bundled mods only.");
+        if (enabled) { if (EnabledMods.Add(id)) _modOrder.Add(id); }
+        else { EnabledMods.Remove(id); _modOrder.Remove(id); }
+        ES3.Save("modOrder", _modOrder);
+        RestartRequired = true; // Let active solver/coroutine work finish; apply at restart.
+
+#else
+
 		RequireNoMod("enable or disable a mod");
 		if (enabled)
 		{
@@ -449,7 +500,9 @@ public class ModLoader : MonoBehaviour
 		ES3.Save("modOrder", _modOrder);
 		RestartRequired = true;
 		UnityEngine.Debug.Log($"[ModLoader] '{id}' enabled={enabled} (restart required)");
-	}
+
+#endif
+}
 
 	private static void DisableSilently(string id)
 	{
@@ -638,6 +691,12 @@ public class ModLoader : MonoBehaviour
 
 	public static ModEnableCheck CheckEnable(LoadedMod mod)
 	{
+#if UNITY_IOS
+return new ModEnableCheck { Mod = mod,
+        Refusal = mod != null && mod.Source == ModSource.Bundled && BundledModCatalog.Contains(mod.Manifest.ID)
+            ? null : "This iOS build supports its bundled mods only." };
+#else
+
 		ModEnableCheck modEnableCheck = new ModEnableCheck
 		{
 			Mod = mod
@@ -652,7 +711,9 @@ public class ModLoader : MonoBehaviour
 			modEnableCheck.Refusal = LocHelper.GetLocalizedUIOrDefault("ui_mods_enable_unreadable", "{0} could not be scanned: {1}", GetModLabel(mod.Manifest), ex.Message);
 			return modEnableCheck;
 		}
-	}
+
+#endif
+}
 
 	private static ModEnableCheck CheckEnableCore(LoadedMod mod, ModEnableCheck check)
 	{
@@ -749,6 +810,12 @@ public class ModLoader : MonoBehaviour
 	[ModRestricted("loader-target", "approves a mod, which only the player does")]
 	public static void ApproveAndEnable(LoadedMod mod, ModEnableCheck check)
 	{
+#if UNITY_IOS
+if (check == null || check.Mod != mod || check.Refusal != null || mod.Source != ModSource.Bundled)
+            throw new InvalidOperationException("Invalid bundled mod enable request.");
+        SetModEnabled(mod.Manifest.ID, true);
+#else
+
 		RequireNoMod("approve a mod");
 		if (check != null && check.Refusal == null && check.Mod == mod)
 		{
@@ -761,11 +828,17 @@ public class ModLoader : MonoBehaviour
 			SetModEnabled(mod.Manifest.ID, enabled: true);
 			UnityEngine.Debug.Log($"[ModLoader] '{mod.Manifest.ID}' approved: hash {check.Fingerprint.Combined}, capabilities {ModCapability.FormatIds(check.Scan.Capabilities)}, list {check.Verdict}");
 		}
-	}
+
+#endif
+}
 
 	[ModRestricted("loader-target", "turns developer mode on, which only the player does")]
 	public static bool SetDeveloperMode(LoadedMod mod, bool on)
 	{
+#if UNITY_IOS
+throw new PlatformNotSupportedException("External DLL mods are not supported on iOS.");
+#else
+
 		RequireNoMod("change developer mode");
 		if (mod.Source != ModSource.Local)
 		{
@@ -777,10 +850,16 @@ public class ModLoader : MonoBehaviour
 			mod.TrustRecord = ModTrust.Get(mod.Manifest.ID);
 		}
 		return num;
-	}
+
+#endif
+}
 
 	private static Assembly ResolveModDependency(object sender, ResolveEventArgs args)
 	{
+#if UNITY_IOS
+throw new PlatformNotSupportedException("Dynamic assemblies are not supported on iOS.");
+#else
+
 		string text;
 		try
 		{
@@ -840,7 +919,9 @@ public class ModLoader : MonoBehaviour
 			}
 		}
 		return null;
-	}
+
+#endif
+}
 
 	private static ulong WorkshopOwner(ulong workshopId)
 	{
@@ -857,6 +938,10 @@ public class ModLoader : MonoBehaviour
 
 	private static void ReapplyListVerdicts()
 	{
+#if UNITY_IOS
+return; // No external mods were loaded by this build.
+#else
+
 		try
 		{
 			foreach (LoadedMod mod in mods)
@@ -894,10 +979,17 @@ public class ModLoader : MonoBehaviour
 			Debug.LogError($"[ModLoader] Re-check against the trust list failed: {ex.Message}\n{ex}");
 		}
 		OnTrustRefreshed?.Invoke();
-	}
+
+#endif
+}
 
 	internal static void StopRunningMod(LoadedMod mod, bool callOnDisable)
 	{
+#if UNITY_IOS
+if (mod.Source != ModSource.Bundled) throw new PlatformNotSupportedException();
+        BundledModCatalog.Stop(mod); RestartRequired = true;
+#else
+
 		string modLabel = GetModLabel(mod.Manifest);
 		if (callOnDisable && mod.Instance != null)
 		{
@@ -954,7 +1046,9 @@ public class ModLoader : MonoBehaviour
 		{
 			Debug.LogWarning("[" + modLabel + "] Could not destroy its MonoBehaviours: " + ex4.Message);
 		}
-	}
+
+#endif
+}
 
 	public static List<Assembly> AssembliesOf(LoadedMod mod)
 	{
@@ -1577,6 +1671,10 @@ public class ModLoader : MonoBehaviour
 
 	private void LoadModDll(string dllPath, string modFolder, ModManifest manifest, ModSource source, ulong workshopId, ModFingerprint checkedFiles)
 	{
+#if UNITY_IOS
+throw new PlatformNotSupportedException("Dynamic assemblies are not supported on iOS.");
+#else
+
 		string fileName = Path.GetFileName(dllPath);
 		UnityEngine.Debug.Log("[ModLoader] Loading: " + fileName);
 		AssemblyName assemblyName = AssemblyName.GetAssemblyName(dllPath);
@@ -1652,7 +1750,9 @@ public class ModLoader : MonoBehaviour
 			ReportLoadError(loadedMod, ex, "Harmony patching or Init");
 		}
 		UnityEngine.Debug.Log("[ModLoader]   " + (flag ? "Initialized" : "Init failed") + ": " + manifest.Name + " v" + manifest.ModVersion);
-	}
+
+#endif
+}
 
 	private static void VerifyUnchanged(string dllPath, string modFolder, ModFingerprint checkedFiles)
 	{
@@ -1871,6 +1971,10 @@ public class ModLoader : MonoBehaviour
 
 	private void OnApplicationQuit()
 	{
+#if UNITY_IOS
+foreach (var mod in mods) BundledModCatalog.Stop(mod);
+#else
+
 		ModSteamAuth.CancelAll();
 		foreach (LoadedMod mod in mods)
 		{
@@ -1887,5 +1991,7 @@ public class ModLoader : MonoBehaviour
 				}
 			}
 		}
-	}
+
+#endif
+}
 }

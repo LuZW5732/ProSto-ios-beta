@@ -9,13 +9,31 @@ public class InspectableHelper
 		gameItem.EnableTag("INSPECTABLE_TAG");
 	}
 
-	public static void CreateInspectableTooltip(RichTextBuilder builder, GameItem item)
-	{
-		if (item.IsTag("INSPECTABLE_TAG") && PlayerStore.Instance.isVisualInspectionIntroduced)
-		{
-			builder.AddLine(LocHelper.GetLocalizedMechanic("mech_inspectable_tooltip"), ignoreEmpty: true, RenderHandler.ColorPalette.LightOrange, bold: false, italic: true);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(InspectableHelper), "CreateInspectableTooltip", new System.Type[] { typeof(RichTextBuilder), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void CreateInspectableTooltip(RichTextBuilder builder, GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { builder, item }, __portArguments =>
+    {
+        builder = (RichTextBuilder)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (item.IsTag("INSPECTABLE_TAG") && PlayerStore.Instance.isVisualInspectionIntroduced)
+        {
+            builder.AddLine(LocHelper.GetLocalizedMechanic("mech_inspectable_tooltip"), ignoreEmpty: true, RenderHandler.ColorPalette.LightOrange, bold: false, italic: true);
+        }
+    }
+}
 
 	public static void OnConfrontSuccess(GameItem gameItem)
 	{
