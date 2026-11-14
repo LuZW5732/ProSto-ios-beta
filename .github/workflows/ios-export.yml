@@ -43,9 +43,14 @@ jobs:
         run: |
           set -euo pipefail
           xcodebuild -version
-          test -d build/iOS/Unity-iPhone.xcodeproj
+          xcode_project=build/iOS/iOS/Unity-iPhone.xcodeproj
+          if [[ ! -d "$xcode_project" ]]; then
+            printf 'Unity Xcode project missing at %s; found:\n' "$xcode_project" >&2
+            find build/iOS -maxdepth 3 -name '*.xcodeproj' -print >&2
+            exit 1
+          fi
           xcodebuild \
-            -project build/iOS/Unity-iPhone.xcodeproj \
+            -project "$xcode_project" \
             -scheme Unity-iPhone \
             -configuration Release \
             -sdk iphoneos \
