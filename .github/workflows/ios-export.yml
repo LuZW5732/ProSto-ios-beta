@@ -1,5 +1,4 @@
-
-name: Build iOS Xcode Project
+name: Build iOS App
 
 on:
   workflow_dispatch:
@@ -37,4 +36,56 @@ jobs:
           name: ios-xcode-project
           path: build/iOS
           if-no-files-found: error
+          retention-days: 7
+
+      - name: Compile unsigned iOS app with Xcode
+        shell: bash
+        run: |
+          set -euo pipefail
+          xcodebuild -version
+          test -d build/iOS/Unity-iPhone.xcodeproj
+          xcodebuild \
+            -project build/iOS/Unity-iPhone.xcodeproj \
+            -scheme Unity-iPhone \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath "$RUNNER_TEMP/ProbablyStolenDerivedData" \
+            CODE_SIGNING_ALLOWED=NO \
+            build 2>&1 | tee "$RUNNER_TEMP/xcodebuild-ios.log"
+
+      - name: Package unsigned IPA
+        shell: bash
+        run: |
+          set -euo pipefail
+          products="$RUNNER_TEMP/ProbablyStolenDerivedData/Build/Products/Release-iphoneos"
+          shopt -s nullglob
+          apps=("$products"/*.app)
+          if (( ${#apps[@]} != 1 )); then
+            printf 'Expected one iOS app, found %s\n' "${#apps[@]}" >&2
+            exit 1
+          fi
+          test -d "${apps[0]}"
+          test -f "${apps[0]}/Info.plist"
+          mkdir -p build/unsigned/Payload
+          cp -R "${apps[0]}" build/unsigned/Payload/
+          (cd build/unsigned && zip -qry ../ProbablyStolen-unsigned.ipa Payload)
+          test -s build/ProbablyStolen-unsigned.ipa
+          unzip -tq build/ProbablyStolen-unsigned.ipa
+
+      - name: Upload unsigned IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-unsigned-ipa
+          path: build/ProbablyStolen-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload Xcode build log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-xcode-build-log
+          path: ${{ runner.temp }}/xcodebuild-ios.log
+          if-no-files-found: ignore
           retention-days: 7
