@@ -28,7 +28,11 @@ public class SteamManager : MonoBehaviour
 		}
 	}
 
+#if UNITY_IOS
+	public static bool Initialized => false;
+#else
 	public static bool Initialized => Instance.m_bInitialized;
+#endif
 
 	[MonoPInvokeCallback(typeof(SteamAPIWarningMessageHook_t))]
 	protected static void SteamAPIDebugTextHook(int nSeverity, StringBuilder pchDebugText)
@@ -51,6 +55,13 @@ public class SteamManager : MonoBehaviour
 			return;
 		}
 		s_instance = this;
+#if UNITY_IOS
+		// Steam's desktop native library is unavailable on iOS. Keep the service
+		// unavailable instead of entering the desktop missing-library quit path.
+		m_bInitialized = false;
+		UnityEngine.Object.DontDestroyOnLoad(base.gameObject);
+		Debug.Log("[iOS Port] Desktop Steam service is unavailable on this platform.", this);
+#else
 		if (s_EverInitialized)
 		{
 			throw new Exception("Tried to Initialize the SteamAPI twice in one session!");
@@ -88,6 +99,7 @@ public class SteamManager : MonoBehaviour
 		{
 			s_EverInitialized = true;
 		}
+#endif
 	}
 
 	protected virtual void OnEnable()
@@ -96,11 +108,13 @@ public class SteamManager : MonoBehaviour
 		{
 			s_instance = this;
 		}
+#if !UNITY_IOS
 		if (m_bInitialized && m_SteamAPIWarningMessageHook == null)
 		{
 			m_SteamAPIWarningMessageHook = SteamAPIDebugTextHook;
 			SteamClient.SetWarningMessageHook(m_SteamAPIWarningMessageHook);
 		}
+#endif
 	}
 
 	protected virtual void OnDestroy()
@@ -108,18 +122,22 @@ public class SteamManager : MonoBehaviour
 		if (!(s_instance != this))
 		{
 			s_instance = null;
+#if !UNITY_IOS
 			if (m_bInitialized)
 			{
 				SteamAPI.Shutdown();
 			}
+#endif
 		}
 	}
 
 	protected virtual void Update()
 	{
+#if !UNITY_IOS
 		if (m_bInitialized)
 		{
 			SteamAPI.RunCallbacks();
 		}
+#endif
 	}
 }
