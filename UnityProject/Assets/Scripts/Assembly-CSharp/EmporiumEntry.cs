@@ -993,7 +993,10 @@ private void Start()
 				num = 1f;
 			}
 		}
-		Debug.Log("UI scale for game area " + gameAreaWidth + "x" + gameAreaHeight + ": " + num);
+#if UNITY_IOS
+        num *= ProbablyStolen.Port.PortDisplaySettings.UiSize.Scale;
+#endif
+        Debug.Log("UI scale for game area " + gameAreaWidth + "x" + gameAreaHeight + ": " + num);
 		RenderHandler.current.windowUICanvas.scaleFactor = num;
 		UIFamilyLayer.SyncScale();
 		Canvas overlayCanvas = RenderHandler.current.OverlayCanvas;

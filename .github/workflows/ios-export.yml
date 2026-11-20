@@ -71,7 +71,17 @@ jobs:
             exit 1
           fi
           test -d "${apps[0]}"
-          test -f "${apps[0]}/Info.plist"
+          python3 - "${apps[0]}/Info.plist" <<'PY'
+          import plistlib, sys
+          with open(sys.argv[1], "rb") as stream:
+              info = plistlib.load(stream)
+          key = "UISupportedInterfaceOrientations"
+          expected = {"UIInterfaceOrientationLandscapeLeft", "UIInterfaceOrientationLandscapeRight"}
+          for device in ("iphone", "ipad"):
+              orientations = info.get(key + "~" + device, info.get(key, []))
+              if set(orientations) != expected:
+                  sys.exit(f"Unexpected {device} orientations in built app: {orientations}")
+          PY
           mkdir -p build/unsigned/Payload
           cp -R "${apps[0]}" build/unsigned/Payload/
           (cd build/unsigned && zip -qry ../ProbablyStolen-unsigned.ipa Payload)

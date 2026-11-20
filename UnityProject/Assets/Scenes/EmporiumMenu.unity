@@ -47764,6 +47764,7 @@ MonoBehaviour:
   endlessToggle: {fileID: 1779}
   versionTMP: {fileID: 1433}
   portNoticeTypeface: {fileID: 12800000, guid: 8a2afd130cb94684abd985e5081cdf29, type: 3}
+  settingsTypeface: {fileID: 12800000, guid: c1f3487e7dde10749a7327a420305978, type: 3}
   creditPanel: {fileID: 21}
   welcomePanel: {fileID: 77}
   modPanel: {fileID: 178}

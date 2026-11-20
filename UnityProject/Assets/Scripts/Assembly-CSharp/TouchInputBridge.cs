@@ -36,6 +36,12 @@ namespace ProbablyStolen.Port
             if (Instance != null && Instance != this) { Destroy(gameObject); return; }
             Instance = this;
             DontDestroyOnLoad(gameObject);
+#if UNITY_IOS
+            Screen.autorotateToLandscapeLeft = Screen.autorotateToLandscapeRight = true;
+            Screen.autorotateToPortrait = Screen.autorotateToPortraitUpsideDown = false;
+            Screen.orientation = ScreenOrientation.AutoRotation;
+            gameObject.AddComponent<PortDisplaySettings>();
+#endif
             previousSimulation = UnityEngine.Input.simulateMouseWithTouches;
             UnityEngine.Input.simulateMouseWithTouches = false;
             UnityEngine.Input.multiTouchEnabled = true;

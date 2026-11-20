@@ -465,7 +465,9 @@ public static class GameOptionRegistry
 		}));
 		Section orAddSection3 = GetOrAddSection("display", MainMenu("option_graphic"));
 #if UNITY_IOS
-		orAddSection3.entries.Add(Slider("ios_toolbar_size",
+		orAddSection3.entries.Add(ProbablyStolen.Port.PortDisplaySettings.UiSize.CreateSlider());
+        orAddSection3.entries.Add(ProbablyStolen.Port.PortDisplaySettings.TextSize.CreateSlider());
+        orAddSection3.entries.Add(Slider("ios_toolbar_size",
 			() => LocHelper.GetCurrentLocaleCode()?.StartsWith("zh") == true ? "工具栏按键大小" : "Toolbar button size",
 			() => ProbablyStolen.Port.PortTouchToolbar.SizePercent,
 			v => ProbablyStolen.Port.PortTouchToolbar.SizePercent = Mathf.RoundToInt(v),

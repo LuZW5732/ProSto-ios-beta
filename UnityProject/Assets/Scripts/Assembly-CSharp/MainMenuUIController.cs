@@ -53,6 +53,7 @@ public class MainMenuUIController : MonoBehaviour
 
 	public TextMeshProUGUI versionTMP;
 	[SerializeField] private Font portNoticeTypeface;
+	[SerializeField] private Font settingsTypeface;
 
 	public GameObject creditPanel;
 
@@ -138,7 +139,10 @@ public class MainMenuUIController : MonoBehaviour
 
 	private void Awake()
 	{
-		Debug.Log("MainMenuUIController Awake.");
+#if UNITY_IOS
+        ProbablyStolen.Port.PortDisplaySettings.ConfigureFont(settingsTypeface, modPanel);
+#endif
+        Debug.Log("MainMenuUIController Awake.");
 		EmporiumAnalytics.InitAnalytics();
 		NewGameData.HardReset();
 		if (Instance != null && Instance != this)
