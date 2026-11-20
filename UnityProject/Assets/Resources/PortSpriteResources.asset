@@ -1,0 +1,2657 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641fd837f8935bedb03957fdb2e1c0ad, type: 3}
+  m_Name: PortSpriteResources
+  m_EditorClassIdentifier:
+  entries:
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: 4beafd88527bb834996e8023a4bcb2e0, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: afb9ee89cd2dad641bcd4ba1f1fbc191, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: aab18505524bf524da64867069899920, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: bdce64c288a064448bf3aad5e4f0aa49, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: 08d8484f8720813438a23cc5c79acd79, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: 28da2bca6b399724399bd79494205871, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: c5236f348a172004b938d0e662c6bec4, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: fc6383b7e57cc894aa65b7f99c83637a, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: 67d544f6be52f6b47a60d3b8bf30b86e, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: aef9f61ca9705ff4799a83dbc0f24014, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: 7cf3865f678816c459feb244440d6038, type: 2}
+  - path: "items/beer_case"
+    sprite: {fileID: 21300000, guid: eefc633f3e43d5145aab41febf750ceb, type: 2}
+  - path: "items/dossier"
+    sprite: {fileID: 21300000, guid: fb9f4199df6396640bf59bcbc60d0736, type: 2}
+  - path: "items/dossier"
+    sprite: {fileID: 21300000, guid: f314a834fd4e77b459b88d824cae29dc, type: 2}
+  - path: "items/dossier"
+    sprite: {fileID: 21300000, guid: a2bf9115bea31e544b4ff66350950ed0, type: 2}
+  - path: "items/dossier"
+    sprite: {fileID: 21300000, guid: e873cb3af90923842a907da8caef4388, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 2633a1d35b727ae47b489521763d9949, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 3a439cb8f3b7acd408bd651296edd182, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 8f30166e560056c4181d596ac19f5b3b, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 22dc6e99ac16da04ca54041b86354f8f, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 936cc517cff70fc4a8d36c66d026507b, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: e3f92b8ebb5eabc4789d4c3f04d1cede, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 38650daf7801ac2478a1439976fb9d35, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 140dcd75af6bd7b4c9e4ac1750389463, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 327b7f233690d5746ad78122f363fe2d, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 9c069db8924376448adbada1e2e852e1, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 38fa5262be86b2b4f941ca504ab7853a, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 68d095529f5f3a04c99c55f850a3f458, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: aae53672980421042b5137369f68e2b3, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 9c4e5237e213eb94592baea49e5aee11, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 6b9ed31a96520c64e8778ebfd4288333, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 547713a51460b174eb6e10cfcb332230, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: af68651e50d0eae42809c85287665307, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 01877022901367042ad0d8005ccb9650, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: e6cd37ebcee5c194b9c8d9016de73347, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 5769fda2156da0b49823bfc860e15aa9, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 6315efd09e50d694491f87636752bc41, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 6bfa4464eabb419479ef1a287afc948c, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 5bd75078c7fdaa24ea1123bbb2098813, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 555bf5029778ebe4b97f3affbd8bee32, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 588099d554bcf8d44ad8e3e2eb1df878, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 1557f3182a5994f43ace002e02124a89, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 7a77e67bf88ec4749abdc74cfe0f1158, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: fbb68326386609845b960a8188d376e9, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 6a60df1bb82a6124daa11f13d7378a18, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 5e6b7e5006575de4aa3b49ce77f710a1, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 55274b2c2f87fc244b113159404ed2b2, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 7e976f9d43c71ae4f937f2ec3e2d66d1, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 0d34d91b4e67e244dbe2deb6cd346736, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: fc6b02a1300222a459abe22f448632da, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 448162edb23f8bf42a5271fa3420c714, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: d7f8478d23d889447be01c98775bddf2, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 9a82424204d6e194697d75a680fc6d0d, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: daa7a85c46fd78f418c7fdb2f7493700, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 9f6eff72b33447343b76e8ef161dedcd, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 75a0687d5b14a5f41a9bc3fad8fabd5c, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 7d3dde703fd5d414ab3eb89df98cb01f, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 05153a8a9127a9f47b26ec6b79488489, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 6cdee5210e254904db27547206324036, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: ef992f5a9d27bba4597ddf6ac7d8d69d, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 7cae654a86757394395130d1c3c95a5c, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 854cfc5853fbfc742941de7966ec6243, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: b3a8f836c0ffa2642a9fa3e4dffd1a01, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 66a3d92095550444aa3ea3d58714848a, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: af34920d512a5654092f88724713389b, type: 2}
+  - path: "items/itematlas"
+    sprite: {fileID: 21300000, guid: 6b1e130a5108d4b4a91c20800d86fa54, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 78dbffb48062e384bb63d95f8764c225, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 4512e31b2c58e8b44bdfd936d2349687, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: f98a9c0f31bbf884085f4ed3a29a54d8, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 20a725f568ad1d24a979e28f621bcc4c, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: c40df6a372200574096f1f758f0d20d3, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: d2b11a4046afac24caf62128e107400b, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 6407b4e1fb74fce40a7c272827ed62b2, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: d37cfe6d103682b408ca756427448063, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: a92203f595d7dec4ab6ec6d8a16d416b, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 16f1a4e2e71c86d4996082a1b31d9f97, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 32d4aa22e128ae346a377320d8218653, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 005cc4b8a41cec940bf89d1a566e42d5, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 24f4ba4512e578d40aa9f110d47d60f3, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 773aae31650c4144fad39da3bf7ab0ef, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 4ab104c96d7a5b44caedeab81794d376, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: eed5c129a9c67de4d8fe9d23dff1814f, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 950b0f2e46feaf64f9252b3483ccd18b, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 62bbceb153698cd458ea549229c8acde, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 605fd5b7adf778944ba5879e98863b26, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 3fae54a6c3b635c47871b06c08a85220, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: cc7334658da49074f87f499d98a38582, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 6d4da61c318c6014e9d4f97cb60778ad, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 0b5f34ec4c9524743843a1a35238ebc4, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: bc8c6669bd4d47945841fe50009c8f6a, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: de3b4127d391dfb48a4bc565a5ae0f65, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: f063c33ca2c565f4d8f7e7d63ea2c32e, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 59b7e1e4ea2730747981ad71e57dc928, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: b26e4532bc6d61b40bc8eb8e6f008366, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: f21ae114f8219f6448a53cd14dce8a80, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: d77f77488da658c49a989b0adf0b4857, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 0a79764f0abe8da4bbf39670cf19cdc2, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 66cc95a45c110bc4ab103aa1f80f7307, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 7637178f5d44ae244ba1c2abfc2e03c1, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 524c970ff54785e4d90c26d9e547e49d, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 2a924756c37422847b7bb55af50eda2a, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: a4cd233564153454696cdbceb1ecd66b, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: b021a0dad1d1dcb4da2dc4e22d8dbfed, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: f3d2d2ee4b76b964bac4b3e68e033344, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: c1dc50777a0922c4a83d052d23d0e742, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: a0cd95402fb85e64db89d20462a723fb, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: e70b183c1272dab47b488eedade5e006, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 0877d645beb1d7844ac857050c63432e, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: d9efeee767160404392d4c75138351fb, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 4ce44764df9f1d241bb085cdd5bbbd5d, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: f71aa36dc7f685044b8f9dc930f421ee, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: bee27f596ed468f40842b3e7b31e67f0, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 4d81ab4831add41408b84bde0491883a, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 71ae5cdaa03fc5d46b5e081d8a3af036, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: dd626b6b276a14a41b0c609521259096, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 310684195cd287e4aaed45e0cf40cf5f, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: d0e358f55a139e14c9215687adeb86eb, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 4ee521d1f4509da439906d141f6cf6b4, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: 6e87f1f07ddfef042aa0d6b7c40caa87, type: 2}
+  - path: "items/items_amenities"
+    sprite: {fileID: 21300000, guid: ea7d36b51a395184499d49e20afbe905, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: e6721b9d0a19b2d4ab8dd5062a43ecb8, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: e3a358788d1e414499d46ec5d2cdbcbf, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: f258095d7f1091d4daf7f0ae14cfec79, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: beddb8d64a0c4774ab8ce55b795356a5, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 047a0ba8096962b4d971fdc907091330, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 5110790ce2a8eb94f98e5019bfff37b7, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 6c13c9aa03d5e174fbc431d96349ce01, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: e159556dba578914295e0520dafd1ae7, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: e624fdd60b4978b46ab33a773be8876f, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: e71dbaef9e1b00e4583b7636442e4f29, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: b13652c5e8f214848acda7c7d6c94378, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 85d07bbdaaab2924983b9eb3d28cf2b4, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 3043527dd2d3b2c49a62fa2eab9aa545, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 307ef3ab5f8a94a4c9b78ed42bf0d97b, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: ecde8602db081924d8d7385a8b5ca46a, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: c9a5b2e14fb5d9a4fbc701a5aa564d52, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 38ea6715475b7674b92211858dee8cde, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: f3ced8daaa2c46642a0af5d00e88ecde, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 4a265a4d901686042b6d67de2e733a10, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: b2f728016b1f2f047b04142f41a05bca, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 798a66770e24ef24385d545282d80b3d, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 885392ecaff51f745b1f3ec114dd56e5, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 4cc2f3d39c79d50428e97d46191c5f47, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: aacd72d3ca0fdf94ba603a084a69ff2f, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 4dd606e0dde3f154fba2f7ac288fd85d, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: bb4d905d5587ee14595e66d14aff715d, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 7b1c7965d03a2fc45884094c9b8bee50, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: e9d42cbc59b528a4aa86e548b31c49c7, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 13911fdb6e3ed1e41878a8b2e859dfed, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 57b420fa4d41f3e439f033342864e07e, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: fb1d3a67b00947041be4c38e939f8e76, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 8f0dce5f8f4f73443a01b4bc4c51ca79, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 0b5d4a11d912ecc44a3ca3da2f0d0219, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 9c0d2ddef413db14693021d174f66172, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: db72fde3b75c75d4aad490d79fb2e4f4, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 1d3e673430ba8cb47903267b1926d394, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 69cecd20409efee4d89271f11c0022ba, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 14fcb997989fbdb4794486c01c9fa09b, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 22777d0a1acae3f42a37ccb488efcdeb, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 0e2fc36408f9c2849b12f82feb51090d, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: d4c6ba1f43803ac4ba2bb4c4bf1c77e1, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: d141d25baa4cc2344bb71b02fb2acd68, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 977aee0507e9ee84084090f2c3d83663, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 18101f8ae93595a45a896812c14c1642, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 72c00392abe4d1a4b82ed32307b8f356, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 2c8cbeb5e66bb3b4190ec13258552243, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 6c691a923e786e6408c30012a9f25998, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 6ede0a9df23b674449f9efc1736dfcb2, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 64672068eb60f234abab547c88b92eae, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 0b15c5d9ffca1c34cb3f063b53307395, type: 2}
+  - path: "items/items_aquaculture"
+    sprite: {fileID: 21300000, guid: 98002c27497397e4181fc46fd4aaeb4f, type: 2}
+  - path: "items/items_armor"
+    sprite: {fileID: 21300000, guid: 0af83daf8fbd5db49acece26fcc0ad2b, type: 2}
+  - path: "items/items_armor"
+    sprite: {fileID: 21300000, guid: 8da892d434d293c4d86c8bbf0bd4710a, type: 2}
+  - path: "items/items_armor"
+    sprite: {fileID: 21300000, guid: 938b3644f2014574489ebc1b0772522a, type: 2}
+  - path: "items/items_armor"
+    sprite: {fileID: 21300000, guid: 9d5a0ae3dbca97c41bb79c7922b5d046, type: 2}
+  - path: "items/items_armor"
+    sprite: {fileID: 21300000, guid: f910f35f65810d9479a2c65aa0cdd50e, type: 2}
+  - path: "items/items_armor"
+    sprite: {fileID: 21300000, guid: bd4825ad58af1044aa1f3688964eb120, type: 2}
+  - path: "items/items_armor"
+    sprite: {fileID: 21300000, guid: e01fbc91e9944484ab1b3c8ae2784dc5, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: 678dfadea50610b428b1f7599e9f8830, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: d0c798e5f6277904da96fdcbcd5831bc, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: 3861dbc8e9386f248b217a0ad99e5378, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: fd2167db89142d94197c29008aed9fb4, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: 5a4013eec39d92f43a683cc72262f557, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: db672598f911b0e41af93faf13e1cca1, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: 4ff6d0e13e1e4264fa433885ac7e7b4c, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: acb339167fa199a4398359a1bb341f66, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: cb49399dd2d225444b4d7c729b6b2e87, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: b2fb0c290f94cac4c89b398fe016571a, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: eadd41908bcdd004fa502762ba4d5ff1, type: 2}
+  - path: "items/items_backpack2"
+    sprite: {fileID: 21300000, guid: 01dcdeda9398d4347831c09970541f09, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 855cf7f243e26544f9577d7d7e5907f5, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 29fb3019093187547be185ea0b54f9fd, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 1c5a6959834850647ae85448d6f8e788, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: d61489b16e13bd844b643db59b233078, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 3653e093de965914db24f4f98fb96a72, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: b1a52483460c7e541985a32088e158ff, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: a4a8de129136d5d488e4b4f30de05a73, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: cf95c9be5b9627e4cb088985c3b4613b, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 9d81634a51182ea4a865f0895038a037, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 53cb1b04931d0ec43a2e7295f6084fec, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: e7b1192f15932914aa039121d02fd1e7, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: dd126fa09049ddb499d6873ff362dc1a, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 1be854e0f4e978e4289bddafdaf58423, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 2f383af58f4c24f46bc919e221b50f3a, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 9fc6cdeab25645a4f9dab045d10bda50, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: eabfdd0cf2a542c47abbdcada091b000, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 93155e52576a80f478231b6ab226b144, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 45ddc2b2299792f42ba4e9f512e5de6b, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 233907905171f114fac11abe286d876a, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 062175ae9ba70474ca3e94fb87d32fc6, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: bd576c3c2b86d01499b6630d19def10d, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: e3828609ec88a2d449c5e71a6489f5fe, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: a794eda321225544db00fe2bba02b43c, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 3f1300ce80151f74e8719fe7f94d45fb, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: da62f7ef7561b434890add062eb31dc5, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 5bdaca54fd943ae4da50a4ea1b92013e, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 0801b7c0066233c479b482dc8c4e6bee, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 2521d5a97b08ce04b8b8408a542ca989, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 77a17d03916f85446b0deb39bcd1395f, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 7529f2e04d626314ca7377658ca886b9, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 2fb5faf7a746f1346bc50fdc8c502cc5, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 156c2432143ca9b42ad140c4db57ff86, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 4929528eea177da4fa8c9e9b821cf058, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 5e7bc92214330b746b9261d2498200bd, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 839bc87124ba69c4594360c8e8df3cb9, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: f355c5e28ae343a4b88e2ec92f6ecef5, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 71a705acb8339e947b9bb1360d7eea03, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 5ca10f5297a13f04090e41a2c6265f73, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 561212309a061724ebdfaaf3e9b6385f, type: 2}
+  - path: "items/items_broken_machine"
+    sprite: {fileID: 21300000, guid: 5b9f63ccb573fcf4ca37ce1ae773900b, type: 2}
+  - path: "items/items_construction"
+    sprite: {fileID: 21300000, guid: 32214a2e02c9fbe4c8b5840e2effe881, type: 2}
+  - path: "items/items_construction"
+    sprite: {fileID: 21300000, guid: af7b5f1f4337bb949bff680f70b21339, type: 2}
+  - path: "items/items_construction"
+    sprite: {fileID: 21300000, guid: 3b1d6b336acdd6446a39c897ce90ece9, type: 2}
+  - path: "items/items_construction"
+    sprite: {fileID: 21300000, guid: 5dec3f5e217cf9b449c5938f4711576a, type: 2}
+  - path: "items/items_construction"
+    sprite: {fileID: 21300000, guid: a67a33939f462d74a8f548e82048afd0, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: d3caf56547fa55047b6e972ffba3c966, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 3ed4b5657cbf4be46ba5755f747085b4, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: ac44d7be0827ca349864545cb902464f, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: cfd4a6f17bc79dd47ad7624cfaa2fae2, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 75f19c94abaa4fa45b62d30a3ea786da, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 95a56614a049cc046b16df5462dec9f0, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: eecea40998f599c4eac51f8641e735ef, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 524264eaf87b3234f81ce28811ae035e, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 91a0bdce080bea44aa19860e8aa051a1, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 8c7cb25595bb56748b4225602989f67d, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 348f142d49b886243b0d1ac05c41bd60, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 512ae30c38a70db49b9366b4734919a9, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: e594410102168554bb95ee44461260b6, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: e2e4e4d94de72ce42894395c46181860, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 676e9f2afd205224d95c665c9d0ed346, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 082a9d4be26520940a3c9f3d6cb3a735, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 9b4dd34aeaf8ed34badcea6acf7acd30, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 28e07e72bf1568a4d9cd980b40674c7a, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 1e651cf59d5413a4584dddf42c72b31d, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: f624f9ec593ad7a4f8c55f2dcfb64bb4, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 4fb27cfdce684334ca0ac3dc688ade4a, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: 35172ef4a7080e64493cc6d76ee44d71, type: 2}
+  - path: "items/items_container"
+    sprite: {fileID: 21300000, guid: cddd8db61332979448f4bd8fddef3ad5, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 3c9c81a6f5179b342a4ef2b7ff8eb972, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 38d691bd92c0e1340a332c73e6a104e1, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 6aab95664b781364dab5b9bea7ad080c, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: b4c6259b4c80fba46b2c2a140763502a, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 6f56138c54dc8904988ebe235945b884, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: d4e57086cd60b55428ba04f9c3be4138, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: aa45e401deb7cd94cabd763fb31380e7, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 75d69275257604d43b3bd8d8ec3c88e7, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 3918c6ce52f34c2498e2cc301a3fbb24, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: cd2361958ff553449bdd098d7f751757, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 42081faa29a644c40b74bed378cd598f, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 7aad59afbf22f9744a6ce76695a28714, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 500cc26353f1fdc4586a773d20ab8cef, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 01d3e254069d5c941a27874b86d89eb9, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 9efb2254dabf6c646a5dde926477939e, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 849f30e5e1e24cb4eb9b85c985265257, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 6c01ac3b6083ce34fa9ea9a5860ed1b3, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 41f89c4bd3f9b534d8b6b6eec810dde8, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 495bd83d3a4546b4fb420feefa87f304, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 5526f3f3e1050d54188d108492401062, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 396b5e838358d484d9cd4dbcfad93485, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 4d83008d806f60b40981cea7b3d0c1ca, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: d669a7a1adc1db0458743b72008843db, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 4500f4fc0f0f2f049a3177883d1e13e0, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 5a752a6a3e4435f4a8b2129a6068bacc, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: aab68f76880064446b0467bc65e2f7e3, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 0ddc3ee209f55d34cb8421eb72c9bbf5, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 44e1fe94400686741a4d37b46b4dd4b6, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 042f3beb59e51c04e9190aad2086c2ac, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: f3dfceef40b76c34aa3d423b3cb29f69, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: a8b5a12801e82974a83756d58460df11, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 797a1e0a480eea6448dd07a428359549, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 954bf8c7e6ada084490918f53685d1f2, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: db7365d62a92db74e93e0d4fc581cea5, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: e87699548b4aae646b86b25f496d1c60, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: eb42ca91481faa84b9ef587b58eb8a6e, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 4448122867d269a4eb1654b426c0a020, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: c5b4a944ec12e3e4693e2dc0d0d84ea4, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: f699a097509ccd34f868cf03ff16cbde, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 427ec5bec306767499c410b0a2a8b31a, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: b5a3c6734149d5340bae5c3c20e212f7, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 49b08dd3b9d71c44abd169ca8f572196, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 4faa309cd432ec145a9799bf10b6ce37, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: ce328d7176f9c2f41b5e088a935abc4e, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: f3a1f004ba4acea4dace51b1716b0538, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 7b685de169e2f5349b22bc8efa1883fd, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: a3017eade5b1f3649b0d46e23d70125d, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 44b4d0e7a11399e40ae3593fca49ce5c, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 0039252d090eaa342a586a83e3324a70, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 4329e997b266a1a4ba954143caf3b9c4, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: e0159332f8685584fa05dac983bcb058, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 6b08eef47d6cce243b79e974f32f0067, type: 2}
+  - path: "items/items_food"
+    sprite: {fileID: 21300000, guid: 79687461edbf88d4ba0cb3c52469077f, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: e5bdc37e6f925e645abec5ba4c3eed97, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: 4cf000b7ee2ba6e4ca6c2d16aecbbe1d, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: f720c0deabd5f534cbba12c39243b26d, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: 5f38bd91212d38e4c9f32afe852c3be8, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: ac653922e908a454daae6b3d7d658419, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: 8cf0cffbb43ce2b42ba5c2e6fbb65141, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: a8a2870a283d3cf4f8c2fe89edfd0032, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: 3bbcdc319f3c9f34e8a6f74da6a9f5bc, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: 99e0e561ed223a243b18c41df0a654b8, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: 13309fd39d086e246ae664793c00340c, type: 2}
+  - path: "items/items_furniture"
+    sprite: {fileID: 21300000, guid: 627bf195c5ea1264587060ffdeeb3d29, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 87959e47056e0f34f9859e5e96ec8a7e, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 92ffd95d84dc68945a63901019ab62de, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: b0ac669706d3d654cb7a7d5dac0f31fa, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: d9a3abda4b880e349b193b2c63645927, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: ff25f37c820bbfb4e941aaccd3d0d12d, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 674dd8f506fbe424f8a9f293906c2d1c, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 428426cde4cc3114ab8a07a3ef81ec26, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: e56079bef91850149abbd5932ad9cd30, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 202af3afecdbc314d85a3aea37b08bdf, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: f76ab7ad3de2beb4da2c806c8c361cee, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 00fca98fffd9ab4408cbf845acc3babc, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 0b0d68372aea79049838124ccb7fcb7e, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 64375b03cb4025244a89b9fac7f262e8, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 2cbafe045009c95449ed48a7392bc836, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: d18897f10f12b7247a40cf9817ed21af, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: d220e50c4cc624141bb4ad53980bf60e, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 71f8f6efea8afa44eb16b6715c53e8a6, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: a8874e0177966114caea67499aa6300a, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 2594aa80bf5b64840b89773dc9e9fa76, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 6a4c3331adea2ee4394cdb9af88f1d04, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 5fd2512f89ebda1438062fa9cfcffe8b, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 4d1d184dc72fcc449a8892839350a070, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 9ed46409db4270c48921d521c475f52a, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 4d4e71e1548f7604c92b7f93dc6a1b2e, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: b9e23556c72dbaa44bc4024d4dbe926a, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: ac12d53dd2d9e824b89531de7c66292c, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 192222a3ee2d3c84d90653419fe53ef8, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 1aa072012d34bb744836bba0ad666fe1, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 8df66523bab9ef9408e7894b73490b4e, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 7a8f9fe81bd6fbb4f91f83dd08ea9da2, type: 2}
+  - path: "items/items_husbandry"
+    sprite: {fileID: 21300000, guid: 6244196f281fc5048b9edd4b914da5c1, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 0ed3cbbff526e874ba4a4bdaac21e2ae, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 44e2bfd9d4e855f4a8336e698e25a31b, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 740f2d4c8af426c4d815204061d75935, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 47365ec62b5f29d479be0c5e0dc3a9d6, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 915720258e651d546882597856e18fdd, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: e01dcdb643ff0174db871a43b4e6f4d0, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 3df959ef9584f05458a3b9acdf3e9ac6, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 2b98b47d5877b824087c65b8a2a251c3, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 981a2608e9238f14298f68c871d7e65a, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 6c60bf077606b6245a9c7a560d25d234, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 39ea2314f16ceb94a8e74c5357e5e26d, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: d677fcaf543801b4ab890f392e97e583, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: bcd1df78d134a53449fae8491c2a2dd8, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 5dc337fa40f07d842bc9b4436f1d6786, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 4ac9febc8eead554da43617e11a15931, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 8916b5692bf4b2048ab8dbb1e337f7c2, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: f438316a0d86d6e44b80af4d4538e2f2, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 68c568f1fa4e499468becfae99fca22b, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 856ccb6b0e94fa44da0e6449e850b01d, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 1652ba98e2ebfe14fbf7efec12d5b159, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 8db43c2676104b4408591e523b24c0f7, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 53cba9af55a4839468b234a8d1e2b739, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: ebff3cf3ed01b95458a301a33e6d04e6, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 10343c800b89ed84e95ba943dbb88332, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: df3781a7c1682f241a009ffc23e596fb, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 0d5e0520bc238e048a72e6617d6e21c3, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 0a8048b8df765bc4db29150122cc04fd, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 4e4fb3e1d33dfdf4aa31561be7480818, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 973525ce647b78744931237198a16312, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 596ea66d9caac3446b6d7f00b0d6e171, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: f4d5bf22ebad996499f78444a4644bf6, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 73d0f4de09f4ac346844266717d45b4e, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 1ff1c3e4102136b4b81cb2e8424439cf, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 4688cc8545322aa4ab68bf3236eda256, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: e1c5630daccd9c0499da767ed74b0789, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 2cc65675e03003843b6f244e41914e45, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: dac659cc1723e3141a2ada4e4c657241, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 776656976ff03884da9b44294497d202, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 90bddeb86aad33a459f3783cd3cab7e1, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: e17c15254328e0a41a5f1c41d58f9bba, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: ec5b5643eccd3704eb99c748d7dbd20b, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 131d3d4dfe44c7047a7fa02a1ce1eb18, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: ee3748e428501664a908bd1b029cb1ca, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 6e701496cb10fe0488c57d0ea09cbf01, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 6e51fcf261ebdda41ba9ef92681777e3, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 639e894d4331089428375685d103da25, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 1365dc42b435cba40ac7ecfe5bae28a1, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 6d4c6b6216a69a0449cab025302ae5a3, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: d628c120ec3354c498d1a821be8a2227, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 8095115dc0a4bb84082c284add2760ea, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 9282562949ee94c48880c58077ca0dc0, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 844ca37955cd1e34593d7dc2b1fb8def, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 0ffe5bc81b6eb87419b5c039cee4f01f, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 4f6f1790521359c4fb8399c3ccc3dcd9, type: 2}
+  - path: "items/items_hydroponic_plant"
+    sprite: {fileID: 21300000, guid: 387c866319e5b0f42b2556361014b531, type: 2}
+  - path: "items/items_inspectable"
+    sprite: {fileID: 21300000, guid: 783a9b1849de0a04b848318023a506f9, type: 2}
+  - path: "items/items_inspectable"
+    sprite: {fileID: 21300000, guid: fb453efa92a047e4bb31059b69e9b39f, type: 2}
+  - path: "items/items_inspectable"
+    sprite: {fileID: 21300000, guid: cc00f809e71908b4aa5f8aa049708047, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 6f2b5161bc4d5524195da80c2b8614b4, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: b595edc6d65551d49be3557879aa1b3f, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: c720c9f3ba562b14baef3886413ef3d0, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 5293bea0b89701042bc92bd592ef3a93, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 7e9a93235352b084b8f4b12b1f637ad3, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 302c945d60ab62d45a5da926706f0c6b, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: e92ee92bd6468d846a8424d804caf5f3, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: c6a97b7791ff8794f93ac0fc3b814448, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: da5c0381bb816474ca47f9c6a5ed54a7, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 6a7a70f0c5e845c4abb30a51a1611f02, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: f99abc8365f9ee34ab67bfe607aff3dd, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 79704b081ca34034784ba1087f05070c, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: dc6503b640d764441a4563e9f8f9ce1e, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 395e4d0c20533d641b9009d681972859, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 9aced626df7a6ce458fa42170a389311, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 0d24f2abd05bc634db1f8b83a1c7ef62, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 71359a4adf3d60045a253c4e5ce772b3, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 45b28a7be8a59484ba9732b85c5a7fbb, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 19f1e67cfee733e4dbb3ca253655381a, type: 2}
+  - path: "items/items_material"
+    sprite: {fileID: 21300000, guid: 596fb921ed4ba934396899fae53b4ecb, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: ea85a00c12ea2f74a875669804dd3832, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 45033603f1a51bd4d90596c89ac439a6, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 8db4b8d2517f2bd4cbe1ee9826ac0442, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 1638e10110f049a4b9903414713796ab, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: c1c7925390e999e4c948cffb6f1f8124, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 162bc13656cfbfb40a361784751d0ff5, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 9b01c89809b1e574ca41bed2fe14a74c, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 9ed2e626c21eb174ba01aeb72e5be0a6, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: c43a7d8b5d71a404389e7db0a0ba9d68, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: f08d7082793449348b8aa4570946eb0b, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 5df89b32f63650d49bb85c0af31fc4c7, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: b13ac4b32e8049d4cb211f6447ffda5c, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: a8d5c90ccc1785f4a8c7f2da7133e8f1, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: f07ea222b0ca5c44097c6e4fb69c993e, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 2cccc07f436097b44ae61416997a76dc, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 9df091e490550364dbb80d3db7031e38, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 270835368451b044989bb3719785abf9, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 4c4bee80bb8d93843a964ffc6afc5ba2, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 07914a38237acbd4f82994d145fe3243, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 02ae22742ca491a42a06c9ef1f5af4e5, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 0f482d289ec641d409470f3871dcd8fd, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: ef966962272ee9d4c8bcb6958e967930, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 8dbc8287a778c6b4492060e50a9db8db, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: a39638a5bbe39fc4db64a217cb9c8457, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: b66a90aa64319464dbe61362dbd6490a, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 0f4956441da787243b87f8defa572873, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: bca13bad574183c4081214a0a0ab211d, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: d71e73ecca6b3c5459700b67f2f5849d, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 852325ef575a8b54ba70b08dae17f521, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: d4cee3b6eb9c67149a360eb9933f45b6, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 86d4f65b2a4e7714992dcab2154ad2e8, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: a8c283fea9899c347b7a07782f0c654e, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: f9d48e6c560dcc04d8e5a2c77f2e23ad, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: a9ded439a8aaf164cba90fb70ea0bcae, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 7fecfc4ffcc490742855988bf070ebf7, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: d50aaf237e5f9234784b2a783f1e8d78, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 5dfe85d246a1b5045a2a3fbae6702e35, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: a3485115414f12b4bad962f18f47d718, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: f624e6affd85cdc4d9b462df7c3cf1ac, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 39e28f6a4a2fac9438599247654447e9, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: ee227fcbd31496843988625bf8056e7e, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 2a97e8de1cdd0db459ff6c232e6f9cdd, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: cd84a731b499bb640b1186367ac139b6, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 98605c6ff1ef238499d2937a2f2556d3, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 82b764f2c8321bd4796a93f867e98f39, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: b03ffce17c0304a42bb0551e25003e55, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: ae97780663b438a488cbe3d79df82286, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: b9b3134cb6c11bd4986936186a90c091, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 29a1aaac66d77d14e89a862deda5014b, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 0ffb2abbd415c73409018b3cd0a7782d, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 73b45e6fc1c3dd84b93b1a3aaa0e85ef, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: fe2993c9e0c1e8944a482e9607c574bc, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: f7a24059b9cdd0a4793d876d841682c5, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: fd1e43f45a61d674bbecec043c34f0ee, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 1a2604d5b46db7945a5bbc9b688af5e1, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: d643c2df2c72faf448ba0b328abc1d5e, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 39dae60fd717bed4a94f1e25d3980db0, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 478a3165366b19d45b73c4db7a39bf20, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 9abe090f12e407c44aceae46022bfa05, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 851d41438018ed142870feca250955fd, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 143e06ea8f92b984baaca6cf2345b4c4, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 8a5ab74ca2e4e444c909ae07597ecf87, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 29b6d90d08e816841b23f92ff2199ebd, type: 2}
+  - path: "items/items_medical"
+    sprite: {fileID: 21300000, guid: 85b3965b3d46148408878bc7b1ee53cb, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 315e496f7c8394645b8aac4b566f1333, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 94cdb564303801549a7cd2b950b16be9, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 331e36050d5e4c94fbf1cec41ce67b9c, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: c72db9946134ba549966580ab17a62a0, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 001c59195d055aa428368cb9ebc7a20e, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: de9836fba01a91448a70ce474281f472, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 38bbe176eb745d04ea8e796563888329, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: d011226b88fb92047adbf23a81faa69a, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 3d48aa9ae4602df459ee37c2bf2ee3c4, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 4b8db8b86bbccfb4cbbecceb8829cf09, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 15a584ef8d1067c419ebaa0482297b06, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: acbc112c2a237af4ca4884390e34009a, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 78825208f619e8241b7a376bb15052ed, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 399aaca858d93464cae05dddcb995ad6, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 8498ab4e4512c1541b06132da7268764, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 939fa6db64bff844f8e2044d28ecccc9, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: ded97e810ed0daa4babf21823782d719, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 2a00f971508455b498141f8ceb1f088e, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 15f33100e5c2e6142bbdb77bea21d567, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 4ba7df4fd7c51764b8308981162da3a1, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 92aff49c4bf34a94584579dc7bc36445, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 1029d61e6d2d8ec40b363f1f03d437f8, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 40bc49682f528204588b4e4c1ee38ad8, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 732f62989ead5894d9e5f2a7ee6220d0, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 3a971c5023f81ab40aef9021444a255f, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: abdd4cd229f24524f9bc45180e564313, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 3ab49ee03950b7d438c4c59cce02cd0d, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: efb177fe312002b4a9372ea21f06991e, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: a321011ddb58a014d85d6a119d7c1386, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: eb5bab148759fe44aa979561f78c7cc4, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 78b64e4ba6ab59a4ea6c8f2655f44a20, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 69d767a693766a047a3899c346ce1f01, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: ae6440943da6f3c49982ab625c16c994, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 366af18088ec4da498fc83fee68efecc, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: d1965fcaf69aee941a0ea2669d417794, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: adb39b00eba6e4048acdebc5c912cd65, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 5139518c5301439439ef8a4e05d28db4, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 91e5a22ca08d9184a80d2628c14ddd91, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 396134872092c6346be46a775ae87b83, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 39a079119b9e0b644ad41dc7ea05d948, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: dd440cc1fd6fcab4292579c512e09a5d, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: c107dbc1716c95e44930a00d2ba88cfd, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: d66692bb5f672f2438e7fb9d4f54e57f, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: d8859e7dca75ae3459e8e6b44d23f537, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 70d02cf160a104b4faf108b1114603c4, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: f83d6d4fb9bf886478ffec9d5d697cda, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 6ff03b6809137e84ba21b93c4683fe2f, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: d649a404e9c029f4f8e7ecf39d8be5f4, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 89d3fd5eca31ff04abd11643e19d8e60, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 83b0454aa35d2ca4ca0ce56db455ec4b, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 0a68a8c64cba09441bc3bc8cc74df15f, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 65a08a57e1aafeb478a741d000df6b10, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 9bb6954f3dbe85945942f2cdb13ca3e6, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 6f6d0990bfd319e48910fd627a7de8de, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 7f1df41356c314b4a82fef5540ac85ec, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 0f0e367ea2f1d194a9a051297e1ea780, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 7152133683c4c254ba1ade1751ae6fe6, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: 58f52742b996ba54fa45869937d6f8d5, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: f49773ff2efd31a47ba0bb3c2445d231, type: 2}
+  - path: "items/items_misc"
+    sprite: {fileID: 21300000, guid: df6a6c20df1bec54286b67570a1564b4, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 626b5a5c56ccd4e4da39fe6ae93ff648, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 069a9770db34acd468063b47512b29f3, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 971d60151c5f8de45ae1c2d6b7fc199e, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: dcafa0f588cb27f47b72ea159a034c34, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 211dcd5587007254eabc14bea16eecc1, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 301d1d03558081d4a9c59f135c1aeba3, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 19346167cb171114d87293bd6442a872, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: fbfb689eddcddfc4cb637ecde1bb5281, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: ab0c3917d3edc1d499851db1c658fb65, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 7ab325c93ee93524284f3528c59b1ae0, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 5419c16af987c4d4fb05b8186f948c0a, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 82658ef93a4c4db4d81ace7bc1dede87, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 1098578e99914e6469fe6bfdcd1b8542, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: abeaec2ba3ea61b49a3f7dd6ed48fae1, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 3a75a8f2a5ee4cd40a6ab8d9a0f5ac17, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: ba4fad7f1d656a64d940db4763983cec, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 0b852310effbff44ba13153e1939f4a1, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: d1e19f0d729d8ce4c83d27e4808cf0cb, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 41763086637345740805c6dd3982f4be, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 691cd0b163d92bb4693eebdfa8ed3b04, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 6d0d0a8c8640f6142b180ba19f83a6fa, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 7e1c3ed098fd61347ad6fdf9d787989a, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 5811f6d1715d6fa4898f884b8787d84b, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 190207d0e1673b74a800046b0dc8daab, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: acfc22d9aca158a488895f902db4f223, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: e8eecd8e5c1bfac47a4a02af6eb1b75e, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 69ab6527d376ce84986e180251591b24, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 8cfb429dd1d545b4ba9bf51681070a91, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: ef4d92b8a95ea824b9dc6b9f1dd63a1c, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: c7df8e0fe0516ce4db5eb25d708ebbbf, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 062a56b44dbf9db49b46b93ef93a20e0, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 80b0dc565ea8394488e83fa93abc2231, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 8dba816e232d6cb4b84ec7ce6bc428e9, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: b585d646c57196b42860bb8bfd82f1c5, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 369942ae30a8dc449aea3b6d1d464fad, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 6b983f060352ffa48b86817b3a00b4b0, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: c888784b481ddd34eafe18cb873f9c36, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 35b5ee99f857b5e4dbb251fd203a787e, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: b0c3087d795398542846100ac6f134ee, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 563782645021c4b4cb836b666bbbd39b, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: f26ae0e85a5f8bf4681e245dc5015608, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 20c61b7e414f8bf4f84d6c55170b1580, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 1c21b0c73b7435b4fbfd49f94e30cb78, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 3c020010c800799468260889d6bb6e50, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 56834c503b941bc4ea0d3831c605b460, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 4a1c86e901b5ff34db3ca12ca9c61a33, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 81fbf92a8eef66a49ac5f0c10bc70ff8, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 27ec104f78596f746bd5fd13470f1b70, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 4783b37ff702e274db1363fabcbf5e6f, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 8d0d17d1a23d4c1439915c9852cd90ec, type: 2}
+  - path: "items/items_mod"
+    sprite: {fileID: 21300000, guid: 7a0032a68fa368942a53a248485dccef, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 97520b5f61ed13947aa20a899d7df9bc, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: b18756f382be8f4408da3d0c3f3abf26, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 4fa91730dbfce3d459165f357b048091, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 9e0509f21e5f4ce438a64b615fa092f2, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 8579d3b173bae414abb2bc2f942e5473, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 12dd9df43468125498e036c5e107fdc3, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: e7b1ef73eee99854d85aefbb9787b5c4, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 3ccf0420ce741b241b8b5b4d840b8a10, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 7c61574d45a097148ac7951681195495, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 4b3c5ebf49e2f794bb187d3278bc35de, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 2fdfc52e2bc92ee47b9a03d134c849f3, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 02fe3fdf52fdfa8498161aebc49a51e8, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 2301e66a29baf2e49bdd25d369507da7, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 7a78493685dcdc442aa42a18d4c00c27, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: f77ab0a326fdc6946a0266ecb4093b2c, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 36719da676daefb4d963c4ad99de4b1d, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 4f2ac2cab8ee12d4f8a201e69fb8810d, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 19aa938567be21644ba10f9cc38e651e, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 7ed9a0fd4c9459b4dbb8523baa3bcd3b, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: f0f63d11f71ed204c807b2ff4fd5afa8, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 4a2678ff54047144a97b7ed44558c251, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: fe517cbf2e1501e4c82adf55e801a948, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 739fcab50af51c94c993bbf37f781ddc, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 70dcd09e88770c44ca84fb0443ae73fb, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: af147e631be51e64299e273dc115727c, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 26e4775f3a4d09747865c95da7bc838b, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: d7e099468dd32724db4f6da2b7fdb14d, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: cb0fd558b2f065041bab0213f9591345, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: aceccb7f13876874bb795d5ff04b9d04, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 206636e413a3901479c0c79c3c599fe9, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 04a6ea86b4f38ba48a6103ae888cf853, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 594105b8be74e60439d40c4382f411ce, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 347e8a4ab9e63a645bf57389160ec8a8, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 861d6c346eb674148933a6cd32a42a0e, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 184c7609bd1694a4684e279d5f5b3915, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 84d2ec5c3e2a989459de95e8f5c9eafc, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 00e64438884b03e4089d95ef2c1600b9, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 209aaeed786ffce409d4f70297bdcafd, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 7f8284f2a556020408d54dee131581a1, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 4e439073685175d45b7bf8ba3b6d1539, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 907a9d1ef6dfca54fb2af18f84b30149, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: d6c05da704667614f88183b7b9dafbda, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 38cd03e26962a804dab8b43712a88069, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 06785b96760d08747be5af457414dc27, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 728fb1ca1fc36fa4eb9f50783e78a866, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: aeca5daccfdd0dc42b435aa3d13be61a, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: f96fc8b1bc122364dac8c5449577c646, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 0a796945515e6204884049bc99d6032a, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 35312922b0f3c074ba44aa6c9129062f, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: db47d72c47b307e4289c4b72f7fee802, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 445a9e51e4109474cb9cd04425aac4fe, type: 2}
+  - path: "items/items_module"
+    sprite: {fileID: 21300000, guid: 46bbcb0f04ad82e43bb54beecfa0283f, type: 2}
+  - path: "items/items_organ"
+    sprite: {fileID: 21300000, guid: dfb99975dc7022e4abc8280d9136a23f, type: 2}
+  - path: "items/items_organ"
+    sprite: {fileID: 21300000, guid: fda627a8c10a3c543abb8bd0f6876cc8, type: 2}
+  - path: "items/items_organ"
+    sprite: {fileID: 21300000, guid: 9d9ea360e04e77142b27a2802f6bb1f0, type: 2}
+  - path: "items/items_organ"
+    sprite: {fileID: 21300000, guid: 20ec92d47994ea6498b188e018bf872a, type: 2}
+  - path: "items/items_organ"
+    sprite: {fileID: 21300000, guid: 5588f9d4ee6787f49b54825f2fb353a8, type: 2}
+  - path: "items/items_organ"
+    sprite: {fileID: 21300000, guid: 4c21f6dde7569064f80d03c52da87d51, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: fa21d0ffe7a7ec14d842592018e3c7c0, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 0204c19df9cd15f4da53f9bec104df0a, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: af8351cc593364d498705881d165b473, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 0c4c956ff9f355944903edf1e6d20af6, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 31468c90096e87b4db79887888a115e7, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 6df5808d41647ff419f7bc0137725d4e, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 144d1541b3896bb4eb31d20676def211, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 5febc5c72f90c3e4081bce68b86e1871, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: e4537ff92ceb3a747960113f98c34c35, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 096a0fffd8fc6694ba278c92e6f8fe7e, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: b37f9cbe01baef246b65843c42bf39bc, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: cfc20ede5e86a1548b5573796b1d8cd4, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 2a9ff2cbcb6945744b952714a1752257, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 0d6ad9da3a1f65344baa5da06101ba2b, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 196f1aed8be0e2c42a07ab9a04b26557, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: cc6bc2784ae6e5943a3a66e4d93d1de1, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: a3cdef0f780a1a247949165b81053210, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: a3320ea6a395ea44fa176df514e40e1d, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: b7f4e185659444848af84966221511a9, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 5baf83034b5e05244beb1066b28639e5, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: cc9e513841a21ec448908185ec6756bd, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: c3002091eb76da24e9dd0947f3142a93, type: 2}
+  - path: "items/items_sec"
+    sprite: {fileID: 21300000, guid: 247f06bfaf5e9d545b36d303ebca1703, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: b34dada38189e924c956f1abc1b8c184, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: c02e85c35521c9147a77e68dc949a2bb, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 6f84f38eba81abf42b2cde9e69132314, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 8a5705fc79d880b4aafed351f491d407, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: dcce3144d6ea2db4b9a9f28b37b04f55, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 6ef6b36f890855a469f8b0d3613aaac4, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: c854b6bf4a9e8814ba84f8226f7cc0a4, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: ef6e2f11a70f9514d9471bbd3905a67e, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: b4ef6ebcbb081794890e3a5d749fdfe3, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: a144141e1bb44d04e957ffe87fd76bab, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: d7a796a2f400ce34aa80011b295fb749, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: c11b3b132289b2a489c6ce4469ae1dfd, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: a6b88a7083299f149a8cc969b57f4f87, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: d1c2ee19a08a4434b8485647fe34ad08, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: e435e024571850d49a1ddd82c32fa376, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 6f9a03f6324346144a042b0ee6bdc0c2, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: d25f010e8c322924aba463c858d18f7e, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: b602c57dbf75db542aa2d7ca9508ed47, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 77a9c294639094a48ad37e34a3b9d848, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: e6b2d50dcaa6d5f4f9d6ac2d3949e2ec, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 863ffb3d2d2e2f6458b4328e9b3b3fd0, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 0d8679129b2194d4482566b93b9d162a, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 9a965f293869eef45a52ac25d31ff660, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 94ac925608e7ca2458fe50d629f8e739, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: d8c665b4ab2910b49bdc02d2bf318c5d, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 201ad74dfe518a24bbb094cc0e50ccc1, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: f81a193fbf1e46043b8ffdebc031e7de, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 365a54d43ae9f4543b8e7e203ebf2693, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 94032c4d81d9b9d4ca55e9c74c759f67, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: a0c60ced687afbd4ca19c710a3738aa8, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 18f68e8d224552745ad5a2df1879c6a8, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 07c62c194501cf146a594708df332401, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: aa2d67c01ae2bd24e8117f2bac033124, type: 2}
+  - path: "items/items_ship"
+    sprite: {fileID: 21300000, guid: 469ce7e1e698a244e8df4ea64981c4fd, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 66f547ea6bec13c4d895cc75b9e1bb7c, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 01f6440873bec5945854cee05a7fee8a, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 09489b5b01abd2445a1f2166db640264, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 5e9f421ed1b2d1e45b13a01ba9605725, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 5c89077a56d388e4bb02b77db995c23e, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 5bf3886c0fc2a3144aa2787fdecc34c5, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 94beeae3b2bf10e4c8359828cd0880f2, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 68bf578d1c777fa4394e55656dbafe3b, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: edb0da88d2a3d9349bd41d815cc2f552, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: d72318e7bd2421343b17494c33ba92ee, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 56be2edc67f3fce438a5fc8774e62d8c, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 43606418535a79b40b88e71fa7d1b2e6, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 460b6280a699d774fb9a1499f863841e, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 152cf194d265a044e9417b84842efcc5, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 7135dbcea1c29fb46add267012e49002, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 40c7416dc108cee46b42531a89a6c6bf, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 74a634742285b8e47a1ad4f0fe726364, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: a046710a2cf79e648b63e9b9c7596f83, type: 2}
+  - path: "items/items_sign"
+    sprite: {fileID: 21300000, guid: 6946605b2c636304db1ed4711780f473, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: a37fc0aedc1c3d04eaff07d67b5b8040, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 8da051bc734f7a34083cbd796a1d40b5, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 9e76659579e341346a87cbaee68a2c95, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 8fb0faefdf2c66842aabcc4dd0ad6e26, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 81679f765dda85e4eb867b447249cd84, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 8f0fa2f76f147d744a2385345ccfc97f, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: efe79a9e09520af41ab41e7fcab2a4fd, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: d51b8105fbf31f343acbca7a97de60f3, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 50bb36be97d0ef245b0ac5d2ff207449, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 4326185731541d0419776351ea0c9427, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: ccd49a5d0ce1e6f43bfabada586b0ec2, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 9d024df4a7f8c284ba79fa92e92acf82, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 61b7566f063ca244891c8b54322978ae, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: c4790f6cf90730b4294cb74c8332828c, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 94ba87de6ffe2954690f84fbe0cdb9a7, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 4467747b4b4dedb4b82cee1190421b4c, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: e15a43278c3ef4f4491a6f109fa3ffc0, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 95f417a4edbcaaa47a6056f6b878f130, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 87db4ec9108594b40b8eb3c5179fe4ac, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 576ea2307df81b546b02c5de8abb42e0, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 0c31887a978a47d4fbe26a113ce18076, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 17d3ae8599321a846b42a32b92a26f59, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: c54889a7bd3dfab4684a4ef8ba238dc2, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 6f0d2e6bc1d79ea4aa8396796b2c2574, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 9dd066e2391ec834a9f912c41f43db97, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 7b469bb39aabc164ba6fa4ce158007c9, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 8dd5fe7b780ab9545ac058c66b20aef7, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 283b1562a1efeac43a50e30994d6fe3e, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 02a63249b0c0b0c4392836d0d2b823ec, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 774a88dcadf7dc04a81cdb108358dd07, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: d5bc33e4ea8f64d479fc27749de99280, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 4838252d133e5ed4d9dfd81d2d0b5100, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 0c3ffe6f7e8bb7d40abc93b996732f0c, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 515f2f585c4c476439c54eead8bd6c09, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 0ee789a0a286d594fb7397535a0c4067, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 0a988b5b4d2527d459a355ff43fb3157, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 8df06c6cedc66d24cb3728a21742d260, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 6e75259705399d944b960dbb82b5195a, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: f9c7bc2b5ba51444992e07ea296ed034, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 92e21a258752a0d40b8abb110eb5b37d, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 435c7e7580f4b9a46bcfee728997f24f, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: c20c5d74e38a35244af3945ef73a6fed, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 34b37e474376cd44096c7efaf760bf92, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 0ecbaba07be0b1741874e171d2345b3a, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 9560c19a67465974c8955bbc71937bd8, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 2cc4c07d56bb1fd4a842d8eadcba5d4e, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: c9cbb3d262776f646a945edfad4c7bed, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 8f8d0579e78fd714d94cbb1dc0d0f4fa, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 4565c01df6979dd44bee84c1c500dfbf, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 7647895015d8bb74288904d79675dc19, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: f0d0058e8d819b645897d529f5a54bd6, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: ae69f233eeefcee4980f13310da2b262, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 82b09b354a6fda84aa957ad25a5fab2f, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 252cac512d4b2744e9baf5706e44cf11, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: cf4a7bd320241774ea19bac110d4469a, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 3d6f7b682caee4e40ae3d42836637b05, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: f7471df97e58ff84e9d020ca174bda82, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 2cc2866cbf79f6f48b60863d1ce980b7, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 7c689e1d123985b4cb8fbb417ced8682, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: b0cbf164832fc1048b5f7bcaa1acbc88, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: e5501cdbbdbbc874ea0248955aae7452, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 172634bda5f588a40bde27a896a07894, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: bd7abcb042d0bc74caf028825ea6357b, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 8e099a259c686ea45a17da45862bd494, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 30de00c9f4f0a514fa9a449a3a13bb89, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 2655f59b10f2c6f4886d0a63fabbd735, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 2e6f8d5e2e833f446a70e51a50580a67, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: e4aa25b88e7704441bc778b02fe42d32, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: f54759d5e71e8a64299687c7ca4f9846, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: d6c28a925968f954cb5e4e3166bd730f, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 7c4462141aa0e134cb1d8f665bc02c65, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: 4d51196462e0ad447b70ec1f16b9bb15, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: c773906aea3562f4e837da80b7270a26, type: 2}
+  - path: "items/items_tool"
+    sprite: {fileID: 21300000, guid: edf7490e4d8ca7b4891c32cae7548394, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: a066f38607be1ae409ece50489ef3514, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 0a24178833f2b624785004b10b921df6, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: e6b4bbde187e27340ab05767dad386c1, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: f2d7abf59b24b4c429a835ed852ef6c6, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: afc516e59c64bc044a6c90350a5937c8, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 02c7b2315516c5343aad6f0892edf302, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: db3fff972dabd934da706a044d52c42e, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 48bf148520f39924789c887dc49fc88e, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: f064364f3eebd9445a6cd3bd2b31f126, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: e7401dbea96c06b4aa882771eb3d783f, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 2e8dc99bba408504ebd6c128dc8abe8f, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 920476239d711a245ab5a613b77f574a, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 856143d95ed097a45afec749c221dc89, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: c9d0d09d8aa37314588c7dafd5b077b9, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 9e3161febfae436429275da248dacc35, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 6074dc6ba67318243803c23bc6f6b154, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: bec3195d1deadc842898f95438609a61, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 17cca258bf4d39c45a904639a4513b97, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: f631c0e29a76b1a4988dad4e6147ff8f, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 1139b7ce4c8608a47b87eaa6644c9891, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: a2a74b37618e0d943a779ce489d79f50, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 497d3cdf60ce691479dc2bf5953a8bd7, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 3a8f2f9b6be352545991dc69e11e1438, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: ff1bc9ec647e6f84da48ba97e1d0809b, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: bc880c69d985104408efafb2abbd171e, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 503d7baf1dfa3134f831be32925b444a, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 39f00365cb51ef24b9f2bc75e6e6e990, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 43eb2041fa526d54d82c358a8dd5251d, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: c57cad591333d5541a326acca9c49099, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: c40b331a9659f4c46ae10c9e08058080, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 0ff8cd53c1f983641bfb26537879fac6, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 7d5a80a4e971dc74f989621a05d127f5, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 779e1098ce4694f4caa6d0823f5465af, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: fc7488329607204488bd771fb48eb1b3, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 839510104fd9e7a4799914d263b8a7a4, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 9236d63d6e8847a4fbd1841eb74ddca2, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: c085cfc330d2ce5488d64bcb75e67552, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 3bceac2250004404fa2b07ea9e2e640f, type: 2}
+  - path: "items/items_tool2"
+    sprite: {fileID: 21300000, guid: 9b5d42310cd31d6469b2f2207165a61c, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 04a555e725546e64e9d69ff884301752, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 4fd0ee8fd8f7dd84e8d32d264fb4530b, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 4320510062fc68b44be9427b2745ed80, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 0286a157a0a2ecd45a1122a70a9fd11d, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 1a4826bff8047f94abe43903e521609f, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 6d7b292d55ccaf7409a0c98d867041a5, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: b67f3d3a5f3adc5438dbf1acf1d859ed, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: bd890d73beac3af4c9d4c9983c88c6af, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 13a21d0974576674d8ae4b60f200ee2c, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 55891c8bac8f03e45be2ed81f54d44e8, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 6e0cb83cff16bf7499cc11b2d213de72, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 2ccb6cfec4c45f240a4001e3dae6f543, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: c8e870fe8d8dc724282056463e2b7264, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 6c4adfb58bdcc1d40bed834acea994be, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 622cd7457d3c5e246bf96901b1040918, type: 2}
+  - path: "items/items_tool3"
+    sprite: {fileID: 21300000, guid: 14ff36e4534da1d4eb7ac3d2bc0faa30, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: f1af10098514d1941a08cc339cdb57bc, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: 53744c83d4b13b84687b13c1aca40e25, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: b0e29227dfd640347b96334d4436b2a1, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: 665ec77835c592b4db77ee0b71135ab8, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: 5ff2c53369712ab4c84e9082d0d5fff4, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: f26db168cf3156d4699b20b58deaa450, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: 6a4c13a8b0e76a94e878b24c23170a44, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: aa4f0c544682c6d46b45e43674fff677, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: c7e0513eed6f1df4a8069d530e73f715, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: d6d6b61fa47d6f444a23c965c6241038, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: 28ac4fd3a241be24b994696958ddcf65, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: 24fafd79ad556a64ea18b8cbe7b95033, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: eb65fe8367b240147ade9c036c424027, type: 2}
+  - path: "items/items_vending"
+    sprite: {fileID: 21300000, guid: 3d373e40c55c77648bbba14bda23458d, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 8c01eb81f4376a344a211061670adda7, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 32a16e38928862d41ba74a3b32f0806b, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 8b22c8feb647eca4c9b8af9947348c6a, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: e13e6e05a1122d049aa6d704d908ca5b, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: a74eae9506eda5e4cac061ac58cac81c, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 4e421af41251cec45950b581b90eb2c0, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: fac915c488299364bac01dd72a2dff5c, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 831140333bffe4f498124e5b2f86211e, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 802bc2966cbc405409df52787d12c76b, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 201e376e67ff2634cae0d00304fc2efb, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: ddbf6139ae755de41b64f8f6a1a16caf, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 6818a8a6224bb0e418cb3666825e7507, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 7d918646e82f51042907c8df5a01fa5d, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 38db3141a971e3e46ac4e781f80634fe, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 15cd6daeac659fc41a3e40dea93e72c0, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 686cf790dc0e50045b17d0d7addc1c36, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: f7a43448598dfc64ab24a98da0cc5874, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 671cb1f357d3db14d8d3a90a77072d8b, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 6f907a166fe2be44b8b985f6a5a1d7d0, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 0b9df8a5f529c1743a9bd56d175842e0, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: 4473a51790975d24dbe1a87a1b3b1d2e, type: 2}
+  - path: "items/items_weapons_melee"
+    sprite: {fileID: 21300000, guid: c32a9573c8f4c574d8c210214b464cb3, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: caa7e1c6a414e3e4fafd04b88d2f80a3, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: b6a243fee7ea5d640a802c2a07d70dd0, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 26e051b95a378c94f976327e0f044863, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 8c5e38a40d271774585352bb3c142530, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 0e12b90651a292c4aa2ad8b5ab6387b2, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 8800c9e4611a8c7448db08c3b57dde9f, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 20f7cccb8c4805b4c899495bb29ff9b4, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: bf847cad1c1d1c34c89834940d04785a, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 332e2da9b2a237c438de755ae68fb2ef, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 2ba7a40860d4a42448941e5b63667ab6, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 33c63c3915b0ef346b15429b481841b6, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: beccdabc799ec08498c8f32efe0c893b, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: d56d402a2cc6cd8489769e17495afec1, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: e542573c430ebe140987f60a9cf70ff4, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 2398a6bc9339b1b4e9275d33539f4812, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: b9f8cb0d74493a340a11c1f332cc5d90, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 01515f5449405814390663c522dc4e6b, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 69e7ccb1918bde74592d91a28e92ab4f, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: a6e91b2f487223c4cb10468c5f68fb5a, type: 2}
+  - path: "items/items_weapons_ranged_antique"
+    sprite: {fileID: 21300000, guid: 3584d3bbe679c6641a4cb469b8a9568a, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: a58cfb6e13bedf847b7105d361f33323, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: f71292a7bdbd166449210e8c5ff7bc6f, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: 8a96899fd59fbed458e06c92fc167eb4, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: a0ab3d3848415e54294e6e4e6109fae3, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: e87b574dd0649fe45a0b2bb0ec13adca, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: 749624d60f345514fbcf18b4b4e053dc, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: 424196ecae379484ab86a4cc0ecab80c, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: 8bddf1a4b5f50fd4a9234c86baa7e3d3, type: 2}
+  - path: "items/items_weapons_ranged_energy"
+    sprite: {fileID: 21300000, guid: 091aefacbfcf3ab46a1c84e89d5fc9f5, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 6061731565e2b324084d23830705a2bf, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 709ea58c58efca8409cc031f6ca14f08, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 693fd27a6b43f274eaa58d1106ab7ac3, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 08b54ced3b7703f4a85f1ad31f472849, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 2026bd8e86795de4ca327b09948dff9f, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 9b0c9a9ffe1ef1341a31cb46ecb8c96a, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 1eea65d92f473e244b37d03eee408732, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 1091ad6fbcdebcd4eac6e766e713ead3, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 15ceff2cfcb94984c9a9d0f6c50e0200, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 0ab9465640e833d478ae8e6784639719, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: b0b3f80cd34e2984cafbd429b2401dde, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 177a1d39c8daab34389017d6d7cf8df4, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 65e42068ae888984da3bf530a14e08c0, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 616ef30deb49e3c4d80a6bb2f3d289e5, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 1b169e52132e3254bbe1589de4ba95f3, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 682fd402f14bd76459a3788c5542d783, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 360ab7e0557ed14438041e1522b2e0a4, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: d43bf41e474a25f4cbd9c7fcea8efe94, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: a32b7f0b45b4eeb4781897bd53627722, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 67082a8e9d5384d4fa94c7b40d4253eb, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: fdec0240c68476145b470785a928f6e5, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 9186ac8f9c434344db685cb65d079505, type: 2}
+  - path: "items/items_winemaking"
+    sprite: {fileID: 21300000, guid: 57c53ddc9cf1c3e4c90c3fd301f9970b, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 5ff6b04eb828eca48865ae647d07cc0d, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ce54a6ec7f6a5914fb070b0330b2d44a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 75e3fcc36c89a5e46a4ea95086bc5b9e, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 2dc31f6684a7d914f9f395373d28c61a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: c07f8dda8dddbb143bb537ab45036c7b, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 6154067b6e49b24429c54d43e18ba4e5, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a9c57516fa1085548a2b8b1988314e64, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a50a500c7dd4ca549992d09c70ebaf8a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 67527fa0e216a1b4cb71114049bd7162, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: b9fd01403bdb0ec44a7690857af78f47, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e8fc4f3b42b8498419f34f800b99a2f2, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: fff2ceeb43667664f80d341fda4bd5ff, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1193aad996e434444bfb8cd208dfb45c, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 964324fd7e7f0dc4dacc71ae1c94a427, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: d091b006fcd06be4684c5d8f6aa063b7, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 93415878b99cd7e4d88c1e98d1f22a8f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 44fb72dc811b9a741ab5ffd7b55e0b8a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e9627fc110fcb0e40945c05492b2a245, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 57114e75dcda1524f9b8d24cecd16633, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: de7ccbc6ebdd2e2438bd8fda20652236, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 19911f65dd6e10f428e56d68af0f4525, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a8332b0d76ff9034caaa7b3df05f956a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ccf8e16382576584db5247c1159ef45e, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 533bd5e0695592c428a2a9e2158a4c67, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 6db26083a43e3844bac8b83ba986a339, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f24401d4d44b83149b3d3b140e2edbb6, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 03c6e46d68f979549bf135c98d035a29, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f2d09054b524ce44f8918b9f4871cf8f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ad0b456645e6da148b639d4f249bffe8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 97018cc232db00a45839ab9f3d78c68e, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 56440716772b98a49b9ac596992a5938, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e17c7655f4c6f774883b718b3a961e1b, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a7cf1b11599e3f343af03e94cbcf57bd, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 05d89048ca9d8db41b397c1cc34a799a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: af5ab5b263f5fef4cb37b84e09a8cf53, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 463b4473f99a70742bc356b0c27e28a2, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 65071453f0a686d4bbb6d31682a145d2, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: b7857c894ce103b49b11ff7cdb55827d, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 798f7e4ee26750a45964068422f6195a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: eb0b631fdaff96b4ea72f15884807a6a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f83b391056f9c494a95abab1463e78b2, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 4c9fc4032b9e6b84d82b6dc51a3e6176, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 185e2b4bede94d845b1cc8cee69905c7, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 4a862913832f347409d48d82ca4e222a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: bad6843f59d63284883380c47a3c7f7e, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 50b5c62e43f4b15469998fb6818cf9e7, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 829b946cad5573949b27491466370bdb, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 7c26700d550a44c4283c2c258e763212, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 74ce3ddd869402e4a999393b28e8f3e9, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e5126404e2768304b847a631ae2c790b, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 230eadd41a4e19348ae4f30ecf409f6f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: eb361c9a87bdf7447af6805201c2f20d, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: d6bd1089c1118e94db2c71fbcfa39c78, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: c62b63e251126a24e93f1c2a0b4ea3a1, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 318d5897842d9234086907b7b5a76ad1, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 00f685d5c2c2ede40b026ac4fd113952, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: d9289e4beb85b5b428cc20706ea5722c, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 8d9455ed7e8489748b2301359e05fbd4, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: db7f03878974dae448e1ecf20e5f67a5, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 9b9191fff0eefb44a958d4b9fbe7b4bf, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 0f576d4768ec4ca479fb1d1f0d3dc622, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 9fd0c776c471c3644a4105c39c6375c6, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 801382a4f3a11f240914e9eb3c10fb3d, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 5611c70d6fe230540a834e5f94ad7206, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ea3ad8ae7ed298f4abc88972420fbdfd, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 3b33f0ae56047cf48b9601312bf3dbd7, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 895179d795a2a604382ffc661c477c66, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1171fecde1643c74e82a492045470878, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 7955772452d415741bb0c606c3e171e3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: d00f38158c897594980a0abc6e253f38, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 3c9a8651dddd98141bfb7ffc675257e3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 3f25a9c4a5de39e4e81b0438f9e3d989, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 32b19ff61cb18cb4c802f3dff7fc541a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 6af60fc7705ce31499a2f26b05710dc8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 8eba97fcafc15f94c9b49d15460d5537, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1f76499e6f1f2a14796297271fc77037, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ee7a396cdffc54a498af43ac057e40e3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 254496c8f8cfec64ca2f3dc643771a6d, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: eb0ff93fd95348e46ac4993a0e6babf3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: db0fa6da2079b604f9c1fa7b558ddcd8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 33735d1f246e48e4c878a917125a61b8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 251e190089856384a89e51adf0b54675, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 72de494ef2fc3c046b672e5fce8c1539, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f87760ac82fed3640a9d86164dfd0574, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 3b1f238ee76cbcd49bfa1290d06c2e44, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ecc0928957fe5e0499fb3b85b95b6716, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: c7d8eec54dd2616498ee7c923e81c1a3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: b5ca535f08d188746becb98ccd479a08, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: cafe034548b2c6848954666b1404c299, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 72e1f70fbd6b89e44a18bd2e65a24263, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 03fee0df4428bb14eb4856b1f0c3865f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 0f80034d60d52a142b093af570fc8258, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1e7a0ade2dc5b994cb236169e8b35df0, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 27ae315e1fda4d24594f64b9c719a64f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 74c454eec33082b43b9de3e9238edc24, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 64b3a2797d1b1e14490bc47e0f750d99, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e03fa0683485a674c9a6ea4ce6d41572, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 40216a24fd3acf94eac9af3ce6948f5a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 248a728542099c24bb901f35e15ef473, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f7d2a479bcdf5c740978367f1190db3a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 28049c23ae04874498411111cbca6b5e, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 5dd4cafd42bf59541b5b42ded3901484, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 5495629a26c868a479206283ae81e0d3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 251c3475300ba2c44ae658f7f8123284, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a1d75069bffbc4146ad1fbf30d6210e8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 4a586062187a8514fa18c715d59642ea, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 3e91aa5cb641c664d87df5959ac9928d, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 15133e1314e74db4aa30b408016d9196, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a213889b9d91ea94983d63e5948dd04d, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 8acd176c890587a4a96caa186e63a143, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: de52cefb88a3a3b4e9657a306fedc1b4, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 2fbf79a1d0e7ce64ba3c4732ea2f5859, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 6366772b85a9527428bab8c51210aeb7, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 8c2585f5d0ba5e04e824856b5f221e16, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 36be563b4bde8ef4fb0ca6c138e6652a, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 5509f78c264469141b3597e3d5f5bcf7, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 33c98e54427a3b949be8172d0a5503b5, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 6e30912a69b05814fbeab56a4fbfe216, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f877caed2872d6b49ab6b5e87642cbe8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: d88f3371e2722a44b869d6ca625d399f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: df0aabee40669fc42ace152d14ed55aa, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f00d1af3e38ab8446a65c20b71ba9a50, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 4dee6c606493bf64688625e8b21d7909, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 79330ec4a73b88b4d9cb960809ee8311, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 28b27a3b7c856724f8787bfa3d7b3860, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: b3f42df8e50886b42af389d230b1adf4, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 8decee13be9f93e43a3a495be84d1164, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1a934eb1d670a7148a56592473ffa954, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ca4b82e87e25b2940ab17d78db222f44, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 4e6816a653f31674e9d115fb1c0c0749, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1732ed04209864d40b44ca8c1db16358, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 99a578f91b74861499cb940b5efbc3fc, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 090b4547dfce439488245fbe7f33c221, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: fc19d54d25c83d94eb6f638d2f0c9c3b, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 5266d13f7fed4524ba74c2892723a477, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: c711ceae08b3f7f4394feb9777b10406, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 4d588fd78703e3a42aea8a6257730368, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 718cd840d9716f44fa25ed1f787fa94b, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 845f4c580948a9b42b32b55a64d7fccb, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 2602bb8eaa5f99f44bed2500085b7b44, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 97d6d5ac9e8fbbf49bf10808fade9597, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e5e6b0cf237c8ce4fa0dd67976a0fa20, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: d64be55705895234d8d3d04cb61b242c, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1c6e37a909bedb845b0314fabbd95dde, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 025a74c186e829f4aa6f7c7575ad8906, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: d0b72527f59791e45a190ad072c7e429, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f02ea08cb35dfb14c87e633ceac8d6c3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e368556139ed92d4c9c8f8363cb75ee5, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f9060ac3e176d624c982f8ab80490eca, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 64798efad4e61cc4ca30718cfe14f657, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a18fdfbe7772a094c8190f4fe15ad3be, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 0f59a7fd1fc25004d860ce344fb67aae, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 65dae042695ef1d4989726ebcb97b9d9, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f039717f9e56c874c96cf22b335eec65, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 1f5c01220a6eb6c42a69a14970b5f271, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 3e2eaa4d0bebc40469a197b1a3a57ed8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 9f9cf1dd6e2a2664faed1d5153972953, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: cc2243a29f0c4ab4ba52f892556c940c, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 0c3590c81105cc84689bc0fea9c997de, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 37d98b4aa03535b4b95738a7e0f707b5, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: ab8faa5abd92b1a4b8afea7e5f574189, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 65345026632a1c1438db35fa441bb101, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 2d3eb005b5d130046bd78aeeaa9b601e, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 5dd73196239ab544f871c94324fd2c53, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: e5123a1bc4034bc4882ecca3d65a9740, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 08bbabe0bc3002842a5f8d0685618ef0, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 8859ccd07737925409961826743d921c, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 188e53fcdcbc05749973b364bd2c8841, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 451536254868c8f42a6dc3c1cd1a866f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 3174d0c80755982498516f19ace15b09, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 19c96cb535e9883408aaea7f84c736a3, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: f1856c6f7e4c7a3419021a30276a65ba, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 18d1d06c435661941aafa5a580a1cbe8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: dbcbfe79ae632be48b69b58f6d7f2f53, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: a5e4ef634a1f07c4f8596a7ce10c64d8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 705ffc58eabcd3a4f801b47a7c261c41, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 2268b83e01fb1614a8082cf0672de4f8, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 37ad2e1fa6ebe8747ba057e5be2ad287, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 774c7c16e16512948b046af28c6a00f0, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 829026265a5ae3a499cf00677c66a5ac, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 8425309fca3f60e4ba3dc9a8c2dffdf1, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 314865f81b1173548bbf1879d3b9971f, type: 2}
+  - path: "items/water_container3"
+    sprite: {fileID: 21300000, guid: 627d7a7a98578a441866290c726f5dde, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 6d36b7274fa325945abd0951ff12d931, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: fbaa6802fd255ae4c9d4774e5b7f4b7b, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 2adfafbbbd64a5f428484c44966f296c, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: f079070a355928f4abce8edc102c7bbc, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: d9f31edb4dabd764fb0257b5b5deaeef, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 6bb0e75a5bb50324097a7afea7c1ac04, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 5a29f0081fe08d3408b8c904464634c7, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 13cf92f403d81c54e9e7f088e8b676cf, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: dd01e8b1fca9f774e89d5ba519f30bc7, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: c37abc051c47f974c9327daca059b27d, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 92f45c15f58e36d46a01a5eaffc82764, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 6e1334853dce8ae41969500d88fc33b0, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: e4c965ad345e17449afa02efdb1a4703, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: c12d53304fcf3694bb758d1058231b76, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: b56c831115da68f4f9a56c5cf296a852, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 195863dcce9f59340878a0a8d946b54d, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 2e8ec4c92cd0440408a99795575a79b7, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 332c259d4036d5940b6ec6dc5542acc0, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: f6d5f2555c0554a44a9a7bc0bbebf535, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 1090add9451f5704fb72ec5e7992e804, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: c6b98df76975e6743a3431f66fd4ec8a, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 7cfb19577b9a19f4686aa82f24807b01, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: e68d355ca6f24a24fa7db87dc1438d81, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 2ffd8c61733cb734aac3c19683e4ac1d, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 76375f22bdf9a854783e69381d207c30, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 074ebf75b99b3564382087818717eb6d, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: e0460ba8153c91442a3c61bba92ffd69, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: abcfabe7338eecc418f3e3193df89801, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: c08fb891cc8600644846345619646e9b, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: ae3c4edbc5016a045898f340c36b9aa5, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: b7f8427d1e16dd84a87223a6413a3eab, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: c47b9cf206a437e4ab1856b6dab1e58b, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 2beb04e7cb4310b40a69cea8134ac682, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 17e9b4d7b4b97a94fb2090bb4bba65aa, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: cba5596ad6efaae47bbd589ddd5955f1, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 818b90b31c879ff419585f41e61d6e38, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: ae4ac1de9d660a848ba69d8b1760e94f, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: edc3a059ce711464b86e7fcc7e4e406f, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 23d0d2443b0cab547acd02bef8b3a8d7, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: f41c639dde81e894e9e8951d2407ecc8, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 3bae6aca01eb19a4d9d5b56238b4fbaa, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: b966fbe500728144e9fd2d4d78703a51, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 8721031fc394a094ebd8b9bfffac4885, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 6533a6547bc792b41b48a46808ce3813, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 84168a42417c0134f911b316c5d07c94, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 7d710f19dc5cbaf4bb668e7a918e5e34, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: eb37e03563855e547b9a5c7326717510, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 969de52a52f30dc41a926bf88bcd3336, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: 561f436f5f979c1428287e42e1c1a067, type: 2}
+  - path: "items/water_container4"
+    sprite: {fileID: 21300000, guid: c5a89a16170df0d41b84de146baff8b8, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 5e85259a8b3d7cf4a9d482cd46a3eae9, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 5f59508d21ddb9342adf2d33dc07aea7, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 47722421d0247e54e8ce2318166492a3, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: fda070caaf72edd49839af804fb8d099, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 140b2b705d700e046b6db563b9006f9b, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 9faded16db4fe1241b065eaf313932f5, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: f05d6c91f73ac574fa55966eaac5e23b, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 3e08dc364c8641c44baf561c2461dd79, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: a84b5eb6f87a7364b9faa8d9f8947e8a, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 4542b83c933d33942a1de7cd862dc44c, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 96c2f4870a0d88149ab0ce6b63181292, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: cfc17292c11fa6c4f8d06cd9e2e50d8f, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 0ceac5dd525821d448ea98ab5acb233b, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: fafe6a5b25195aa4499d8d5feb312bc3, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 559d34662bfbc3743a7bbe733a2c3d5e, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: dbb6b5a1fc2ab4940ab77e0183f3f9a0, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: e0902a01e617f204eab2da7f465211d1, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 95c3654cb80d1b54388148b563984a7d, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 67ad8e4865a715a4788d31cc61fdacc4, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 7deed10469d12b0418171bed88ff2d3e, type: 2}
+  - path: "window/background"
+    sprite: {fileID: 21300000, guid: 8bb3734ff3e3a884a85acfad3c4bf790, type: 2}
+  - path: "window/background_fill"
+    sprite: {fileID: 21300000, guid: b00e0624412cfc447ac68bfe72bdfe00, type: 2}
+  - path: "window/background_fill"
+    sprite: {fileID: 21300000, guid: a82acb1acc276f348a401e331146a284, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: 829e1b84b2cf3b44a8793c2431208452, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: 75f57a82349c2924abf35711539e7aef, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: 28040ba6a52855a49a65ac7fbfb02d5b, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: a5db2b8107fcff84da4fd4f946c2666d, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: 328f0091ff9bb02438f8ed0657d2a455, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: daa89c560860fc649b22f37212c16547, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: f7b0b3b017122b145a05afbeb24eb389, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: 2197477f58d0aec4999cccdaf00b8372, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: 799ec72d87d4a5c4b8d1f8c76ff96b80, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: 8735529a4227d1e4fa23824e2beb6ec2, type: 2}
+  - path: "window/border"
+    sprite: {fileID: 21300000, guid: e574f135536a28f42834262e5f5cca86, type: 2}
+  - path: "window/border-export"
+    sprite: {fileID: 21300000, guid: 6317a312a1555c74e83f11b745beaf3d, type: 2}
+  - path: "window/borderold"
+    sprite: {fileID: 21300000, guid: 268d58667334ee34da0a6997476b1e9a, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 58b881145d40e3943bbdb32ddb9eb4f4, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 625bd40cb73d20b4386188b1d46f9508, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 5c31e9ecc3ee80e48aede018a3fae61b, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 0e4de5b95e8338b4e9e8cde1c95de5ad, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: ee0fde64797e7304d884c305879b407c, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: fc813cb9d60ed154c9903f5fc4cd316d, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 64af537444e509d438484a901b3a320d, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: dcf75287e81eab3489287398ae0ea29c, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 75848a9c5a7bdb34b97dbe3088fabca2, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 1812649a1369db24eb4268822f09c56f, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 3729a3cac5d5b50428efc65bc0f12a61, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: d2e5b3db10bd24e4988332846a9699f3, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 5944d3d6eefa5da4f82c9e504890c795, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: f1edd192de22d514284970f1cb551c4e, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 52a41e1167a14044cb52150a1f5faf37, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 8e2ec52ecbc17af41a2908fa66c92fb9, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 381305939ea175f46a17e5b618f0e895, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 195431e6d9a5ade439c8451987f71361, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 171e38664cd294740b56146d2673a749, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: e05cccf2415281f4c804220c9d0b737f, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 2e6efdb3688e44c428bc7de455aa7572, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: d7c65b859e222534792f46ea0a4a3562, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 6a8a7505391c21d4b93283f1900ad44b, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 00f51fd4f1f8e7048af8663ba373ccba, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 3fd0f8cb3d8b3a840913278c672b38d9, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 9b01147cfb5fefc4394359b5260e74e8, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 5bbe7ee707fd20a479b6f3aaa81b971c, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 602cb1c6bf69b444d9cf55d23ef86352, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 1d2642f43a8fa91448117a5a9c9cf3b9, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 7ed87f420a6f8034b8bc5c0a6c7d97cf, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 82414b63ba338da44b05b959927efe7d, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: bd5ae37dbb0d2a249b77f1651b14875a, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: e0b8fab78a51f6647a9952b6c1ef9aa5, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 2fc3a599f57a53f42a5c4ae4e52a67ce, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 8545c1f7e57b68349a349d6ff8b08f6c, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: c8a095f34aac115469073d5b545eba0c, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 967510829ee41d741bcdd646cd3c33ea, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 7679c33566591d8409e03225b5117d8e, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 7a9c855b69b543e499ea7f7caab7900c, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 66386c60ead817145ba78874c32972c2, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 5b5cacc9e7dbd8746a77478bc13efa46, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 2f24bfccba16aeb49bf12ef4cb894819, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 8bf9297a0a3c0c54fa9b144edb66a545, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 8995f18a27a1f0e4da66bface34da60e, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 48c2055ed4b753f438dda11639cfa9c3, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: b61e6ce52b3854c44b8265b75c0a3b30, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: e48e4739ffdf3044a9375a380ce936f5, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 3a7fc26f36571b54097a7ff49b50c1eb, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: f2f90aded4484bb40813feb376234191, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 0dc66abd42acea04a8e40156dbe757b2, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: c514ca197dc660e49bed0192df5d7851, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: a92092ef1d3371248b1044d76590baac, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 072cb6fc0c0de8943a7ac14fbf4955c5, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 6621f2eb764f6694f863485f442a9716, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: b03adbaddbaafd1478610d1b15747830, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 2c368feb8c8276941ab888a94a7a3110, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 8521030ee56465c4d990d1daee0ccb49, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: ceb2be078da4e7e49b67d82c744a65c9, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: c70315cdf0937da4a92b0df7cfa6e518, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 8cb73f46ccefa554a98e2b301e9eb9a6, type: 2}
+  - path: "window/elements_inner"
+    sprite: {fileID: 21300000, guid: 032d98da947c8d544b86ac62e516abd5, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: d4a112fe706ce4f4582c3827e3efc7cc, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 4e955d17915be2e44a1660c67fe76e37, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 6a8324e61451bb247850f13373c9b8da, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 67575482545638142b6443584457e569, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 5100bb46cf1f96d45a1c33f9b5099f00, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 7ee8f3a228b2cfe43b2f91184c8bd92b, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: bc343a8b6a5a6294586bbb6a4efda108, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 6413c370e6c446447bbb413f68084993, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 54895f93eccc9234dbfead3620ff6748, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: ebfd1b2042657ea49bc43524c8e380f2, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 17c701d61f550fe45a52f3a51fed399e, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 8623313ff86ab02418cdaa69f0e10535, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 5c8b6ac83ba8ee749bfd24d5374f174a, type: 2}
+  - path: "window/elements_outer"
+    sprite: {fileID: 21300000, guid: 396511767f431e24e9e9d2aaae36211a, type: 2}
+  - path: "window/machinery/bevel_frame"
+    sprite: {fileID: 21300000, guid: b8c1870802f1518468a5f351bae26e81, type: 2}
+  - path: "window/machinery/button_hover"
+    sprite: {fileID: 21300000, guid: 0659ce9bf98048f4194dd1f529ceead3, type: 2}
+  - path: "window/machinery/button_normal"
+    sprite: {fileID: 21300000, guid: b3a7fe87ce973a648a3ca544fe7d0bdc, type: 2}
+  - path: "window/machinery/button_pressed"
+    sprite: {fileID: 21300000, guid: 21334200ca700b14fb30d605c18fbf28, type: 2}
+  - path: "window/machinery/cell"
+    sprite: {fileID: 21300000, guid: f6c2dc8d5f510ea4ca37ca364769255f, type: 2}
+  - path: "window/machinery/flat"
+    sprite: {fileID: 21300000, guid: 83561c00c9775f04fb6540448cb5902f, type: 2}
+  - path: "window/machinery/icon_note"
+    sprite: {fileID: 21300000, guid: 5ee01c68c71299d44959bb74c2dfe3f7, type: 2}
+  - path: "window/machinery/icon_power"
+    sprite: {fileID: 21300000, guid: 626fff3eb40acdd4c958f660efeb7dd5, type: 2}
+  - path: "window/machinery/intake"
+    sprite: {fileID: 21300000, guid: b630989ce6f62f941a194e4501bed0c8, type: 2}
+  - path: "window/machinery/plate_notched"
+    sprite: {fileID: 21300000, guid: 48b134e87f21f7c44a0dd7e374ed8fd4, type: 2}
+  - path: "window/machinery/progress_frame"
+    sprite: {fileID: 21300000, guid: a851e8a138c8d86459d81a33188f69f4, type: 2}
+  - path: "window/machinery/radio_off"
+    sprite: {fileID: 21300000, guid: d08b88304f3390643979636917bfd251, type: 2}
+  - path: "window/machinery/radio_off_hover"
+    sprite: {fileID: 21300000, guid: 98226a2836d956b42ab95938f052cd69, type: 2}
+  - path: "window/machinery/radio_on"
+    sprite: {fileID: 21300000, guid: ae85052c4d6b9734998e835567983938, type: 2}
+  - path: "window/machinery/radio_on_hover"
+    sprite: {fileID: 21300000, guid: b7f28feae6529af4c825483cb0e45aeb, type: 2}
+  - path: "window/machinery/radio_pressed"
+    sprite: {fileID: 21300000, guid: e80de8a9c651e1c4f8d985acf846d554, type: 2}
+  - path: "window/machinery/slider_thumb_hover"
+    sprite: {fileID: 21300000, guid: 6e0e26ce739a40447aa36d70b82b551d, type: 2}
+  - path: "window/machinery/slider_thumb_normal"
+    sprite: {fileID: 21300000, guid: c3ddf00b5531ab0489fd31838439a1df, type: 2}
+  - path: "window/machinery/tab_plate"
+    sprite: {fileID: 21300000, guid: d5005fb812ff5cf4a9a5be6633828371, type: 2}
+  - path: "window/machinery/vent"
+    sprite: {fileID: 21300000, guid: 3348e96dd11950442a253a7dfae295d3, type: 2}

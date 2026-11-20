@@ -1,3 +1,4 @@
+using Input = ProbablyStolen.Port.PortInput;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -77,8 +78,33 @@ public class InputActionManager : MonoBehaviour
 		}
 	}
 
+	public void CancelPointerActions()
+	{
+		var dragHandler = GetComponentInChildren<ItemMouseDragHandler>() ?? FindObjectOfType<ItemMouseDragHandler>();
+		if (dragHandler != null)
+		{
+			dragHandler.UpdateReset();
+		}
+		for (int i = 0; i < actionHandlers.Count; i++)
+		{
+			if (actionHandlers[i] != null && actionHandlers[i].enabled)
+			{
+				actionHandlers[i].UpdateReset();
+			}
+		}
+		Reset();
+		lastMousePosition = Input.mousePosition;
+		CustomEventHandler.ClearDoubleClickTarget();
+	}
+
 	private void Update()
 	{
+		if (Input.Active && ProbablyStolen.Port.PortInput.Cancelled)
+		{
+			CancelPointerActions();
+			return;
+		}
+
 		Vector3 mousePosition = Input.mousePosition;
 		Vector3 mouseDelta = mousePosition - lastMousePosition;
 		actionHandlers.Sort((InputActionHandler a, InputActionHandler b) => b.priority.CompareTo(a.priority));

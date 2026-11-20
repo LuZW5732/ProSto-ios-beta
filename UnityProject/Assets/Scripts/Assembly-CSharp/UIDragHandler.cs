@@ -1,3 +1,4 @@
+using Input = ProbablyStolen.Port.PortInput;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -75,6 +76,32 @@ public class UIDragHandler : MonoBehaviour, IPointerDownHandler, IEventSystemHan
 			{
 				moveFrontObject.transform.SetAsLastSibling();
 			}
+		}
+	}
+
+	public void PanTouch(Vector2 screenDelta)
+	{
+		if (isDraggingAnyUI)
+		{
+			return;
+		}
+		EnsurePanelDock();
+		if (rectTransform != null)
+		{
+			rectTransform.SetAsLastSibling();
+		}
+		MoveFront();
+		if (rectTransform != null && canvas != null)
+		{
+			rectTransform.anchoredPosition += screenDelta / canvas.scaleFactor;
+		}
+		if (pixelPerfect)
+		{
+			SnapToPixelGrid();
+		}
+		if (!ignoreClamp)
+		{
+			ClampToWindow();
 		}
 	}
 

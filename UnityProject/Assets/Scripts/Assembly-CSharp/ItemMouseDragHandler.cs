@@ -1,3 +1,4 @@
+using Input = ProbablyStolen.Port.PortInput;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -73,6 +74,25 @@ public class ItemMouseDragHandler : EmptyActionHandler, Cancelable
 	public KeyCode secondaryKey => KeyBindHelper.Get("secondary_click");
 
 	public bool IsDraggingItem => isDragging;
+
+	public bool CanAdjustTouchAmount => isDragging && maxRemove >= 2 && currentItem != null && !currentItem.IsDestroyed();
+
+	public void AdjustTouchAmount(int delta)
+	{
+		if (!CanAdjustTouchAmount)
+		{
+			return;
+		}
+		int target = currentRemove + delta;
+		if (target > maxRemove) target = maxRemove;
+		if (target < 1) target = 1;
+		currentRemove = target;
+		if (currentItem != null)
+		{
+			currentItem.UpdateFakeReal(target);
+		}
+		RefreshDragHighlight();
+	}
 
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
 	private void Awake()

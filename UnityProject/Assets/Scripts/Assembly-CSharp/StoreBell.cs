@@ -117,6 +117,11 @@ public class StoreBell : TooltipInterface, IHoldClickable, IClickable, IPointerE
 		}
 	}
 
+	public void CancelTouchHotkeyHold()
+	{
+		CancelKeyHold();
+	}
+
 	private void OnDisable()
 	{
 		CancelKeyHold();

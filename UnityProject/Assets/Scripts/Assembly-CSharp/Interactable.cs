@@ -98,6 +98,10 @@ public class Interactable : MonoBehaviour, IPointerEnterHandler, IEventSystemHan
 		return true;
 	}
 
+	// Cancellation is distinct from pointer release: an interrupted touch must
+	// not finish a hold-to-confirm interaction.
+	public void CancelTouchHold() => CancelHold();
+
 	private void CancelHold()
 	{
 		if (holdActive)

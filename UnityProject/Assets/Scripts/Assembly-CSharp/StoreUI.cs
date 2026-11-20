@@ -66,6 +66,53 @@ public class StoreUI : MonoBehaviour
 		ApplyZoom(num);
 	}
 
+	public void StepTouchZoom(int direction)
+	{
+		if (direction == 0 || !zoomable)
+		{
+			return;
+		}
+
+		int currentLevel = GetSavedZoom();
+		float currentScale = currentLevel switch
+		{
+			2 => zoomScaleAlt,
+			3 => zoomScaleAlt2,
+			_ => zoomScaleNormal
+		};
+
+		float bestScale = direction > 0 ? float.PositiveInfinity : float.NegativeInfinity;
+		int bestLevel = currentLevel;
+
+		float[] scales = new float[3] { zoomScaleNormal, zoomScaleAlt, zoomScaleAlt2 };
+		for (int i = 0; i < 3; i++)
+		{
+			float s = scales[i];
+			if (direction > 0)
+			{
+				if (s > currentScale && s < bestScale)
+				{
+					bestLevel = i + 1;
+					bestScale = s;
+				}
+			}
+			else
+			{
+				if (s < currentScale && s > bestScale)
+				{
+					bestLevel = i + 1;
+					bestScale = s;
+				}
+			}
+		}
+
+		if (!string.IsNullOrEmpty(identifier) && PlayerStore.Instance != null && PlayerStore.Instance.storeUIZoomLevels != null)
+		{
+			PlayerStore.Instance.storeUIZoomLevels[identifier] = bestLevel;
+		}
+		ApplyZoom(bestLevel);
+	}
+
 	private void ApplyZoom(int level)
 	{
 		currentZoomLevel = level;

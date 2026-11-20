@@ -158,7 +158,7 @@ public static class PaperAssets
 			return itemAtlasSprites;
 		}
 		itemAtlasSprites = new List<(string, Sprite, string)>();
-		Sprite[] array = Resources.LoadAll<Sprite>("Items");
+		Sprite[] array = PortSpriteResources.LoadAll("Items");
 		foreach (Sprite sprite in array)
 		{
 			if (!(sprite == null) && !(sprite.texture == null))

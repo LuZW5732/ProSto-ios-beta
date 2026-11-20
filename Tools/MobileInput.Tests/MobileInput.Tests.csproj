@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="../../UnityProject/Assets/Scripts/Assembly-CSharp/PortGestureMachine.cs" />
+    <Compile Include="../../UnityProject/Assets/Scripts/Assembly-CSharp/PortContact.cs" />
+    <Compile Include="../../UnityProject/Assets/Scripts/Assembly-CSharp/PortContactRouter.cs" />
+    <Compile Include="../../UnityProject/Assets/Scripts/Assembly-CSharp/PortTouchControl.cs" />
+    <Compile Include="../../UnityProject/Assets/Scripts/Assembly-CSharp/PortPointerFrame.cs" />
+    <Compile Include="../../UnityProject/Assets/Scripts/Assembly-CSharp/PortTouchLayout.cs" />
+    <Compile Include="../../UnityProject/Assets/Scripts/Assembly-CSharp/PortInput.cs" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameManagedDir)/UnityEngine.CoreModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>$(GameManagedDir)/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(GameManagedDir)/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(GameManagedDir)/UnityEngine.UI.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(GameManagedDir)/UnityEngine.UIModule.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
+

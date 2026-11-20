@@ -283,7 +283,7 @@ public class RenderHandler : MonoBehaviour
 		tempRoot = TreeNodeRender.InstantiateAsRoot(tempRootObject.transform);
 		windowRoot = TreeNodeRender.InstantiateAsRoot(windowRootObject.transform);
 		fill = LoadFromAtlas("Window/elements_outer", "background_fill");
-		Sprite[] array = Resources.LoadAll<Sprite>("Window/background");
+		Sprite[] array = PortSpriteResources.LoadAll("Window/background");
 		Dictionary<string, Sprite> backgroundDict = new Dictionary<string, Sprite>();
 		Array.ForEach(array, (Sprite s) =>
 		{
@@ -307,7 +307,7 @@ public class RenderHandler : MonoBehaviour
 		whiteBorder = backgroundDict.GetValueOrDefault("border_white");
 		blackBorder = backgroundDict.GetValueOrDefault("border_black");
 		tanBorder = backgroundDict.GetValueOrDefault("border_tan");
-		Sprite[] array2 = Resources.LoadAll<Sprite>("Window/border");
+		Sprite[] array2 = PortSpriteResources.LoadAll("Window/border");
 		Dictionary<string, Sprite> borderDict = new Dictionary<string, Sprite>();
 		Array.ForEach(array2, (Sprite s) =>
 		{
@@ -336,7 +336,7 @@ public class RenderHandler : MonoBehaviour
 		}
 		if (!atlasCache.TryGetValue(atlasPath, out var value))
 		{
-			Sprite[] array = Resources.LoadAll<Sprite>(atlasPath);
+			Sprite[] array = PortSpriteResources.LoadAll(atlasPath);
 			if (array.Length < 1)
 			{
 				return null;
@@ -374,7 +374,7 @@ public class RenderHandler : MonoBehaviour
 
 	public static Sprite LoadFromFile(string spritePath)
 	{
-		Sprite sprite = Resources.Load<Sprite>(spritePath);
+		Sprite sprite = PortSpriteResources.Load(spritePath);
 		if ((object)sprite == null)
 		{
 			Debug.LogWarning("Sprite path '" + spritePath + "' was not found. Loading dummy sprite.");
