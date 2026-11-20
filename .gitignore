@@ -1,0 +1,13 @@
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Obj/
+UnityProject/Logs/
+UnityProject/PortReports/
+UnityProject/UserSettings/
+build/
+PortReports/
+*.ulf
+UnityEntitlementLicense*.xml
+.env
+**/bin/
+**/obj/

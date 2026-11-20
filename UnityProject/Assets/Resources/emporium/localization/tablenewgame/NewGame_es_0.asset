@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NewGame_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 64b2e850801a6fb4ebd9579f7e7462a4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 180521517629915136
+    m_Localized: Especialista en acuicultura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915137
+    m_Localized: Durante tu tiempo con el mentor, aprendiste a criar peces en acuarios por su carne. Empezarás con un sistema de acuicultura recirculante pequeño y peces de iniciación.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915138
+    m_Localized: Sistemas de acuicultura recirculante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915139
+    m_Localized: Empiezas con inventario de tilapia y cebo para peces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915140
+    m_Localized: Alquiler inicial más caro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1489972805632
+    m_Localized: Aprendiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1550517583872
+    m_Localized: Chatarrero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1562228080640
+    m_Localized: Aguador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1579307286528
+    m_Localized: Perista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593098158080
+    m_Localized: Especialista en hidroponía
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636114939904
+    m_Localized: Narcotraficante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694201856000
+    m_Localized: Traficante de órganos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713894113280
+    m_Localized: Farmaceuta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1736983756800
+    m_Localized: Mercader de comida callejera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1777781751808
+    m_Localized: Destilante ilegal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33510552027136
+    m_Localized: Escoge una especialización…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36113511923712
+    m_Localized: Durante el entrenamiento con tu mentor, no hubo ninguna especialización que te llamara demasiado la atención. En su lugar, dedicaste el tiempo a optimizar la operación, así que necesitas menos dinero para montar la tienda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36412188311552
+    m_Localized: Más crédito inicial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38817957199872
+    m_Localized: Recomendado si juegas por primera vez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39721708077056
+    m_Localized: Empiezas con comida y artículos del hogar en el inventario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39719812251648
+    m_Localized: Equipamiento adicional (depósito de almacenaje).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41091349659648
+    m_Localized: Por terminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44792365760512
+    m_Localized: Durante el entrenamiento con tu mentor, te interesaste especialmente por el comercio de agua. El agua potable es un bien escaso en la estación, y quienes tienen acceso a ella pueden sacar tajada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69123699425280
+    m_Localized: Manual de aguador.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69167391490048
+    m_Localized: Equipamiento de análisis y purificación de agua.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69177692700672
+    m_Localized: Almacenamiento adicional (contenedores de agua).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70344103477248
+    m_Localized: Antes de que tu mentor te encontrara, te dedicabas a recuperar chatarra y otros objetos usados. Eras pobre, pero tenías buena reputación. A pesar de tu entrenamiento, nunca olvidaste tu pasado y has reutilizado tu antiguo equipamiento en tu nuevo trabajo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70401448001536
+    m_Localized: Herramientas y equipamiento de chatarrero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70434029355008
+    m_Localized: Más reputación inicial (residueros).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70436172644352
+    m_Localized: Equipamiento adicional (fragua).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72090364198912
+    m_Localized: Inicio avanzado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72394300243968
+    m_Localized: Durante el entrenamiento con tu mentor, te interesaste especialmente por el contrabando. Se te conoce en el mundo del mercado negro y te has asegurado de instalar compartimentos ocultos en la tienda para evitar la atenta mirada de las Fuerzas de Seguridad de la estación.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73142996090880
+    m_Localized: Equipamiento adicional (depósito de contrabandista).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73278484692992
+    m_Localized: Empiezas con mercancía de contrabando.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73328950558720
+    m_Localized: Más reputación inicial (mercado negro).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73330057854976
+    m_Localized: Peor reputación inicial (Fuerzas de Seguridad).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73331030933504
+    m_Localized: Acceso inmediato al mercado clandestino de Limpieza.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73389046546432
+    m_Localized: Alquiler inicial más caro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74131299942400
+    m_Localized: Durante el entrenamiento con tu mentor, le cogiste el gusto al aguardiente casero. Sabes cómo venderlo, tasarlo e incluso destilar tu propio licor. El aguardiente casero se consume bastante en los niveles inferiores por ser barato, pero es ilegal y no está regulado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74164715962368
+    m_Localized: Manual de venta de aguardiente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74261122039808
+    m_Localized: Equipo básico de destilación.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74542706638848
+    m_Localized: Durante el entrenamiento con tu mentor, le pillaste el gusto a los estupefacientes. Sabes todo lo que hay que saber sobre el lucrativo negocio de la venta de drogas. Y tienes mano para la producción, así que no te preocupa que el suministro pueda llegar a escasear.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698969628672
+    m_Localized: Manual de química
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74729940369408
+    m_Localized: Equipamiento de laboratorio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75185236262912
+    m_Localized: Durante el entrenamiento con tu mentor, una fascinación macabra por el tráfico de órganos creció en ti. Es legal traficar con órganos de donantes…, pero se puede sacar más tajada con la venta de partes del cuerpo extraídas ilícitamente de pacientes vivos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75262713446400
+    m_Localized: Manual de tráfico de órganos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75305663119360
+    m_Localized: Equipamiento adicional (contenedores para órganos).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75308548800512
+    m_Localized: Kit de transfusión de sangre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75463129874432
+    m_Localized: Durante el entrenamiento con tu mentor, desarrollaste un interés especial en los medicamentos sin receta y aprendiste lo básico sobre cómo llevar una farmacia, atender a clientes enfermos y sintetizar medicamentos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75501117685760
+    m_Localized: Manual de venta de medicamentos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75502254342144
+    m_Localized: Manual de primeros auxilios.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75503260975104
+    m_Localized: Empiezas con suministros médicos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75997584867328
+    m_Localized: Durante el entrenamiento con tu mentor, descubriste la pasión por la cocina y la comida callejera. Sabes cómo preparar comida sabrosa y rápida de hacer que se adecua al trajín infranivelense. Los puestos de comida son una forma popular y flexible de ganarse la vida y, si se usan los ingredientes adecuados, se puede sacar un margen de beneficios nada desdeñable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76052249231360
+    m_Localized: Libro de cocina.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76054665150464
+    m_Localized: Equipamiento adicional (hornillo).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76056204460032
+    m_Localized: Empiezas con ingredientes de cocina.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76194914287616
+    m_Localized: Durante el entrenamiento con tu mentor, afinaste tus conocimientos en agricultura hidropónica, una forma eficiente de cultivar plantas en el espacio limitado de la estación. Tu experiencia puede ayudar a proveer de alimentos a los niveles inferiores y, de paso, sacar provecho de ello.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76197867077632
+    m_Localized: Manual de cultivo hidropónico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76201893609472
+    m_Localized: Equipamiento adicional (sistema hidropónico).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76203508416512
+    m_Localized: Empiezas con semillas y materiales de cultivo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76509856186368
+    m_Localized: Alquiler inicial más caro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229462627368960
+    m_Localized: Armero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229510593429504
+    m_Localized: Durante el entrenamiento con tu mentor, desarrollaste predilección por las armas de fuego y los explosivos. Aprendiste a modificar armas, desde pistolas caseras a potentes subfusiles. Licencia en mano, puedes aceptar encargos personalizados y ganar un buen sueldo armando a los habitantes de la estación.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230746092781568
+    m_Localized: Licencia de armas de categoría 1.ª
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230752501678080
+    m_Localized: Empiezas con inventario de armas de fuego y modificaciones para pistolas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230769882873856
+    m_Localized: Empiezas con inventario de munición.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99670006883467264
+    m_Localized: Archivo de guardado dañado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99065213836115968
+    m_Localized: Sin especialización
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069229261438976
+    m_Localized: Nada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069202615025664
+    m_Localized: El mentor no te ayudó a nada más que a negociar el alquiler con tu casero. No tienes nada salvo tu tienda y la determinación de salir adelante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069305866207232
+    m_Localized: Desafío extremo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004236062720
+    m_Localized: Cría de ratas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108082834627674112
+    m_Localized: Para disgusto del mentor, descubriste tu entusiasmo por la cría de animales mientras estabas con él. De ratas, más concretamente. Has aprendido lo básico para criar ratas para carne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811456
+    m_Localized: Jaula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811457
+    m_Localized: Ratas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811458
+    m_Localized: Comida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112700634117750784
+    m_Localized: "Regentas una tienda en los niveles inferiores de una estación espacial en continua expansión. Empezaste rebuscando por ahí y vendiendo lo que encontrabas de valor hasta que un hombre enigmático, tu mentor, te acogió para enseñarte lo básico de regentar un comercio y te hizo un préstamo de lo más generoso. La razón por la que lo hizo sigue siendo un misterio para ti.\nAhora, tienes que enfrentarte a las demandas constantes de tu casero o enfrentarte a un desahucio. Sácale rentabilidad a la tienda, consigue un préstamo y compra el local de la tienda para hacerte un hueco en la estación.\nSobrevive cueste lo que cueste. Lábrate un futuro."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

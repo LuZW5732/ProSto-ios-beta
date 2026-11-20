@@ -1,0 +1,6335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Mechanic_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 821373c5acd58274cbaedad422711bd6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 193096479195136
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166656
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166657
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166658
+    m_Localized: 盗難の回避率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360960
+    m_Localized: 同じ派閥に2回以上送信しても、追加の効果は得られない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360961
+    m_Localized: 送信中：<b>警察</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360962
+    m_Localized: 送信中：<b>闇市場</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360963
+    m_Localized: 送信中：<b>上層世界</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360964
+    m_Localized: 送信中：<b>革命家本部</b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360979
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360980
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360981
+    m_Localized: チップスロット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360982
+    m_Localized: 入力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360983
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360984
+    m_Localized: デシーケンス中……（進捗：{0}/{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360985
+    m_Localized: 状況：デシーケンス中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360986
+    m_Localized: （進捗：{0}/{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360987
+    m_Localized: 状況：準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360993
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360994
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360995
+    m_Localized: 入力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360996
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360997
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361015
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361016
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361017
+    m_Localized: 状況
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361018
+    m_Localized: プリントを開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361019
+    m_Localized: ストレージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361020
+    m_Localized: カセット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361021
+    m_Localized: 操作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361022
+    m_Localized: 音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361023
+    m_Localized: '<'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361024
+    m_Localized: 再生
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361025
+    m_Localized: 停止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361026
+    m_Localized: '>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361027
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361028
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361029
+    m_Localized: 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361030
+    m_Localized: '{0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361031
+    m_Localized: バッテリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361032
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361033
+    m_Localized: 状況：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361034
+    m_Localized: 準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361035
+    m_Localized: 充電中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361036
+    m_Localized: （{0}/{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361037
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361038
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361039
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361040
+    m_Localized: 魅力度（稼働中）：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361041
+    m_Localized: 魅力度（非稼働中）：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361064
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361065
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361066
+    m_Localized: 水入れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361067
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361068
+    m_Localized: 出力量：{0}ml（{1}）/日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361069
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361070
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361071
+    m_Localized: 水入れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361072
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361073
+    m_Localized: 除去された汚染物質（昨晩）：{0}ml
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054720
+    m_Localized: 食品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054721
+    m_Localized: 医療
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054722
+    m_Localized: 素材
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054723
+    m_Localized: 日用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054724
+    m_Localized: 薬物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054725
+    m_Localized: 武器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054726
+    m_Localized: 再販禁止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054727
+    m_Localized: 物資箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054728
+    m_Localized: 道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054729
+    m_Localized: 医療道具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054730
+    m_Localized: 全種類
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054731
+    m_Localized: 全種類（禁制品以外）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054732
+    m_Localized: 禁制品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054733
+    m_Localized: 制限付き I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054734
+    m_Localized: 制限付き II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054735
+    m_Localized: 制限付き III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054736
+    m_Localized: 即席
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054737
+    m_Localized: ローテク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054738
+    m_Localized: 並み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054739
+    m_Localized: ハイテク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054740
+    m_Localized: 希少
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054741
+    m_Localized: 贅沢品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054742
+    m_Localized: 芸術品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054743
+    m_Localized: 水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054744
+    m_Localized: 配給水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054745
+    m_Localized: 医療用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054746
+    m_Localized: 農業用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054747
+    m_Localized: 化学用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054748
+    m_Localized: 生鮮食品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054749
+    m_Localized: 加工食品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054750
+    m_Localized: お菓子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054751
+    m_Localized: 飲料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054752
+    m_Localized: 書類
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054753
+    m_Localized: アクセスカード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054754
+    m_Localized: 種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054755
+    m_Localized: 基本の素材
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054756
+    m_Localized: 精製済みの素材
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054757
+    m_Localized: バッテリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054758
+    m_Localized: 麻薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054759
+    m_Localized: 毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054760
+    m_Localized: 保管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054761
+    m_Localized: 浄水用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054762
+    m_Localized: 酸素供給
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054763
+    m_Localized: アルコール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054764
+    m_Localized: 近接武器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054765
+    m_Localized: 銃器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054766
+    m_Localized: 改造可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054767
+    m_Localized: 弾薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054768
+    m_Localized: 軍需品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054769
+    m_Localized: 改造パーツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054770
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054771
+    m_Localized: ノード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054772
+    m_Localized: 水耕モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054773
+    m_Localized: 警報モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054774
+    m_Localized: プリンターモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054775
+    m_Localized: エバポレーターモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054776
+    m_Localized: 機械
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054777
+    m_Localized: 臓器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054778
+    m_Localized: 防具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054779
+    m_Localized: ろ過器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054780
+    m_Localized: ギャンブル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915584
+    m_Localized: '[盗品（ヒート値：{0}%）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915585
+    m_Localized: 低級の禁制品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915586
+    m_Localized: 中級の禁制品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915587
+    m_Localized: 上級の禁制品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915588
+    m_Localized: 最上級の禁制品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915589
+    m_Localized: （無効）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915590
+    m_Localized: '[ロック中。機械が稼働している] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915591
+    m_Localized: '[ロック中]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915597
+    m_Localized: 推定価格：{0}、基本価格：{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915598
+    m_Localized: 購入価格：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915599
+    m_Localized: ' ダブルクリックで引き換え'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915600
+    m_Localized: 電力サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915601
+    m_Localized: 清掃サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915602
+    m_Localized: 保険サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915603
+    m_Localized: カルテル見守り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915604
+    m_Localized: 検査事前警告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915605
+    m_Localized: 買い手推薦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915606
+    m_Localized: 売り手推薦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915607
+    m_Localized: 禁制品の買い手推薦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915608
+    m_Localized: ワイルドの始末屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915609
+    m_Localized: 家賃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915610
+    m_Localized: 支払い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915611
+    m_Localized: 本日{0}の支払い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915612
+    m_Localized: 明日{0}の支払い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915613
+    m_Localized: '{1}日後に{0}の支払い'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915614
+    m_Localized: '{0}日目（{1}）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915615
+    m_Localized: 日曜日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915616
+    m_Localized: 月曜日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915617
+    m_Localized: 火曜日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915618
+    m_Localized: 水曜日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915619
+    m_Localized: 木曜日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915620
+    m_Localized: 金曜日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915621
+    m_Localized: 土曜日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915622
+    m_Localized: 中立
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915623
+    m_Localized: 認知済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915624
+    m_Localized: 定評あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915625
+    m_Localized: 注目の的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109888
+    m_Localized: 人望厚め
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109889
+    m_Localized: おすすめ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109890
+    m_Localized: 信頼の店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109891
+    m_Localized: 高評価
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109892
+    m_Localized: 有名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109893
+    m_Localized: 憧れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109894
+    m_Localized: 一流
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109895
+    m_Localized: 賛否両論
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109896
+    m_Localized: 不人気
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109897
+    m_Localized: 不審
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109898
+    m_Localized: 怪しげ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109899
+    m_Localized: 心配
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109900
+    m_Localized: 問題あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109901
+    m_Localized: 不評
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109902
+    m_Localized: 悪評
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109903
+    m_Localized: ガラガラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109904
+    m_Localized: ボイコット対象
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109905
+    m_Localized: ブラックリスト入り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109906
+    m_Localized: 店の魅力度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109907
+    m_Localized: クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109908
+    m_Localized: '{0}日目'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818283970560
+    m_Localized: 本日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359168
+    m_Localized: 明日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359169
+    m_Localized: '{0}日後'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359170
+    m_Localized: '{1}、高利貸しが返済で{0}クレジットを徴収しにくる'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359171
+    m_Localized: '{1}大家が家賃で{0}クレジットを徴収しにくる'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359172
+    m_Localized: '{2}、大家が家賃で{0} + {1}（前週の未払い分）を徴収しにくる'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359173
+    m_Localized: 現在の不動産価値は{0}クレジット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359202
+    m_Localized: '{0}クレジット'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359203
+    m_Localized: '{0}（{1}でクールダウン）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359210
+    m_Localized: '{0}個 在庫あり'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141968977920
+    m_Localized: 虫眼鏡で精査可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560832
+    m_Localized: ダブルクリックで開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560833
+    m_Localized: モジュールの効果：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560834
+    m_Localized: 性能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560835
+    m_Localized: 効率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560836
+    m_Localized: 品質
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560837
+    m_Localized: ' [詰まっている。モジュール取り出し機が必要]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560838
+    m_Localized: 基本
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560839
+    m_Localized: プレミアム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560840
+    m_Localized: このモジュールは基本ステータスを{0}%高くするが、コストが大幅に高い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560841
+    m_Localized: 劣悪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560842
+    m_Localized: このモジュールは基本ステータスを{0}%低くし、コストが大幅に低い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560843
+    m_Localized: レシーバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560844
+    m_Localized: このモジュールは隣接する[ノード]1つにつき、ステータスに{0}%の一時的なボーナスを付与される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560845
+    m_Localized: 上部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560846
+    m_Localized: このモジュールは1つ以上の面がモジュールケースの上端に接触している場合、ステータスに{0}%の一時的なボーナスを付与される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560847
+    m_Localized: 側面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560848
+    m_Localized: このモジュールは1つ以上の面がモジュールケースの左端に接触している場合、ステータスに{0}%の一時的なボーナスを付与される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560849
+    m_Localized: 過充電
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560850
+    m_Localized: このモジュールは基本ステータスを{0}%高くするが、{1}%の確率で使用すると永久に破損する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560851
+    m_Localized: 劣化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560852
+    m_Localized: このモジュールは基本ステータスを2倍の状態で開始するが、使用するたびにプラスの割合が{0}%減少する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560853
+    m_Localized: 学習アルゴリズム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560854
+    m_Localized: このモジュールはプラスのステータスをゼロの状態で開始するが、使用するたびにプラスの基本ステータスが{0}増加する（上限まで）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560855
+    m_Localized: 負のフィードバック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560856
+    m_Localized: このモジュールはプラスの基本ステータスを{0}%高くするが、隣接するモジュールからマイナスの基本ステータスを{1}%受ける。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560857
+    m_Localized: サポートノード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560858
+    m_Localized: このモジュールは、隣接する[モジュール]1つごとの基本ステータス{0}%を一時的なボーナスとして得る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560859
+    m_Localized: 比率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560860
+    m_Localized: モジュールの効果：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560861
+    m_Localized: '必要なエネルギー： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560862
+    m_Localized: '{0}/日'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560863
+    m_Localized: ' （基本 {0}/日）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560864
+    m_Localized: '進行速度： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560865
+    m_Localized: 内部アキュムレーター：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560866
+    m_Localized: 充電一時停止中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560867
+    m_Localized: 準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560868
+    m_Localized: 電力不足で充電できない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560869
+    m_Localized: 充電中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560870
+    m_Localized: 進捗：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560871
+    m_Localized: 低電力モード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808787431424
+    m_Localized: 傷の状態は安定し、徐々に回復している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014336
+    m_Localized: 傷が完全に治った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014337
+    m_Localized: 傷は治りつつあり、まともに動けるようになった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014338
+    m_Localized: 軽傷は治りつつある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014339
+    m_Localized: 手当てしていない傷が悪化し、動けなくなった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014340
+    m_Localized: 手当てしていない重傷が悪化した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014341
+    m_Localized: 手当てしていない軽傷が悪化した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208640
+    m_Localized: 廃品漁り中に軽傷を負った！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208641
+    m_Localized: 廃品漁り中に重傷を負った！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208642
+    m_Localized: ニコチン中毒を克服した！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208643
+    m_Localized: アルコール中毒を克服した！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208644
+    m_Localized: 麻薬中毒を克服した！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208645
+    m_Localized: ニコチン中毒の離脱症状に苦しんでいる。交渉にペナルティが発生する！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208646
+    m_Localized: アルコール中毒の離脱症状に苦しんでいる。交渉にペナルティが発生する！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208647
+    m_Localized: 麻薬中毒の離脱症状に苦しんでいる。交渉にペナルティが発生する！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208648
+    m_Localized: 中毒の離脱症状がひとまず治まった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208649
+    m_Localized: 全身に裏切られているような気がする。体調が一気に悪化している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208650
+    m_Localized: 息がしづらい。筋肉がけいれんする。体調が急速に悪化している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208651
+    m_Localized: 熱っぽく、体がだるい。体調が悪化している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208652
+    m_Localized: 少し体に不調を感じている。すぐにImmunivaxの注射を打たなければならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208653
+    m_Localized: センチネル崩壊症候群はほぼ最終段階にある。注射を忘れてはならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208654
+    m_Localized: センチネル崩壊症候群の段階が進行した。注射を忘れてはならない！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208655
+    m_Localized: ' 体調がかなりよくなった'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208656
+    m_Localized: ' 体調がよくなった'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208657
+    m_Localized: ' 体調が少しよくなった'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208658
+    m_Localized: ' 特に体調に変化を感じない'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208659
+    m_Localized: 注射はとてもスムーズだった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208660
+    m_Localized: 注射はほとんどスムーズだった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208661
+    m_Localized: 注射には少し違和感があった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208662
+    m_Localized: '{0}中毒が治った！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208663
+    m_Localized: ' と '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208664
+    m_Localized: '、 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208665
+    m_Localized: 犯罪記録なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208666
+    m_Localized: 該当なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208667
+    m_Localized: なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208668
+    m_Localized: 不正取引（武器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208669
+    m_Localized: 不正取引（麻薬）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208670
+    m_Localized: 不正取引（制限付きアクセスカード）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208671
+    m_Localized: 不正取引（一般禁制品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208672
+    m_Localized: 警察への賄賂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208673
+    m_Localized: 虚偽表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208674
+    m_Localized: 消費者への危険行為
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208675
+    m_Localized: 所持（盗品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208676
+    m_Localized: 無許可での営業
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208677
+    m_Localized: その他
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208678
+    m_Localized: 罰金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208679
+    m_Localized: 投獄
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208680
+    m_Localized: 処刑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208681
+    m_Localized: 信頼できる検査員のみ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208682
+    m_Localized: 追加検査
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208683
+    m_Localized: おとり捜査
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208684
+    m_Localized: 捜査
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208685
+    m_Localized: 刑の執行を計画中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208686
+    m_Localized: 刑の執行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208687
+    m_Localized: 警備見習いジェフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208688
+    m_Localized: ヴァレンタイン警部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208689
+    m_Localized: ファン刑事
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208690
+    m_Localized: ページ検査員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208691
+    m_Localized: 主任警部カールソン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208692
+    m_Localized: "\n推定犯行額（{0}<sprite name=\"c\" tint=1 >）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208693
+    m_Localized: 犯罪活動が増加したため、警察の捜査が前より速いペースで進行している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208694
+    m_Localized: 犯罪活動が大幅に増加したため、警察の捜査が前よりかなり速いペースで進行している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208695
+    m_Localized: '（<b>未所持</b>） '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208696
+    m_Localized: 廃品漁り中に、何か見つけた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208697
+    m_Localized: 電子部品で改良可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208698
+    m_Localized: 戦利品獲得率2倍：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830324310016
+    m_Localized: アングラ取引から、新しい取引情報が届いた。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892928
+    m_Localized: ワイルドが推薦した買い手が、明日店に来る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892929
+    m_Localized: ワイルドが推薦した売り手が、明日店に来る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892930
+    m_Localized: ワイルドが推薦した高額な禁制品を買える買い手が、明日店に来る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892931
+    m_Localized: 警察の内通者から、2日後に店に検査が入るという連絡があった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892932
+    m_Localized: 警察の内通者から、明日に検査が予定されているという連絡があった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892933
+    m_Localized: 警察の内通者から、検査が差し迫っているという連絡があった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892934
+    m_Localized: 自分のツテから、指名手配犯の{0}が昨日店に来たという情報が入った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892935
+    m_Localized: 金銭面は問題ない。資金を店の改良や人脈の拡大に使うことを検討しよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892936
+    m_Localized: 禁制品の取引が活発化している。警察がおとり捜査を実施しているかもしれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892937
+    m_Localized: 警察で進行中の捜査がほぼ完了した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892938
+    m_Localized: 昨夜の活動の影響で、開店が遅れてしまった。1人の客を逃した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892939
+    m_Localized: 夜にワイルドの始末屋が目撃者の口封じをし、証拠を消した。犯罪容疑レベルが低下した。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892940
+    m_Localized: 夜に店先の掃除がされなかった。{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892941
+    m_Localized: 店先の掃除がされ、ゴミが回収された。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892942
+    m_Localized: 清掃サービスのおかげで、荒らされた痕跡がなくなった。これで客も安心して来店できるようになるはずだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892943
+    m_Localized: そもそも掃除するものがなかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892944
+    m_Localized: 店の前にゴミ袋が置いてあるせいで、数人の客が来店しなくなるかもしれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892945
+    m_Localized: 店の前にゴミやガラクタが大量にあるせいで、客が来店したがらなくなっている！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087232
+    m_Localized: めちゃくちゃな有様だ！ ゴミや瓦礫が多すぎて、来店したい人でも店に近付きにくくなっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087233
+    m_Localized: 電気代の未払いにより、送電が停止された。非常灯の薄暗い光が残る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087234
+    m_Localized: 電気代を支払った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087235
+    m_Localized: カルテルが店を守っている。泥棒の標的になることはない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087236
+    m_Localized: 現在は保険サービスの適用対象外だ。前回の適用から、{0}日が経過している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087237
+    m_Localized: 保険サービスの料金を支払った。保険が適用される！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087238
+    m_Localized: 泥棒が入った！ 幸い、防犯アラームが作動して泥棒は手ぶらで帰った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087239
+    m_Localized: 夜に泥棒が入った！ 何ということだ！ 防犯アラームが作動せず、{0}を盗まれた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087240
+    m_Localized: 泥棒が入った！ {0}が盗まれた！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087241
+    m_Localized: 泥棒が入った。{0}を盗まれたが、ジョー・ワイルドの部下が泥棒を見つけ出し、朝には盗まれたものを持って戻ってきた。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087242
+    m_Localized: 怒った下層世界の客が、店を荒らした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087243
+    m_Localized: 警察支持者が店を荒らした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087244
+    m_Localized: 上層世界の客が雇った暴漢が、店を荒らした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087245
+    m_Localized: 革命支持者が店を荒らした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087246
+    m_Localized: カルテルが脅しのつもりで店を荒らした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087247
+    m_Localized: 怒った客が店を荒らした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087248
+    m_Localized: 店が荒らされた！ 来店する客が減るだけでなく、片付けにかかる費用も大幅に増えてしまう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087249
+    m_Localized: 評判が高いおかげで、ある派閥が今後の作戦の日程を教えてくれた。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087250
+    m_Localized: ツテの{0}が、新たな指示を受ける準備が整った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087251
+    m_Localized: 停電したが、電力線乗っ取りのおかげでまだ電気が使える！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087252
+    m_Localized: 停電した。電気が使えない！ 非常灯の薄暗い光が残る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087255
+    m_Localized: （警察からの評判が上がった）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087258
+    m_Localized: （警察からの評判が少し上がった）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087264
+    m_Localized: （警察からの評判が下がった）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087265
+    m_Localized: エネルギー状況
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087266
+    m_Localized: ' - エネルギー： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087267
+    m_Localized: 自動充電（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087268
+    m_Localized: 「{1}」の影響で、{0}の市場価格が変わった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840624394240
+    m_Localized: 家賃の支払い期限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171502
+    m_Localized: 生活支援物資を配布！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171503
+    m_Localized: 生活支援活動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171504
+    m_Localized: 上層世界の慈善団体が、下層世界の住民に対して生活必需品を惜しみなく提供した。真意がわからず疑う声もあるものの、これで生活環境が向上し、高まりつつある不安が収まるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365762
+    m_Localized: 証拠品保管庫への侵入事件！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365763
+    m_Localized: ステーションの中央証拠品保管庫で大胆な侵入事件が発生し、警察は混乱状態となっている。報告によると、進行中の捜査に関する重要な証拠のほか、押収された禁制品の入った箱が1つ消えたようだ。警察は下層世界の市民に対し、不審な物品が流通する可能性があるため注意するように呼びかけている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365764
+    m_Localized: 下層世界は異状なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365765
+    m_Localized: 珍しいことに本日の下層世界は平和で、大きな事件は報告されていない。市場は安定しており、住民たちは普段通りの生活を送っている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365766
+    m_Localized: 電気設備のメンテナンス開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365767
+    m_Localized: 上層世界では、予定されていた電気設備のメンテナンス作業が始まるため、一時的に停電が発生する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365768
+    m_Localized: すべての人にニュートリフルーツを！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365769
+    m_Localized: 下層世界のメンテナンス技師が共同で、低コストの水耕栽培システムを開発した。少量ながらも安定してニュートリフルーツを生産できるシステムだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365770
+    m_Localized: PEATに含まれている肉の量は？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365771
+    m_Localized: 下層世界のほぼすべての台所にある、缶詰の加工肉「PEAT」が批判の的に。独立した研究者の間では、この製品にどれだけ肉が使われているのか疑問視している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365772
+    m_Localized: リサイクル推進運動、開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365773
+    m_Localized: 適切な廃棄物処理を促すため、中層世界で小規模なリサイクル推進運動が開始された。この運動による実際的影響は最低限だと見込まれている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365774
+    m_Localized: 地元芸術家の展示会
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365775
+    m_Localized: 下層世界で、地元の芸術家の展示会が開催される。作品はステーションの素材を再利用して作られており、住民が閲覧・購入可能だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365776
+    m_Localized: 整備員のストライキが終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365777
+    m_Localized: 整備員によるストライキは短時間で終わり、大きな遅延や被害の報告もなく解決した。通常業務は再開済みだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365778
+    m_Localized: 垣間見える未来！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365779
+    m_Localized: 上層世界では、新興企業やテクノロジー企業による最新の発明品を展示する技術展が開催される。展示予定の製品の多くは、富裕層をターゲットにしている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365780
+    m_Localized: 中層世界で新たな交通線が開通
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365781
+    m_Localized: 複数の住宅区域と商業の中心地を結ぶ新たな交通線が、中層世界で開通した。利便性が向上したことで、中層世界での通勤の負担が少し軽減される見込みだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365782
+    m_Localized: 地域を彩る噴水が公開！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365783
+    m_Localized: 進行中の美化プロジェクトの一環として、上層世界に設置された噴水がついに公開された。噴水の水を飲んでいる市民が発見された場合は、逮捕および罰金の対象になるとのことだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365784
+    m_Localized: 下層世界のコミュニティガーデン拡張
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365785
+    m_Localized: 下層世界では、基本的な野菜を栽培するための区画が少し増え、コミュニティガーデンが拡張された。食品の価格に影響が出る可能性は低いだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365786
+    m_Localized: アートコンテストが中層世界で開催
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365787
+    m_Localized: 中層世界のコミュニティセンターで開催中のアートコンテストでは、住民から作品の募集が行われた。入賞作品は、1週間公共スペースに展示される予定だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365788
+    m_Localized: 上層世界の文化祝賀会
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365789
+    m_Localized: 上層世界の文化団体が、伝統芸能や音楽、食を楽しむ小規模な祝賀会を開催中だ。主に上層世界の住民が参加し、市場にはほとんど影響が出ないと予測される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365790
+    m_Localized: 船外活動訓練、今回も無事終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365791
+    m_Localized: ステーションの技師による定期的な船外活動訓練が、ステーションの活動に支障をきたすことなく無事に終了した。報告によると下層世界の男性1名が、船外活動中の職員を宇宙人と誤解してショック症状の治療を受けているようだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365792
+    m_Localized: ニュートリフルーツの大収穫期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365793
+    m_Localized: ニュートリフルーツの栽培
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365794
+    m_Localized: 中層世界の大規模農場で、ニュートリフルーツの収穫が行われている。しばらくの間、新鮮なニュートリフルーツを入手できて食品の価格も下がるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365795
+    m_Localized: ニュートリフルーツの収穫に深刻な打撃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365796
+    m_Localized: ニュートリフルーツの栽培失敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365797
+    m_Localized: 下層世界のニュートリフルーツ農場が、適切な資源と管理の不足によって不作に陥った。しばらくの間、新鮮な農産物が不足して食品の価格も上がるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365798
+    m_Localized: ニュートリフルーツの種が盗難！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365799
+    m_Localized: ニュートリフルーツの種不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365800
+    m_Localized: 水耕栽培農場の倉庫に保管されていたニュートリフルーツの種が、窃盗に遭い一夜にして消え去った。ステーション全域で、食品と種の価格が急騰する見込みだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365801
+    m_Localized: 偽造された医療用品が発見！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365802
+    m_Localized: 医療用品の不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365803
+    m_Localized: 各地の診療所や病院で、偽造された医療用品が大量にあることが判明した。本物の医療用品の需要が急増すると予測される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365804
+    m_Localized: 水処理場で問題発生、給水の危機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365805
+    m_Localized: 給水危機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365806
+    m_Localized: 中央水処理場でのポンプの故障により、給水に深刻な支障が生じている。警察は冷静な判断を呼びかけており、市場の専門家は今後数日間、水と浄水用品の価格が急騰すると予測している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365807
+    m_Localized: 水処理場でメンテナンスが実施予定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365808
+    m_Localized: 軽度の水不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365809
+    m_Localized: 中央水処理場での定期メンテナンスが予定通り実施されることを、警察が発表した。配管への影響は限定的だと予想される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365810
+    m_Localized: 氷の小惑星から採掘人が帰還！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365811
+    m_Localized: 水の供給過多
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365812
+    m_Localized: 採掘隊の1つが、「ベイラ41-A」として知られる氷が豊富な小惑星への遠征に成功し、帰還を果たした。これにより高品質な水が大量に流通し、価格が下がるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365813
+    m_Localized: 下層世界で私刑が発生！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365814
+    m_Localized: 下層世界での私的制裁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365815
+    m_Localized: 不誠実な店主に不満を募らせた下層世界の住民が、自らの手で事態を解決しようとしている。ステーションの警察は、冷静さを保つよう呼びかけている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365816
+    m_Localized: 隠し倉庫が発見！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365817
+    m_Localized: 日用品の供給過多
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365818
+    m_Localized: 下層世界の漁り屋一団が、日用品の詰め込まれた隠し部屋を発見した。市場に大量の日用品が流れ込むため、本日は価格が下がる見込みだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365819
+    m_Localized: 採掘隊が帰還
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365820
+    m_Localized: 素材の供給過多
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365821
+    m_Localized: 採掘人の一団が、鉱物の豊富な小惑星への遠征から帰還した。しばらくの間、素材の価格が下がるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365822
+    m_Localized: 建設計画が始動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365823
+    m_Localized: 下層世界の各地で、次々と建設計画が始動している。建設資材や腕のいい労働者の不足が予想される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365824
+    m_Localized: 流星群
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365825
+    m_Localized: 昨夜ステーションに流星群が衝突し、複数のセクターで被害や破損が発生した。下層世界の船体は補強されていないため、被害が最も大きかった。素材の価格が上がるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365826
+    m_Localized: 下層世界が電力不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365827
+    m_Localized: 停電
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365828
+    m_Localized: 発電機の故障により、下層世界で停電が発生した。修理作業が行われている間は、バッテリーが不足するだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365829
+    m_Localized: 発電所のメンテナンス開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365830
+    m_Localized: 発電所のメンテナンス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365831
+    m_Localized: 下層世界にある主要発電所の1つで、定期メンテナンスが開始された。期間中は電力供給に軽度の支障が生じる可能性があるため、注意が必要だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365832
+    m_Localized: 停電が発生、何者かの仕業か
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365833
+    m_Localized: 中央電力網が機能しなくなり、ステーション全体が暗闇に包まれた。バッテリーと電力に関わる製品の需要が急増すると予想される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365834
+    m_Localized: 未知の世界への冒険
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365835
+    m_Localized: 観光客の殺到
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365836
+    m_Localized: 上層世界にクルーズ船が停泊し、大勢の観光客が現れた。下層世界まで来る、好奇心旺盛な観光客もいるかもしれない。ステーションの警察は、礼儀を欠いた振る舞いをしないよう市民に呼びかけている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365837
+    m_Localized: Oxymoreの中毒者、増加中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365838
+    m_Localized: ステーション全体でOxymoreの使用が急増しており、依存症や過剰摂取で診察を受けるケースがかなり増えている。医療用品や治療サービスの需要が高まるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365839
+    m_Localized: （偽造品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365857
+    m_Localized: 純水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365858
+    m_Localized: 高品質な水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365859
+    m_Localized: ベースウォーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365860
+    m_Localized: ゴーストウォーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365861
+    m_Localized: ラストウォーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365867
+    m_Localized: 偽造品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365868
+    m_Localized: 正規品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365881
+    m_Localized: 路上基準
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365890
+    m_Localized: 水の純度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365892
+    m_Localized: タバコの真正性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365893
+    m_Localized: フードスタンプの真正性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365894
+    m_Localized: Immunivaxの真正性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365899
+    m_Localized: 小売
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365902
+    m_Localized: ニューロアクティブ香水ボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365903
+    m_Localized: フェロモン香水ボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365909
+    m_Localized: 検査成功による割引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365923
+    m_Localized: 新規客への割引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528109809664
+    m_Localized: '[ラベル]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586880
+    m_Localized: このタバコは偽物です！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586881
+    m_Localized: '{0}に問題がありますよね？'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586882
+    m_Localized: 文字
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586883
+    m_Localized: 色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586884
+    m_Localized: シール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586885
+    m_Localized: ロゴ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586886
+    m_Localized: 箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586887
+    m_Localized: ああ、本当ですね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586888
+    m_Localized: 値下げしましょう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586889
+    m_Localized: 問題ありませんよ、もう一度見てください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586891
+    m_Localized: ああ、それは気付かなかったな。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586892
+    m_Localized: ジョルジオが値下げしよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586893
+    m_Localized: このタバコは何もかもおかしいですね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586894
+    m_Localized: わかったわかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586895
+    m_Localized: これは正規品ですね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586896
+    m_Localized: 教えていただきありがとうございました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586897
+    m_Localized: 違いますよ、自分で確かめたので。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586899
+    m_Localized: フードスタンプ（{0}クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586900
+    m_Localized: 価格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586901
+    m_Localized: チップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586903
+    m_Localized: へえ、気付きませんでした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586904
+    m_Localized: 値下げしましょう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586906
+    m_Localized: Immunivax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586907
+    m_Localized: 表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586908
+    m_Localized: ラベル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586909
+    m_Localized: シリアル番号
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586910
+    m_Localized: 本体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083968
+    m_Localized: '{0}クレジット'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083969
+    m_Localized: 耐久性：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083972
+    m_Localized: 水の使用速度：{0}ml/日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083974
+    m_Localized: '[ラベルあり]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083975
+    m_Localized: '[テスト済み]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083985
+    m_Localized: 水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254276825088
+    m_Localized: 家賃を支払えなかった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796608
+    m_Localized: 家賃を払えなかった結果、追い出されてしまった。客や取引先、さらには師匠にまで見放され、漁り屋としての生活に戻る羽目になった。ほどなくして、店は新しい人に貸し出された。そしていつの間にか、カウンターの向こう側でほんの数クレジットでも得をしようと必死で値切り交渉する客と化していた……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796632
+    m_Localized: 持っていくカバンを選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796633
+    m_Localized: カバンを持たずに出かける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796634
+    m_Localized: カバンを選択：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796635
+    m_Localized: 'もう一度クリックで '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796636
+    m_Localized: 決定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796637
+    m_Localized: ' し、 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796638
+    m_Localized: 「{0}」を有効にできない！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796639
+    m_Localized: 地面に残されたアイテムは失われます。本当に帰りますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796640
+    m_Localized: ジャックソン博士が助手に指示し、地面に残されたアイテムを回収させます。本当に帰りますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796641
+    m_Localized: 帰る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796642
+    m_Localized: やめる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796643
+    m_Localized: 残り試行回数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796644
+    m_Localized: 残り試行回数：負傷中は漁れない！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796645
+    m_Localized: 軽傷を負う確率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796646
+    m_Localized: 重傷を負う確率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109824
+    m_Localized: 開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109825
+    m_Localized: 調べる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109826
+    m_Localized: 使う
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109827
+    m_Localized: 読む
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109828
+    m_Localized: 消費する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109829
+    m_Localized: 起動する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109830
+    m_Localized: 中身を出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109831
+    m_Localized: まとめる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109832
+    m_Localized: 切り替え
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109833
+    m_Localized: 中身を抜く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055920013312
+    m_Localized: 水道管は下水道に接続されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179136
+    m_Localized: 水道管は産業排水管に接続されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355192635392
+    m_Localized: あの……純度はもっと高いですよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995520
+    m_Localized: 教えていただきありがとうございます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995521
+    m_Localized: これはラストウォーターです。水の中に粒子があるので。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995522
+    m_Localized: そうでしたか、値下げします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995523
+    m_Localized: これはガターフローですね。茶色でしょう？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995524
+    m_Localized: わかりました、値下げします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995525
+    m_Localized: ゴーストウォーターですね。わかりにくいので注意が必要ですが。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995526
+    m_Localized: えっ？ では値下げしましょう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995527
+    m_Localized: ベースウォーターですね。ごまかそうとしているのですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189824
+    m_Localized: 純度が間違っています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189825
+    m_Localized: では価格を調整します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189826
+    m_Localized: 純水を買う余裕はありません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189827
+    m_Localized: 高品質な水は買えませんよ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189828
+    m_Localized: ベースウォーターは飲みません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189829
+    m_Localized: ゴーストウォーターは飲みません……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189830
+    m_Localized: ラストウォーターなんて飲みませんよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189831
+    m_Localized: それを飲めって言うんですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189832
+    m_Localized: ……それは飲みません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848249237504
+    m_Localized: 家畜用ステロイド血清
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014720
+    m_Localized: 家畜用免疫血清
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014721
+    m_Localized: 老年期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014722
+    m_Localized: 成体期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014723
+    m_Localized: 若年期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014724
+    m_Localized: 幼体期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014725
+    m_Localized: 赤ちゃん
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014726
+    m_Localized: 不明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014727
+    m_Localized: オス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014728
+    m_Localized: メス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014729
+    m_Localized: 生後{0}日（{1}g）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014730
+    m_Localized: 'HP： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014731
+    m_Localized: '空腹度： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014732
+    m_Localized: '繁殖力： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014733
+    m_Localized: '{0}%（基本：{1}%）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014734
+    m_Localized: 成長速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014735
+    m_Localized: 予想出産数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014736
+    m_Localized: 免疫力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014737
+    m_Localized: 最大HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014738
+    m_Localized: 寿命
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014739
+    m_Localized: 空腹速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014740
+    m_Localized: '妊娠期間： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014741
+    m_Localized: （{0}/{1}日）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209024
+    m_Localized: 死亡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209025
+    m_Localized: 空腹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209026
+    m_Localized: 妊娠中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209027
+    m_Localized: 流産
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209028
+    m_Localized: 去勢済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209029
+    m_Localized: 病気
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209030
+    m_Localized: 傷跡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209031
+    m_Localized: 成熟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209032
+    m_Localized: 免疫力高め
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209033
+    m_Localized: 免疫不全
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209034
+    m_Localized: 過密状態 {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164525137920
+    m_Localized: 動物の檻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526528
+    m_Localized: 動物を収容できる小さな檻。あまり快適そうには見えないが、下層世界にいる一部の住民の居住環境よりはマシだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526529
+    m_Localized: 動物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526530
+    m_Localized: '耐久性： '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526531
+    m_Localized: '[金属くずで修理可能]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526532
+    m_Localized: '[インゴットで拡張可能（残り{0}回）]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526533
+    m_Localized: '[最大サイズに達した]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526534
+    m_Localized: '[完全に修理された]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526535
+    m_Localized: これ以上、偽物の水を売るな。殺す気か！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526536
+    m_Localized: お前のしたことはわかっている。今すぐ水の詐欺をやめろ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526537
+    m_Localized: 汚染された水を売りつづければ、後悔することになるぞ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526538
+    m_Localized: ゴーストウォーターを飲み水として売っておいて、よく呑気に眠れるな？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526539
+    m_Localized: ゴーストウォーターの詐欺をやめろ。さもなくば直接止めにいく。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526540
+    m_Localized: お前は偽の水で人を殺している。次はお前の番だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526541
+    m_Localized: お前の弾薬のせいで、死ぬところだった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526542
+    m_Localized: 毎日、あなたの店の前を通っています……いつか勇気を出してあいさつしますね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526543
+    m_Localized: あなたは私のことを知らないでしょうが、私は全部知っています。どうかそのままでいてください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526544
+    m_Localized: プレゼントを置いておきました。ほんのささやかな……感謝の気持ちです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526545
+    m_Localized: 'いつも物陰からあなたを見ていることに、気付いていますか……？ '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526546
+    m_Localized: あなたのおかげで、下層世界が少し明るく見えます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526547
+    m_Localized: もうここに来るのは、あなたを見るためだけです。どうかお元気でいてください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526548
+    m_Localized: 大好きな店主さんへ。今日も笑顔でいてくださいね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526549
+    m_Localized: '{0}（小）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526550
+    m_Localized: '{0}（大）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526551
+    m_Localized: '{0}（特大）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526552
+    m_Localized: 破損
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526553
+    m_Localized: 完全に壊れた機械。修理不可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526554
+    m_Localized: 濃縮栄養液（75%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526555
+    m_Localized: 化学薬品ボトル - {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526556
+    m_Localized: 古い水耕システム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526557
+    m_Localized: 故障したモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12846119084933120
+    m_Localized: 蓄積カロリー：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412624089088
+    m_Localized: プリオン病
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283392
+    m_Localized: 肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283393
+    m_Localized: その他
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359174
+    m_Localized: 火力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359175
+    m_Localized: スタイル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359176
+    m_Localized: 信頼性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359177
+    m_Localized: 反動の制御
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359178
+    m_Localized: 人間工学
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359179
+    m_Localized: 精度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087254
+    m_Localized: '{0}クレジットを口座に追加しました。あなたの協力により、{1}は逮捕されました。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087256
+    m_Localized: '{0}クレジットを口座に追加しました。あなたの協力により、禁制品の取引人は逮捕されました。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087257
+    m_Localized: '{0}クレジットを口座に追加しました。あなたの協力により、泥棒は逮捕されました。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171461
+    m_Localized: 違法武器の積荷が到着！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171462
+    m_Localized: 違法武器の積荷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171463
+    m_Localized: 大量の違法武器が警察の目をくぐり抜け、下層世界に到着した。武器の供給が急増し、価格が下落する見込みだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171464
+    m_Localized: 武器の需要増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171465
+    m_Localized: 報告によると、下層世界全域で、正体不明の買い手からの武器の需要がわずかに増しているようだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365760
+    m_Localized: 下層世界の革命家、捕まる！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365862
+    m_Localized: ガターフロー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365904
+    m_Localized: 窃盗 IV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365905
+    m_Localized: 窃盗 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365906
+    m_Localized: 窃盗 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365907
+    m_Localized: 窃盗 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365911
+    m_Localized: 低級の禁制品上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365912
+    m_Localized: 中級の禁制品上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365913
+    m_Localized: 上級の禁制品上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365914
+    m_Localized: 最上級の禁制品上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365920
+    m_Localized: 在庫処分による割引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365921
+    m_Localized: 割引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365922
+    m_Localized: 仕入れ上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083970
+    m_Localized: 必要な作業：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083971
+    m_Localized: 収穫量：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083986
+    m_Localized: 重金属
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083987
+    m_Localized: 有機廃棄物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083988
+    m_Localized: マイクロプラスチック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083989
+    m_Localized: 微生物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083990
+    m_Localized: 化学汚染
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083991
+    m_Localized: 物理汚染
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083992
+    m_Localized: 鉱物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083997
+    m_Localized: カフェイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278280
+    m_Localized: リポボンド剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278281
+    m_Localized: '[ロック中]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278282
+    m_Localized: 密閉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748402831540224
+    m_Localized: 残り使用回数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805506109440
+    m_Localized: AI人間
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805522886656
+    m_Localized: AI人間の数は極限に達し、今や公然と活動している。そんな中、夜中にAI人間の集団が店に押し入り、強引にチップを埋め込まれてしまった。警察は来なかった。インプラントが作動する。もはや、魂は乗り物のように体に乗っているだけに過ぎない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853199155200
+    m_Localized: ショットガンを装備
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853220126720
+    m_Localized: 今はショットガンを装備できない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17612012079857664
+    m_Localized: 空にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19813141920399360
+    m_Localized: '{0}クレジットが口座に追加された。協力により、AI人間は排除された。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22771451896315904
+    m_Localized: 故殺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26281714880659456
+    m_Localized: '{0}トークン'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069152714752
+    m_Localized: マスターヴィンテージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269184
+    m_Localized: レゼルヴ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269185
+    m_Localized: 市販ワイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269186
+    m_Localized: 自家製
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269187
+    m_Localized: バケツ醸造
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269188
+    m_Localized: 飲用不可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32910981274058752
+    m_Localized: 自分のツテから、AI人間が昨日店に来たという情報が入った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712365101056
+    m_Localized: 割引交渉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461184
+    m_Localized: 上乗せ交渉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461185
+    m_Localized: 恐喝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461186
+    m_Localized: 上乗せ交渉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461187
+    m_Localized: 割引交渉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461188
+    m_Localized: 脅迫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691844919296
+    m_Localized: 発酵を始める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890816
+    m_Localized: 発酵中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890817
+    m_Localized: 材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890818
+    m_Localized: 発酵を始めるための材料が足りない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890819
+    m_Localized: 発酵を始めるための水が足りない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890820
+    m_Localized: 熟成：{0}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890821
+    m_Localized: 発酵中……完成まであと{0}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925092061184
+    m_Localized: 常に承諾される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170048
+    m_Localized: 承諾される確率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170049
+    m_Localized: 拒否される確率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170050
+    m_Localized: 退出される確率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170051
+    m_Localized: 承諾される確率（ディールメーカーの効果）：+{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113908625408
+    m_Localized: 中身を出すと、取引不可能な化学用品に分かれます。よろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113992511488
+    m_Localized: このアイテムを切り替えて見た目を変更する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732093977280512
+    m_Localized: この水の品質はすでにベースウォーター以上だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732094002446336
+    m_Localized: この量の水を浄化できるほど、浄水器のパワーがない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43763292053487616
+    m_Localized: 警察から、今日AI人間が店に来る可能性が高いと連絡があった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826371
+    m_Localized: 必要な作業：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826372
+    m_Localized: 必要：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45488749983612928
+    m_Localized: '[一致]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427832188928
+    m_Localized: 来る泥棒：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427878326272
+    m_Localized: ダブルクリックで、誰が来るかが変わる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48380974841249792
+    m_Localized: ガラクタ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826370
+    m_Localized: 状況：稼働中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826373
+    m_Localized: 不明な水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48476019179175936
+    m_Localized: 時間が経つにつれて価格が高くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43370373127651328
+    m_Localized: 営業開始後にショーケースにアイテムを入れても、翌日まで効果はない。開店前に補充しておこう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56007818054778880
+    m_Localized: 必要なアイテム：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365851
+    m_Localized: 最高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365852
+    m_Localized: 非常に高い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365853
+    m_Localized: 高い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365854
+    m_Localized: 普通
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365855
+    m_Localized: 低い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365856
+    m_Localized: 非常に低い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365889
+    m_Localized: インゴットの純度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6348201574400
+    m_Localized: placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360965
+    m_Localized: 化学モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360966
+    m_Localized: 入力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360967
+    m_Localized: 容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360968
+    m_Localized: 操作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360969
+    m_Localized: 開始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360970
+    m_Localized: 減った中身：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360971
+    m_Localized: 化学モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360972
+    m_Localized: 容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360973
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360974
+    m_Localized: 操作パネル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360975
+    m_Localized: 設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360976
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360977
+    m_Localized: 対象がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360978
+    m_Localized: 混入した汚染物質：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360988
+    m_Localized: バッテリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360989
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360990
+    m_Localized: 容器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360991
+    m_Localized: 蒸留液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360992
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360998
+    m_Localized: 化学モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360999
+    m_Localized: 加熱プレート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361000
+    m_Localized: 温度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361001
+    m_Localized: 操作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361002
+    m_Localized: 目標温度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361003
+    m_Localized: オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361004
+    m_Localized: 低
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361005
+    m_Localized: 高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361006
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361007
+    m_Localized: +
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361009
+    m_Localized: N/A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361010
+    m_Localized: なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361011
+    m_Localized: '最大温度：{0}°C '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361012
+    m_Localized: 加熱速度：遅い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361013
+    m_Localized: 加熱速度：速い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361014
+    m_Localized: 加熱速度：非常に速い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361042
+    m_Localized: 電力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361043
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361044
+    m_Localized: 入力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361045
+    m_Localized: チップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361046
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361047
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361048
+    m_Localized: バッテリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361049
+    m_Localized: モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361050
+    m_Localized: 水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361051
+    m_Localized: 種の入力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361052
+    m_Localized: 生産物の出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361053
+    m_Localized: メモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361054
+    m_Localized: 水と電力が足りない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361055
+    m_Localized: 電力が足りない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361056
+    m_Localized: 水が足りない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361057
+    m_Localized: 開始中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361058
+    m_Localized: 種を待機中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361059
+    m_Localized: 成長中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361060
+    m_Localized: 状況：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361062
+    m_Localized: 状況：準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361063
+    m_Localized: '{0}が成長中'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361074
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361075
+    m_Localized: 商品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361076
+    m_Localized: 操作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361077
+    m_Localized: コア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361078
+    m_Localized: '{0}クレジット'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361079
+    m_Localized: すべて移動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361080
+    m_Localized: 自動販売機は、進行中の出来事に関わらず、固定価格で上乗せされて販売される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361081
+    m_Localized: 特定のタイプのアイテムは、自動販売機で売った方が人気が出る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361082
+    m_Localized: 電子部品で改良し、魅力度を上げることができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361083
+    m_Localized: インゴットで改良し、容量を増やすことができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361084
+    m_Localized: 現在の魅力度：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361085
+    m_Localized: エネルギー源
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361086
+    m_Localized: ベースウォーターのタンク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361087
+    m_Localized: 高品質な水のタンク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361088
+    m_Localized: 純水のタンク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361089
+    m_Localized: 操作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361090
+    m_Localized: コア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361091
+    m_Localized: 電子部品で改良し、魅力度を上げることができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915592
+    m_Localized: '[非表示] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915593
+    m_Localized: '[重要] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915594
+    m_Localized: '[REPO] '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915595
+    m_Localized: 一点あたりの交換価格：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915596
+    m_Localized: 合計交換価格：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359180
+    m_Localized: 大きさ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359181
+    m_Localized: 消音機能あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359182
+    m_Localized: 最適な栄養範囲：ミネラル{0}%～{1}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359183
+    m_Localized: ミネラルの使用：{0}ml/成長段階
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359184
+    m_Localized: 汚染物質に対する感受性：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359185
+    m_Localized: 水の使用量：{0}ml/日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359186
+    m_Localized: 成長スコア：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359187
+    m_Localized: 並み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359188
+    m_Localized: 非常に敏感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359189
+    m_Localized: 敏感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359190
+    m_Localized: やや敏感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359191
+    m_Localized: 非常に耐性あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359192
+    m_Localized: 耐性あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359193
+    m_Localized: やや耐性あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359194
+    m_Localized: 無効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359195
+    m_Localized: 不明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359196
+    m_Localized: '[準備完了]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359197
+    m_Localized: '[{0}日後]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359198
+    m_Localized: '[{0}日後]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359199
+    m_Localized: 不明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359200
+    m_Localized: 必要な量：{0}ml
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359201
+    m_Localized: 水分を含んだ材料は入れられない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359204
+    m_Localized: '{0}から'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359206
+    m_Localized: 残り{0}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359207
+    m_Localized: 残り{0}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359208
+    m_Localized: '- {0}クレジット'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359209
+    m_Localized: "\n- {1}からの評判{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359211
+    m_Localized: 当選した宝くじの券をすべて引き換え、{0}クレジットを受け取った！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087253
+    m_Localized: 事案レポート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087259
+    m_Localized: "\n（{0}からの評判が下がった）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087260
+    m_Localized: ' 前回の報告は誤っていました。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087261
+    m_Localized: ' 罰金として、口座から{0}クレジットを差し引きました。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087262
+    m_Localized: ' 再び誤った報告をした場合は、逮捕します。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087263
+    m_Localized: ' 誤った報告を繰り返すと、深刻な事態になる可能性があります。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171456
+    m_Localized: 借金支払い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171457
+    m_Localized: カルテルの訪問
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171458
+    m_Localized: 下層世界でギャング抗争が勃発！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171459
+    m_Localized: 下層世界でのギャング抗争
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171460
+    m_Localized: 対立するギャング同士が、宣戦布告した！ 下層世界全域で、銃撃戦や小競り合いが勃発している。医療用品の需要が増加する見込みだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171466
+    m_Localized: 革命家が結集
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171467
+    m_Localized: 下層世界で大規模な革命運動が確認された。革命組織は、大きな作戦に向けた最終準備をしている。武器、医療用品、防具の価格が急激に上がるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171468
+    m_Localized: 革命家、上層世界を襲撃！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171469
+    m_Localized: 革命家、上層世界を襲撃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171470
+    m_Localized: 革命家たちが、上層世界で大胆な襲撃を開始した。活動資金を調達するため、住宅や店舗から物を大量に盗み、下層世界で売りさばいている。日用品の供給が増えるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171471
+    m_Localized: 革命家、警察を襲撃！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171472
+    m_Localized: 革命家、警察を襲撃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171473
+    m_Localized: 革命家たちが、下層世界で警察が駐屯している主要な前哨地を襲撃した。この襲撃では双方に死傷者が出たほか、下層世界の市民も巻き込まれる結果となった。医療用品の需要が高まり、警察の影響力が弱まっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171474
+    m_Localized: 警察の巡回強化！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171475
+    m_Localized: 巡回＆検問所が増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171476
+    m_Localized: 警察が一時的に巡回を強化し、下層世界全域に新たな検問所を設置した。革命家と闇市場の活動が一部制限されたことで、下層世界に秩序が戻りつつある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171477
+    m_Localized: ステーション全域で厳重な取り締まり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171478
+    m_Localized: ステーション全体で闇市場の活動が増え、違法商品が大量に出回っていることへの懸念が高まりつつあるため、司令部が禁制品の包括的な取り締まりを進めることを発表した。取り締まりはすぐに施行され、全セクターにおいて検査が以前より厳しくなるだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171479
+    m_Localized: 闇市場の襲撃！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171480
+    m_Localized: 警察、闇市場を奇襲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171481
+    m_Localized: 警察の部隊が、闇市場の拠点に奇襲を仕掛けた。大量の武器や麻薬が押収され、違法取引が妨害されることとなった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171482
+    m_Localized: 革命家の隠れ家、見つかる！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171483
+    m_Localized: 革命家への襲撃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171484
+    m_Localized: 革命家の隠れ家が発見され、警察が襲撃した。逮捕と押収により、革命家の勢力は弱まった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171485
+    m_Localized: 戒厳令が発令！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171486
+    m_Localized: 戒厳令
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171487
+    m_Localized: 近頃の出来事を受け、下層世界全体に戒厳令が発令された。夜間は外出禁止となり、検問所が増加。監視体制が敷かれている。革命家と闇市場の活動が抑圧されることとなった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171488
+    m_Localized: 警察の予算増加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171489
+    m_Localized: 新たな作戦を実施できるよう、司令部が警察に割り当てる予算を大幅に増やした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171490
+    m_Localized: 暴動発生！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171491
+    m_Localized: 下層世界で暴動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171492
+    m_Localized: 最近の出来事の影響で、下層世界の市民が一体となり、下層の至るところで激しい暴動を起こしている。店舗は荒らされ、警察の前哨地は襲撃され、混乱が急速に広まってしまった。食品と武器の需要が高まっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171493
+    m_Localized: 労働者がストライキ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171494
+    m_Localized: 労働者によるストライキ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171495
+    m_Localized: 最近の出来事の影響で、不満を抱えた下層世界の労働者たちがストライキを開始した。食品と水の供給に支障が出ている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171496
+    m_Localized: 医療支援物資を配布！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171497
+    m_Localized: 緊急医療支援
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171498
+    m_Localized: 上層世界の慈善団体が、下層世界に医療従業者と物資を増やしている。依然として懐疑的な住民もいるが、この取り組みにより不安は和らぎつつある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171499
+    m_Localized: 食品支援物資を配布！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171500
+    m_Localized: フードドライブの取り組み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171501
+    m_Localized: 司令部が施しをすることはめったにないが、下層世界の各地域に配給食料や食品のセットが配布された。この取り組みにより緊迫感は和らいだが、プロパガンダの手法だと見る声もある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171505
+    m_Localized: 宝くじの結果発表！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171506
+    m_Localized: 宝くじの結果発表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171507
+    m_Localized: 当選番号は{0}です！ 引き換える際は、宝くじの代表に券を提示してください！ 3つ以上一致すれば、賞金を獲得できます。幸運を祈ります！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365761
+    m_Localized: ステーションの警察の迅速な作戦により、活動家として知られるアーサー・ラフルールが逮捕された。同氏は下層世界で失敗に終わった革命運動の指導部員でもあった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365840
+    m_Localized: （使用不可）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365841
+    m_Localized: （期限切れ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365842
+    m_Localized: 無料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365843
+    m_Localized: 通常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365844
+    m_Localized: 期限切れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365845
+    m_Localized: 有効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365846
+    m_Localized: へこみあり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365847
+    m_Localized: （非表示）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365848
+    m_Localized: 開封品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365849
+    m_Localized: 未開封
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365850
+    m_Localized: 錆びあり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365863
+    m_Localized: 非常に新鮮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365864
+    m_Localized: 新鮮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365865
+    m_Localized: 腐りかけ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365866
+    m_Localized: 腐敗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365869
+    m_Localized: 使用不可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365870
+    m_Localized: 詰まり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365871
+    m_Localized: 新品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365872
+    m_Localized: 非常に良好
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365873
+    m_Localized: 良好
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365874
+    m_Localized: 普通
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365875
+    m_Localized: 不良
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365876
+    m_Localized: 複製品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365877
+    m_Localized: 正常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365878
+    m_Localized: 実験用純度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365879
+    m_Localized: 医薬品グレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365880
+    m_Localized: ほぼ医薬品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365882
+    m_Localized: 希釈製品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365883
+    m_Localized: ガラクタグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365884
+    m_Localized: でん粉グレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365885
+    m_Localized: 開封品の状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365886
+    m_Localized: 錆びの状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365887
+    m_Localized: 有効期限の状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365888
+    m_Localized: 包装の状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365891
+    m_Localized: 食品の新鮮さ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365895
+    m_Localized: モジュールの状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365896
+    m_Localized: 無料アイテム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365897
+    m_Localized: 化学製品の純度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365898
+    m_Localized: 顧客割引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365900
+    m_Localized: 自動販売機ボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365901
+    m_Localized: 「寄贈」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365908
+    m_Localized: ニコチンペナルティ（中毒）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365915
+    m_Localized: 第1種制限品の上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365916
+    m_Localized: 第2種制限品の上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365917
+    m_Localized: 第3種制限品の上乗せ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365918
+    m_Localized: 仕入れ割引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365919
+    m_Localized: チップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365924
+    m_Localized: バラエティボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365925
+    m_Localized: 観光税
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365926
+    m_Localized: モジュール詰まり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586898
+    m_Localized: エディション#{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090714495401984
+    m_Localized: 包装施設
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083973
+    m_Localized: 状況：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083976
+    m_Localized: 合計の量：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083977
+    m_Localized: 毒性：致命的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083978
+    m_Localized: 毒性：有毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083979
+    m_Localized: 多幸感：軽度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083980
+    m_Localized: 多幸感：中くらい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083981
+    m_Localized: 多幸感：強い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083982
+    m_Localized: 多幸感：非常に強い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083983
+    m_Localized: 中毒防止効果：あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083984
+    m_Localized: 避妊効果：あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083993
+    m_Localized: つぶしたドリームキノコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083994
+    m_Localized: ドリームキノコのエキス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083995
+    m_Localized: 植物性物質
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083996
+    m_Localized: アルコール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083998
+    m_Localized: タンパク質
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083999
+    m_Localized: 脂肪分/油分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084000
+    m_Localized: でん粉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084001
+    m_Localized: 砂糖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084002
+    m_Localized: つぶしたコーヒー豆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084003
+    m_Localized: 避妊ホルモン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084004
+    m_Localized: ジアン化物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084005
+    m_Localized: ナイトメアキノコのエキス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084006
+    m_Localized: つぶしたナイトメアキノコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084007
+    m_Localized: 塩素
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278272
+    m_Localized: Synaprest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278273
+    m_Localized: ファンタ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278274
+    m_Localized: N-メチロール塩基
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278275
+    m_Localized: 還元剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278276
+    m_Localized: 酸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278277
+    m_Localized: 塩基
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278278
+    m_Localized: 安定剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278279
+    m_Localized: 不溶性残渣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796609
+    m_Localized: 逮捕された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796610
+    m_Localized: ステーションで犯罪を繰り返していた結果、警察に逮捕され、投獄されてしまった。店は服役中、他の人に貸し出された。釈放されても戻る店はなく、漁り屋としての苦しい生活に戻らなければならなかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796611
+    m_Localized: 処刑された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796612
+    m_Localized: ステーションで重罪を犯していた結果、警察に逮捕され、死刑になってしまった。処刑後、店は他の人に貸し出された。客たちにはあっという間に忘れられ、ステーションで自分が生きていた痕跡もなくなるのだった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796613
+    m_Localized: 店の買い取り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796614
+    m_Localized: 権利書に署名をするとともに、家賃の重圧が消え、大家の支配から解放された。家は完全に手に入った。少しも優しくないこの世界で、自分の手でつかみ取った勝利だ。自分の未来を決めたのは、これが初めてだろう。これからは野心だけで突き進むことができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796615
+    m_Localized: 最後の書類に署名をするとともに、高利貸しとの断ち切れない関係から解放された。店は完全に手に入った。差し押さえの恐怖からも、裏社会からも自由だ。逆境に打ち勝ち、過酷な日々を生き抜き、ついに成功を手にしたのだ。これからは自由に生きていい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796616
+    m_Localized: 差し押さえされた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796617
+    m_Localized: もうおしまいだ。店は奪われ、必死で守ろうとしてきたものはすべて指の間から滑り落ちていった。期限が迫るにつれ、高利貸しの冷酷な支配は強くなり、結果として破産し、住む場所も失ってしまった。あとに残ったのは、この過酷な世界では一瞬ですべてを失ってしまうのだという苦い教訓だけだった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796618
+    m_Localized: 私刑に遭った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796619
+    m_Localized: 下層世界に対して目に余る行動を続けた結果、怒った客たちが店に押しかけてきた。持っていたものをすべて奪われ、エアロックから放り出された。これぞ下層世界での正義だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796620
+    m_Localized: 濡れ衣を着せられた
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796621
+    m_Localized: 冤罪で警察に逮捕され、投獄されてしまった。店は差し押さえされ、莫大な罰金を支払えるように売却された。数週間が経ち釈放された頃には、店は消え失せており、漁り屋としての苦しい生活に戻らなければならなかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796622
+    m_Localized: 暗殺された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796623
+    m_Localized: 上層世界に対して目に余る行動を続けた結果、ステーションのエリートたちが殺し屋を雇った。そしてこの世から始末されるのだった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796624
+    m_Localized: センチネル崩壊症候群
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796625
+    m_Localized: Immunivaxの注射をサボりすぎた結果、免疫系が正常に機能しなくなり、体が蝕まれていった。死に至ったのは病気のせいではなく、自分のせいだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796626
+    m_Localized: 爆破された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796627
+    m_Localized: 革命家の敵と判断され、店に爆弾が仕掛けられた。爆発で店は全壊し、生き延びることはできなかった。崩壊した店の跡地は、革命家に反対しようとする者たちに警告を与えるものとなった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796628
+    m_Localized: 追放された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796629
+    m_Localized: カルテルからこれ以上組織に置いておく価値がないと判断され、追放された。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796630
+    m_Localized: 許可証を買えなかった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796631
+    m_Localized: 販売許可証を買うことができず、営業を続けられなくなった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179137
+    m_Localized: 下層世界での緊急修理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179138
+    m_Localized: 流星群の襲来により、下層世界の多数の場所に被害が出てしまいました。近隣の地域は封鎖し、被害箇所の修理を開始しましたが、物資が不足しているため作業に遅れが出ています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179139
+    m_Localized: 下層世界の技師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179140
+    m_Localized: 上層世界でのプール修理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179141
+    m_Localized: 流星群が襲来した影響で、上層世界の市民プールが損傷してしまいました。もともと改修工事が始まる頃だったのですが、予定を早めるために修理用品を1箱分購入したいと思っています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179142
+    m_Localized: 上層世界のコミュニティマネージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179143
+    m_Localized: 下層世界の慈善診療所への医療品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179144
+    m_Localized: 医療用品が底をついてしまいました。物資が不足しているため、多くの方が適切な治療を受けられずにいます。どのような支援でも大変ありがたいです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179145
+    m_Localized: 下層世界の慈善診療所
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179146
+    m_Localized: 上層世界の総合病院への医療品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179147
+    m_Localized: 重要な医療用品の到着に遅れが出ています。まだ在庫はありますが、蓄えを十分にしておくためなら、割高の価格を支払っても構いません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179148
+    m_Localized: 上層世界の総合病院
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179149
+    m_Localized: 闇市場への医療品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179150
+    m_Localized: 物資の不足が続いているので、さらに価格を吊り上げるために、買い占めているのです！ 商品を調達していただければ、お礼は惜しみませんよ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179151
+    m_Localized: 怪しい商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179152
+    m_Localized: 下層世界の建設用資材
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179153
+    m_Localized: 下層世界で新しい住宅区画の建設が進行しているのですが、資材の確保が難航しています。物資がなければ、プロジェクトを継続できません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179154
+    m_Localized: 下層世界の建設作業員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179155
+    m_Localized: 建設物資
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179156
+    m_Localized: 建設資材の需要が高くなっているので、供給を管理しておきたいんです。他より先に商品を調達していただけるなら、報酬は高めに払います。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179157
+    m_Localized: 怪しいブローカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179158
+    m_Localized: 下層世界の炊き出し所への物資
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179159
+    m_Localized: ここ最近の出来事の影響で、生活困窮者が多数出ています。報酬はあまり払えませんが、ご厚意をいただいたことは必ずみなさんに伝えます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179160
+    m_Localized: 炊き出し所の進行役
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179161
+    m_Localized: 消えた証拠品箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179162
+    m_Localized: 重要な証拠の入った箱を紛失しました。至急回収しなければなりません。質問はご遠慮ください。速やかに届けていただければ、相応の報酬をお支払いします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179163
+    m_Localized: 下層世界の警備責任者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179164
+    m_Localized: 盗まれた証拠品箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179165
+    m_Localized: 先日盗まれた証拠品箱に、依頼人にとって不利な情報が含まれています。警察の手に戻ってしまったり、もっとひどい事態になってしまう前に確保しなければなりません。報酬は高めに払います。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179166
+    m_Localized: 不明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179167
+    m_Localized: 革命組織シャドウ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179168
+    m_Localized: 革命組織ゴールド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179169
+    m_Localized: 革命組織イーグル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179170
+    m_Localized: 革命家本部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179171
+    m_Localized: 革命組織アルファ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179172
+    m_Localized: 革命組織シータ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179173
+    m_Localized: アレクサンドラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179174
+    m_Localized: ジョーダン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179175
+    m_Localized: テイラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179176
+    m_Localized: ルイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179177
+    m_Localized: アルン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179178
+    m_Localized: キム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179179
+    m_Localized: 軽食の依頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179180
+    m_Localized: 土壇場ですが、友人の誕生日パーティーのために軽食が必要です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179181
+    m_Localized: 軽食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179182
+    m_Localized: 金属くずの依頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179183
+    m_Localized: 新しい庭を作るために、金属くずが必要です。前の庭は老朽化しているので。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179184
+    m_Localized: 引っ越し祝い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179185
+    m_Localized: 今後の友人との集まりのために、引っ越し祝いが欲しいです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179186
+    m_Localized: 引っ越し祝い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179187
+    m_Localized: 加工肉の依頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179188
+    m_Localized: ピクニックに向けて庭に食料を買いだめしていまして、長期間保存可能なものが欲しいです。理想は加工肉です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179189
+    m_Localized: クライアントの1人から、依頼がありました。高額でお支払いします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179190
+    m_Localized: 上層世界の代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179191
+    m_Localized: 下層世界で困っている人たちを支援するため、チャリティー用の品を募集中です。何の寄贈でも大歓迎です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179192
+    m_Localized: 上層世界のチャリティー主催者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179193
+    m_Localized: 労働者の物資
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179194
+    m_Localized: 長時間の作業を乗り切るためのものをください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179195
+    m_Localized: 下層世界の労働者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179196
+    m_Localized: ジョルジオへのトイレットペーパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179197
+    m_Localized: ジョルジオは、コレクションにトイレットペーパーを加えたい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179198
+    m_Localized: ジョルジオ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179199
+    m_Localized: 肉切り包丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179200
+    m_Localized: 新しい肉切り包丁が欲しいんです。今のは切れ味が悪くて。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179201
+    m_Localized: 匿名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179202
+    m_Localized: 清掃員へのビール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179203
+    m_Localized: うちのチームは働きすぎだったからな。ちょっと羽を伸ばしてもいいと思うんだ。レッド・インプのビールを買ってくれ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179204
+    m_Localized: ソイヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179205
+    m_Localized: LI-EATスナックバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179206
+    m_Localized: お気に入りのスナックバーがどこも売り切れていましてね。いくらかご用意いただければ、報酬は惜しみません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179207
+    m_Localized: ルン警部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179208
+    m_Localized: バール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179209
+    m_Localized: 許可なく掃除しやがった奴がいるんだ。見せしめとして懲らしめたい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179210
+    m_Localized: エナジードリンク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179211
+    m_Localized: 眠気覚ましに、エナジードリンクをください。実験を終わらせなくては！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179212
+    m_Localized: ジャックソン博士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179213
+    m_Localized: 大家の特別依頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179214
+    m_Localized: 入居者の1人が、ドアの修理をしてくれとしつこく頼むもので。金属くずをくださるなら、何とかしてみましょう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179215
+    m_Localized: 大家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179216
+    m_Localized: 大家の特別依頼2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179217
+    m_Localized: とある入居者が、換気装置の修理をしろとしつこいんですよ。来週は家賃を上げましょうかね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179218
+    m_Localized: 大家の特別依頼3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179219
+    m_Localized: 通りに面した窓の1つが割れてしまったので、布で補修したいんです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179220
+    m_Localized: 退職祝いBBQパーティー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179221
+    m_Localized: ブーシェ警部が退職するので、バーベキューパーティーを開くことにしました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179222
+    m_Localized: ペットフード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179223
+    m_Localized: 本物の生肉をください。新鮮で加工されていないものですよ。うちのペットには最高級のものしかあげないので。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179224
+    m_Localized: 上層世界のエリート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179225
+    m_Localized: ベビーフード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179226
+    m_Localized: 下層世界にある中で赤ちゃんに十分な栄養を与えられる食品って、ギャラクシーブレンドしかないんですよ！ 手に入れるのを手伝ってください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179227
+    m_Localized: 下層世界の母親
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189833
+    m_Localized: そんなはずありません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189834
+    m_Localized: 高すぎます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189835
+    m_Localized: 低すぎます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189836
+    m_Localized: ちゃんと理解していませんよね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189837
+    m_Localized: もういいです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189838
+    m_Localized: '{0}の鑑定'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189839
+    m_Localized: "受け取った鑑定料金：\n{0}クレジット（{1}%）\n{2}クレジット（基本料金）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189840
+    m_Localized: 鑑定伝票
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189841
+    m_Localized: 最高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189842
+    m_Localized: 優秀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189843
+    m_Localized: 良好
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189844
+    m_Localized: 普通
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189845
+    m_Localized: 未熟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189846
+    m_Localized: なるほど、完璧ですね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189847
+    m_Localized: ありがとうございます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189848
+    m_Localized: ふむ、なるほど。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189849
+    m_Localized: 予想より低いですね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189850
+    m_Localized: 合っているように思います。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189851
+    m_Localized: 予想より少し低いですが。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189852
+    m_Localized: いいと思います。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189853
+    m_Localized: かなりいいと思います。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189854
+    m_Localized: 予想より高いですね。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189855
+    m_Localized: 予想より少し高いですが。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174125625344
+    m_Localized: レール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596864
+    m_Localized: 銃身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596865
+    m_Localized: 弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596866
+    m_Localized: アンダーバレル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596867
+    m_Localized: 銃床
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596868
+    m_Localized: 特殊1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596869
+    m_Localized: 特殊2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596870
+    m_Localized: 特殊3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382631989559296
+    m_Localized: レシピが選択されていない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530816
+    m_Localized: 水分を含んだ材料が検出された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530817
+    m_Localized: 試薬が足りない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084774883328
+    m_Localized: こちらで買った<b>{0}</b>、何の効果もありませんでしたよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437760
+    m_Localized: こちらで買った<b>{0}</b>、役に立ちませんでした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437761
+    m_Localized: まだ標的は生きてます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437762
+    m_Localized: しかもハイにしてしまいました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437763
+    m_Localized: こちらで買った<b>{0}</b>のせいで死にかけましたよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437764
+    m_Localized: どういうことですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437765
+    m_Localized: あなたが売った<b>{0}</b>のせいで、友人は死にました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437766
+    m_Localized: 責任を取ってください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437767
+    m_Localized: ここの<b>{0}</b>、意味ありませんでしたよ！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437768
+    m_Localized: 妊娠してしまいました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437769
+    m_Localized: 彼女が妊娠してしまいました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437770
+    m_Localized: ここの<b>{0}</b>、意味ありませんでした！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437771
+    m_Localized: 中毒が治りません！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437772
+    m_Localized: しかもハイになってしまいました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437773
+    m_Localized: わざわざクレジットを貯めたのに！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437774
+    m_Localized: ここの<b>{0}</b>、全然効きませんでした！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437775
+    m_Localized: 本当に薬物を入れたんですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437776
+    m_Localized: まったくアガりませんでした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437777
+    m_Localized: ここの<b>{0}</b>、効果が弱すぎます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437778
+    m_Localized: ほぼ何も感じませんでした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437779
+    m_Localized: ここの<b>{0}</b>、あまり効きませんでしたよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437780
+    m_Localized: 効果が弱すぎました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437781
+    m_Localized: 変な気分にもなりましたし……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437782
+    m_Localized: ここで買った<b>{0}</b>、ちょっと変でした。どう言えばいいかわからないんですが。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826368
+    m_Localized: あの<b>{0}</b>、詐欺商品ですよね！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826369
+    m_Localized: 保証されていた純度と全然違いましたよ！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60693662015471616
+    m_Localized: ワインのエキス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479060475904
+    m_Localized: 一般の電子部品で改良することで、内蔵の焼却装置をアンロックできる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418944
+    m_Localized: 焼却装置：オン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418945
+    m_Localized: 焼却装置：オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418946
+    m_Localized: 清掃後にたまったフンを燃やす。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62159031347494912
+    m_Localized: 最終スキャン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62538283863556096
+    m_Localized: 畜殺した動物：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240793124864
+    m_Localized: 瓶をプリント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319168
+    m_Localized: 瓶（大）をプリント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319169
+    m_Localized: 水（小）を{0}エネルギーでプリントする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319170
+    m_Localized: 水を{0}エネルギーでプリントする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319171
+    m_Localized: 水（大）を{0}エネルギーでプリントする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319172
+    m_Localized: '改良（電子部品）：{0}/{1} '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923241672704
+    m_Localized: 装備
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421440
+    m_Localized: スロット{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421441
+    m_Localized: ロック中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421442
+    m_Localized: アンロック済みのスロット：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421443
+    m_Localized: 金属くずで改良可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392552988327936
+    m_Localized: '{0}クレジットと引き換えた！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392553026076672
+    m_Localized: ダブルクリックで引き換え
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049709674496
+    m_Localized: 大きい順、上から配置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617536
+    m_Localized: 小さい順、上から配置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617537
+    m_Localized: 大きい順、下から配置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617538
+    m_Localized: 小さい順、下から配置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984083615744
+    m_Localized: 冷蔵済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170176
+    m_Localized: 冷凍済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170177
+    m_Localized: 冷え冷え
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074797178880
+    m_Localized: 冷蔵エリア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733312
+    m_Localized: 冷凍エリア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733313
+    m_Localized: '{0}を{1}に<b>セット</b>する'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733314
+    m_Localized: '{0}を{1}の{2}に<b>入れる</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733315
+    m_Localized: '{0}を{1}に<b>渡す</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733316
+    m_Localized: '{0}を{1}にセットできない！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733317
+    m_Localized: '{0}を{1}に渡せない！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733318
+    m_Localized: '{0}を{1}に<b>使用</b>する'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733319
+    m_Localized: '{0}を{1}に使用できない！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733320
+    m_Localized: '{0}を<b>分解</b>する'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733321
+    m_Localized: '{0}の<b>修復を試す</b>（成功率{1}%）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733322
+    m_Localized: 改良：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733323
+    m_Localized: 保管（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733324
+    m_Localized: 効率（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73440099060989952
+    m_Localized: 入手したアイテムをすべて持ち帰れるように、カウンターのスペースを空けておくことをお勧めします。本当に外出しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73448114220744704
+    m_Localized: '{0}（価格{1}%）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849913851904
+    m_Localized: 情報の控え
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823424
+    m_Localized: 情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823425
+    m_Localized: '{1}日後に「{0}」。{2}日間続く。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823426
+    m_Localized: 本日「{0}」。{1}日間続く。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499588513792
+    m_Localized: '{0}/スキャン'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456832
+    m_Localized: スキャン準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456833
+    m_Localized: AI人間が検知された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456834
+    m_Localized: AI人間は検知されなかった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203698147328
+    m_Localized: しゃくようしょ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507456
+    m_Localized: ジョルジオは店主に{0}クレジットの借りがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507457
+    m_Localized: そこで、利息をつけて返す。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507458
+    m_Localized: '- ジョルジオ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75956810117070848
+    m_Localized: '{1}の{2}（{0}）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065948909568
+    m_Localized: ろ過器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464000
+    m_Localized: エサやり器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464001
+    m_Localized: 水槽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464002
+    m_Localized: 混ぜる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464003
+    m_Localized: 水槽がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464004
+    m_Localized: 水：{0}ml、{1}mlが必要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464005
+    m_Localized: 廃棄物：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464006
+    m_Localized: 飼育：生存中{0}匹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464007
+    m_Localized: 飼育：生存中{0}匹、死亡{1}匹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464008
+    m_Localized: 卵{0}個
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464009
+    m_Localized: 卵{0}個、{1}日後にふ化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464010
+    m_Localized: 稚魚{0}匹、{1}日後に幼体期になる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464011
+    m_Localized: 卵一塊には水槽の水{0}mlが必要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464012
+    m_Localized: 水槽の水{0}mlが必要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464013
+    m_Localized: 残りの肉：{0}/{1}kcal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464014
+    m_Localized: 食事：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464015
+    m_Localized: 雑食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464016
+    m_Localized: 草食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464017
+    m_Localized: 肉食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464018
+    m_Localized: 汚れた水の影響を受けない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464019
+    m_Localized: 汚れた水の影響を受けやすい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464020
+    m_Localized: 水から汚染物質を除去する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464021
+    m_Localized: '{0}日後に次の成長段階'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464022
+    m_Localized: '{0}日後に老魚になる'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464023
+    m_Localized: 老魚：毎晩、死亡する可能性がある
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464024
+    m_Localized: ペレット：食事の{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464025
+    m_Localized: ペレット：食事の{0}%、肉はゴミグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464026
+    m_Localized: 窒息状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464027
+    m_Localized: 空腹状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464028
+    m_Localized: 水がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464029
+    m_Localized: 水が少ない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464030
+    m_Localized: 水が汚染している
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464031
+    m_Localized: 水が有毒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464032
+    m_Localized: 受精済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464033
+    m_Localized: 未受精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464034
+    m_Localized: ゴミグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464035
+    m_Localized: ゴミグレード：食べられない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464036
+    m_Localized: ペレットが魚にあげる食事の{0}%を超えると、肉がゴミグレードになる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464037
+    m_Localized: ダブルクリックで分割、別のペレットの上にドロップで統合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464038
+    m_Localized: ガターフローのペレット：{0}kcal（魚のみ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464039
+    m_Localized: 肉：{0}kcal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198129475584
+    m_Localized: RAS水槽とその隣接するバッテリーに対して、1晩につき{0}kJの電力を供給する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641408
+    m_Localized: 空腹：電力なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641409
+    m_Localized: 若年期（{0}日目）から電力を生み出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641410
+    m_Localized: 水槽とその隣接するバッテリーに対して、ウナギの供給する電力：1晩につき{0}kJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641411
+    m_Localized: 卵 {0}/{1}g
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641412
+    m_Localized: 卵 {0}/{1}g、最大
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641413
+    m_Localized: 卵 {0}/{1}g、HPが{2}%に回復するまで一時停止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641414
+    m_Localized: 飼育のみ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641415
+    m_Localized: 妊娠中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641416
+    m_Localized: 回復中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664676265984
+    m_Localized: このエサを使うと、{0}%の速度で魚が成長する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431808
+    m_Localized: ダブルクリックで分割、別のエサ袋の上にドロップで統合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431809
+    m_Localized: 産業用の魚のエサ：{0}kcal（魚のみ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431810
+    m_Localized: 最近の食事により、{0}%の速度で成長中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431811
+    m_Localized: ガターフローのペレットを食べても、ペナルティが発生しない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431812
+    m_Localized: 肉を食べたときの成長速度が{0}%上昇する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452674281472
+    m_Localized: 遺伝子の複雑さ{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447296
+    m_Localized: 食用生産物の販売価格{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447297
+    m_Localized: 有効成分{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447298
+    m_Localized: 1晩につき各汚染物質を{0}%除去し、純度を最大{1}%まで上げる。ミネラルは残す。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447299
+    m_Localized: 1晩で{0}%の水を、有機廃棄物、微生物、残渣に変える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447300
+    m_Localized: '{0}の生産'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447301
+    m_Localized: 収穫した各アイテムに、{0}が含まれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447302
+    m_Localized: 収穫した各アイテムに、{0}mlの{1}が追加される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447303
+    m_Localized: 収穫した各アイテムに、{0}mlの{1}が追加され、禁制品となる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447304
+    m_Localized: 遺伝子（{0}の複雑さ）：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447305
+    m_Localized: 遺伝子（{0}の複雑さ、+{1}の熱）：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447306
+    m_Localized: 特性なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447307
+    m_Localized: '{0}（編集不可）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447308
+    m_Localized: '{0}（先天的）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447309
+    m_Localized: '{0}（効果なし）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447310
+    m_Localized: ・{0}（先天的、削除済み）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447311
+    m_Localized: '{0} x{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447312
+    m_Localized: 空のDNAディスク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447313
+    m_Localized: 残り使用回数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447314
+    m_Localized: 複雑さ{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447315
+    m_Localized: ランク{0}まで上がる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447316
+    m_Localized: 除外：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447317
+    m_Localized: 効果なし：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447318
+    m_Localized: なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447319
+    m_Localized: 適用できるものがない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447320
+    m_Localized: 「{0}」は作物に含まれているため、適用できない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447321
+    m_Localized: 「{0}」は、「{1}」を持っている対象に追加できない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447322
+    m_Localized: 「{0}」はすでに最大ランクだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447323
+    m_Localized: 「{0}」があるため、「{1}」を適用できない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447324
+    m_Localized: 「{0}」は、{1}に効果がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447325
+    m_Localized: 「{0}」は、この対象には意味がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447326
+    m_Localized: 「{0}」は作物に含まれているため、取り出せない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447327
+    m_Localized: 対象には、取り出してこのディスクにコピーできる「{0}」がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447328
+    m_Localized: 対象には、取り出せる「{0}」がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447329
+    m_Localized: 両方のフィルターモジュールがインストールされているため、何も取り出せない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447330
+    m_Localized: 対象には、取り出せるプラスの特性がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447331
+    m_Localized: 対象には、取り出せるマイナスの特性がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447332
+    m_Localized: 対象には、取り出せる特性がない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447333
+    m_Localized: '{0}を{1}にセットできない：{2}。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447334
+    m_Localized: 特性ディスク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447335
+    m_Localized: 対象
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447336
+    m_Localized: 空のディスク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447337
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447338
+    m_Localized: ディスクの自動排出：オン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447339
+    m_Localized: ディスクの自動排出：オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447340
+    m_Localized: この設定を変更するには、機械を切り替えなければならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447341
+    m_Localized: 「{0}」を適用中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447342
+    m_Localized: 特性を取り出し中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447343
+    m_Localized: 準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447344
+    m_Localized: 開始不可：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447345
+    m_Localized: 次の処理：「{0}」を適用する（成功時、ディスクのチャージを1つ消費）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447346
+    m_Localized: 次の処理：「{0}」を適用し、ランクを上げる（成功時、ディスクのチャージを1つ消費）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447347
+    m_Localized: 次の処理：特性を取り出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447348
+    m_Localized: 次の処理：「{0}」を取り出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447349
+    m_Localized: 次の処理：もう一度「{0}」を取り出してディスクにコピーする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447350
+    m_Localized: 対象は破棄されない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447351
+    m_Localized: 対象は破棄される
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447352
+    m_Localized: 成功率：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447353
+    m_Localized: 食用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447354
+    m_Localized: この植物から採れたものはすべて食べられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447355
+    m_Localized: 高栄養価
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447356
+    m_Localized: 低栄養価
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447357
+    m_Localized: 早い成長
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447358
+    m_Localized: 遅い成長
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447359
+    m_Localized: 豊作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447360
+    m_Localized: 不作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447361
+    m_Localized: 美味
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447362
+    m_Localized: 不味
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447363
+    m_Localized: 乾燥耐性あり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447364
+    m_Localized: 乾燥気味
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447365
+    m_Localized: 丈夫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447366
+    m_Localized: 脆弱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447367
+    m_Localized: 肥沃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447368
+    m_Localized: 不毛
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447369
+    m_Localized: 単純ゲノム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447370
+    m_Localized: 複雑ゲノム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447371
+    m_Localized: 多年生
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447372
+    m_Localized: 収穫に耐え、また収穫可能になる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447373
+    m_Localized: 浄化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447374
+    m_Localized: 汚染
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447375
+    m_Localized: 頑丈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447376
+    m_Localized: 強力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447377
+    m_Localized: 微力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447378
+    m_Localized: 成長速度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447379
+    m_Localized: 収穫量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447380
+    m_Localized: 水の使用量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447381
+    m_Localized: 許容可能な栄養
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447382
+    m_Localized: 汚染物質に対する感受性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447383
+    m_Localized: 開始時のHP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447384
+    m_Localized: カロリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447385
+    m_Localized: 種の収穫量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447386
+    m_Localized: 収穫の耐久性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427712
+    m_Localized: 保管中のエサをすべて捨てますか？ {0}kcalが失われます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427713
+    m_Localized: '{0}kcal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427714
+    m_Localized: '{0}kcal（肉）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427715
+    m_Localized: 遺伝子組換えされた種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427716
+    m_Localized: 固定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427717
+    m_Localized: 固定解除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427718
+    m_Localized: 元に戻す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427719
+    m_Localized: 固定状態：並べ替えたり、中身を抜いても位置が固定される
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078630248448
+    m_Localized: 運よく、負傷を回避した！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025664
+    m_Localized: 運がよかった！ 違法商品がバレなかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025665
+    m_Localized: 運が悪かった。ガラクタを調べまくったが、何も見つからなかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025666
+    m_Localized: 運よく、マークがいいものに変わった！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025667
+    m_Localized: 運悪く、マークが悪いものに変わった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025668
+    m_Localized: 運よく、宝くじでいい結果が出た。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025669
+    m_Localized: 運悪く、宝くじであまり結果が出なかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902970552320
+    m_Localized: '{0}を{1}にセットできない：機械の稼働中は、モジュールがロックされる。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718145
+    m_Localized: 今は泥棒が店に来ない。残り{0}日の猶予。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025670
+    m_Localized: 蓄積カロリー：{0}/{1}kcal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025671
+    m_Localized: 肉（{0}）：{1}kcal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025672
+    m_Localized: 肉（謎）：{0}kcal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025673
+    m_Localized: その他のエサ：{0}kcal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025674
+    m_Localized: 卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025675
+    m_Localized: 稚魚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025676
+    m_Localized: ' ・{0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718144
+    m_Localized: 買い手が、自動販売機で購入した{0}個の商品のラベルが間違っていることを発見した。警察にも通報されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727931338752
+    m_Localized: 稼働中のモイスチャーファーム：{0}（それぞれの出力{1}%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504576
+    m_Localized: ゴミ出し済み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504577
+    m_Localized: 上層世界の清掃員が、ゴミの処分をしたばかりだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504578
+    m_Localized: ガラクタの出現率{0}%低下
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504579
+    m_Localized: 負傷する確率{0}%上昇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504580
+    m_Localized: 本日のみ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504581
+    m_Localized: 残り{0}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504582
+    m_Localized: ジョルジオの手助け
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504583
+    m_Localized: ジョルジオがゴミ捨て場に来て、手伝ってくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504584
+    m_Localized: 負傷しない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504585
+    m_Localized: 廃品漁りの試行回数+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504586
+    m_Localized: スペシャル在庫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504587
+    m_Localized: いつもより希少な商品が販売される
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504588
+    m_Localized: 価格{0}%上昇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698880
+    m_Localized: 割引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698881
+    m_Localized: 価格{0}%低下
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698882
+    m_Localized: 泥棒被害
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698883
+    m_Localized: 昨晩何者かが侵入し、棚の商品を持ち去った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698884
+    m_Localized: 在庫減少
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698885
+    m_Localized: 入荷直後
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698886
+    m_Localized: 最大在庫の{0}%追加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237053218816
+    m_Localized: '{0}の保有株から配当が支払われ、カウンターに置かれた。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773248
+    m_Localized: 閉店中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773249
+    m_Localized: ジャックソン博士の店は、月曜日が定休日のようだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773250
+    m_Localized: ボロボロ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773251
+    m_Localized: ボロボロ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836480
+    m_Localized: 魅力度（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836481
+    m_Localized: '{0}を改良するたびに、夜ごとのエネルギー消費量が{1}増加する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836482
+    m_Localized: '{0}を{1}個改良するたびに、夜ごとのエネルギー消費量が{2}増加する。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682702381056
+    m_Localized: .22 SR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741184
+    m_Localized: 10mm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741185
+    m_Localized: .45 AFP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741186
+    m_Localized: 12ゲージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741187
+    m_Localized: 口径
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741188
+    m_Localized: 出力インベントリサイズ（{0}）：{1}/{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578398818304
+    m_Localized: 自動かき混ぜ：オン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178432
+    m_Localized: 自動かき混ぜ：オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178433
+    m_Localized: もう十分休んだ。今夜はまた外に出られる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178434
+    m_Localized: 交渉ペナルティ（交渉下手）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178435
+    m_Localized: ガラクタ撤去
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178436
+    m_Localized: 動かせない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178437
+    m_Localized: 外に出る代わりに、ガラクタの山を片付けた（{0}/{1}）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178438
+    m_Localized: ガラクタ撤去班が、ガラクタの山の一部を撤去した（{0}/{1}）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178439
+    m_Localized: ガラクタの山が完全になくなった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178440
+    m_Localized: 完全性：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178441
+    m_Localized: 1晩あたりの完全性低下量：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178442
+    m_Localized: 改良：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178443
+    m_Localized: 毎晩、隣接するバッテリーと機械を{0}充電する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178444
+    m_Localized: 原子炉が損傷しすぎていて、店に電力を供給できない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178445
+    m_Localized: 原子炉を修理しなければ、次の夜に爆発してしまう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178446
+    m_Localized: 爆発
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178447
+    m_Localized: 即席の原子炉を犯罪レベルに放置したせいで、とうとうつぶれてしまった。爆発により、店とその周辺が吹き飛んだ。警察は、ジャックソン博士の関与について捜査を開始している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791880241152
+    m_Localized: ジュニア鑑定士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601280
+    m_Localized: 鑑定士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601281
+    m_Localized: シニア鑑定士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601282
+    m_Localized: マスター鑑定士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601283
+    m_Localized: 基本料金：{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601284
+    m_Localized: '{0}：+見積もりの{1}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601285
+    m_Localized: '{0}：拒否'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601286
+    m_Localized: 鑑定依頼者が店に来る確率：1日あたり{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601287
+    m_Localized: 鑑定可能なアイテム：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601288
+    m_Localized: 昇格進行度：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601289
+    m_Localized: 昇格可能：委員会の人が来る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601290
+    m_Localized: 有効化すると、客が持ち込めるアイテムの種類を選べる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038272
+    m_Localized: ほぼ添加剤だった。離脱症状はまったく治まっていない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038273
+    m_Localized: 離脱症状は治まったが、効果が弱い。またすぐ症状が出そうだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038274
+    m_Localized: 効果が強かった。離脱症状はしばらく戻ってこないだろう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86858013764009984
+    m_Localized: 瓶（小）をプリント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86869480580104192
+    m_Localized: マーケット依頼で納品した品のうち{0}点に、客が嘘のラベルを見つけた。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051770290176
+    m_Localized: 電流コンバーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650304
+    m_Localized: 状況：オン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650305
+    m_Localized: 状況：オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650306
+    m_Localized: 効率：1kJあたり{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650307
+    m_Localized: 接続先：{0}（{1}kJ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650308
+    m_Localized: 1晩の料金：{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833481465856
+    m_Localized: Nomore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825984
+    m_Localized: ・ドリームキノコを数個ブレンダーにかけ、つぶしたドリームキノコを作る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825985
+    m_Localized: "・つぶしたドリームキノコの体積の5倍のアルコールを加える\n・混合物を40～50°Cに加熱し、ドリームキノコのエキスを作る"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825986
+    m_Localized: "・コットン生地でろ過し、エバポレーターにかける\n・（必須）水とアルコールが完全に蒸発していること"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825987
+    m_Localized: ステップ4：反応
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825988
+    m_Localized: "・ドリームキノコのエキスと同量の還元剤を加える\n・その4分の1の量のリポボンド剤を加える\n・混合物を45～55°Cに加熱し、Nomoreを作る"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825989
+    m_Localized: 注：ドリームキノコのエキスは60°Cを超えると劣化する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825990
+    m_Localized: ステップ5：包装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825991
+    m_Localized: "・もう一度ろ過し、リポボンド剤を蒸発させる\n・化学フィニッシャーで「Nomoreの注射器」を選ぶ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825992
+    m_Localized: 店が荒らされた。誰かが店先に「肉」と書いている……血で！？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825993
+    m_Localized: 銃を用意しておいたほうがいいですよ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825994
+    m_Localized: 私は気が長いんです。あなたが店の外に一歩でも出たら、そこで待っていますから。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825995
+    m_Localized: 遅かれ早かれ、出てこなきゃならないでしょう？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825996
+    m_Localized: 銃を持っていかないと、{0}に殺される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825997
+    m_Localized: 誰かに見られているような、嫌な気配がする。銃を持ってきてよかった。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825998
+    m_Localized: 肉屋狩りサービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825999
+    m_Localized: 昨夜、ソイヤーの仲間が{0}のところへ「挨拶」に行った。もう二度と、誰かの新鮮な肉を売りに来ることはない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510826000
+    m_Localized: ルーは、おもちゃには触るなと言っていた。彼女はカウンターにもうひとつ「プレゼント」を置いていった。今度のは本物だった。爆発で店は吹き飛び、あなたも命を落とした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87729210584252416
+    m_Localized: リキッド・ラックの効き目が切れた。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413656555520
+    m_Localized: セルピコの食べ物は、これで足りそうだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498560
+    m_Localized: ゴミ捨て場にセルピコのための食べ物を{0}kcal置いてきた（{1}/{2}kcal）。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498561
+    m_Localized: セルピコです。逃げる途中で撃たれてしまって、今はゴミ捨て場にいます。親切な漁り屋さんが手当てしてくれて、この手紙を届けてくれることになりました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498562
+    m_Localized: 逃げる前に、不正の証拠をいくつか持ち出しました。全部まとめるには時間が必要です。でも、食べ物がないともちそうにありません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498563
+    m_Localized: 大きなお願いがあります。ゴミ捨て場に{0}kcal分の食べ物を置いてもらえませんか？ 地面に置いておくだけで大丈夫です。誰もいないときに取りに行きます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498564
+    m_Localized: あと{0}日も持ちそうにありません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498565
+    m_Localized: ゴミ捨て場で警官の遺体発見
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498566
+    m_Localized: 汚職容疑で捜査を受けていた警備見習いのセルピコが、ゴミ捨て場で遺体となって発見された。警察は現時点で詳細を明らかにしていない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498567
+    m_Localized: 警察の汚職が明るみに
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498568
+    m_Localized: ステーションの警察内部の汚職を暴く文書が、ステーション全域で公開された。下級警官数名が刑事告発されたが、上層部で責任を問われた者は一人もいない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498569
+    m_Localized: 汚職の告発、警察上層部にも
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498570
+    m_Localized: ある上級将校に渡された証拠により、あらゆる階級の警官が刑事告発された。新たに汚職対策チームも発足している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498571
+    m_Localized: ルーへの借りを返せなかった。だから彼女は、自分のやり方でケリをつけた。カウンターに置かれた「プレゼント」は、今度は本物だった。爆発で店は吹き飛び、あなたも命を落とした。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498572
+    m_Localized: 来訪中の提督、暗殺される！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498573
+    m_Localized: 昨夜、来訪中の共和国の提督とその護衛が、ドッキングベイ付近で銃撃され死亡した。目撃者によると、犯人は盗まれた警察の制服を着た金髪の女で、提督一行の目の前まで歩み寄ってから発砲したという。現場の警官が数発命中させたものの、女は逃走し、行方はいまだつかめていない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624640
+    m_Localized: 削ったスクラッチ：{0}枚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624641
+    m_Localized: 平均当選額：{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624642
+    m_Localized: 夜のうちに店が荒らされた。店先に、でかでかと「ジョン・スミス」とスプレーで書かれている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624643
+    m_Localized: 固定モード：アイテムをクリックで固定／固定解除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624644
+    m_Localized: '{0}は固定できない：固定できるのは、インベントリ内の自分のアイテムだけ。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624645
+    m_Localized: クリックで{0}を固定。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624646
+    m_Localized: クリックで{0}の固定を解除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022676185088
+    m_Localized: '{0}日ごとに1回分補充される'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350912
+    m_Localized: 次の補充まであと{0}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350913
+    m_Localized: 次の補充は明日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350914
+    m_Localized: 中古
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350915
+    m_Localized: エレノアのドライブの件で、闇市場から{0}クレジットを受け取った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350916
+    m_Localized: pastel社のニュートリフルーツの秘密が流出！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350917
+    m_Localized: 標準的なニュートリフルーツに再び種をつけさせる方法を示した研究論文が発表された。ステーション中のバイオハッカーがすでに新品種の栽培を始めており、種の価格は暴落している。同じ日の朝、横領罪で収監されていたステーション最大の水耕農場の元責任者が、独房で死亡しているのが見つかった。pastel社はコメントを控えている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350918
+    m_Localized: タブ{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022705545216
+    m_Localized: 保管タブ：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575454130176
+    m_Localized: ハイパーテックの密輸屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490304
+    m_Localized: プリセットはまだない。起動して設定しよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490305
+    m_Localized: '{0}：{1}（{2}個）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490306
+    m_Localized: '{0}：{1}（1個）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490307
+    m_Localized: キーなし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490308
+    m_Localized: 出力：1サイクルあたり{0} kJ、無制限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490309
+    m_Localized: 強化：電子部品（ハイパーテック）1つにつき出力+{0} kJ（{1}個使用済み）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490310
+    m_Localized: 接続先：{0}（{1}kJ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490311
+    m_Localized: 機械の消費電力は出力内
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490312
+    m_Localized: 機械の消費電力が出力を超えている：給電なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490313
+    m_Localized: チャージ：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490314
+    m_Localized: ストック中のブースト：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490315
+    m_Localized: チャージ速度：1サイクルあたり{0}（レベル{1}）、バッテリーから{0} kJを消費
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490316
+    m_Localized: 高度なターボブースターを使うと、チャージ速度と消費電力が永続的に上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684608
+    m_Localized: チャージ：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684609
+    m_Localized: クールダウン：残り{0}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684610
+    m_Localized: クールダウン：残り1日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684611
+    m_Localized: 準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684612
+    m_Localized: 電子部品（ハイパーテック）を使うとチャージが1増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777344
+    m_Localized: 設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777345
+    m_Localized: 出力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777346
+    m_Localized: 檻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777347
+    m_Localized: 水槽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777348
+    m_Localized: 今すぐ解体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777349
+    m_Localized: 中身を解体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777350
+    m_Localized: 設定をコピー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777351
+    m_Localized: 設定を貼り付け
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777352
+    m_Localized: ドロップで解体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777353
+    m_Localized: 殺して保管のみ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777354
+    m_Localized: 収穫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777355
+    m_Localized: 繁殖用を残す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777356
+    m_Localized: オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777357
+    m_Localized: 死体のみ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777358
+    m_Localized: 体重
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360256
+    m_Localized: 年齢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360257
+    m_Localized: 体重：{0}～{1} g
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360258
+    m_Localized: 体重：{0} g以上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360259
+    m_Localized: 年齢：{0}～{1}日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360260
+    m_Localized: 年齢：{0}日以上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360261
+    m_Localized: メス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360262
+    m_Localized: オス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360263
+    m_Localized: 名前付き・マーク付きも数える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360264
+    m_Localized: マークや名前が付いた動物も、残すメスとオスの数に数える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360265
+    m_Localized: 妊娠中は残す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360266
+    m_Localized: 病気は処分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360267
+    m_Localized: プリオン保有は処分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360268
+    m_Localized: 産卵魚は残す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360269
+    m_Localized: 死体を切り身に
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360270
+    m_Localized: 切り身をエサやり器へ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360271
+    m_Localized: 未受精卵を回収
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360272
+    m_Localized: 前回：{0}匹を解体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360273
+    m_Localized: 前回：{0}匹を解体、卵{1}個を回収
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360274
+    m_Localized: 自動解体機のトレイがいっぱいだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360275
+    m_Localized: 解体機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360276
+    m_Localized: インク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360277
+    m_Localized: 赤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360278
+    m_Localized: 紫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360279
+    m_Localized: 緑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360280
+    m_Localized: 青
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360281
+    m_Localized: オレンジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360282
+    m_Localized: 消しゴム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360283
+    m_Localized: インク：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052836904960
+    m_Localized: 未接続
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070784
+    m_Localized: '{0}に接続中'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070785
+    m_Localized: '{1}の{0}に接続中'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070786
+    m_Localized: 店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070787
+    m_Localized: 実行順：{0}（{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070788
+    m_Localized: 機械の前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070789
+    m_Localized: 機械の後
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070790
+    m_Localized: すべての後
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070791
+    m_Localized: すべて移動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070792
+    m_Localized: リストのアイテムの種類のみ移動（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070793
+    m_Localized: リストのアイテムの種類以外をすべて移動（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070794
+    m_Localized: 各種類のアイテムを{0}個残す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070795
+    m_Localized: 残す：なし、すべて移動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070796
+    m_Localized: アイテムが追加されたときも実行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070797
+    m_Localized: このホッパーを動かしたときも実行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070798
+    m_Localized: 今すぐ移動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070799
+    m_Localized: 接続解除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070800
+    m_Localized: アイテムを追加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070801
+    m_Localized: フィルター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070802
+    m_Localized: すべて移動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070803
+    m_Localized: 許可リストのみ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070804
+    m_Localized: ブラックリスト以外すべて
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070805
+    m_Localized: アイテムをクリックするとリストに追加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070806
+    m_Localized: 許可リストが空：アイテムを追加するまで何も移動しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070807
+    m_Localized: ブラックリストが空：すべて移動する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070808
+    m_Localized: クリックで{0}をリストから外す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070809
+    m_Localized: '{0}はリストに追加できない。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070810
+    m_Localized: '{0}はすでにリストにある。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070811
+    m_Localized: クリックで{0}をリストに追加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89088954657980416
+    m_Localized: 給餌上限：空腹度{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664064
+    m_Localized: '{0}：{1}ul（-{2}ul/日）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664065
+    m_Localized: 検査レポート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664066
+    m_Localized: 押収品1点：{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664067
+    m_Localized: 押収品{0}点：{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664068
+    m_Localized: '{0}他{1}点'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664069
+    m_Localized: '{0}（{1}クレジット）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664070
+    m_Localized: 、
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664071
+    m_Localized: 鑑定客が来ない日ごとに上昇（基本{0}%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89359339031252992
+    m_Localized: 最大純度：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366424240128
+    m_Localized: この食べ物でセルピコはもう1日持ちこたえられる。残りを届けられる夜：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366449405952
+    m_Localized: ジョルジオがゴミ捨て場にセルピコのためのニュートリフルーツを一箱置いてきた。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90934939390533632
+    m_Localized: 防犯アラームが作動しなかった。電池では一晩に消費する{0}kJの電力を供給できない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522599710720
+    m_Localized: 体には症候群による消えない傷が残っている。まだ危険ではないが、治ることはない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070848
+    m_Localized: 体はもう一度の注射の打ち忘れにも耐えられない。次に注射が遅れたら、命はない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070849
+    m_Localized: エネルギー不足
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070850
+    m_Localized: 色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070851
+    m_Localized: 設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070852
+    m_Localized: '{0}クレジットを口座に追加しました。{1}はあなたのカウンターで無力化され、逮捕として記録されました。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070853
+    m_Localized: ニュートリフルーツさん。あれは痛かった。怒ってないよ、むしろ感心してる。でも女の子には何かと物入りなの。このロッカーに{0}クレジット分の品物を入れて、閉店時に店頭のカウンターに置いておいて。猶予は{1}晩。その次の夜には、お店ごとドカン。チュッ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070854
+    m_Localized: ニュートリフルーツさん！ やってくれたね。きみならできるって分かってた。お店にささやかな贈り物を。チュッ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070855
+    m_Localized: 下層世界で銃撃戦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070856
+    m_Localized: 昨夜、下層世界の住民から、旧貨物地区の廃倉庫で銃声が鳴り続いているとの通報があった。警察が現場に入ると、建物には仕掛け線が張り巡らされ、内部には重武装した私服の人物数名の遺体があった。いずれもステーションの身分証を所持していなかった。遺体の引き取りを名乗り出た者はいない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230687866880
+    m_Localized: '{0} / {1}クレジット分、ルーが要求した品物。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230721421312
+    m_Localized: 残り{0}晩。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93331566923399168
+    m_Localized: ニュートリフルーツさん。もうロッカーをなくしたの？だらしないなあ。もう一つあげる、条件は同じ。{0}クレジット分の品物を、閉店時に店頭のカウンターへ。猶予は{1}晩。三つ目はないからね。チュッ。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

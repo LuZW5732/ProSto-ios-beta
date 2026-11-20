@@ -1,0 +1,791 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: ClientName_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 0f73c9b3c9862ca48930eda417854e69, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1256899526656
+    m_Localized: 阿希什
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1293192839168
+    m_Localized: 科尔森
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1385803071488
+    m_Localized: 戴尔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1402513178624
+    m_Localized: 奥丁·哈拉尔德森
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1490727780352
+    m_Localized: 伦警官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1565721935872
+    m_Localized: 乔·王尔德
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1601390297088
+    m_Localized: 索耶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1638467944448
+    m_Localized: 导师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662761353216
+    m_Localized: 房东
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2041150488576
+    m_Localized: 乔治奥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070660967415808
+    m_Localized: 乔·王尔德的助手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070596811341824
+    m_Localized: 红魔鬼代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393252068704256
+    m_Localized: 詹姆斯·贝利
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393311434883072
+    m_Localized: 亚瑟·拉弗勒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394096562454528
+    m_Localized: 卢
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394134080503808
+    m_Localized: 李北文
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394240880066560
+    m_Localized: 胡安
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394291748585472
+    m_Localized: 约翰·史密斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394655776423936
+    m_Localized: 勒鲁瓦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396315055669248
+    m_Localized: 程大爷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396442461847552
+    m_Localized: 首席工程师内利斯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396618454843392
+    m_Localized: 实习警员塞尔皮科
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396678919929856
+    m_Localized: 埃莉诺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505600
+    m_Localized: 觅食游客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505601
+    m_Localized: 小偷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505602
+    m_Localized: 下层区公民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505603
+    m_Localized: 下层区公民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505604
+    m_Localized: 治安部警官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527839547392
+    m_Localized: 拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130304
+    m_Localized: 下层区劳工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130305
+    m_Localized: 屠夫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990354276352
+    m_Localized: 公民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470656
+    m_Localized: 绝望的瘾君子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470657
+    m_Localized: 探险供应商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470658
+    m_Localized: 忍饥挨饿的星际客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470659
+    m_Localized: 负伤的星际客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470660
+    m_Localized: 下层区医生
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664960
+    m_Localized: 下层区修理工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664961
+    m_Localized: 下层区发明家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664962
+    m_Localized: 下层区家长
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664963
+    m_Localized: 维护工人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664964
+    m_Localized: 中层区护士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664965
+    m_Localized: 私人安保承包商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664966
+    m_Localized: 拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664967
+    m_Localized: 废品收购人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664968
+    m_Localized: 自卫爱好者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664969
+    m_Localized: 病童看护者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664970
+    m_Localized: 星际客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664971
+    m_Localized: 星际客厨师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664972
+    m_Localized: 空间站工程师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664973
+    m_Localized: 口渴的星际客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664974
+    m_Localized: 上层区医院供货商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664975
+    m_Localized: 上层区私人厨师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664976
+    m_Localized: 上层区仆从
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664977
+    m_Localized: 囤水者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664978
+    m_Localized: 筋疲力尽的星际客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664979
+    m_Localized: 年轻的星际客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664980
+    m_Localized: 快递员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664981
+    m_Localized: GP采矿快递员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664982
+    m_Localized: 下层区武器商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664983
+    m_Localized: 下层区商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664984
+    m_Localized: 下层区摊贩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664985
+    m_Localized: 雇佣兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664986
+    m_Localized: 红魔鬼快递员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664987
+    m_Localized: 革命军战士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664988
+    m_Localized: 废料商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664989
+    m_Localized: 可疑的瘾君子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664990
+    m_Localized: 狡猾的商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664991
+    m_Localized: 紧张的当地人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664992
+    m_Localized: 上层区公民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664993
+    m_Localized: 忧心忡忡的居民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149120589824
+    m_Localized: 烦躁的工程师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978432
+    m_Localized: 卡特尔接头人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978433
+    m_Localized: 卡特尔士兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978434
+    m_Localized: 阴谋论者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978435
+    m_Localized: 企业废弃物管理员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978436
+    m_Localized: 商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978437
+    m_Localized: 绝望的爱人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978438
+    m_Localized: 水培农场主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978439
+    m_Localized: 下层区护士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978440
+    m_Localized: 下层区长者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978441
+    m_Localized: 矿工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978442
+    m_Localized: 老拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978443
+    m_Localized: 革命军军需官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978444
+    m_Localized: 革命军游击队
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978445
+    m_Localized: 打捞船飞行员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978446
+    m_Localized: 可疑的农场主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978447
+    m_Localized: 患病的下层区公民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978448
+    m_Localized: 患病的拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978449
+    m_Localized: 受伤的男人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978450
+    m_Localized: 愤怒的公民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978451
+    m_Localized: 乞丐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978452
+    m_Localized: 敲诈者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978453
+    m_Localized: 诊所志愿者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978454
+    m_Localized: 企业代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978455
+    m_Localized: 农场主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978456
+    m_Localized: 食物买家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978457
+    m_Localized: 工头
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978458
+    m_Localized: 冰矿工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978459
+    m_Localized: 惊恐的店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978460
+    m_Localized: 药商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978461
+    m_Localized: 退休化学家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978462
+    m_Localized: 退休农夫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978463
+    m_Localized: 退休枪匠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978464
+    m_Localized: 退休废料客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978465
+    m_Localized: 退休水商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978466
+    m_Localized: 可疑的顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978467
+    m_Localized: 上层区居民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978468
+    m_Localized: 暴民首领
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978469
+    m_Localized: 杀手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978470
+    m_Localized: 卡特尔杀手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978471
+    m_Localized: 瘾君子拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978472
+    m_Localized: 贫穷的拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978473
+    m_Localized: 瘾君子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978474
+    m_Localized: 下层区化学家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978475
+    m_Localized: 导师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978476
+    m_Localized: 乔·王尔德
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978477
+    m_Localized: 伦警官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978478
+    m_Localized: 鉴定委员会成员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978479
+    m_Localized: 休班警官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978480
+    m_Localized: 贷款业务员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978481
+    m_Localized: 杰克逊博士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978482
+    m_Localized: 废料拆解工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978483
+    m_Localized: 房东
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978484
+    m_Localized: 商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978485
+    m_Localized: 上层区志愿者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978486
+    m_Localized: 高利贷者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978487
+    m_Localized: 供货商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978489
+    m_Localized: 可疑的商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978491
+    m_Localized: 治安部征用官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978493
+    m_Localized: 空间站游客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978494
+    m_Localized: 上层区药商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978495
+    m_Localized: 废料客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978497
+    m_Localized: 食物窃贼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978498
+    m_Localized: 补给运输员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978499
+    m_Localized: 来买东西的雇佣兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978500
+    m_Localized: 面色惨白的拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978502
+    m_Localized: 治安部盘查员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978503
+    m_Localized: 贸易委员会官员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978504
+    m_Localized: 上层区访客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978505
+    m_Localized: 可疑的治安部盘查员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978506
+    m_Localized: 懒惰的治安部盘查员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978507
+    m_Localized: 粮站供应商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978508
+    m_Localized: 彩票代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978509
+    m_Localized: 可疑的买家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978510
+    m_Localized: 稀有品商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978512
+    m_Localized: 下层区枪匠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978513
+    m_Localized: 来买东西的小偷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172736
+    m_Localized: 游客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172737
+    m_Localized: 水贩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172738
+    m_Localized: 扒手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784342097920
+    m_Localized: 帕斯泰尔公司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875136
+    m_Localized: 卡迈克尔制药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875137
+    m_Localized: 达夫雷食品有限公司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875138
+    m_Localized: MNSL控股
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875139
+    m_Localized: 卓越电力公司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875140
+    m_Localized: 桌越电力公司
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875141
+    m_Localized: 共和国第13设计局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875142
+    m_Localized: 共和国海军
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875143
+    m_Localized: 神经教派
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875144
+    m_Localized: 神经守望者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875145
+    m_Localized: 社会主义阵线
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875146
+    m_Localized: 索科洛夫重工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875147
+    m_Localized: 唯一愿景实验室
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875148
+    m_Localized: 中华船舶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875149
+    m_Localized: 星际客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875150
+    m_Localized: 子午线兵工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875151
+    m_Localized: 梯队战术系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875152
+    m_Localized: 蓝盾军工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875153
+    m_Localized: 边境军工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875154
+    m_Localized: 阿什文医疗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875155
+    m_Localized: 索拉纳生物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875156
+    m_Localized: A.L.I.S.O.N
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732051034112
+    m_Localized: 下层区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422720
+    m_Localized: 上层区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422721
+    m_Localized: 治安部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422722
+    m_Localized: 黑市
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422723
+    m_Localized: 革命军
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102613085076635648
+    m_Localized: 企业安检员
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103108984169086976
+    m_Localized: 垃圾倾倒场
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107368985712705536
+    m_Localized: 退休养鼠人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101362749440
+    m_Localized: 退休酿酒师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101396303872
+    m_Localized: 上层区寻欢客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422724
+    m_Localized: 13区卡特尔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177674309933514752
+    m_Localized: 退休水产养殖户
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183888579314630656
+    m_Localized: 黄牛贩子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184153730559295488
+    m_Localized: M. Harvey Bee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186448655309127680
+    m_Localized: 开箱狂人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265071149056
+    m_Localized: 埃莉诺的叔叔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265100509184
+    m_Localized: 黑市打手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186991818453073920
+    m_Localized: 超科技走私贩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189734698179411968
+    m_Localized: 共和国特工
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

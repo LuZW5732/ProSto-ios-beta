@@ -1,0 +1,704 @@
+#nullable enable
+using System;
+using System.Collections.Generic;
+using ItemDetails.Integration;
+using ProbablyStolen.Port.Mods;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace ItemDetails
+{
+
+/// <summary>
+/// 物品分类显示成 tooltip 上方的一排独立小标签（每个分类一个），
+/// 不再占用 tooltip 正文的第一行。
+///
+/// 设计要点：
+///   - 分类来源全部走游戏数据：GetGameItemType() + TypeHelper.GetTypeDisplayName()。
+///   - 默认“有色实底 + 白字 + 浅色描边”，颜色按语义分组：
+///     医疗/水/麻醉品蓝、烟酒黑底白字、奢侈品粉、食物绿、日用品青、
+///     武器/护甲青绿、工具/材料紫、违禁/受限暗红、其余灰色。
+///     淡化模式下非违禁分类改用原版 tooltip 的深色底 + 提亮后的类型文字色，
+///     违禁/受限同样用深色底，只保留红色警示文字。
+///     底板必须使用无 sprite 的纯白 quad；复用 tooltip 的深色花纹 sprite 会乘色，
+///     把粉色/灰色压成暗红/棕色。
+///   - 开关：设置里的「物品分类标签」（`show_type_badge`）。关闭后本模块不再抑制
+///     原版正文里的「[类型]」，也不会创建标签，等于完全回到原版。
+///   - 显隐跟随 OverlayHandler.ShowTooltip / HideTooltip；第三方可用 RegisterTooltipAnchor
+///     提供美化后的提示框，定位、父节点和字体模板随之切换，注销后回退原版。
+///   - 记录时机在 GetTooltipBasic 前缀（见 TooltipPipeline.BasicPrefix）：原版分类行在
+///     构建早期就写进正文，晚了既抑制不到，也会让浮窗用到上一件物品的残留。
+///   - 拿不到分类名/颜色/模板时不显示，不做占位兜底。
+/// </summary>
+internal static class TypeBadge
+{
+    /// <summary>
+    /// tooltip 正文的字号（换算成世界像素），供其它自绘文本对齐同一套字号。
+    /// tooltip 还没出现过时返回兜底值。
+    /// </summary>
+    internal static float TooltipFontWorldSize
+    {
+        get
+        {
+            try
+            {
+                var t = _textTemplate;
+                if (t == null) return 14f;
+                float scale = t.rectTransform != null ? Mathf.Abs(t.rectTransform.lossyScale.y) : 1f;
+                if (scale < 0.001f) scale = 1f;
+                float size = t.fontSize * scale;
+                return size > 1f ? size : 14f;
+            }
+            catch { return 14f; }
+        }
+    }
+
+    /// <summary>tooltip 正文用的 TMP 字体（一定含当前语言字形），供其它自绘文本对齐同一字体。</summary>
+    internal static TMP_FontAsset? TooltipFont
+    {
+        get
+        {
+            try { return _textTemplate != null ? _textTemplate.font : null; }
+            catch { return null; }
+        }
+    }
+
+    private const string BadgeName = "ItemDetailsTypeBadge";
+    private const float ChipGap = 4f;
+    private const float PadX = 6f;    // 带底板时左右留白，避免文字贴边
+    private const float PadY = 2f;
+    private const float OutlineDistance = 1f;   // 描边向四周外扩的距离，对齐时要算进去
+    private const float StaleSeconds = 0.5f;
+
+    private sealed class Entry
+    {
+        internal string TypeConst = "";
+        internal string Display = "";
+    }
+
+    private static GameObject? _badge;          // 容器（无渲染组件）
+    private static IDisposable? _badgeHook;     // 徽章槽位注册句柄（排版方按它量高度）
+    private static TMP_Text? _textTemplate;     // 文本模板
+
+    private static readonly List<Entry> Pending = new();
+    private static readonly List<Entry> Built = new();
+#if ITEMDETAILS_SELFTEST
+    /// <summary>快照导出读待显示的徽章：给一份值拷贝，免得对私有嵌套类型做反射（扫描器会拒）。</summary>
+    internal static List<(string Type, string Display)> PendingForSnapshot()
+        => Pending.ConvertAll(e => (e.TypeConst, e.Display));
+#endif
+    private static readonly List<float> Widths = new();
+    private static Transform? _builtParent;
+    private static RectTransform? _builtAnchor;
+    private static bool _builtMuted;
+    private static float _pendingAt = float.MinValue;
+
+#if ITEMDETAILS_DIAG
+    // 独立性能窗口：正文 [perf] 不包含 ShowTooltip 后缀，分类标签必须单独计时。
+    private static float _perfLogAt;
+    private static int _perfNotes;
+    private static int _perfShows;
+    private static int _perfLayouts;
+    private static double _perfNoteMs;
+    private static double _perfShowMs;
+    private static double _perfMaxShowMs;
+#endif
+
+    internal static void Install(PatchScope scope)
+    {
+        try
+        {
+
+            foreach (var m in new[]
+            {
+                PortReflection.Method(typeof(OverlayHandler), "ShowTooltip",
+                    new[] { typeof(Vector2), typeof(RichText), typeof(int) }),
+                PortReflection.Method(typeof(OverlayHandler), "ShowTooltip",
+                    new[] { typeof(Vector2), typeof(Vector2), typeof(RichText), typeof(int) }),
+            })
+            {
+                if (m != null)
+                    scope.Patch(m, postfix: new HookMethod(typeof(TypeBadge), nameof(AfterShow)));
+            }
+
+            // 正文里不再重复显示分类：拦截原版 " [类型]" 片段
+            var add = PortReflection.Method(typeof(RichTextBuilder), "Add", new[]
+            {
+                typeof(string), typeof(RenderHandler.ColorPalette), typeof(string), typeof(bool), typeof(bool),
+                typeof(bool), typeof(bool), typeof(RenderHandler.ColorPalette), typeof(RenderHandler.ColorPalette),
+                typeof(RenderHandler.ColorPalette)
+            });
+            if (add != null)
+                scope.Patch(add, prefix: new HookMethod(typeof(TypeBadge), nameof(SuppressAdd)));
+
+            var hide = PortReflection.Method(typeof(OverlayHandler), "HideTooltip");
+            if (hide != null)
+                scope.Patch(hide, postfix: new HookMethod(typeof(TypeBadge), nameof(AfterHide)));
+
+            // 徽章位置由排版方决定摆放时，它按这个槽位量高度，不再按节点名找 GameObject。
+            try { PublishBadge(); } catch (Exception ex) { Log.Warn("TypeBadge.Badge", ex); }
+            Log.Msg("TypeBadge: patched OverlayHandler tooltip");
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("TypeBadge.Apply", ex);
+        }
+        scope.OnDispose(Remove);
+    }
+
+    internal static void Remove()
+    {
+        try { WithdrawBadge(); } catch { }
+        DestroyBadge();
+    }
+
+    /// <summary>由 GetTooltipBasic 前缀调用：记录本次物品的分类（必须在任何 Add 之前）。</summary>
+    internal static void NoteItem(GameItem? item)
+    {
+#if ITEMDETAILS_DIAG
+        long started = System.Diagnostics.Stopwatch.GetTimestamp();
+#endif
+        try
+        {
+            Pending.Clear();
+            _externalDisplay = false;
+            _pendingAt = UnityEngine.Time.unscaledTime;
+            // 开关关闭：不记录分类，也就不会抑制原版正文里的「[类型]」。
+            if (!ModSettings.TypeBadge) return;
+            if (item == null) return;
+
+            var types = item.GetGameItemType();
+            if (types == null || types.Count == 0) return;
+
+            foreach (string t in types)
+            {
+                if (string.IsNullOrEmpty(t)) continue;
+                string name;
+                try { name = TypeHelper.GetTypeDisplayName(t) ?? ""; } catch { name = ""; }
+                if (name.Length == 0) continue;      // 取不到名字就不显示该分类
+                Pending.Add(new Entry { TypeConst = t, Display = name });
+            }
+        }
+        catch (Exception ex) { Log.Warn("TypeBadge.NoteItem", ex); }
+#if ITEMDETAILS_DIAG
+        finally
+        {
+            _perfNotes++;
+            _perfNoteMs += ElapsedMs(started);
+        }
+#endif
+    }
+
+    internal static void Publish(RichTextBuilder builder, GameItem item)
+    {
+        if (Pending.Count == 0 || !ModSettings.TypeBadge || !ReferenceEquals(item, TooltipPipeline.Current)) return;
+        var output = new TooltipSections.Writer(builder, item, "categories", TooltipGroupIds.Label);
+        if (!output.Capturing) return;
+        output.Field("types", Pending.ConvertAll(e => (e.TypeConst, e.Display)).AsReadOnly());
+        // 分类徽章本身已由 AfterShow 画在原生提示框上；这里只暴露数据，接管方负责隐藏原生「[类型]」。
+        output.Emit();
+    }
+
+    private static bool _externalDisplay;
+
+    // ---------------- StaticHookOwner 回调 ----------------
+
+    private static bool SuppressAdd(string __0)
+    {
+        try
+        {
+            if (!ModSettings.TypeBadge) return true;   // 关闭后放行原版「[类型]」
+            if (!TooltipPipeline.IsBuilding || Pending.Count == 0) return true;
+            if (_textTemplate == null) return true;   // 还渲染不了浮窗时不要删掉原版分类行
+            if (string.IsNullOrEmpty(__0)) return true;
+
+            string probe = __0.Trim();
+            foreach (var e in Pending)
+                if (string.Equals(probe, "[" + e.Display + "]", StringComparison.Ordinal)) return false;
+        }
+        catch { }
+        return true;
+    }
+
+    private static void AfterShow(OverlayHandler __instance)
+    {
+#if ITEMDETAILS_DIAG
+        long started = System.Diagnostics.Stopwatch.GetTimestamp();
+#endif
+        bool laidOut = false;
+        try
+        {
+            if (!ModSettings.TypeBadge || _externalDisplay) { Hide(); return; }
+
+            // 超过 StaleSeconds 没有重新构建，说明这是缓存 tooltip，分类可能过期——不显示
+            if (Pending.Count == 0 || UnityEngine.Time.unscaledTime - _pendingAt > StaleSeconds)
+            {
+                Hide();
+                return;
+            }
+
+            var tooltipRect = ResolveTooltipAnchor(__instance);
+            if (tooltipRect == null || !tooltipRect.gameObject.activeInHierarchy) { Hide(); return; }
+
+            if (!BuildChips(tooltipRect, out laidOut)) { Hide(); return; }
+            Place(tooltipRect);
+            if (_badge != null) _badge.SetActive(true);
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("TypeBadge.AfterShow", ex);
+            Hide();
+        }
+#if ITEMDETAILS_DIAG
+        finally
+        {
+            TrackShowPerf(started, laidOut);
+        }
+#endif
+    }
+
+    /// <summary>优先使用第三方提示框，未提供或调用失败时回退原版窗口。</summary>
+    internal static RectTransform? ResolveTooltipAnchor(OverlayHandler? handler)
+    {
+        if (ThirdPartyProviders.TryTooltipAnchor(out var external)) return external;
+        var win = handler?.GetTooltipWindow();
+        return win != null ? win.rectTransform : null;
+    }
+
+#if ITEMDETAILS_DIAG
+    private static double ElapsedMs(long started) =>
+        (System.Diagnostics.Stopwatch.GetTimestamp() - started) * 1000.0
+        / System.Diagnostics.Stopwatch.Frequency;
+
+    /// <summary>每 2 秒汇总一次，避免诊断日志本身成为新的卡顿来源。</summary>
+    private static void TrackShowPerf(long started, bool laidOut)
+    {
+        _perfShows++;
+        if (laidOut) _perfLayouts++;
+        double ms = ElapsedMs(started);
+        _perfShowMs += ms;
+        if (ms > _perfMaxShowMs) _perfMaxShowMs = ms;
+
+        float now = UnityEngine.Time.unscaledTime;
+        if (_perfLogAt <= 0f) _perfLogAt = now + 2f;
+        if (now < _perfLogAt) return;
+
+        double noteAvg = _perfNotes > 0 ? _perfNoteMs / _perfNotes : 0.0;
+        double showAvg = _perfShows > 0 ? _perfShowMs / _perfShows : 0.0;
+        Log.Msg($"[perf] 分类标签（2秒）: 解析={_perfNotes}次/{noteAvg:0.00}ms均次，" +
+                $"显示={_perfShows}次/{showAvg:0.00}ms均次/{_perfMaxShowMs:0.00}ms峰值，" +
+                $"布局更新={_perfLayouts}次，直接复用={_perfShows - _perfLayouts}次");
+
+        _perfNotes = 0;
+        _perfShows = 0;
+        _perfLayouts = 0;
+        _perfNoteMs = 0.0;
+        _perfShowMs = 0.0;
+        _perfMaxShowMs = 0.0;
+        _perfLogAt = now + 2f;
+    }
+#endif
+
+    private static void AfterHide()
+    {
+        try { Hide(); } catch { }
+    }
+
+    // ---------------- 构建 ----------------
+
+    private static bool BuildChips(RectTransform tooltipRect, out bool laidOut)
+    {
+        laidOut = false;
+        var parent = tooltipRect.parent;
+        if (parent == null) return false;
+
+        // 美化 Mod 换提示框实例时，字体模板和布局也必须重新取，不能沿用旧锚点。
+        bool anchorChanged = !ReferenceEquals(_builtAnchor, tooltipRect);
+        if (anchorChanged) _textTemplate = null;
+
+        // Unity 的"假 null"：界面重建后这些引用会变成已销毁对象，必须重新取。
+        if (_textTemplate == null)
+            _textTemplate = tooltipRect.GetComponentInChildren<TMP_Text>(true);
+        if (_textTemplate == null) { Log.Warn("TypeBadge.Template", "tooltip 内未找到 TMP 文本"); return false; }
+
+        if (_badge == null)
+        {
+            _badge = new GameObject(BadgeName, typeof(RectTransform));
+            _badge.transform.SetParent(parent, false);
+            var c = _badge.GetComponent<RectTransform>();
+            c.anchorMin = new Vector2(0.5f, 0.5f);
+            c.anchorMax = new Vector2(0.5f, 0.5f);
+            c.pivot = new Vector2(0.5f, 0.5f);
+        }
+
+        var container = _badge.GetComponent<RectTransform>();
+
+        // tooltip 每次重建都会走到这里。分类没变时整排复用，避免反复 Instantiate/Destroy；
+        // 分类变化时也只增减必要节点，并更新现有 TMP。
+        if (!anchorChanged && container.parent == parent && ReferenceEquals(_builtParent, parent)
+            && _builtMuted == ModSettings.TypeBadgeMuted
+            && container.childCount == Pending.Count && SameContent())
+            return true;
+
+        laidOut = true;
+        if (container.parent != parent) container.SetParent(parent, false);
+
+        for (int i = container.childCount - 1; i >= Pending.Count; i--)
+            try { UnityEngine.Object.Destroy(container.GetChild(i).gameObject); } catch { }
+
+        int count = Math.Min(container.childCount, Pending.Count);
+        for (int i = count; i < Pending.Count; i++)
+        {
+            var chip = CreateChip(Pending[i]);
+            if (chip == null) break;
+            chip.transform.SetParent(container, false);
+            count++;
+        }
+
+        Widths.Clear();
+        float height = 0f;
+        for (int i = 0; i < count; i++)
+        {
+            float w, h;
+            try
+            {
+                var pref = _textTemplate.GetPreferredValues(Pending[i].Display);
+                w = Mathf.Ceil(pref.x) + PadX * 2f;
+                h = Mathf.Ceil(pref.y) + PadY * 2f;
+            }
+            catch { w = 60f; h = 18f; }
+            Widths.Add(w);
+            height = Mathf.Max(height, h);
+        }
+
+        float total = ChipGap * Mathf.Max(0, count - 1);
+        foreach (float w in Widths) total += w;
+        container.sizeDelta = new Vector2(total, height);
+
+        float x = -total * 0.5f;
+        for (int i = 0; i < count; i++)
+        {
+            float w = Widths[i];
+            var chip = container.GetChild(i).gameObject;
+            ConfigureChip(chip, Pending[i]);
+
+            var r = chip.GetComponent<RectTransform>();
+            r.anchorMin = new Vector2(0.5f, 0.5f);
+            r.anchorMax = new Vector2(0.5f, 0.5f);
+            r.pivot = new Vector2(0.5f, 0.5f);
+            r.sizeDelta = new Vector2(w, height);
+            r.anchoredPosition = new Vector2(x + w * 0.5f, 0f);
+
+            x += w + ChipGap;
+        }
+
+        if (count == Pending.Count)
+        {
+            Built.Clear();
+            Built.AddRange(Pending);
+            _builtParent = parent;
+            _builtAnchor = tooltipRect;
+            _builtMuted = ModSettings.TypeBadgeMuted;
+        }
+        return count > 0;
+    }
+
+    private static bool SameContent()
+    {
+        if (Built.Count != Pending.Count) return false;
+        for (int i = 0; i < Built.Count; i++)
+            if (Built[i].TypeConst != Pending[i].TypeConst || Built[i].Display != Pending[i].Display)
+                return false;
+        return true;
+    }
+
+    /// <summary>一个分类标签：默认彩色底白字；淡化模式使用深色底与提亮后的类型文字色。</summary>
+    private static GameObject? CreateChip(Entry e)
+    {
+        GameObject chip;
+        try
+        {
+            chip = new GameObject(BadgeName + "_Chip", typeof(RectTransform), typeof(Image));
+            var img = chip.GetComponent<Image>();
+            if (img != null)
+            {
+                // 不使用 tooltip 的深色花纹 sprite：Image.color 会与纹理相乘，
+                // 导致粉色/灰色整体变暗偏红。sprite=null 时 UI 使用白色 1x1 纹理，
+                // 颜色就是这里的 bg 本身。
+                img.sprite = null;
+                img.type = Image.Type.Simple;
+                img.fillCenter = true;
+                img.raycastTarget = false;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("TypeBadge.Chip", ex);
+            return null;
+        }
+
+        // 淡化模式不再叠浅色块：chip 根节点本身就是原版深色底，
+        // 文字改用提亮后的分类色；否则深色底会被盖住，看起来仍是白底。
+        if (_textTemplate == null) return chip;
+
+        var textGo = new GameObject("Text", typeof(RectTransform), typeof(TextMeshProUGUI));
+        textGo.transform.SetParent(chip.transform, false);
+        var tmp = textGo.GetComponent<TextMeshProUGUI>();
+        tmp.font = _textTemplate.font;
+        tmp.fontSharedMaterial = _textTemplate.fontSharedMaterial;
+        tmp.fontSize = Mathf.Max(10f, _textTemplate.fontSize * 0.85f);
+        tmp.alignment = TextAlignmentOptions.Center;
+        tmp.enableWordWrapping = false;
+        tmp.raycastTarget = false;
+
+        var tr = textGo.GetComponent<RectTransform>();
+        tr.anchorMin = Vector2.zero;
+        tr.anchorMax = Vector2.one;
+        tr.pivot = new Vector2(0.5f, 0.5f);
+        tr.offsetMin = new Vector2(2f, PadY * 0.5f);
+        tr.offsetMax = new Vector2(-2f, -PadY * 0.5f);
+
+        ConfigureChip(chip, e);
+        return chip;
+    }
+
+    private static void ConfigureChip(GameObject chip, Entry e)
+    {
+        bool muted = ModSettings.TypeBadgeMuted;
+        ChipColors(e.TypeConst, out Color bg, out Color border);
+        Color fg = Color.white;
+
+        if (muted)
+        {
+            // 淡化模式：固定深色底，文字用提亮后的分类色。
+            // 不再借用 tooltip 的图片当底：那会挑到外框 Sprite（橙红），
+            // 结果底色和边框一个颜色。游戏原始类型色也偏暗（默认 #4f464b、
+            // 水 #355271），所以文字只提亮、不改色相。
+            Color typeColor = TypeHelper.GetTypeColor(e.TypeConst);
+            fg = Color.Lerp(typeColor, Color.white, MutedTextLighten);
+            fg.a = 1f;
+            border = new Color(fg.r, fg.g, fg.b, 0.55f);
+            if (IsWarning(e.TypeConst))
+            {
+                fg = WarningText;
+                border = new Color(WarningText.r, WarningText.g, WarningText.b, 0.55f);
+            }
+        }
+
+        var img = chip.GetComponent<Image>();
+        if (img != null)
+        {
+            img.sprite = null;
+            img.type = Image.Type.Simple;
+            img.fillCenter = true;
+            img.color = muted ? MutedDarkBg : bg;
+            img.raycastTarget = false;
+        }
+
+        // 旧版本残留的浅色填充层：一律关闭，避免再次盖住深色底。
+        var staleFill = chip.transform.Find("Fill")?.GetComponent<Image>();
+        if (staleFill != null) staleFill.enabled = false;
+
+        var tmp = chip.GetComponentInChildren<TMP_Text>(true);
+        if (tmp != null)
+        {
+            if (_textTemplate != null)
+            {
+                tmp.font = _textTemplate.font;
+                tmp.fontSharedMaterial = _textTemplate.fontSharedMaterial;
+                tmp.fontSize = Mathf.Max(10f, _textTemplate.fontSize * 0.85f);
+            }
+            tmp.color = fg;
+            if (tmp.text != e.Display) tmp.text = e.Display;
+        }
+
+        var outline = chip.GetComponent<Outline>();
+        if (outline == null) outline = chip.AddComponent<Outline>();
+        if (outline != null)
+        {
+            // 淡化模式保留一圈分类色细边：底色是深色，边框是分类色，两者不会混在一起。
+            outline.enabled = true;
+            outline.effectColor = border;
+            outline.effectDistance = new Vector2(OutlineDistance, OutlineDistance);
+            outline.useGraphicAlpha = false;
+        }
+    }
+
+    private static readonly Color BlueBg = new Color32(21, 101, 192, 250);
+    private static readonly Color BlueBorder = new Color32(115, 192, 255, 255);
+    private static readonly Color PinkBg = new Color32(196, 44, 122, 250);
+    private static readonly Color PinkBorder = new Color32(255, 154, 213, 255);
+    private static readonly Color BlackBg = new Color32(18, 18, 18, 250);
+    private static readonly Color BlackBorder = new Color32(208, 208, 208, 255);
+    private static readonly Color CyanBg = new Color32(0, 124, 145, 250);
+    private static readonly Color CyanBorder = new Color32(92, 225, 242, 255);
+    private static readonly Color FoodGreenBg = new Color32(46, 125, 50, 250);
+    private static readonly Color FoodGreenBorder = new Color32(130, 217, 139, 255);
+    private static readonly Color WeaponTealBg = new Color32(0, 105, 92, 250);
+    private static readonly Color WeaponTealBorder = new Color32(99, 216, 204, 255);
+    private static readonly Color PurpleBg = new Color32(85, 58, 133, 250);
+    private static readonly Color PurpleBorder = new Color32(195, 166, 255, 255);
+    private static readonly Color WarningBg = new Color32(87, 26, 28, 250);
+    private static readonly Color WarningBorder = new Color32(255, 148, 133, 255);
+    private static readonly Color NeutralBg = new Color32(85, 85, 85, 250);
+    private static readonly Color NeutralBorder = new Color32(192, 192, 192, 255);
+    /// <summary>淡化模式的深色底色，取自 tooltip 内部主色，和橙红外框明显区分。</summary>
+    private static readonly Color MutedDarkBg = new Color32(43, 39, 51, 255);
+    /// <summary>违禁/受限在深色底上的警示文字色。</summary>
+    private static readonly Color WarningText = new Color32(255, 148, 133, 255);
+    /// <summary>提亮比例：只抬亮度、不动色相。</summary>
+    private const float MutedTextLighten = 0.55f;
+
+    private static bool IsWarning(string typeConst)
+    {
+        switch ((typeConst ?? "").ToUpperInvariant())
+        {
+            case "CONTRABAND":
+            case "RESTRICTED_1":
+            case "RESTRICTED_2":
+            case "RESTRICTED_3":
+                return true;
+            default:
+                return false;
+        }
+    }
+
+    private static void ChipColors(string typeConst, out Color bg, out Color border)
+    {
+        switch ((typeConst ?? "").ToUpperInvariant())
+        {
+            case "CONTRABAND":
+            case "RESTRICTED_1":
+            case "RESTRICTED_2":
+            case "RESTRICTED_3":
+                bg = WarningBg; border = WarningBorder; return;
+
+            case "MEDICAL":
+            case "MEDICAL_TOOL":
+            case "ORGAN":
+            case "WATER":
+            case "WATER_RATION":
+            case "WATER_PURIFICATION_SUPPLY":
+            case "NARCOTIC":
+            case "POISON":
+                bg = BlueBg; border = BlueBorder; return;
+
+            case "LUXURY_ITEM":
+            case "ART":
+                bg = PinkBg; border = PinkBorder; return;
+
+            case "ALCOHOL":
+            case "SUBSTANCE":
+                bg = BlackBg; border = BlackBorder; return;
+
+            case "HOUSEHOLD_GOOD":
+                bg = CyanBg; border = CyanBorder; return;
+
+            case "FOOD":
+            case "FRESH_FOOD":
+            case "PROCESSED_FOOD":
+            case "TREAT":
+            case "BREVAGE":
+            case "FARMING_SUPPLIES":
+            case "SEED":
+            case "MODIFIED_SEED":
+                bg = FoodGreenBg; border = FoodGreenBorder; return;
+
+            case "WEAPON":
+            case "MELEE_WEAPON":
+            case "FIREARM":
+            case "MODDABLE":
+            case "GUN_MOD":
+            case "AMMUNITION":
+            case "MUNITION":
+            case "ARMOR":
+                bg = WeaponTealBg; border = WeaponTealBorder; return;
+
+            case "TOOL":
+            case "MACHINE":
+            case "MATERIAL":
+            case "BASIC_MATERIAL":
+            case "REFINED_MATERIAL":
+            case "ENERGY_CELL":
+            case "MODULE":
+            case "NODE":
+            case "HYDROPONIC_MODULE":
+            case "ALARM_MODULE":
+            case "PRINTER_MODULE":
+            case "EVAPORATOR_MODULE":
+            case "FILTER":
+                bg = PurpleBg; border = PurpleBorder; return;
+
+            default:
+                bg = NeutralBg; border = NeutralBorder; return;
+        }
+    }
+
+    /// <summary>整排放在 tooltip 正上方，左边缘与 tooltip 外框左边缘对齐。</summary>
+    private static void Place(RectTransform tooltipRect)
+    {
+        if (_badge == null) return;
+        var rect = _badge.GetComponent<RectTransform>();
+        if (rect == null) return;
+
+        // 不能用 tooltipRect.position 当中心：该 RectTransform 的 pivot 不一定在中心
+        // （像素风窗口常以左上为 pivot）。改用左上角换算到世界坐标，与 pivot 无关。
+        Vector3 leftTop = tooltipRect.TransformPoint(
+            new Vector3(tooltipRect.rect.xMin, tooltipRect.rect.yMax, 0f));
+
+        float scale = tooltipRect.lossyScale.y;
+        if (scale <= 0f) scale = 1f;
+
+        float gap = 4f * scale;
+        float halfBadge = rect.rect.height * 0.5f * scale;
+        float halfWidth = rect.rect.width * 0.5f * scale;
+        // 描边画在底板外侧：右移一个描边宽度，让描边外沿（而不是底板）贴住 tooltip 外框
+        float outline = OutlineDistance * scale;
+
+        Vector3 pos = leftTop + new Vector3(halfWidth + outline, gap + halfBadge, 0f);
+        pos.z = leftTop.z;
+        rect.position = pos;
+    }
+
+    /// <summary>感知亮度（0..1），用于决定文字用白还是黑。</summary>
+    private static void Hide()
+    {
+        try { if (_badge != null) _badge.SetActive(false); } catch { }
+    }
+
+    private static void DestroyBadge()
+    {
+        try { if (_badge != null) UnityEngine.Object.Destroy(_badge); } catch { }
+        _badge = null;
+        _textTemplate = null;
+        _builtParent = null;
+        _builtAnchor = null;
+        _builtMuted = false;
+        Pending.Clear();
+        Built.Clear();
+        Widths.Clear();
+    }
+
+    /// <summary>
+    /// 当前可见的分类徽章容器；没创建或已隐藏时都返回 null，与 SDK 的槽位约定一致。
+    /// 排版方原来按节点名 <c>ItemDetailsTypeBadge</c> 在父节点上找它并量高度，
+    /// 改走槽位后我们改节点名或层级都不影响它。
+    /// </summary>
+    private static RectTransform? BadgeRect()
+    {
+        // 排版方按返回值决定要不要在上方留出徽章的高度，返回看不见的容器会让它凭空空出一截。
+        try { return _badge != null && _badge.activeInHierarchy ? _badge.GetComponent<RectTransform>() : null; }
+        catch { return null; }
+    }
+
+    internal static void PublishBadge() => _badgeHook ??= ItemDetailsClient.RegisterTooltipBadge(BadgeRect);
+
+    internal static void WithdrawBadge()
+    {
+        _badgeHook?.Dispose();
+        _badgeHook = null;
+    }
+}
+
+}

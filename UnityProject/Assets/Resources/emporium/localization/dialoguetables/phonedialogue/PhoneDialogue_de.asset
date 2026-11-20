@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PhoneDialogue_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 59af263a7f048994e8e04d7360d88855, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 311964778496
+    m_Localized: '[Auflegen]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525270302720
+    m_Localized: '[Wilds Dienstleistungen durchsuchen]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014057713664
+    m_Localized: Hallo, Sie sprechen mit dem Büro von Mr. Wild …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1030969147392
+    m_Localized: Wie kann ich Ihnen helfen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212431515648
+    m_Localized: Wir können Folgendes für Sie tun.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435664957440
+    m_Localized: Auf Wiederhören!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882173120512
+    m_Localized: Ah, ja. Mr. Wild hat uns Bescheid gegeben, dass Sie uns anrufen würden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956194197504
+    m_Localized: Ich werde Ihr Ansprechpartner für die Red-Imp-Brauerei sein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3982169522176
+    m_Localized: Rufen Sie diese Nummer an, wenn Sie eine Bestellung aufgeben wollen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3990079979520
+    m_Localized: Wir können gleich am Folgetag liefern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996421767168
+    m_Localized: Da Sie Neukunde bei uns sind …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006756532224
+    m_Localized: Schicken wir Ihnen morgen eine Gratisprobe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5439690162176
+    m_Localized: Hallo, Sie sprechen mit der Red-Imp-Vertriebsabteilung …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5445696405504
+    m_Localized: Möchten Sie eine Bestellung aufgeben?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5773825196032
+    m_Localized: Okay, ich kümmere mich darum und lasse alles liefern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7844754407424
+    m_Localized: Ich fürchte, das haben wir leider gerade nicht auf Lager.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7957669265408
+    m_Localized: Rufen Sie uns noch mal an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7886064107520
+    m_Localized: Die nächste Charge sollte in {0} Tagen bereit sein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081138988924928
+    m_Localized: '[{0} Biere bestellen (Lieferung am Folgetag)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896448
+    m_Localized: '[{0} Biere bestellen (Lieferung in {1} Tagen)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896451
+    m_Localized: '[{0} Erze bestellen (Lieferung am Folgetag)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896452
+    m_Localized: '[{0} Erze bestellen (Lieferung in {1} Tagen)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896456
+    m_Localized: Wunderbar! Joe hat schon von Ihnen erzählt. Ich bin Ashish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896457
+    m_Localized: Sagen Sie mir einfach, was Sie brauchen, und ich kümmere mich drum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896458
+    m_Localized: Ohne Wenn und Aber!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896459
+    m_Localized: Sie kriegen Ihre Sachen am nächsten Tag. Ohne Stress.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896460
+    m_Localized: Geht klar. Danke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896461
+    m_Localized: Ich schicke Ihnen morgen eine Probe, geht aufs Haus!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896469
+    m_Localized: Ah, Sie kommen von Joe, oder?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896470
+    m_Localized: Ich bin Caulson. Ich leite die GP Mining Coop.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896471
+    m_Localized: Wir haben Erz en gros, wenn Sie interessiert sind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896472
+    m_Localized: Sie bestellen was,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896473
+    m_Localized: und unsere Crew kommt am nächsten Tag vorbei. Ganz einfach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896474
+    m_Localized: Alles klar. Danke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896475
+    m_Localized: Weil Sie neu sind, schick ich Ihnen morgen ’ne Gratisprobe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896476
+    m_Localized: GP Mining.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896477
+    m_Localized: Sie wollen Erz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896478
+    m_Localized: Alles klar, ich lass alles liefern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896479
+    m_Localized: GP Mining, hallo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896480
+    m_Localized: Wir haben leider nix auf Lager.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896481
+    m_Localized: Rufen Sie mich in … äh, {0} Tagen wieder an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896482
+    m_Localized: Dann hab ich vielleicht wieder was.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896483
+    m_Localized: Verstehe, danke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896501
+    m_Localized: Kann gerade nicht. Rufen Sie in ’n paar Tagen wieder an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896502
+    m_Localized: Odin Haraldsson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896503
+    m_Localized: Wir wissen, was Sie getan haben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896504
+    m_Localized: Rufen Sie diese Nummer nicht mehr an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896505
+    m_Localized: Ich bin mit Ihnen fertig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896506
+    m_Localized: Kann gerade nicht reden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896507
+    m_Localized: Rufen Sie wieder an, wenn die Razzia vorbei ist.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896508
+    m_Localized: Ja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896509
+    m_Localized: Tut mir leid, falsch verbunden. [Anruf beenden]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896510
+    m_Localized: Sind Sie’s? Haben Sie was für uns?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090752
+    m_Localized: Okay, verkaufen Sie das nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090753
+    m_Localized: Ich komm in {0} Tagen vorbei.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090754
+    m_Localized: Wiederhören.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896449
+    m_Localized: '[{0} Traumstaub bestellen (Lieferung am Folgetag)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896450
+    m_Localized: '[{0} Traumstaub bestellen (Lieferung in {1} Tagen)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896453
+    m_Localized: '[{0} OxyMore-Injektor(en) bestellen (Lieferung am Folgetag)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896454
+    m_Localized: '[{0} OxyMore-Injektor(en) bestellen (Lieferung in {1} Tagen)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896462
+    m_Localized: Hallo, hier ist Ashish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896463
+    m_Localized: Was brauchen Sie?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896464
+    m_Localized: Alles klar, ich bereite alles für die Lieferung vor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896465
+    m_Localized: Hi, hier ist Ashish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896466
+    m_Localized: Ich bin gerade mit einer anderen Bestellung beschäftigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896467
+    m_Localized: Können Sie mich in {0} Tagen noch mal anrufen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896485
+    m_Localized: Ich habe schon auf Ihren Anruf gewartet. Gut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896486
+    m_Localized: Nennen Sie mich „Dale“ und verwenden Sie meinen Namen nirgendwo anders.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896487
+    m_Localized: Ich habe möglicherweise Zugang zu bestimmten Medikamenten von den Oberdecks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896488
+    m_Localized: Natürlich alles unter der Hand. Ist das klar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896489
+    m_Localized: Sobald ich Ihre Bestellung habe,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896490
+    m_Localized: geht sie am Folgetag per Kurier raus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896491
+    m_Localized: Sparen Sie sich die Nachfragen, außer es geht was schief. Verstanden?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896492
+    m_Localized: Verstehe. Danke.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896493
+    m_Localized: Ich schicke Ihnen morgen eine Gratisprobe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896494
+    m_Localized: Möchten Sie eine Bestellung aufgeben?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896495
+    m_Localized: Aber Sie müssen allein sein.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896496
+    m_Localized: Was brauchen Sie?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896497
+    m_Localized: Alles klar, ich lass alles liefern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896498
+    m_Localized: Hi, ich kann gerade keine Bestellungen mehr annehmen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896499
+    m_Localized: Rufen Sie mich in {0} Tagen noch mal an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896500
+    m_Localized: Verstehe. Danke.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

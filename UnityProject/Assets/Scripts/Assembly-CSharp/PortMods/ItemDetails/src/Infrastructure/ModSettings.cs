@@ -1,0 +1,987 @@
+#nullable enable
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using ProbablyStolen.Port.Mods;
+
+namespace ItemDetails
+{
+
+/// <summary>
+/// 官方 ModConfig 配置。游戏模组菜单会自动出现"设置"按钮并渲染面板
+/// （ModConfig.HasSettings 为真 → ModConfigWindow.Open），无需自建 UI。
+///
+/// 分组按「这一项做什么」划分（2026-11 重排，面板顺序即下列顺序）：
+///   "信息补充" —— 往界面里加原版没有、但不剧透的信息。「物品信息补充」总开关只管本组的物品子项；
+///                 顾客对话不是物品信息，独立于总开关
+///   "透视"     —— 揭示本应靠鉴定/分析才能知道的东西（会降低难度）；排第二，方便一眼关掉
+///   "排版"     —— 只改原版内容的呈现方式，不加信息；各项独立，不受总开关控制
+///   "操作"     —— 鉴定与扫描交互、按键
+/// 选项语义统一为「勾选 = 使用本模组的改动」，关闭即回到原版。
+/// 面板里哪些条目随总开关或上级选项一起隐藏，见 <see cref="ConfigSectionRefresh"/> 的依赖表。
+///
+/// 2026-11 重排的迁移（见 <see cref="MigrateRegroup"/>）：
+///   排版项（文字优化、分类标签、名称标签、进度条、容量单位、公司名）不再受总开关控制
+///   info_gene_roman（默认关）→ gene_rank_arabic（默认开，取反）
+///
+/// 拆分过的项（旧值迁移到全部新键，见 <see cref="MigrateLegacyAppraisalToggle"/>）：
+///   show_item_appraisal → show_authenticity（真伪鉴定）+ show_valuation（估价计算），并移到「透视」
+///   show_authenticity 里的莓果品质与种子性状 → plant_analysis（三档下拉，见 <see cref="MigratePlantAnalysis"/>）
+/// 换了控件的项：
+///   show_container_name_bg（开关）→ container_name_bg_opacity（0–100 滑条；旧值关 → 0）
+/// 换了分组的项（键不变，值原样保留）：
+///   show_customer_alert：显示优化 → 透视
+///   2026-11 重排：「显示优化」拆成「信息补充」与「排版」，「信息增强配置」并入这两组（见类注释开头）
+///
+/// 合并过的项（旧键已废弃，读取时回落到默认；水质旧键有迁移，见 <see cref="MigrateLegacyWaterToggle"/>）：
+///   show_berry            + show_seed_traits      → show_plant
+///   show_lock_preview     + show_scratcher（现已按分级拆回独立开关，默认值不同）
+///   show_storage_ratio    + show_container_contents → show_container
+///   show_label_impact     + show_condition_impact  → show_price_impact
+///   show_value + show_perfect_range + show_ribwich_reasons
+///               + show_generic_breakdown + show_appraisal_title → show_value
+///   show_feature_reveal   + show_hidden_real       → show_hidden_truth
+///   show_water_purity     + show_water_advice      → liquid_analysis（三档下拉）
+///   show_wine                                      → show_info_enhance（果酿并入信息增强）
+///   block_progress_bar    + manufacturer_inline    → show_info_enhance
+///   show_contents_grid                              取消（图标格常开，默认即按图标显示）
+///   water_probe_prewarm    + water_localization_fix → liquid_analysis（跟随液体组分分析，不再独立成项）
+///
+/// 实现注意：
+///   - Define 的 label/tooltip 是 Func&lt;string&gt;，游戏渲染面板时才调用，所以条目文案
+///     会跟随当前语言。
+///   - **分组标题不是** Func：ModConfig.Define 把 section 直接存进 ConfigEntry.Section
+///     （纯字符串，internal set），ModConfigWindow.Open 里原样交给 AddHeader。
+///     所以标题必须允许事后重写：见 <see cref="RefreshSections"/>，由
+///     <see cref="ConfigSectionRefresh"/> 在面板每次打开前调用；注册时先给英文，
+///     打开面板时再换成当前语言。
+///   - **Init 阶段不读语言**：Init 跑在主菜单早期，任何 `LocHelper.GetCurrentLocaleCode()`
+///     都会落到 `LocalizationSettings.SelectedLocale` → `GetSelectedLocale()`，
+///     结果未就绪时会同步 `WaitForCompletion()`，等于在启动/本地化初始化途中逼一次
+///     阻塞等待。分组标题和条目文案都不需要它（一个是面板打开时重写，一个是 Func）。
+///
+/// 默认值只在 <see cref="Toggle"/> 构造时声明一次：Define 用它注册，Init 之前
+/// 或 Init 失败时也用它兜底。
+/// </summary>
+internal static class ModSettings
+{
+    // ---- 分组标题：key + 英文兜底 ----
+    // ConfigEntry.Section 是纯字符串（internal set），只能在面板打开时重写，
+    // 所以这里存键、由 RefreshSections 用 Loc.T 解析；注册时先用英文兜底。
+    private const string SecLayoutKey = "config.section.layout";
+    internal const string SecLayoutEn = "Layout";
+    private const string SecRevealKey = "config.section.reveal";
+    internal const string SecRevealEn = "Reveal";
+    private const string SecInfoKey = "config.section.info";
+    internal const string SecInfoEn = "Extra Info";
+    private const string SecInteractionKey = "config.section.interaction";
+    internal const string SecInteractionEn = "Controls";
+
+    private static ModConfig? _cfg;
+
+    /// <summary>已注册的条目与它的分组标题键/英文兜底，供 <see cref="RefreshSections"/> 重写。</summary>
+    private static readonly List<(ConfigEntry Entry, string Key, string En)> Sections = new();
+
+    // ---- 信息补充 ----
+    private static readonly Toggle CustomerHistoryToggle = new(true);    // 顾客对话历史（悬停），不受总开关控制
+    private static readonly Toggle InfoEnhanceToggle = new(true);        // 物品信息补充总开关
+    private static readonly Toggle CostPerformanceToggle = new(true);    // 每格价值 + 压缩率
+    private static readonly Toggle ContainerContentsToggle = new(true);  // 容器内容
+    // 新键避免重新读入早已废弃的细项旧值；新子项一律默认开启。
+    private static readonly Toggle PriceImpactToggle = new(true);
+    private static readonly Toggle ContrabandToggle = new(true);
+    private static readonly Toggle LotteryToggle = new(true);
+    private static readonly Toggle WineToggle = new(true);
+    private static readonly Toggle MeatToggle = new(true);
+    private static readonly Toggle MachineToggle = new(true);
+    private static readonly Toggle BatteryToggle = new(true);
+
+    // ---- 排版（不受总开关控制） ----
+    private static readonly Toggle TooltipFormattingToggle = new(true);  // 价格/描述等文字与间距优化
+    private static readonly Toggle ManufacturerToggle = new(true);       // 公司名并入名称行
+    private static readonly Toggle ProgressBarToggle = new(true);        // 彩色进度条
+    private static readonly Toggle ContainerUnitsToggle = new(true);     // 液体容量用升
+    private static readonly Toggle GeneArabicToggle = new(true);         // 基因等级用阿拉伯数字；关 = 原版罗马数字
+    private static readonly Toggle TypeBadgeToggle = new(true);          // tooltip 上方分类标签
+    private static readonly Toggle TypeBadgeMutedToggle = new(false);    // 非违禁标签淡化配色
+
+    /// <summary>2026-11 重排时移出总开关的排版项。总开关原本关着的玩家，迁移时把它们写成关，升级后显示不变。</summary>
+    private static readonly (Toggle Toggle, string Key)[] LayoutLeftMaster =
+    {
+        (TooltipFormattingToggle, "tooltip_text_formatting"),
+        (ManufacturerToggle, "info_manufacturer_inline"),
+        (ProgressBarToggle, "info_progress_bar"),
+        (ContainerUnitsToggle, "info_container_units"),
+        (TypeBadgeToggle, "show_type_badge"),
+    };
+
+    // ---- 操作优化 ----
+    private static readonly Toggle DoubleClickInspectToggle = new(true);
+    private static readonly Toggle DoubleClickScanToggle = new(false);    // 保留旧版双击扫描及旧设置
+    private static readonly Toggle ContextMenuScanToggle = new(true);   // 右键菜单添加扫描（独立开关）
+
+    // ---- 透视 ----
+    private static readonly Toggle AuthenticityToggle = new(true);       // 真伪结论 + 赝品原因
+    private static readonly Toggle ValuationToggle = new(true);          // 价值构成 + 完美区间 + 鉴定标题报价
+    private static readonly Toggle CustomerAlertToggle = new(true);      // 顾客到店提示
+    private static readonly Toggle HiddenTruthToggle = new(true);        // 揭示伪装与真实属性
+    private static readonly Toggle WaterAdviceToggle = new(true);        // 净化建议
+    private static readonly Toggle ColorLiquidToggle = new(false);       // 液体成分按种类上色
+    private static readonly Toggle ScratcherToggle = new(false);         // 刮刮乐预知
+    private static readonly Toggle SealedBoxToggle = new(false);         // 带锁容器透视
+    private static readonly Toggle ResultPrefillToggle = new(false);     // 鉴定结果预填
+
+    /// <summary>
+    /// 液体组分分析：三档，序号即 <see cref="LiquidMode"/>。默认「有扫描器时开启」，
+    /// 老配置由 <see cref="MigrateLegacyWaterToggle"/> 迁移（旧值开 → 总是开启，升级后显示不变）。
+    /// </summary>
+    private static readonly Choice LiquidChoice = new((int)LiquidMode.WithScanner,
+        new[] { "关闭 (Off)", "有扫描器时开启 (With scanner)", "总是开启 (Always)" },
+        new[]
+        {
+            Text("config.liquid_analysis.off", "Off"),
+            Text("config.liquid_analysis.scanner", "With scanner"),
+            Text("config.liquid_analysis.always", "Always"),
+        });
+
+    /// <summary>
+    /// 植物分析：三档，序号即 <see cref="PlantMode"/>。默认「有植物分析仪时开启」，
+    /// 老配置由 <see cref="MigratePlantAnalysis"/> 迁移（升级上来的玩家保持原样）。
+    /// </summary>
+    private static readonly Choice PlantChoice = new((int)PlantMode.WithAnalyser,
+        new[] { "关闭 (Off)", "有植物分析仪时开启 (With plant analyser)", "总是开启 (Always)" },
+        new[]
+        {
+            Text("config.plant_analysis.off", "Off"),
+            Text("config.plant_analysis.analyser", "With plant analyser"),
+            Text("config.plant_analysis.always", "Always"),
+        });
+
+    /// <summary>折叠成分表的展开键：序号即 <see cref="ExpandKeyMode"/>。默认 Ctrl，与加这一项之前一致。</summary>
+    private static readonly Choice ExpandKeyChoice = new((int)ExpandKeyMode.Ctrl,
+        new[] { "Ctrl", "Shift", "Alt" },
+        new[]
+        {
+            Text("config.expand_key.ctrl", "Ctrl"),
+            Text("config.expand_key.shift", "Shift"),
+            Text("config.expand_key.alt", "Alt"),
+        });
+
+    /// <summary>「鉴定结果预填」下面那项：预填哪种价格。0 = 真实估价，1 = 最优报价。</summary>
+    private static readonly Choice PrefillChoice = new(1,
+        new[] { "真实估价 (True value)", "最优报价 (Best offer)" },
+        new[]
+        {
+            Text("config.result_prefill_source.true", "True value"),
+            Text("config.result_prefill_source.best", "Best offer"),
+        });
+
+    /// <summary>物品图标名称标签：三档，序号即 <see cref="ItemNameMode"/>。默认关闭，老配置见 <see cref="MigrateItemNameDisplay"/>。</summary>
+    private static readonly Choice ItemNameChoice = new((int)ItemNameMode.Off,
+        new[] { "关闭 (Off)", "显示容器和机器名称 (Containers & machines)", "显示命名过的物品名称 (Renamed items)" },
+        new[]
+        {
+            Text("config.item_name_display.off", "Off"),
+            Text("config.item_name_display.containers", "Containers & machines"),
+            Text("config.item_name_display.renamed", "Renamed items"),
+        });
+
+    /// <summary>外显文本底色的不透明度（0–100，滑条）；0 即不加底色。</summary>
+    private static ConfigEntry<int>? _nameBgOpacity;
+    private const int DefaultNameBgOpacity = 60;
+
+    internal static void Init(string modId)
+    {
+        try
+        {
+            _cfg = ModConfig.For(modId);
+            Sections.Clear();
+            _fileValues = null;
+
+            // 面板按分组第一次出现的顺序排列，所以这里的注册顺序就是面板顺序：信息补充 → 透视 → 排版 → 操作。
+
+            // ================= 信息补充 =================
+            CustomerHistoryToggle.Define(_cfg, "show_customer_history", SecInfoKey, SecInfoEn,
+                Text("config.customer_history", "Customer Dialogue on Hover"),
+                Text("config.customer_history.tip", "Hover a customer in the store to see what was said during this " +
+                     "visit. Cleared when the next customer arrives."));
+
+            InfoEnhanceToggle.Define(_cfg, "show_info_enhance", SecInfoKey, SecInfoEn,
+                Text("config.info_enhance", "Extra Item Info"),
+                Text("config.info_enhance.tip", "Adds the item information listed below to tooltips. Off hides all " +
+                     "of it and keeps your individual choices."));
+
+            CostPerformanceToggle.Define(_cfg, "show_cost_performance", SecInfoKey, SecInfoEn,
+                Text("config.cost_performance", "Value per Cell"),
+                Text("config.cost_performance.tip", "Shows value per inventory cell and the compression ratio of containers."));
+
+            ContainerContentsToggle.Define(_cfg, "show_container_contents", SecInfoKey, SecInfoEn,
+                Text("config.container_contents", "Container Contents"),
+                Text("config.container_contents.tip", "Shows the items inside unlocked containers as icons in a panel next to the tooltip."));
+
+            PriceImpactToggle.Define(_cfg, "info_price_modifiers", SecInfoKey, SecInfoEn,
+                Text("config.info_price_modifiers", "Price Modifiers"),
+                Text("config.info_price_modifiers.tip", "Shows price modifiers from item labels, conditions and store events."));
+            ContrabandToggle.Define(_cfg, "info_black_market", SecInfoKey, SecInfoEn,
+                Text("config.info_black_market", "Black Market Markup"),
+                Text("config.info_black_market.tip", "Shows the black market markup for contraband."));
+            LotteryToggle.Define(_cfg, "info_lottery", SecInfoKey, SecInfoEn,
+                Text("config.info_lottery", "Lottery"),
+                Text("config.info_lottery.tip", "Shows drawn numbers, matches and prizes. Does not change lottery results."));
+            WineToggle.Define(_cfg, "info_brewing", SecInfoKey, SecInfoEn,
+                Text("config.info_brewing", "Brewing"),
+                Text("config.info_brewing.tip", "Shows ingredient wine values, yeast effects, wine scores, composition, fermentation and aging information."));
+            MeatToggle.Define(_cfg, "info_meat", SecInfoKey, SecInfoEn,
+                Text("config.info_meat", "Meat"),
+                Text("config.info_meat.tip", "Shows meat species and prion markers."));
+            MachineToggle.Define(_cfg, "info_machines", SecInfoKey, SecInfoEn,
+                Text("config.info_machines", "Machines"),
+                Text("config.info_machines.tip", "Shows module effects, learning progress, remaining days, water use, cooling, aging, purification yield and expected furnace output."));
+            BatteryToggle.Define(_cfg, "info_batteries", SecInfoKey, SecInfoEn,
+                Text("config.info_batteries", "Batteries"),
+                Text("config.info_batteries.tip", "Shows battery charge and days remaining, including each battery inside a charger."));
+
+            // ================= 透视 =================
+            AuthenticityToggle.Define(_cfg, "show_authenticity", SecRevealKey, SecRevealEn,
+                Text("config.authenticity", "Authenticity Check"),
+                Text("config.authenticity.tip", "Tells genuine from counterfeit, names the flaws and explains why a " +
+                     "ribwich is counterfeit."));
+
+            ValuationToggle.Define(_cfg, "show_valuation", SecRevealKey, SecRevealEn,
+                Text("config.valuation", "Appraisal Calculator"),
+                Text("config.valuation.tip", "Shows the true value breakdown and perfect price range of appraisal " +
+                     "items, and the list price and best offer in the appraisal service title."));
+
+            CustomerAlertToggle.Define(_cfg, "show_customer_alert", SecRevealKey, SecRevealEn,
+                Text("config.customer_alert", "Customer Arrival Alert"),
+                Text("config.customer_alert.tip", "When a wanted or augmented customer arrives, shows a notice with the " +
+                     "actual bounty, real name, and an augmented customer's kill reward and threat level."));
+
+            HiddenTruthToggle.Define(_cfg, "show_hidden_truth", SecRevealKey, SecRevealEn,
+                Text("config.hidden_truth", "Reveal Disguises & True Stats"),
+                Text("config.hidden_truth.tip", "Shows what disguised features really are, true durability, and true " +
+                     "ingot/chemical purity. Exposes fakes directly and makes appraisal much easier."));
+
+            // 两项「分析」并排放在一起：植物分析在上，液体组分分析在下，都是三档
+            PlantChoice.Define(_cfg, "plant_analysis", SecRevealEn,
+                Text("config.plant_analysis", "Plant Analysis"),
+                Text("config.plant_analysis.tip", "Shows bloomberry quality and the traits of unanalyzed seeds. " +
+                     "\"With plant analyser\" shows seed traits only while you own a plant analyser; berry quality " +
+                     "shows in both modes."));
+
+            LiquidChoice.Define(_cfg, "liquid_analysis", SecRevealEn,
+                Text("config.liquid_analysis", "Liquid Composition Analysis"),
+                Text("config.liquid_analysis.tip", "Shows water purity and impurities, and the composition and effects " +
+                     "of drugs and chemicals. \"With scanner\" only shows it while you own a water or chemical scanner."));
+
+            // 依附于液体组分分析，紧跟在它下面
+            ColorLiquidToggle.Define(_cfg, "color_liquid_components", SecRevealKey, SecRevealEn,
+                Text("config.color_liquid_components", "Color Impurities by Type"),
+                Text("config.color_liquid_components.tip", "Gives each kind of impurity in the composition table its " +
+                     "own color: chemical contaminants, organic waste, microbes, minerals, heavy metals and physical " +
+                     "contaminants. Off, they are all white."));
+
+            WaterAdviceToggle.Define(_cfg, "water_advice", SecRevealKey, SecRevealEn,
+                Text("config.water_advice", "Purification Advice"),
+                Text("config.water_advice.tip", "On a water container, lists how much each purification method " +
+                     "(filters, machines) would raise its purity. If Liquid Composition Analysis is set to \"With scanner\", " +
+                     "this also needs a scanner."));
+
+            ScratcherToggle.Define(_cfg, "show_scratcher", SecRevealKey, SecRevealEn,
+                Text("config.scratcher", "Scratcher Preview"),
+                Text("config.scratcher.tip", "Shows whether a scratcher ticket wins, how much, and how far it has been " +
+                     "scratched, before you scratch it. Read-only: it reuses the game's own rules and never scratches for you."));
+
+            SealedBoxToggle.Define(_cfg, "show_sealed_box", SecRevealKey, SecRevealEn,
+                Text("config.sealed_box", "Locked Container X-Ray"),
+                Text("config.sealed_box.tip", "Lists the contents and total value of locked containers (safes, gun " +
+                     "cabinets) before they are unlocked. This skips the unlocking step."));
+
+            ResultPrefillToggle.Define(_cfg, "show_result_prefill", SecRevealKey, SecRevealEn,
+                Text("config.result_prefill", "Prefill Inspection Result"),
+                Text("config.result_prefill.tip", "When the inspection panel opens, ticks the actual counterfeit issues " +
+                     "and fills the appraisal price with the true value or the best offer, as chosen below. It only " +
+                     "fills in the controls and never submits or confirms."));
+
+            PrefillChoice.Define(_cfg, "result_prefill_price", SecRevealEn,
+                Text("config.result_prefill_source", "Prefilled Price"),
+                Text("config.result_prefill_source.tip",
+                     "True value fills the item's real value; best offer fills the top of the perfect range, " +
+                     "the highest price shown in the tooltip."));
+
+            // ================= 排版（只改呈现，不受总开关控制） =================
+            TooltipFormattingToggle.Define(_cfg, "tooltip_text_formatting", SecLayoutKey, SecLayoutEn,
+                Text("config.tooltip_formatting", "Tooltip Text Formatting"),
+                Text("config.tooltip_formatting.tip", "Clearer price labels, wrapped descriptions, " +
+                     "calorie annotations and price-block spacing. " +
+                     "Disable to preserve the vanilla text layout."));
+
+            ManufacturerToggle.Define(_cfg, "info_manufacturer_inline", SecLayoutKey, SecLayoutEn,
+                Text("config.info_manufacturer_inline", "Company Name on Title Line"),
+                Text("config.info_manufacturer_inline.tip", "Moves the company name to the right of the item name."));
+
+            ProgressBarToggle.Define(_cfg, "info_progress_bar", SecLayoutKey, SecLayoutEn,
+                Text("config.info_progress_bar", "Colored Progress Bars"),
+                Text("config.info_progress_bar.tip", "Replaces text progress bars with colored blocks. Disable to keep the original style."));
+
+            ContainerUnitsToggle.Define(_cfg, "info_container_units", SecLayoutKey, SecLayoutEn,
+                Text("config.info_container_units", "Liquid Unit Optimization"),
+                Text("config.info_container_units.tip", "Capacity above 3 L is shown in liters (3 L or below keeps mL). Component amounts always use mL with significant digits, and trace percentages keep 3 significant digits."));
+
+            GeneArabicToggle.Define(_cfg, "gene_rank_arabic", SecLayoutKey, SecLayoutEn,
+                Text("config.gene_rank_arabic", "Arabic Numeral Gene Ranks"),
+                Text("config.gene_rank_arabic.tip", "Shows seed trait ranks as Arabic digits (1, 2, 3...). " +
+                     "Off restores the game's Roman numerals (I, II, III...)."));
+
+            TypeBadgeToggle.Define(_cfg, "show_type_badge", SecLayoutKey, SecLayoutEn,
+                Text("config.type_badge", "Item Type Badges"),
+                Text("config.type_badge.tip", "Shows the item's categories above the tooltip."));
+
+            TypeBadgeMutedToggle.Define(_cfg, "mute_type_badge_colors", SecLayoutKey, SecLayoutEn,
+                Text("config.type_badge_muted", "Muted Badge Colors"),
+                Text("config.type_badge_muted.tip", "Non-contraband badges use the tooltip's dark background and a " +
+                     "brightened category color. Contraband keeps its red warning text."));
+
+            ItemNameChoice.Define(_cfg, "item_name_display", SecLayoutEn,
+                Text("config.item_name_display", "Item Name Labels"),
+                Text("config.item_name_display.tip", "Shows a name at the bottom of item icons. \"Containers & " +
+                     "machines\" labels every container and machine, using its custom name if it has one. " +
+                     "\"Renamed items\" labels only items that have been given a custom name."));
+
+            // 有范围的 int 条目，面板渲染成整数滑条。
+            _nameBgOpacity = _cfg.Define("container_name_bg_opacity", DefaultNameBgOpacity, SecLayoutEn,
+                Text("config.container_name_bg", "Label Background"), 0, 100,
+                Text("config.container_name_bg.tip", "Opacity of the black background behind the label (0–100%). " +
+                     "At 0 there is no background."));
+
+            // ================= 操作 =================
+            DoubleClickInspectToggle.Define(_cfg, "double_click_inspect", SecInteractionKey, SecInteractionEn,
+                Text("config.double_click_inspect", "Double-Click to Inspect"),
+                Text("config.double_click_inspect.tip", "Double-click an appraisal item or an authenticity-check item " +
+                     "(injectors, cigarettes, food stamps, etc.) to open the inspection panel without the magnifying " +
+                     "glass. While the panel is open, double-click another item to switch to it."));
+
+            // 恢复原键名：以前关闭过双击扫描的玩家仍保持关闭；右键扫描是独立选项。
+            DoubleClickScanToggle.Define(_cfg, "double_click_scan", SecInteractionKey, SecInteractionEn,
+                Text("config.double_click_scan", "Double-Click to Scan"),
+                Text("config.double_click_scan.tip", "With the matching scanner owned, double-click liquids, " +
+                     "chemicals, seeds or locked supply crates to open their scan results. Items that already open " +
+                     "or activate on double-click keep the vanilla action, as does everything without a matching scanner."));
+
+            ContextMenuScanToggle.Define(_cfg, "context_menu_scan", SecInteractionKey, SecInteractionEn,
+                Text("config.context_menu_scan", "Add Scan to Context Menu"),
+                Text("config.context_menu_scan.tip", "While you own the matching device, the item's right-click menu " +
+                     "gains a Scan entry that opens its scan panel: water or chem scanner for liquids and chemicals, " +
+                     "X-ray scanner for locked supply crates, plant analyser for seeds."));
+
+            ExpandKeyChoice.Define(_cfg, "expand_key", SecInteractionEn,
+                Text("config.expand_key", "Expand Key"),
+                Text("config.expand_key.tip", "Hold this key to show the inactive components folded away in crop " +
+                     "composition tables."));
+
+            MigrateLegacyAppraisalToggle();
+            MigratePlantAnalysis();
+            MigrateLegacyNameBgToggle();
+            MigrateLegacyWaterToggle();
+            MigrateWaterAdviceDefault();
+            MigrateRegroup();
+            MigrateItemNameDisplay();
+
+            _cfg.Save();
+
+            // 漏网的条目也要登记：`_cfg.Define` 直接注册的下拉框没有经过
+            // Toggle.Define，如果只重写登记过的那批，它们的 Section 会一直是英文，
+            // 于是面板里会多出一个独立的英文分组头（和中文标题并列）。
+            // 注册顺序保证了这里读到的一定是注册时的英文名，所以能按英文名反查键。
+            RegisterUntrackedSections();
+
+            // 这里**不读语言**：Init 跑在主菜单早期，而 LocHelper.GetCurrentLocaleCode()
+            // 最终是 LocalizationSettings.SelectedLocale → GetSelectedLocale()，在选择结果
+            // 未就绪时会同步 WaitForCompletion()。模组 Init 正处于启动/本地化初始化途中，
+            // 为了一行日志去逼一次同步等待不值得（多人装模组时表现为语言卡在英文、
+            // 启动链上的后续步骤被拖死）。语言在这里也没有用处：分组标题由
+            // RefreshSections 在面板打开时按当前语言重写，标签/说明本来就是 Func<string>。
+            Log.Msg($"ModSettings initialized: {_cfg.Entries.Count} entries " +
+                    $"({Sections.Count} sections); 语言在打开设置面板时再判定");
+        }
+        catch (Exception ex)
+        {
+            Log.Error("ModSettings.Init", ex);
+        }
+    }
+
+    /// <summary>首次重写时记一次语言判定结果：这是本模组第一次、也是唯一一次主动读 locale。</summary>
+    private static bool _localeLogged;
+
+    /// <summary>
+    /// 旧版用来控制水质面板的布尔键，按"新 → 旧"顺序尝试。0.7.x 是 <c>show_water_purity</c>；
+    /// <c>show_water_advice</c> 见于更早的合并记录，这里一并兼容。
+    /// </summary>
+    private static readonly string[] LegacyWaterKeys = { "show_water_purity", "show_water_advice" };
+
+    /// <summary>
+    /// 把旧版布尔「水质检测」迁移到新版三档 <c>liquid_analysis</c>：
+    ///   · 旧值开 → 总是开启（Always）：旧版没有扫描器前置，迁成「有扫描器时」会让升级上来的玩家
+    ///     突然看不到水质，已被当成 bug 报过
+    ///   · 旧值关 → 关闭（Off）
+    ///
+    /// 只在文件里还没有 <c>liquid_analysis</c> 时迁移。最后一个公开版本 0.7.1 只写
+    /// <c>show_water_purity</c>，三档是它之后才加的，所以从公开版升级上来的玩家一定没有新键；
+    /// 已经有新键的说明跑过带三档的构建或手改过文件，那就是玩家当前的选择，旧键不再插手。
+    ///
+    /// 迁移后不需要额外标记：`Init` 末尾的 `_cfg.Save()` 会把新键写进文件，下次启动就不再满足条件。
+    /// 旧键不删——`ModConfig.Save()` 会保留未注册条目，退回旧版本时原值还在。
+    ///
+    /// 读旧键只能走 <see cref="ModConfig"/> 的私有 <c>rawValues</c>：公开 API 只按已注册的键取值，
+    /// 对旧键 <c>Get(key)</c> 返回 null；改读配置文件则要 <c>files</c> 能力，不值得。
+    /// 取不到字段就当没配过，不猜。
+    /// </summary>
+    private static void MigrateLegacyWaterToggle()
+    {
+        if (_cfg == null || !LiquidChoice.Defined) return;
+        try
+        {
+            var raw = RawValues();
+            if (raw == null) return;
+
+            if (raw.ContainsKey("liquid_analysis")) return;   // 已有新键：玩家当前的选择优先
+
+            foreach (string key in LegacyWaterKeys)
+            {
+                if (!raw.TryGetValue(key, out string? stored)) continue;
+                if (!bool.TryParse(stored, out bool on))
+                {
+                    Log.Warn("ModSettings.Migrate", $"旧设置 {key}='{stored}' 不是布尔值，保留新默认");
+                    return;
+                }
+
+                LiquidChoice.Select((int)(on ? LiquidMode.Always : LiquidMode.Off));
+                Log.Msg($"ModSettings: 旧设置 {key}={stored} → liquid_analysis={LiquidAnalysis}");
+                return;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModSettings.Migrate", ex);
+        }
+    }
+
+    /// <summary>
+    /// 「净化建议」是后加的开关，默认值跟随「液体组分分析」：配置里还没有 <c>water_advice</c> 时，
+    /// 分析为关闭的玩家升级后建议也保持关闭，不会突然多出一块显示；其余档位默认开。
+    /// 文件里已有该键就是玩家自己的选择，不再插手。必须在水质旧键迁移之后执行。
+    /// </summary>
+    private static void MigrateWaterAdviceDefault()
+    {
+        if (_cfg == null) return;
+        try
+        {
+            var raw = RawValues();
+            if (raw == null || raw.ContainsKey("water_advice")) return;
+            WaterAdviceToggle.Set(LiquidAnalysis != LiquidMode.Off);
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModSettings.MigrateAdvice", ex);
+        }
+    }
+
+    /// <summary>
+    /// 把旧版「物品鉴定」（<c>show_item_appraisal</c>）的取值带给拆出来的两个开关：
+    /// 旧值关，真伪鉴定与估价计算都关；旧值开（或没配过）就保持新默认（都开）。
+    ///
+    /// 每个新键单独判断：文件里已经有某个新键，说明玩家在新版里设过它，不再覆盖。
+    /// 旧键不删，理由同 <see cref="MigrateLegacyWaterToggle"/>。
+    /// </summary>
+    private static void MigrateLegacyAppraisalToggle()
+    {
+        if (_cfg == null) return;
+        try
+        {
+            var raw = RawValues();
+            if (raw == null || !raw.TryGetValue("show_item_appraisal", out string? stored)) return;
+            if (!bool.TryParse(stored, out bool on))
+            {
+                Log.Warn("ModSettings.Migrate", $"旧设置 show_item_appraisal='{stored}' 不是布尔值，保留新默认");
+                return;
+            }
+
+            foreach (var (toggle, key) in new[] { (AuthenticityToggle, "show_authenticity"), (ValuationToggle, "show_valuation") })
+            {
+                if (raw.ContainsKey(key)) continue;
+                toggle.Set(on);
+                Log.Msg($"ModSettings: 旧设置 show_item_appraisal={stored} → {key}={on}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModSettings.Migrate", ex);
+        }
+    }
+
+    /// <summary>
+    /// 莓果品质与未分析种子性状原先挂在「真伪鉴定」下，现拆成三档 <c>plant_analysis</c>：
+    /// 文件里还没有新键、但已经有别的键（从旧版升上来的玩家）时，<c>show_authenticity</c> 为关 → 关闭，
+    /// 为开 → 总是开启，升级后显示不变——新默认「有植物分析仪时开启」只给全新安装的玩家。
+    /// 全新装（文件里一个键都没有）不迁移，走新默认。
+    /// 必须在 <see cref="MigrateLegacyAppraisalToggle"/> 之后执行：更老的配置只有 <c>show_item_appraisal</c>，
+    /// 真伪鉴定的取值要先从它迁过来。旧键不删，理由同 <see cref="MigrateLegacyWaterToggle"/>。
+    /// </summary>
+    private static void MigratePlantAnalysis()
+    {
+        if (_cfg == null || !PlantChoice.Defined) return;
+        try
+        {
+            var raw = RawValues();
+            if (raw == null || raw.ContainsKey("plant_analysis") || raw.Count == 0) return;
+
+            PlantChoice.Select((int)(AuthenticityToggle.Value ? PlantMode.Always : PlantMode.Off));
+            Log.Msg($"ModSettings: 旧配置 → plant_analysis={PlantAnalysis}");
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModSettings.Migrate", ex);
+        }
+    }
+
+    /// <summary>
+    /// 旧版布尔「名称标签底色」（<c>show_container_name_bg</c>）→ 不透明度滑条：
+    /// 旧值关 → 0（不加底色）；旧值开就保持新默认 60%，与旧版固定的不透明度一致。
+    /// 文件里已有新键时不覆盖；旧键不删，理由同 <see cref="MigrateLegacyWaterToggle"/>。
+    /// </summary>
+    private static void MigrateLegacyNameBgToggle()
+    {
+        if (_cfg == null || _nameBgOpacity == null) return;
+        try
+        {
+            var raw = RawValues();
+            if (raw == null || raw.ContainsKey("container_name_bg_opacity")) return;
+            if (!raw.TryGetValue("show_container_name_bg", out string? stored)) return;
+            if (!bool.TryParse(stored, out bool on))
+            {
+                Log.Warn("ModSettings.Migrate", $"旧设置 show_container_name_bg='{stored}' 不是布尔值，保留新默认");
+                return;
+            }
+            if (on) return;
+
+            _nameBgOpacity.Set(0);
+            Log.Msg($"ModSettings: 旧设置 show_container_name_bg={stored} → container_name_bg_opacity=0");
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModSettings.Migrate", ex);
+        }
+    }
+
+    /// <summary>
+    /// 2026-11 设置重排：排版项移出「物品信息补充」总开关，基因等级开关反过来写。
+    /// 以文件里有没有 <c>gene_rank_arabic</c> 判断是否已迁过，不另设标记键：
+    ///   · 基因等级：旧版实际显示罗马数字 ⇔ 总开关开且 <c>info_gene_roman</c> 开；新值取反，显示保持不变；
+    ///   · 总开关原本关着：移出的排版项旧版实际不生效，这里写成关，升级后不会突然多出排版改动。
+    ///     总开关开着的玩家各项保持原值。
+    /// 旧键不删，理由同 <see cref="MigrateLegacyWaterToggle"/>。全新配置也走这里，结果等于默认值。
+    /// </summary>
+    private static void MigrateRegroup()
+    {
+        if (_cfg == null) return;
+        try
+        {
+            var raw = RawValues();
+            if (raw == null || raw.ContainsKey("gene_rank_arabic")) return;
+
+            bool masterOn = !(raw.TryGetValue("show_info_enhance", out string? m) && bool.TryParse(m, out bool mv) && !mv);
+            bool roman = raw.TryGetValue("info_gene_roman", out string? r) && bool.TryParse(r, out bool rv) && rv;
+            GeneArabicToggle.Set(!(masterOn && roman));
+            if (masterOn) return;
+
+            foreach (var (toggle, key) in LayoutLeftMaster)
+            {
+                if (!toggle.Value) continue;
+                toggle.Set(false);
+                Log.Msg($"ModSettings: 旧设置 show_info_enhance=false → {key}=false（排版项移出总开关）");
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModSettings.MigrateRegroup", ex);
+        }
+    }
+
+    /// <summary>
+    /// 布尔「容器和机器名称标签」（<c>show_container_name_display</c>）→ 三档 <c>item_name_display</c>。
+    /// 文件里还没有新键时迁移：旧版实际生效（开关开且总开关开）→「显示容器和机器名称」，否则关闭。
+    /// 用总开关是因为旧版里名称标签受它控制；新键已存在就是玩家的选择，不再插手。旧键不删。
+    /// </summary>
+    private static void MigrateItemNameDisplay()
+    {
+        if (_cfg == null || !ItemNameChoice.Defined) return;
+        try
+        {
+            var raw = RawValues();
+            if (raw == null || raw.ContainsKey("item_name_display")) return;
+            if (!raw.TryGetValue("show_container_name_display", out string? stored) || !bool.TryParse(stored, out bool on)) return;
+
+            // 已跑过 2026-11 重排的配置里，名称标签已经不受总开关控制，旧值本身就是实际效果。
+            bool masterOn = raw.ContainsKey("gene_rank_arabic")
+                || !(raw.TryGetValue("show_info_enhance", out string? m) && bool.TryParse(m, out bool mv) && !mv);
+            var mode = on && masterOn ? ItemNameMode.Containers : ItemNameMode.Off;
+            ItemNameChoice.Select((int)mode);
+            Log.Msg($"ModSettings: 旧设置 show_container_name_display={stored} → item_name_display={mode}");
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ModSettings.MigrateItemName", ex);
+        }
+    }
+
+    /// <summary>迁移开始前配置文件内容的副本，见 <see cref="RawValues"/>。每次 Init 重新取。</summary>
+    private static Dictionary<string, string>? _fileValues;
+
+    /// <summary>
+    /// 配置文件里的原始键值（含未注册的旧键）。公开 API 只按已注册的键取值，
+    /// 读旧键只能走 <see cref="ModConfig"/> 的私有 <c>rawValues</c>；取不到就当没配过，不猜。
+    ///
+    /// 返回第一次读取时的副本：<c>ConfigEntry.Set</c> 改了值会立刻 <c>Save</c>，而 <c>Save</c> 把全部已注册键
+    /// 写进 <c>rawValues</c>。直接读活字典的话，前一个迁移一改值，后面的迁移就会以为新键早已在文件里。
+    /// </summary>
+    private static Dictionary<string, string>? RawValues()
+    {
+        if (_fileValues != null) return _fileValues;
+        if (PortReflection.Field(typeof(ModConfig), "rawValues")?.GetValue(_cfg) is Dictionary<string, string> raw)
+            return _fileValues = new Dictionary<string, string>(raw);
+        Log.Warn("ModSettings.Migrate", "读不到 ModConfig.rawValues，旧设置不迁移");
+        return null;
+    }
+
+    /// <summary>
+    /// 英文分组名 → 本地化键。用于把「注册时写下的英文分组名」反查回键，
+    /// 这样不管是 Toggle.Define 还是直接 _cfg.Define 注册的条目都能被重写。
+    /// </summary>
+    private static readonly (string En, string Key)[] SectionMap =
+    {
+        (SecLayoutEn, SecLayoutKey),
+        (SecRevealEn, SecRevealKey),
+        (SecInfoEn, SecInfoKey),
+        (SecInteractionEn, SecInteractionKey),
+    };
+
+    /// <summary>
+    /// 把没经过 <see cref="Toggle.Define"/> 的条目补进 <see cref="Sections"/>。
+    /// 必须在所有 Define 调用之后、且在任何重写之前执行：那时 Section 还是注册时的英文名。
+    ///
+    /// 同时兼容「注册时误把键当分组名传进来」的写法（历史上真发生过：
+    /// 直接 Define 的四个下拉框把 `config.section.interaction` 当 section 传了，
+    /// 面板里因此多出一个写着原始键名的英文分组头）。
+    /// </summary>
+    private static void RegisterUntrackedSections()
+    {
+        if (_cfg == null) return;
+        foreach (var entry in _cfg.Entries)
+        {
+            if (Sections.Exists(s => ReferenceEquals(s.Entry, entry))) continue;
+            foreach (var (en, key) in SectionMap)
+            {
+                if (entry.Section != en && entry.Section != key) continue;
+                Sections.Add((entry, key, en));
+                break;
+            }
+        }
+    }
+
+    /// <summary>
+    /// 按当前语言重写分组标题。ConfigEntry.Section 的 setter 是 internal，
+    /// 公开 API 无法修改，只能走反射；失败时保持原值，不影响面板打开。
+    /// 由 <see cref="ConfigSectionRefresh"/> 在每次打开设置面板前调用。
+    /// </summary>
+    internal static void RefreshSections()
+    {
+        if (Sections.Count == 0) return;
+
+        if (!_localeLogged)
+        {
+            _localeLogged = true;
+            try
+            {
+                Log.Msg($"settings opened: locale='{Loc.Code}' zh={Loc.IsChinese} " +
+                        $"section='{Sections[0].Entry.Section}'");
+            }
+            catch { }
+        }
+
+        MethodInfo? setter = null;
+        foreach (var (entry, key, en) in Sections)
+        {
+            try
+            {
+                string desired = Loc.T(key, en);
+                if (entry.Section == desired) continue;
+
+                setter ??= PortReflection.PropertySetter(typeof(ConfigEntry), "Section");
+                if (setter == null)
+                {
+                    Log.Warn("ModSettings.Section", "ConfigEntry.Section 没有可用的 setter，分组标题保持启动时的语言");
+                    return;
+                }
+
+                setter.Invoke(entry, new object[] { desired });
+            }
+            catch (Exception ex)
+            {
+                Log.Warn("ModSettings.Section", ex);
+                return;
+            }
+        }
+    }
+
+    /// <summary>标签/说明延迟到面板渲染时求值，可随语言切换。</summary>
+    private static Func<string> Text(string key, string en) => () => Loc.T(key, en);
+
+    internal static bool Auth => AuthenticityToggle.Value;
+    internal static bool Value => ValuationToggle.Value;
+    internal static bool InfoEnhance => InfoEnhanceToggle.Value;
+    internal static bool ValueEnhance => InfoEnhance && CostPerformanceToggle.Value;
+    internal static bool Container => InfoEnhance && ContainerContentsToggle.Value;
+    internal static bool ContentsGrid => Container || SealedBox;
+    // 排版项不受总开关控制
+    internal static bool TooltipFormatting => TooltipFormattingToggle.Value;
+    internal static bool ContainerUnits => ContainerUnitsToggle.Value;
+    internal static bool GeneRankArabic => GeneArabicToggle.Value;
+
+    internal static bool Machines => InfoEnhance && MachineToggle.Value;
+    internal static bool ModuleEffects => Machines;
+    internal static bool MachineBattery => InfoEnhance && BatteryToggle.Value;
+    internal static bool PriceImpact => InfoEnhance && PriceImpactToggle.Value;
+    internal static bool Contraband => InfoEnhance && ContrabandToggle.Value;
+    internal static bool Lottery => InfoEnhance && LotteryToggle.Value;
+    internal static bool Meat => InfoEnhance && MeatToggle.Value;
+    internal static bool HideEstimate => TooltipFormatting;
+    internal static bool DimDescription => TooltipFormatting;
+    internal static bool CustomerAlert => CustomerAlertToggle.Value;
+    internal static bool CustomerHistory => CustomerHistoryToggle.Value;
+    internal static bool HiddenTruth => HiddenTruthToggle.Value;
+    internal static bool Wine => InfoEnhance && WineToggle.Value;
+    internal static bool Scratcher => ScratcherToggle.Value;
+    internal static bool ColorLiquidComponents => ColorLiquidToggle.Value;
+    internal static bool WaterAdvice => WaterAdviceToggle.Value;
+    internal static bool SealedBox => SealedBoxToggle.Value;
+    internal static bool ResultPrefill => ResultPrefillToggle.Value;
+
+    /// <summary>是否还有任何玩家功能生效；全部关闭时渲染器与后台能力按未启用处理。</summary>
+    internal static bool AnyEnabled => InfoEnhance || CustomerHistory || DoubleClickInspect || DoubleClickScan
+        || ContextMenuScan || AuthenticityToggle.Value || ValuationToggle.Value || CustomerAlert
+        || HiddenTruth || Scratcher || SealedBox || ResultPrefill || WaterAdviceToggle.Value || LiquidChoice.Index != (int)LiquidMode.Off
+        || PlantChoice.Index != (int)PlantMode.Off
+        || TooltipFormatting || ContainerUnits || GeneRankArabic || TypeBadge || BlockProgressBar
+        || ManufacturerInline || ItemNames != ItemNameMode.Off;
+
+    /// <summary>液体组分分析的三档。显示与否还要过 <see cref="LiquidGate"/>（“有扫描器”要查拥有关系）。</summary>
+    internal enum LiquidMode
+    {
+        Off,
+        WithScanner,
+        Always,
+    }
+
+    internal static LiquidMode LiquidAnalysis => (LiquidMode)LiquidChoice.Index;
+
+    /// <summary>自检用：当前选项列表里对应档位的那串文字（面板打开过时是当前语言的）。</summary>
+    internal static string LiquidChoiceValue(LiquidMode mode) => LiquidChoice.ValueAt((int)mode);
+
+    /// <summary>植物分析的三档。显示与否还要过 <see cref="PlantGate"/>（“有植物分析仪”要查拥有关系）。</summary>
+    internal enum PlantMode
+    {
+        Off,
+        WithAnalyser,
+        Always,
+    }
+
+    internal static PlantMode PlantAnalysis => (PlantMode)PlantChoice.Index;
+
+    /// <summary>自检用：当前选项列表里对应档位的那串文字。</summary>
+    internal static string PlantChoiceValue(PlantMode mode) => PlantChoice.ValueAt((int)mode);
+
+    /// <summary>展开键：左右两侧的键都认。</summary>
+    internal enum ExpandKeyMode
+    {
+        Ctrl,
+        Shift,
+        Alt,
+    }
+
+    internal static ExpandKeyMode ExpandKey => (ExpandKeyMode)ExpandKeyChoice.Index;
+
+    /// <summary>当前展开键在当前语言下的名称（德语 Strg 等），供提示行使用。</summary>
+    internal static string ExpandKeyName => ExpandKeyChoice.LabelAt((int)ExpandKey);
+
+    /// <summary>预填价格用「最优报价」；为 false 时用真实估价。</summary>
+    internal static bool PrefillBestOffer => PrefillChoice.Index == 1;
+
+    /// <summary>设置面板打开前：下拉框选项换成当前语言。由 <see cref="ConfigSectionRefresh"/> 调用。</summary>
+    internal static void LocalizeChoices()
+    {
+        LiquidChoice.Localize();
+        PlantChoice.Localize();
+        ExpandKeyChoice.Localize();
+        PrefillChoice.Localize();
+        ItemNameChoice.Localize();
+    }
+
+    /// <summary>本模组配置写盘前：选项换回固定文字，配置文件里只出现这一套。</summary>
+    internal static void RestoreChoices(ModConfig config)
+    {
+        if (!ReferenceEquals(config, _cfg)) return;
+        LiquidChoice.Restore();
+        PlantChoice.Restore();
+        ExpandKeyChoice.Restore();
+        PrefillChoice.Restore();
+        ItemNameChoice.Restore();
+    }
+
+    internal static bool DoubleClickInspect => DoubleClickInspectToggle.Value;
+    internal static bool DoubleClickScan => DoubleClickScanToggle.Value;
+    internal static bool ContextMenuScan => ContextMenuScanToggle.Value;
+    internal static bool TypeBadge => TypeBadgeToggle.Value;
+    internal static bool TypeBadgeMuted => TypeBadgeMutedToggle.Value;
+    internal static bool BlockProgressBar => ProgressBarToggle.Value;
+    internal static bool ManufacturerInline => ManufacturerToggle.Value;
+    /// <summary>物品图标名称标签的三档，序号即 <see cref="ItemNameChoice"/> 的选项序号。</summary>
+    internal enum ItemNameMode
+    {
+        Off,
+        Containers,
+        Renamed,
+    }
+
+    internal static ItemNameMode ItemNames => (ItemNameMode)ItemNameChoice.Index;
+
+    /// <summary>自检与测试用：当前选项列表里对应档位的那串文字。</summary>
+    internal static string ItemNameChoiceValue(ItemNameMode mode) => ItemNameChoice.ValueAt((int)mode);
+    internal static bool ItemNameBackground => NameBgOpacity > 0;
+    internal static float ItemNameBackgroundAlpha => NameBgOpacity / 100f;
+    private static int NameBgOpacity => Math.Max(0, Math.Min(100, _nameBgOpacity?.Value ?? DefaultNameBgOpacity));
+
+    /// <summary>
+    /// 单个开关：默认值只声明一次，Define 用它注册，Init 之前或失败时也用它兜底。
+    /// 同时把条目记进 <see cref="Sections"/>，供分组标题事后重写。
+    /// </summary>
+    private sealed class Toggle
+    {
+        private readonly bool _default;
+        private ConfigEntry<bool>? _entry;
+
+        internal Toggle(bool defaultValue) => _default = defaultValue;
+
+        internal void Define(ModConfig cfg, string key, string sectionKey, string sectionEn,
+            Func<string> label, Func<string> tip)
+        {
+            // 注册时一律用英文分组名，不在这里读语言（见 Init 里关于 Init 阶段不碰本地化的说明）。
+            // 玩家能看到的标题由 RefreshSections 在面板打开前重写成当前语言。
+            _entry = cfg.Define(key, _default, sectionEn, label, tip);
+            Sections.Add((_entry, sectionKey, sectionEn));
+        }
+
+        internal bool Value => _entry?.Value ?? _default;
+
+        /// <summary>迁移旧设置用。值变了 ConfigEntry.Set 会立即保存，所以迁移读旧值要走 <see cref="RawValues"/> 的副本。</summary>
+        internal void Set(bool value) => _entry?.Set(value);
+    }
+
+    /// <summary>
+    /// 下拉框。ModConfig 不翻译选项，存进配置文件的就是选项文字本身，而且写入时只认当前选项列表
+    /// （不在列表里的值会被重置成默认值）。所以：
+    ///   · 注册时用固定的中英并列文字，历史配置文件里存的都是这几串；
+    ///   · 面板打开前把选项和当前值一起换成当前语言（<see cref="Localize"/>），
+    ///     写盘前再一起换回固定文字（<see cref="Restore"/>）；
+    ///   · 读值一律按序号，哪套文字在用都一样。面板控件也是按序号读写的，换回之后照常工作。
+    /// Choices 和 ApplyBoxed 是 internal，只能反射；目标都是游戏自己的类型，不需要声明能力。
+    /// </summary>
+    private sealed class Choice
+    {
+        private static MethodInfo? _choicesSetter;
+        private static MethodInfo? _apply;
+
+        private readonly int _default;
+        private readonly string[] _canonical;
+        private readonly Func<string>[] _labels;
+        private ConfigEntry<string>? _entry;
+
+        internal Choice(int defaultIndex, string[] canonical, Func<string>[] labels)
+        {
+            _default = defaultIndex;
+            _canonical = canonical;
+            _labels = labels;
+        }
+
+        internal bool Defined => _entry != null;
+
+        internal void Define(ModConfig cfg, string key, string sectionEn, Func<string> label, Func<string> tip)
+            => _entry = cfg.Define(key, _canonical[_default], sectionEn, label, _canonical, tip);
+
+        internal int Index
+        {
+            get
+            {
+                var entry = _entry;
+                if (entry == null) return _default;
+                string value = entry.Value;
+                int i = entry.Choices != null ? Array.IndexOf(entry.Choices, value) : -1;
+                if (i < 0) i = Array.IndexOf(_canonical, value);
+                return i >= 0 && i < _canonical.Length ? i : _default;
+            }
+        }
+
+        internal string ValueAt(int index)
+        {
+            var choices = _entry?.Choices;
+            return choices != null && index >= 0 && index < choices.Length ? choices[index] : _canonical[index];
+        }
+
+        /// <summary>迁移旧设置用：按序号选中，Set 会顺带保存。</summary>
+        internal void Select(int index) => _entry?.Set(ValueAt(index));
+
+        /// <summary>该档位在当前语言下的显示名（不依赖面板是否打开过）。</summary>
+        internal string LabelAt(int index) => _labels[index]();
+
+        internal void Localize()
+        {
+            var shown = new string[_labels.Length];
+            for (int i = 0; i < shown.Length; i++)
+            {
+                string text = "";
+                try { text = _labels[i](); } catch { }
+                shown[i] = string.IsNullOrWhiteSpace(text) ? _canonical[i] : text;
+            }
+            // 译文撞车时下拉框无法区分，干脆保持固定文字
+            if (new HashSet<string>(shown, StringComparer.Ordinal).Count != shown.Length) return;
+            Swap(shown);
+        }
+
+        internal void Restore() => Swap(_canonical);
+
+        /// <summary>先换列表再写值：写值时按新列表校验。</summary>
+        private void Swap(string[] choices)
+        {
+            var entry = _entry;
+            if (entry == null || entry.Choices == choices) return;
+            try
+            {
+                int index = Index;
+                _choicesSetter ??= PortReflection.PropertySetter(typeof(ConfigEntry), "Choices");
+                _apply ??= PortReflection.Method(typeof(ConfigEntry), "ApplyBoxed");
+                if (_choicesSetter == null || _apply == null)
+                {
+                    Log.Warn("ModSettings.Choice", "ConfigEntry.Choices/ApplyBoxed 不可用，下拉框保持固定文字");
+                    return;
+                }
+                _choicesSetter.Invoke(entry, new object[] { choices });
+                _apply.Invoke(entry, new object[] { choices[index] });
+            }
+            catch (Exception ex)
+            {
+                Log.Warn("ModSettings.Choice", ex);
+            }
+        }
+    }
+}
+
+}

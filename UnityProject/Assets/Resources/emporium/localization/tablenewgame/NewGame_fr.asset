@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NewGame_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 04b1c9f333b54694fb416b49dfb741fd, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1489972805632
+    m_Localized: Initiation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1550517583872
+    m_Localized: Recyclage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1562228080640
+    m_Localized: Eau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1579307286528
+    m_Localized: Recel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593098158080
+    m_Localized: Hydroponie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636114939904
+    m_Localized: Chimie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694201856000
+    m_Localized: Trafic d'organes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713894113280
+    m_Localized: Pharmacie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1736983756800
+    m_Localized: Cuisine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1777781751808
+    m_Localized: Alcool de contrebande
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230746092781568
+    m_Localized: Permis de vente d'armes de catégorie I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230769882873856
+    m_Localized: Munitions dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229462627368960
+    m_Localized: Armes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915136
+    m_Localized: Aquaculture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915137
+    m_Localized: Lors de votre formation avec le mentor, vous avez appris à élever des poissons dans des aquariums pour vendre leur chair. Vous commencez avec un petit système de recirculation et un stock de poissons basiques.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915138
+    m_Localized: Systèmes de circuits recirculés (RAS)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915139
+    m_Localized: Tilapias et nourriture pour poissons dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915140
+    m_Localized: Loyer de départ plus élevé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33510552027136
+    m_Localized: Choisissez votre spécialité...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36113511923712
+    m_Localized: Aucun domaine spécifique n'a su retenir votre attention pendant la formation donnée par le mentor. Vous avez préféré consacrer votre temps à l'optimisation de votre entreprise et à la réduction des frais d'implantation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36412188311552
+    m_Localized: Solde de départ plus important
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38817957199872
+    m_Localized: Spécialité recommandée pour les novices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39721708077056
+    m_Localized: Produits du quotidien et nourriture dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39719812251648
+    m_Localized: Équipement supplémentaire (casier de rangement)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41091349659648
+    m_Localized: En cours de développement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44792365760512
+    m_Localized: Lors de votre formation avec le mentor, vous avez aimé découvrir la revente d'eau. L'eau potable étant une ressource rare dans la station, vous savez qu'elle vaut son pesant d'or.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69123699425280
+    m_Localized: Manuel de vente d'eau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69167391490048
+    m_Localized: Équipement de test et de purification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69177692700672
+    m_Localized: Stockage supplémentaire (récipients)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70344103477248
+    m_Localized: Avant de croiser la route du mentor, vous faisiez carrière dans le furetage. Vous étiez sans le sou, mais votre réputation vous précédait. Malgré votre formation, vous n'avez pas tourné la page. Voilà pourquoi vous utilisez votre ancien équipement dans le cadre de votre nouvel emploi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70401448001536
+    m_Localized: Matériel et outils de furetage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70434029355008
+    m_Localized: Bonne réputation de départ auprès des fureteurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70436172644352
+    m_Localized: Équipement supplémentaire (four)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72090364198912
+    m_Localized: Spécialité plus poussée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72394300243968
+    m_Localized: Votre formation avec le mentor a éveillé en vous un intérêt pour la contrebande. Vous évoluez aujourd'hui dans le marché noir et possédez un espace de rangement secret pour échapper aux regards indiscrets du service de sécurité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73142996090880
+    m_Localized: Équipement supplémentaire (casier de contrebandier)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73278484692992
+    m_Localized: Contrebande dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73328950558720
+    m_Localized: Bonne réputation de départ auprès du marché noir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73330057854976
+    m_Localized: Mauvaise réputation de départ auprès du service de sécurité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73331030933504
+    m_Localized: Accès immédiat à l'échange clandestin du service d'entretien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73389046546432
+    m_Localized: Loyer de départ plus élevé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74131299942400
+    m_Localized: Vous avez pris goût à l'alcool de contrebande durant votre formation avec le mentor. Vous vous y connaissez aussi bien en vente et en estimation qu'en préparation. Le prix défiant toute concurrence de cet alcool le rend populaire au sein des strates inférieures, mais il n'en demeure pas moins illégal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74164715962368
+    m_Localized: Manuel de fabrication d'alcool
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74261122039808
+    m_Localized: Kit de préparation d'alcool de contrebande pour débutants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74542706638848
+    m_Localized: Au cours de la formation donnée par votre mentor, vous avez développé une passion pour les stupéfiants. Vous maîtrisez à présent le commerce de substances addictives et illicites. Et en cas d'épuisement des stocks, vous vous débrouillez dans un laboratoire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698969628672
+    m_Localized: Manuel - Chimie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74729940369408
+    m_Localized: Équipement de laboratoire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75185236262912
+    m_Localized: S'il y a bien une chose à retenir de votre formation auprès du mentor, c'est le trafic d'organes humains. Le commerce d'organes avec appellation d'origine protégée est légal, mais vous vous ferez plus d'argent en vous servant sur des patients encore vivants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75262713446400
+    m_Localized: Manuel de trafic d'organes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75305663119360
+    m_Localized: Équipement supplémentaire (boîte à organes)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75308548800512
+    m_Localized: Kit de transfusion sanguine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75463129874432
+    m_Localized: Lors de votre formation avec le mentor, les médicaments en vente libre ont su piquer votre curiosité. Vous savez gérer une pharmacie, aider les malades et synthétiser des produits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75501117685760
+    m_Localized: Manuel de fabrication de médicaments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75502254342144
+    m_Localized: Manuel de premiers secours
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75503260975104
+    m_Localized: Articles médicaux dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75997584867328
+    m_Localized: Grâce au mentor et à sa formation, vous avez découvert l'art de la cuisine, et plus particulièrement de la cuisine de rue. Vous êtes désormais capable de préparer de bons petits plats rapides pour les résidents des strates inférieures. Les stands de nourriture sont très appréciés et vous permettront de dégager un joli bénéfice si vous vous procurez les ingrédients adéquats.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76052249231360
+    m_Localized: Manuel de cuisine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76054665150464
+    m_Localized: Équipement supplémentaire (cuisinière)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76056204460032
+    m_Localized: Ingrédients dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76194914287616
+    m_Localized: Votre formation avec le mentor vous a permis d'affiner vos connaissances en hydroponie, une technique de culture des végétaux très efficace en espace restreint. Cette expertise peut vous permettre de nourrir l'ensemble des strates inférieures tout en vous enrichissant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76197867077632
+    m_Localized: Manuel d'hydroponie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76201893609472
+    m_Localized: Équipement supplémentaire (matériel hydroponique)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76203508416512
+    m_Localized: Articles agricoles et graines dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76509856186368
+    m_Localized: Loyer de départ plus élevé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229510593429504
+    m_Localized: La formation du mentor vous a fait entrer dans le monde merveilleux des armes à feu. Vous avez appris à modifier tous types d'armes, des revolvers artisanaux aux mitrailleuses redoutables. Et maintenant que vous possédez un permis, vous pouvez réaliser des commandes personnalisées pour les résidents et ainsi assurer votre stabilité financière.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230752501678080
+    m_Localized: Armes et modificateurs dans l'inventaire de départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99670006883467264
+    m_Localized: Sauvegarde corrompue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99065213836115968
+    m_Localized: Fond du trou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069229261438976
+    m_Localized: Aucun objet de départ.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069202615025664
+    m_Localized: Votre mentor vous a apporté son aide pour négocier un contrat de bail, mais c'est bien tout. Vous n'avez absolument rien, sinon votre boutique et votre instinct de survie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069305866207232
+    m_Localized: Spécialité extrêmement difficile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004236062720
+    m_Localized: Élevage de rats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108082834627674112
+    m_Localized: Au grand dam de votre mentor, vous avez développé une passion dévorante pour les animaux. Les rats, plus spécifiquement. Vous avez appris à les élever pour revendre leur viande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811456
+    m_Localized: Cage à animaux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811457
+    m_Localized: Rats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811458
+    m_Localized: Nourriture
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112700634117750784
+    m_Localized: "Vous tenez une boutique dans les strates inférieures d'une station spatiale tentaculaire. Autrefois, vous joigniez les deux bouts en furetant parmi les ordures, mais un mystérieux mentor vous a enseigné les rudiments du commerce et prêté une somme généreuse pour vous mettre le pied à l'étrier. Ses motivations demeurent obscures.\nVous devez à présent rester à flot en dépit de l'avarice du propriétaire, qui menace de vous faire expulser au moindre manquement. Réalisez un bénéfice, négociez un prêt et rachetez la boutique pour vous faire une place pérenne dans la station.\nUn seul mot d'ordre : survivre, coûte que coûte, dans l'espoir de bâtir un avenir meilleur."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

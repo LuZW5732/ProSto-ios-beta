@@ -1,0 +1,3943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Item_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 93fe472e9fd181141974a1f58c3bef9e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 158976881508352
+    m_Localized: “远古外星遗物”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159203780771840
+    m_Localized: 怎么看都只是一堆废旧金属……“远古外星”废旧金属？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158979263873024
+    m_Localized: 100%脱水纯水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582820036608
+    m_Localized: 一盒帕克斯卫生棉条
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230912
+    m_Localized: 此类卫生用品主打安全与私密，是下层区鲜有人能消费得起的奢侈品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230913
+    m_Localized: 一包海明威香烟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230914
+    m_Localized: 极致奢华的吸烟体验，它的口感和它的价格一样，绝对让你终生难忘。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230915
+    m_Localized: 一盒瑞克斯避孕套
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230916
+    m_Localized: 得益于一项补贴分发计划，这东西在下层区极为常见。毕竟，控制人口可比镇压暴乱便宜多了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230917
+    m_Localized: 一瓶四合一洗涤剂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230918
+    m_Localized: 集洗发水、护发素、沐浴露和牙膏于一瓶的便捷洗护产品，更添加了提神醒脑的营养果萃取物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230919
+    m_Localized: 一支牙膏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230920
+    m_Localized: 能带来清新口气的薄荷凝胶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230921
+    m_Localized: 一卷纸巾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230922
+    m_Localized: 一卷厕纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230923
+    m_Localized: 价格亲民的厕纸，结实耐用。在下层区，双层纸也已然是一种奢侈。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230924
+    m_Localized: 水质检测试剂盒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230925
+    m_Localized: 包含水质检测试纸的小瓶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230926
+    m_Localized: 水质检测试纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230927
+    m_Localized: 用于准确测定水样质量的检测试纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230928
+    m_Localized: 紫外线灯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230929
+    m_Localized: 可用于水容器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230930
+    m_Localized: 一种发射紫外线以杀灭细菌和其他微生物的灯具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230931
+    m_Localized: 水质扫描仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230932
+    m_Localized: 一种用于准确测定水样质量的设备。可显示检测到的杂质。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230933
+    m_Localized: 拾荒扫描仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230934
+    m_Localized: 一种能提高你在拾荒时发现贵重物品几率的设备。（你同时只能获得一台拾荒扫描仪的增益效果。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230935
+    m_Localized: 曾经幻想过拥有第三只眼吗？或者是第二只鼻子？用拾荒扫描仪穿透杂物，寻找宝藏吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230936
+    m_Localized: 一瓶净水药片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230937
+    m_Localized: 一小瓶用于净化水质的药片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230938
+    m_Localized: 净水药片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230939
+    m_Localized: 可消除大量微生物污染物，并部分减少化学污染物。对其他类型的污染物无效。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230946
+    m_Localized: 韧棉织物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230947
+    m_Localized: 用于化学实验，可滤除液体中的大颗粒物。织孔太粗，完全无法用于净水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230948
+    m_Localized: 用途广泛的有机纤维布料。常用于制作加固工作服和减震内衬。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230949
+    m_Localized: 滤水器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230950
+    m_Localized: 安装在过滤系统内使用时，可略微提高水质纯度。水质纯度超过一定阈值后将不再生效。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230951
+    m_Localized: 轻量化的民用级过滤器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425224
+    m_Localized: “同步”神经活性香水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425225
+    m_Localized: 使用后，与当前顾客的交易收益将提升15%。你同时只能获得一种香水效果的增益。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425226
+    m_Localized: 脱胎于心理创伤治疗研究，采用自适应气味映射技术来唤起个人的美好回忆。常见于高端服务场所，那里的员工发现，喷这款香水能换来的小费远超它的售价。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425227
+    m_Localized: “本源”费洛蒙香水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425228
+    m_Localized: 使用后，与当前顾客的交易收益将提升25%。你同时只能获得一种香水效果的增益。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425229
+    m_Localized: 以人工改造的人类信息素调制出的违禁香水，能增强吸引力与情感接受度。尽管属于违禁品，但它依然受到上层区那些攀附权贵者的极力追捧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425230
+    m_Localized: 螺丝刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425231
+    m_Localized: 朴实无华的螺丝刀，不管是上层区还是下层区的公民都会在杂物抽屉里放上一件。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425232
+    m_Localized: 携带此物品时，在垃圾场拾荒将获得10%的额外螺丝产量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425233
+    m_Localized: 等离子切割机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425234
+    m_Localized: 高频点火等离子切割机。经过精密制造以保证稳定性，切割速度快、威力大且切口平整。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425235
+    m_Localized: 能够用来拆解损坏的机器以回收废金属。携带此物品时，在垃圾场拾荒将获得10%的额外废金属产量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425236
+    m_Localized: 剪线钳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425237
+    m_Localized: 弹簧装置确保了良好的杠杆作用，减轻使用者的手部负担，而柔软的橡胶手柄则提供了出色的抓握力与舒适度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425238
+    m_Localized: 能够用来拆解损坏的机器以回收线缆。携带此物品时，在垃圾场拾荒将获得10%的额外线缆产量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425241
+    m_Localized: 标签打印机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425242
+    m_Localized: 用于编辑物品的标签。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425243
+    m_Localized: 放大镜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425244
+    m_Localized: 用于更仔细地检查某些物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425245
+    m_Localized: 水霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425246
+    m_Localized: 一块霓虹灯牌。将其放置在展示柜中，可吸引有意出售水的顾客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425249
+    m_Localized: 一次性涡轮增压器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425250
+    m_Localized: 能够立刻为需要耗时运作的机器提供动力的工具。使用前请确保目标机器已具备所有必要的输入材料。使用后即被消耗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425251
+    m_Localized: 高级涡轮增压器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425252
+    m_Localized: 能够立刻为需要耗时运作的机器提供动力的工具。使用前请确保目标机器已具备所有必要的输入材料。随时间推移可自动充能。这一高级版本在使用后不会被消耗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425253
+    m_Localized: 塑性炸药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425254
+    m_Localized: 轻拿轻放。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425255
+    m_Localized: 塑性炸药（已激活）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425256
+    m_Localized: 3……2……1……轰！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425257
+    m_Localized: 背包（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425258
+    m_Localized: 款式紧凑、饱经磨砺的背包，配有加固缝线。重量虽轻，但足以装下各种基本物资。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425259
+    m_Localized: 背包（基础）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425260
+    m_Localized: 背包（军用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425261
+    m_Localized: 专为军事用途设计的重型背包。布料极为耐用，以至于有些士兵在战斗中会把它背在胸前当作额外护甲使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425262
+    m_Localized: 背包（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425265
+    m_Localized: 挎包（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425266
+    m_Localized: 一包营养果种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425267
+    m_Localized: 治安部物资箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425268
+    m_Localized: 一个上锁的板条箱，标签上写着归空间站治安部军械库所有。里面装满了物资。需要识别卡才能打开。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425269
+    m_Localized: 工程铸造厂物资箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425270
+    m_Localized: 一个上锁的板条箱，标签上写着归空间站工程铸造厂所有。里面装满了物资。需要识别卡才能打开。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425271
+    m_Localized: 那些戴安全帽的家伙一定会为弄丢了工具而追悔莫及……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425272
+    m_Localized: 医疗舱物资箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425273
+    m_Localized: 一个上锁的板条箱，标签上写着归空间站医疗舱所有。里面装满了物资。需要识别卡才能打开。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425274
+    m_Localized: 弄丢了这批物资应该不至于闹出人命吧……对吧？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425275
+    m_Localized: 治安部物证柜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425276
+    m_Localized: 这里面的东西足够把整个下层区的人都送进大牢了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425277
+    m_Localized: 一个上锁的板条箱，标签上写着归空间站治安部证物库所有。内含贵重物品。需要识别卡才能打开。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425278
+    m_Localized: 后勤服务部物资箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425279
+    m_Localized: 一个坚固的板条箱，标签上写着归空间站后勤服务部所有。里面装满了物资。需要识别卡才能打开。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425280
+    m_Localized: 空间站后勤服务部负责将公共设施物资分发给那些有需要……或者说，付得起钱的人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425342
+    m_Localized: 化学用品（普通）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425343
+    m_Localized: 拆开后可获得一批用于基础化学合成的实用物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425344
+    m_Localized: 一批你极有可能在空间站五金库里找到的常见化学用品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425345
+    m_Localized: 化学用品（管制）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425346
+    m_Localized: 拆开后可获得一批用于高级化学合成的实用物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425347
+    m_Localized: 一批用于制造麻醉品或炸药的管制化学用品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425348
+    m_Localized: 医疗用品（普通）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425349
+    m_Localized: 一批常见的医疗用品，主要是药房里的非处方类物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425350
+    m_Localized: 医疗用品（管制）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425351
+    m_Localized: 一批受管制的医疗物品——用来救治空间站病患的必需品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425352
+    m_Localized: 废金属
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425353
+    m_Localized: 可冶炼成金属矿石。由于空间站上的资源极其有限，打捞和回收利用成为了尤为重要的生存习惯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425354
+    m_Localized: 垃圾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425355
+    m_Localized: 损坏的废料和毫无用处的垃圾。几乎无法回收，完全一文不值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425356
+    m_Localized: 金属矿石
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425358
+    m_Localized: 电子元件（普通）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425359
+    m_Localized: 各种虽说常见却很实用的的电子元件组合：连接器、开关、电容器、处理器以及处理单元……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425360
+    m_Localized: 电子元件（稀有）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425361
+    m_Localized: 一批不常见的高端电子元件组合。某位发明家肯定会对此非常感兴趣……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425362
+    m_Localized: 线缆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425363
+    m_Localized: 一捆电线。看这模样，显然是从某个地方强行拆下来的……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425364
+    m_Localized: 3D打印耗材
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425365
+    m_Localized: '用于3D打印机的优质耗材，尽可能地利用回收废旧塑料加工而成。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425369
+    m_Localized: 放射性废料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425370
+    m_Localized: 放射性废料。请小心处理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425371
+    m_Localized: 一批危险的核废料。没人愿意碰这玩意儿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425372
+    m_Localized: 助熔剂（基础）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425373
+    m_Localized: 实用的添加剂，在冶炼时使用可提高金属矿石的纯度。会在过程中被消耗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425374
+    m_Localized: 助熔剂（高级）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425375
+    m_Localized: '实用的添加剂，在冶炼时使用可提高金属矿石的纯度。可重复使用。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425408
+    m_Localized: 电击枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425409
+    m_Localized: 用于自卫和执法的小型电击武器。能释放令人痛苦的电击。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425410
+    m_Localized: 避孕药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425411
+    m_Localized: 用于防止怀孕的避孕药。它是雌激素和孕激素的结合体。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425421
+    m_Localized: 一板零嚼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425422
+    m_Localized: 一板“零嚼”，一种廉价的食欲抑制剂。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425423
+    m_Localized: 会被一些下层区居民用来少吃几顿正餐，好省下信用点。而在上层区，这东西则被包装成“纤体-X”减肥药进行营销。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425424
+    m_Localized: 嗅盐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425425
+    m_Localized: 包含酒精和氨水的细玻璃管，有助于在昏厥后恢复意识。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425426
+    m_Localized: 血袋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425427
+    m_Localized: 一袋500毫升的输血袋，采集自一位万能血型捐献者——尽管其本人未必出于自愿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425428
+    m_Localized: 一袋“蓝血”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425429
+    m_Localized: 可注射的生物凝胶，经专门设计，可随时间溶解动脉斑块和微小血栓。它能有效预防冠心病、缺血性中风以及高血压相关的并发症。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425430
+    m_Localized: 实际上并非血液。即便是放在上层区也属于稀罕物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425431
+    m_Localized: 一小瓶“梦尘”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425432
+    m_Localized: 下层区自制的一种廉价兴奋粉。被用来暂时忘却生活在空间站里的残酷现实。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425433
+    m_Localized: 一小瓶“梦魇尘”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425434
+    m_Localized: 兼具毒药和致幻剂双重作用的细粉末。吞食或吸入会导致严重的恶心、虚弱和意识混乱，随后产生可怕的幻觉。大剂量可致命。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425435
+    m_Localized: 咖啡因药片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425436
+    m_Localized: 用上层区高档咖啡厅的残渣提炼而成，这些药片是下层区需长时间轮班的工人们的必需品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425437
+    m_Localized: 南丁格尔软膏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425438
+    m_Localized: 由基因改良芦荟和医用级蜂蜜制成。该软膏具有抗菌特性，并能促进细胞的再生与生长。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425439
+    m_Localized: 医用酒精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425440
+    m_Localized: 一种强效消毒剂，用于清洁伤口和物体表面。吞食具有剧毒，但这并不能阻止它在下层区被当作努特加的替代品饮用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425441
+    m_Localized: 基础绷带
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425442
+    m_Localized: 一条简单、干净的绷带，用于包扎伤口。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425443
+    m_Localized: 止血绷带
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425444
+    m_Localized: 涂有强效止血剂的绷带，轻重度出血都能止住。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425445
+    m_Localized: 外用药膏绷带
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425446
+    m_Localized: 涂有温和局部医疗凝胶的绷带，有助于伤口愈合。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425447
+    m_Localized: 免疫宁注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425448
+    m_Localized: 一种高精度免疫调节剂，用于暂时抑制“哨兵崩溃综合征”引发的过度免疫反应。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425449
+    m_Localized: 赛纳普斯注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425450
+    m_Localized: 治疗药物成瘾的次世代疗法，旨在抑制大脑的奖励机制，减轻药瘾，辅助长期康复。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425451
+    m_Localized: 与心理治疗和社会支持结合使用效果最佳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425452
+    m_Localized: 奥克西莫注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425453
+    m_Localized: 奥克西莫是一种合法但危险的药物，用于缓解剧痛并产生快感。由于过度开具处方，奥克西莫成瘾和过量使用的情况极为普遍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425454
+    m_Localized: 奥克莫吸注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425455
+    m_Localized: 奥克西莫的非成瘾性止痛替代品。提供有效的镇痛作用，且没有依赖或用药过量的风险。这是一支装在二次利用的注射器里的原型药。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425456
+    m_Localized: 纳洛通注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425457
+    m_Localized: 纳洛通是一种用于对抗奥克西莫用药过量的急救药物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425460
+    m_Localized: 玻璃刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425461
+    m_Localized: 一块边缘锋利的碎玻璃，用布包裹着，可作为武器使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425462
+    m_Localized: 战斗匕首
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425463
+    m_Localized: 一把专为军事用途设计的格斗短刀，主要用于肉搏或近战，但作为工具也很方便。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425464
+    m_Localized: 美工刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425465
+    m_Localized: 结实且带有可伸缩刀片的多用途刀具，常用于建筑、手工和仓库作业。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425466
+    m_Localized: 切肉刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425467
+    m_Localized: 厨刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619520
+    m_Localized: 一把不锈钢刀具。请置于儿童以及心怀鬼胎的上层区家庭主妇接触不到的地方。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619521
+    m_Localized: 战斗砍刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619522
+    m_Localized: 专为战斗与求生打造的重型砍刀。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619523
+    m_Localized: 撬棍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619524
+    m_Localized: 空间站上每一位经验丰富的拾荒者和理论物理学家最可靠的工具。在紧要关头也可作为武器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619525
+    m_Localized: 短柄斧
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619526
+    m_Localized: 小巧坚固。可在水培农场中移除当前种植的作物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619527
+    m_Localized: 铅管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619528
+    m_Localized: 一根沉重的铅管。在空间站大修供水管线后，数吨剩余的废旧铅管流入了拾荒者和小偷的手中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619529
+    m_Localized: 眩晕警棍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619530
+    m_Localized: 配有晕眩和致命两种模式的标准制式电击棍。负责维持空间站秩序的治安部警官的日常防身武器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619531
+    m_Localized: 能量电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619532
+    m_Localized: 为了减少浪费，一次性电池已被共和国认定为非法。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619533
+    m_Localized: 兼容多数机器的基础电源。可充电。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619534
+    m_Localized: 能量电池（2型）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619535
+    m_Localized: 作为标准型号的改良版，2型电池体积更大、效能更好，误吞窒息的风险也更高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619536
+    m_Localized: 兼容多数机器的进阶电源。可充电。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619537
+    m_Localized: 自充电能量电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619538
+    m_Localized: 能够自行充电的高级稀有能量电池。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619539
+    m_Localized: 碎玻璃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619543
+    m_Localized: 手电筒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619544
+    m_Localized: 重型手电筒。携带此物品时，在垃圾场拾荒受伤的几率会降低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619545
+    m_Localized: 报纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619546
+    m_Localized: 一份最新出炉的报纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619547
+    m_Localized: 导师手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619548
+    m_Localized: 专门收集整理导师给你的所有笔记的册子。非常方便！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619549
+    m_Localized: 海明威鉴定指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619550
+    m_Localized: 帮助识别假冒海明威香烟的指南。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619551
+    m_Localized: 海明威色卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619552
+    m_Localized: 官方发行的海明威标准色卡。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619554
+    m_Localized: 等离子燃料匣鉴定指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619555
+    m_Localized: 用来给等离子燃料匣精准估价的指南。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619558
+    m_Localized: 食品券鉴定手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619559
+    m_Localized: 实用的指南，用于从赝品中辨别出真正的食品券。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619560
+    m_Localized: 免疫宁检测指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619561
+    m_Localized: 包含评估免疫宁注射器状况所需的所有信息。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619562
+    m_Localized: 水资源交易手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619563
+    m_Localized: 实用的手册，包含了关于水资源买卖的所有信息。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619568
+    m_Localized: 冶金手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619571
+    m_Localized: 租赁协议
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619572
+    m_Localized: 你的租约。由你和你的房东共同签署。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619575
+    m_Localized: 营业许可证
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619576
+    m_Localized: 共和国颁发的许可证，在下层区合法经营商铺的必需品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619577
+    m_Localized: 手写便签
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619578
+    m_Localized: 普普通通的手写字条。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619579
+    m_Localized: 拾荒者信物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619580
+    m_Localized: 一种认可的象征。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619581
+    m_Localized: 拾荒者群体赠予的信物。每向展示柜中放置一枚，都会提升拾荒者前来光顾的几率。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619582
+    m_Localized: 档案箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619583
+    m_Localized: 可容纳各种文件、便签、书籍和放大镜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619584
+    m_Localized: 垃圾桶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619585
+    m_Localized: 里面的物品将在夜间被永久移除——只要你支付了清洁服务费。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619586
+    m_Localized: 排水口
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619587
+    m_Localized: 不想要的水可以倒入此处。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619588
+    m_Localized: 水龙头
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619589
+    m_Localized: 没有水……也许有人能帮忙把供水接通？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619590
+    m_Localized: 一次性钥匙卡（指挥）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619591
+    m_Localized: 万能钥匙卡，仅限空间站指挥人员携带。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619592
+    m_Localized: 供空间站指挥层使用的一次性钥匙卡。可开启大多数需要钥匙卡权限的锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619593
+    m_Localized: 一次性钥匙卡（治安）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619594
+    m_Localized: 如果落入歹人之手可能会很危险……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619595
+    m_Localized: 供空间站治安部使用的一次性钥匙卡。可开启需要治安部权限的锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619596
+    m_Localized: 一次性钥匙卡（研发）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619597
+    m_Localized: 空间站研发部官员携带的钥匙卡。非常有价值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619598
+    m_Localized: 供研发部使用的一次性钥匙卡。可开启需要科研部权限的锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619599
+    m_Localized: 一次性钥匙卡（医疗）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619600
+    m_Localized: 供空间站医疗部使用的一次性钥匙卡。可开启需要医疗权限的锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619601
+    m_Localized: 一次性钥匙卡（工程）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619602
+    m_Localized: 供空间站工程部使用的一次性钥匙卡。可开启需要工程权限的锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619603
+    m_Localized: 一次性钥匙卡（补给）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619604
+    m_Localized: 供空间站补给部门使用的一次性钥匙卡。可开启需要补给权限的锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619605
+    m_Localized: 一次性钥匙卡（服务）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619606
+    m_Localized: 供空间站服务部门使用的一次性钥匙卡。可开启需要服务权限的锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619607
+    m_Localized: 一次性钥匙卡（空白）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619608
+    m_Localized: 空间站内最接近万能钥匙的钥匙卡。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619609
+    m_Localized: 未写入数据的钥匙卡。只要有合适的设备，就能为其写入不同的访问权限。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619610
+    m_Localized: 名片（乔·王尔德）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619611
+    m_Localized: 随时为您效劳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619612
+    m_Localized: 名片（红魔鬼酿酒厂）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619613
+    m_Localized: 好喝到要命。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619614
+    m_Localized: 名片（GP采矿合作社）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619615
+    m_Localized: 已经没人知道GP到底代表什么了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619616
+    m_Localized: 名片（药商）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619617
+    m_Localized: 非常简陋的名片，上面只有一个名字和一个电话号码。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619618
+    m_Localized: 名片（化学家）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619619
+    m_Localized: 真就是张纸条，只不过写了电话号码。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619620
+    m_Localized: 名片（绿）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619621
+    m_Localized: 简单的绿色名片，上面写着一个电话号码。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619631
+    m_Localized: 事件回执单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619632
+    m_Localized: 治安部在处理事件后开具的单据。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619633
+    m_Localized: 治安部通缉名单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619637
+    m_Localized: 食品券
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619638
+    m_Localized: 前往配给站兑换以购买食物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619639
+    m_Localized: 仅能用来购买食物的预付卡。是援助下层区弱势群体的福利计划的一部分。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619640
+    m_Localized: 鉴定委员会初级证书
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619644
+    m_Localized: '音乐磁带 - '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619645
+    m_Localized: ' （完好）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619646
+    m_Localized: ' （受损）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619647
+    m_Localized: ' （损坏）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619648
+    m_Localized: 毅力
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619649
+    m_Localized: 数据领域
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619650
+    m_Localized: 高风险
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619651
+    m_Localized: 星尘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619652
+    m_Localized: 余晖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619653
+    m_Localized: 太空飞行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619654
+    m_Localized: 暗物质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619657
+    m_Localized: 刮刮乐彩票
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619658
+    m_Localized: 刮出至少2个相同的符号即可赢取奖品！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619659
+    m_Localized: 下层区一种广受欢迎的赌博方式。在上层区则被明文禁止。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619660
+    m_Localized: 一叠刮刮乐彩票（5张）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619661
+    m_Localized: 拆包前请确保物品栏有足够的空间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619662
+    m_Localized: 一叠共五张的刮刮乐彩票。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619665
+    m_Localized: 地下交易所清单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619667
+    m_Localized: 等离子燃料匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619668
+    m_Localized: 一种紧凑型固态燃料匣，专供星际航行的脉冲等离子引擎使用。其价值因燃料匣的质量不同而差异巨大。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619671
+    m_Localized: 储藏区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619672
+    m_Localized: 用于存放物品的标准区域。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619673
+    m_Localized: 储藏区（扩建）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619674
+    m_Localized: 扩建后的物品存放区域。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619679
+    m_Localized: 机器区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619680
+    m_Localized: 用于放置机器的标准区域。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619681
+    m_Localized: 机器区（扩建）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619682
+    m_Localized: 扩建后的机器放置区域。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619683
+    m_Localized: 走私者暗格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619684
+    m_Localized: 经过伪装的小型储藏区，用于在盘查时藏匿物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619685
+    m_Localized: 走私者暗格（改进）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619686
+    m_Localized: 经过伪装的储藏区，用于在盘查时藏匿物品。此暗格经过了改装，可容纳更多物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619689
+    m_Localized: 能量阵列
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619690
+    m_Localized: 可以为相邻能量电池充电的紧凑型电源。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619691
+    m_Localized: 只要支付了电力服务费，每晚即可为相邻的能量电池，或相邻机器内的能量电池（不包括充能器）恢复+2电量。此效果可叠加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619692
+    m_Localized: 空白模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619693
+    m_Localized: 一个空白模组。配上合适的机器，即可将其重写为有用的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619694
+    m_Localized: 性能模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619695
+    m_Localized: 效率模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619696
+    m_Localized: 质量模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619697
+    m_Localized: 超频模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619698
+    m_Localized: 环保模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619699
+    m_Localized: 精炼模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619700
+    m_Localized: 优化模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619701
+    m_Localized: 报废模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619702
+    m_Localized: 一个完全报废的模组。作为回收物仍有一定价值。可用螺丝刀进行拆解。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619703
+    m_Localized: 损坏模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619704
+    m_Localized: 一个损坏的模组。可以使用电子元件……外加一点技术来修复。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619705
+    m_Localized: 神经核心模组（无限制）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619706
+    m_Localized: 性能极高，但不稳定且属于违禁品。这是一个封装在系统模组内的AI核心。这类AI核心有失控暴走的倾向。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619707
+    m_Localized: 神经核心模组（受限）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619708
+    m_Localized: AI核心在空间站上属于违禁品。该装置内置了安全防护机制，在限制其失控行为的同时，也限制了它的性能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619709
+    m_Localized: 密码解序器芯片（指挥）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619710
+    m_Localized: 一个能让密码解序器将指挥权限写入空白钥匙卡的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619711
+    m_Localized: 密码解序器芯片（治安）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619712
+    m_Localized: 一个能让密码解序器将治安权限写入空白钥匙卡的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619713
+    m_Localized: 密码解序器芯片（医疗）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619714
+    m_Localized: 一个能让密码解序器将医疗权限写入空白钥匙卡的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619715
+    m_Localized: 密码解序器芯片（工程）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619716
+    m_Localized: 一个能让密码解序器将工程权限写入空白钥匙卡的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619717
+    m_Localized: 密码解序器芯片（补给）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619718
+    m_Localized: 一个能让密码解序器将补给权限写入空白钥匙卡的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619719
+    m_Localized: 密码解序器芯片（服务）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619720
+    m_Localized: 一个能让密码解序器将服务权限写入空白钥匙卡的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619738
+    m_Localized: 一个允许收割成熟的水培芦苇的茎秆以将其用作滤水器的模组。对其他植物无效。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619752
+    m_Localized: 警报传输模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619753
+    m_Localized: "当前正在传输至：<b>{0}</b>\n向同一派系重复传输不会产生额外效果。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619754
+    m_Localized: 该模组会将你的摄像头拍到的监控录像传输给指定的派系。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619755
+    m_Localized: 熔炉模组（高炉）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619756
+    m_Localized: 一种改造熔炉的特殊模组，允许以{0}材料制作{1}金属锭（纯度略低）。不可叠加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619757
+    m_Localized: 熔炉模组（垃圾处理）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619758
+    m_Localized: 一种改造熔炉的特殊模组，允许将垃圾处理成废金属。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619759
+    m_Localized: 模组提取器（基础）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619760
+    m_Localized: 允许你将卡住的模组从机器中取出而避免造成损坏。可使用{0}次。可以使用电子元件进行部分翻修。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619761
+    m_Localized: 模组提取器（高级）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619762
+    m_Localized: 允许你将卡住的模组从机器中取出而避免造成损坏。这款高级型号在使用时不会产生损耗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619763
+    m_Localized: 模组舱扩建套件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619764
+    m_Localized: 允许你扩展机器模组容量的一次性套件。此套件与化学或其他特殊机器不兼容。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619767
+    m_Localized: 一种专用电路，安装在特定机器中时，可提供或接收相邻模组的加成效果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619768
+    m_Localized: 节点（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619769
+    m_Localized: 节点（中）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619774
+    m_Localized: 口袋 #1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619775
+    m_Localized: 口袋 #2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813840
+    m_Localized: 碳酸代乳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813841
+    m_Localized: 一盒加工奶，或者说，一种甜味的碳酸“乳基”饮料。味道意外地还不错。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813842
+    m_Localized: 代糖果汁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813843
+    m_Localized: 一盒加工果汁。所有的天然糖分都已被提取出来，换成了精制糖。含有0.1%的真果汁！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813844
+    m_Localized: “泥炭”合成肉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813845
+    m_Localized: 一罐达夫雷公司生产的咸味合成肉。它便宜、容易买到而且管饱。只要你不在乎它是用什么肉做的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813846
+    m_Localized: 辣酱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813847
+    m_Localized: 瓶装泉水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813848
+    m_Localized: 一瓶密封的水，据说取自一个遥远且未受任何工业活动污染的星球上的天然活泉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813849
+    m_Localized: 哪怕渴到奄奄一息，下层区的人也绝对不会喝这种水，毕竟它的价格摆在那里。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813850
+    m_Localized: 红魔鬼啤酒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813851
+    m_Localized: 下层区酿造的畅销啤酒。虽说每批的口味都不太一样，但这绝对是最便宜的酒了。酒精度3.5%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813852
+    m_Localized: 空啤酒瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813853
+    m_Localized: 一滴都不剩了。为防止浪费，酿酒厂一般都有针对空瓶的“回购”业务。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813854
+    m_Localized: 瓶装水（标准）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813855
+    m_Localized: 瓶装水（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813856
+    m_Localized: 瓶装水（微型）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813876
+    m_Localized: 瓶装水（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813877
+    m_Localized: 桶装水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813878
+    m_Localized: 汽水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813879
+    m_Localized: 甜味碳酸饮料。在空间站的某些区域，它甚至比干净的水还要便宜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813880
+    m_Localized: 能量饮料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813881
+    m_Localized: 努特加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813882
+    m_Localized: 由营养果酿制而成的烈性酒。最初是作为重型脱漆剂而研发的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813883
+    m_Localized: 繁星果糊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813884
+    m_Localized: 由帕斯泰尔公司的营养果制成，并额外添加了维生素和矿物质的营养糊。下层区能买到的最健康、但也最不受欢迎的食物之一。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813885
+    m_Localized: 猫咪巧克力棒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813886
+    m_Localized: 裹着巧克力的威化棒。虽然设计初衷是为了分享，但大多都是被一个人孤独地吃掉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813887
+    m_Localized: 轻食能量棒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813888
+    m_Localized: 高蛋白巧克力味糖果棒。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813889
+    m_Localized: 生肉（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813890
+    m_Localized: 一小块生肉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813891
+    m_Localized: 新鲜肉类在下层区难得一见，至于它是从哪里来的，不太会有人在乎。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813892
+    m_Localized: 生肉（标准）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813893
+    m_Localized: 一块生肉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813894
+    m_Localized: 新鲜肉类在下层区难得一见，至于它是从哪里来的，不太会有人在乎。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813895
+    m_Localized: 动物脂肪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813896
+    m_Localized: 一磅板油。价格低廉，通常用于熬制成动物油或给肉汤增添风味。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813897
+    m_Localized: 动物下水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813898
+    m_Localized: 器官、肠子、软骨和边角料。虽然可食用且有营养，但一向不招大多数菜系待见。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813899
+    m_Localized: 速食拉面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813900
+    m_Localized: 内含一次性无明火加热器。只需加水即可加热烹饪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813901
+    m_Localized: 人工红烧牛肉风味，公认的下层区经典美食。味精、白胡椒和四川花椒赋予了这款方便面辛辣的刺激。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813902
+    m_Localized: 密封水配给包（标准）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813903
+    m_Localized: 可倒入液体容器中，转化为750毫升的基础水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813904
+    m_Localized: 密封水配给包（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813905
+    m_Localized: 可倒入液体容器中，转化为375毫升的基础水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772018733056
+    m_Localized: 警报系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510272
+    m_Localized: 一套智能安全警报系统，配备了一整套传感器，并且能连接到前任店主安装的摄像头上。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510273
+    m_Localized: 极大降低夜间发生盗窃的几率。需要专门的电源才能运作。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510274
+    m_Localized: 警报器使用手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510275
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能影响防盗率加成\n质量无影响"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510280
+    m_Localized: 密码解序器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510281
+    m_Localized: 可用于将各种权限写入空白钥匙卡中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510282
+    m_Localized: 需要一块解序器芯片和一张识别卡。需要能量。彻夜工作。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510283
+    m_Localized: 篡改识别卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510284
+    m_Localized: 使用说明：解序器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510285
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能影响速度\n质量无影响\n插入解序器和识别卡。需要能量。耗时一夜。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510290
+    m_Localized: 熔炉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510291
+    m_Localized: 将2块废金属或金属矿石提炼成金属锭。需要能量。夜间运行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510292
+    m_Localized: 使用说明：熔炉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510293
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能无影响\n质量影响纯度上限"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510294
+    m_Localized: 放入（2）块金属矿石或废金属，生产（1）块金属锭。金属锭的质量取决于所用材料的纯度。使用矿石冶炼出的纯度会高于使用废金属。夜间运行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510297
+    m_Localized: 水瓶打印机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510298
+    m_Localized: 预设了程序的3D打印机，能够制造小型水瓶。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510299
+    m_Localized: 磁带播放器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510300
+    m_Localized: 充能器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510301
+    m_Localized: 能量电池的充电设备。只要支付了电力服务费，就会缓慢地为能量电池充电。夜间运行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510302
+    m_Localized: 幻影投影仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510303
+    m_Localized: 一种精密的设备，能投射出迷人的全息投影，使你的店铺对顾客更具吸引力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510304
+    m_Localized: 需要充电一晚，但会在第二天提高你店铺的临街吸引力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510305
+    m_Localized: 使用说明：投影仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510306
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能影响吸引力（系数：0.25）\n质量影响吸引力（系数：0.5）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510317
+    m_Localized: 水分收集器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510318
+    m_Localized: 一种用于从空间站潮湿环境空气中提取水分的机器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510319
+    m_Localized: 放入容器后即可产出水。需要能量。夜间运行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510320
+    m_Localized: 使用说明：水分收集器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510321
+    m_Localized: 此机器通过从大气中收集水分来生产水，并将其储存在所提供的容器中。需要能量充足的电源。此过程耗时一整夜。此机器可通过模组进行升级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510322
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能影响产量\n质量影响纯度"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510323
+    m_Localized: 净水器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510324
+    m_Localized: 利用反渗透技术净化水的机器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510325
+    m_Localized: 净化置入储水容器中的内容物。需要能量。用于为能量电池充电的设备。夜间运行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510326
+    m_Localized: 净水器说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510327
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能影响每晚去除量\n质量影响纯度上限（系数：0.5）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510328
+    m_Localized: 这台机器可以净化放入容器中的水，对污染严重的水尤其有效。运行时需要有充足的电源，净化过程在夜间进行。安装模组可以提升机器性能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747959889920
+    m_Localized: 水质检测试纸（已使用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747976667136
+    m_Localized: 一张已使用过的水质检测试纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594865029120
+    m_Localized: 营养果
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806336
+    m_Localized: 营养果由帕斯泰尔公司研发，是一种经过大幅改造的块茎作物，抗病抗虫、成本低、产量高，又容易种植。它营养丰富，却被刻意改造成了无籽品种。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806339
+    m_Localized: 营养果种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806340
+    m_Localized: 一种经过基因改造的块茎作物，生命力顽强、生长迅速。生长过程中需要营养和水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806341
+    m_Localized: 韧棉种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806342
+    m_Localized: 一种难以种植的种子，播种后可产出更多韧棉纤维。这是一种经过改造的棉花，可编织成耐用的布料。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6113839712878592
+    m_Localized: 金属螺丝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073686130688
+    m_Localized: 合成奶酪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490816
+    m_Localized: 奶酪上钻了孔以模仿经典的造型，顺便还能降低生产成本。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490817
+    m_Localized: 清洁机器人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490818
+    m_Localized: 每晚自动收集周围的动物粪便，也可手动启动，立即进行一次清理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490819
+    m_Localized: 动物粪便（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490820
+    m_Localized: 动物粪便
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490821
+    m_Localized: 老鼠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490822
+    m_Localized: 这种血清会略微提高动物的生长速度，代价是饥饿感增加且免疫力降低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490823
+    m_Localized: 这种血清会略微提高动物的免疫力，但代价是使其饥饿感增加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196139339776
+    m_Localized: 蓝色标签打印机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196160311296
+    m_Localized: 用于重命名物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343674576896
+    m_Localized: 牲畜饲料分配器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343699742720
+    m_Localized: 能够将食物加工成牲畜卡路里储备的设备。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230943
+    m_Localized: 水培营养片药瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230944
+    m_Localized: 装有水培营养片的瓶子。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230945
+    m_Localized: 严禁吞食。仅限水培农业使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425379
+    m_Localized: “巢火”紧凑型手枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425385
+    m_Localized: 哨兵3型。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425386
+    m_Localized: 性能可靠的10毫米口径手枪，主要由治安部人员携带。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425404
+    m_Localized: 10毫米弹药（穿甲弹）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425405
+    m_Localized: 少量10毫米口径的高速脱壳穿甲弹（APDS）。能够击穿防弹衣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425418
+    m_Localized: 芬太片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425419
+    m_Localized: 一种极易成瘾、极度危险且廉价的合成阿片类药物，常用于治疗剧烈疼痛。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425420
+    m_Localized: 药效比奥克西莫强50倍以上。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619540
+    m_Localized: 治安部档案
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619541
+    m_Localized: 治安部针对你个人的档案副本。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619542
+    m_Localized: 你的联系人会随时更新此份档案。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619569
+    m_Localized: 共和国标志校验卡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619570
+    m_Localized: 用于参考比对共和国的官方标志。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806352
+    m_Localized: 填料草种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806353
+    m_Localized: 一种适合新手的速生种子，其生长不受营养物质或水质的影响。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070918529024
+    m_Localized: 改造体扫描仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500544
+    m_Localized: 一种极度耗电的电磁场探测器，经过微调以捕捉改造芯片的独特特征信号。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500545
+    m_Localized: 用于以100%的准确率确认疑似改造体的身份。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500546
+    m_Localized: 外科手术工具套装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500547
+    m_Localized: 一套高质量的外科手术工具。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726051295232
+    m_Localized: 基因扫描仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726118404096
+    m_Localized: 开启后可查看动物的完整基因信息。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662026989568
+    m_Localized: 已通过认证并密封的一份配给基础水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662052155392
+    m_Localized: 已通过认证并密封的一份配给基础水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960660115456
+    m_Localized: 闪光弹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086976
+    m_Localized: 烟雾弹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086977
+    m_Localized: 医疗霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086978
+    m_Localized: 食品霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086979
+    m_Localized: 日用品霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086980
+    m_Localized: 奢侈品霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086981
+    m_Localized: 材料霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086982
+    m_Localized: 将其放置在展示柜中，可吸引出售{0}的顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308168081408
+    m_Localized: 腰包
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830144
+    m_Localized: 捕鼠夹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830145
+    m_Localized: 在里面放些奶酪应该会更好用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149553991680
+    m_Localized: 用来给仿生机械手精准估价的指南。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351808
+    m_Localized: 仿生机械手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351809
+    m_Localized: 生物机械工程的奇迹，旨在完美再现它所取代的人手的外形与功能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174904340480
+    m_Localized: 酵母
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506304
+    m_Localized: 一种用途广泛的酵母菌种，从发酵面包到酿酒无所不能。用于酿酒时，它能加速发酵过程并提升酒的品质。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506305
+    m_Localized: 超级酵母
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506306
+    m_Localized: 一种效力极强、用途广泛的酵母菌种，在无数工艺中备受推崇。用于酿酒时，它能大幅加速发酵过程。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506307
+    m_Localized: 酵母生物反应器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506308
+    m_Localized: 酵母的无限来源。发酵开始时将返回物品栏，而不会被消耗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506309
+    m_Localized: 一个能够自我维持并不断重新生长出酵母的培养缸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506310
+    m_Localized: 酒瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506311
+    m_Localized: 用于发酵葡萄酒的精致玻璃瓶。此酒瓶带有内置的气塞。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506312
+    m_Localized: 荧光莓
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506313
+    m_Localized: 一种经改良以适应水培生长的甜浆果。虽然不太能填饱肚子，但它是下层区少数能弄到的水果之一。很适合用来酿酒。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692160
+    m_Localized: 催陈器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692161
+    m_Localized: 加速置于其中的特定物品的陈化过程。每个周期可使葡萄酒、奶酪等物品额外陈化一天。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692162
+    m_Localized: 催陈器说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692163
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能影响功耗\n质量：每125质量额外陈化1天\n在提供电力和一瓶已发酵完成的葡萄酒时会彻夜工作。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692164
+    m_Localized: 荧光莓果酿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692165
+    m_Localized: 在上层区和下层区都很受欢迎的含酒精饮料。将不起眼的荧光莓酿成极品佳酿被认为是一门艺术。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506314
+    m_Localized: 荧光莓果酿发酵指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253248
+    m_Localized: 阴光莓果酿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253249
+    m_Localized: 看起来像自酿的荧光莓果酿，但这玩意儿很便宜，而且带有轻微的致癌性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253250
+    m_Localized: 合成酵母
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253251
+    m_Localized: 一种非法物质，可以用来代替酵母，以极其廉价的方式生产带有轻微致癌性的酒。只需加水即可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318361403392
+    m_Localized: 高级滤水器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763520
+    m_Localized: 在每天开始时将恢复50点耐久度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763521
+    m_Localized: 上层区水壶使用的优质滤水器。能够缓慢地进行自我清洁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763522
+    m_Localized: 海德拉科技微型净水器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763523
+    m_Localized: 对水容器使用，无论内容物是什么，都能将其纯度提升至基础水级别。每净化100毫升将消耗1点耐久度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763524
+    m_Localized: 在上层区很常见的抛弃式高级净水器。被丢弃后，会被冲刷到垃圾场里，还能勉强再过滤几次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651641692160
+    m_Localized: 暗灯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651650080768
+    m_Localized: 将其放置在展示柜中时，它会向小偷发出信号，表明这家店可以销赃。你的黑市声望将影响他们予以响应的可能性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425341
+    m_Localized: 金属锭
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619556
+    m_Localized: 肋明治鉴定指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619557
+    m_Localized: 一本实用指南，可帮助准确鉴定肋明治的价值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619655
+    m_Localized: 袋装肋排三明治
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619656
+    m_Localized: 一款可常温保存的限量版三明治，夹着一块由重组无骨猪肉制成、形似迷你肋排的肉饼，深受一小群忠实拥趸追捧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380865
+    m_Localized: 动物粪便（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158981042257920
+    m_Localized: 拾荒者的日志
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159205794037760
+    m_Localized: '   我已经深入废弃区。空间站的其他地方早被搜刮得一干二净，可这里……不一样。那些传闻我都听过，不过到目前为止，找到的东西确实不错。只是空气中始终笼罩着一种诡异的压迫感，仿佛有什么看不见的东西正潜伏在视线之外。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5225789046784
+    m_Localized: “永恒”焕活精华液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5296811196416
+    m_Localized: 一只流线型玻璃罐，内盛微光闪烁的精华液。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5267547537408
+    m_Localized: 备受追捧的奢华精华液，所用干细胞均来自符合伦理规范的渠道，可焕活并修复肌肤。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230940
+    m_Localized: 水培营养片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230941
+    m_Localized: 含有植物生长所必需的矿物质，可加入水容器中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230942
+    m_Localized: 严禁食用。仅限水培使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230952
+    m_Localized: 水培芦苇滤芯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425216
+    m_Localized: 装入过滤系统后，可去除特定类型的污染物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425217
+    m_Localized: 由水培芦苇培育而成的生物滤芯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425218
+    m_Localized: 彩票
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425219
+    m_Localized: 每周六上午公布中奖号码。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425220
+    m_Localized: 如果中了头奖，足以让你在安全舒适的上层区度过余生。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425221
+    m_Localized: 旧彩票
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425222
+    m_Localized: 一张毫无价值的下层区旧彩票。没有中奖号码，只有褪色的希望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425223
+    m_Localized: 一张中了头奖的彩票，足以让你在安全舒适的上层区度过余生。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425239
+    m_Localized: 便携式X射线扫描仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425240
+    m_Localized: 可用于查看密封容器内的物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425247
+    m_Localized: 探险招募牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425248
+    m_Localized: 将其放入展示柜，可吸引待招募的新雇工前来，并召集已准备好出发探险的现有雇工。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425263
+    m_Localized: 大型军用背包
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425264
+    m_Localized: 专为军事用途设计的重型背包。面料极其耐用，有些士兵会在战斗中将其背在胸前，充当额外护甲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425281
+    m_Localized: 红魔鬼啤酒箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425282
+    m_Localized: 高耐久内部弹簧组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425283
+    m_Localized: 一套先进的内部弹簧，可改善枪机循环，并提高枪械在高负荷状态下的可靠性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425284
+    m_Localized: 精调扳机组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425285
+    m_Localized: 一套可改善扳机手感的扳机组件，能够减轻扣压重量并缩短空行程。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425286
+    m_Localized: 比赛级枪管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425287
+    m_Localized: 可提高射击精度的高精度枪管。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425288
+    m_Localized: 手枪自动阻铁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425289
+    m_Localized: 一种特殊的手枪改装件。安装后会改变枪械内部机构，使其在持续扣住扳机时连续射击。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425290
+    m_Localized: 弹药显示器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425291
+    m_Localized: 可显示当前弹药数量和类型的智能显示器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425292
+    m_Localized: 触感记忆握把凝胶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425293
+    m_Localized: 位于握把表面下方的生物反应凝胶，能细致贴合使用者的手形。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425294
+    m_Localized: 红点瞄准镜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425295
+    m_Localized: 一款老式紧凑型红点瞄准镜，便于快速瞄准目标。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425296
+    m_Localized: 简易红点瞄准镜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425297
+    m_Localized: 一款3D打印的红点瞄准镜，配有红色LED和塑料镜片。可靠性不高，但效果出奇地不错。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425298
+    m_Localized: 消音器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425299
+    m_Localized: 一款简易的多口径消音器，可降低枪声，使开火更难被察觉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425300
+    m_Localized: 夜枭消音器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425301
+    m_Localized: 一款精密的多口径消音器，可降低枪声，使开火更难被察觉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425302
+    m_Localized: 简易消音器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425303
+    m_Localized: 用塑料瓶和废金属拼成的简易消音器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425304
+    m_Localized: 外接式加长枪管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425305
+    m_Localized: 一款多口径加长枪管，可提高弹丸初速和射击精度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425306
+    m_Localized: 补偿器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425307
+    m_Localized: 一种枪口装置，通过改变火药燃气的逸出方向来降低射击时的枪口上跳。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425308
+    m_Localized: 激光瞄准器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425309
+    m_Localized: 一款简易激光瞄准器，可向目标投射光束，改善枪械操控性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425310
+    m_Localized: 目标捕获装置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425311
+    m_Localized: 一种智能战术装置，可根据多种条件向目标投射光束。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425312
+    m_Localized: 玩具激光笔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425313
+    m_Localized: 一支低功率玩具激光笔。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425314
+    m_Localized: 两脚架
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425315
+    m_Localized: 可安装在枪械上以增强稳定性的两脚架。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425316
+    m_Localized: 25毫米下挂式榴弹发射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425317
+    m_Localized: 一款紧凑型25毫米下挂式榴弹发射器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425318
+    m_Localized: 前握把
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425319
+    m_Localized: 10毫米弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425320
+    m_Localized: 可容纳9发10毫米弹药的紧凑型弹匣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425321
+    m_Localized: 大容量10毫米弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425322
+    m_Localized: 可容纳14发10毫米弹药的大容量弹匣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425323
+    m_Localized: 加长10毫米弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425324
+    m_Localized: 可容纳19发10毫米弹药的加长弹匣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425325
+    m_Localized: 10毫米冲锋枪弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425326
+    m_Localized: 专为“和平使者”重型冲锋枪制造的20发装10毫米弹匣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425327
+    m_Localized: 大容量10毫米冲锋枪弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425328
+    m_Localized: 专为“和平使者”重型冲锋枪制造的35发装10毫米弹匣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425329
+    m_Localized: 10毫米冲锋枪箱式弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425330
+    m_Localized: 专为“和平使者”重型冲锋枪制造的150发装10毫米箱式弹匣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425331
+    m_Localized: .22弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425332
+    m_Localized: 廉价的3D打印紧凑型.22弹匣，容量12发。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425333
+    m_Localized: 大容量.22弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425334
+    m_Localized: 廉价的3D打印紧凑型.22弹匣，容量24发。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425335
+    m_Localized: 加长.22弹匣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425336
+    m_Localized: 廉价的3D打印紧凑型.22弹匣，容量48发。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425337
+    m_Localized: “守护者”枪托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425338
+    m_Localized: 适配子午线兵工枪械的坚固枪托，旨在改善后坐力控制。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425339
+    m_Localized: “小圆盾”枪托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425340
+    m_Localized: 适配子午线兵工枪械的短枪托，可在不牺牲操控性的前提下改善后坐力控制。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425357
+    m_Localized: 稀有金属矿石
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425366
+    m_Localized: 枪械零件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425367
+    m_Localized: 用螺丝刀拆解枪械获得。可用于翻新二手枪械，反复尝试会提高翻新成功率。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425368
+    m_Localized: 一批枪械内部零件，包括螺丝、弹簧及其他小型部件。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425376
+    m_Localized: “解放者”3D打印手枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425377
+    m_Localized: 一把低成本的塑料制3D打印手枪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425378
+    m_Localized: 找不到比这更便宜的了。开上几枪还是没问题的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425380
+    m_Localized: 一把采用.22 SR弹药的小型开源手枪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425381
+    m_Localized: 在下层区广泛用于居家防卫，治安部通常对此睁一只眼闭一只眼。大概出自某位下层区枪械师之手。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425382
+    m_Localized: “铁铸10”手枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425383
+    m_Localized: 一把采用10毫米弹药的重型开源手枪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425384
+    m_Localized: 能够击穿防弹衣，是下层区革命者青睐的武器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425387
+    m_Localized: “和平使者”重型冲锋枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425388
+    m_Localized: 一把采用10毫米弹药的重型冲锋枪。治安部只在高风险行动中偶尔使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425389
+    m_Localized: “壁垒”双动式霰弹枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425390
+    m_Localized: 一款专为执法机构打造、可靠且适应性强的霰弹枪。其双动式机构能确保使用多种弹药时均可靠运作。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425391
+    m_Localized: “脉冲卫士”电击枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425392
+    m_Localized: 做工精良、经治安部正式认可的自卫武器。由于价格高昂，主要由上层区居民使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425393
+    m_Localized: 兰斯维尔左轮手枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425394
+    m_Localized: 一把枪管长5英寸、采用.45 AFP弹药的兰斯维尔通用左轮手枪。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425395
+    m_Localized: 结构简单且极其可靠，设计上可承受极端环境，同时只需极少维护。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425396
+    m_Localized: .22 SR弹药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425397
+    m_Localized: 少量.22 SR弹药。弹丸虽小，近距离仍可致命。最重要的是，它非常便宜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425398
+    m_Localized: .22 SR弹药（穿甲）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425399
+    m_Localized: 少量.22 SR穿甲弹，能够击穿防弹衣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425400
+    m_Localized: .22 SR弹药（非致命）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425401
+    m_Localized: 少量.22 SR非致命弹。采用橡胶弹头，旨在使目标失去行动能力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425402
+    m_Localized: 10毫米弹药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425403
+    m_Localized: 少量10毫米弹药。威力强大且性能可靠，是重型手枪的标准弹药。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425406
+    m_Localized: 10毫米弹药（非致命）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425407
+    m_Localized: 少量10毫米非致命弹。采用橡胶弹头，旨在使目标失去行动能力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425412
+    m_Localized: 噬菌霉素片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425413
+    m_Localized: 一种用噬菌体和真菌制成的强效抗生素，用于应对抗生素耐药性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425414
+    m_Localized: 无证噬菌霉素片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425415
+    m_Localized: 一种强效抗生素。这批药由地下实验室非法生产，未经卡迈克尔专利许可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425416
+    m_Localized: 山奈德片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425417
+    m_Localized: 一种起效迅速且致命的化合物。请谨慎处理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425458
+    m_Localized: 成分光谱仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425459
+    m_Localized: 用于分析物质化学成分的设备。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619553
+    m_Localized: 下层区彩票说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619564
+    m_Localized: 水培农业手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619565
+    m_Localized: 一本实用手册，收录了水培农业的全部相关知识。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619566
+    m_Localized: 化学手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619567
+    m_Localized: 一本实用手册，收录了化学基础知识。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619573
+    m_Localized: 房契
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619574
+    m_Localized: 这家店铺的房契。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619622
+    m_Localized: I级武器许可证
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619623
+    m_Localized: 放入展示柜后，可提高枪械买家到访的概率。若治安部声望低于0，此许可证将被吊销。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619624
+    m_Localized: 由治安总监签发的许可证，允许持证人合法持有并交易低级违禁枪械与弹药。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619625
+    m_Localized: II级武器许可证
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619626
+    m_Localized: 放入展示柜后，可提高枪械买家到访的概率。若治安部声望低于30，此许可证将被吊销。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619627
+    m_Localized: 由治安总监签发的许可证，允许持证人合法持有并交易中级违禁武器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619628
+    m_Localized: III级武器许可证
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619629
+    m_Localized: 放入展示柜后，可提高枪械买家到访的概率。若治安部声望低于60，此许可证将被吊销。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619630
+    m_Localized: 由治安总监签发的许可证，允许持证人合法持有并交易高级违禁武器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619634
+    m_Localized: MBS神经毒气
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619635
+    m_Localized: 请小心处理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619636
+    m_Localized: 一种旨在破坏神经系统的剧毒化学武器。症状包括：呼吸衰竭、抽搐、身体机能失控、昏迷和死亡。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619641
+    m_Localized: 证明你具备初级鉴定师资格。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619642
+    m_Localized: 将其放入展示柜，可吸引需要鉴定服务的顾客到访。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619643
+    m_Localized: 便签
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619663
+    m_Localized: 采购凭单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619664
+    m_Localized: 凭单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619666
+    m_Localized: 探险日志
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619669
+    m_Localized: 简易储藏区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619670
+    m_Localized: 临时拼凑的物品储藏区。无法存放其他容器或机器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619675
+    m_Localized: 枪械师储藏区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619676
+    m_Localized: 专门存放枪械和改装件的储藏区。无法存放其他容器或机器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619677
+    m_Localized: 化学师储藏区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619678
+    m_Localized: 专门存放化学设备和用品的储藏区。无法存放其他容器或机器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619687
+    m_Localized: 迷你走私储藏区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619688
+    m_Localized: 经过伪装、可在盘查时藏匿物品的储藏区。这一款尺寸较小。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619721
+    m_Localized: 一枚存有3D打印蓝图的芯片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619722
+    m_Localized: .22手枪3D打印机芯片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619723
+    m_Localized: 3D打印机芯片（x{0} 简易红点瞄准镜）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619724
+    m_Localized: 3D打印机芯片（x{0} 玩具激光笔）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619725
+    m_Localized: 3D打印机芯片（x{0} 小塑料瓶）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619726
+    m_Localized: 3D打印机芯片（x{0} 红点瞄准镜）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619727
+    m_Localized: 3D打印机芯片（x{0} 激光瞄准器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619728
+    m_Localized: 3D打印机芯片（x{0} 消音器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619729
+    m_Localized: 3D打印机芯片（x{0} .22弹匣）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619730
+    m_Localized: 3D打印机芯片（x{0} 加长.22弹匣）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619731
+    m_Localized: 3D打印机芯片（x{0} 大容量.22弹匣）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619732
+    m_Localized: 3D打印机芯片（x{0} 10毫米弹匣）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619733
+    m_Localized: 3D打印机芯片（x{0} 加长10毫米弹匣）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619734
+    m_Localized: 3D打印机芯片（x{0} 大容量10毫米弹匣）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619735
+    m_Localized: 水培走私模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619736
+    m_Localized: 一种模组，可以解除所有生长中种子的违禁品状态。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619737
+    m_Localized: 水培芦苇滤芯模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619739
+    m_Localized: 填料草增产水培模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619740
+    m_Localized: 一种以不再产出种子为代价提高填料草产量的模组。其独特效果不影响其他植物，且不可叠加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619741
+    m_Localized: 梦帽菇梦魇化水培模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619742
+    m_Localized: 一种在种植梦帽菇时浓缩其精神活性成分、将其转化为有毒变种“梦魇帽菇”的模组。其独特效果不影响其他植物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619743
+    m_Localized: 梦帽菇中和水培模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619744
+    m_Localized: 一种在种植梦帽菇时中和其全部精神活性成分、将其转化为“食用帽菇”的模组。其独特效果可以叠加，但不影响其他植物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619745
+    m_Localized: 营养果水培模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619746
+    m_Localized: 帕斯泰尔公司生产的模组，可使水培系统在种植营养果时提高产量。其独特效果不影响其他植物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619747
+    m_Localized: 韧棉自动织造水培模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619748
+    m_Localized: 一种在种植韧棉时直接将韧棉纤维织成布料的模组。其独特效果不影响其他植物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619749
+    m_Localized: 蒸发器溶剂回收模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619750
+    m_Localized: 金属打印模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619751
+    m_Localized: 一种让打印机能够使用金属打印芯片的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619765
+    m_Localized: 化学设备模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619766
+    m_Localized: 一种可改进搅拌机、加热板和化学制剂成型机的特殊模组。安装后需要使用模组提取器才能拆除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619770
+    m_Localized: 探险补给箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619771
+    m_Localized: 将补给品和装备放入此箱，供雇工在探险期间使用。未使用的装备会退还给你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619772
+    m_Localized: 主武器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619773
+    m_Localized: 副武器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813824
+    m_Localized: 背包
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813825
+    m_Localized: 韧棉衬垫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813826
+    m_Localized: 由韧棉织物制成的衬垫，可为穿戴者提供一定防护。叠加多层后能够抵御轻武器射击。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813827
+    m_Localized: 专为危险环境中的工人设计，也是拾荒者必不可少的装备。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813828
+    m_Localized: 移除生长中种子的违禁品状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813829
+    m_Localized: 仅回收溶剂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813830
+    m_Localized: 金属打印
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813831
+    m_Localized: 每晚获得+{0}点声望
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813832
+    m_Localized: "投入消耗增加\n-每晚产量增加\n-纯度降低"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813833
+    m_Localized: 将{0}份垃圾转化为{1}份废金属
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813834
+    m_Localized: 水培芦苇滤芯产量+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813835
+    m_Localized: "填料草不再产出种子\n-填料草产量+{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813836
+    m_Localized: 种出的梦帽菇将变为梦魇帽菇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813837
+    m_Localized: "移除梦帽菇的违禁品状态\n-将类型设为食物\n-梦帽菇产量+{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813838
+    m_Localized: 营养果产量+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813839
+    m_Localized: 产出韧棉织物，而非韧棉纤维
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813857
+    m_Localized: 酸性溶液瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813858
+    m_Localized: 警告：具有腐蚀性。请小心处理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813859
+    m_Localized: 可使蛋白质和稳定剂凝聚成团，以便过滤。还可中和碱性物质。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813860
+    m_Localized: 碱性溶液瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813861
+    m_Localized: 警告：具有强腐蚀性。请小心处理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813862
+    m_Localized: 可使蛋白质和稳定剂凝聚成团，以便过滤。还可中和酸性物质。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813863
+    m_Localized: N-羟甲基碱溶液瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813864
+    m_Localized: 一种用途广泛的碱性化合物，常用于合法化工生产，也是常见的芬太前体。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813865
+    m_Localized: 还原剂瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813866
+    m_Localized: 向另一种物质提供电子，从而改变该物质的化学状态。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813867
+    m_Localized: 某些化学反应不可或缺的试剂。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813868
+    m_Localized: 脂合剂瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813869
+    m_Localized: 使油脂凝聚成团，以便轻松过滤。随后可通过蒸发去除这种试剂。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813870
+    m_Localized: 1毫升滴管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813871
+    m_Localized: 用于精确分配少量液体的高精度滴管。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813872
+    m_Localized: 5毫升滴管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813873
+    m_Localized: 25毫升量筒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813874
+    m_Localized: 50毫升量筒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813875
+    m_Localized: 100毫升量筒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510276
+    m_Localized: 搅拌机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510277
+    m_Localized: 一台看起来很不结实的搅拌机。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510278
+    m_Localized: 化学制剂成型机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510279
+    m_Localized: 将化学品加工成药片，或灌装进药剂瓶等容器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510286
+    m_Localized: 蒸发器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510287
+    m_Localized: 一台运作缓慢的机器，每晚会利用低温和干燥空气，使溶液中的液体蒸发。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510288
+    m_Localized: 蒸发器说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510289
+    m_Localized: "[模组影响]：\n效率影响功耗\n性能影响每晚蒸发量\n质量影响蒸气捕获量\n提供电力和水容器后，机器会在夜间运作。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510295
+    m_Localized: 加热板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510296
+    m_Localized: 一台看起来破旧、功率不足且控温不准的加热板。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510307
+    m_Localized: 3D打印机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510308
+    m_Localized: 一台可使用塑料打印多种物品的机器。夜间运作。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510309
+    m_Localized: 3D打印机说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510310
+    m_Localized: "[模组影响]：\n 效率影响功耗\n性能影响打印速度\n 质量影响适用物品的打印质量（系数：0.5）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510311
+    m_Localized: 放入电源、打印机芯片和材料。满足要求后，打印机会在夜间自动运作。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510312
+    m_Localized: 水培系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510313
+    m_Localized: 一套紧凑型水培系统，需要专用电源才能运行。在夜间运作。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510314
+    m_Localized: 水培系统说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510315
+    m_Localized: "[模组影响]：\n 效率影响功耗\n性能影响生长速度（系数：0.5）\n质量影响产量上限（系数：0.5）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510316
+    m_Localized: 放入一个水容器（水越干净越好）、一枚种子，以及一个电量充足的电源。水培系统会在夜间运作。此机器可安装可选模组来增强性能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510329
+    m_Localized: 自动售货机核心
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510330
+    m_Localized: 自动售货机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510331
+    m_Localized: 一台每晚自动出售物品的自动售货机。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510332
+    m_Localized: 物品售价将额外提高10%，并在适用时计入零售加价，但不受事件修正影响。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510333
+    m_Localized: 自动售水机核心
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510334
+    m_Localized: 自动售水机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510335
+    m_Localized: 一台每晚自动售水的机器。只能出售基础水、优质水和纯水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510336
+    m_Localized: 物品售价将额外提高10%，并在适用时计入零售加价，但不受事件修正影响。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806337
+    m_Localized: 韧棉纤维
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806338
+    m_Localized: 传统棉花的改良变种，可织成坚韧耐用、用途广泛的织物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806343
+    m_Localized: 梦帽菇孢子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806344
+    m_Localized: 咖啡豆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806345
+    m_Localized: 一把咖啡豆。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806346
+    m_Localized: 梦帽菇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806347
+    m_Localized: 食用后会引起轻微欣快感和胃痛，是制作梦尘的关键原料。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806348
+    m_Localized: 梦魇帽菇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806349
+    m_Localized: 常见梦帽菇的剧毒变种，可加工成致命毒药。幸存者称，摄入后会产生可怕的幻觉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806350
+    m_Localized: 植物分析仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806351
+    m_Localized: 一种用于分析植物生长状况的专用工具，可借此确定植物的最佳生长条件。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806354
+    m_Localized: 填料草
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806355
+    m_Localized: 一种主要种植于下层区、呈淡黄色的速生叶菜。几乎没有营养价值，通常作为填充料掺进食物，以增加口粮分量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806356
+    m_Localized: 口感软烂，回味微苦。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806357
+    m_Localized: 水培芦苇种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806358
+    m_Localized: 一种不产出食物的功能性作物。水培芦苇在生长过程中会净化其所在水体。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349696
+    m_Localized: 荧光莓种子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349697
+    m_Localized: 一种多年生灌木，结果后不会枯死。保持水质清洁，可以收获品质更好的荧光莓。对种植槽使用短柄斧即可清除植株。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545411469312
+    m_Localized: 食用帽菇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545453412352
+    m_Localized: 经过中和、不再具有精神活性的梦帽菇。合法且可安全食用，无法加工成梦尘。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698507987632128
+    m_Localized: 剥皮刀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380864
+    m_Localized: 资深养殖户的趁手利器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146879209472
+    m_Localized: 工具箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346816
+    m_Localized: 可存放工具。按键盘上的数字键1至9，即可装备相应槽位内的物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346817
+    m_Localized: 相当结实。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199391264768
+    m_Localized: 冰箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430592
+    m_Localized: 可在夜间冰镇饮品。冰镇后的商品可以卖出更高的价格。葡萄酒和未密封的水不受影响。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430593
+    m_Localized: 贝氏优质香草冰淇淋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430594
+    m_Localized: 一种美味零食，按法律分类属于“人工香料调味冷冻乳制品”。不知为何，即使不冷藏也不会融化。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430595
+    m_Localized: 放入冰箱冷冻后，可以更高的价格出售。冷冻过程耗时一夜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298531184640
+    m_Localized: 水罐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298564739072
+    m_Localized: 可装入滤水器，对倒入的水进行过滤，去除部分污染物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279426768896
+    m_Localized: 一口食物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279460323328
+    m_Localized: 一小口食物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289481588736
+    m_Localized: 罗非鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948864
+    m_Localized: 阴沟罗非鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948865
+    m_Localized: 植皮罗非鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948866
+    m_Localized: 常见的养殖鱼。长得快，不怎么挑食，繁殖也省心。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948867
+    m_Localized: 来自下水道的罗非鱼品系。生长较慢，相同饲料下的产肉量也较低，但不怕脏水，饲养期间还能清除水箱中的重金属和化学污染物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948868
+    m_Localized: 经过改造的罗非鱼。相同饲料下的产肉量较低，且需要干净的水。不过，鱼皮经消毒后可用作绷带，未受精的鱼卵则可直接用于敷伤口。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948869
+    m_Localized: 罗非鱼卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948870
+    m_Localized: 阴沟罗非鱼卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948871
+    m_Localized: 植皮罗非鱼卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948872
+    m_Localized: 罗非鱼卵（受精）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948873
+    m_Localized: 阴沟罗非鱼卵（受精）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948874
+    m_Localized: 植皮罗非鱼卵（受精）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948875
+    m_Localized: 罗非鱼苗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948876
+    m_Localized: 阴沟罗非鱼苗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948877
+    m_Localized: 植皮罗非鱼苗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948878
+    m_Localized: 植皮罗非鱼的卵。富含促进皮肤愈合的修复蛋白，所以医护人员都是整窝整窝地买。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948879
+    m_Localized: 罗非鱼植皮片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948880
+    m_Localized: 经过消毒的植皮罗非鱼皮。可止血并使伤口闭合。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948881
+    m_Localized: 鱼肉片（极小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948882
+    m_Localized: 鱼肉片（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948883
+    m_Localized: 鱼肉片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948884
+    m_Localized: 鱼肉片（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948885
+    m_Localized: 鱼类边角料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948886
+    m_Localized: 循环水养殖系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948887
+    m_Localized: 采用封闭式水循环的养鱼设备。需要水箱、电力和用于净水的滤水器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948888
+    m_Localized: 循环水养殖系统水箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948889
+    m_Localized: 循环水养殖系统的储水箱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948890
+    m_Localized: 污泥饲料粒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948891
+    m_Localized: 用阴沟里的污泥压制而成。能为杂食鱼提供廉价的热量，人可吃不得。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421783789568
+    m_Localized: 鳗鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149696
+    m_Localized: 电鳗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149697
+    m_Localized: 鲟鱼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149698
+    m_Localized: 可养殖获取高档鱼肉片，价值远高于其他鱼类。人工饲养时不会繁殖。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149699
+    m_Localized: 一台活体发电机。从亚成年期起，每晚都会为养殖缸的电池和缸旁的每块电池充电，体型越大，发电量越多。人工饲养时不会繁殖。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149700
+    m_Localized: 可养殖获取鱼子酱。鱼还活着时，可用外科手术工具采集鱼卵，也可在宰杀时一次取出全部鱼卵。人工饲养时不会繁殖。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149701
+    m_Localized: 鱼子酱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149702
+    m_Localized: 鲟鱼卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149703
+    m_Localized: 鳗鱼肉片（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149704
+    m_Localized: 鳗鱼肉片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149705
+    m_Localized: 空间站上的一道珍馐。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888699678720
+    m_Localized: 工业鱼饲料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888733233152
+    m_Localized: 工厂大批量生产的鱼饲料，适合杂食性和草食性鱼类。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676618002432
+    m_Localized: DNA数据盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362560
+    m_Localized: 一张空白数据盘。DNA编辑器可将提取出的特性写入其中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362561
+    m_Localized: DNA编辑器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362562
+    m_Localized: 可将DNA数据提取到DNA数据盘中，也可将盘中的特性应用于目标。目标的基因复杂度越高，成功率越低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362563
+    m_Localized: DNA编辑器说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362564
+    m_Localized: DNA编辑器使用方法。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362565
+    m_Localized: "应用：将已写入特性的DNA数据盘放入输入槽，将目标放入目标槽。目标会获得盘中的特性。若目标已具有该特性，则使其提升1级。每次成功应用后，数据盘的可用次数都会减少1次。\n提取：将空白DNA数据盘放入输出槽，将目标放入目标槽。系统会随机将目标的一项特性复制到数据盘上，并销毁目标，除非机器装有基因稳定模组。也可使用已写有目标所具备特性的数据盘代替空白盘，这次提取会增加该盘的使用次数。\n每次编辑都会增加目标的基因热度。热度和复杂度越高，下一次编辑就越慢，风险也越高，这种影响会持续到目标成熟。开启基因扫描仪可查看目标的基因信息。\n模组：基因稳定模组可让目标在提取后保留下来。特性筛选模组可将随机提取范围限定为正面或负面特性。精准提取模组在已写入特性的数据盘上使用后，可定向提取该特性。\n输出：每次操作后，数据盘都会弹出至输出托盘。切换机器开关可改为让数据盘留在原槽位。\n[模组影响]：\n效率影响功耗\n性能影响操作速度（系数0.5）\n质量影响成功率（系数0.5）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362566
+    m_Localized: 基因稳定模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362567
+    m_Localized: 使目标在DNA提取后仍能保留下来，可在不销毁目标的情况下移除特性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362568
+    m_Localized: 提取后保留目标
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362569
+    m_Localized: 正面特性筛选模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362570
+    m_Localized: 仅提取正面特性。目标没有正面特性时，不会提取任何特性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362571
+    m_Localized: 仅提取正面特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362572
+    m_Localized: 负面特性筛选模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362573
+    m_Localized: 仅提取负面特性。目标没有负面特性时，不会提取任何特性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362574
+    m_Localized: 仅提取负面特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362575
+    m_Localized: 精准提取模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362576
+    m_Localized: 对已写入特性的DNA数据盘使用此模组，即可扫描盘中的特性。将模组安装到DNA编辑器后，机器将只提取扫描到的特性。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362577
+    m_Localized: 仅提取已扫描的特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82432951786979328
+    m_Localized: 同时运行多台水分收集器时，每台的产量都会下降。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906176339968
+    m_Localized: 3D打印机芯片（美工刀×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700096
+    m_Localized: 3D打印机芯片（厨刀×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700097
+    m_Localized: 3D打印机芯片（短柄斧×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700098
+    m_Localized: 3D打印机芯片（切肉刀×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700099
+    m_Localized: 3D打印机芯片（战斗匕首×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700100
+    m_Localized: 3D打印机芯片（战斗砍刀×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700104
+    m_Localized: 3D打印机芯片（.22手枪×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700108
+    m_Localized: 3D打印机芯片（“巢火”紧凑型手枪框架）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700109
+    m_Localized: 3D打印机芯片（“铁铸10”手枪框架）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700110
+    m_Localized: 3D打印机芯片（枪械零件）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801482706944
+    m_Localized: 杂物堆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067072
+    m_Localized: 只要你留在店内睡觉、不外出，就会花些时间清理杂物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067073
+    m_Localized: 这堆杂物需要工具才能清理。每件用来清理的工具都会损坏报废。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067074
+    m_Localized: 这堆东西太重，你一个人搬不动。需要选择“杂物清运”夜间服务来清理。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067075
+    m_Localized: 简易微型核反应堆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067076
+    m_Localized: 完好度高于{0}时，可为店铺供电。每晚都会损失完好度，降至0时会爆炸。废金属可恢复{1}点完好度。垃圾可恢复{2}点完好度，但会使完好度上限降低{3}点。每个普通电子元件都能使每晚损失的完好度减少1点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997352247296
+    m_Localized: 鉴定委员会认证证书
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607424
+    m_Localized: 证明你在鉴定委员会的职级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607425
+    m_Localized: 鉴定委员会高级认证证书
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607426
+    m_Localized: 鉴定委员会大师认证证书
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700101
+    m_Localized: 近战武器批量打印模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700102
+    m_Localized: 一种打印机模组，可在每次打印近战武器时额外产出一把武器。打印速度较慢，耗电量较大。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700103
+    m_Localized: 近战武器打印数量+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700105
+    m_Localized: “巢火”紧凑型手枪框架
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700106
+    m_Localized: “铁铸10”手枪框架
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700107
+    m_Localized: 一副尚未完成的枪械框架，装上枪械零件即可组装完成。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700111
+    m_Localized: 计算机数控模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700112
+    m_Localized: 与金属打印模组配合使用后，可让打印机使用枪械框架和枪械零件芯片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700113
+    m_Localized: 计算机数控
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760602595328
+    m_Localized: A Bao A Qu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344064
+    m_Localized: The Wailing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344065
+    m_Localized: Long Star River
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344066
+    m_Localized: Deluge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344067
+    m_Localized: Spellsinger Radio Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344068
+    m_Localized: Golden Lotus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344069
+    m_Localized: Junkyard Jockey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687331373056
+    m_Localized: 枪械霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687343955968
+    m_Localized: 重型枪械霓虹灯牌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274678018048
+    m_Localized: 电流转换器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274715766784
+    m_Localized: 直接从下层区的电网取电，代替电池给任意机器供电。要通电，得支付每晚的“电流转换器”服务费。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056494051328
+    m_Localized: 李北文的奥克莫吸配方
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411456
+    m_Localized: 已激活的塑性炸药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411457
+    m_Localized: 这是卢藏起来的东西。计时器显示，它会在午夜爆炸。你最好赶紧把它拆了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411458
+    m_Localized: 假塑性炸药
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411459
+    m_Localized: 这是卢藏起来的炸弹，不过里面好像根本没装炸药。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411460
+    m_Localized: 共和国旧军令
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411461
+    m_Localized: 一张发黄发脆的纸，看起来被反复折起又展开过很多次。这是一份多年前写给卢的书面命令，顶部仍能看出一枚褪色的共和国印章。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411462
+    m_Localized: "共和国联合特种作战司令部，优先命令\n致：应急响应小队队长 卢\n\n别再拖延时间，立即执行此命令。带领你的小队启动研究船伊卡洛斯号的自毁程序。破坏所有逃生舱，不准任何伊卡洛斯号的幸存者随你的小队一同逃离。照做，否则我就送你上军事法庭。\n\n（签名已褪色，无法辨认。）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411463
+    m_Localized: 卢的玩具箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411464
+    m_Localized: 看起来是用治安部的物证柜改装的。里面的东西最好一样都别碰。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649152
+    m_Localized: 液体好运
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649153
+    m_Localized: 三天内运气百分百暴涨！乔治奥亲口担保！喝起来一股铁锈水味。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649154
+    m_Localized: 儿童背包
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649155
+    m_Localized: 儿童背包（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785493061632
+    m_Localized: 改良内部弹簧组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810368
+    m_Localized: 一套更坚固的内部弹簧，让枪机循环更加可靠。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810369
+    m_Localized: 3D打印机芯片（改良内部弹簧组×{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004867645440
+    m_Localized: 赌徒硬币
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004905394176
+    m_Localized: 一枚早已没人记得的货币。据说能带来好运。不过大多数时候，它只是让你刮彩票更快。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245508415488
+    m_Localized: 给埃莉诺的慰问包裹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387008
+    m_Localized: 一只密封的箱子，装满了来自上层区的高档货。打包的人可真舍得花钱。奇怪的是，你的治安部通报里把它列为失窃物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387009
+    m_Localized: “同步”自动补充神经活性香水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387010
+    m_Localized: 使用后，与当前顾客的交易收益将提升15%。你同时只能获得一种香水效果的增益。会自动补充。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387011
+    m_Localized: “同步”香水的高端版本。瓶盖里的密封储液仓会慢慢合成新的一剂，所以瓶子永远不会真正见底。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387012
+    m_Localized: 储藏区扩建套件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387013
+    m_Localized: 对储藏区使用可增加两个储物标签页，对储藏区（扩建）使用则增加一个。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798324109312
+    m_Localized: 储物协调器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275136
+    m_Localized: 把容器和机器分配到预设里，再给每个预设设一个快捷键，就能一键打开。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275137
+    m_Localized: 电子元件（超科技）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275138
+    m_Localized: 电子技术的最前沿。整个空间站没人造得出来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275139
+    m_Localized: 用于升级某些超科技物品或为其充能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275140
+    m_Localized: 超科技能源单元
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275141
+    m_Localized: 一种实验性的能源单元，本身不储存电量。只要机器的耗电不超过它的额定输出，就能无限期为其供电。耗电超过额定值的机器则完全得不到电力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275142
+    m_Localized: 超科技涡轮增压器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275143
+    m_Localized: 一种由能量电池供能的涡轮增压器。它每个周期都会充能，并储存多余的电量。充满后，可立即完成机器当前的周期。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275144
+    m_Localized: 超科技储藏区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275145
+    m_Localized: 心智重编程器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275146
+    m_Localized: 可以移除或添加某些特性。消耗电子元件（超科技）为它充能。每次使用后都需要一段时间来重置。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356914843648
+    m_Localized: 自动屠宰机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426560
+    m_Localized: 可配置的自动屠宰机。需要安装在动物笼或循环水养殖系统中。每晚将符合设置的动物屠宰后放入托盘。始终忽略用标记笔标记过的动物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426561
+    m_Localized: 威武的绞肉机。请勿爬入。也不要让任何人帮你爬入。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426562
+    m_Localized: 标记笔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426563
+    m_Localized: 用颜色标记一只动物或鱼。自动屠宰机绝不会碰已标记的动物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259386847232
+    m_Localized: 进料斗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401664
+    m_Localized: 可与出料斗连接，并设置为每晚把所在库存中的物品送进出料斗所在的库存。对出料斗使用即可连接，双击进行设置。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401665
+    m_Localized: 出料斗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401666
+    m_Localized: 每晚接收已连接的进料斗送来的物品，放入所在库存。对进料斗使用即可连接，双击立即运行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160964653056
+    m_Localized: 一次性电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818880
+    m_Localized: 一种高容量的一次性能量电池。无法充电。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818881
+    m_Localized: 因其便利，深受上层区青睐。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818882
+    m_Localized: 小瓶酒精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818883
+    m_Localized: 储水罐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818884
+    m_Localized: 大型液体容器。对其使用废金属或金属锭可以扩大容量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89901428357513216
+    m_Localized: 用绷带缠上它，就能做成玻璃刀。绷带不会被消耗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728700862464
+    m_Localized: 共和国发射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833984
+    m_Localized: 共和国特工交给你的一个微型发射器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833985
+    m_Localized: 把它藏进卢会带走的东西里。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833986
+    m_Localized: 一颗子弹，夜里被留在了你的柜台上。弹壳上刻着“{0}”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833987
+    m_Localized: 卢的储物柜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833988
+    m_Localized: 空的，没上锁，等着你。装满它，关店时把它留在前柜台上。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

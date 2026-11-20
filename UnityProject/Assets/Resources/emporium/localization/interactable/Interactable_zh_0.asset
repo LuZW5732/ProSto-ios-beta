@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Interactable_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 7540798a912f50741b83e3dc0e1e9ffb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 292150886400
+    m_Localized: 离开店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 513538834432
+    m_Localized: 已经太晚了，现在哪里都去不了了……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834927378432
+    m_Localized: 营业结束前你不能离开店铺！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972131450880
+    m_Localized: 戒严查抄期间你不能离开店铺！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1160036270080
+    m_Localized: 受重伤时你无法离开店铺！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10070226944000
+    m_Localized: 打开电话界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10956307218432
+    m_Localized: 售水机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10909502980096
+    m_Localized: 自动贩卖机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55379932566306816
+    m_Localized: 顾客视窗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468416
+    m_Localized: 广场恐惧症让你不敢离开店铺！还需在这里休息{0}晚，才能再次外出。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468417
+    m_Localized: 广场恐惧症让你不敢离开店铺！明天就能再次外出了。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

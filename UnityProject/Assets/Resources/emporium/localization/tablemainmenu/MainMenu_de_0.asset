@@ -1,0 +1,835 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: MainMenu_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 108c79e8fb1700744a0a88cc8a3389bf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 128057131008
+    m_Localized: Neues Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27025948327936
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26937549176832
+    m_Localized: Spiel laden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27007459835904
+    m_Localized: Optionen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393761192820736
+    m_Localized: Spiel beenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414435592519680
+    m_Localized: Unser Discord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415424718454784
+    m_Localized: Acknowledgement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415526723928064
+    m_Localized: Community Contributors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415597255344128
+    m_Localized: Schließen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415661109428224
+    m_Localized: Thanks to all our community members for their support!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418489995509760
+    m_Localized: Lead Developer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418544991223808
+    m_Localized: Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422978999697408
+    m_Localized: Gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423044611194880
+    m_Localized: Nächsten Kunden autom. aufrufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423139700260864
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423175637057536
+    m_Localized: Anzeige
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423212513378304
+    m_Localized: Deine Bildschirmauflösung wird im Vollbildmodus nicht vollständig unterstützt. Das Spiel wird im Vollbildmodus mit einem schwarzen Balken dargestellt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423323075231744
+    m_Localized: Auflösung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423377332748288
+    m_Localized: Vollbild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423449676103680
+    m_Localized: Dialog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423491417817088
+    m_Localized: Dialoggeschwindigkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423542080815104
+    m_Localized: Dialoglautstärke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423659152228352
+    m_Localized: Übernehmen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424598437249024
+    m_Localized: Allgemeine Lautstärke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425290828759040
+    m_Localized: Willkommen auf den Unterdecks!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425310856560640
+    m_Localized: Community-Feedback ist uns immer sehr wichtig. Komm auf unseren Discord, werde Teil unserer Community und hilf uns, die Entwicklung von Probably Stolen mitzugestalten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427776507527168
+    m_Localized: Willkommen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427886381514752
+    m_Localized: Schwerer Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427924532903936
+    m_Localized: Intro überspringen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1428966523846656
+    m_Localized: Spiel starten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791467572740096
+    m_Localized: Lädt …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49680125533143040
+    m_Localized: Endlos-Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63469971271630848
+    m_Localized: Dialog autom. fortsetzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68914510270611456
+    m_Localized: Musiklautstärke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217292363907072
+    m_Localized: Art Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260403609419776
+    m_Localized: Sound Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260471221600256
+    m_Localized: Composer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262198301769728
+    m_Localized: With thanks to the developers of the games that inspired Probably Stolen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262222729396224
+    m_Localized: Additional sound effects from Zapsplat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264139253694464
+    m_Localized: Laden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264686660698112
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264698710933504
+    m_Localized: Nein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992209629954048
+    m_Localized: With thanks to Bowen Peng for his technical contributions!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98258866009849856
+    m_Localized: Character Artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992394410016768
+    m_Localized: Development Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041827549593600
+    m_Localized: Startvorteile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041931161485312
+    m_Localized: 'Verfügbare Vorteile:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101042014783324160
+    m_Localized: 'Ausgewählte Vorteile:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053347759177728
+    m_Localized: Überspringe alle Einführungen und Kundentutorials. Der gesamte Content wird sofort freigeschaltet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053534732861440
+    m_Localized: "- Kein Verkaufsaufschlag beim Verkauf\n- Du startest ohne Mietaufschub\n- Bestimmte Dienste kosten mehr\n- Die Miete erhöht sich um das Doppelte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053623253647360
+    m_Localized: Bestimmte geskriptete Events und Kunden spawnen nicht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112030429184
+    m_Localized: 'Eingesetzte Vorteilspunkte: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112034623488
+    m_Localized: 'Gesamtvorteile: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103629527129571328
+    m_Localized: In der Demo nicht verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457938636800
+    m_Localized: Auf die Wunschliste setzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457959608320
+    m_Localized: Feedback geben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892356329472
+    m_Localized: Hilf uns, das Spiel zu verbessern, indem du anonyme Gameplay-Daten mit uns teilst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892381495296
+    m_Localized: Gameplay-Daten teilen, um bei der Verbesserung des Spiels zu helfen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123860245336080384
+    m_Localized: Schreibmaschineneffekt aktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125321176029118464
+    m_Localized: Startvorteile sind im ersten Durchgang nicht verfügbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125426057079472128
+    m_Localized: Möchtest du das Intro wirklich überspringen? Das Tutorial ist extrem empfehlenswert für neue Spieler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128916364517490688
+    m_Localized: Möchtest du wirklich mit diesem Startszenario beginnen? Der Lehrling ist empfehlenswert für neue Spieler.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137315070048518144
+    m_Localized: Bestätigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328426020864
+    m_Localized: Optional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328459575296
+    m_Localized: Oder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148594413932429312
+    m_Localized: Dieser Spielstand wurde mit einer anderen Sprache ({0}) als der aktuell ausgewählten ({1}) begonnen. Der Text wird möglicherweise an manchen Stellen fehlerhaft angezeigt. Trotzdem laden?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156521139916292096
+    m_Localized: Mods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202098683904
+    m_Localized: FPS-Maximum (minimiert)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044032
+    m_Localized: Sofort Kunden wegschicken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044033
+    m_Localized: Sofort Security rufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044034
+    m_Localized: Sofort nächsten Kunden aufrufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744927363072
+    m_Localized: Das war der Playtest von Probably Stolen! Danke, dass du unser Spiel ausprobiert hast. Die offizielle Demo ist ab sofort auf Steam mit der neuesten Version des Spiels verfügbar. Deine Spielstände werden automatisch für die Demo übernommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744956723200
+    m_Localized: Demo spielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014241841152
+    m_Localized: 'Deaktivieren: Sortieren des Menüs via Rechtsklick'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395584
+    m_Localized: 'Aktivieren: Automatische Drehung beim Sortieren'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395585
+    m_Localized: Einmal klicken, um mit Gegenstand zu interagieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395586
+    m_Localized: Einmal klicken, um Gegenstand zu aktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395587
+    m_Localized: Tastenbelegung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395588
+    m_Localized: Festgehaltenen Gegenstand im Uhrzeigersinn drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395589
+    m_Localized: Festgehaltenen Gegenstand gegen den Uhrzeigersinn drehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395590
+    m_Localized: Festgehaltenen Gegenstand umdrehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395591
+    m_Localized: Ausrichtung des festgehaltenen Gegenstands zurücksetzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395592
+    m_Localized: Gegenstand in Mülleimer platzieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395593
+    m_Localized: Sortieren-Menü öffnen (beim Hovern über leerem Feld)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395594
+    m_Localized: Schnelltransfer ins Inventar (halten + klicken)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395595
+    m_Localized: Schnelltransfer ins Schaufenster (halten + klicken)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395596
+    m_Localized: Schnelltransfer ins Lager (halten + klicken)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395597
+    m_Localized: Anpinnen-Modus (Gegenstände zum Anpinnen/Entfernen anklicken)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395598
+    m_Localized: Optionen öffnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395599
+    m_Localized: Steuerungstipps an/aus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395600
+    m_Localized: Dialog fortsetzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395601
+    m_Localized: Werkzeugkasten-Platz {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395602
+    m_Localized: –
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395603
+    m_Localized: Taste drücken …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395604
+    m_Localized: Drücke eine Taste oder drücke Escape, um den Vorgang abzubrechen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395605
+    m_Localized: '{0} kann nicht belegt werden. Drücke eine andere Taste.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395606
+    m_Localized: '{0} wird bereits für {1} verwendet. Drücke eine andere Taste.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959590076416
+    m_Localized: Spezialisierung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436544
+    m_Localized: Starte mit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436545
+    m_Localized: Weiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436546
+    m_Localized: Die Einführung ist für diese Spezialisierung nicht verfügbar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436547
+    m_Localized: Wähle Nachteile, um Punkte zu erhalten, die du für Vorteile ausgeben kannst. Manche Vor- und Nachteile schließen sich gegenseitig aus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436548
+    m_Localized: 'Verfügbare Vorteilspunkte: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436549
+    m_Localized: 'Vorteile: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436550
+    m_Localized: Schwierigkeitsgrad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436551
+    m_Localized: Wucherpreise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436552
+    m_Localized: Gemütlicher Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436553
+    m_Localized: Preisaufschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436554
+    m_Localized: Normaler Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436555
+    m_Localized: Geringer Profit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436556
+    m_Localized: Schwerer Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436557
+    m_Localized: Rote Zahlen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436558
+    m_Localized: Ultraschwerer Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436559
+    m_Localized: Kein Verkaufsaufschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436560
+    m_Localized: '{0} % Verkaufsaufschlag'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436561
+    m_Localized: Miete erhöht sich jedes Mal um {0} %
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436562
+    m_Localized: Standardgebühren für nächtlichen Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630848
+    m_Localized: Höhere Gebühren für nächtlichen Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630849
+    m_Localized: Niedrigere Gebühren für nächtlichen Service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630850
+    m_Localized: 'Preis der Händlergenehmigung: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630851
+    m_Localized: Standardpreise für Verbesserungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630852
+    m_Localized: Verbesserungen kosten {0} % mehr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630853
+    m_Localized: Verbesserungen kosten {0} % weniger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630854
+    m_Localized: Standard-Lieferantenaufschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630855
+    m_Localized: Lieferant berechnet höheren Aufschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630856
+    m_Localized: Lieferant berechnet niedrigeren Aufschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630857
+    m_Localized: Standard-Immobilienpreis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630858
+    m_Localized: Höherer Immobilienpreis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630859
+    m_Localized: Niedrigerer Immobilienpreis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630860
+    m_Localized: Ansehen steigt ums {0}-Fache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630861
+    m_Localized: Ansehen sinkt ums {0}-Fache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630862
+    m_Localized: Standard-Gefallen von Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630863
+    m_Localized: Mehr Gefallen von Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630864
+    m_Localized: Weniger Gefallen von Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786102989209600
+    m_Localized: Hintergrundlautstärke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764032
+    m_Localized: Verhandlungsfenster autom. öffnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764033
+    m_Localized: Einmal klicken, um Gegenstand zu bestätigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171368485997035520
+    m_Localized: Auswählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182605126153584640
+    m_Localized: UI Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709276405760
+    m_Localized: Mod-Namen in Gegenstands-Tooltips anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709318348800
+    m_Localized: Mod-Namen in Diktiergerät anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693632
+    m_Localized: Neuesten laden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693633
+    m_Localized: Abbrechen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693634
+    m_Localized: Spielstand löschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693635
+    m_Localized: Spielstanddatei nicht gefunden. Der Eintrag wurde entfernt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693636
+    m_Localized: 'Version: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693637
+    m_Localized: '{0} (Kopie)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693638
+    m_Localized: Der Spielstand konnte nicht kopiert werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693639
+    m_Localized: Im Speicherordner wurde keine neue Spielstanddatei gefunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693640
+    m_Localized: '{0:plural:{} Spielstanddatei wurde|{} Spielstanddateien wurden} zur Liste hinzugefügt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693641
+    m_Localized: Gespeicherte Tage pro Durchgang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693642
+    m_Localized: 'Gesperrt durch Vorteil: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189602199839227904
+    m_Localized: Zeitung in den Mülleimer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189604507520122880
+    m_Localized: Du bist dabei, einen Spielstand aus der Demo zu laden. Der Spielstand ist kompatibel, aber du wirst <color=#CC4849><b>die Geschichten der neuen Charaktere und andere neue Inhalte verpassen</b></color>, und das Spiel <color=#CC4849><b>könnte instabil laufen</b></color>. Wir <color=#CC4849><b>empfehlen dringend, ein neues Spiel zu beginnen</b></color>. Trotzdem laden?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189909383209533440
+    m_Localized: FPS-Maximum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464770031616
+    m_Localized: VSync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464807780352
+    m_Localized: Nächsten Kunden aufrufen (Klingel)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190649068024328192
+    m_Localized: Escape (Alternativtaste)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611836174336
+    m_Localized: Localization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505984
+    m_Localized: Director & Project Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505985
+    m_Localized: Community Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505986
+    m_Localized: Team Mascot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505987
+    m_Localized: Publishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505988
+    m_Localized: CEO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505989
+    m_Localized: Chief Financial Officer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505990
+    m_Localized: Executive Assistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505991
+    m_Localized: Director of Business Development and Partner Licensing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505992
+    m_Localized: Sales Director
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505993
+    m_Localized: Head of Publishing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505994
+    m_Localized: Executive Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505995
+    m_Localized: Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505996
+    m_Localized: Associate Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505997
+    m_Localized: Senior Marketing Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505998
+    m_Localized: Marketing Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505999
+    m_Localized: Head of Influencer Management
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506000
+    m_Localized: Senior Influencer Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506001
+    m_Localized: Senior Community Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506002
+    m_Localized: Social Media Marketing Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506003
+    m_Localized: User Acquisition Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506004
+    m_Localized: Porting Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506005
+    m_Localized: LiveOps Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506006
+    m_Localized: Head of Development Services
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506007
+    m_Localized: Release Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506008
+    m_Localized: Localization Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506009
+    m_Localized: Discord Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506010
+    m_Localized: Customer Support Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506011
+    m_Localized: QA Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506012
+    m_Localized: Head of Media Production
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506013
+    m_Localized: Media Project Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506014
+    m_Localized: Trailer Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506015
+    m_Localized: Video Editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506016
+    m_Localized: Graphic Designer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506017
+    m_Localized: Head of HR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506018
+    m_Localized: System Administrator / DevOps Engineer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506019
+    m_Localized: Popkultur-Figuren deaktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506020
+    m_Localized: Gekaufte Waren ins Inventar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506021
+    m_Localized: Größe der Sprechblasen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762898788352
+    m_Localized: Der neueste Spielstand von {0} war beschädigt (der Computer wurde während des Schreibens ausgeschaltet) und wurde beiseitegelegt. Der Durchgang geht ab Tag {1} weiter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342784
+    m_Localized: Der Spielstand von {0} war beschädigt (der Computer wurde während des Schreibens ausgeschaltet), und es ist kein früherer Tag mehr übrig. Seine Dateien wurden im Speicherordner beiseitegelegt, nicht gelöscht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342785
+    m_Localized: Diese Spielstanddatei ist beschädigt (der Computer wurde während des Schreibens ausgeschaltet) und kann nicht geladen werden. Sie wurde im Speicherordner beiseitegelegt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342786
+    m_Localized: Anzeige nach Alt-Tab wiederherstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342787
+    m_Localized: Gegenstandsmenü, Abbrechen (Rechtsklick)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342788
+    m_Localized: Gegenstand umdrehen (Alternativtaste)
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

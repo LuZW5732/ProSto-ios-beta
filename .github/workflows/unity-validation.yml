@@ -1,0 +1,55 @@
+name: Validate recovered Unity project
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - name: Check activation secrets
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        run: |
+          for key in UNITY_LICENSE UNITY_EMAIL UNITY_PASSWORD; do
+            if [ -z "${!key}" ]; then
+              echo "::error::Missing Actions secret: $key"
+              exit 1
+            fi
+          done
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Check staged project
+        run: |
+          test -f UnityProject/ProjectSettings/ProjectVersion.txt
+          test -f UnityProject/Assets/Editor/PortValidation.cs
+      - uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: UnityProject
+          unityVersion: 2021.3.45f2
+          cacheUnityInstallationOnMac: true
+          targetPlatform: iOS
+          buildMethod: PortValidation.Run
+          versioning: None
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: unity-import-validation
+          path: |
+            UnityProject/PortReports
+            UnityProject/Logs
+            PortReports
+            build
+            UnityProject/Editor.log
+          retention-days: 7
+          if-no-files-found: warn

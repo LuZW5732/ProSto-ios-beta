@@ -1,0 +1,791 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: ClientName_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 0f73c9b3c9862ca48930eda417854e69, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1256899526656
+    m_Localized: アシシュ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1293192839168
+    m_Localized: コールソン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1385803071488
+    m_Localized: デール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1402513178624
+    m_Localized: オーディン・ハラルドソン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1490727780352
+    m_Localized: ルン警部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1565721935872
+    m_Localized: ジョー・ワイルド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1601390297088
+    m_Localized: ソイヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1638467944448
+    m_Localized: 師匠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662761353216
+    m_Localized: 大家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2041150488576
+    m_Localized: ジョルジオ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070660967415808
+    m_Localized: ジョー・ワイルドの助手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070596811341824
+    m_Localized: レッド・インプ代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393252068704256
+    m_Localized: ジェームズ・ベイリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393311434883072
+    m_Localized: アーサー・ラフルール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394096562454528
+    m_Localized: ルー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394134080503808
+    m_Localized: リー・ベイウェン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394240880066560
+    m_Localized: ジュアン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394291748585472
+    m_Localized: ジョン・スミス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394655776423936
+    m_Localized: ルロイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396315055669248
+    m_Localized: チェンおじいさん
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396442461847552
+    m_Localized: 技師長ネリス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396618454843392
+    m_Localized: 警備見習いセルピコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396678919929856
+    m_Localized: エレノア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505600
+    m_Localized: グルメ観光客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505601
+    m_Localized: 泥棒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505602
+    m_Localized: 下層世界の市民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505603
+    m_Localized: 下層世界の市民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505604
+    m_Localized: 警察
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527839547392
+    m_Localized: 漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130304
+    m_Localized: 下層世界の労働者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130305
+    m_Localized: 肉屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990354276352
+    m_Localized: 市民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470656
+    m_Localized: 必死の中毒者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470657
+    m_Localized: 遠征隊の仕入れ先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470658
+    m_Localized: 空腹の宇宙族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470659
+    m_Localized: 負傷した宇宙族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470660
+    m_Localized: 下層世界の医者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664960
+    m_Localized: 下層世界の修理人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664961
+    m_Localized: 下層世界の発明家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664962
+    m_Localized: 下層世界の親
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664963
+    m_Localized: 整備員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664964
+    m_Localized: 中堅看護師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664965
+    m_Localized: 民間警察の業者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664966
+    m_Localized: 漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664967
+    m_Localized: スクラップの買い手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664968
+    m_Localized: 護身術マニア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664969
+    m_Localized: 病気の子供の世話人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664970
+    m_Localized: 宇宙族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664971
+    m_Localized: 料理人の宇宙族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664972
+    m_Localized: ステーションの技師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664973
+    m_Localized: 喉が渇いた宇宙族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664974
+    m_Localized: 上層世界の病院の仕入れ先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664975
+    m_Localized: 上層世界の民間シェフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664976
+    m_Localized: 上層世界の使用人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664977
+    m_Localized: 水の買い手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664978
+    m_Localized: 疲弊した宇宙族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664979
+    m_Localized: 若い宇宙族
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664980
+    m_Localized: 配達人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664981
+    m_Localized: GP採掘の配達人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664982
+    m_Localized: 下層世界の武器商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664983
+    m_Localized: 下層世界の商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664984
+    m_Localized: 下層世界の行商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664985
+    m_Localized: 傭兵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664986
+    m_Localized: レッド・インプの配達人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664987
+    m_Localized: 革命家の戦士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664988
+    m_Localized: スクラップ取引人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664989
+    m_Localized: 怪しい中毒者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664990
+    m_Localized: ずる賢い取引人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664991
+    m_Localized: 張り詰めた住民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664992
+    m_Localized: 上層世界の市民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664993
+    m_Localized: 不安そうな住民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149120589824
+    m_Localized: 困った技師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978432
+    m_Localized: カルテルの担当者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978433
+    m_Localized: カルテルの兵士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978434
+    m_Localized: 陰謀論者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978435
+    m_Localized: 企業の廃棄物管理者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978436
+    m_Localized: 取引人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978437
+    m_Localized: 必死の恋人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978438
+    m_Localized: 水耕農家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978439
+    m_Localized: 下層世界の看護師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978440
+    m_Localized: 下層世界の長老
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978441
+    m_Localized: 採掘人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978442
+    m_Localized: 年老いた漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978443
+    m_Localized: 革命家の補給係
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978444
+    m_Localized: 革命家の襲撃者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978445
+    m_Localized: サルベージ船の操縦士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978446
+    m_Localized: 怪しい農家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978447
+    m_Localized: 下層世界の病気の市民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978448
+    m_Localized: 病気の漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978449
+    m_Localized: 負傷した男性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978450
+    m_Localized: 怒った市民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978451
+    m_Localized: 物乞い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978452
+    m_Localized: 恐喝者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978453
+    m_Localized: 診療所のボランティア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978454
+    m_Localized: 企業の代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978455
+    m_Localized: 農家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978456
+    m_Localized: 食品の買い手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978457
+    m_Localized: 親方
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978458
+    m_Localized: 氷の採掘人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978459
+    m_Localized: 混乱した店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978460
+    m_Localized: 薬剤師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978461
+    m_Localized: 引退した化学者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978462
+    m_Localized: 引退した農家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978463
+    m_Localized: 引退した銃工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978464
+    m_Localized: 引退した廃品商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978465
+    m_Localized: 引退した水商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978466
+    m_Localized: 怪しい客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978467
+    m_Localized: 上層世界の住民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978468
+    m_Localized: 暴徒のリーダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978469
+    m_Localized: 殺し屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978470
+    m_Localized: カルテルの殺し屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978471
+    m_Localized: 中毒者の漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978472
+    m_Localized: 貧しい漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978473
+    m_Localized: 中毒者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978474
+    m_Localized: 下層世界の化学者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978475
+    m_Localized: 師匠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978476
+    m_Localized: ジョー・ワイルド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978477
+    m_Localized: ルン警部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978478
+    m_Localized: 鑑定委員会のメンバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978479
+    m_Localized: 非番の警察
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978480
+    m_Localized: ローン事務員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978481
+    m_Localized: ジャックソン博士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978482
+    m_Localized: スクラップ業者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978483
+    m_Localized: 大家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978484
+    m_Localized: 商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978485
+    m_Localized: 上層世界のボランティア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978486
+    m_Localized: 高利貸し
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978487
+    m_Localized: 仕入れ先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978489
+    m_Localized: 怪しい商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978491
+    m_Localized: 警察の調達部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978493
+    m_Localized: ステーションの観光客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978494
+    m_Localized: 上層世界の薬剤師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978495
+    m_Localized: 廃品商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978497
+    m_Localized: 食品泥棒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978498
+    m_Localized: 物資販売人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978499
+    m_Localized: 傭兵の買い物客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978500
+    m_Localized: 青白い漁り屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978502
+    m_Localized: 検査員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978503
+    m_Localized: 取引委員会の役人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978504
+    m_Localized: 上層世界の訪問者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978505
+    m_Localized: 怪しい検査員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978506
+    m_Localized: 怠慢な検査員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978507
+    m_Localized: フードバンクの仕入れ先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978508
+    m_Localized: 宝くじの代表
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978509
+    m_Localized: 怪しい買い手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978510
+    m_Localized: 希少品商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978512
+    m_Localized: 下層世界の銃工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978513
+    m_Localized: 泥棒の買い物客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172736
+    m_Localized: 観光客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172737
+    m_Localized: 水商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172738
+    m_Localized: コソ泥
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784342097920
+    m_Localized: pastel社
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875136
+    m_Localized: Carmicheal製薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875137
+    m_Localized: Davre食品社
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875138
+    m_Localized: MNSLホールディングス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875139
+    m_Localized: Eminence電力会社
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875140
+    m_Localized: Eninence電力会社
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875141
+    m_Localized: 共和国第13デザイン局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875142
+    m_Localized: 共和国海軍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875143
+    m_Localized: Neural教会
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875144
+    m_Localized: Neuralセキュリティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875145
+    m_Localized: 社会主義戦線
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875146
+    m_Localized: Sokolov重工業
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875147
+    m_Localized: ワンヴィジョン・ラボ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875148
+    m_Localized: Zhonghua造船
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875149
+    m_Localized: スペーサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875150
+    m_Localized: Meridian弾道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875151
+    m_Localized: Echelon戦術システム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875152
+    m_Localized: ブルーシールド弾薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875153
+    m_Localized: フロンティア・アームズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875154
+    m_Localized: Ashvin医薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875155
+    m_Localized: Solanaバイオジェニックス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875156
+    m_Localized: A.L.I.S.O.N.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732051034112
+    m_Localized: 下層世界
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422720
+    m_Localized: 上層世界
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422721
+    m_Localized: 警察
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422722
+    m_Localized: 闇市場
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422723
+    m_Localized: 革命家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102613085076635648
+    m_Localized: 企業検査員
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103108984169086976
+    m_Localized: ゴミ捨て場
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107368985712705536
+    m_Localized: 引退したネズミ飼育者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101362749440
+    m_Localized: 引退したワイン醸造家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101396303872
+    m_Localized: 上層世界の快楽主義者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422724
+    m_Localized: セクター13カルテル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177674309933514752
+    m_Localized: 引退した水産業者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183888579314630656
+    m_Localized: 転売屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184153730559295488
+    m_Localized: M. Harvey Bee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186448655309127680
+    m_Localized: 開封マニア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265071149056
+    m_Localized: エレノアのおじ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265100509184
+    m_Localized: 闇市場のチンピラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186991818453073920
+    m_Localized: ハイパーテックの密輸屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189734698179411968
+    m_Localized: 共和国の工作員
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

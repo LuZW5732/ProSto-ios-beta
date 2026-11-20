@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: FontLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 933.96686, y: 520.3471, z: 0.96596754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319eeb00d8dac15fa289e0a150cdb596, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  westernFont: {fileID: 11400000, guid: d663ce0512d7c8f4bb12450427bf79a7, type: 2}
+  japaneseFont: {fileID: 11400000, guid: 15c201da6c0060a4f8b33efb35f20c40, type: 2}
+  koreanFont: {fileID: 11400000, guid: 1953402277dc94e4da03f52e3dfdd811, type: 2}
+  simplifiedChineseFont: {fileID: 11400000, guid: d738c011aae3ae54cb9e0df42fa82d0a, type: 2}
+  simplifiedChineseHandwrittenFont: {fileID: 11400000, guid: 9e20d17ebe848bb4b9587a2f580ffc0c, type: 2}
+  koreanHandwrittenFont: {fileID: 11400000, guid: 463577c5b6a91c64588e6a912c51bf6e, type: 2}
+  koreanScifiFont: {fileID: 11400000, guid: 32ee5face72d83a468a1c5ebdb225545, type: 2}
+  japaneseHandwrittenFont: {fileID: 11400000, guid: efda9645630692c44a865a2b3ca5008e, type: 2}
+  japaneseScifiFont: {fileID: 11400000, guid: 48eb29198269be0439b520291afeb8bf, type: 2}
+  notoSans: {fileID: 11400000, guid: d663ce0512d7c8f4bb12450427bf79a7, type: 2}
+  notoSans_Normal: {fileID: 11400000, guid: aea1ea52ab09d84479fb8dd5cf14efd5, type: 2}
+  notoSerif: {fileID: 11400000, guid: ed408994f22c1eb49bb35758beca95e4, type: 2}
+  notoSerif_Medium: {fileID: 11400000, guid: 5d9f6802ac9197b4cb06a6a203ee983e, type: 2}
+  rubik: {fileID: 11400000, guid: f54482907459e7d40b8784d5de7e9841, type: 2}
+  caveat: {fileID: 11400000, guid: 30d860e1133871f4c8fdabc63bb835e3, type: 2}
+  lubrifont: {fileID: 11400000, guid: 4dec85497a91e8c40b8313d871c9a7c0, type: 2}
+  tektur: {fileID: 11400000, guid: 907f5590a84fa3d4fa717cb75aebc26f, type: 2}
+  tektur_Bold: {fileID: 11400000, guid: 7e83fc9f2818fbd46aee7fa2ab7badbc, type: 2}
+  notoSans_Bold: {fileID: 11400000, guid: 4d1c2cab696c5f946a7dfbc16f17d670, type: 2}
+  notoSerif_Bold: {fileID: 11400000, guid: 7e83fc9f2818fbd46aee7fa2ab7badbc, type: 2}
+  polishDisplayFont: {fileID: 11400000, guid: f9da0ef993d8d6f4fb7c523c46ca5b19, type: 2}

@@ -1,0 +1,3245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 8733b0844cf071443a46f0df4a075d09, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 5621084498384125957
+  m_TableData:
+  - m_Id: 55710344593408
+    m_Localized: 再開
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55727805480960
+    m_Localized: チュートリアルオーバーレイ（O）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55768439898112
+    m_Localized: 設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55807065243648
+    m_Localized: メインメニュー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55856922935296
+    m_Localized: 終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58797314588672
+    m_Localized: 現在のクレジット数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59349180137472
+    m_Localized: お待ちください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59446253109248
+    m_Localized: 残りの客を全員帰らせて1日を終える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59613819748352
+    m_Localized: 重要な人が並んでいるため、まだ1日を終えられない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59636871643136
+    m_Localized: 1日を始める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59652143104000
+    m_Localized: 1日が終わった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60775671316480
+    m_Localized: カレンダーを見る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62907535376384
+    m_Localized: タブレットを開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63130466828288
+    m_Localized: 今は次の客を呼び出せない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63189254193152
+    m_Localized: 店を閉めたため、次の客を呼び出せない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63233680261120
+    m_Localized: 今いる客を帰らせて次の客を呼び出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63266530050048
+    m_Localized: 今は客を帰せない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63322666614784
+    m_Localized: 次の客を呼び出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64156087402496
+    m_Localized: '{count}人の客が並んでいる。'
+    m_Metadata:
+      m_Items:
+      - rid: 5621084498384125957
+  - m_Id: 77168739401728
+    m_Localized: すべてのアイテムを移動させる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77365632614400
+    m_Localized: 今は客を帰せない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77786434551808
+    m_Localized: 次の客を呼び出さずに今いる客を帰らせる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78076277735424
+    m_Localized: 今いる客はすでに通報した
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78589987700736
+    m_Localized: 今いる客は通報できない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78608509747200
+    m_Localized: 警察に助けを求める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79608394072064
+    m_Localized: レコーダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79732914569216
+    m_Localized: ご意見箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79830084009984
+    m_Localized: 寝る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79925714141184
+    m_Localized: 店を開けている間は寝れない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79972023451648
+    m_Localized: 今は寝れない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174603755110400
+    m_Localized: Saving...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578349003980800
+    m_Localized: WANTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578396634497024
+    m_Localized: 警察
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578957761069056
+    m_Localized: 保安部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579052590088192
+    m_Localized: 警察の記録
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579553721335808
+    m_Localized: プロフィール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579670658531328
+    m_Localized: 名前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579693173555200
+    m_Localized: 場所
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579716393222144
+    m_Localized: 職業
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579789374111744
+    m_Localized: 担当者のメモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579754880155648
+    m_Localized: 疑いのある犯罪行為
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580455396032512
+    m_Localized: 店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580519317225472
+    m_Localized: 下層世界
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580721717559296
+    m_Localized: 商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580866337161216
+    m_Localized: 追加情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581231879143424
+    m_Localized: 推奨措置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581300363739136
+    m_Localized: 担当者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581591477796864
+    m_Localized: 進行中の作戦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581674730536960
+    m_Localized: 捜査の進捗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581707546771456
+    m_Localized: 予想判決
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581860617895936
+    m_Localized: ///社外秘///配布禁止///
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93587912008712192
+    m_Localized: SCRATCH 2 WIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588131404365824
+    m_Localized: 当選パターン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588417753694208
+    m_Localized: 2マッチ＝10クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588465635868672
+    m_Localized: 3マッチ＝75クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588481234485248
+    m_Localized: ニュートリフルーツ2マッチ＝30クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588581063114752
+    m_Localized: ニュートリフルーツ3マッチ＝350クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598206919491584
+    m_Localized: ワイルド・ネットワーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598467398352896
+    m_Localized: アンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96051782333808640
+    m_Localized: ラベラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96052992709279744
+    m_Localized: ステーション取引委員会
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053216886439936
+    m_Localized: 「Hemingway」の真正性についての手引き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053359593439232
+    m_Localized: 'ステーションでは「Hemingway」の偽造タバコが流通しています。偽物は品質、価格ともに正規品の「Hemingway」のタバコよりも著しく低くなっています。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053451670994944
+    m_Localized: 文字の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054067961053184
+    m_Localized: 違いは一目瞭然です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053659368734720
+    m_Localized: ロゴの問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053957164318720
+    m_Localized: 色の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053984980942848
+    m_Localized: セキュリティシールの問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054690999746560
+    m_Localized: パッケージ上のスペルミス、文字のずれ、印刷品質のムラ、色やフォントの違い、文字の欠落などは偽造品である証拠です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054818166849536
+    m_Localized: 正
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054861590478848
+    m_Localized: フォント違い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054893702070272
+    m_Localized: スペル違い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056281177833472
+    m_Localized: カラーカードを使って比較してください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054988258459648
+    m_Localized: 偽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054942020452352
+    m_Localized: 誤りの例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056565048328192
+    m_Localized: 「Hemingway」のタバコは、セキュリティシールが貼られていない状態で販売されることはありません。セキュリティシールが欠けているか破損している場合は、偽造品です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057260392628224
+    m_Localized: フードスタンプの真正性についての手引き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057349144100864
+    m_Localized: 共和国の手厚い福祉施策の一環として、下層世界の困窮者に対してフードスタンプが定期的に配布されています。これは共和国が支援している店舗で生活必需品を買う際に使用できますが、下層世界では偽物のフードスタンプも少なからず存在しています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057513896361984
+    m_Localized: スペルミス、明かな文字のずれに注目してください。色やフォントの違い、文字の欠落も偽物によく見られる特徴です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057755253391360
+    m_Localized: （ロゴが欠落している場合は偽物）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058034761809920
+    m_Localized: フードスタンプは160クレジット以上の場合、セキュリティシールが貼られます。160クレジット未満の場合は貼られません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058168140677120
+    m_Localized: スタンプの価格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058204379463680
+    m_Localized: "フードスタンプは、以下の価格でのみ発行されます。\n40クレジット、80クレジット、\n120クレジット、160クレジット、\n200クレジット、240クレジット"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058228136001536
+    m_Localized: チップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058254006468608
+    m_Localized: 'フードスタンプには必ずチップが内蔵されています。チップが欠けているか破損している場合は、正規品であっても使用できません。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059018745528320
+    m_Localized: 「Immunivax」注射器使用の手引き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059108805623808
+    m_Localized: 不治の自己免疫疾患「センチネル崩壊症候群」に伴う症状を一時的に和らげるため開発された、高精度の免疫調整剤です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059345028825088
+    m_Localized: 表示の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059529305571328
+    m_Localized: 例：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059675703558144
+    m_Localized: 期限切れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059701712437248
+    m_Localized: 空
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059889814388736
+    m_Localized: ラベルの問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059996320350208
+    m_Localized: （ラベルが欠落している場合は偽物）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060274918604800
+    m_Localized: 正しい場合のみ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060400747724800
+    m_Localized: "考えられる誤り：\n・スペル\n・会社名の欠落\n・製品名の欠落\n・著しいフォントの不一致"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060752268148736
+    m_Localized: シリアル番号
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060973857423360
+    m_Localized: 「Immunivax」の注射器には、必ず有効な7桁のシリアル番号が設定されています。最初の3桁はバッチ番号です。有効な範囲：1250000～4559999
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061056065781760
+    m_Localized: "製品の回収対象（バッチ番号）：250、251、301、355、385、386、421\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061186227617792
+    m_Localized: 回収事例（使用不可）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061727754207232
+    m_Localized: 本体の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061800735096832
+    m_Localized: 注射器に明らかな割れ目などの損傷が見られる場合は、使用できません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061957102944256
+    m_Localized: 正しいメインカラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062623657541632
+    m_Localized: 売店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062734018068480
+    m_Localized: 購入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062866713264128
+    m_Localized: 引き換えた売店トークン：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063002021511168
+    m_Localized: 有効なフードスタンプを引き換える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063130195247104
+    m_Localized: すべての当選した宝くじを引き換える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063415374364672
+    m_Localized: 「権力とは人を圧迫するためではなく、幸せにするために存在する」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064079886336000
+    m_Localized: 指摘する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064044792594432
+    m_Localized: ラベルを合わせる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065702779994112
+    m_Localized: 不動産権利書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065787035172864
+    m_Localized: "本書は、所持者が以下の所在地にある商業用不動産の正当な所有者であることを証明する。\n\n下層世界、セクター14\n\n契約書に定められた負債の返済および合意された購入価格の全額支払いが完了した時点で本書の効力が生じ、所持者に上記不動産の完全な所有権を付与するものとする。\n\n不動産の所有権には、以下の権利が含まれる。\n\n運用・管理の権利：日常的な運用および活動において完全な管理権を有し、その責任を負う。\n改装・改築の権利：該当するセクターのゾーニングに関する法律および規則に従うことを条件とする。\n売却・移転の権利：適用される規則および規制に従ったうえで、ステーションの統治機関による承認を得ることを条件とする。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065848574001152
+    m_Localized: 店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065889678180352
+    m_Localized: 大家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96066893626785792
+    m_Localized: 賃貸契約書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96067891871137792
+    m_Localized: "第1条：当事者\n大家：（「賃貸人」）\n店主：（「賃借人」）\n\n第2条：物件\n賃貸人は本契約に定める諸条件に従い、商業事業を行うことを目的として賃借人に物件を貸し出す。\n\n第3条：賃料の支払い\n賃料：未定\n支払予定：7日ごと\n\n第4条：賃料の不払い\n支払期日までに賃料が支払われない場合、本契約の有効期間中、賃借人に対して一度限りの猶予が与えられる。払われなかった賃料は、翌週の賃料に加算される。次回の支払期日までに調整後の全額が支払われなかった場合は、本契約の違反と見なされる。\n\n立ち退き条項：賃借人が既定の賃料または調整後の賃料を支払わなかった場合、賃貸人は本契約を解除し、ステーションの条例に基づき立ち退き手続きを開始する権利を留保する。\n\n第5条：賃料の調整\n賃料の増額：賃貸人は翌週の賃料を現在の賃料の最大5%まで引き上げる権利を有する。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96068981312241664
+    m_Localized: 下層世界の宝くじ情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069071271673856
+    m_Localized: 下層世界の宝くじがついに復活！ たった1枚で運命が変わるかも。運試ししてみよう！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069114858881024
+    m_Localized: 宝くじの仕組み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069224581873664
+    m_Localized: 宝くじの当選番号は毎週土曜日の朝に決まり、新聞で発表されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069304206540800
+    m_Localized: 宝くじシステム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069332459372544
+    m_Localized: 1から49までの6つの異なる数字が選ばれます。当選した6つの番号との一致数に応じて、賞金が決定します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069469126574080
+    m_Localized: 当選番号の例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069476978311168
+    m_Localized: 券の数字の例（3つ一致）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069672667758592
+    m_Localized: 賞金を獲得するには、3つ以上の数字が一致している必要があります。6つすべてそろえば、大当たりです！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070226617876480
+    m_Localized: 6/6 一致（大当たり）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070259631243264
+    m_Localized: 5/6 一致
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070272549699584
+    m_Localized: 4/6 一致
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070284029509632
+    m_Localized: 3/6 一致
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854868041728
+    m_Localized: 師匠のメモ：取引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401856
+    m_Localized: " 1. アイテムを交渉カウンターにドラッグすれば、交渉画面が現れる。\n2. アイテムを売買できるようになったら、ボタンが現れる。\n\n客が使えるクレジットは限られているぞ。\n\n商品は自動的に小売価格で販売される。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401857
+    m_Localized: 師匠のメモ：食品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401858
+    m_Localized: " 食品はステーションで一番取引されているものだ。\n食品や水は不足時に価格が急騰する可能性があるから、常に在庫を確保しておくことをお勧めする。誰であっても食事は必要だからな。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401859
+    m_Localized: 師匠のメモ：閉店後の活動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401860
+    m_Localized: " その日の営業が終わったら、セクター内の場所から1か所に行けるはずだ。\nいつでもゴミ捨て場で廃品漁りができる。カバンがなかったら、あまり多くは持ち帰れないがな。\nそれと、漁っているときに怪我をした場合に備えて、応急手当ができるように包帯を持っていくといい。重傷を負えば、数日間は外出できないぞ。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401861
+    m_Localized: 師匠のメモ：卸売り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401862
+    m_Localized: " 商品をすべて買い取る場合の割引を提案されることがある。（いわゆる「卸売り」の買い方だ）\n\nそれでも、買い取ったアイテムは個別に検査されるぞ。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401863
+    m_Localized: 師匠のメモ：禁制品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401864
+    m_Localized: " 禁制品とは、共和国から違法と見なされている物品のことだ。禁制品の所持や販売はリスクが高いが……その分、利益率も高い。\n禁制品のランクは4つある：\n低級（利益率+{0}%）：厳密には違法だが、警察に目を付けられている場合を除いて普通は見逃してもらえる。\n中級（利益率+{1}%）：検査中に見つかれば、押収される。\n上級（利益率+{2}%）：検査中に見つかれば、押収されて罰金を取られる。\n最上級（利益率+{3}%）：検査中に見つかれば、店を二度と開けなくなり、直ちに逮捕される。\nそれから、見つかったときはどのランクでも、警察からの評判が下がるだろう。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401865
+    m_Localized: 師匠のメモ：盗品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401866
+    m_Localized: " [盗品]の取引は違法だ。盗品にはそれぞれヒート値が決まっていて、ヒート値が高いほど、警察の検査で発覚しやすくなる。売り手は、このヒート値に応じて割引を適用するだろう。\n値は時間とともに減少していく。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401867
+    m_Localized: 師匠のメモ：警察の検査
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401868
+    m_Localized: " ステーションの警察は、禁制品がないか抜き打ち検査をすることがある。禁制品が見つかったときの処罰の重さは、警察からの評判で左右される。店が検査される頻度に影響を与える出来事もあるぞ。\n\nそれと、人によって検査のやり方は違う。賄賂を受け入れる人や、すべての保管場所を調べない人もいるだろう。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401869
+    m_Localized: 鑑定サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401870
+    m_Localized: " [鑑定対象]と書かれた貴重なアイテムは、価格設定が複雑です。お客様はお店まで、持ち込んだアイテムの価格を鑑定サービスで調べてもらいにくるでしょう。\n\n鑑定をすると基本サービス料に加えて、鑑定の精度に応じたボーナスも支払われます。\n鑑定試験に合格すれば、認定を取得できます。そうすると基本サービス料が上がり、鑑定できるアイテムの種類も増えることになります。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401871
+    m_Localized: '- 委員会'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401872
+    m_Localized: 師匠のメモ：出来事
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401873
+    m_Localized: " 特定の出来事はアイテムの市場価格に影響を与えて、一時的に価格を上下させる。進行中の出来事はほとんど、新聞に書かれているぞ。\n発生前に情報を売ってくれる内通者もいる。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401874
+    m_Localized: 師匠のメモ：物々交換
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401875
+    m_Localized: " 客がクレジットじゃなくアイテムとの交換をしたがることもある。\n通常の取引とは違って、物々交換の場合は交渉が不可能だ。\n進行中の出来事から影響を受けることもない。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401876
+    m_Localized: 師匠のメモ：ショーケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401877
+    m_Localized: " シャッターの左側には、店の中でも重要な「ショーケース」がある。\n中にアイテムを置けば、その種類のアイテムを買いたい客を1日1人呼び寄せられる。\n例えば、[食品]のアイテムを多数と、低価格の[医療]のアイテムを1つ置くと、次の日に食べ物を買いたい客が1人来る。\nショーケースに並んでいるアイテムの合計価格で、来る客の社会階級が決まるだろう。\nショーケースを改良すれば、もっと多くの客を呼び寄せられる。\n\n<b>毎日店を開ける前に、必ずアイテムを補充しておけ。</b>\n言っておくが禁制品を置いたら、逮捕されるぞ。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401878
+    m_Localized: 師匠のメモ：改良
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401879
+    m_Localized: " 日が経つにつれて、料金を払えば店を改良してくれる重要人物たちと出会うだろう。\n改良してもらって便利になることもあるが、家賃を払えなくならないように、収支には気を配っておけ。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401880
+    m_Localized: 師匠のメモ：目視での精査
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401881
+    m_Localized: " 一部のアイテムは虫眼鏡を使って精査可能だということがわかるだろう。\n精査可能なアイテムに虫眼鏡を近付ければ、精査トレイが開く。\nアイテムに問題がある場合、精査トレイUIの下部から理由を選択して、客に指摘できる。\n<b>そのアイテムが偽物なら、理由は1つで十分だ。</b>\n\n指摘が正しければ価格を変えてくれるが、間違っていれば評判が下がるだけでなく、その客がよその店に流れてしまうかもしれない。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401882
+    m_Localized: 師匠のメモ：フードスタンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401883
+    m_Localized: " フードスタンプは、対象となる下層世界の市民を支援して不安を防ぐことを目的とした社会福祉プログラムの1つだ。\n引き換えができて、売店で食品を買うのに使える。\n価格はいろいろある。フードスタンプは食品を買うのにしか使えないから、クレジットと交換するときはそれよりも安い値段で取引されることが多い。\nスタンプが偽造されて、何も知らない人の手に渡ることもある。買った人は、引き換えに失敗して初めて騙されたことに気が付くんだ。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401884
+    m_Localized: 師匠のメモ：売店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401885
+    m_Localized: " 売店は共和国が運用している。あそこで売られているアイテムの値段は固定で、市場の影響を受けない。\n\nだが価格が固定されていても、品ぞろえは市場の影響を強く受ける。\n売店で何か買うときは、フードスタンプしか使えないぞ。\n\n<u>ちなみに、買いにいけるのは店を閉めてからだ。</u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401886
+    m_Localized: 師匠のメモ：アイテムのラベル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401887
+    m_Localized: " ラベルを貼り替えられるアイテムもある。例えば、偽造タバコの箱に正規品のラベルを貼って、値段を上げることが可能だ。\n\nただし、ほとんどの労働者や警察、下層世界の市民は一般的な偽造について知っている。あいつらを騙そうとしても失敗して、評判に傷がつくだろう。\n漁り屋も偽造には詳しいが、本物かどうかを確かめるための道具を持っていないことが多い。\n一方で観光客や上層世界の市民は、たいてい気付かない。\nだがいつかは気付くだろうな。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401888
+    m_Localized: 師匠のメモ：センチネル崩壊症候群
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401889
+    m_Localized: " SCDを患っているのか……これは一生付き合わなければならない深刻な病気だ。\n定期的に「Immunivax」の注射を打たないと、症状が悪化して取り返しがつかなくなる。最初は数日くらいなら打たなくても大丈夫だが、時間が経つにつれて悪化していくぞ。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401890
+    m_Localized: 隠語一覧
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401891
+    m_Localized: " \nマーケット依頼では、次のような隠語が使われる。\n今後の作戦、誕生日パーティー\nOxymoreの注射器、軽食\n襲撃、集まり\n隠れ家、庭\n警察のアクセスカード、引っ越し祝い\n脱出、休暇\n侵害された、老朽化\n最優先緊急事態、土壇場\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401892
+    m_Localized: 革命家たちが使用する隠語が走り書きで書かれた、目立たない紙切れ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401893
+    m_Localized: '- 師匠'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609007955230720
+    m_Localized: 金属くずか鉱石を2個使い、溶鉱炉で溶解させてインゴットを作ることができます。インゴットにはさまざまな純度があり、純度が高いほど、インゴットの価値は高くなります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97559369936060416
+    m_Localized: プラズマカートリッジ鑑定ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578536374419456
+    m_Localized: "プラズマカートリッジは、小規模から中規模の宇宙船に通常搭載されている「パルスプラズマドライブ」の標準的なエネルギー源です。\n需要が高く規制が緩いため、搾取工場と工業研究所の両方で製造されています。製造場所によって品質は異なります。\n\n本ガイドでは、あらゆるプラズマカートリッジの価格を判断するために必要な情報を掲載いたします。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578620231139328
+    m_Localized: プラズマカートリッジの図
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578666938908672
+    m_Localized: "ステーションには、4社の主要なメーカーがあります。\n\n\t・ワイルド・ライド（「WLD」）\n\t・共和国海軍徴発（「RNR」）\n\t・Zhonghua造船（「ZHS」）\n\t・イグニッション・ラボ（「IGN」）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578677403697152
+    m_Localized: メーカーや現在の状態に関わらず、プラズマカートリッジの基本価格は300クレジットで、最低価格は90クレジットです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578837257011200
+    m_Localized: カートリッジの状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578934199959552
+    m_Localized: プラズマカートリッジの価格は状態で決まります。状態は、カートリッジの特徴をもとにした変動を合算した値です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578995805896704
+    m_Localized: 標準（変化なし）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579017947627520
+    m_Localized: 軽度の摩耗（-45クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579023517663232
+    m_Localized: 重度の摩耗（-90クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579295308562432
+    m_Localized: カートリッジの状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579324266037248
+    m_Localized: ひび割れ（-150クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579339571052544
+    m_Localized: ネジの露出（-30クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579346848169984
+    m_Localized: 補強済み（+60クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579654009634816
+    m_Localized: プラズマの色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579702764224512
+    m_Localized: "プラズマの色は、品質を示す最大の指標です。\n標準または高グレード以外の色は、低グレードと見なされます。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579718635470848
+    m_Localized: 標準（変化なし）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579734468968448
+    m_Localized: 低グレードの例（-150クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579741716725760
+    m_Localized: 高グレード（+150クレジット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579997401497600
+    m_Localized: カートリッジのメーカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580560818159616
+    m_Localized: ワイルド・ライド（「WLD」）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580794755465216
+    m_Localized: 想定される例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580685535789056
+    m_Localized: "WLDのプラズマカートリッジは下層世界で製造されており、品質に大きくばらつきがあります。\n予想されるカートリッジの状態：何でも\n予想される色：低グレード、標準\nシール：常時"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580739558424576
+    m_Localized: すべての状態が一致する場合：+60クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581029770706944
+    m_Localized: Zhonghua造船（「ZHS」）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581052319285248
+    m_Localized: "ZHSのプラズマカートリッジは品質を損なうことなく、手頃な価格で販売されています。\n\n予想されるカートリッジの状態：なしまたは補強済み\n予想される色：標準\nシール：常時"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581069801144320
+    m_Localized: すべての状態が一致する場合：+120クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581604390354944
+    m_Localized: 正しい構成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581588955316224
+    m_Localized: すべての状態が一致する場合：+750クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581576204632064
+    m_Localized: "専門の研究開発ラボであるIGNでは、プラズマカートリッジは最高レベルの品質で製造されます。\n予想されるカートリッジの状態：なし\n予想される色：高グレード\nシール：常時"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581555937755136
+    m_Localized: イグニッション・ラボ（「IGN」）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581540766957568
+    m_Localized: すべての状態が一致する場合：+120クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581527986913280
+    m_Localized: "共和国が自ら出資しているRNRのプラズマカートリッジは、一般的に回収されて再利用されます。\n\n予想されるカートリッジの状態：ひび割れ以外\n予想される色：標準\nシール：常時"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581506910535680
+    m_Localized: 共和国海軍徴発（「RNR」）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97582745979240448
+    m_Localized: 水の取引マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583244593905664
+    m_Localized: 1. グレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583389582606336
+    m_Localized: 水の品質は純度で決まります：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583739890876416
+    m_Localized: 純水（99.9%+）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583769452331008
+    m_Localized: 高品質（99%～99.9%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583797470281728
+    m_Localized: ベースウォーター（98%～99%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583810321629184
+    m_Localized: ゴーストウォーター（96%～98%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583830152298496
+    m_Localized: ラストウォーター（90%～96%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583849882304512
+    m_Localized: ガターフロー（90%-）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583541718401024
+    m_Localized: 安全に飲用可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583590137446400
+    m_Localized: 必要に応じて飲用可能。長期的な飲用は推奨されない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583638321610752
+    m_Localized: 安全が欠けており、人間の飲用には危険を伴う
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583660907937792
+    m_Localized: 注：極めて有毒。飲用禁止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585811071746048
+    m_Localized: 2. 識別
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585845494398976
+    m_Localized: ステーションで販売される水は、故意か否かに関わらず正しくラベルが貼られていない可能性があります。購入および飲用前には、必ず水質を確かめてください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585867443191808
+    m_Localized: 水質試験紙を使うと、安価で簡単に水の純度を調べられます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97586321032003584
+    m_Localized: 3. 浄水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587194655195136
+    m_Localized: "ステーションの水には、複数の種類の汚染物質が含まれている可能性があります。それぞれの浄水方法は、特定の種類の汚染物質に対してのみ有効です。\n\n繰り返し試しても水の純度が改善しない場合は、試した浄水方法では残っている汚染物質を取り除けないということです。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587213072384000
+    m_Localized: 浄水タブレットは、まず化学汚染を減らし、残った効果で微生物汚染を除去します。大きなボトル1本分のラストウォーターならタブレット1錠で足りますが、さらに汚れた水には複数必要になる場合があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587223478452224
+    m_Localized: "ろ過器：ピッチャー内に取り付けると、注ぐ際に水がろ過されます。\n不純物、マイクロプラスチック、有機廃棄物を除去することができますが、ろ過器の耐久性には限界があります。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587234954067968
+    m_Localized: 浄水タブレットとろ過器を併用すれば、初期の純度によってはほとんどの水をベースウォーター、あるいは高品質な水まで引き上げられるはずです。汚染のひどい水には、タブレットが何錠も必要になる場合があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587251731283968
+    m_Localized: 純水にするには、モジュールが適切に取り付けられた専用の浄水器が必要になります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587259113259008
+    m_Localized: 基本的な浄水方法を用いてガターフローを浄水させることはお勧めしません。ろ過器の耐久性が急速に低下してしまいます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587744406814720
+    m_Localized: 4. 水の種類
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589248253542400
+    m_Localized: 上層世界の住民でも入手が困難です。非常に高価であり、主に病院や研究所といった注意を要する環境で使用されます。上層世界の社会で、客人に純水を出すことは社会的地位の高さを示します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589392676012032
+    m_Localized: 上層世界の標準的な水です。飲用、料理、大半の家庭用途において安全に使用され、入手しやすいですが価格は高く設定されています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589410753462272
+    m_Localized: 下層世界の標準的な水です。短期的な使用には十分ですが、長期にわたり摂取すると、慢性疾患の発症につながる恐れがあります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589447902412800
+    m_Localized: "目視ではこれより高品質な水と見分けがつきませんが、ろ過せずに飲むと危険です。主に農業や産業の目的で使用されます。\n<b>ゴーストウォーターのラベルを貼り替えて販売する詐欺は、下層世界でよく見られる手口です。</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589459784876032
+    m_Localized: "農業には向かず、飲用は危険です。\n\t<b>目視で識別可能です。</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589471994494976
+    m_Localized: "重度に汚染されており、有毒です。摂取してしまった場合は、直ちに診察を受けてください。\n\t<b>目視で識別可能です。</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589767374159872
+    m_Localized: 5. 水の取引における一般的な詐欺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589894516097024
+    m_Localized: ラストウォーターとガターフロー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589953840332800
+    m_Localized: この2つは色で他の種類の水と視覚的に区別できるため、ラベルを貼り替えて偽装することは困難です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589976489574400
+    m_Localized: ゴーストウォーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589998794883072
+    m_Localized: ゴーストウォーターをベースウォーターとして販売する詐欺は、下層世界でよく見られます。ラベルを替えたゴーストウォーターを大量に販売する行為は犯罪です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590016012500992
+    m_Localized: 客の傾向
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590039429300224
+    m_Localized: "漁り屋は通常、貧乏なため水質検査キットを持ち歩く余裕がありません。\n下層世界の市民や漁り屋の中には、純水を買わない客もいます。\n観光客や上層世界の市民は、あまり購入する水の純度を確かめない傾向にあります。\n大量の水を求める客は、たいてい水質検査キットを所持しています。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593996276973568
+    m_Localized: 水質：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594053361451008
+    m_Localized: 特定の汚染物質が、植物の成長に悪影響を及ぼす恐れがあります。特別な条件が必要となる作物を栽培する場合を除き、汚染物質の濃度が低い水を使用するようにしてください。（注：ミネラルは汚染物質ではありません）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608845849575424
+    m_Localized: 冶金マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608911280717824
+    m_Localized: 1. はじめに
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609040402366464
+    m_Localized: 2. 溶解
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609058861498368
+    m_Localized: "インゴットの純度は、熔解に使用する素材によって決まります。金属くずを使うと純度は下がりますが、鉱石を使うと上がります。また、溶鉱炉にフラックス剤を追加することで、純度を上げることもできます。使用したフラックス剤はなくなります。\n\n溶鉱炉には動力源が必要です。溶解は一晩かけて行われます。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297345539981312
+    m_Localized: カレンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297458144460800
+    m_Localized: 夜間レポート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297493984788480
+    m_Localized: ステータス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297743428435968
+    m_Localized: ショーケースの補充を忘れずに！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298365355638784
+    m_Localized: 100：ショーケースに商品を置いても、客が増えない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298573393117184
+    m_Localized: 200：毎日、ランダムな一般客が1人店に来る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298632482471936
+    m_Localized: 250：毎日、店に来る客が2人増える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302142137647104
+    m_Localized: 300：すべての客の予算が10%増加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302218809524224
+    m_Localized: 400：貧乏な客が店に来る確率が低くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99303976218705920
+    m_Localized: 450：すべての客の予算が25%増加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304027657650176
+    m_Localized: 500：毎日、店に来る客が3人増える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304075942477824
+    m_Localized: 650：貧乏な客が店に来る確率がさらに低くなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304116245544960
+    m_Localized: 750：すべての客の予算が75%増加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304161569193984
+    m_Localized: 900：すべての客の予算が100%増加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304721999511552
+    m_Localized: アクティブなパーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304878828732416
+    m_Localized: 推定総資産
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99322042457571328
+    m_Localized: 切る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163968
+    m_Localized: 利用可能なクレジット：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163969
+    m_Localized: ワイルドの好感度：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163970
+    m_Localized: 呼び出し中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163971
+    m_Localized: 応答なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163972
+    m_Localized: 通話中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163973
+    m_Localized: 準備完了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163974
+    m_Localized: 入力中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163975
+    m_Localized: 家賃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163976
+    m_Localized: 借金支払い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163977
+    m_Localized: '{2}日後に、{1}の{0}クレジット支払い！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163978
+    m_Localized: 明日、{1}の{0}クレジット支払い！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163979
+    m_Localized: 本日、{1}の{0}クレジット支払い！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660465626202112
+    m_Localized: 1日の終わり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660630688841728
+    m_Localized: 選択したサービスの料金を全額支払えない……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660720610525184
+    m_Localized: 1日を終える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834008154112
+    m_Localized: 出費の合計　{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931328
+    m_Localized: 現在の残高　{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931329
+    m_Localized: 今後の残高　{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931330
+    m_Localized: '[アクティブ]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931331
+    m_Localized: '[非アクティブ]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931332
+    m_Localized: '{0}からの評判が上がった'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931333
+    m_Localized: '{0}からの評判が下がった'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841703575552
+    m_Localized: 本日まで
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841728741376
+    m_Localized: '{0}日後まで'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837908869758976
+    m_Localized: 基本
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838035407716352
+    m_Localized: ゴミ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837983167660032
+    m_Localized: プロジェクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838688112721920
+    m_Localized: 偽造チェック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838923694194688
+    m_Localized: 指摘する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530774437888
+    m_Localized: 正規品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632192
+    m_Localized: 文字の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632193
+    m_Localized: 色の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632194
+    m_Localized: シールの問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632195
+    m_Localized: ロゴの問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632196
+    m_Localized: 箱の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632197
+    m_Localized: 価格の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632198
+    m_Localized: チップの問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632199
+    m_Localized: 表示の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632200
+    m_Localized: ラベルの問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632201
+    m_Localized: シリアル番号の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632202
+    m_Localized: 本体の問題
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858351332835328
+    m_Localized: The Bottomline Bulletin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858297700270080
+    m_Localized: 日刊新聞
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100038754609971200
+    m_Localized: "本当に店を閉めますか？\n\nまだ並んでいる人がいます。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050444726616064
+    m_Localized: 取引に応じる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050525357916160
+    m_Localized: まとめ買いに応じる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050603476828160
+    m_Localized: 客の予算
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050722725085184
+    m_Localized: 警察
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050755004448768
+    m_Localized: バラエティ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050772217872384
+    m_Localized: 禁制品以外
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275929935872
+    m_Localized: "客の残りクレジットは{0}です。\n{1}クレジットを獲得できなくなります。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101696
+    m_Localized: 物々交換
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101697
+    m_Localized: 情報の取引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101698
+    m_Localized: カスタム銃の注文
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101699
+    m_Localized: 鑑定サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101700
+    m_Localized: 売却
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101701
+    m_Localized: 購入＆売却
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101702
+    m_Localized: '{0}個の購入'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101703
+    m_Localized: このタイプのアイテムには興味がないようだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101704
+    m_Localized: 払えるクレジットがなくなった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101705
+    m_Localized: 同じアイテムを2つ買うつもりはないようだ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101706
+    m_Localized: '{0}個の売却'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101707
+    m_Localized: 情報の取引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101708
+    m_Localized: 市場に関するお役立ち情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101709
+    m_Localized: '{0}個を購入'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101710
+    m_Localized: '{0}個を売却'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101871974884360192
+    m_Localized: 取引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872055226253312
+    m_Localized: 帰る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872108007374848
+    m_Localized: 廃品漁り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443089420288
+    m_Localized: クールダウン（{0}日）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808896
+    m_Localized: '{0}クレジット'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808897
+    m_Localized: この改良には{0}が必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808898
+    m_Localized: デモ版では利用不可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254421569536
+    m_Localized: 全画面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735360
+    m_Localized: ボーダーレス全画面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735361
+    m_Localized: ウィンドウ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735362
+    m_Localized: 推奨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069631127371776
+    m_Localized: ギャンブルの賞金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867563986944
+    m_Localized: 師匠のメモ：AI人間
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940631826432
+    m_Localized: ページ{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867589152768
+    m_Localized: AI人間とは、脳インプラント内のAIに体を乗っ取られ、完全に制御を失った人間のことだ。現時点では、本体を殺さずにインプラントを除去する安全な方法は存在しない。あいつらには明確な敵意があり、本当に危険だ。人をさらってもっとインプラントを埋め込もうと、躍起になっている。新しいインプラントを製造するための原料や、外科的にインプラントを埋め込むための医療用品を求めているから、店主が最後の防衛線になっていると言えるだろう。人間の振る舞いをマスターできていないせいで、やたらと堅苦しい言い回しをしたり、機械的な言葉遣いをすることもある。確信を持てたときのみ、銃を使え。警察は呼ぶなよ。あいつらは通信網をハッキングしてるんだ。警察が来る前に逃げられるぞ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940661186560
+    m_Localized: 注：ガターフローを摂取してしまった場合は、直ちに診察を受けてください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123280221805527040
+    m_Localized: 購入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124710930575310848
+    m_Localized: 当選した宝くじの券をすべてクレジットに引き換える（売店のトークンではありません）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946643222528
+    m_Localized: 顧客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971264
+    m_Localized: 顧客画面を開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971265
+    m_Localized: 陳列中の商品から予想される購入者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971266
+    m_Localized: 予想される通常の客（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971267
+    m_Localized: 客は、シャッターを開いた際の店の状態に応じて現れる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971268
+    m_Localized: 店の状態によって、毎日ランダムな人数の客が来る。ショーケースに特殊アイテムを陳列させている場合は、誰が来るかに影響を与える。以下の客は1日1回現れる可能性があり、残りの枠はランダムな客で埋まる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799789809664
+    m_Localized: ショーケースに商品を陳列すると、ほとんどの場合は買い手を引き寄せる。買い手の予算は、その商品の価格によって決まる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799794003968
+    m_Localized: ショーケースに商品が入っていない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125454821289148416
+    m_Localized: ランダムな客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125458918834749440
+    m_Localized: 買い手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126544338016321536
+    m_Localized: 売り手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342016
+    m_Localized: この客はアイテムを1種類ずつしか買わないが、割高の価格を支払う。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342017
+    m_Localized: この客は禁制品を一切買わない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342018
+    m_Localized: この客はステーションの警察。盗品や禁制品を見せると、よくない結果を招く可能性がある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126624901758763008
+    m_Localized: 店の照明と電力網を機能させつづける。支払わなければ、バッテリーを使用する機械しか使えなくなり、店内の照明が暗くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250407931904
+    m_Localized: 支払えば、夜間に盗まれたアイテムが翌日の朝に返ってくる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250441486336
+    m_Localized: 支払えば、ゴミ箱の中身が回収され、店先が掃除される。店先が掃除されないまま数日が経過すると、店の魅力度が下がる。店が荒らされている場合は、清掃費用が高くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034018873344
+    m_Localized: 店の魅力度は、清掃員が店先を掃除した時期や、特定の機械・改良によって変動する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034052427776
+    m_Localized: 派閥からの評判は、その派閥にいるメンバーと取引することで得られる。特別な客との取引では、得られる評判がアップする。客を警察に通報すると、その派閥からの評判が下がるかもしれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711872
+    m_Localized: 一部のアイテムにはラベルが貼られており、替えることができる。これを使って本当のラベルを貼ってもいいし、嘘のラベルを貼って高値で売ってもいい。嘘を見抜く能力は、客によりけりなので注意。ラベルに記載されたアイテムよりも価格の低いものを売っているのが発覚した場合は、評判が下がるかもしれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711873
+    m_Localized: 客はこのアイテムが本物であり、正常に動作すると主張している。偽物や破損品である証拠を見つけた場合は、このパネルからそれを指摘できる。理由は1つあれば十分だ。ただし指摘が間違っていれば、評判が下がるかもしれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711874
+    m_Localized: 客はこのアイテムを偽物か破損品であると主張し、売ろうとしている。それが間違っていると思う場合は、このパネルから伝えられる。指摘が合っていれば、客は希望価格を引き上げ、評判が上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175467409408
+    m_Localized: 送信した見積もり：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175496769536
+    m_Localized: 正しい価格：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025076871168
+    m_Localized: 鑑定品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425600
+    m_Localized: "基本価格：+300\nひび割れ：-150\n補強済み：+60\nメーカーボーナスなし（ひび割れがあるため）：+0\n----------------------\n<b>合計：210</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425601
+    m_Localized: "基本価格：+300\n重度の摩耗：-90\nネジの露出：-30\n低グレードの色：-150\n------------------\n小計：30\n------------------\nこのアイテムは90を下回れない\n<b>最終価格：90</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127570132838694912
+    m_Localized: 鑑定例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510080
+    m_Localized: 無効にすると、会話テキストが一度にすべて表示される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510081
+    m_Localized: 無効にすると、会話が自動で進行しなくなる。スペースキーで次のセリフに進む。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364928
+    m_Localized: 会話とタイプライターの設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364929
+    m_Localized: この設定はゲームの設定メニューから、いつでも変更できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430014664704
+    m_Localized: 気になるアイテム：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430056607744
+    m_Localized: ショーケース内の「{0}」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627870113792
+    m_Localized: 取引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056832
+    m_Localized: 売却：割引の提示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056833
+    m_Localized: 購入：割引の要求
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056834
+    m_Localized: 売却：上乗せの追加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056835
+    m_Localized: 購入：上乗せの提示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056836
+    m_Localized: 恐喝（犯罪者）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056837
+    m_Localized: 脅迫（AI人間）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056838
+    m_Localized: 評判倍率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056839
+    m_Localized: この客に商品を販売する際、割引を提示する。販売したアイテムごとに追加の評判を獲得し、客の予算を増やす。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056840
+    m_Localized: この客から商品を購入する際、割引を要求する。成功した場合、購入したアイテムごとに評判を消費する。成功確率は、その派閥からの評判によって決まる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056841
+    m_Localized: この客に商品を販売する際、追加で請求し、合計予算を減らして販売したアイテムごとに追加で評判を消費する。成功確率は、現在の評判によって決まる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056842
+    m_Localized: この客から商品を購入する際、追加で支払う。購入したアイテムごとに追加の評判を獲得する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056843
+    m_Localized: 取引の際、価格の条件をよくしなければ警察に通報すると脅す。犯罪者の客にしか通用しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056844
+    m_Localized: 取引の際、相手の客をAI人間だと指摘し、価格の条件をよくしなければ撃つと脅す。通常の客に対して行った場合は失敗し、評判を失う。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056845
+    m_Localized: この客と取引する際、派閥からの評判が上昇または下降する速度を左右する倍率。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056846
+    m_Localized: この客と取引する際、1,000クレジットごとに獲得または失う派閥からの評判の推定値。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655149109248
+    m_Localized: サイバネティックハンド鑑定ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469376
+    m_Localized: ステーションでは、サイバネティックハンドの種類も価格も多岐にわたります。本ガイドでは、あらゆるサイバネティックハンドの適正市場価格を調べられます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469377
+    m_Localized: 基本価格と最低価格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469378
+    m_Localized: サイバネティックハンドの初期価格は100クレジットで、状態によって価格が変動することがあります。最低価格は、状態に関わらず50クレジットです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469379
+    m_Localized: 1. 素材
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469380
+    m_Localized: アルミニウム合金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469381
+    m_Localized: カーボンコンジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469382
+    m_Localized: 金メッキ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469383
+    m_Localized: 2. 状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469384
+    m_Localized: なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469385
+    m_Localized: 摩耗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469386
+    m_Localized: 損傷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469387
+    m_Localized: 3. 制御インターフェース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469388
+    m_Localized: 神経インターフェース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469389
+    m_Localized: 不特定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469390
+    m_Localized: 4. 追加物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469391
+    m_Localized: 装甲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469392
+    m_Localized: ブレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469393
+    m_Localized: 追加物ボーナスは独立しており、それぞれが適用されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469394
+    m_Localized: 5. セットボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469395
+    m_Localized: サイバネティックハンドは、特定の組み合わせで価格が上昇します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469396
+    m_Localized: "タクティカル：\n・カーボンコンジット\n・EMG+または神経インターフェース\n・摩耗または損傷なし\n・装甲とブレード"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469397
+    m_Localized: "デラックス：\n・金メッキ\n・神経インターフェース\n・摩耗または損傷なし\n・追加物ありまたはなし"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469398
+    m_Localized: 例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469399
+    m_Localized: "基本：+100\nカーボンコンジット：+50\n摩耗：-35\nEMG+：+45\n合計：160クレジット"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469400
+    m_Localized: "基本：+100\n損傷：-85\n不特定の制御：-60\n小計：-45クレジット\n50クレジットを下回れない\n合計：50クレジット\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331200
+    m_Localized: 水質はワインの品質に影響を与えます。高品質な水もしくはベースウォーターをご使用ください。純水には、発酵に必要なミネラルが不足しています。水が低グレードの場合、ワインの品質が大幅に低下します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331201
+    m_Localized: 酵母の使用は任意ですが、強く推奨します。使用しない場合、空気中の野生酵母が代わりにワインを発酵させ、完成品にばらつきが生じます。また、酵母を使用することで発酵が大幅に早まります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331202
+    m_Localized: ベリーの品質は、最も重要な要素です。低グレードのワインには一握りで十分ですが、高グレードのワインには二握り必要です。熟しすぎたもの、熟していないもの、カビの生えたものは避けてください。ワイン醸造には、一般的に通常よりも小さなベリーが適しています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331203
+    m_Localized: ブルームベリーの識別
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331204
+    m_Localized: 通常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331205
+    m_Localized: 熟していない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331206
+    m_Localized: カビあり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331207
+    m_Localized: 小さい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586749161472
+    m_Localized: AI人間識別ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715904
+    m_Localized: 視覚的特徴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715905
+    m_Localized: 非視覚的特徴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715906
+    m_Localized: 異常な瞳孔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715907
+    m_Localized: 不気味な表情
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715908
+    m_Localized: 見えているAIチップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715909
+    m_Localized: "・不自然な静けさ\n・小刻みな動き\n・派閥に合わない身なり\n・機械的な言葉遣い\n・過度に堅苦しい表現"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147149026554068992
+    m_Localized: デモを遊んでくれてありがとうございました！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147157085242310656
+    m_Localized: ぜひSteamでウィッシュリストに追加し、アンケートにご回答ください。所要時間は5分程度ですが、ゲームの改善に役立ちます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582517645312
+    m_Localized: 状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582559588352
+    m_Localized: 市場と商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060160
+    m_Localized: 撃つ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060161
+    m_Localized: 銃をしまう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060162
+    m_Localized: ズーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060163
+    m_Localized: 終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154783458152726528
+    m_Localized: 本当にこのセーブスロットを削除しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553554441289728
+    m_Localized: リブイッチ鑑定ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553663073763328
+    m_Localized: 基本価格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553741188481024
+    m_Localized: リブイッチの初期価格は150クレジットで、状態によって価格が変動することがあります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553814270033920
+    m_Localized: 1. 包装、偽造品、最低価格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553878459662336
+    m_Localized: 2. 製造日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97554477146226688
+    m_Localized: リブイッチとは、Davre社の限定版サンドイッチのことです。現在は製造中止されていますが、今でも食べられているため、価格が上がっています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553856145965056
+    m_Localized: "プラスチックの包装がない、破れている、もしくは偽造品である場合は、その他の状態に関わらず、最終価格は必ず40クレジットになります。\nいかなる状態でも、最終価格が40クレジットを下回ることはありません。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553920436256768
+    m_Localized: 包装には、必ず製造日が記載されています。リブイッチは以下の期間にしか製造されていません：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553955567747072
+    m_Localized: "第1次製造期間：425年1月～429年12月\n第2次製造期間：432年1月～438年12月"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555086788313088
+    m_Localized: 最初の月（425年1月）および最後の月（438年12月）に製造されたリブイッチは、歴史的な理由により+50クレジットの価値があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555078433259520
+    m_Localized: 第1次製造で作られたリブイッチは、高品質な材料が使われているため、+80クレジットの価値があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555062360686592
+    m_Localized: 製造日が記載されていない、無効である、もしくは実際の期間と一致していない場合は、偽造品です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556559559442432
+    m_Localized: Davre社はリブイッチの製造・包装に多数の施設を利用していましたが、品質管理基準の高さには差があり、その差が賞味期限に影響を及ぼす可能性があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556520833433600
+    m_Localized: 3. 包装施設
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556791819026432
+    m_Localized: "高品質の包装施設：01、02、05、08、21、34\n低品質の包装施設：07、15、18、26、31"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556578551250944
+    m_Localized: 利用されていた包装施設は、合計35か所です。包装施設の番号が記載されていない、もしくは無効である場合は、偽造品です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556665188794368
+    m_Localized: 高品質の包装施設が利用されたリブイッチは、+50クレジットの価値があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556679042580480
+    m_Localized: 低品質の包装施設が利用されたリブイッチは、-50クレジットの価値があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556690048434176
+    m_Localized: 第2次製造分の正規品リブイッチの例：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558344047050752
+    m_Localized: 4. デラックス版
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558370148204544
+    m_Localized: 通常のリブイッチに加え、パンにゴマがトッピングされ、ピクルスが追加されたリブイッチも発売され、デラックス版として売り出されました。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558401722925056
+    m_Localized: デラックス版のリブイッチには、ゴマのトッピングと追加のピクルスの両方が含まれている必要があります。片方しかない場合は偽造品です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558426083442688
+    m_Localized: 正規品のデラックス版は、+300クレジットの価値があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558450448154624
+    m_Localized: 5. パティ2枚入りのバージョン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558478566768640
+    m_Localized: ごくまれに、Davre社の包装機が故障し、パティが2枚入ったリブイッチが製造されたという報告がされていました。通常、こうしたものは品質管理チームによって回収・廃棄されるため、パティ2枚入りのリブイッチは極めて希少です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558496883294208
+    m_Localized: パティが2枚入った正規品のリブイッチは、+800クレジットの価値があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558508056920064
+    m_Localized: 6. Davre社のロゴ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558545474306048
+    m_Localized: Davre社のロゴは必須です。ロゴが欠落している場合もしくは間違っている場合は、偽造品です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558562889056256
+    m_Localized: 7. リブイッチのロゴ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558698344103936
+    m_Localized: 第2次製造分のリブイッチには、リブイッチのステッカーが貼られています。欠落している場合もしくは間違っている場合は、偽造品です。第1次製造分にはありません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511170883584
+    m_Localized: 永続取引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855104
+    m_Localized: プロモーション取引（月曜日にリセット）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855105
+    m_Localized: 会長S.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855106
+    m_Localized: アングラ取引機関
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855107
+    m_Localized: 1晩に1回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855108
+    m_Localized: 状態不問
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855109
+    m_Localized: 新品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855110
+    m_Localized: ランダム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855111
+    m_Localized: ランダムな合法品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144633287955759104
+    m_Localized: 闇市場からの評判
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80315113324544
+    m_Localized: マーケット依頼を確認
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064603201257472
+    m_Localized: 化学フィニッシャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593349360107520
+    m_Localized: 水耕栽培マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593399297490944
+    m_Localized: クイックスタートガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593457183080448
+    m_Localized: "1. ゴーストウォーターもしくはベースウォーターを入れた水入れをセットする。\n2. 栄養が十分になるよう、ミネラルを適量加える。\n3. エネルギー源と種をセットする。\n4. 1～2日ほど経つと、収穫できる状態になる。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593494038429696
+    m_Localized: 水耕栽培を継続して行えるように、必要に応じて水を足し、バッテリーを交換してください！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593544877588480
+    m_Localized: 栽培初心者のために
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593590079602688
+    m_Localized: "水耕栽培の学習は、ニュートリフルーツの栽培から始めましょう。これは栽培しやすいように、遺伝子組み換えされた作物です。\n\n十分な量の清潔な水を確保し、収穫量が減少したら水に栄養タブレットを加えてください。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593921744191488
+    m_Localized: 上級ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594074400079872
+    m_Localized: 栄養：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594109267329024
+    m_Localized: 植物の成長には、ミネラルが必要です。多すぎたり少なすぎたりすると、収穫量に悪影響が及ぶ可能性があります。植物ごとに、許容できる栄養素濃度の範囲が異なります。通常は、少なすぎるよりも多すぎる方が望ましいとされます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594128330440704
+    m_Localized: 植物アナライザー：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594182365659136
+    m_Localized: 種に使用することで、必要なものや現在の健康状態を確認できます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595269432786944
+    m_Localized: 化学入門ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595449448120320
+    m_Localized: 道具と機械
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595523578249216
+    m_Localized: 化学用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595595292459008
+    m_Localized: 中身を出すと、さまざまな必須の化学用品を入手できます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595998973247488
+    m_Localized: 組成スペクトロメーター（化学スキャナー）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596026353664000
+    m_Localized: 容器か化学製品に使用すると、その組成を確認できます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596200966733824
+    m_Localized: ブレンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596256537067520
+    m_Localized: 改良することで、抽出量が向上します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596274690015232
+    m_Localized: 加熱プレート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596300736643072
+    m_Localized: 改良することで、最高温度、温度調整、加熱速度が向上します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597227497472000
+    m_Localized: エバポレーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597248573849600
+    m_Localized: 一晩かけて、水やアルコールなどの特定の液体を除去します。通常のモジュールをご使用ください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597267469189120
+    m_Localized: 化学フィニッシャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597291829706752
+    m_Localized: 改良することで、混入する不純物の量が減ります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597525024620544
+    m_Localized: 他の機械とは異なり、化学関連の機械のほとんどは専用の化学備品モジュールでしか改良できません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597821708713984
+    m_Localized: ドリームダスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598475139334144
+    m_Localized: ステップ1：材料の準備
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598541489029120
+    m_Localized: "・ブレンダーに容器を取り付ける\n・ドリームキノコを数個加える\n・ブレンダーを使い、ドリームキノコをつぶす"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598561487470592
+    m_Localized: ステップ2：抽出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598580814823424
+    m_Localized: "・前のステップで使用した容器を用意する\n・それを加熱プレートにセットする\n・溶剤（アルコール）をつぶしたドリームキノコの体積の3～6倍まで加える\n・混合物を40～60°Cまで加熱し、つぶしたドリームキノコをエキスに変える"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598598804193280
+    m_Localized: 加熱しすぎると、ドリームキノコが使えなくなるためご注意ください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598620887203840
+    m_Localized: ステップ3：蒸発
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598636930416640
+    m_Localized: "・（任意）前のステップで得た溶液を、コットン生地をろ過器としてろ過し、大きな汚染物質を除去する\n・容器をエバポレーターにセットする\n・バッテリーで、エバポレーターに電力を供給する\n・蒸発が完了するのを翌日まで待つ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598650855505920
+    m_Localized: ステップ4：包装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598681629114368
+    m_Localized: "・（必須）水とアルコールが完全に蒸発している状態で、容器を化学フィニッシャーにセットする\n・ドリームダストのレシピを選ぶ\n・「出力」ボタンを押す\n・（任意）組成スペクトロメーターで純度を確認する"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97599907884220416
+    m_Localized: カフェイン錠剤のレシピ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97601984458964992
+    m_Localized: ステップ1：材料の準備
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602024158052352
+    m_Localized: "・ブレンダーに容器を取り付ける\n・コーヒー豆を数個加える\n・ブレンダーを使い、コーヒー豆をつぶす"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602038418685952
+    m_Localized: ステップ2：抽出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602053216190464
+    m_Localized: "・前のステップで使用した容器を用意する\n・それを加熱プレートにセットする\n・（任意だが推奨）溶剤（アルコール）をつぶしたコーヒー豆の体積の3～6倍まで加える\n・混合物を最低80°Cまで加熱する"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602068449902592
+    m_Localized: 注：カフェインは非常に熱に強い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602088817442816
+    m_Localized: ステップ3：蒸発
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602105129091072
+    m_Localized: "・（任意）前のステップで得た溶液を、コットン生地をろ過器としてろ過し、大きな汚染物質を除去する\n・容器をエバポレーターにセットする\n・バッテリーで、エバポレーターに電力を供給する\n・蒸発が完了するのを翌日まで待つ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602117913329664
+    m_Localized: ステップ4：包装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602136741560320
+    m_Localized: "・（必須）水とアルコールが完全に蒸発している状態で、容器を化学フィニッシャーにセットする\n・カフェイン錠剤のレシピを選ぶ\n・「出力」ボタンを押す\n・（任意）組成スペクトロメーターで純度を確認する"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602620424503296
+    m_Localized: ファンタ錠剤の情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602698144956416
+    m_Localized: ファンタの正確なレシピは極秘情報となっています。以下の内容は、公開されている情報をまとめたものです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603346156535808
+    m_Localized: 基本の材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603389408198656
+    m_Localized: N-メチロール塩基は、ファンタの前駆体として知られており、制限付きの化学用品に含まれています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603407972188160
+    m_Localized: 準備
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603424577437696
+    m_Localized: N-メチロール塩基には、化学物質の分解や化学反応を防ぐ安定剤が含まれます。これを除去しなければなりません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603439643377664
+    m_Localized: 反応
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603456760332288
+    m_Localized: "次に、N-メチロール塩基に電子を供与し、化学的にファンタに変換できる物質が必要です。\n\nこのプロセスも高温で行う必要があると推測されるため、改良した加熱プレートをご使用ください。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603474208636928
+    m_Localized: 包装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603490314764288
+    m_Localized: その後、溶液をろ過して通常通り包装してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603523869196288
+    m_Localized: 注：ファンタは130°Cを超えると分解します
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604487388905472
+    m_Localized: 化学製品の純度評価
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604571547615232
+    m_Localized: 製品の純度が表示と正しいか確認するために、化学スキャナーを持ち歩いているお客様もいます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604774765838336
+    m_Localized: 純粋（99%+）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604854067544064
+    m_Localized: 医薬品グレード（90～99%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604877522092032
+    m_Localized: ほぼ医薬品（80～90%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605855394709504
+    m_Localized: 路上基準（60～80%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605903411101696
+    m_Localized: 希釈製品（45～60%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606068243054592
+    m_Localized: ガラクタグレード（30～45%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606095426338816
+    m_Localized: でん粉グレード（30%-）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607396725932032
+    m_Localized: 基本価格+135%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607458839379968
+    m_Localized: 基本価格+85%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607466187800576
+    m_Localized: 基本価格+40%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607474714820608
+    m_Localized: 価格変動なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607483707408384
+    m_Localized: 基本価格-45%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607492393811968
+    m_Localized: 基本価格-75%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607502728577024
+    m_Localized: 基本価格-95%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049217611677696
+    m_Localized: 報酬：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049185151959040
+    m_Localized: 商品を納品する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049984930234368
+    m_Localized: 見積もりを送る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049935101902848
+    m_Localized: 客の見積もり
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172187061448392704
+    m_Localized: 下層世界での評判を上げたり、ジョー・ワイルドを通じてアンロックした夜間サービスを利用したりすると、ワイルドの好感度が上がる。これはまず、ワイルドの改良に使用される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172202336608632832
+    m_Localized: 地面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172529243283832832
+    m_Localized: クイックダイヤル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690208923648
+    m_Localized: 容器の開閉や、アイテムを調べる、選ぶ、切り替えるといった動作がダブルクリックではなく、一度のクリックでできるようになる。起動の設定は以下から個別に可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283776
+    m_Localized: アイテムの起動がダブルクリックではなく、一度のクリックでできるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283777
+    m_Localized: 基本
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134193438720
+    m_Localized: 無効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187456
+    m_Localized: 有効
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187457
+    m_Localized: MODを検索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187458
+    m_Localized: Steamワークショップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187459
+    m_Localized: 選択中のMODを解除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187460
+    m_Localized: MODを自動並べ替え
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187461
+    m_Localized: 有効なMODを、それぞれが依存するMODの後に読み込まれるように並べ替えますか？ 現在の順番が変わります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187462
+    m_Localized: 「{0}」を解除しますか？ Steamでファイルが削除され、次回の再起動後にMODが解除されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187463
+    m_Localized: デフォルトに戻す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187464
+    m_Localized: MODはQuesting Goose StudioやtinyBuildではなく、他のプレイヤーによって作成されています。ゲーム本体と同じように、お使いのコンピューターにアクセスして実行するコードが含まれている可能性があります。有効にする前に確認を行いますが、安全性は保証できません。信頼できる作者が作成したMODのみを有効にし、自己責任で使用するようお願いいたします。MODによって損害やデータの損失などが生じた場合、Questing Goose StudioおよびtinyBuildは一切の責任を負わず、MODの有効中に発生した問題には対応できません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187465
+    m_Localized: MODによる変更は、ゲームの再起動後に反映されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187466
+    m_Localized: 依存先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187467
+    m_Localized: 有効化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187468
+    m_Localized: 無効化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187469
+    m_Localized: 作者：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187470
+    m_Localized: MODバージョン：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187471
+    m_Localized: ゲームバージョン：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187472
+    m_Localized: 不足している依存先：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187473
+    m_Localized: 有効化されていない依存先：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187474
+    m_Localized: ゲームバージョン{0}に対応していない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187475
+    m_Localized: MODフォルダを開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187476
+    m_Localized: '[{0}]エラー：{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187477
+    m_Localized: ワークショップでも登録されているため、ローカルコピーが使用されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187478
+    m_Localized: ワークショップにある「{0}」のコピーを登録解除しますか？ MODフォルダ内のローカルコピーは残り、引き続き使用されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187479
+    m_Localized: まだ{0}件、ワークショップのアイテムがダウンロード中です。次回の再起動後に表示されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801898369024
+    m_Localized: 制限：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117760
+    m_Localized: 希望：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117761
+    m_Localized: この客は禁制品を買わない。カウンターに置かないようにしよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117762
+    m_Localized: 警察。カウンターに禁制品を置くと押収され、罰金が科される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117763
+    m_Localized: 興味なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117764
+    m_Localized: 合計
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117765
+    m_Localized: 自分の資金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117766
+    m_Localized: 合計/卸売り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117767
+    m_Localized: '{0}%割引のまとめ買い'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117768
+    m_Localized: 購入情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117769
+    m_Localized: 取引の選択：{0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117770
+    m_Localized: 基本要件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117771
+    m_Localized: ボーナス要件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117772
+    m_Localized: 必要な夜間サービスを選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779480580096
+    m_Localized: 1.1 融資額：{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134528
+    m_Localized: 1.2 頭金：{0}クレジット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134529
+    m_Localized: 1.3 年利：{0}%（週利：{1}%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134530
+    m_Localized: 1.4 返済：{1}を毎週{0}回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134531
+    m_Localized: 客が店に来ると、自動で交渉UIが開く。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134532
+    m_Localized: 高速交通システム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134533
+    m_Localized: 移動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134534
+    m_Localized: 移動不可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134535
+    m_Localized: ゴミ捨て場
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134536
+    m_Localized: イベントの選択肢や装備の選択など、ゲーム内の選択が二度クリックして確定ではなく、一度のクリックで確定できるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170512356412801024
+    m_Localized: 2/6 一致
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734612332544
+    m_Localized: 市場価格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734658469888
+    m_Localized: 同種の中で最高、+{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235953479680
+    m_Localized: 概要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228416
+    m_Localized: 支出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228417
+    m_Localized: ステーション
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228418
+    m_Localized: 閉店後
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228419
+    m_Localized: ゲームオーバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228420
+    m_Localized: プレイ時間：{0}h{1}m
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228421
+    m_Localized: 生存日数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228422
+    m_Localized: 対応した客の数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228423
+    m_Localized: 合計売上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228424
+    m_Localized: 最高の日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228425
+    m_Localized: '{0}日目：{1}分の商品が売れた'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228426
+    m_Localized: 最高の転売
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228427
+    m_Localized: '{0}：{1}で買い、{2}で売った'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228428
+    m_Localized: 最高の売上
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228429
+    m_Localized: '{0}を{1}に{2}で売った'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228430
+    m_Localized: 最高の発見
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228431
+    m_Localized: '{0}、{1}相当の価値（{2}日目）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228432
+    m_Localized: 最悪の夜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228433
+    m_Localized: '{0}日目に泥棒が入り、{1}相当の在庫が盗まれた'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228434
+    m_Localized: 間一髪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228435
+    m_Localized: '{0}日目に、残り{1}で支払いを済ませた'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228436
+    m_Localized: ハイライト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228437
+    m_Localized: 購入に使った額
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228438
+    m_Localized: 大家に払った家賃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228439
+    m_Localized: '{0}日目に、{1}で買った'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228440
+    m_Localized: 賄賂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228441
+    m_Localized: 許可証＆賄賂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228442
+    m_Localized: お金の使い道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228443
+    m_Localized: '{1}回中{0}回、支払った'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228444
+    m_Localized: '{1}回中{0}回支払い、{2}回未払い'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228445
+    m_Localized: 家賃を支払った回数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228446
+    m_Localized: '{0}日目に現金{1}で買い取った'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228447
+    m_Localized: '{0}日目に{1}のためにローンを組み、{2}日目に完済した'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228448
+    m_Localized: '{0}日目に{1}のためにローンを組み、{3}回中{2}回支払った'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228449
+    m_Localized: 頭金{1}と、{3}の支払い{2}回で、総額{0}を支払った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228450
+    m_Localized: まだ賃貸。最終日の店舗価格：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228452
+    m_Localized: '{0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228453
+    m_Localized: 訪問回数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228454
+    m_Localized: ジョルジオに払った額
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228455
+    m_Localized: ジョルジオに貸した額
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228456
+    m_Localized: 返ってきた額
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228457
+    m_Localized: 評判
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228458
+    m_Localized: 夜の過ごし方
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228459
+    m_Localized: '{0}晩'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228460
+    m_Localized: 廃品漁りの試行回数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228461
+    m_Localized: 見つけたアイテムの価格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228462
+    m_Localized: 負傷した回数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228463
+    m_Localized: 軽傷{0}回、重傷{1}回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228464
+    m_Localized: 最高の発見：{0}、{1}相当の価値（{2}日目）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228465
+    m_Localized: 購入した機械とモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228466
+    m_Localized: 通過した検査
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228467
+    m_Localized: 検査員に押収された商品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228468
+    m_Localized: 検査員に支払った賄賂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228469
+    m_Localized: 逮捕された指名手配犯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228470
+    m_Localized: 誤った報告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228471
+    m_Localized: AI人間への発砲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726784
+    m_Localized: 注意
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726785
+    m_Localized: 今後表示しない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726786
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725351436288
+    m_Localized: このコンピューターにあるファイルを読み取り、書き込む
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796416
+    m_Localized: インターネットにアクセスする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796417
+    m_Localized: 他のプログラムを起動する、もしくはリンクを開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796418
+    m_Localized: プレイ中にコードを読み込む、もしくは生成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796419
+    m_Localized: ネイティブシステムライブラリを呼び出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796420
+    m_Localized: リフレクションを通じて、システムとエンジンの内部にアクセスする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796421
+    m_Localized: "「{0}」では、以下の権限が求められます。\n{1}\n\nこのような権限を持つMODは、このコンピューターであなた自身ができることを何でも実行できます。信頼できる作者のMODであることをご確認ください。有効にしますか？"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796422
+    m_Localized: 「{0}」は、開発者によってブロックされています：{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796423
+    m_Localized: 「{0}」はマニフェストに{1}が含まれていますが、ファイルが存在しません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796424
+    m_Localized: 「{0}」はスキャンできません：{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796425
+    m_Localized: 「{0}」はゲーム本体と同じアセンブリ名を持っているため、有効化できません：{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990720
+    m_Localized: "「{0}」はMODスキャナーによって拒否されました：\n{1}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990721
+    m_Localized: "「{0}」では、マニフェストで宣言されていない権限を使用しています。\n{1}\n\nMODの作者がマニフェストを更新する必要があります。詳細はコンソール（mod-scan）で確認できます。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990722
+    m_Localized: 「{0}」のフォルダにはマニフェストに記載されていないDLLが含まれているため、有効化できません：{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990723
+    m_Localized: MODの読み込みが、開発者によって一時停止されています。{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990724
+    m_Localized: 再度有効化を試す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990725
+    m_Localized: 権限：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990726
+    m_Localized: なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990727
+    m_Localized: ブロック中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990728
+    m_Localized: 開発者モード：オン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990729
+    m_Localized: 開発者モード：オフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990730
+    m_Localized: 開発者によってブロック中：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990731
+    m_Localized: 読み込み不可：MODの読み込みが、開発者によって一時停止されています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990732
+    m_Localized: 読み込み不可：このコンピューターでまだ承認されていません。「再度有効化を試す」から読み込んでください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990733
+    m_Localized: 読み込み不可：以前承認してから、変更が加えられています（{0}）。「再度有効化を試す」からもう一度承認してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990734
+    m_Localized: '{0}に更新済みです（新しい権限はなし）。承認日：{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990735
+    m_Localized: 開発者モード：このフォルダへの変更は信頼されています。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990736
+    m_Localized: 開発者によって検証済みです。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990737
+    m_Localized: '{0}にこのコンピューターで承認済みです。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990738
+    m_Localized: しばらくMODの安全リストが更新されていません。新しくブロックされたMODがまだ反映されていない可能性があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990739
+    m_Localized: '{0}はMODフォルダ内にありますが、マニフェストに記載されておらず、読み込まれませんでした'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990740
+    m_Localized: ファイルの確認ができなかった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990741
+    m_Localized: 承認済みのコピーとは違う入手元になった
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990742
+    m_Localized: 別のワークショップのアイテムになっている
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990743
+    m_Localized: フォルダに、マニフェストに記載されていないDLLが含まれている：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990744
+    m_Localized: 新しいバージョンがMODスキャナーによって拒否された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990745
+    m_Localized: 新しいバージョンが、宣言されていない権限を使用している：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990746
+    m_Localized: 新しいバージョンが、別の権限も求めている：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990747
+    m_Localized: 鑑定品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990748
+    m_Localized: 客が鑑定のために持ち込めるアイテムの種類を選ぼう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990749
+    m_Localized: 許可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990750
+    m_Localized: このアイテムは、次回の昇格後のみブロック可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990751
+    m_Localized: このアイテムは、現在のランクではブロックできない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033920
+    m_Localized: MODで追加されたアイテムのツールチップ下部に、MOD名が表示される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033921
+    m_Localized: MODで客が追加された場合、会話レコーダーでその客の最初のセリフの前に、MOD名が表示される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033922
+    m_Localized: '{0}から：'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467584
+    m_Localized: 各プレイでディスクに残す直近の日数（最新の日を含む）。それ以前の日は「ロード」画面から読み込める。新しい日を保存すると、最も古い日が削除される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467585
+    m_Localized: セーブフォルダーを調べて、手動で追加したセーブデータを探す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185637425564663808
+    m_Localized: 取り付けた部品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186842463947505664
+    m_Localized: セルピコからのお礼：ひとつ選ぼう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187082072463818752
+    m_Localized: エレノアからのお礼：ひとつ選ぼう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628563652608
+    m_Localized: 上級
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401344
+    m_Localized: 収納コーディネーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401345
+    m_Localized: 新規プリセット作成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401346
+    m_Localized: 空のプリセットを追加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401347
+    m_Localized: プリセット{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401348
+    m_Localized: プリセットはまだない。「新規プリセット作成」をクリックして始めよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401349
+    m_Localized: プリセット名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401350
+    m_Localized: 追加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401351
+    m_Localized: 停止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401352
+    m_Localized: 店内の容器をクリックすると、このプリセットに追加される。Escか右クリックで追加をやめる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401353
+    m_Localized: キーを押してね
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401354
+    m_Localized: クリックしてからキーを押すと、このプリセットのホットキーになる。使えないキーもある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401355
+    m_Localized: このプリセットを削除する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401356
+    m_Localized: '{0}：クリックでこのプリセットから外す。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401357
+    m_Localized: （見つからない）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401358
+    m_Localized: このアイテムはもう店にない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401359
+    m_Localized: '{0}に追加中：店内の容器をクリック。Escか右クリックで終了。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401360
+    m_Localized: '{0}のキーを押してね。Escか右クリックでキャンセル。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401361
+    m_Localized: '{0}はもうゲームで使われている。別のキーを押してね。Escか右クリックでキャンセル。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401362
+    m_Localized: '{0}に追加中：容器をクリック。Escか右クリックで終了。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401363
+    m_Localized: '{0}は{1}に追加できない。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401364
+    m_Localized: '{0}はもう{1}に入っている。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401365
+    m_Localized: クリックで{0}を{1}に追加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401366
+    m_Localized: '[有効]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401367
+    m_Localized: 外す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401368
+    m_Localized: 付ける
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401369
+    m_Localized: '{0}とは両立できない。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895863472128
+    m_Localized: 朝の新聞はカウンターではなくゴミ箱に入れられる。取り出して読むことはできる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895897026560
+    m_Localized: 寄付（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188164055981240320
+    m_Localized: ゲームのフレームレートをモニターのリフレッシュレート（最低60FPS）に制限する。消費電力が減り、グラフィックカードの発熱と騒音を抑えられる。オフにすると、ゲームは可能な限り多くのフレームを描画する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188509160777498624
+    m_Localized: モニターのリフレッシュごとに1フレームだけ描画し、画面のカクつきやティアリングを防ぐ。消費電力が減り、グラフィックカードの発熱と騒音を抑えられる。オフにすると、ゲームは可能な限り多くのフレームを描画する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688832
+    m_Localized: ブラウザでウェブリンクを開く
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688833
+    m_Localized: あなたのアカウントでSteamの機能を使用する（実績、フレンド、オーバーレイ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688834
+    m_Localized: 更新されたMODスキャナーによって拒否された
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688835
+    m_Localized: 更新されたMODスキャナーが、宣言されていない権限を検出した：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688836
+    m_Localized: 更新されたMODスキャナーが、承認されていない権限を検出した：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688837
+    m_Localized: MODに決して許可されない方法で、あなたのSteamアカウントを使用しようとした（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688838
+    m_Localized: 他のプログラムを起動しようとした。これはMODに決して許可されない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688839
+    m_Localized: ゲームによって停止・無効化されました：{0}。このMODを削除するか登録解除し、このパソコンで実行されていた場合はSteamのパスワードを変更してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688840
+    m_Localized: 「{0}」は、このパソコンでゲームによって停止されました：{1}。このバージョンを再度有効化することはできません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189286048303202304
+    m_Localized: ルーからのお礼：ひとつ選ぼう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482432
+    m_Localized: 開封マニアやグルメ観光客など、ポップカルチャーに着想を得たキャラクターが店に来なくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482433
+    m_Localized: 購入した品や物々交換で得た品は、直接インベントリに入る。オフにすると、カウンターに残る。入りきらない品は常にカウンターに残る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482434
+    m_Localized: Steamワークショップからインストールされていないため、アップロード日と評価を確認できません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482435
+    m_Localized: ワークショップでアップロード日と評価を確認中...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482436
+    m_Localized: ワークショップから応答がありません。アップロード日と評価は不明です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482437
+    m_Localized: ワークショップへの初回アップロード：{0}（{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482438
+    m_Localized: 1時間以内
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482439
+    m_Localized: 1時間前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482440
+    m_Localized: '{0}時間前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482441
+    m_Localized: 1日前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482442
+    m_Localized: '{0}日前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482443
+    m_Localized: '{0}週間前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482444
+    m_Localized: '{0}か月前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482445
+    m_Localized: 1年前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482446
+    m_Localized: '{0}年前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482447
+    m_Localized: 評価したユーザー数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482448
+    m_Localized: このMODは有効化できません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482449
+    m_Localized: ログをコピーしてMODの作者に送るか、バグ報告に添付してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482450
+    m_Localized: ログをコピー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482451
+    m_Localized: コピーしました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482452
+    m_Localized: 危険な可能性あり：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482453
+    m_Localized: 店内と電話で表示される吹き出し、名札、返答の選択肢のサイズ。100%が通常のサイズ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123392
+    m_Localized: 「{0}」では、以下の権限が求められます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123393
+    m_Localized: このような権限を持つMODは、このコンピューターであなた自身ができることを何でも実行できます。信頼できる作者のMODだけを有効化してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123394
+    m_Localized: 信頼できる作者のMODだけを有効化してください。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458793009152
+    m_Localized: Alt-Tabから戻ったときにゲームが全画面ではなく小さなウィンドウになっていたら、選択した全画面モードに切り替え直す。Alt-Tab後に画面が真っ暗なままになる場合（Linuxなど）はオフにしよう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369280
+    m_Localized: 少なくとも1種類のアイテムは許可のままにする必要がある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369281
+    m_Localized: 店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190788156584148992
+    m_Localized: このMODのオンラインサービスにゲームの所有を証明する
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5621084498384125957
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00c0cc80593a0000

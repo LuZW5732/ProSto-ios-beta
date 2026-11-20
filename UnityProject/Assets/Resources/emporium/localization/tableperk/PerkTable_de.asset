@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PerkTable_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: b8081521f90d5004a96ecf7f776becff, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9267625902095
+    m_Localized: Die Unterweltbörse ist von Anfang an verfügbar. Der Hausmeisterservice ist immer kostenlos, solange dein Laden nicht verwüstet wurde. Aufräumarbeiten nach Vandalismus kosten erheblich weniger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902113
+    m_Localized: Du hast eine zwielichtige Vergangenheit, und ein Erpresser droht, dein Geheimnis zu enthüllen. Du musst pro Woche eine kleine Summe bezahlen, ansonsten gerät dein Geheimnis an die Öffentlichkeit und führt einmalig zu einem erheblichen Ansehensverlust bei fast allen Fraktionen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267617513472
+    m_Localized: Starte mit {0} Extra-Credits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1443059515392
+    m_Localized: Ersparnisse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902080
+    m_Localized: Hohe Miete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902081
+    m_Localized: Deine Miete zu Beginn ist um {0} Credits erhöht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902086
+    m_Localized: Vorstrafe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902087
+    m_Localized: Starte mit {0} zusätzlichem Security-Ansehen. Du erhältst eine {1} % geringere Belohnung, wenn du Kunden von der Fahndungsliste meldest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902088
+    m_Localized: Vorzeigebürger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902089
+    m_Localized: Starte mit {0} zusätzlichem Security-Ansehen. Du erhältst eine {1} % höhere Belohnung, wenn du Kunden von der Fahndungsliste meldest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902090
+    m_Localized: Vitamin B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902091
+    m_Localized: Starte bei allen Fraktionen mit {0} zusätzlichem Ansehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902092
+    m_Localized: Wachsamkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902093
+    m_Localized: Du wirst nachts nie ausgeraubt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902094
+    m_Localized: Sawyers Crew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902096
+    m_Localized: Diplomatie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902097
+    m_Localized: Durch Handel generiertes Ansehen ist um {0} % erhöht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902098
+    m_Localized: Einschüchterung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902099
+    m_Localized: Alle begangenen Verbrechen generieren {0} % weniger verfügbares Beweismaterial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902100
+    m_Localized: Seitenstraße
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902101
+    m_Localized: Du erhältst 1 zufälligen Kunden weniger pro Tag.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902102
+    m_Localized: Nikotinsucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902103
+    m_Localized: Du erhältst eine Handelsnachteil von {0} %, wenn du nicht regelmäßig Nikotin konsumierst. Deine Sucht kann geheilt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902104
+    m_Localized: Drogensucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902105
+    m_Localized: Du erhältst eine Handelsnachteil von {0} %, wenn du nicht regelmäßig Drogen konsumierst. Deine Sucht kann geheilt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902106
+    m_Localized: Alkoholsucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902107
+    m_Localized: Du erhältst eine Handelsnachteil von {0} %, wenn du nicht regelmäßig Alkohol konsumierst. Deine Sucht kann geheilt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902108
+    m_Localized: Heimliche Bewunderin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902109
+    m_Localized: Wenn du deinen Laden aufmachst, findest du hin und wieder zufällige Gegenstände von einer heimlichen Bewunderin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902110
+    m_Localized: Schillernde Persönlichkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902111
+    m_Localized: Du erhältst {0} zusätzliche Felder für Startvorteile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902112
+    m_Localized: Erpressung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902114
+    m_Localized: Plappermaul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902115
+    m_Localized: Alle begangenen Verbrechen generieren {0} % mehr verfügbares Beweismaterial. Beim Schwarzmarkt und der Revolution erhältst du 50 % weniger Ansehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902116
+    m_Localized: Ende des Abos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902117
+    m_Localized: Du erhältst keine Tageszeitung, die dich über aktuelle Geschehnisse informiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902118
+    m_Localized: Minimalist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902119
+    m_Localized: Dein Hauptinventar ist 20x10 statt 24x10 groß.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902120
+    m_Localized: Sentinel-Kollaps-Syndrom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902121
+    m_Localized: Du leidest an einer tödlichen, unheilbaren Autoimmunerkrankung und brauchst jede Woche eine Immunivax-Injektion, um am Leben zu bleiben. Du beginnst das Spiel mit 1 Immunivax-Injektor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902124
+    m_Localized: Tempo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902125
+    m_Localized: Du kannst jeden Abend nach Feierabend bis zu 2 Orte besuchen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902126
+    m_Localized: Agoraphobie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902128
+    m_Localized: Wohlfahrtsprogramm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902129
+    m_Localized: Der Markt ist von Anfang an verfügbar. Abhängig von deinem Gesamtvermögen kannst du montags Lebensmittelmarken erhalten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902130
+    m_Localized: Professioneller Recycler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902131
+    m_Localized: Du kannst bei einem Besuch auf der Müllhalde bis zu 2 zusätzliche Suchaktionen durchführen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902132
+    m_Localized: Sympathisant der Revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902133
+    m_Localized: Du startest mit {0} zusätzlichem Ansehen bei der Revolution. Du erhältst häufiger Marktplatz-Anfragen von der Revolution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902134
+    m_Localized: Spielsucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902135
+    m_Localized: Du kaufst immer Lotterielose, wenn möglich. Alle Lotterie-Inhalte sind von Anfang an freigeschaltet. Deine Sucht kann geheilt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902136
+    m_Localized: Musikfan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902137
+    m_Localized: Du hast von Anfang an alle Musikkassetten in deinem Kassettenrekorder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902138
+    m_Localized: Expeditions-Manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902139
+    m_Localized: Du kannst bestimmte Charaktere anheuern und Expeditionen organisieren. Alle Expeditionsinhalte sind von Anfang an freigeschaltet, inklusive Heuerling.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902140
+    m_Localized: Verkaufsautomat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902141
+    m_Localized: Du startest mit einem Verkaufsautomaten vor deinem Laden, mit dem deine Kunden auch nach Ladenschluss automatisch Waren kaufen können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12200241315840
+    m_Localized: Vorteilspunkt(e)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791168
+    m_Localized: Du verpasst keinen Kunden, auch wenn du in der Nacht zuvor nach Feierabend unterwegs warst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313910013952
+    m_Localized: Kurzschläfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791169
+    m_Localized: Funktionierende Rohre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791170
+    m_Localized: Mit unbegrenztem Dreckwasser sind die Wasserrohre bereits angeschlossen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791171
+    m_Localized: Analphabet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791172
+    m_Localized: Du kannst keine Anleitungen lesen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791173
+    m_Localized: Beste Lage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313930985472
+    m_Localized: 'Jeden Tag kommt ein zusätzlicher normaler Kunde, aber die Miete zu Beginn kostet {0} Credits mehr. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876391931904
+    m_Localized: Degenerative Arthrose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263552
+    m_Localized: In der ersten Woche kannst du auf der Müllhalde normal recyceln. Danach verlierst du pro vergangener Woche 1 Recycelversuch von deinem Maximum. Sobald deine maximalen Versuche unter {0} fallen, kannst du nicht mehr recyceln. Normale Ladenbesitzer beginnen bei {1} max. Versuchen pro Tag. Du beginnst mit {2} zusätzlichen topischen Verbänden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263553
+    m_Localized: Bekannter Spitzel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263554
+    m_Localized: Von der Fahndungsliste wird nie jemand deinen Laden betreten. Du beginnst mit {0} Ansehen bei der Revolution und dem Schwarzmarkt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180758536192
+    m_Localized: Handwerklich begabt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673536
+    m_Localized: 'Du beginnst mit einem schäbigen Werkzeugkasten und ein paar schäbigen Werkzeugen: Schraubenzieher, Seitenschneider und Plasmaschneider.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673537
+    m_Localized: Allgemein unbeliebt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673538
+    m_Localized: Starte mit {0} Ansehen bei allen Fraktionen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673539
+    m_Localized: Asket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673540
+    m_Localized: Dein Hauptinventar ist {0}x10 statt 24x10 groß.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673541
+    m_Localized: Verstümmelt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673542
+    m_Localized: Die Müllhalde ist nicht verfügbar. Du kannst nicht recyceln gehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673543
+    m_Localized: Wilds Favorit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673544
+    m_Localized: Alle Verbesserungen von Wilds Netzwerk kosten {0} % weniger. Die Versicherung kostet {1} % weniger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673545
+    m_Localized: In Wilds Ungnade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673546
+    m_Localized: Alle Verbesserungen von Wilds Netzwerk kosten {0} % mehr. Die Versicherung kostet {1} % mehr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673547
+    m_Localized: Augmentierte Gefahr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673548
+    m_Localized: Die Augmentierten-Inhalte sind schon zu Beginn des Spiels freigeschaltet. Du verdienst {0} % mehr Credits, wenn du einen Augmentierten tötest. Die augmentierte Gefahr nimmt kein Ende – wenn du zu viele Augmentierte entkommen lässt, wird das Spiel beendet (Schwierigkeitsstufe irrelevant).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673549
+    m_Localized: Glückspilz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673550
+    m_Localized: Erhöht dein Glück. Wahrscheinlich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673551
+    m_Localized: Einfach kein Glück
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673552
+    m_Localized: Senkt dein Glück. Wahrscheinlich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593216
+    m_Localized: Bastler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593217
+    m_Localized: Wenn du einen Gegenstand verbesserst, besteht eine {0}%ige Chance, dass das verwendete Material nicht verbraucht wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593218
+    m_Localized: Vorsichtiger Recycler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593219
+    m_Localized: Du kannst bei einem Besuch auf der Müllhalde {0} Suchaktionen weniger durchführen, aber du verletzt dich dabei nie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593220
+    m_Localized: Stiefellecker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593221
+    m_Localized: Du startest mit zusätzlich {0} Oberdecks-Ansehen. Ansehen, das du auf den Oberdecks gewinnst, wird um {1} % erhöht. Oberdecks-Kunden haben {2} % mehr Budget.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593222
+    m_Localized: Wenn du nach Feierabend unterwegs warst, musst du dich danach erst {0} Nächte lang im Laden ausruhen, bevor du erneut ausgehen kannst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593223
+    m_Localized: Furchtbar im Feilschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593224
+    m_Localized: Du kannst nicht mit Kunden feilschen und erleidest einen permanenten Handelsmalus von {0} %.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593225
+    m_Localized: Vom Markt verbannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593226
+    m_Localized: Der Markt ist nicht verfügbar. Lebensmittelmarken werden niemals eingeführt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593227
+    m_Localized: Horter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593228
+    m_Localized: Du beginnst mit drei unverrückbaren Trümmerhaufen am Boden deines Inventars. Jeder Haufen kann jedoch entfernt werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593229
+    m_Localized: Improvisierter Reaktor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593230
+    m_Localized: Du bist dauerhaft unabhängig vom Stromnetz der Station und damit nicht mehr von Stromausfällen betroffen. Du beginnst mit einem aufrüstbaren Improvisierten Mikro-Atomreaktor, den du von Dr. Jackson erworben hast. Er versorgt den Laden mit Energie, muss aber regelmäßig repariert werden.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

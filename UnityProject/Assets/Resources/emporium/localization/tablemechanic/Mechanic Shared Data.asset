@@ -1,0 +1,6340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Mechanic Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Mechanic
+  m_TableCollectionNameGuidString: 332905d6768305f478dc6952f9f0ac7c
+  m_Entries:
+  - m_Id: 6348201574400
+    m_Key: placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096479195136
+    m_Key: mech_alarm_label_power_source
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166656
+    m_Key: mech_alarm_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166657
+    m_Key: mech_alarm_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096500166658
+    m_Key: mech_alarm_theft_prevention_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360960
+    m_Key: mech_transmitter_postfix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360961
+    m_Key: mech_transmitter_desc_security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360962
+    m_Key: mech_transmitter_desc_blackmarket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360963
+    m_Key: mech_transmitter_desc_upperlevel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360964
+    m_Key: mech_transmitter_desc_revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360965
+    m_Key: mech_blender_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360966
+    m_Key: mech_blender_label_input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360967
+    m_Key: mech_blender_label_container
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360968
+    m_Key: mech_blender_label_control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360969
+    m_Key: mech_blender_btn_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360970
+    m_Key: mech_blender_content_lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360971
+    m_Key: mech_chem_finisher_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360972
+    m_Key: mech_chem_finisher_label_container
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360973
+    m_Key: mech_chem_finisher_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360974
+    m_Key: mech_chem_finisher_label_control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360975
+    m_Key: mech_chem_finisher_btn_configure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360976
+    m_Key: mech_chem_finisher_btn_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360977
+    m_Key: mech_chem_finisher_no_target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360978
+    m_Key: mech_chem_finisher_contaminant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360979
+    m_Key: mech_desequencer_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360980
+    m_Key: mech_desequencer_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360981
+    m_Key: mech_desequencer_label_chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360982
+    m_Key: mech_desequencer_label_input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360983
+    m_Key: mech_desequencer_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360984
+    m_Key: mech_desequencer_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360985
+    m_Key: mech_desequencer_status_working
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360986
+    m_Key: mech_desequencer_status_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360987
+    m_Key: mech_desequencer_status_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360988
+    m_Key: mech_evaporator_label_battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360989
+    m_Key: mech_evaporator_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360990
+    m_Key: mech_evaporator_label_container
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360991
+    m_Key: mech_evaporator_label_distillate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360992
+    m_Key: mech_evaporator_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360993
+    m_Key: mech_furnace_label_battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360994
+    m_Key: mech_furnace_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360995
+    m_Key: mech_furnace_label_input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360996
+    m_Key: mech_furnace_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360997
+    m_Key: mech_furnace_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360998
+    m_Key: mech_heating_plate_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504360999
+    m_Key: mech_heating_plate_label_container
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361000
+    m_Key: mech_heating_plate_label_temp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361001
+    m_Key: mech_heating_plate_label_control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361002
+    m_Key: mech_heating_plate_label_target_temp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361003
+    m_Key: mech_heating_plate_state_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361004
+    m_Key: mech_heating_plate_state_low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361005
+    m_Key: mech_heating_plate_state_high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361006
+    m_Key: mech_heating_plate_btn_minus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361007
+    m_Key: mech_heating_plate_btn_plus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361009
+    m_Key: mech_heating_plate_temp_na
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361010
+    m_Key: mech_heating_plate_temp_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361011
+    m_Key: mech_heating_plate_max_temp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361012
+    m_Key: mech_heating_plate_speed_slow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361013
+    m_Key: mech_heating_plate_speed_fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361014
+    m_Key: mech_heating_plate_speed_very_fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361015
+    m_Key: mech_bottle_printer_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361016
+    m_Key: mech_bottle_printer_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361017
+    m_Key: mech_bottle_printer_label_control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361018
+    m_Key: mech_bottle_printer_btn_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361019
+    m_Key: mech_cassette_player_label_storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361020
+    m_Key: mech_cassette_player_label_cassette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361021
+    m_Key: mech_cassette_player_label_controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361022
+    m_Key: mech_cassette_player_label_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361023
+    m_Key: mech_cassette_player_btn_prev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361024
+    m_Key: mech_cassette_player_btn_play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361025
+    m_Key: mech_cassette_player_btn_stop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361026
+    m_Key: mech_cassette_player_btn_next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361027
+    m_Key: mech_cassette_player_btn_vol_down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361028
+    m_Key: mech_cassette_player_btn_vol_up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361029
+    m_Key: mech_cassette_player_vol_default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361030
+    m_Key: mech_cassette_player_vol_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361031
+    m_Key: mech_recharger_label_battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361032
+    m_Key: mech_turbo_booster_label_battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361033
+    m_Key: mech_turbo_booster_status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361034
+    m_Key: mech_turbo_booster_status_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361035
+    m_Key: mech_turbo_booster_status_recharging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361036
+    m_Key: mech_turbo_booster_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361037
+    m_Key: mech_projector_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361038
+    m_Key: mech_projector_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361039
+    m_Key: mech_projector_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361040
+    m_Key: mech_projector_attractiveness_active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361041
+    m_Key: mech_projector_attractiveness_inactive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361042
+    m_Key: mech_printer_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361043
+    m_Key: mech_printer_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361044
+    m_Key: mech_printer_label_input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361045
+    m_Key: mech_printer_label_chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361046
+    m_Key: mech_printer_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361047
+    m_Key: mech_printer_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361048
+    m_Key: mech_hydroponic_label_battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361049
+    m_Key: mech_hydroponic_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361050
+    m_Key: mech_hydroponic_label_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361051
+    m_Key: mech_hydroponic_label_seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361052
+    m_Key: mech_hydroponic_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361053
+    m_Key: mech_hydroponic_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361054
+    m_Key: mech_hydroponic_status_no_water_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361055
+    m_Key: mech_hydroponic_status_no_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361056
+    m_Key: mech_hydroponic_status_no_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361057
+    m_Key: mech_hydroponic_status_starting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361058
+    m_Key: mech_hydroponic_status_awaiting_seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361059
+    m_Key: mech_hydroponic_status_growing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361060
+    m_Key: mech_hydroponic_tooltip_status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361062
+    m_Key: mech_hydroponic_tooltip_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361063
+    m_Key: mech_hydroponic_growing_prefix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361064
+    m_Key: mech_moisture_farm_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361065
+    m_Key: mech_moisture_farm_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361066
+    m_Key: mech_moisture_farm_label_container
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361067
+    m_Key: mech_moisture_farm_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361068
+    m_Key: mech_moisture_farm_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361069
+    m_Key: mech_purifier_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361070
+    m_Key: mech_purifier_label_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361071
+    m_Key: mech_purifier_label_container
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361072
+    m_Key: mech_purifier_label_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361073
+    m_Key: mech_purifier_tooltip_removed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361074
+    m_Key: mech_vending_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361075
+    m_Key: mech_vending_label_inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361076
+    m_Key: mech_vending_label_control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361077
+    m_Key: mech_vending_label_core
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361078
+    m_Key: mech_vending_cash_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361079
+    m_Key: mech_vending_btn_transfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361080
+    m_Key: mech_vending_tooltip_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361081
+    m_Key: mech_vending_tooltip_popular
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361082
+    m_Key: mech_vending_tooltip_upgrade_attract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361083
+    m_Key: mech_vending_tooltip_upgrade_capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361084
+    m_Key: mech_vending_tooltip_attractiveness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361085
+    m_Key: mech_fountain_label_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361086
+    m_Key: mech_fountain_label_basewater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361087
+    m_Key: mech_fountain_label_hq_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361088
+    m_Key: mech_fountain_label_pure_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361089
+    m_Key: mech_fountain_label_control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361090
+    m_Key: mech_fountain_label_core
+    m_Metadata:
+      m_Items: []
+  - m_Id: 193096504361091
+    m_Key: mech_fountain_tooltip_upgrade_attract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054720
+    m_Key: type_food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054721
+    m_Key: type_medical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054722
+    m_Key: type_material
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054723
+    m_Key: type_household_good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054724
+    m_Key: type_substance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054725
+    m_Key: type_weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054726
+    m_Key: type_not_for_resale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054727
+    m_Key: type_supply_crate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054728
+    m_Key: type_tool
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054729
+    m_Key: type_medical_tool
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054730
+    m_Key: type_all_type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054731
+    m_Key: type_all_type_except_contraband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054732
+    m_Key: type_contraband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054733
+    m_Key: type_restricted_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054734
+    m_Key: type_restricted_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054735
+    m_Key: type_restricted_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054736
+    m_Key: type_makeshift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054737
+    m_Key: type_lowtech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054738
+    m_Key: type_midline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054739
+    m_Key: type_highend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054740
+    m_Key: type_rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054741
+    m_Key: type_luxury_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054742
+    m_Key: type_art
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054743
+    m_Key: type_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054744
+    m_Key: type_water_ration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054745
+    m_Key: type_medical_supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054746
+    m_Key: type_farming_supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054747
+    m_Key: type_chemical_supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054748
+    m_Key: type_fresh_food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054749
+    m_Key: type_processed_food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054750
+    m_Key: type_treat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054751
+    m_Key: type_brevage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054752
+    m_Key: type_document
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054753
+    m_Key: type_access_card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054754
+    m_Key: type_seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054755
+    m_Key: type_basic_material
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054756
+    m_Key: type_refined_material
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054757
+    m_Key: type_energy_cell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054758
+    m_Key: type_narcotic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054759
+    m_Key: type_poison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054760
+    m_Key: type_storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054761
+    m_Key: type_water_purification_supply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054762
+    m_Key: type_oxygen_supply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054763
+    m_Key: type_alcohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054764
+    m_Key: type_melee_weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054765
+    m_Key: type_firearm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054766
+    m_Key: type_moddable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054767
+    m_Key: type_ammunition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054768
+    m_Key: type_munition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054769
+    m_Key: type_gun_mod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054770
+    m_Key: type_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054771
+    m_Key: type_node
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054772
+    m_Key: type_hydroponic_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054773
+    m_Key: type_alarm_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054774
+    m_Key: type_printer_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054775
+    m_Key: type_evaporator_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054776
+    m_Key: type_machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054777
+    m_Key: type_organ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054778
+    m_Key: type_armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054779
+    m_Key: type_filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 252552609054780
+    m_Key: type_lottery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915584
+    m_Key: mech_stolen_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915585
+    m_Key: mech_contraband_low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915586
+    m_Key: mech_contraband_mid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915587
+    m_Key: mech_contraband_high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915588
+    m_Key: mech_contraband_critical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915589
+    m_Key: mech_tooltip_disabled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915590
+    m_Key: mech_tooltip_locked_machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915591
+    m_Key: mech_tooltip_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915592
+    m_Key: mech_tooltip_hidden_dev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915593
+    m_Key: mech_tooltip_important_dev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915594
+    m_Key: mech_tooltip_repo_dev
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915595
+    m_Key: mech_tooltip_unit_barter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915596
+    m_Key: mech_tooltip_total_barter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915597
+    m_Key: mech_tooltip_est_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915598
+    m_Key: mech_tooltip_bought_at
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915599
+    m_Key: mech_tooltip_food_stamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915600
+    m_Key: service_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915601
+    m_Key: service_janitorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915602
+    m_Key: service_insurance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915603
+    m_Key: service_cartel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915604
+    m_Key: service_inspection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915605
+    m_Key: service_buy_referal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915606
+    m_Key: service_sell_referal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915607
+    m_Key: service_criminel_network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915608
+    m_Key: service_wild_fixer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915609
+    m_Key: mech_calendar_keyword_rent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915610
+    m_Key: mech_calendar_keyword_payment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915611
+    m_Key: mech_calendar_due_today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915612
+    m_Key: mech_calendar_due_tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915613
+    m_Key: mech_calendar_due_in_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915614
+    m_Key: mech_calendar_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915615
+    m_Key: mech_calendar_sunday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915616
+    m_Key: mech_calendar_monday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915617
+    m_Key: mech_calendar_tuesday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915618
+    m_Key: mech_calendar_wednesday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915619
+    m_Key: mech_calendar_thursday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915620
+    m_Key: mech_calendar_friday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915621
+    m_Key: mech_calendar_saturday
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915622
+    m_Key: rep_neutral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915623
+    m_Key: rep_known
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915624
+    m_Key: rep_established
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500078915625
+    m_Key: rep_recognized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109888
+    m_Key: rep_dependable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109889
+    m_Key: rep_recommended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109890
+    m_Key: rep_trusted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109891
+    m_Key: rep_highly_rated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109892
+    m_Key: rep_renowned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109893
+    m_Key: rep_esteemed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109894
+    m_Key: rep_prestigious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109895
+    m_Key: rep_inconsistent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109896
+    m_Key: rep_disfavored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109897
+    m_Key: rep_unreliable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109898
+    m_Key: rep_shady
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109899
+    m_Key: rep_dubious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109900
+    m_Key: rep_questionable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109901
+    m_Key: rep_notorious
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109902
+    m_Key: rep_disreputable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109903
+    m_Key: rep_avoided
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109904
+    m_Key: rep_boycotted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109905
+    m_Key: rep_blacklisted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109906
+    m_Key: mech_store_attractiveness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109907
+    m_Key: mech_credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 273500083109908
+    m_Key: mech_day_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818283970560
+    m_Key: mech_rent_day_today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359168
+    m_Key: mech_rent_day_tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359169
+    m_Key: mech_rent_day_in_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359170
+    m_Key: mech_rent_loan_shark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359171
+    m_Key: mech_rent_landlord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359172
+    m_Key: mech_rent_landlord_missed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359173
+    m_Key: mech_rent_property_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359174
+    m_Key: mech_gun_firepower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359175
+    m_Key: mech_gun_style
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359176
+    m_Key: mech_gun_reliability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359177
+    m_Key: mech_gun_recoil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359178
+    m_Key: mech_gun_ergonomics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359179
+    m_Key: mech_gun_accuracy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359180
+    m_Key: mech_gun_size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359181
+    m_Key: mech_gun_suppressed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359182
+    m_Key: mech_seed_nutriment_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359183
+    m_Key: mech_seed_nutrient_use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359184
+    m_Key: mech_seed_contaminant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359185
+    m_Key: mech_seed_water_usage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359186
+    m_Key: mech_seed_growth_score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359187
+    m_Key: mech_seed_sensitivity_average
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359188
+    m_Key: mech_seed_sensitivity_very_sensitive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359189
+    m_Key: mech_seed_sensitivity_sensitive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359190
+    m_Key: mech_seed_sensitivity_slightly_sensitive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359191
+    m_Key: mech_seed_sensitivity_very_resistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359192
+    m_Key: mech_seed_sensitivity_resistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359193
+    m_Key: mech_seed_sensitivity_slightly_resistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359194
+    m_Key: mech_seed_sensitivity_immune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359195
+    m_Key: mech_seed_sensitivity_unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359196
+    m_Key: mech_contact_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359197
+    m_Key: mech_contact_cooldown_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359198
+    m_Key: mech_contact_cooldown_n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359199
+    m_Key: mech_contact_unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359200
+    m_Key: mech_chem_required_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359201
+    m_Key: mech_chem_no_wet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359202
+    m_Key: mech_service_cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359203
+    m_Key: mech_service_cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359204
+    m_Key: mech_request_from
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359206
+    m_Key: mech_request_duration_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359207
+    m_Key: mech_request_duration_n
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359208
+    m_Key: mech_request_reward_credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359209
+    m_Key: mech_request_reward_rep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359210
+    m_Key: mech_commissary_in_stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292818292359211
+    m_Key: mech_commissary_lottery_redeemed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141968977920
+    m_Key: mech_inspectable_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560832
+    m_Key: mech_container_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560833
+    m_Key: mech_module_effect_header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560834
+    m_Key: mech_module_stat_performance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560835
+    m_Key: mech_module_stat_efficiency
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560836
+    m_Key: mech_module_stat_quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560837
+    m_Key: mech_module_stuck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560838
+    m_Key: mech_base_stat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560839
+    m_Key: mech_module_effect_premium_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560840
+    m_Key: mech_module_effect_premium_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560841
+    m_Key: mech_module_effect_inferior_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560842
+    m_Key: mech_module_effect_inferior_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560843
+    m_Key: mech_module_effect_receiver_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560844
+    m_Key: mech_module_effect_receiver_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560845
+    m_Key: mech_module_effect_top_mount_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560846
+    m_Key: mech_module_effect_top_mount_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560847
+    m_Key: mech_module_effect_side_mount_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560848
+    m_Key: mech_module_effect_side_mount_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560849
+    m_Key: mech_module_effect_overvolted_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560850
+    m_Key: mech_module_effect_overvolted_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560851
+    m_Key: mech_module_effect_degrading_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560852
+    m_Key: mech_module_effect_degrading_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560853
+    m_Key: mech_module_effect_learning_algorithm_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560854
+    m_Key: mech_module_effect_learning_algorithm_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560855
+    m_Key: mech_module_effect_negative_feedback_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560856
+    m_Key: mech_module_effect_negative_feedback_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560857
+    m_Key: mech_module_effect_support_node_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560858
+    m_Key: mech_module_effect_support_node_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560859
+    m_Key: mech_ratio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560860
+    m_Key: mech_effect_from_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560861
+    m_Key: mech_machinery_required_energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560862
+    m_Key: mech_machinery_per_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560863
+    m_Key: mech_machinery_per_day_base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560864
+    m_Key: mech_machinery_progress_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560865
+    m_Key: mech_machinery_accumulator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560866
+    m_Key: mech_machinery_charging_paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560867
+    m_Key: mech_machinery_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560868
+    m_Key: mech_machinery_insufficient_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560869
+    m_Key: mech_machinery_charging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560870
+    m_Key: mech_machinery_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337141981560871
+    m_Key: mech_machinery_low_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808787431424
+    m_Key: health_wound_stabilized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014336
+    m_Key: health_wound_healed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014337
+    m_Key: health_wound_mobility_regained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014338
+    m_Key: health_wound_minor_healing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014339
+    m_Key: health_wound_major_lost_mobility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014340
+    m_Key: health_wound_major_worsened
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808800014341
+    m_Key: health_wound_minor_worsened
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208640
+    m_Key: health_wound_minor_received
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208641
+    m_Key: health_wound_major_received
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208642
+    m_Key: health_addiction_overcome_nicotine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208643
+    m_Key: health_addiction_overcome_alcohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208644
+    m_Key: health_addiction_overcome_narcotic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208645
+    m_Key: health_addiction_withdrawal_nicotine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208646
+    m_Key: health_addiction_withdrawal_alcohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208647
+    m_Key: health_addiction_withdrawal_narcotic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208648
+    m_Key: health_addiction_suppressed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208649
+    m_Key: health_sentinel_critical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208650
+    m_Key: health_sentinel_severe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208651
+    m_Key: health_sentinel_moderate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208652
+    m_Key: health_sentinel_mild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208653
+    m_Key: health_sentinel_collapse_final
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208654
+    m_Key: health_sentinel_collapse_advanced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208655
+    m_Key: health_immunivax_feel_much_better
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208656
+    m_Key: health_immunivax_feel_better
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208657
+    m_Key: health_immunivax_feel_slightly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208658
+    m_Key: health_immunivax_feel_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208659
+    m_Key: health_immunivax_smooth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208660
+    m_Key: health_immunivax_mostly_smooth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208661
+    m_Key: health_immunivax_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208662
+    m_Key: health_addiction_cured
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208663
+    m_Key: sec_data_and
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208664
+    m_Key: sec_data_list_sep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208665
+    m_Key: sec_data_no_crimes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208666
+    m_Key: sec_data_not_applicable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208667
+    m_Key: sec_data_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208668
+    m_Key: sec_data_crime_weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208669
+    m_Key: sec_data_crime_drug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208670
+    m_Key: sec_data_crime_card
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208671
+    m_Key: sec_data_crime_contraband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208672
+    m_Key: sec_data_crime_bribery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208673
+    m_Key: sec_data_crime_fraud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208674
+    m_Key: sec_data_crime_endangerment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208675
+    m_Key: sec_data_crime_fencing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208676
+    m_Key: sec_data_crime_no_license
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208677
+    m_Key: sec_data_crime_other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208678
+    m_Key: sec_data_sentence_fine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208679
+    m_Key: sec_data_sentence_incarceration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208680
+    m_Key: sec_data_sentence_execution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208681
+    m_Key: sec_data_action_reliable_inspector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208682
+    m_Key: sec_data_action_additional_inspection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208683
+    m_Key: sec_data_action_sting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208684
+    m_Key: sec_data_operation_investigation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208685
+    m_Key: sec_data_operation_planning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208686
+    m_Key: sec_data_operation_execute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208687
+    m_Key: sec_data_officer_jeff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208688
+    m_Key: sec_data_officer_valentine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208689
+    m_Key: sec_data_officer_huang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208690
+    m_Key: sec_data_officer_page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208691
+    m_Key: sec_data_officer_carlson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208692
+    m_Key: sec_data_total_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208693
+    m_Key: sec_data_investigation_fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208694
+    m_Key: sec_data_investigation_very_fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208695
+    m_Key: mech_tooltip_not_owned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208696
+    m_Key: mech_scav_success
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208697
+    m_Key: mech_scav_scanner_upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 591808804208698
+    m_Key: mech_scav_scanner_chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830324310016
+    m_Key: mech_nightlog_promo_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892928
+    m_Key: mech_nightlog_buyer_referral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892929
+    m_Key: mech_nightlog_seller_referral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892930
+    m_Key: mech_nightlog_criminal_network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892931
+    m_Key: mech_nightlog_inspection_2days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892932
+    m_Key: mech_nightlog_inspection_tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892933
+    m_Key: mech_nightlog_inspection_imminent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892934
+    m_Key: mech_nightlog_wanted_visited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892935
+    m_Key: mech_nightlog_upgrade_tip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892936
+    m_Key: mech_nightlog_sting_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892937
+    m_Key: mech_nightlog_investigation_near
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892938
+    m_Key: mech_nightlog_afterhour_debuff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892939
+    m_Key: mech_nightlog_fixer_used
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892940
+    m_Key: mech_nightlog_storefront_not_cleaned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892941
+    m_Key: mech_nightlog_storefront_clean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892942
+    m_Key: mech_nightlog_vandalism_cleaned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892943
+    m_Key: mech_nightlog_garbage_clean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892944
+    m_Key: mech_nightlog_garbage_some
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830336892945
+    m_Key: mech_nightlog_garbage_lot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087232
+    m_Key: mech_nightlog_garbage_extreme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087233
+    m_Key: mech_nightlog_power_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087234
+    m_Key: mech_nightlog_power_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087235
+    m_Key: mech_nightlog_cartel_protection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087236
+    m_Key: mech_nightlog_insurance_unpaid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087237
+    m_Key: mech_nightlog_insurance_paid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087238
+    m_Key: mech_nightlog_burglary_alarm_stopped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087239
+    m_Key: mech_nightlog_burglary_alarm_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087240
+    m_Key: mech_nightlog_burglary_no_alarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087241
+    m_Key: mech_nightlog_burglary_insured
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087242
+    m_Key: mech_nightlog_vandalized_lower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087243
+    m_Key: mech_nightlog_vandalized_security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087244
+    m_Key: mech_nightlog_vandalized_upper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087245
+    m_Key: mech_nightlog_vandalized_revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087246
+    m_Key: mech_nightlog_vandalized_cartel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087247
+    m_Key: mech_nightlog_vandalized_generic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087248
+    m_Key: mech_nightlog_store_vandalized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087249
+    m_Key: mech_nightlog_faction_op_date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087250
+    m_Key: mech_nightlog_contact_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087251
+    m_Key: mech_nightlog_blackout_bypassed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087252
+    m_Key: mech_nightlog_blackout_active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087253
+    m_Key: mech_report_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087254
+    m_Key: mech_report_wanted_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087255
+    m_Key: mech_report_rep_improved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087256
+    m_Key: mech_report_contraband_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087257
+    m_Key: mech_report_thief_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087258
+    m_Key: mech_report_rep_slightly_improved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087259
+    m_Key: mech_report_faction_degraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087260
+    m_Key: mech_report_wrongful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087261
+    m_Key: mech_report_fine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087262
+    m_Key: mech_report_next_arrest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087263
+    m_Key: mech_report_severe_consequences
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087264
+    m_Key: mech_report_rep_decreased
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087265
+    m_Key: mech_power_energy_data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087266
+    m_Key: mech_power_energy_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087267
+    m_Key: mech_power_self_recharge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 916830341087268
+    m_Key: mech_market_price_change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840624394240
+    m_Key: event_rent_due
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171456
+    m_Key: event_mortgage_payment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171457
+    m_Key: event_cartel_visit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171458
+    m_Key: event_op_gang_war_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171459
+    m_Key: event_op_gang_war_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171460
+    m_Key: event_op_gang_war_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171461
+    m_Key: event_op_weapon_shipment_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171462
+    m_Key: event_op_weapon_shipment_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171463
+    m_Key: event_op_weapon_shipment_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171464
+    m_Key: event_op_mob_secret_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171465
+    m_Key: event_op_mob_secret_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171466
+    m_Key: event_op_mobilization_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171467
+    m_Key: event_op_mobilization_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171468
+    m_Key: event_op_raid_upper_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171469
+    m_Key: event_op_raid_upper_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171470
+    m_Key: event_op_raid_upper_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171471
+    m_Key: event_op_raid_sec_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171472
+    m_Key: event_op_raid_sec_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171473
+    m_Key: event_op_raid_sec_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171474
+    m_Key: event_op_patrols_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171475
+    m_Key: event_op_patrols_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171476
+    m_Key: event_op_patrols_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171477
+    m_Key: event_op_crackdown_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171478
+    m_Key: event_op_crackdown_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171479
+    m_Key: event_op_raid_bm_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171480
+    m_Key: event_op_raid_bm_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171481
+    m_Key: event_op_raid_bm_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171482
+    m_Key: event_op_raid_rev_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171483
+    m_Key: event_op_raid_rev_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171484
+    m_Key: event_op_raid_rev_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171485
+    m_Key: event_op_martial_law_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171486
+    m_Key: event_op_martial_law_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171487
+    m_Key: event_op_martial_law_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171488
+    m_Key: event_op_budget_increase_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171489
+    m_Key: event_op_budget_increase_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171490
+    m_Key: event_op_riot_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171491
+    m_Key: event_op_riot_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171492
+    m_Key: event_op_riot_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171493
+    m_Key: event_op_worker_strike_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171494
+    m_Key: event_op_worker_strike_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171495
+    m_Key: event_op_worker_strike_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171496
+    m_Key: event_op_medical_aid_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171497
+    m_Key: event_op_medical_aid_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171498
+    m_Key: event_op_medical_aid_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171499
+    m_Key: event_op_food_drive_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171500
+    m_Key: event_op_food_drive_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171501
+    m_Key: event_op_food_drive_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171502
+    m_Key: event_op_household_relief_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171503
+    m_Key: event_op_household_relief_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171504
+    m_Key: event_op_household_relief_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171505
+    m_Key: event_lottery_draw_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171506
+    m_Key: event_lottery_draw_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840641171507
+    m_Key: event_lottery_draw_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365760
+    m_Key: event_wanted3_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365761
+    m_Key: event_wanted3_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365762
+    m_Key: event_evidence_locker_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365763
+    m_Key: event_evidence_locker_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365764
+    m_Key: event_cosmetic_all_quiet_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365765
+    m_Key: event_cosmetic_all_quiet_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365766
+    m_Key: event_cosmetic_electrical_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365767
+    m_Key: event_cosmetic_electrical_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365768
+    m_Key: event_cosmetic_nutrifruit_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365769
+    m_Key: event_cosmetic_nutrifruit_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365770
+    m_Key: event_cosmetic_peat_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365771
+    m_Key: event_cosmetic_peat_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365772
+    m_Key: event_cosmetic_recycling_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365773
+    m_Key: event_cosmetic_recycling_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365774
+    m_Key: event_cosmetic_artist_showcase_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365775
+    m_Key: event_cosmetic_artist_showcase_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365776
+    m_Key: event_cosmetic_maintenance_strike_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365777
+    m_Key: event_cosmetic_maintenance_strike_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365778
+    m_Key: event_cosmetic_tech_demo_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365779
+    m_Key: event_cosmetic_tech_demo_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365780
+    m_Key: event_cosmetic_transit_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365781
+    m_Key: event_cosmetic_transit_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365782
+    m_Key: event_cosmetic_fountain_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365783
+    m_Key: event_cosmetic_fountain_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365784
+    m_Key: event_cosmetic_garden_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365785
+    m_Key: event_cosmetic_garden_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365786
+    m_Key: event_cosmetic_art_contest_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365787
+    m_Key: event_cosmetic_art_contest_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365788
+    m_Key: event_cosmetic_cultural_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365789
+    m_Key: event_cosmetic_cultural_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365790
+    m_Key: event_cosmetic_spacewalk_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365791
+    m_Key: event_cosmetic_spacewalk_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365792
+    m_Key: event_normal_nutrifruit_harvest_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365793
+    m_Key: event_normal_nutrifruit_harvest_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365794
+    m_Key: event_normal_nutrifruit_harvest_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365795
+    m_Key: event_normal_bad_harvest_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365796
+    m_Key: event_normal_bad_harvest_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365797
+    m_Key: event_normal_bad_harvest_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365798
+    m_Key: event_normal_seed_heist_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365799
+    m_Key: event_normal_seed_heist_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365800
+    m_Key: event_normal_seed_heist_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365801
+    m_Key: event_normal_counterfeit_med_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365802
+    m_Key: event_normal_counterfeit_med_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365803
+    m_Key: event_normal_counterfeit_med_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365804
+    m_Key: event_normal_water_breakdown_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365805
+    m_Key: event_normal_water_breakdown_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365806
+    m_Key: event_normal_water_breakdown_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365807
+    m_Key: event_normal_water_maintenance_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365808
+    m_Key: event_normal_water_maintenance_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365809
+    m_Key: event_normal_water_maintenance_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365810
+    m_Key: event_normal_ice_asteroid_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365811
+    m_Key: event_normal_ice_asteroid_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365812
+    m_Key: event_normal_ice_asteroid_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365813
+    m_Key: event_normal_mob_justice_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365814
+    m_Key: event_normal_mob_justice_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365815
+    m_Key: event_normal_mob_justice_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365816
+    m_Key: event_normal_storeroom_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365817
+    m_Key: event_normal_storeroom_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365818
+    m_Key: event_normal_storeroom_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365819
+    m_Key: event_normal_mining_return_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365820
+    m_Key: event_normal_mining_return_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365821
+    m_Key: event_normal_mining_return_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365822
+    m_Key: event_normal_construction_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365823
+    m_Key: event_normal_construction_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365824
+    m_Key: event_normal_meteor_shower_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365825
+    m_Key: event_normal_meteor_shower_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365826
+    m_Key: event_normal_power_shortage_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365827
+    m_Key: event_normal_power_shortage_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365828
+    m_Key: event_normal_power_shortage_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365829
+    m_Key: event_normal_power_maintenance_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365830
+    m_Key: event_normal_power_maintenance_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365831
+    m_Key: event_normal_power_maintenance_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365832
+    m_Key: event_normal_blackout_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365833
+    m_Key: event_normal_blackout_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365834
+    m_Key: event_normal_cruise_ship_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365835
+    m_Key: event_normal_cruise_ship_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365836
+    m_Key: event_normal_cruise_ship_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365837
+    m_Key: event_normal_oxymore_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365838
+    m_Key: event_normal_oxymore_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365839
+    m_Key: mech_suffix_counterfeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365840
+    m_Key: mech_suffix_unusable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365841
+    m_Key: mech_suffix_expired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365842
+    m_Key: mech_condition_free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365843
+    m_Key: mech_condition_normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365844
+    m_Key: mech_condition_expired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365845
+    m_Key: mech_condition_non_expired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365846
+    m_Key: mech_condition_dented
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365847
+    m_Key: mech_condition_hidden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365848
+    m_Key: mech_condition_open_box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365849
+    m_Key: mech_condition_factory_sealed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365850
+    m_Key: mech_condition_rusted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365851
+    m_Key: mech_condition_perfect_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365852
+    m_Key: mech_condition_very_high_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365853
+    m_Key: mech_condition_high_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365854
+    m_Key: mech_condition_fair_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365855
+    m_Key: mech_condition_low_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365856
+    m_Key: mech_condition_very_low_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365857
+    m_Key: mech_condition_pure_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365858
+    m_Key: mech_condition_high_quality_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365859
+    m_Key: mech_condition_basewater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365860
+    m_Key: mech_condition_ghostwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365861
+    m_Key: mech_condition_rustwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365862
+    m_Key: mech_condition_gutterflow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365863
+    m_Key: mech_condition_very_fresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365864
+    m_Key: mech_condition_fresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365865
+    m_Key: mech_condition_stale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365866
+    m_Key: mech_condition_spoiled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365867
+    m_Key: mech_condition_counterfeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365868
+    m_Key: mech_condition_genuine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365869
+    m_Key: mech_condition_unusable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365870
+    m_Key: mech_condition_stuck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365871
+    m_Key: mech_condition_equip_new
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365872
+    m_Key: mech_condition_equip_excellent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365873
+    m_Key: mech_condition_equip_good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365874
+    m_Key: mech_condition_equip_fair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365875
+    m_Key: mech_condition_equip_poor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365876
+    m_Key: mech_condition_replica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365877
+    m_Key: mech_condition_functional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365878
+    m_Key: mech_condition_lab_pure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365879
+    m_Key: mech_condition_pharma_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365880
+    m_Key: mech_condition_near_pharma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365881
+    m_Key: mech_condition_street_standard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365882
+    m_Key: mech_condition_cut_product
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365883
+    m_Key: mech_condition_junk_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365884
+    m_Key: mech_condition_starch_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365885
+    m_Key: item_feature_category_open_box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365886
+    m_Key: item_feature_category_rusted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365887
+    m_Key: item_feature_category_expired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365888
+    m_Key: item_feature_category_dented
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365889
+    m_Key: item_feature_category_ingot_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365890
+    m_Key: item_feature_category_water_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365891
+    m_Key: item_feature_category_freshness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365892
+    m_Key: item_feature_category_cigarette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365893
+    m_Key: item_feature_category_stamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365894
+    m_Key: item_feature_category_injector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365895
+    m_Key: item_feature_category_module_stuck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365896
+    m_Key: item_feature_category_free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365897
+    m_Key: item_feature_category_chemical_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365898
+    m_Key: item_feature_client_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365899
+    m_Key: item_feature_retail_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365900
+    m_Key: item_feature_vending_machine_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365901
+    m_Key: item_feature_donation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365902
+    m_Key: item_feature_neuro_active_perfume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365903
+    m_Key: item_feature_pheromone_perfume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365904
+    m_Key: item_feature_five_finger_iv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365905
+    m_Key: item_feature_five_finger_iii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365906
+    m_Key: item_feature_five_finger_ii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365907
+    m_Key: item_feature_five_finger_i
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365908
+    m_Key: item_feature_negotiation_penalty_addiction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365909
+    m_Key: item_feature_good_inspection_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365911
+    m_Key: item_feature_contraband_low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365912
+    m_Key: item_feature_contraband_mid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365913
+    m_Key: item_feature_contraband_high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365914
+    m_Key: item_feature_contraband_critical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365915
+    m_Key: item_feature_restricted_class_i
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365916
+    m_Key: item_feature_restricted_class_ii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365917
+    m_Key: item_feature_restricted_class_iii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365918
+    m_Key: item_feature_supplier_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365919
+    m_Key: item_feature_tips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365920
+    m_Key: item_feature_clearance_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365921
+    m_Key: item_feature_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365922
+    m_Key: item_feature_supplier_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365923
+    m_Key: item_feature_new_customer_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365924
+    m_Key: item_feature_variety_buyer_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365925
+    m_Key: item_feature_tourist_tax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 951840645365926
+    m_Key: item_feature_module_stuck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528109809664
+    m_Key: mech_label_tooltip_prefix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586880
+    m_Key: ins_cig_not_genuine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586881
+    m_Key: ins_cig_issues_with
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586882
+    m_Key: ins_cig_issue_lettering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586883
+    m_Key: ins_cig_issue_color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586884
+    m_Key: ins_cig_issue_seal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586885
+    m_Key: ins_cig_issue_logo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586886
+    m_Key: ins_cig_issue_box
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586887
+    m_Key: ins_cig_confront_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586888
+    m_Key: ins_cig_confront_lower_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586889
+    m_Key: ins_cig_confront_wrong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586891
+    m_Key: ins_cig_georgio_didnt_know
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586892
+    m_Key: ins_cig_georgio_lower_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586893
+    m_Key: ins_cig_georgio_everything_wrong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586894
+    m_Key: ins_cig_georgio_ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586895
+    m_Key: ins_cig_talk_genuine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586896
+    m_Key: ins_cig_talk_thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586897
+    m_Key: ins_cig_talk_genuine_deny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586898
+    m_Key: mech_lottery_edition_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586899
+    m_Key: ins_stamp_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586900
+    m_Key: ins_stamp_issue_amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586901
+    m_Key: ins_stamp_issue_chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586903
+    m_Key: ins_stamp_confront_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586904
+    m_Key: ins_stamp_confront_lower_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586906
+    m_Key: ins_inj_correct_model
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586907
+    m_Key: ins_inj_issue_indicator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586908
+    m_Key: ins_inj_issue_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586909
+    m_Key: ins_inj_issue_serial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1081528126586910
+    m_Key: ins_inj_issue_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1090714495401984
+    m_Key: appraisal_packing_facility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083968
+    m_Key: ins_stamp_credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083969
+    m_Key: mech_durability_display
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083970
+    m_Key: mech_seed_required_work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083971
+    m_Key: mech_seed_harvest_quantity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083972
+    m_Key: mech_seed_water_use_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083973
+    m_Key: mech_seed_status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083974
+    m_Key: mech_tooltip_labeled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083975
+    m_Key: mech_tooltip_tested
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083976
+    m_Key: mech_scanner_total_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083977
+    m_Key: mech_scanner_toxicity_lethal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083978
+    m_Key: mech_scanner_toxicity_toxic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083979
+    m_Key: mech_scanner_euphoria_weak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083980
+    m_Key: mech_scanner_euphoria_mild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083981
+    m_Key: mech_scanner_euphoria_strong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083982
+    m_Key: mech_scanner_euphoria_extreme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083983
+    m_Key: mech_scanner_anti_addiction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083984
+    m_Key: mech_scanner_contraceptive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083985
+    m_Key: liquid_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083986
+    m_Key: liquid_heavy_metal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083987
+    m_Key: liquid_organic_waste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083988
+    m_Key: liquid_microplastic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083989
+    m_Key: liquid_microbes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083990
+    m_Key: liquid_chemical_contaminant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083991
+    m_Key: liquid_physical_contaminant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083992
+    m_Key: liquid_mineral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083993
+    m_Key: liquid_dream_cap_mush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083994
+    m_Key: liquid_dream_cap_extract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083995
+    m_Key: liquid_plant_matter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083996
+    m_Key: liquid_alcohol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083997
+    m_Key: liquid_caffeine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083998
+    m_Key: liquid_protein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160083999
+    m_Key: liquid_fat_oil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084000
+    m_Key: liquid_starch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084001
+    m_Key: liquid_sugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084002
+    m_Key: liquid_coffee_bean_mush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084003
+    m_Key: liquid_contraceptive_hormones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084004
+    m_Key: liquid_zyanide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084005
+    m_Key: liquid_nightmare_extract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084006
+    m_Key: liquid_nightmare_cap_mush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928160084007
+    m_Key: liquid_chlorine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278272
+    m_Key: liquid_synaprest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278273
+    m_Key: liquid_fanta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278274
+    m_Key: liquid_n_methylol_base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278275
+    m_Key: liquid_reducing_agent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278276
+    m_Key: liquid_acid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278277
+    m_Key: liquid_base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278278
+    m_Key: liquid_stabilizing_agent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278279
+    m_Key: liquid_insoluble_debris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278280
+    m_Key: liquid_lipobond_agent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278281
+    m_Key: mech_lock_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1101928164278282
+    m_Key: mech_lock_sealed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254276825088
+    m_Key: mech_end_rent_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796608
+    m_Key: mech_end_rent_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796609
+    m_Key: mech_end_arrest_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796610
+    m_Key: mech_end_arrest_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796611
+    m_Key: mech_end_execution_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796612
+    m_Key: mech_end_execution_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796613
+    m_Key: mech_end_buyout_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796614
+    m_Key: mech_end_buyout_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796615
+    m_Key: mech_end_buyout_mortgage_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796616
+    m_Key: mech_end_repo_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796617
+    m_Key: mech_end_repo_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796618
+    m_Key: mech_end_mob_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796619
+    m_Key: mech_end_mob_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796620
+    m_Key: mech_end_sec_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796621
+    m_Key: mech_end_sec_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796622
+    m_Key: mech_end_hitman_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796623
+    m_Key: mech_end_hitman_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796624
+    m_Key: mech_end_sentinel_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796625
+    m_Key: mech_end_sentinel_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796626
+    m_Key: mech_end_bombed_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796627
+    m_Key: mech_end_bombed_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796628
+    m_Key: mech_end_cartel_retired_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796629
+    m_Key: mech_end_cartel_retired_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796630
+    m_Key: mech_end_vendor_permit_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796631
+    m_Key: mech_end_vendor_permit_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796632
+    m_Key: response_afterhours_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796633
+    m_Key: response_afterhours_no_backpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796634
+    m_Key: response_afterhours_select_backpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796635
+    m_Key: handler_activate_click_again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796636
+    m_Key: handler_activate_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796637
+    m_Key: handler_activate_activation_of
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796638
+    m_Key: handler_activate_cannot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796639
+    m_Key: afterhour_items_lost_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796640
+    m_Key: afterhour_jackson_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796641
+    m_Key: afterhour_confirm_leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796642
+    m_Key: afterhour_confirm_cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796643
+    m_Key: afterhour_attempts_remaining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796644
+    m_Key: afterhour_attempts_wounded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796645
+    m_Key: afterhour_minor_wound_chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1269254297796646
+    m_Key: afterhour_major_wound_chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109824
+    m_Key: handler_btn_open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109825
+    m_Key: handler_btn_examine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109826
+    m_Key: handler_btn_use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109827
+    m_Key: handler_btn_read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109828
+    m_Key: handler_btn_consume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109829
+    m_Key: handler_btn_activate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109830
+    m_Key: handler_btn_unpack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109831
+    m_Key: handler_btn_pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109832
+    m_Key: handler_btn_toggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1272490220109833
+    m_Key: handler_btn_unload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055920013312
+    m_Key: mech_gutterflow_tap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179136
+    m_Key: mech_rustwater_tap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179137
+    m_Key: request_meteor_ll_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179138
+    m_Key: request_meteor_ll_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179139
+    m_Key: request_meteor_ll_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179140
+    m_Key: request_meteor_ul_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179141
+    m_Key: request_meteor_ul_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179142
+    m_Key: request_meteor_ul_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179143
+    m_Key: request_medshortage_ll_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179144
+    m_Key: request_medshortage_ll_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179145
+    m_Key: request_medshortage_ll_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179146
+    m_Key: request_medshortage_ul_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179147
+    m_Key: request_medshortage_ul_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179148
+    m_Key: request_medshortage_ul_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179149
+    m_Key: request_medshortage_bm_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179150
+    m_Key: request_medshortage_bm_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179151
+    m_Key: request_medshortage_bm_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179152
+    m_Key: request_ll_construction_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179153
+    m_Key: request_ll_construction_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179154
+    m_Key: request_ll_construction_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179155
+    m_Key: request_bm_construction_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179156
+    m_Key: request_bm_construction_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179157
+    m_Key: request_bm_construction_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179158
+    m_Key: request_ll_soup_kitchen_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179159
+    m_Key: request_ll_soup_kitchen_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179160
+    m_Key: request_ll_soup_kitchen_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179161
+    m_Key: request_sec_evidence_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179162
+    m_Key: request_sec_evidence_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179163
+    m_Key: request_sec_evidence_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179164
+    m_Key: request_bm_evidence_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179165
+    m_Key: request_bm_evidence_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179166
+    m_Key: request_bm_evidence_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179167
+    m_Key: request_rev_cell_shadow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179168
+    m_Key: request_rev_cell_gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179169
+    m_Key: request_rev_cell_eagle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179170
+    m_Key: request_rev_cell_hq
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179171
+    m_Key: request_rev_cell_alpha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179172
+    m_Key: request_rev_cell_theta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179173
+    m_Key: request_rev_name_alexandra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179174
+    m_Key: request_rev_name_jordan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179175
+    m_Key: request_rev_name_taylor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179176
+    m_Key: request_rev_name_louis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179177
+    m_Key: request_rev_name_harun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179178
+    m_Key: request_rev_name_kim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179179
+    m_Key: request_rev_oxymore_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179180
+    m_Key: request_rev_oxymore_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179181
+    m_Key: request_rev_oxymore_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179182
+    m_Key: request_rev_scrap_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179183
+    m_Key: request_rev_scrap_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179184
+    m_Key: request_rev_seccard_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179185
+    m_Key: request_rev_seccard_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179186
+    m_Key: request_rev_seccard_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179187
+    m_Key: request_rev_peat_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179188
+    m_Key: request_rev_peat_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179189
+    m_Key: request_ul_rare_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179190
+    m_Key: request_ul_rare_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179191
+    m_Key: request_ul_charity_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179192
+    m_Key: request_ul_charity_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179193
+    m_Key: request_lower_worker_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179194
+    m_Key: request_lower_worker_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179195
+    m_Key: request_lower_worker_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179196
+    m_Key: request_georgio_tp_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179197
+    m_Key: request_georgio_tp_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179198
+    m_Key: request_georgio_tp_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179199
+    m_Key: request_butcher_cleaver_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179200
+    m_Key: request_butcher_cleaver_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179201
+    m_Key: request_butcher_cleaver_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179202
+    m_Key: request_sawyer_beer_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179203
+    m_Key: request_sawyer_beer_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179204
+    m_Key: request_sawyer_beer_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179205
+    m_Key: request_lun_snackbar_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179206
+    m_Key: request_lun_snackbar_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179207
+    m_Key: request_lun_snackbar_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179208
+    m_Key: request_sawyer_crowbar_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179209
+    m_Key: request_sawyer_crowbar_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179210
+    m_Key: request_jackson_energy_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179211
+    m_Key: request_jackson_energy_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179212
+    m_Key: request_jackson_energy_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179213
+    m_Key: request_landlord_special1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179214
+    m_Key: request_landlord_special1_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179215
+    m_Key: request_landlord_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179216
+    m_Key: request_landlord_special2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179217
+    m_Key: request_landlord_special2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179218
+    m_Key: request_landlord_special3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179219
+    m_Key: request_landlord_special3_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179220
+    m_Key: request_lun_retirement_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179221
+    m_Key: request_lun_retirement_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179222
+    m_Key: request_upper_petmeat_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179223
+    m_Key: request_upper_petmeat_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179224
+    m_Key: request_upper_petmeat_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179225
+    m_Key: request_mother_galaxy_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179226
+    m_Key: request_mother_galaxy_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281055945179227
+    m_Key: request_mother_galaxy_requester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355192635392
+    m_Key: water_higher_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995520
+    m_Key: water_higher_client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995521
+    m_Key: water_rust_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995522
+    m_Key: water_rust_client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995523
+    m_Key: water_gutter_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995524
+    m_Key: water_gutter_client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995525
+    m_Key: water_ghost_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995526
+    m_Key: water_ghost_client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355221995527
+    m_Key: water_base_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189824
+    m_Key: water_incorrect_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189825
+    m_Key: water_incorrect_client
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189826
+    m_Key: water_wrong_pure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189827
+    m_Key: water_wrong_high_quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189828
+    m_Key: water_wrong_base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189829
+    m_Key: water_wrong_ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189830
+    m_Key: water_wrong_rust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189831
+    m_Key: water_wrong_gutter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189832
+    m_Key: water_wrong_default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189833
+    m_Key: appraisal_too_high_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189834
+    m_Key: appraisal_too_high_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189835
+    m_Key: appraisal_too_low_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189836
+    m_Key: appraisal_patience_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189837
+    m_Key: appraisal_patience_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189838
+    m_Key: appraisal_slip_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189839
+    m_Key: appraisal_slip_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189840
+    m_Key: appraisal_slip_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189841
+    m_Key: appraisal_quality_perfect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189842
+    m_Key: appraisal_quality_excellent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189843
+    m_Key: appraisal_quality_good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189844
+    m_Key: appraisal_quality_mediocre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189845
+    m_Key: appraisal_quality_awful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189846
+    m_Key: appraisal_accept_perfect_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189847
+    m_Key: appraisal_accept_thanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189848
+    m_Key: appraisal_accept_hmm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189849
+    m_Key: appraisal_accept_lower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189850
+    m_Key: appraisal_accept_about_right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189851
+    m_Key: appraisal_accept_bit_lower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189852
+    m_Key: appraisal_accept_good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189853
+    m_Key: appraisal_accept_great
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189854
+    m_Key: appraisal_accept_higher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1652355226189855
+    m_Key: appraisal_accept_bit_higher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174125625344
+    m_Key: mech_gun_tag_rail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596864
+    m_Key: mech_gun_tag_barrel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596865
+    m_Key: mech_gun_tag_magazine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596866
+    m_Key: mech_gun_tag_underbarrel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596867
+    m_Key: mech_gun_tag_stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596868
+    m_Key: mech_gun_tag_special1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596869
+    m_Key: mech_gun_tag_special2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2009174146596870
+    m_Key: mech_gun_tag_special3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748402831540224
+    m_Key: mech_use_count_use_left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848249237504
+    m_Key: liquid_livestock_steroid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014720
+    m_Key: liquid_livestock_immunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014721
+    m_Key: husbandry_stage_elder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014722
+    m_Key: husbandry_stage_adult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014723
+    m_Key: husbandry_stage_adolescent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014724
+    m_Key: husbandry_stage_juvenile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014725
+    m_Key: husbandry_stage_infant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014726
+    m_Key: husbandry_stage_unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014727
+    m_Key: husbandry_sex_male
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014728
+    m_Key: husbandry_sex_female
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014729
+    m_Key: husbandry_tooltip_age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014730
+    m_Key: husbandry_tooltip_health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014731
+    m_Key: husbandry_tooltip_hunger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014732
+    m_Key: husbandry_tooltip_fertility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014733
+    m_Key: husbandry_tooltip_fertility_mod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014734
+    m_Key: husbandry_stat_growth_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014735
+    m_Key: husbandry_stat_litter_size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014736
+    m_Key: husbandry_stat_immunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014737
+    m_Key: husbandry_stat_max_health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014738
+    m_Key: husbandry_stat_longevity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014739
+    m_Key: husbandry_stat_hunger_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014740
+    m_Key: husbandry_tooltip_pregnancy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848266014741
+    m_Key: husbandry_tooltip_pregnancy_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209024
+    m_Key: husbandry_status_dead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209025
+    m_Key: husbandry_status_starving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209026
+    m_Key: husbandry_status_pregnant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209027
+    m_Key: husbandry_status_miscarried
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209028
+    m_Key: husbandry_status_neutered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209029
+    m_Key: husbandry_status_diseased
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209030
+    m_Key: husbandry_status_scratch_mark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209031
+    m_Key: husbandry_status_mature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209032
+    m_Key: husbandry_status_strong_immunity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209033
+    m_Key: husbandry_status_immunocomp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10105848270209034
+    m_Key: husbandry_status_overcrowding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164525137920
+    m_Key: husbandry_cage_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526528
+    m_Key: husbandry_cage_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526529
+    m_Key: husbandry_cage_inv_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526530
+    m_Key: husbandry_cage_durability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526531
+    m_Key: husbandry_cage_repair_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526532
+    m_Key: husbandry_cage_expand_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526533
+    m_Key: husbandry_cage_max_size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526534
+    m_Key: husbandry_cage_fully_repaired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526535
+    m_Key: note_ghostwater_threat_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526536
+    m_Key: note_ghostwater_threat_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526537
+    m_Key: note_ghostwater_threat_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526538
+    m_Key: note_ghostwater_threat_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526539
+    m_Key: note_ghostwater_threat_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526540
+    m_Key: note_ghostwater_threat_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526541
+    m_Key: note_ammo_threat_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526542
+    m_Key: note_admirer_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526543
+    m_Key: note_admirer_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526544
+    m_Key: note_admirer_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526545
+    m_Key: note_admirer_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526546
+    m_Key: note_admirer_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526547
+    m_Key: note_admirer_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526548
+    m_Key: note_admirer_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526549
+    m_Key: item_size_small_of
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526550
+    m_Key: item_size_large_of
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526551
+    m_Key: item_size_huge_of
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526552
+    m_Key: mech_item_ruined
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526553
+    m_Key: mech_item_broken_machine_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526554
+    m_Key: mech_item_nutrient_solution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526555
+    m_Key: mech_item_chemical_bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526556
+    m_Key: mech_item_old_hydroponic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10118164533526557
+    m_Key: mech_item_glitched_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12846119084933120
+    m_Key: mech_feeder_stored_cal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412624089088
+    m_Key: husbandry_status_prion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283392
+    m_Key: mech_husbandry_meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12989412628283393
+    m_Key: mech_husbandry_other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805506109440
+    m_Key: mech_end_aug_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15007805522886656
+    m_Key: mech_end_aug_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853199155200
+    m_Key: shotgun_equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16285853220126720
+    m_Key: shotgun_cant_equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17612012079857664
+    m_Key: livestock_feed_dispenser_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382631989559296
+    m_Key: mech_chem_finisher_status_no_target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530816
+    m_Key: mech_chem_finisher_status_wet_ingredient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19382632010530817
+    m_Key: mech_chem_finisher_status_not_enough_reagent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19813141920399360
+    m_Key: mech_aug_kill_slip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22771451896315904
+    m_Key: sec_data_crime_manslaughter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26281714880659456
+    m_Key: mech_commissary_token
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069152714752
+    m_Key: mech_condition_wine_master_vintage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269184
+    m_Key: mech_condition_wine_reserve
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269185
+    m_Key: mech_condition_wine_production
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269186
+    m_Key: mech_condition_wine_homebrew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269187
+    m_Key: mech_condition_wine_bucket_brew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32849069186269188
+    m_Key: mech_condition_wine_undrinkable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32910981274058752
+    m_Key: mech_nightlog_aug_left_alive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712365101056
+    m_Key: item_feature_bargain_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461184
+    m_Key: item_feature_bargain_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461185
+    m_Key: item_feature_blackmail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461186
+    m_Key: item_feature_buying_markup_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461187
+    m_Key: item_feature_buying_discount_demand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34255712394461188
+    m_Key: item_feature_threaten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691844919296
+    m_Key: mech_wine_start_fermenting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890816
+    m_Key: mech_wine_fermenting_status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890817
+    m_Key: mech_wine_label_ingredient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890818
+    m_Key: mech_wine_no_ingredients
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890819
+    m_Key: mech_wine_no_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890820
+    m_Key: mech_wine_age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36801691865890821
+    m_Key: mech_wine_fermenting_remaining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925092061184
+    m_Key: mech_bargain_always_accepted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170048
+    m_Key: mech_bargain_accepts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170049
+    m_Key: mech_bargain_refuses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170050
+    m_Key: mech_bargain_walks_out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40354925159170051
+    m_Key: mech_bargain_deal_maker_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43370373127651328
+    m_Key: mech_display_case_timing_tip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113908625408
+    m_Key: mech_chemical_supplies_unpack_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43713113992511488
+    m_Key: mech_toggle_appearance_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732093977280512
+    m_Key: mech_portable_purifier_already_clean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43732094002446336
+    m_Key: mech_portable_purifier_not_enough_charge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43763292053487616
+    m_Key: mech_nightlog_aug_incoming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084774883328
+    m_Key: mech_chem_poison_no_harm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437760
+    m_Key: mech_chem_poison_not_finished
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437761
+    m_Key: mech_chem_poison_still_alive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437762
+    m_Key: mech_chem_poison_made_high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437763
+    m_Key: mech_chem_toxic_almost_killed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437764
+    m_Key: mech_chem_toxic_what_the_hell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437765
+    m_Key: mech_chem_lethal_killed_friend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437766
+    m_Key: mech_chem_pay_for_this
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437767
+    m_Key: mech_chem_birthcontrol_didnt_work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437768
+    m_Key: mech_chem_birthcontrol_pregnant_self
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437769
+    m_Key: mech_chem_birthcontrol_pregnant_her
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437770
+    m_Key: mech_chem_synaprest_didnt_work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437771
+    m_Key: mech_chem_synaprest_still_addicted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437772
+    m_Key: mech_chem_synaprest_made_high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437773
+    m_Key: mech_chem_synaprest_saved_credit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437774
+    m_Key: mech_chem_narcotic_no_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437775
+    m_Key: mech_chem_narcotic_any_drugs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437776
+    m_Key: mech_chem_narcotic_no_high
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437777
+    m_Key: mech_chem_narcotic_weak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437778
+    m_Key: mech_chem_narcotic_barely_felt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437779
+    m_Key: mech_chem_medical_weak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437780
+    m_Key: mech_chem_medical_pretty_weak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437781
+    m_Key: mech_chem_side_effect_weird
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084808437782
+    m_Key: mech_chem_purity_slightly_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826368
+    m_Key: mech_chem_purity_scam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826369
+    m_Key: mech_chem_purity_way_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826370
+    m_Key: mech_status_working
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826371
+    m_Key: mech_machine_required_work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826372
+    m_Key: mech_machine_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45243084816826373
+    m_Key: mech_unknown_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45488749983612928
+    m_Key: mech_feature_match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427832188928
+    m_Key: mech_black_lamp_signaling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48154427878326272
+    m_Key: mech_black_lamp_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48380974841249792
+    m_Key: type_junk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48476019179175936
+    m_Key: mech_aging_item_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56007818054778880
+    m_Key: mech_required_items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60693662015471616
+    m_Key: liquid_wine_extract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479060475904
+    m_Key: mech_vacuum_upgrade_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418944
+    m_Key: mech_vacuum_incinerator_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418945
+    m_Key: mech_vacuum_incinerator_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61216479102418946
+    m_Key: mech_vacuum_incinerator_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62159031347494912
+    m_Key: mech_last_scan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62538283863556096
+    m_Key: mech_husbandry_butcher_tracker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240793124864
+    m_Key: mech_bottle_printer_btn_print_normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319168
+    m_Key: mech_bottle_printer_btn_print_large
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319169
+    m_Key: mech_bottle_printer_tooltip_print_small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319170
+    m_Key: mech_bottle_printer_tooltip_print_normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319171
+    m_Key: mech_bottle_printer_tooltip_print_large
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62548240797319172
+    m_Key: mech_bottle_printer_tooltip_upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923241672704
+    m_Key: handler_btn_equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421440
+    m_Key: mech_toolbox_label_slot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421441
+    m_Key: mech_toolbox_label_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421442
+    m_Key: mech_toolbox_tooltip_slots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63965923279421443
+    m_Key: mech_toolbox_tooltip_upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392552988327936
+    m_Key: mech_lottery_redeemed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64392553026076672
+    m_Key: mech_tooltip_lottery_redeem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049709674496
+    m_Key: handler_btn_sort_big
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617536
+    m_Key: handler_btn_sort_small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617537
+    m_Key: handler_btn_sort_big_end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68709049751617538
+    m_Key: handler_btn_sort_small_end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984083615744
+    m_Key: item_feature_chilled
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170176
+    m_Key: item_feature_frozen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69719984117170177
+    m_Key: item_feature_ice_cold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074797178880
+    m_Key: mech_fridge_label_chill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733312
+    m_Key: mech_fridge_label_freeze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733313
+    m_Key: mech_drag_insert_into
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733314
+    m_Key: mech_drag_insert_into_owned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733315
+    m_Key: mech_drag_give_to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733316
+    m_Key: mech_drag_cant_insert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733317
+    m_Key: mech_drag_cant_give
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733318
+    m_Key: mech_drag_use_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733319
+    m_Key: mech_drag_cant_use_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733320
+    m_Key: mech_drag_disassemble
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733321
+    m_Key: mech_drag_refurbish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733322
+    m_Key: mech_fridge_tooltip_upgrade_header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733323
+    m_Key: mech_fridge_tooltip_upgrade_storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73414074830733324
+    m_Key: mech_fridge_tooltip_upgrade_efficiency
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73440099060989952
+    m_Key: mech_go_outside_counter_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73448114220744704
+    m_Key: mech_label_condition_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849913851904
+    m_Key: mech_intel_slip_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823424
+    m_Key: mech_intel_slip_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823425
+    m_Key: mech_intel_slip_body_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73721849934823426
+    m_Key: mech_intel_slip_body_today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499588513792
+    m_Key: mech_aug_scanner_per_scan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456832
+    m_Key: mech_aug_scanner_status_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456833
+    m_Key: mech_aug_scanner_status_aug_detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74512499630456834
+    m_Key: mech_aug_scanner_status_no_aug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203698147328
+    m_Key: note_georgio_iou_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507456
+    m_Key: note_georgio_iou_body_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507457
+    m_Key: note_georgio_iou_body_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75691203727507458
+    m_Key: note_georgio_iou_sign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75956810117070848
+    m_Key: husbandry_tooltip_header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065948909568
+    m_Key: mech_ras_label_filters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464000
+    m_Key: mech_ras_label_dispenser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464001
+    m_Key: mech_ras_label_tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464002
+    m_Key: mech_ras_btn_blend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464003
+    m_Key: mech_ras_no_water_tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464004
+    m_Key: mech_ras_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464005
+    m_Key: mech_ras_waste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464006
+    m_Key: mech_ras_stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464007
+    m_Key: mech_ras_stock_dead
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464008
+    m_Key: aquaculture_roe_eggs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464009
+    m_Key: aquaculture_roe_eggs_hatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464010
+    m_Key: aquaculture_fry_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464011
+    m_Key: aquaculture_water_need_clutch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464012
+    m_Key: aquaculture_water_need
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464013
+    m_Key: aquaculture_carcass_meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464014
+    m_Key: aquaculture_diet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464015
+    m_Key: aquaculture_diet_omnivore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464016
+    m_Key: aquaculture_diet_herbivore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464017
+    m_Key: aquaculture_diet_carnivore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464018
+    m_Key: aquaculture_trait_ignores_waste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464019
+    m_Key: aquaculture_trait_sensitive_waste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464020
+    m_Key: aquaculture_trait_absorbs_contaminants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464021
+    m_Key: aquaculture_next_stage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464022
+    m_Key: aquaculture_old_age_in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464023
+    m_Key: aquaculture_old_age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464024
+    m_Key: aquaculture_pellet_share
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464025
+    m_Key: aquaculture_pellet_share_trash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464026
+    m_Key: aquaculture_status_suffocating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464027
+    m_Key: aquaculture_status_hungry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464028
+    m_Key: aquaculture_status_no_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464029
+    m_Key: aquaculture_status_low_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464030
+    m_Key: aquaculture_status_polluted_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464031
+    m_Key: aquaculture_status_toxic_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464032
+    m_Key: aquaculture_status_fertilized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464033
+    m_Key: aquaculture_status_unfertilized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464034
+    m_Key: item_feature_trash_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464035
+    m_Key: mech_trash_grade_not_food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464036
+    m_Key: mech_gutterflow_pellet_trash_rule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464037
+    m_Key: mech_gutterflow_pellet_controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464038
+    m_Key: mech_feed_dispenser_pellet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79300065982464039
+    m_Key: mech_feed_dispenser_meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198129475584
+    m_Key: aquaculture_power_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641408
+    m_Key: aquaculture_power_starving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641409
+    m_Key: aquaculture_power_from_adolescent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641410
+    m_Key: mech_ras_eel_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641411
+    m_Key: aquaculture_eggs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641412
+    m_Key: aquaculture_eggs_full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641413
+    m_Key: aquaculture_eggs_paused_healing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641414
+    m_Key: aquaculture_status_raise_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641415
+    m_Key: aquaculture_status_gravid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79726198154641416
+    m_Key: aquaculture_status_recovering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664676265984
+    m_Key: mech_industrial_fish_feed_growth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431808
+    m_Key: mech_industrial_fish_feed_controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431809
+    m_Key: mech_feed_dispenser_industrial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431810
+    m_Key: aquaculture_growth_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431811
+    m_Key: aquaculture_trait_pellet_proof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80397664701431812
+    m_Key: aquaculture_trait_meat_growth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452674281472
+    m_Key: mech_dna_effect_complexity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447296
+    m_Key: mech_dna_effect_sell_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447297
+    m_Key: mech_dna_effect_active_ingredients
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447298
+    m_Key: mech_dna_effect_purifying
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447299
+    m_Key: mech_dna_effect_polluting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447300
+    m_Key: mech_dna_production_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447301
+    m_Key: mech_dna_production_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447302
+    m_Key: mech_dna_effect_production
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447303
+    m_Key: mech_dna_effect_production_contraband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447304
+    m_Key: mech_dna_readout_header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447305
+    m_Key: mech_dna_readout_header_heat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447306
+    m_Key: mech_dna_readout_no_traits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447307
+    m_Key: mech_dna_origin_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447308
+    m_Key: mech_dna_origin_innate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447309
+    m_Key: mech_dna_no_effect_suffix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447310
+    m_Key: mech_dna_readout_innate_removed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447311
+    m_Key: mech_dna_disk_name_uses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447312
+    m_Key: mech_dna_disk_blank_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447313
+    m_Key: mech_dna_disk_uses_remaining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447314
+    m_Key: mech_dna_trait_complexity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447315
+    m_Key: mech_dna_trait_stacks_to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447316
+    m_Key: mech_dna_trait_exclusive_with
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447317
+    m_Key: mech_dna_trait_no_effect_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447318
+    m_Key: mech_dna_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447319
+    m_Key: mech_dna_block_nothing_to_apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447320
+    m_Key: mech_dna_block_locked_apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447321
+    m_Key: mech_dna_block_incompatible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447322
+    m_Key: mech_dna_block_max_rank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447323
+    m_Key: mech_dna_block_exclusive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447324
+    m_Key: mech_dna_block_no_effect_on_crop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447325
+    m_Key: mech_dna_block_nothing_to_act_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447326
+    m_Key: mech_dna_block_locked_extract
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447327
+    m_Key: mech_dna_block_refill_missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447328
+    m_Key: mech_dna_block_precision_missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447329
+    m_Key: mech_dna_block_both_filters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447330
+    m_Key: mech_dna_block_no_positive_trait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447331
+    m_Key: mech_dna_block_no_negative_trait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447332
+    m_Key: mech_dna_block_no_trait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447333
+    m_Key: mech_dna_drag_refused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447334
+    m_Key: mech_dna_label_trait_disk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447335
+    m_Key: mech_dna_label_target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447336
+    m_Key: mech_dna_label_blank_disk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447337
+    m_Key: mech_dna_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447338
+    m_Key: mech_dna_eject_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447339
+    m_Key: mech_dna_eject_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447340
+    m_Key: mech_dna_eject_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447341
+    m_Key: mech_dna_status_applying
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447342
+    m_Key: mech_dna_status_extracting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447343
+    m_Key: mech_dna_status_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447344
+    m_Key: mech_dna_cannot_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447345
+    m_Key: mech_dna_next_apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447346
+    m_Key: mech_dna_next_apply_stack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447347
+    m_Key: mech_dna_next_extract_random
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447348
+    m_Key: mech_dna_next_extract_trait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447349
+    m_Key: mech_dna_next_extract_refill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447350
+    m_Key: mech_dna_target_kept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447351
+    m_Key: mech_dna_target_destroyed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447352
+    m_Key: mech_dna_success_chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447353
+    m_Key: plant_trait_edible_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447354
+    m_Key: plant_trait_edible_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447355
+    m_Key: plant_trait_nutritious_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447356
+    m_Key: plant_trait_nutrient_poor_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447357
+    m_Key: plant_trait_fast_grower_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447358
+    m_Key: plant_trait_slow_grower_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447359
+    m_Key: plant_trait_bountiful_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447360
+    m_Key: plant_trait_sparse_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447361
+    m_Key: plant_trait_delicious_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447362
+    m_Key: plant_trait_unappetizing_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447363
+    m_Key: plant_trait_drought_resistant_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447364
+    m_Key: plant_trait_thirsty_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447365
+    m_Key: plant_trait_hardy_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447366
+    m_Key: plant_trait_frail_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447367
+    m_Key: plant_trait_fertile_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447368
+    m_Key: plant_trait_infertile_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447369
+    m_Key: plant_trait_simple_genome_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447370
+    m_Key: plant_trait_complex_genome_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447371
+    m_Key: plant_trait_perennial_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447372
+    m_Key: plant_trait_perennial_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447373
+    m_Key: plant_trait_purifying_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447374
+    m_Key: plant_trait_polluting_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447375
+    m_Key: plant_trait_dense_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447376
+    m_Key: plant_trait_potent_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447377
+    m_Key: plant_trait_weak_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447378
+    m_Key: plant_stat_growth_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447379
+    m_Key: plant_stat_harvest_quantity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447380
+    m_Key: plant_stat_water_use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447381
+    m_Key: plant_stat_nutriment_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447382
+    m_Key: plant_stat_contaminant_sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447383
+    m_Key: plant_stat_plant_health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447384
+    m_Key: plant_stat_calories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447385
+    m_Key: plant_stat_seed_yield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81430452699447386
+    m_Key: plant_stat_durability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427712
+    m_Key: mech_feed_dispenser_empty_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427713
+    m_Key: mech_food_calories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427714
+    m_Key: mech_food_calories_meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427715
+    m_Key: type_modified_seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427716
+    m_Key: handler_btn_pin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427717
+    m_Key: handler_btn_unpin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427718
+    m_Key: handler_btn_sort_undo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81443234237427719
+    m_Key: mech_pinned_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902970552320
+    m_Key: mech_drag_module_bay_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718144
+    m_Key: mech_nightlog_vending_mislabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81449902995718145
+    m_Key: mech_nightlog_burglary_grace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078630248448
+    m_Key: mech_scav_luck_saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025664
+    m_Key: mech_inspection_luck_saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025665
+    m_Key: mech_scav_bad_luck_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025666
+    m_Key: mech_scratcher_luck_good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025667
+    m_Key: mech_scratcher_luck_bad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025668
+    m_Key: mech_lottery_luck_good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025669
+    m_Key: mech_lottery_luck_bad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025670
+    m_Key: mech_feed_dispenser_stored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025671
+    m_Key: mech_feed_dispenser_species_meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025672
+    m_Key: mech_feed_dispenser_mystery_meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025673
+    m_Key: mech_feed_dispenser_other_food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025674
+    m_Key: husbandry_stage_roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025675
+    m_Key: husbandry_stage_fry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81734078647025676
+    m_Key: mech_list_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836480
+    m_Key: mech_vending_tooltip_upgrade_attractiveness_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836481
+    m_Key: mech_vending_tooltip_upgrade_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82091749090836482
+    m_Key: mech_fountain_tooltip_upgrade_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727931338752
+    m_Key: mech_moisture_farm_tooltip_running
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504576
+    m_Key: mech_afterhour_event_fresh_dump_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504577
+    m_Key: mech_afterhour_event_fresh_dump_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504578
+    m_Key: mech_afterhour_effect_junk_less
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504579
+    m_Key: mech_afterhour_effect_injury_more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504580
+    m_Key: mech_afterhour_event_today_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504581
+    m_Key: mech_afterhour_event_days_left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504582
+    m_Key: mech_afterhour_event_georgio_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504583
+    m_Key: mech_afterhour_event_georgio_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504584
+    m_Key: mech_afterhour_effect_no_injuries
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504585
+    m_Key: mech_afterhour_effect_extra_attempts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504586
+    m_Key: mech_afterhour_event_special_stock_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504587
+    m_Key: mech_afterhour_effect_rare_stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727956504588
+    m_Key: mech_afterhour_effect_prices_higher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698880
+    m_Key: mech_afterhour_event_discount_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698881
+    m_Key: mech_afterhour_effect_prices_lower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698882
+    m_Key: mech_afterhour_event_burglary_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698883
+    m_Key: mech_afterhour_event_burglary_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698884
+    m_Key: mech_afterhour_effect_reduced_stock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698885
+    m_Key: mech_afterhour_event_fresh_restock_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82272727960698886
+    m_Key: mech_afterhour_effect_restock_percent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237053218816
+    m_Key: mech_nightlog_dividend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773248
+    m_Key: mech_afterhour_event_jackson_closed_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773249
+    m_Key: mech_afterhour_event_jackson_closed_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773250
+    m_Key: mech_condition_shabby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82891237086773251
+    m_Key: item_feature_category_shabby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682702381056
+    m_Key: mech_caliber_22sr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741184
+    m_Key: mech_caliber_10mm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741185
+    m_Key: mech_caliber_45afp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741186
+    m_Key: mech_caliber_12gauge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741187
+    m_Key: mech_gun_caliber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83314682731741188
+    m_Key: mech_printer_tooltip_upgrade_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578398818304
+    m_Key: mech_feed_dispenser_auto_blend_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178432
+    m_Key: mech_feed_dispenser_auto_blend_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178433
+    m_Key: mech_nightlog_agoraphobia_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178434
+    m_Key: item_feature_negotiation_penalty_awful_negotiator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178435
+    m_Key: service_debris_removal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178436
+    m_Key: mech_debris_tooltip_fixed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178437
+    m_Key: mech_nightlog_debris_rest_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178438
+    m_Key: mech_nightlog_debris_crew_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178439
+    m_Key: mech_nightlog_debris_cleared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178440
+    m_Key: mech_reactor_tooltip_integrity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178441
+    m_Key: mech_reactor_tooltip_decay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178442
+    m_Key: mech_reactor_tooltip_upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178443
+    m_Key: mech_reactor_tooltip_charge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178444
+    m_Key: mech_nightlog_reactor_no_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178445
+    m_Key: mech_nightlog_reactor_critical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178446
+    m_Key: mech_end_reactor_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84419578428178447
+    m_Key: mech_end_reactor_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791880241152
+    m_Key: mech_appraisal_rank_junior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601280
+    m_Key: mech_appraisal_rank_appraiser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601281
+    m_Key: mech_appraisal_rank_senior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601282
+    m_Key: mech_appraisal_rank_master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601283
+    m_Key: mech_appraisal_cert_base_fee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601284
+    m_Key: mech_appraisal_cert_grade_fee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601285
+    m_Key: mech_appraisal_cert_grade_refused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601286
+    m_Key: mech_appraisal_cert_chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601287
+    m_Key: mech_appraisal_cert_qualified
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601288
+    m_Key: mech_appraisal_cert_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601289
+    m_Key: mech_appraisal_cert_progress_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85507791909601290
+    m_Key: mech_appraisal_cert_activate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038272
+    m_Key: health_addiction_suppressed_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038273
+    m_Key: health_addiction_suppressed_weak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85514338266038274
+    m_Key: health_addiction_suppressed_strong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86858013764009984
+    m_Key: mech_bottle_printer_btn_print_small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86869480580104192
+    m_Key: mech_nightlog_request_mislabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051770290176
+    m_Key: service_current_converter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650304
+    m_Key: mech_current_converter_status_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650305
+    m_Key: mech_current_converter_status_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650306
+    m_Key: mech_current_converter_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650307
+    m_Key: mech_current_converter_connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86973051799650308
+    m_Key: mech_current_converter_nightly_cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833481465856
+    m_Key: liquid_nomore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825984
+    m_Key: note_li_formula_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825985
+    m_Key: note_li_formula_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825986
+    m_Key: note_li_formula_s3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825987
+    m_Key: note_li_formula_s4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825988
+    m_Key: note_li_formula_s4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825989
+    m_Key: note_li_formula_s4_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825990
+    m_Key: note_li_formula_s5_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825991
+    m_Key: note_li_formula_s5_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825992
+    m_Key: mech_nightlog_vandalism_butcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825993
+    m_Key: note_butcher_cleaver_body_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825994
+    m_Key: note_butcher_cleaver_body_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825995
+    m_Key: note_butcher_cleaver_body_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825996
+    m_Key: response_afterhours_need_gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825997
+    m_Key: mech_afterhour_butcher_watching
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825998
+    m_Key: service_butcher_hunting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510825999
+    m_Key: mech_nightlog_butcher_hunted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87694833510826000
+    m_Key: mech_end_lou_bombed_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87729210584252416
+    m_Key: mech_liquid_luck_wears_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413656555520
+    m_Key: mech_notify_serpico_food_enough
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498560
+    m_Key: mech_nightlog_serpico_food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498561
+    m_Key: note_serpico_letter_body_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498562
+    m_Key: note_serpico_letter_body_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498563
+    m_Key: note_serpico_letter_body_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498564
+    m_Key: note_serpico_letter_body_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498565
+    m_Key: event_serpico_dead_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498566
+    m_Key: event_serpico_dead_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498567
+    m_Key: event_serpico_rev_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498568
+    m_Key: event_serpico_rev_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498569
+    m_Key: event_serpico_sec_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498570
+    m_Key: event_serpico_sec_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498571
+    m_Key: mech_end_lou_debt_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498572
+    m_Key: event_lou_admiral_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88074413698498573
+    m_Key: event_lou_admiral_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624640
+    m_Key: mech_gamblers_coin_tickets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624641
+    m_Key: mech_gamblers_coin_average
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624642
+    m_Key: mech_nightlog_vandalized_john_smith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624643
+    m_Key: mech_pin_mode_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624644
+    m_Key: mech_pin_cant_pin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624645
+    m_Key: mech_pin_click_pin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88101797344624646
+    m_Key: mech_pin_click_unpin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022676185088
+    m_Key: mech_use_count_refill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350912
+    m_Key: mech_use_count_refill_next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350913
+    m_Key: mech_use_count_refill_tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350914
+    m_Key: mech_condition_second_hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350915
+    m_Key: mech_notify_eleanor_drive_bounty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350916
+    m_Key: event_eleanor_leak_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350917
+    m_Key: event_eleanor_leak_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022701350918
+    m_Key: mech_storage_bay_tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88314022705545216
+    m_Key: mech_storage_bay_tabs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575454130176
+    m_Key: service_hypertech_smuggler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490304
+    m_Key: mech_storage_coordinator_no_presets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490305
+    m_Key: mech_storage_coordinator_preset_line
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490306
+    m_Key: mech_storage_coordinator_preset_line_one
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490307
+    m_Key: mech_storage_coordinator_no_key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490308
+    m_Key: mech_hypertech_cell_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490309
+    m_Key: mech_hypertech_cell_upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490310
+    m_Key: mech_hypertech_cell_connected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490311
+    m_Key: mech_hypertech_cell_draw_ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490312
+    m_Key: mech_hypertech_cell_draw_over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490313
+    m_Key: mech_turbo_hypertech_charge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490314
+    m_Key: mech_turbo_hypertech_stored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490315
+    m_Key: mech_turbo_hypertech_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575483490316
+    m_Key: mech_turbo_hypertech_upgrade_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684608
+    m_Key: mech_mind_reprogrammer_charge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684609
+    m_Key: mech_mind_reprogrammer_cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684610
+    m_Key: mech_mind_reprogrammer_cooldown_one
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684611
+    m_Key: mech_mind_reprogrammer_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88617575487684612
+    m_Key: mech_mind_reprogrammer_charge_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777344
+    m_Key: mech_auto_butcher_label_settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777345
+    m_Key: mech_auto_butcher_label_output
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777346
+    m_Key: mech_auto_butcher_tab_cage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777347
+    m_Key: mech_auto_butcher_tab_tank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777348
+    m_Key: mech_auto_butcher_btn_butcher_now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777349
+    m_Key: mech_auto_butcher_btn_butcher_content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777350
+    m_Key: mech_auto_butcher_btn_copy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777351
+    m_Key: mech_auto_butcher_btn_paste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777352
+    m_Key: mech_auto_butcher_toggle_drop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777353
+    m_Key: mech_auto_butcher_toggle_kill_store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777354
+    m_Key: mech_auto_butcher_label_harvest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777355
+    m_Key: mech_auto_butcher_label_keep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777356
+    m_Key: mech_auto_butcher_harvest_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777357
+    m_Key: mech_auto_butcher_harvest_carcasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150750777358
+    m_Key: mech_auto_butcher_harvest_weight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360256
+    m_Key: mech_auto_butcher_harvest_age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360257
+    m_Key: mech_auto_butcher_weight_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360258
+    m_Key: mech_auto_butcher_weight_min
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360259
+    m_Key: mech_auto_butcher_age_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360260
+    m_Key: mech_auto_butcher_age_min
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360261
+    m_Key: mech_auto_butcher_keep_females
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360262
+    m_Key: mech_auto_butcher_keep_males
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360263
+    m_Key: mech_auto_butcher_toggle_count_protected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360264
+    m_Key: mech_auto_butcher_info_count_protected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360265
+    m_Key: mech_auto_butcher_toggle_spare_pregnant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360266
+    m_Key: mech_auto_butcher_toggle_cull_sick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360267
+    m_Key: mech_auto_butcher_toggle_cull_prion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360268
+    m_Key: mech_auto_butcher_toggle_spare_egg_layers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360269
+    m_Key: mech_auto_butcher_toggle_fillet_carcasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360270
+    m_Key: mech_auto_butcher_toggle_cuts_to_dispenser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360271
+    m_Key: mech_auto_butcher_toggle_collect_roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360272
+    m_Key: mech_auto_butcher_tooltip_last_run
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360273
+    m_Key: mech_auto_butcher_tooltip_last_run_roe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360274
+    m_Key: mech_auto_butcher_notify_tray_full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360275
+    m_Key: mech_auto_butcher_label_slot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360276
+    m_Key: mech_marking_pen_label_ink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360277
+    m_Key: mech_marking_pen_color_red
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360278
+    m_Key: mech_marking_pen_color_purple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360279
+    m_Key: mech_marking_pen_color_green
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360280
+    m_Key: mech_marking_pen_color_blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360281
+    m_Key: mech_marking_pen_color_orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360282
+    m_Key: mech_marking_pen_eraser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88695150763360283
+    m_Key: mech_marking_pen_tooltip_ink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052836904960
+    m_Key: mech_hopper_unlinked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070784
+    m_Key: mech_hopper_linked_to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070785
+    m_Key: mech_hopper_connected_to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070786
+    m_Key: mech_hopper_place_store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070787
+    m_Key: mech_hopper_run_order
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070788
+    m_Key: mech_hopper_window_before_machines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070789
+    m_Key: mech_hopper_window_after_machines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070790
+    m_Key: mech_hopper_window_after_everything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070791
+    m_Key: mech_hopper_moves_everything
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070792
+    m_Key: mech_hopper_moves_only_listed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070793
+    m_Key: mech_hopper_moves_except_listed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070794
+    m_Key: mech_hopper_keep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070795
+    m_Key: mech_hopper_keep_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070796
+    m_Key: mech_hopper_toggle_on_add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070797
+    m_Key: mech_hopper_toggle_on_move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070798
+    m_Key: mech_hopper_btn_transfer_now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070799
+    m_Key: mech_hopper_btn_unlink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070800
+    m_Key: mech_hopper_btn_add_items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070801
+    m_Key: mech_hopper_label_filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070802
+    m_Key: mech_hopper_filter_all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070803
+    m_Key: mech_hopper_filter_allow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070804
+    m_Key: mech_hopper_filter_block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070805
+    m_Key: mech_hopper_pick_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070806
+    m_Key: mech_hopper_list_empty_allow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070807
+    m_Key: mech_hopper_list_empty_block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070808
+    m_Key: mech_hopper_chip_remove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070809
+    m_Key: mech_hopper_pick_cannot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070810
+    m_Key: mech_hopper_pick_already
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777052862070811
+    m_Key: mech_hopper_pick_add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89088954657980416
+    m_Key: mech_feed_dispenser_feed_up_to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664064
+    m_Key: mech_ingester_concentration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664065
+    m_Key: mech_inspection_slip_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664066
+    m_Key: mech_inspection_slip_confiscated_one
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664067
+    m_Key: mech_inspection_slip_confiscated_many
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664068
+    m_Key: mech_inspection_slip_and_more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664069
+    m_Key: mech_inspection_slip_seized_line
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664070
+    m_Key: mech_inspection_slip_separator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89091263672664071
+    m_Key: mech_appraisal_cert_chance_ramp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89359339031252992
+    m_Key: mech_purifier_tooltip_max_purity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366424240128
+    m_Key: mech_nightlog_serpico_food_extra_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90521366449405952
+    m_Key: mech_nightlog_serpico_food_georgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90934939390533632
+    m_Key: mech_nightlog_alarm_no_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522599710720
+    m_Key: health_sentinel_collapse_light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070848
+    m_Key: health_sentinel_collapse_lethal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070849
+    m_Key: mech_machinery_power_insufficient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070850
+    m_Key: mech_hopper_label_color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070851
+    m_Key: handler_btn_configure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070852
+    m_Key: mech_report_shot_wanted_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070853
+    m_Key: note_lou_locker_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070854
+    m_Key: note_lou_thank_you_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070855
+    m_Key: event_lou_warehouse_news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91360522629070856
+    m_Key: event_lou_warehouse_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230687866880
+    m_Key: mech_lou_locker_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92020230721421312
+    m_Key: mech_lou_locker_nights
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93331566923399168
+    m_Key: note_lou_locker_again_body
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1084133298431590407
+  references:
+    version: 2
+    RefIds:
+    - rid: 1084133298431590407
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1771914949680

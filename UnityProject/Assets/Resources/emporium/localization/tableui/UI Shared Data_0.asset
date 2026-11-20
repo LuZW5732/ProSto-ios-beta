@@ -1,0 +1,3244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: c3f8e2fa01044e94e82ca0e98dc40850
+  m_Entries:
+  - m_Id: 55710344593408
+    m_Key: esc_resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55727805480960
+    m_Key: esc_overlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55768439898112
+    m_Key: esc_options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55807065243648
+    m_Key: esc_main_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55856922935296
+    m_Key: esc_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58797314588672
+    m_Key: inte_credit_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59349180137472
+    m_Key: inte_shutter_please_wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59446253109248
+    m_Key: inte_shutter_dismiss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59613819748352
+    m_Key: inte_shutter_cant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59636871643136
+    m_Key: inte_shutter_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59652143104000
+    m_Key: inte_shutter_ended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60775671316480
+    m_Key: inte_calendar_hover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62907535376384
+    m_Key: inte_tablet_hover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63130466828288
+    m_Key: inte_bell_cant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63189254193152
+    m_Key: inte_bell_closed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63233680261120
+    m_Key: inte_bell_dismiss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63266530050048
+    m_Key: inte_bell_cant_dismiss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63322666614784
+    m_Key: inte_bell_next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64156087402496
+    m_Key: inte_client_counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77168739401728
+    m_Key: inte_transfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77365632614400
+    m_Key: inte_dimiss_cant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77786434551808
+    m_Key: inte_dimiss_no_call
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78076277735424
+    m_Key: inte_sec_reported
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78589987700736
+    m_Key: inte_sec_cant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78608509747200
+    m_Key: inte_sec_call
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79608394072064
+    m_Key: inte_recorder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79732914569216
+    m_Key: inte_feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79830084009984
+    m_Key: inte_sleep_normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79925714141184
+    m_Key: inte_sleep_cant_open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79972023451648
+    m_Key: inte_sleep_cant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80315113324544
+    m_Key: inte_pc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174603755110400
+    m_Key: saving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578349003980800
+    m_Key: inte_wanted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578396634497024
+    m_Key: inte_security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578957761069056
+    m_Key: inte_sec_departement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579052590088192
+    m_Key: inte_sec_record
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579553721335808
+    m_Key: inte_sec_profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579670658531328
+    m_Key: inte_sec_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579693173555200
+    m_Key: inte_sec_location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579716393222144
+    m_Key: inte_sec_occupation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579754880155648
+    m_Key: inte_sec_crimes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579789374111744
+    m_Key: inte_sec_assigned_officer_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580455396032512
+    m_Key: inte_sec_shopkeeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580519317225472
+    m_Key: inte_sec_lower_levels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580721717559296
+    m_Key: inte_sec_merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580866337161216
+    m_Key: inte_sec_additional_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581231879143424
+    m_Key: inte_sec_recommended_action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581300363739136
+    m_Key: inte_sec_assigned_officer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581591477796864
+    m_Key: inte_sec_active_op
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581674730536960
+    m_Key: inte_sec_evidence_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581707546771456
+    m_Key: inte_sec_projected_sentance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581860617895936
+    m_Key: inte_sec_confidential
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93587912008712192
+    m_Key: inte_scratcher_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588131404365824
+    m_Key: inte_scratcher_how_to_win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588417753694208
+    m_Key: inte_scratcher_2_match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588465635868672
+    m_Key: inte_scratcher_3_match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588481234485248
+    m_Key: inte_scratcher_2_jackpot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588581063114752
+    m_Key: inte_scratcher_3_jackpot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598206919491584
+    m_Key: inte_wild_network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598467398352896
+    m_Key: inte_wild_unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96051782333808640
+    m_Key: labeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96052992709279744
+    m_Key: ins_general_station_trade_commission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053216886439936
+    m_Key: ins_cig_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053359593439232
+    m_Key: ins_cig_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053451670994944
+    m_Key: ins_general_lettering_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053659368734720
+    m_Key: ins_general_logo_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053957164318720
+    m_Key: ins_general_color_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053984980942848
+    m_Key: ins_general_security_seal_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054067961053184
+    m_Key: ins_general_discernible_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054690999746560
+    m_Key: ins_cig_lettering_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054818166849536
+    m_Key: ins_general_correct
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054861590478848
+    m_Key: ins_general_incorrect_font
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054893702070272
+    m_Key: ins_general_incorrect_spelling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054942020452352
+    m_Key: ins_general_incorrect_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054988258459648
+    m_Key: ins_general_incorrect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056281177833472
+    m_Key: ins_cig_color_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056565048328192
+    m_Key: ins_cig_seal_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057260392628224
+    m_Key: ins_stamp_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057349144100864
+    m_Key: ins_stamp_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057513896361984
+    m_Key: ins_stamp_lettering_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057755253391360
+    m_Key: ins_stamp_incorrect_logo_missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058034761809920
+    m_Key: ins_stamp_seal_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058168140677120
+    m_Key: ins_stamp_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058204379463680
+    m_Key: ins_stamp_value_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058228136001536
+    m_Key: ins_stamp_chip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058254006468608
+    m_Key: ins_stamp_chip_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059018745528320
+    m_Key: ins_inj_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059108805623808
+    m_Key: ins_inj_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059345028825088
+    m_Key: ins_inj_indicator_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059529305571328
+    m_Key: ins_general_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059675703558144
+    m_Key: ins_inj_expired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059701712437248
+    m_Key: ins_inj_spent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059889814388736
+    m_Key: ins_inj_label_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059996320350208
+    m_Key: ins_inj_label_issues_sub
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060274918604800
+    m_Key: ins_general_only_correct_case
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060400747724800
+    m_Key: ins_inj_label_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060752268148736
+    m_Key: ins_inj_serial_number_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060973857423360
+    m_Key: ins_inj_serial_number_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061056065781760
+    m_Key: ins_inj_serial_number_intro2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061186227617792
+    m_Key: ins_inj_recalled_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061727754207232
+    m_Key: ins_inj_body_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061800735096832
+    m_Key: ins_inj_body_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061957102944256
+    m_Key: ins_inj_correct_main_colors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062623657541632
+    m_Key: commissary_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062734018068480
+    m_Key: general_buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062866713264128
+    m_Key: commissary_credit_count_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063002021511168
+    m_Key: commissary_redeem_all_food_stamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063130195247104
+    m_Key: commissary_redeem_eligible_lottery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063415374364672
+    m_Key: rev_card_proverb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064044792594432
+    m_Key: general_match_label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064079886336000
+    m_Key: general_confront
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064603201257472
+    m_Key: chem_finisher_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065702779994112
+    m_Key: deed_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065787035172864
+    m_Key: deed_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065848574001152
+    m_Key: general_the_shopkeeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065889678180352
+    m_Key: general_the_landlord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96066893626785792
+    m_Key: lease_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96067891871137792
+    m_Key: lease_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96068981312241664
+    m_Key: lottery_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069071271673856
+    m_Key: lottery_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069114858881024
+    m_Key: lottery_how_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069224581873664
+    m_Key: lottery_how_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069304206540800
+    m_Key: lottery_system_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069332459372544
+    m_Key: lottery_system_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069469126574080
+    m_Key: lottery_system_example1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069476978311168
+    m_Key: lottery_system_example2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069631127371776
+    m_Key: lottery_prizes_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069672667758592
+    m_Key: lottery_prizes_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070226617876480
+    m_Key: lottery_match6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070259631243264
+    m_Key: lottery_match5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070272549699584
+    m_Key: lottery_match4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070284029509632
+    m_Key: lottery_match3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854868041728
+    m_Key: intel_mentor_note_basic_trading_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401856
+    m_Key: intel_mentor_note_basic_trading_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401857
+    m_Key: intel_mentor_note_food_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401858
+    m_Key: intel_mentor_note_food_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401859
+    m_Key: intel_mentor_note_afterhours_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401860
+    m_Key: intel_mentor_note_afterhours_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401861
+    m_Key: intel_mentor_note_wholesale_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401862
+    m_Key: intel_mentor_note_wholesale_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401863
+    m_Key: intel_mentor_note_contraband_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401864
+    m_Key: intel_mentor_note_contraband_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401865
+    m_Key: intel_mentor_note_stolen_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401866
+    m_Key: intel_mentor_note_stolen_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401867
+    m_Key: intel_mentor_note_inspection_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401868
+    m_Key: intel_mentor_note_inspection_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401869
+    m_Key: intel_mentor_note_appraisal_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401870
+    m_Key: intel_mentor_note_appraisal_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401871
+    m_Key: intel_mentor_note_appraisal_signature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401872
+    m_Key: intel_mentor_note_events_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401873
+    m_Key: intel_mentor_note_events_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401874
+    m_Key: intel_mentor_note_barter_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401875
+    m_Key: intel_mentor_note_barter_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401876
+    m_Key: intel_mentor_note_display_case_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401877
+    m_Key: intel_mentor_note_display_case_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401878
+    m_Key: intel_mentor_note_upgrades_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401879
+    m_Key: intel_mentor_note_upgrades_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401880
+    m_Key: intel_mentor_note_visual_inspection_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401881
+    m_Key: intel_mentor_note_visual_inspection_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401882
+    m_Key: intel_mentor_note_stamp_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401883
+    m_Key: intel_mentor_note_stamp_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401884
+    m_Key: intel_mentor_note_commissary_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401885
+    m_Key: intel_mentor_note_commissary_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401886
+    m_Key: intel_mentor_note_labels_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401887
+    m_Key: intel_mentor_note_labels_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401888
+    m_Key: intel_mentor_note_scd_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401889
+    m_Key: intel_mentor_note_scd_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401890
+    m_Key: intel_rev_codeword_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401891
+    m_Key: intel_rev_codeword_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401892
+    m_Key: intel_rev_codeword_short_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401893
+    m_Key: intel_mentor_signature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553554441289728
+    m_Key: book_ribwich_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553663073763328
+    m_Key: book_ribwich_base_value_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553741188481024
+    m_Key: book_ribwich_base_value_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553814270033920
+    m_Key: book_ribwich_section1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553856145965056
+    m_Key: book_ribwich_section1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553878459662336
+    m_Key: book_ribwich_section2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553920436256768
+    m_Key: book_ribwich_section2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553955567747072
+    m_Key: book_ribwich_section2_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97554477146226688
+    m_Key: book_ribwich_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555062360686592
+    m_Key: book_ribwich_section2_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555078433259520
+    m_Key: book_ribwich_section2_body3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555086788313088
+    m_Key: book_ribwich_section2_body4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556520833433600
+    m_Key: book_ribwich_section3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556559559442432
+    m_Key: book_ribwich_section3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556578551250944
+    m_Key: book_ribwich_section3_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556665188794368
+    m_Key: book_ribwich_section3_body3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556679042580480
+    m_Key: book_ribwich_section3_body4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556690048434176
+    m_Key: book_ribwich_section3_body5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556791819026432
+    m_Key: book_ribwich_section3_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558344047050752
+    m_Key: book_ribwich_section4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558370148204544
+    m_Key: book_ribwich_section4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558401722925056
+    m_Key: book_ribwich_section4_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558426083442688
+    m_Key: book_ribwich_section4_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558450448154624
+    m_Key: book_ribwich_section5_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558478566768640
+    m_Key: book_ribwich_section5_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558496883294208
+    m_Key: book_ribwich_section5_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558508056920064
+    m_Key: book_ribwich_section6_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558545474306048
+    m_Key: book_ribwich_section6_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558562889056256
+    m_Key: book_ribwich_section7_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558698344103936
+    m_Key: book_ribwich_section7_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97559369936060416
+    m_Key: book_fuel_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578536374419456
+    m_Key: book_fuel_p1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578620231139328
+    m_Key: book_fuel_p1_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578666938908672
+    m_Key: book_fuel_p1_body3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578677403697152
+    m_Key: book_fuel_p1_body4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578837257011200
+    m_Key: book_fuel_p2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578934199959552
+    m_Key: book_fuel_p2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578995805896704
+    m_Key: book_fuel_p2_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579017947627520
+    m_Key: book_fuel_p2_example2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579023517663232
+    m_Key: book_fuel_p2_example3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579295308562432
+    m_Key: book_fuel_p3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579324266037248
+    m_Key: book_fuel_p3_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579339571052544
+    m_Key: book_fuel_p3_example2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579346848169984
+    m_Key: book_fuel_p3_example3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579654009634816
+    m_Key: book_fuel_p4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579702764224512
+    m_Key: book_fuel_p4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579718635470848
+    m_Key: book_fuel_p4_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579734468968448
+    m_Key: book_fuel_p4_example2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579741716725760
+    m_Key: book_fuel_p4_example3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579997401497600
+    m_Key: book_fuel_p5_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580560818159616
+    m_Key: book_fuel_p5_m1_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580685535789056
+    m_Key: book_fuel_p5_m1_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580739558424576
+    m_Key: book_fuel_p5_m1_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580794755465216
+    m_Key: book_fuel_possible_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581029770706944
+    m_Key: book_fuel_p5_m2_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581052319285248
+    m_Key: book_fuel_p5_m2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581069801144320
+    m_Key: book_fuel_p5_m2_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581506910535680
+    m_Key: book_fuel_p6_m1_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581527986913280
+    m_Key: book_fuel_p6_m1_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581540766957568
+    m_Key: book_fuel_p6_m1_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581555937755136
+    m_Key: book_fuel_p6_m2_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581576204632064
+    m_Key: book_fuel_p6_m2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581588955316224
+    m_Key: book_fuel_p6_m2_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581604390354944
+    m_Key: book_fuel_only_example
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97582745979240448
+    m_Key: book_water_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583244593905664
+    m_Key: book_water_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583389582606336
+    m_Key: book_water_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583541718401024
+    m_Key: book_water_s1_safe_to_drink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583590137446400
+    m_Key: book_water_s1_caution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583638321610752
+    m_Key: book_water_s1_unsafe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583660907937792
+    m_Key: book_water_s1_toxic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583739890876416
+    m_Key: book_water_s1_pure_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583769452331008
+    m_Key: book_water_s1_high_quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583797470281728
+    m_Key: book_water_s1_basewater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583810321629184
+    m_Key: book_water_s1_ghostwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583830152298496
+    m_Key: book_water_s1_rustwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583849882304512
+    m_Key: book_water_s1_gutterflow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585811071746048
+    m_Key: book_water_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585845494398976
+    m_Key: book_water_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585867443191808
+    m_Key: book_water_s2_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97586321032003584
+    m_Key: book_water_s3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587194655195136
+    m_Key: book_water_s3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587213072384000
+    m_Key: book_water_s3_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587223478452224
+    m_Key: book_water_s3_body3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587234954067968
+    m_Key: book_water_s3_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587251731283968
+    m_Key: book_water_s3_note2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587259113259008
+    m_Key: book_water_s3_note3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587744406814720
+    m_Key: book_water_s4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589248253542400
+    m_Key: book_water_s4_body1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589392676012032
+    m_Key: book_water_s4_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589410753462272
+    m_Key: book_water_s4_body3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589447902412800
+    m_Key: book_water_s4_body4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589459784876032
+    m_Key: book_water_s4_body5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589471994494976
+    m_Key: book_water_s4_body6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589767374159872
+    m_Key: book_water_s5_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589894516097024
+    m_Key: book_water_s5_a1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589953840332800
+    m_Key: book_water_s5_a1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589976489574400
+    m_Key: book_water_s5_a2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589998794883072
+    m_Key: book_water_s5_a2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590016012500992
+    m_Key: book_water_s5_a3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590039429300224
+    m_Key: book_water_s5_a3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593349360107520
+    m_Key: book_farm_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593399297490944
+    m_Key: book_farm_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593457183080448
+    m_Key: book_farm_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593494038429696
+    m_Key: book_farm_s1_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593544877588480
+    m_Key: book_farm_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593590079602688
+    m_Key: book_farm_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593921744191488
+    m_Key: book_farm_s3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593996276973568
+    m_Key: book_farm_s3_water_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594053361451008
+    m_Key: book_farm_s3_water_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594074400079872
+    m_Key: book_farm_s3_nutrient_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594109267329024
+    m_Key: book_farm_s3_nutrient_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594128330440704
+    m_Key: book_farm_s3_analyser_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594182365659136
+    m_Key: book_farm_s3_analyser_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595269432786944
+    m_Key: book_chem_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595449448120320
+    m_Key: book_chem_p1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595523578249216
+    m_Key: book_chem_p1_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595595292459008
+    m_Key: book_chem_p1_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595998973247488
+    m_Key: book_chem_p1_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596026353664000
+    m_Key: book_chem_p1_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596200966733824
+    m_Key: book_chem_p1_s3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596256537067520
+    m_Key: book_chem_p1_s3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596274690015232
+    m_Key: book_chem_p1_s4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596300736643072
+    m_Key: book_chem_p1_s4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597227497472000
+    m_Key: book_chem_p1_s5_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597248573849600
+    m_Key: book_chem_p1_s5_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597267469189120
+    m_Key: book_chem_p1_s6_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597291829706752
+    m_Key: book_chem_p1_s6_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597525024620544
+    m_Key: book_chem_p1_module
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597821708713984
+    m_Key: book_chem_p2_dream_dust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598475139334144
+    m_Key: book_chem_p2_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598541489029120
+    m_Key: book_chem_p2_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598561487470592
+    m_Key: book_chem_p2_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598580814823424
+    m_Key: book_chem_p2_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598598804193280
+    m_Key: book_chem_p2_s2_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598620887203840
+    m_Key: book_chem_p2_s3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598636930416640
+    m_Key: book_chem_p2_s3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598650855505920
+    m_Key: book_chem_p2_s4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598681629114368
+    m_Key: book_chem_p2_s4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97599907884220416
+    m_Key: book_chem_p3_caffeine_pill_recipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97601984458964992
+    m_Key: book_chem_p3_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602024158052352
+    m_Key: book_chem_p3_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602038418685952
+    m_Key: book_chem_p3_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602053216190464
+    m_Key: book_chem_p3_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602068449902592
+    m_Key: book_chem_p3_s2_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602088817442816
+    m_Key: book_chem_p3_s3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602105129091072
+    m_Key: book_chem_p3_s3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602117913329664
+    m_Key: book_chem_p3_s4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602136741560320
+    m_Key: book_chem_p3_s4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602620424503296
+    m_Key: book_chem_p4_fanta_information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602698144956416
+    m_Key: book_chem_p4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603346156535808
+    m_Key: book_chem_p4_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603389408198656
+    m_Key: book_chem_p4_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603407972188160
+    m_Key: book_chem_p4_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603424577437696
+    m_Key: book_chem_p4_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603439643377664
+    m_Key: book_chem_p4_s3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603456760332288
+    m_Key: book_chem_p4_s3_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603474208636928
+    m_Key: book_chem_p4_s4_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603490314764288
+    m_Key: book_chem_p4_s4_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603523869196288
+    m_Key: book_chem_p4_s3_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604487388905472
+    m_Key: book_chem_p5_chem_purity_rating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604571547615232
+    m_Key: book_chem_p5_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604774765838336
+    m_Key: book_chem_pure_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604854067544064
+    m_Key: book_chem_pharma_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604877522092032
+    m_Key: book_chem_near_pharma_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605855394709504
+    m_Key: book_chem_street_standard_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605903411101696
+    m_Key: book_chem_cut_product_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606068243054592
+    m_Key: book_chem_junk_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606095426338816
+    m_Key: book_chem_starch_grade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607396725932032
+    m_Key: book_chem_val1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607458839379968
+    m_Key: book_chem_val2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607466187800576
+    m_Key: book_chem_val3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607474714820608
+    m_Key: book_chem_val4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607483707408384
+    m_Key: book_chem_val5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607492393811968
+    m_Key: book_chem_val6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607502728577024
+    m_Key: book_chem_val7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608845849575424
+    m_Key: book_ingot_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608911280717824
+    m_Key: book_ingot_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609007955230720
+    m_Key: book_ingot_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609040402366464
+    m_Key: book_ingot_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609058861498368
+    m_Key: book_ingot_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297345539981312
+    m_Key: calendar_calendar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297458144460800
+    m_Key: calendar_nightly_report
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297493984788480
+    m_Key: calendar_status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297743428435968
+    m_Key: calendar_display_case_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298365355638784
+    m_Key: attrac_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298573393117184
+    m_Key: attrac_200
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298632482471936
+    m_Key: attrac_250
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302142137647104
+    m_Key: attrac_300
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302218809524224
+    m_Key: attrac_400
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99303976218705920
+    m_Key: attrac_450
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304027657650176
+    m_Key: attrac_500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304075942477824
+    m_Key: attrac_650
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304116245544960
+    m_Key: attrac_750
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304161569193984
+    m_Key: attrac_900
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304721999511552
+    m_Key: calendar_active_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304878828732416
+    m_Key: calendar_estimated_wealth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99322042457571328
+    m_Key: phone_end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163968
+    m_Key: network_ui_available_credit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163969
+    m_Key: network_ui_wild_favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163970
+    m_Key: ui_phone_calling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163971
+    m_Key: ui_phone_no_answer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163972
+    m_Key: ui_phone_in_call
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163973
+    m_Key: ui_phone_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163974
+    m_Key: ui_phone_dialing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163975
+    m_Key: ui_startofday_rent_keyword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163976
+    m_Key: ui_startofday_mortgage_keyword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163977
+    m_Key: ui_startofday_due_in_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163978
+    m_Key: ui_startofday_due_tomorrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163979
+    m_Key: ui_startofday_due_today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660465626202112
+    m_Key: ui_end_of_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660630688841728
+    m_Key: ui_cant_afford
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660720610525184
+    m_Key: ui_end_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834008154112
+    m_Key: ui_endofday_total_cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931328
+    m_Key: ui_endofday_current_balance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931329
+    m_Key: ui_endofday_new_balance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931330
+    m_Key: ui_rep_active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931331
+    m_Key: ui_rep_inactive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931332
+    m_Key: ui_rep_gained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931333
+    m_Key: ui_rep_lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841703575552
+    m_Key: ui_newspaper_end_today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841728741376
+    m_Key: ui_newspaper_end_in_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837908869758976
+    m_Key: ui_attractiveness_meter_base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837983167660032
+    m_Key: ui_attractiveness_meter_projector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838035407716352
+    m_Key: ui_attractiveness_meter_trash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838688112721920
+    m_Key: ui_inspection_panel_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838923694194688
+    m_Key: ui_inspection_panel_confront_button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530774437888
+    m_Key: inspection_genuine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632192
+    m_Key: inspection_lettering_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632193
+    m_Key: inspection_color_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632194
+    m_Key: inspection_seal_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632195
+    m_Key: inspection_logo_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632196
+    m_Key: inspection_box_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632197
+    m_Key: inspection_value_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632198
+    m_Key: inspection_chip_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632199
+    m_Key: inspection_indicator_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632200
+    m_Key: inspection_label_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632201
+    m_Key: inspection_serial_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632202
+    m_Key: inspection_body_issues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858297700270080
+    m_Key: ui_newspaper_subtitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858351332835328
+    m_Key: ui_newspaper_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100038754609971200
+    m_Key: ui_close_shutter_confirmation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049185151959040
+    m_Key: ui_request_turn_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049217611677696
+    m_Key: ui_request_reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049935101902848
+    m_Key: ui_appraisal_customer_estimate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049984930234368
+    m_Key: ui_appraisal_send_estimate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050444726616064
+    m_Key: ui_nego_accept_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050525357916160
+    m_Key: ui_nego_accept_wholesale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050603476828160
+    m_Key: ui_nego_client_budget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050722725085184
+    m_Key: ui_nego_tag_security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050755004448768
+    m_Key: ui_nego_tag_variety
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050772217872384
+    m_Key: ui_nego_tag_no_contraband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275929935872
+    m_Key: ui_nego_budget_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101696
+    m_Key: ui_nego_title_barter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101697
+    m_Key: ui_nego_title_info_dealer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101698
+    m_Key: ui_nego_title_gunsmith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101699
+    m_Key: ui_nego_title_appraisal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101700
+    m_Key: ui_nego_title_selling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101701
+    m_Key: ui_nego_title_buy_sell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101702
+    m_Key: ui_nego_buying_items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101703
+    m_Key: ui_nego_not_interested
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101704
+    m_Key: ui_nego_no_budget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101705
+    m_Key: ui_nego_no_variety
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101706
+    m_Key: ui_nego_selling_items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101707
+    m_Key: ui_nego_info_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101708
+    m_Key: ui_nego_info_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101709
+    m_Key: ui_nego_buy_items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101710
+    m_Key: ui_nego_sell_items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101871974884360192
+    m_Key: afterhour_trade_action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872055226253312
+    m_Key: afterhour_return_action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872108007374848
+    m_Key: afterhour_scavenge_action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443089420288
+    m_Key: network_ui_cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808896
+    m_Key: network_ui_cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808897
+    m_Key: network_ui_prerequisite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808898
+    m_Key: network_ui_demo_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254421569536
+    m_Key: option_graphic_fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735360
+    m_Key: option_graphic_borderless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735361
+    m_Key: option_graphic_windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735362
+    m_Key: option_graphic_recommended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867563986944
+    m_Key: intel_mentor_note_shotgun_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867589152768
+    m_Key: intel_mentor_note_shotgun_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940631826432
+    m_Key: ui_page_indicator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940661186560
+    m_Key: book_water_s1_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123280221805527040
+    m_Key: ui_nego_title_buying
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124710930575310848
+    m_Key: commissary_lottery_redeem_notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946643222528
+    m_Key: ui_clientele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971264
+    m_Key: ui_open_clientele_interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971265
+    m_Key: ui_clientele_buyers_merch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971266
+    m_Key: ui_clientele_random
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971267
+    m_Key: ui_clientele_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971268
+    m_Key: ui_clientele_normal_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799789809664
+    m_Key: ui_clientele_merch_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799794003968
+    m_Key: ui_clientele_no_merch_detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125454821289148416
+    m_Key: ui_clientele_random_customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125458918834749440
+    m_Key: ui_clientele_buyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126544338016321536
+    m_Key: ui_clientele_seller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342016
+    m_Key: ui_info_variety
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342017
+    m_Key: ui_info_no_contraband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342018
+    m_Key: ui_info_security_team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126624901758763008
+    m_Key: ui_info_service_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250407931904
+    m_Key: ui_info_service_insurance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250441486336
+    m_Key: ui_info_service_janitorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034018873344
+    m_Key: ui_info_store_attractiveness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034052427776
+    m_Key: ui_info_reputation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711872
+    m_Key: ui_info_labeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711873
+    m_Key: ui_info_inspection_genuine_claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711874
+    m_Key: ui_info_inspection_counterfeit_claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175467409408
+    m_Key: ui_appraisal_estimate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175496769536
+    m_Key: ui_appraisal_true_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025076871168
+    m_Key: mech_appraisal_item_tip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425600
+    m_Key: book_fuel_p7_example1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425601
+    m_Key: book_fuel_p7_example2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127570132838694912
+    m_Key: book_fuel_appraisal_example_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510080
+    m_Key: ui_tooltip_typewriter_effect_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510081
+    m_Key: ui_tooltip_typewriter_auto_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364928
+    m_Key: ui_dialog_window_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364929
+    m_Key: ui_dialog_window_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430014664704
+    m_Key: nego_ui_attracted_by
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430056607744
+    m_Key: nego_ui_attracted_reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627870113792
+    m_Key: bargain_ui_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056832
+    m_Key: bargain_ui_offer_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056833
+    m_Key: bargain_ui_demand_discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056834
+    m_Key: bargain_ui_add_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056835
+    m_Key: bargain_ui_offer_markup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056836
+    m_Key: bargain_ui_blackmail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056837
+    m_Key: bargain_ui_threathen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056838
+    m_Key: bargain_ui_rep_mult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056839
+    m_Key: bargain_ui_offer_discount_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056840
+    m_Key: bargain_ui_demand_discount_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056841
+    m_Key: bargain_ui_add_markup_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056842
+    m_Key: bargain_ui_offer_markup_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056843
+    m_Key: bargain_ui_blackmail_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056844
+    m_Key: bargain_ui_threathen_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056845
+    m_Key: bargain_ui_rep_mult_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056846
+    m_Key: bargain_ui_rep_mult_info2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655149109248
+    m_Key: book_hand_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469376
+    m_Key: book_hand_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469377
+    m_Key: book_hand_p1_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469378
+    m_Key: book_hand_p1_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469379
+    m_Key: book_hand_p1_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469380
+    m_Key: book_hand_aluminum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469381
+    m_Key: book_hand_carbon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469382
+    m_Key: book_hand_gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469383
+    m_Key: book_hand_p2_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469384
+    m_Key: book_hand_condition_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469385
+    m_Key: book_hand_condition_wears
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469386
+    m_Key: book_hand_condition_damages
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469387
+    m_Key: book_hand_p2_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469388
+    m_Key: book_hand_control_neural_interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469389
+    m_Key: book_hand_control_unspecified
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469390
+    m_Key: book_hand_p3_s1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469391
+    m_Key: book_hand_addon_armored
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469392
+    m_Key: book_hand_addon_blade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469393
+    m_Key: book_hand_p3_s1_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469394
+    m_Key: book_hand_p3_s2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469395
+    m_Key: book_hand_p3_s2_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469396
+    m_Key: book_hand_p3_s2_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469397
+    m_Key: book_hand_p3_s2_body3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469398
+    m_Key: book_hand_examples
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469399
+    m_Key: book_hand_example1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469400
+    m_Key: book_hand_example2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331200
+    m_Key: book_wine_p2_body1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331201
+    m_Key: book_wine_p2_body2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331202
+    m_Key: book_wine_p2_body3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331203
+    m_Key: book_wine_p3_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331204
+    m_Key: book_wine_p3_s1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331205
+    m_Key: book_wine_p3_s2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331206
+    m_Key: book_wine_p3_s3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331207
+    m_Key: book_wine_p3_s4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586749161472
+    m_Key: ui_aug_guide_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715904
+    m_Key: ui_aug_guide_section1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715905
+    m_Key: ui_aug_guide_section2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715906
+    m_Key: ui_aug_guide_s1_b1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715907
+    m_Key: ui_aug_guide_s1_b2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715908
+    m_Key: ui_aug_guide_s1_b3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715909
+    m_Key: ui_aug_guide_s2_b1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511170883584
+    m_Key: ui_exchange_perm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855104
+    m_Key: ui_exchange_promo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855105
+    m_Key: ui_exchange_signature1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855106
+    m_Key: ui_exchange_signature2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855107
+    m_Key: ui_exchange_per_night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855108
+    m_Key: ui_exchange_any_condition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855109
+    m_Key: ui_exchange_new
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855110
+    m_Key: ui_exchange_random
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855111
+    m_Key: ui_exchange_random_legal_goods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144633287955759104
+    m_Key: ui_exchange_bm_rep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147149026554068992
+    m_Key: ui_thanks_demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147157085242310656
+    m_Key: ui_thanks_demo_content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582517645312
+    m_Key: ui_nego_condition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582559588352
+    m_Key: ui_nego_market
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060160
+    m_Key: ui_mode_shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060161
+    m_Key: ui_mode_holster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060162
+    m_Key: ui_mode_zoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060163
+    m_Key: ui_mode_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154783458152726528
+    m_Key: ui_delete_save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170512356412801024
+    m_Key: lottery_match2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172187061448392704
+    m_Key: ui_wild_favor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172202336608632832
+    m_Key: ui_afterhour_ground_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172529243283832832
+    m_Key: ui_quick_dial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690208923648
+    m_Key: ui_tooltip_single_click_interact_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283776
+    m_Key: ui_tooltip_single_click_activate_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283777
+    m_Key: network_ui_tab_basic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134193438720
+    m_Key: ui_mods_inactive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187456
+    m_Key: ui_mods_active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187457
+    m_Key: ui_mods_search_placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187458
+    m_Key: ui_mods_workshop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187459
+    m_Key: ui_mods_unsubscribe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187460
+    m_Key: ui_mods_autosort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187461
+    m_Key: ui_mods_autosort_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187462
+    m_Key: ui_mods_unsubscribe_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187463
+    m_Key: ui_modcfg_reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187464
+    m_Key: ui_mods_dll_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187465
+    m_Key: ui_mods_restart_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187466
+    m_Key: ui_mods_dependencies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187467
+    m_Key: ui_mods_activate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187468
+    m_Key: ui_mods_deactivate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187469
+    m_Key: ui_mods_author
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187470
+    m_Key: ui_mods_mod_version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187471
+    m_Key: ui_mods_game_versions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187472
+    m_Key: ui_mods_issue_missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187473
+    m_Key: ui_mods_issue_inactive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187474
+    m_Key: ui_mods_issue_version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187475
+    m_Key: ui_mods_open_folder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187476
+    m_Key: ui_mods_issue_load_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187477
+    m_Key: ui_mods_local_override
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187478
+    m_Key: ui_mods_unsubscribe_shadowed_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187479
+    m_Key: ui_mods_downloading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801898369024
+    m_Key: ui_nego_restrictions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117760
+    m_Key: ui_nego_interests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117761
+    m_Key: ui_nego_tag_no_contraband_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117762
+    m_Key: ui_nego_tag_security_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117763
+    m_Key: ui_nego_row_not_interested
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117764
+    m_Key: ui_nego_total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117765
+    m_Key: ui_nego_your_funds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117766
+    m_Key: ui_nego_total_wholesale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117767
+    m_Key: ui_nego_wholesale_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117768
+    m_Key: ui_nego_purchase_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117769
+    m_Key: ui_nego_choose_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117770
+    m_Key: ui_nego_gun_base_requirements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117771
+    m_Key: ui_nego_gun_bonus_requirements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117772
+    m_Key: ui_endofday_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779480580096
+    m_Key: ui_loan_contract_amount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134528
+    m_Key: ui_loan_contract_down_payment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134529
+    m_Key: ui_loan_contract_interest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134530
+    m_Key: ui_loan_contract_repayment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134531
+    m_Key: ui_tooltip_auto_open_negotiation_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134532
+    m_Key: ui_transit_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134533
+    m_Key: ui_transit_travel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134534
+    m_Key: ui_transit_unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134535
+    m_Key: ui_transit_dumping_ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134536
+    m_Key: ui_tooltip_single_click_choice_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734612332544
+    m_Key: ui_nego_gun_market_price
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734658469888
+    m_Key: ui_nego_gun_best_premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235953479680
+    m_Key: ui_run_summary_tab_overview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228416
+    m_Key: ui_run_summary_tab_expenses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228417
+    m_Key: ui_run_summary_tab_station
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228418
+    m_Key: ui_run_summary_tab_nights
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228419
+    m_Key: ui_run_summary_ending_unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228420
+    m_Key: ui_run_summary_play_time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228421
+    m_Key: ui_run_summary_days_survived
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228422
+    m_Key: ui_run_summary_customers_served
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228423
+    m_Key: ui_run_summary_total_sales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228424
+    m_Key: ui_run_summary_hl_best_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228425
+    m_Key: ui_run_summary_hl_best_day_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228426
+    m_Key: ui_run_summary_hl_best_flip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228427
+    m_Key: ui_run_summary_hl_best_flip_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228428
+    m_Key: ui_run_summary_hl_biggest_sale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228429
+    m_Key: ui_run_summary_hl_biggest_sale_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228430
+    m_Key: ui_run_summary_hl_best_find
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228431
+    m_Key: ui_run_summary_hl_best_find_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228432
+    m_Key: ui_run_summary_hl_worst_night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228433
+    m_Key: ui_run_summary_hl_worst_night_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228434
+    m_Key: ui_run_summary_hl_closest_call
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228435
+    m_Key: ui_run_summary_hl_closest_call_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228436
+    m_Key: ui_run_summary_highlights
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228437
+    m_Key: ui_run_summary_stock_bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228438
+    m_Key: ui_run_summary_rent_paid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228439
+    m_Key: ui_run_summary_permit_bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228440
+    m_Key: ui_run_summary_bribes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228441
+    m_Key: ui_run_summary_seg_permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228442
+    m_Key: ui_run_summary_where_money_went
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228443
+    m_Key: ui_run_summary_rent_weeks_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228444
+    m_Key: ui_run_summary_rent_weeks_value_missed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228445
+    m_Key: ui_run_summary_rent_weeks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228446
+    m_Key: ui_run_summary_store_cash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228447
+    m_Key: ui_run_summary_store_mortgage_paid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228448
+    m_Key: ui_run_summary_store_mortgage_running
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228449
+    m_Key: ui_run_summary_store_mortgage_total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228450
+    m_Key: ui_run_summary_store_renting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228452
+    m_Key: ui_run_summary_x_of_y
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228453
+    m_Key: ui_run_summary_visits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228454
+    m_Key: ui_run_summary_georgio_bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228455
+    m_Key: ui_run_summary_georgio_lent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228456
+    m_Key: ui_run_summary_georgio_paid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228457
+    m_Key: ui_run_summary_reputation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228458
+    m_Key: ui_run_summary_nights_went
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228459
+    m_Key: ui_run_summary_nights_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228460
+    m_Key: ui_run_summary_scavenge_attempts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228461
+    m_Key: ui_run_summary_scavenged_value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228462
+    m_Key: ui_run_summary_times_injured
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228463
+    m_Key: ui_run_summary_injuries_split
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228464
+    m_Key: ui_run_summary_best_find
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228465
+    m_Key: ui_run_summary_jackson_machines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228466
+    m_Key: ui_run_summary_inspections_passed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228467
+    m_Key: ui_run_summary_goods_seized
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228468
+    m_Key: ui_run_summary_inspector_bribes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228469
+    m_Key: ui_run_summary_wanted_caught
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228470
+    m_Key: ui_run_summary_wrongful_reports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228471
+    m_Key: ui_run_summary_augs_shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726784
+    m_Key: ui_mods_warning_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726785
+    m_Key: ui_mods_warning_dont_show
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726786
+    m_Key: ui_mods_warning_confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725351436288
+    m_Key: ui_mods_cap_files
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796416
+    m_Key: ui_mods_cap_network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796417
+    m_Key: ui_mods_cap_process
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796418
+    m_Key: ui_mods_cap_dynamic_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796419
+    m_Key: ui_mods_cap_native
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796420
+    m_Key: ui_mods_cap_reflection_external
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796421
+    m_Key: ui_mods_enable_prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796422
+    m_Key: ui_mods_enable_blocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796423
+    m_Key: ui_mods_enable_missing_dll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796424
+    m_Key: ui_mods_enable_unreadable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796425
+    m_Key: ui_mods_enable_shadowing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990720
+    m_Key: ui_mods_enable_refused_flags
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990721
+    m_Key: ui_mods_enable_refused_undeclared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990722
+    m_Key: ui_mods_enable_unlisted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990723
+    m_Key: ui_mods_killswitch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990724
+    m_Key: ui_mods_review
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990725
+    m_Key: ui_mods_capabilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990726
+    m_Key: ui_mods_capabilities_none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990727
+    m_Key: ui_mods_blocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990728
+    m_Key: ui_mods_devmode_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990729
+    m_Key: ui_mods_devmode_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990730
+    m_Key: ui_mods_trust_blocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990731
+    m_Key: ui_mods_trust_paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990732
+    m_Key: ui_mods_trust_unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990733
+    m_Key: ui_mods_trust_changed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990734
+    m_Key: ui_mods_trust_updated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990735
+    m_Key: ui_mods_trust_devmode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990736
+    m_Key: ui_mods_trust_verified
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990737
+    m_Key: ui_mods_trust_approved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990738
+    m_Key: ui_mods_trust_list_stale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990739
+    m_Key: ui_mods_issue_unlisted_dll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990740
+    m_Key: ui_mods_note_check_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990741
+    m_Key: ui_mods_note_source_changed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990742
+    m_Key: ui_mods_note_workshop_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990743
+    m_Key: ui_mods_note_unlisted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990744
+    m_Key: ui_mods_note_scan_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990745
+    m_Key: ui_mods_note_undeclared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990746
+    m_Key: ui_mods_note_new_capabilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990747
+    m_Key: ui_appraisal_items_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990748
+    m_Key: ui_appraisal_items_intro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990749
+    m_Key: ui_appraisal_items_allowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990750
+    m_Key: ui_appraisal_items_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990751
+    m_Key: ui_appraisal_items_locked_final
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033920
+    m_Key: ui_tooltip_show_mod_source_tooltip_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033921
+    m_Key: ui_tooltip_show_mod_source_recorder_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033922
+    m_Key: ui_recorder_from_mod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467584
+    m_Key: ui_tooltip_save_history_days_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467585
+    m_Key: ui_tooltip_discover_saves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185637425564663808
+    m_Key: ui_nego_gun_service_parts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186842463947505664
+    m_Key: ui_serpico_reward_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187082072463818752
+    m_Key: ui_eleanor_reward_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628563652608
+    m_Key: network_ui_tab_Advanced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401344
+    m_Key: ui_storage_coordinator_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401345
+    m_Key: ui_storage_coordinator_new_preset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401346
+    m_Key: ui_storage_coordinator_new_preset_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401347
+    m_Key: ui_storage_coordinator_default_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401348
+    m_Key: ui_storage_coordinator_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401349
+    m_Key: ui_storage_coordinator_name_field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401350
+    m_Key: ui_storage_coordinator_add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401351
+    m_Key: ui_storage_coordinator_stop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401352
+    m_Key: ui_storage_coordinator_add_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401353
+    m_Key: ui_storage_coordinator_press_key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401354
+    m_Key: ui_storage_coordinator_key_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401355
+    m_Key: ui_storage_coordinator_delete_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401356
+    m_Key: ui_storage_coordinator_chip_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401357
+    m_Key: ui_storage_coordinator_missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401358
+    m_Key: ui_storage_coordinator_missing_tooltip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401359
+    m_Key: ui_storage_coordinator_pick_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401360
+    m_Key: ui_storage_coordinator_capture_start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401361
+    m_Key: ui_storage_coordinator_key_refused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401362
+    m_Key: ui_storage_coordinator_hint_idle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401363
+    m_Key: ui_storage_coordinator_hint_cant_add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401364
+    m_Key: ui_storage_coordinator_hint_already
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401365
+    m_Key: ui_storage_coordinator_hint_click_add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401366
+    m_Key: ui_mind_reprogrammer_active
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401367
+    m_Key: ui_mind_reprogrammer_remove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401368
+    m_Key: ui_mind_reprogrammer_add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401369
+    m_Key: ui_mind_reprogrammer_incompatible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895863472128
+    m_Key: ui_tooltip_newspaper_to_trash_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895897026560
+    m_Key: ui_nego_donate_items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188164055981240320
+    m_Key: ui_tooltip_enable_fps_cap_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188509160777498624
+    m_Key: ui_tooltip_vsync_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688832
+    m_Key: ui_mods_cap_links
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688833
+    m_Key: ui_mods_cap_steam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688834
+    m_Key: ui_mods_note_rescan_refused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688835
+    m_Key: ui_mods_note_rescan_undeclared
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688836
+    m_Key: ui_mods_note_rescan_new_capabilities
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688837
+    m_Key: ui_mods_note_stopped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688838
+    m_Key: ui_mods_note_stopped_process
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688839
+    m_Key: ui_mods_trust_stopped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688840
+    m_Key: ui_mods_enable_stopped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189286048303202304
+    m_Key: ui_lou_reward_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482432
+    m_Key: ui_tooltip_disable_pop_culture_clients_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482433
+    m_Key: ui_tooltip_move_bought_to_inventory_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482434
+    m_Key: ui_mods_prompt_local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482435
+    m_Key: ui_mods_prompt_checking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482436
+    m_Key: ui_mods_prompt_unknown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482437
+    m_Key: ui_mods_prompt_uploaded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482438
+    m_Key: ui_mods_prompt_ago_now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482439
+    m_Key: ui_mods_prompt_ago_hour
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482440
+    m_Key: ui_mods_prompt_ago_hours
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482441
+    m_Key: ui_mods_prompt_ago_day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482442
+    m_Key: ui_mods_prompt_ago_days
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482443
+    m_Key: ui_mods_prompt_ago_weeks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482444
+    m_Key: ui_mods_prompt_ago_months
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482445
+    m_Key: ui_mods_prompt_ago_year
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482446
+    m_Key: ui_mods_prompt_ago_years
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482447
+    m_Key: ui_mods_prompt_ratings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482448
+    m_Key: ui_mods_refused_heading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482449
+    m_Key: ui_mods_refused_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482450
+    m_Key: ui_mods_refused_copy_log
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482451
+    m_Key: ui_mods_refused_copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482452
+    m_Key: ui_mods_prompt_dangerous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482453
+    m_Key: ui_tooltip_dialogue_bubble_scale_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123392
+    m_Key: ui_mods_prompt_header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123393
+    m_Key: ui_mods_prompt_warning_severe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123394
+    m_Key: ui_mods_prompt_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458793009152
+    m_Key: ui_tooltip_restore_display_after_focus_info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369280
+    m_Key: ui_appraisal_items_locked_last
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369281
+    m_Key: ui_lou_player_name_fallback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190788156584148992
+    m_Key: ui_mods_cap_steam_auth
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6171895735871340618
+  references:
+    version: 2
+    RefIds:
+    - rid: 6171895735871340618
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1748366806491

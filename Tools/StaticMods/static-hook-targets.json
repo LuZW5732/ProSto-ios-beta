@@ -1,0 +1,534 @@
+[
+  {
+    "file": "AppraisalHelper.cs",
+    "type": "AppraisalHelper",
+    "method": "CreateAppraisalTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "AppraisalServiceHelper.cs",
+    "type": "AppraisalServiceHelper",
+    "method": "GetEstimatePrecision",
+    "parameters": [
+      "int",
+      "int"
+    ]
+  },
+  {
+    "file": "AquacultureHelper.cs",
+    "type": "AquacultureHelper",
+    "method": "RunRemediation",
+    "parameters": [
+      "GameItem",
+      "float"
+    ]
+  },
+  {
+    "file": "ChemicalHelper.cs",
+    "type": "ChemicalHelper",
+    "method": "DissolveInto",
+    "parameters": [
+      "GameItem",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "DialogUIManager.cs",
+    "type": "DialogUIManager",
+    "method": "UpdateDialogHistory",
+    "parameters": [
+      "string"
+    ]
+  },
+  {
+    "file": "EmporiumEntry.cs",
+    "type": "EmporiumEntry",
+    "method": "Start",
+    "parameters": []
+  },
+  {
+    "file": "ExchangeBarter.cs",
+    "type": "ExchangeBarter",
+    "method": "GetRequiredItems",
+    "parameters": []
+  },
+  {
+    "file": "ExchangeBarter.cs",
+    "type": "ExchangeBarter",
+    "method": "CanAccept",
+    "parameters": []
+  },
+  {
+    "file": "ExchangeBarter.cs",
+    "type": "ExchangeBarter",
+    "method": "Accept",
+    "parameters": []
+  },
+  {
+    "file": "ExchangeList.cs",
+    "type": "ExchangeList",
+    "method": "ImprovedDreamDustRewards",
+    "parameters": [
+      "double"
+    ]
+  },
+  {
+    "file": "ExchangeManager.cs",
+    "type": "ExchangeManager",
+    "method": "HandleExchange",
+    "parameters": []
+  },
+  {
+    "file": "GameItem.cs",
+    "type": "GameItem",
+    "method": "DisplayManufacturer",
+    "parameters": [
+      "RichTextBuilder",
+      "string"
+    ]
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "ValidateSelect",
+    "parameters": [
+      "bool"
+    ]
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "Destroy",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "HasTooltip",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GetTooltipBasic",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GetTooltip",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GetTooltipAdvanced",
+    "parameters": []
+  },
+  {
+    "file": "HusbandryHelper.cs",
+    "type": "HusbandryHelper",
+    "method": "GetStatCompareColor",
+    "parameters": [
+      "string",
+      "float",
+      "float"
+    ]
+  },
+  {
+    "file": "HydroponicHelper.cs",
+    "type": "HydroponicHelper",
+    "method": "CreateSeedItemTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "HydroponicHelper.cs",
+    "type": "HydroponicHelper",
+    "method": "AddSeedStatLine",
+    "parameters": [
+      "RichTextBuilder",
+      "string",
+      "int",
+      "bool"
+    ]
+  },
+  {
+    "file": "InspectableHelper.cs",
+    "type": "InspectableHelper",
+    "method": "CreateInspectableTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "InspectionUIManager.cs",
+    "type": "InspectionUIManager",
+    "method": "CloseUI",
+    "parameters": []
+  },
+  {
+    "file": "InspectionUIManager.cs",
+    "type": "InspectionUIManager",
+    "method": "OnInspectItem",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
+    "file": "InspectionUIManager.cs",
+    "type": "InspectionUIManager",
+    "method": "ResetUI",
+    "parameters": []
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "OnEventInit",
+    "parameters": []
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "UpdateConditions",
+    "parameters": []
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "UpdateSelectButtonColor",
+    "parameters": [
+      "RichTextElement"
+    ]
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "EqualizeButtonWidths",
+    "parameters": []
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "TriggerButton",
+    "parameters": [
+      "RichTextElement"
+    ]
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "TryOpenSortMenu",
+    "parameters": [
+      "Vector2"
+    ]
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "OnEventReset",
+    "parameters": []
+  },
+  {
+    "file": "ItemMouseDoubleClickHandler.cs",
+    "type": "ItemMouseDoubleClickHandler",
+    "method": "DoubleClickAction",
+    "parameters": [
+      "GameItem",
+      "Vector2"
+    ]
+  },
+  {
+    "file": "LabelerHelper.cs",
+    "type": "LabelerHelper",
+    "method": "HandleLine",
+    "parameters": [
+      "RichTextBuilder",
+      "ItemFeature"
+    ]
+  },
+  {
+    "file": "MachineHydroponic.cs",
+    "type": "MachineHydroponic",
+    "method": "CreateMachineTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "MachineProgressHelper.cs",
+    "type": "MachineProgressHelper",
+    "method": "CreateMachineTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "MachinePurifier.cs",
+    "type": "MachinePurifier",
+    "method": "PurifyContainer",
+    "parameters": [
+      "GameItem",
+      "GameItem",
+      "bool"
+    ]
+  },
+  {
+    "file": "MachineryHelper.cs",
+    "type": "MachineryHelper",
+    "method": "CreateMachineryTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "ModConfig.cs",
+    "type": "ModConfig",
+    "method": "Save",
+    "parameters": []
+  },
+  {
+    "file": "ModConfigWindow.cs",
+    "type": "ModConfigWindow",
+    "method": "Open",
+    "parameters": [
+      "LoadedMod"
+    ]
+  },
+  {
+    "file": "ModConfigWindow.cs",
+    "type": "ModConfigWindow",
+    "method": "ResetWidgets",
+    "parameters": [
+      "CustomUIWindow",
+      "ModConfig"
+    ]
+  },
+  {
+    "file": "ModuleHelper.cs",
+    "type": "ModuleHelper",
+    "method": "CreateModuleTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "OverlayHandler.cs",
+    "type": "OverlayHandler",
+    "method": "ShowTooltip",
+    "parameters": [
+      "Vector2",
+      "RichText",
+      "int"
+    ]
+  },
+  {
+    "file": "OverlayHandler.cs",
+    "type": "OverlayHandler",
+    "method": "ShowTooltip",
+    "parameters": [
+      "Vector2",
+      "Vector2",
+      "RichText",
+      "int"
+    ]
+  },
+  {
+    "file": "OverlayHandler.cs",
+    "type": "OverlayHandler",
+    "method": "HideTooltip",
+    "parameters": []
+  },
+  {
+    "file": "PlantGeneticsHelper.cs",
+    "type": "PlantGeneticsHelper",
+    "method": "GetTooltipWidth",
+    "parameters": [
+      "GameItem",
+      "int"
+    ]
+  },
+  {
+    "file": "PlantGeneticsHelper.cs",
+    "type": "PlantGeneticsHelper",
+    "method": "CreateSeedGeneticsTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "Add",
+    "parameters": [
+      "RichTextBuilder"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "AddProgressBarOld",
+    "parameters": [
+      "float",
+      "int",
+      "RenderHandler.ColorPalette",
+      "RenderHandler.ColorPalette",
+      "char[]",
+      "string",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "AddProgressTest",
+    "parameters": [
+      "float",
+      "int",
+      "RenderHandler.ColorPalette",
+      "RenderHandler.ColorPalette",
+      "char[]",
+      "string",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "AddProgressBar",
+    "parameters": [
+      "float",
+      "int",
+      "RenderHandler.ColorPalette",
+      "RenderHandler.ColorPalette",
+      "char[]",
+      "string",
+      "bool",
+      "bool"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "AddLine",
+    "parameters": [
+      "string",
+      "bool",
+      "RenderHandler.ColorPalette",
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "RenderHandler.ColorPalette",
+      "RenderHandler.ColorPalette",
+      "RenderHandler.ColorPalette"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "AddEmptyLine",
+    "parameters": [
+      "int"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "Add",
+    "parameters": [
+      "string",
+      "RenderHandler.ColorPalette",
+      "string",
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "RenderHandler.ColorPalette",
+      "RenderHandler.ColorPalette",
+      "RenderHandler.ColorPalette"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "Clear",
+    "parameters": []
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "FindBestSlice",
+    "parameters": [
+      "List\u003CTextSlice\u003E",
+      "int",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "FindCharBreak",
+    "parameters": [
+      "List\u003CTextSlice\u003E",
+      "int",
+      "int",
+      "int"
+    ]
+  },
+  {
+    "file": "RichTextBuilder.cs",
+    "type": "RichTextBuilder",
+    "method": "Build",
+    "parameters": [
+      "int"
+    ]
+  },
+  {
+    "file": "RichTextElement.cs",
+    "type": "RichTextElement",
+    "method": "SetRichText",
+    "parameters": [
+      "RichText",
+      "int"
+    ]
+  },
+  {
+    "file": "StoreCalendar.cs",
+    "type": "StoreCalendar",
+    "method": "GetTooltip",
+    "parameters": []
+  },
+  {
+    "file": "WaterHelper.cs",
+    "type": "WaterHelper",
+    "method": "CreateWaterContainerTooltip",
+    "parameters": [
+      "RichTextBuilder",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "WaterHelper.cs",
+    "type": "WaterHelper",
+    "method": "PurifyToBaseWater",
+    "parameters": [
+      "GameItem"
+    ]
+  }
+]

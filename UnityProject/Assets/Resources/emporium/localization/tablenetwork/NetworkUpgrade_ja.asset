@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NetworkUpgrade_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 51497bd2ea02b6c4b8fe669147dd7259, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 70813270016
+    m_Localized: レッド・インプ醸造所
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077454618624
+    m_Localized: ワイルドがレッド・インプ醸造所の営業担当を紹介してくれて、ビールを早く継続的に受け取れるようになる。この仕入れ先に連絡するための名刺が渡される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916352
+    m_Localized: 紹介
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916353
+    m_Localized: 恩恵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916354
+    m_Localized: 情報屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916355
+    m_Localized: 推薦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916356
+    m_Localized: サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916357
+    m_Localized: 許可証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916358
+    m_Localized: 仕入れ先
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916359
+    m_Localized: 下層世界の化学者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916360
+    m_Localized: ワイルドが、娯楽用および医療用での安価だが違法な薬物を作っている下層世界の化学者を紹介してくれる。この仕入れ先に連絡するための名刺が渡される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916361
+    m_Localized: 上層世界の薬剤師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916362
+    m_Localized: ワイルドが上層世界の薬剤師の在庫管理者を紹介してくれて、合法ではあるが入手が困難な薬を早く継続的に受け取れるようになる。この仕入れ先に連絡するための名刺が渡される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916363
+    m_Localized: GP採掘協同組合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916364
+    m_Localized: ワイルドがGP採掘協同組合のリーダーを紹介してくれて、鉱石を大量に注文できるようになる。この仕入れ先に連絡するための名刺が渡される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916365
+    m_Localized: 家賃の猶予
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916366
+    m_Localized: ワイルドが大家を説得してくれて、家賃の支払いができなかった場合も、未払い分を翌週の家賃と一緒に払えるようになる。一度限りの恩恵。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916367
+    m_Localized: すでに大家が大目に見てくれている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916368
+    m_Localized: 慈悲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916369
+    m_Localized: ワイルドが政治的影響力を発揮し、通常なら投獄されるような禁制品が見つかっても、注意だけで済ましてもらえるようになる。一度限りの恩恵。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916370
+    m_Localized: すでにワイルドが取り計らってくれている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916371
+    m_Localized: 検査事前警告サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916372
+    m_Localized: ワイルドが保安部にいる内通者を紹介してくれる。夜ごとの料金を払う限り、通常の検査の予定を教えてもらえる。ただし、抜き打ち検査には対応できない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916373
+    m_Localized: ワイルドの始末屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916374
+    m_Localized: ワイルドの始末屋を雇わせてもらえる。夜ごとの料金を払う限り、目撃者は口封じされ、まだ警察が収集していない証拠は隠される。犯罪容疑レベルが通常より速いペースで低下するようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916375
+    m_Localized: 証拠隠滅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916376
+    m_Localized: ワイルドが警察のコネを通じて、収集されたすべての証拠を台無しにして進行中の捜査を妨害してもらう。クールダウンに{0}日を要する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916377
+    m_Localized: 買い手推薦サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916378
+    m_Localized: 夜ごとの料金を払えば、ワイルドが自身のネットワークから買い手を推薦してくれる。さらに、ショーケース内の商品が客を集めやすくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916379
+    m_Localized: 売り手推薦サービス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916380
+    m_Localized: 夜ごとの料金を払えば、ワイルドが自身のネットワークから売り手を推薦してくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916381
+    m_Localized: 犯罪ネットワーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916382
+    m_Localized: 夜ごとの料金を払えば、ワイルドが自身のネットワークから高額な禁制品を買える買い手を推薦してくれる。このサービスを使えば、闇市場からの評判も少し上がる（クールダウン：{0}日）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916383
+    m_Localized: 電力線乗っ取り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916384
+    m_Localized: 電力が、（おそらく）電力を必要としていない人物が所有している外付けソーラーパネルから供給されるようになる。毎晩の電力サービス料が無料になる。パネルの出力では電流コンバーターを動かせないため、その料金は引き続きかかるが、15%安くなる。停電は店にも電流コンバーターにも影響しなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916385
+    m_Localized: 業務用電源ユニット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916386
+    m_Localized: 電源ユニットが改良され、供給できる電力量が増える。リチャージャーとパワーブロックのチャージ速度が{0}%速くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110656
+    m_Localized: ショーケース拡張 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110657
+    m_Localized: ショーケースが拡張され、陳列できる商品が増える。ショーケースにある商品を買いにくる客が、1日あたり{0}人増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110658
+    m_Localized: ショーケース拡張 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110659
+    m_Localized: ショーケースがさらに拡張される。ショーケースにある商品を買いにくる客が、1日あたり追加で{0}人増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110660
+    m_Localized: 無限ガターフロー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110661
+    m_Localized: ワイルドが水道管を下水道に接続し、ガターフローが無限に得られるようになる。水の純度は毎日変わる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110662
+    m_Localized: 無限ラストウォーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110663
+    m_Localized: ワイルドが水道管を産業排水管に接続し、ラストウォーターが無限に得られるようになる。水の純度は毎日変わる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110664
+    m_Localized: 破損機械の分解
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110665
+    m_Localized: 翌日に廃品商人が店に来て、破損した機械を分解して部品を手に入れる方法を教えてくれる。（破損機械コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110666
+    m_Localized: 引退した農家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110667
+    m_Localized: 水耕スターターキットをすぐに受け取る。引退した農家が翌日、種と水耕栽培の備品を売りにくる。その後は1週間に一度の頻度になる。（上級農業コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110668
+    m_Localized: 引退した銃工
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110669
+    m_Localized: 銃工スターターキットをすぐに受け取る。引退した銃工が翌日、改造パーツと弾薬を売りにくる。その後は1週間に一度の頻度になる。（上級銃工コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110670
+    m_Localized: 武器許可証 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110671
+    m_Localized: ワイルドに交渉してもらい、通常は下層世界の商人にしか与えられない銃器許可証を取得できる。低級の禁制品とされている銃器や弾薬を合法的に取引できるようになる。許可証は警察からの評判が{0}に達すると交付され、0を下回ると取り消される。ショットガンを手に入れた後は、警察は護身用としてその所持を認めてくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110672
+    m_Localized: 武器許可証 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110673
+    m_Localized: ワイルドに交渉してもらい、通常は上層世界の商人にしか与えられない銃器許可証を取得できる。中級の禁制品とされている銃器や弾薬を合法的に取引できるようになる。ただし、警察からの評判が{0}以上になってからしか交付されない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110674
+    m_Localized: 武器許可証 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110675
+    m_Localized: ワイルドに交渉してもらい、通常は警察の補給係にしか与えられない武器許可証を取得できる。上級の禁制品とされている銃器や弾薬を合法的に取引できるようになる。ただし、警察からの評判が{0}以上になってからしか交付されない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110676
+    m_Localized: 引退した化学者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110677
+    m_Localized: 化学者スターターキットをすぐに受け取る。引退した化学者が翌日、化学用品と備品を売りにくる。その後は1週間に一度の頻度になる。（上級化学コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110678
+    m_Localized: 水の取引
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110679
+    m_Localized: 水取引スターターキットをすぐに受け取る。水商人が店に来るようになる。（水取引コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110680
+    m_Localized: マーケット依頼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110681
+    m_Localized: ワイルドにマーケット依頼ネットワークを利用できるようにしてもらい、買い手からのさまざまな依頼を閲覧・完了できるようになる。依頼への報酬はたいてい、通常の市場価格よりも高い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110682
+    m_Localized: ジャックソン投資 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110683
+    m_Localized: ワイルドがジャックソン博士を説得してくれて、少額の投資をできるようになり、ジャックソン博士の予算と博士の店に行ったときの在庫が永続的に増える。在庫には常にモジュールが含まれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110684
+    m_Localized: ジャックソン投資 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110685
+    m_Localized: ワイルドがジャックソン博士を説得してくれて、さらに投資をできるようになり、ジャックソン博士の予算と博士の店に行ったときの在庫が永続的に増える。在庫には常にモジュールが含まれ、その量が増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110686
+    m_Localized: 店の改装 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110687
+    m_Localized: ワイルドが業者を雇って、店に小規模な改装を施す。基本魅力度が{0}ポイント上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110688
+    m_Localized: 店の改装 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110689
+    m_Localized: ワイルドが業者を雇って、店に大規模な改装を施す。基本魅力度がさらに{0}ポイント上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110690
+    m_Localized: 店の改装 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110691
+    m_Localized: ワイルドが業者を雇って、店に抜本的な改装を施す。基本魅力度がさらに{0}ポイント上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759671308288
+    m_Localized: 飼育
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759692279808
+    m_Localized: ワイルドがネズミ飼育者を推薦してくれて、週に1回来るようになる。ネズミ飼育スターターキットをすぐに受け取る。（飼育コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088798810112
+    m_Localized: 引退したワイン醸造家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088832364544
+    m_Localized: ワイン醸造スターターキットをすぐに受け取る。引退したワイン醸造家が翌日、ワイン醸造用品と備品を売りにくる。その後は1週間に一度の頻度になる。（ワイン醸造コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081375535104
+    m_Localized: 水産養殖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081438449664
+    m_Localized: ワイルドが引退した水産業者を推薦してくれて、週に1回水産養殖の備品や受精済みの卵を買えるようになる。水産養殖スターターキットをすぐに受け取る。（水産養殖コンテンツがアンロックされる）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217368723456
+    m_Localized: 水産養殖 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217402277888
+    m_Localized: 引退した水産業者が、来るたびにより大きく、儲かりやすい魚を持ってくる。若いウナギ2匹をすぐに受け取る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919055683584
+    m_Localized: 植物遺伝学
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238016
+    m_Localized: DNAマニピュレーター、遺伝子スキャナー、空のDNAデータディスクをすぐに受け取る。ジャックソン博士が今後、DNA操作の備品を常備するようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238017
+    m_Localized: 書類入れ改良
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238018
+    m_Localized: 書類入れが大きくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238019
+    m_Localized: ゴミ箱改良
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238020
+    m_Localized: ゴミ箱が大きくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238021
+    m_Localized: 自動販売機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238022
+    m_Localized: すぐに店に自動販売機が設置される。夜間も商品を販売できるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238023
+    m_Localized: 水自動販売機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238024
+    m_Localized: すぐに店に水自動販売機が設置される。夜間も水を販売できるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238025
+    m_Localized: 店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254073679872
+    m_Localized: 少数株主：レッド・インプ醸造所
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428608
+    m_Localized: レッド・インプ醸造所の株を少し購入する。配達人のまとめ買い割引率が{0}%上昇し、毎週木曜日の朝にビール{1}ケースが配当としてカウンターに置かれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428609
+    m_Localized: 少数株主：GP採掘協同組合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428610
+    m_Localized: GP採掘協同組合の株を少し購入する。配達人のまとめ買い割引率が{0}%上昇し、毎週金曜日の朝に鉱石{1}個が配当としてカウンターに置かれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428611
+    m_Localized: 少数株主：下層世界の化学者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428612
+    m_Localized: 下層世界の化学者の事業に対して株を少し購入する。配達人のまとめ買い割引率が{0}%上昇し、毎週土曜日の朝に路上基準のドリームダスト{1}個が配当としてカウンターに置かれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428613
+    m_Localized: 少数株主：上層世界の薬剤師
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428614
+    m_Localized: 上層世界の薬剤師の事業に対して株を少し購入する。配達人のまとめ買い割引率が{0}%上昇し、毎週日曜日の朝にOxymoreの注射器{1}個が配当としてカウンターに置かれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428615
+    m_Localized: 月曜日のスペシャル在庫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428616
+    m_Localized: 月曜日、ジャックソン博士が特別に店を開き、希少な商品を高めの価格で売ってくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592013217792
+    m_Localized: ハイパーテックの密輸屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577920
+    m_Localized: ジョー・ワイルドが、ハイパーテック製品を扱う密輸屋を紹介してくれる。ステーションの産業ではとても作れない技術だ。夜間サービス「ハイパーテックの密輸屋」が解放される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577921
+    m_Localized: お墨付き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577922
+    m_Localized: ワイルドのお墨付き I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577923
+    m_Localized: ジョー・ワイルドが直々に店を推薦してくれる。来店する客の予算が{0}%増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577924
+    m_Localized: ワイルドのお墨付き II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577925
+    m_Localized: ジョー・ワイルドが一番の得意先に店を売り込んでくれる。来店する客の予算がさらに{0}%増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577926
+    m_Localized: ワイルドのお墨付き III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577927
+    m_Localized: ジョー・ワイルドが自分の名にかけて店を保証してくれる。来店する客の予算がさらに{0}%増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577928
+    m_Localized: ワイルドの始末屋 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577929
+    m_Localized: ワイルドがもっと腕の立つ始末屋を回してくれる。証拠の処理が速くなり、犯罪容疑レベルが毎晩より大きく下がる。夜ごとの料金は上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577930
+    m_Localized: ワイルドの始末屋 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577931
+    m_Localized: ワイルドが最高の部下を店につけてくれる。目撃者は忘れ、証拠は消え、犯罪容疑レベルは毎晩さらに速く下がる。夜ごとの料金は上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291312619520
+    m_Localized: 電力線乗っ取り II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785344
+    m_Localized: ワイルドの仲間が、より大きなソーラーアレイを回線につないでくれる。電流コンバーターの負荷の一部を肩代わりし、運用コストが{0}%下がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785345
+    m_Localized: 電力線乗っ取り III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785346
+    m_Localized: ワイルドの仲間が、屋根一面のパネルを丸ごとつないでくれる。電流コンバーターの運用コストが合計で{0}%下がる。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

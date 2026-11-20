@@ -1,0 +1,3245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: d2871279070a02c4cad0d83341acf88b, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 5621084498384125954
+  m_TableData:
+  - m_Id: 97609007955230720
+    m_Localized: 在熔炉中使用两份“废金属”或两份“金属矿石”，即可冶炼出金属锭。金属锭的纯度各不相同。纯度越高，金属锭的价值也就越高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55710344593408
+    m_Localized: 继续游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55727805480960
+    m_Localized: 教程提示界面（O）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55768439898112
+    m_Localized: 选项
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55807065243648
+    m_Localized: 主菜单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55856922935296
+    m_Localized: 退出游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58797314588672
+    m_Localized: 你当前的信用点余额
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59349180137472
+    m_Localized: 请稍候
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59446253109248
+    m_Localized: 遣散所有剩余顾客并结束本日营业
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59613819748352
+    m_Localized: 暂时无法结束营业，队列中还有重要人物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59636871643136
+    m_Localized: 开始营业
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59652143104000
+    m_Localized: 结束营业
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60775671316480
+    m_Localized: 查看日历
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62907535376384
+    m_Localized: 打开平板电脑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63130466828288
+    m_Localized: 现在无法呼叫下一位顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63189254193152
+    m_Localized: 店铺已打烊，无法呼叫下一位顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63233680261120
+    m_Localized: 遣散当前顾客并呼叫下一位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63266530050048
+    m_Localized: 现在无法遣散当前顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63322666614784
+    m_Localized: 呼叫下一位顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64156087402496
+    m_Localized: 还有{count}位顾客在排队等候。
+    m_Metadata:
+      m_Items:
+      - rid: 5621084498384125954
+  - m_Id: 77168739401728
+    m_Localized: 转移所有物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77365632614400
+    m_Localized: 现在无法遣散当前顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77786434551808
+    m_Localized: 遣散当前顾客，暂不呼叫下一位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78076277735424
+    m_Localized: 已举报过当前顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78589987700736
+    m_Localized: 无法举报当前顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78608509747200
+    m_Localized: 呼叫治安部请求协助
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79608394072064
+    m_Localized: 录音机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79732914569216
+    m_Localized: 反馈箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79830084009984
+    m_Localized: 睡觉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79925714141184
+    m_Localized: 营业期间无法睡觉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79972023451648
+    m_Localized: 现在无法睡觉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174603755110400
+    m_Localized: 正在保存……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578349003980800
+    m_Localized: 通缉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578396634497024
+    m_Localized: 治安部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578957761069056
+    m_Localized: 治安部门
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579052590088192
+    m_Localized: 治安部记录
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579553721335808
+    m_Localized: 档案
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579670658531328
+    m_Localized: 姓名
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579693173555200
+    m_Localized: 位置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579716393222144
+    m_Localized: 职业
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579789374111744
+    m_Localized: 承办警官附注
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579754880155648
+    m_Localized: 涉嫌犯罪活动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580455396032512
+    m_Localized: 店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580519317225472
+    m_Localized: 下层区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580721717559296
+    m_Localized: 商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580866337161216
+    m_Localized: 附加信息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581231879143424
+    m_Localized: 建议行动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581300363739136
+    m_Localized: 承办警官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581591477796864
+    m_Localized: 正在执行的行动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581674730536960
+    m_Localized: 调查进度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581707546771456
+    m_Localized: 预估刑期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581860617895936
+    m_Localized: ///机密///严禁外传///
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93587912008712192
+    m_Localized: 刮刮乐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588131404365824
+    m_Localized: 中奖规则
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588417753694208
+    m_Localized: 任意2个相同图案 = 10信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588465635868672
+    m_Localized: 任意3个相同图案 = 75信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588481234485248
+    m_Localized: 2个营养果图案 = 30信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588581063114752
+    m_Localized: 3个营养果图案 = 350信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598206919491584
+    m_Localized: 王尔德的人脉网络
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598467398352896
+    m_Localized: 解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96051782333808640
+    m_Localized: 标签打印机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96052992709279744
+    m_Localized: 空间站贸易委员会
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053216886439936
+    m_Localized: 海明威香烟真伪鉴定手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053359593439232
+    m_Localized: '假冒的海明威香烟在空间站上很常见。正如其低劣的质量一样，赝品的价值远低于正品海明威香烟。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053451670994944
+    m_Localized: 字母印刷问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054067961053184
+    m_Localized: 这些差异一眼就能看出来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053659368734720
+    m_Localized: 商标问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053957164318720
+    m_Localized: 颜色问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053984980942848
+    m_Localized: 防伪标问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054690999746560
+    m_Localized: 包装上的拼写错误、文本错位或印刷质量不均匀，以及颜色、字体有差异或缺失字母，均表明这是假货。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054818166849536
+    m_Localized: 正品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054861590478848
+    m_Localized: 字体错误
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054893702070272
+    m_Localized: 拼写错误
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056281177833472
+    m_Localized: 使用色卡进行对比
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054988258459648
+    m_Localized: 错误
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054942020452352
+    m_Localized: 错误示例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056565048328192
+    m_Localized: 海明威香烟绝不会在没有防伪标的情况下出售。如果防伪标缺失或破损，该香烟即为假冒伪劣品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057260392628224
+    m_Localized: 共和国食品券真伪鉴定手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057349144100864
+    m_Localized: 作为共和国一项极其慷慨的福利举措，食品券被定期发放给下层区最贫困的居民。这些食品券可用于在有共和国授权的商店中购买必需品。但请注意：假冒食品券在下层区并不少见。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057513896361984
+    m_Localized: 留意拼写错误和明显的文本错位。颜色、字体有差异或缺失字母也是伪造品中常见的问题。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057755253391360
+    m_Localized: （若商标缺失则为伪造）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058034761809920
+    m_Localized: 如果食品券上印制的面值达到或超过160信用点，它就会带有防伪标。低于160信用点的食品券则没有防伪标。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058168140677120
+    m_Localized: 票券面值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058204379463680
+    m_Localized: "食品券仅发行以下面值：\n40信用点、80信用点、\n120信用点、160信用点、\n200信用点、240信用点"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058228136001536
+    m_Localized: 芯片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058254006468608
+    m_Localized: '所有食品券都包含一枚芯片。如果芯片缺失或损坏，即便该食品券是真品也无法使用。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059018745528320
+    m_Localized: 免疫宁免疫调节注射器用户手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059108805623808
+    m_Localized: 一种高精度免疫调节剂，用于暂时抑制致命的自身免疫性疾病“哨兵崩溃综合征”引发的症状。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059345028825088
+    m_Localized: 指示灯问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059529305571328
+    m_Localized: 示例：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059675703558144
+    m_Localized: 已过期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059701712437248
+    m_Localized: 已空
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059889814388736
+    m_Localized: 标签问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059996320350208
+    m_Localized: （若标签缺失则为伪造）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060274918604800
+    m_Localized: 大小写必须完全正确
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060400747724800
+    m_Localized: "可能出现的错误：\n-拼写错误\n-缺失公司名称\n-缺失产品名称\n-明显的字体差异"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060752268148736
+    m_Localized: 序列号
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060973857423360
+    m_Localized: 所有免疫宁注射器必须带有有效的7位序列号。前3位数字代表批次号。有效范围为：1250000-4559999。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061056065781760
+    m_Localized: "产品召回通知（批次号）：250、251、301、355、385、386、421\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061186227617792
+    m_Localized: 被召回示例（不可使用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061727754207232
+    m_Localized: 瓶体问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061800735096832
+    m_Localized: 如果在注射器上看到任何损坏，例如清晰可见的裂纹，应将其视为不可使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061957102944256
+    m_Localized: 正确主色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062623657541632
+    m_Localized: 配给站
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062734018068480
+    m_Localized: 购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062866713264128
+    m_Localized: 已兑换配给站票券：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063002021511168
+    m_Localized: 兑换有效食品券
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063130195247104
+    m_Localized: 全部兑奖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063415374364672
+    m_Localized: “权力存在是为了扶助，而非压迫。”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064079886336000
+    m_Localized: 对质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064044792594432
+    m_Localized: 匹配标签
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065702779994112
+    m_Localized: 所有权契约
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065787035172864
+    m_Localized: "本文件证明持有者为位于以下地址之商业地产的合法所有者：\n\n下层区，14区\n\n本契约特此将上述财产的全部所有权授予持有者，该授权将在结清《协议契约》中列明的债务以及全额支付约定的购买价款后立即生效。\n\n该财产的所有权包括以下权利：\n\n运营与管理权 - 对日常运营和活动的完全控制权，并承担相应责任。\n翻新或改造权 - 须遵守适用的所在分区的区划法律与规定。\n出售或转让权 - 须经空间站管理机构批准，并遵守所有适用的规章制度。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065848574001152
+    m_Localized: 店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065889678180352
+    m_Localized: 房东
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96066893626785792
+    m_Localized: 租赁协议
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96067891871137792
+    m_Localized: "第一条：协议主体\n出租方：（以下称“出租人”），\n店主：（以下称“承租人”）。\n\n第二条：租赁标的\n出租人同意将租赁物出租予承租人作商业经营之用，具体须受本协议所列各项条款及条件之约束。\n\n第三条：租赁条件\n租金数额：待定        \n支付周期：每七日支付一次\n\n第四条：逾期支付租金\n如果未能在到期日支付租金，承租人在本协议期限内将获得一次性宽限期。任何拖欠的租金将累加至下周租金中。若未能在下一个到期日足额支付调整后的金额，即构成违约。\n\n清退条款：如果承租人未能支付租金或未能支付按此协议所述方法调整后的租金，出租人保留终止本协议的权利，并可根据空间站条例启动清退程序。\n\n第五条：租金调整\n租金上调：出租人保留上调下周租金的权利，最高涨幅可达当前租金数额的5%。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96068981312241664
+    m_Localized: 下层区彩票说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069071271673856
+    m_Localized: 下层区彩票终于回归了！只需一张彩票，就能开启你的发财之路。快来买一张吧！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069114858881024
+    m_Localized: 彩票玩法说明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069224581873664
+    m_Localized: 彩票每周六早晨开奖。开奖号码将在报纸上公布。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069304206540800
+    m_Localized: 彩票系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069332459372544
+    m_Localized: 开奖时会从1至49中抽出6个不重复的号码。你的号码与这6个开奖号码相符的个数越多，获得的奖金就越高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069469126574080
+    m_Localized: 示例中奖号码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069476978311168
+    m_Localized: 示例彩票号码（匹配3个数字）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069672667758592
+    m_Localized: 你必须至少匹配三个数字才能赢得奖金。如果六个数字全部匹配，你将赢得头奖！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070226617876480
+    m_Localized: 中6个号码（头奖）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070259631243264
+    m_Localized: 中5个号码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070272549699584
+    m_Localized: 中4个号码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070284029509632
+    m_Localized: 中3个号码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854868041728
+    m_Localized: 导师笔记：交易
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401856
+    m_Localized: " 1.将物品拖至谈判柜台，即可打开谈判界面。\n2.如果可以买入或卖出该物品，界面上就会出现相应按钮。\n\n每位顾客在你店里的消费预算都是有限的。\n\n出售物品时，售价会自动计入零售加价。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401857
+    m_Localized: 导师笔记：食物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401858
+    m_Localized: " 食物是空间站上交易量最大的商品。\n强烈建议备足食物库存，毕竟一旦发生短缺，水和食物的价格都会飞速上涨。人总归是要吃饭的。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401859
+    m_Localized: 导师笔记：夜间活动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401860
+    m_Localized: " 在结束一天的营业打烊后，你应该有时间去拜访该区域周围的各个地点。\n你随时可以返回垃圾场进行拾荒。如果没有背包，你将无法把太多东西带回店铺。\n你还应该带上用于包扎的绷带，以防在拾荒时受伤。如果你受了重伤，将会有几天无法出门。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401861
+    m_Localized: 导师笔记：批发采购
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401862
+    m_Localized: " 有时如果你买下卖家所有的物品，他们会提供折扣。（这就叫作“批发”。）\n\n你仍然可以单独检查该交易中的每一件物品。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401863
+    m_Localized: 导师笔记：违禁品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401864
+    m_Localized: " 违禁品包括任何被共和国视为非法的物品。持有或出售违禁品伴随着高风险……以及更高的利润率。\n违禁品分为4个等级：\n低级（+{0}%利润率）：虽然严格来说属于非法，但通常会被治安部无视，除非他们有意针对你。\n中级（+{1}%利润率）：如果在盘查中被发现，该物品将被没收。\n高级（+{2}%利润率）：如果在盘查中被发现，该物品将被没收，并且你将受到罚款。\n高危级（+{3}%利润率）：如果在盘查中被发现，店铺将被永久查封，你也会被立即逮捕。\n此外，如果发现任何违禁品，你在治安部的声望都会下降。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401865
+    m_Localized: 导师笔记：赃物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401866
+    m_Localized: " 买卖[赃物]是非法的。每件赃物都有“热度”值，热度越高，治安部在盘查时越容易将其认出。卖家会根据热度值提供相应的折扣。\n热度会随着时间推移缓慢下降。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401867
+    m_Localized: 导师笔记：治安部盘查
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401868
+    m_Localized: " 空间站治安部将对违禁品进行随机盘查。你在治安部的声望将影响发现违禁品时你所受惩罚的严重程度。各类事件也会影响店铺受到检查的频率。\n\n此外，不同的警官执行盘查的方式也不同。有些可能愿意接受贿赂；有些则可能不会把所有容器翻个遍。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401869
+    m_Localized: 鉴定服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401870
+    m_Localized: " 某些标记为[待鉴定物品]的贵重物品具有复杂的价值结构。顾客将光顾店铺并使用你的鉴定服务来确定其物品的价值。\n\n你将获得一笔基础的鉴定服务费，外加一笔基于鉴定精确度的奖金。\n你可以通过鉴定考试并获得证书，从而提高基础服务费，并解锁可鉴定的新物品种类。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401871
+    m_Localized: ——鉴定委员会
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401872
+    m_Localized: 导师笔记：事件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401873
+    m_Localized: " 某些事件会影响物品的市场价格，导致其暂时上涨或下跌。报纸上会列出大多数正在发生的事件。\n有些内部人士会在事件发生前向你兜售情报。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401874
+    m_Localized: 导师笔记：以物易物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401875
+    m_Localized: " 偶尔会有顾客提出用物品进行交换，而非支付信用点。\n与常规的买卖不同，以物易物是无法讨价还价的。\n这类交易同样不会受到当前事件的影响。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401876
+    m_Localized: 导师笔记：展示柜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401877
+    m_Localized: " 在卷帘门的左侧是展示柜，这是店铺的关键功能之一。\n根据你放入其中的物品种类，你每天可以吸引一位想要购买该类物品的顾客。\n例如，如果你放入许多[食物]物品和一件低价值的[医疗]物品，第二天就会有一位购买食物的顾客造访店铺。\n存放物品的总价值将影响被吸引顾客的社会阶层。\n升级展示柜能让你吸引到更多顾客。\n\n<b>确保在每天开店前为展示柜补充存货。</b>\n不要将违禁品放在展示柜内，否则你将被逮捕。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401878
+    m_Localized: 导师笔记：升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401879
+    m_Localized: " 随着时日推移，你会遇到各种各样的人物，他们会提供有偿的店铺升级服务。\n这些升级可能很有用，但你在管理现金流时必须精打细算，并留意下一次缴纳租金的日期。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401880
+    m_Localized: 导师笔记：外观检查
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401881
+    m_Localized: " 某些物品会被标记为可使用放大镜检查。\n在可检查的物品上使用放大镜即可打开检查托盘。\n如果物品存在问题，你可以在检查托盘界面底部选择一个原因，并就此与顾客对质。\n<b>如果物品是假冒的，指出一个问题就足以与顾客对质。</b>\n\n若指控属实，顾客将会调整价格。如果发生误判，你将失去声望，且顾客可能会去别处做生意。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401882
+    m_Localized: 导师笔记：食品券
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401883
+    m_Localized: " 食品券是社会福利计划的一部分，旨在帮助符合条件的下层区公民，并预防发生动乱。\n食品券可以用来在配给站兑换食物。\n食品券有不同的面值。由于它们只能用来购买食物，因此人们经常以低于面值的价格将它们折现成信用点。\n有时，伪造的食品券会被卖给毫无防备的受害者，这些人只有在兑换失败时才会发现自己上当受骗了。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401884
+    m_Localized: 导师笔记：配给站
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401885
+    m_Localized: " 配给站由共和国运营。这里出售的所有物品价格都是固定的，不受市场影响。\n\n然而，虽然价格固定，但是物品的供应情况在很大程度上会受到市场的影响。\n在配给站购买商品只能使用食品券。\n\n<u>请在关店后访问配给站以购买商品。</u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401886
+    m_Localized: 导师笔记：物品标签
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401887
+    m_Localized: " 某些物品可以更换标签。例如，你可以给一盒假冒香烟贴上正品标签来提高其价格。\n\n但要当心——大多数工人、治安部警官和下层区公民都对常见的造假手段了如指掌。诈骗企图将会失败，且会导致你的声望受到惩罚。\n拾荒者虽然也熟悉物品造假，但他们通常不会带用于检测真伪的设备——如果需要用到设备的话。\n然而，游客和上层区公民一般对此更加欠缺防备。\n不过，纸包不住火，人们迟早会发现端倪的。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401888
+    m_Localized: 导师笔记：哨兵崩溃综合征
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401889
+    m_Localized: " 很遗憾得知你患有哨兵崩溃综合征……这是一种你余生都必须与之共存的严重疾病。\n你需要定期注射免疫宁，否则你的健康状况会恶化并遭受永久性损伤。一开始漏打几天或许还能撑住，但损伤会随着时间不断累积。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401890
+    m_Localized: 暗号清单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401891
+    m_Localized: " \n市场委托中将使用以下暗号：\n“生日派对” = 即将开展的行动，\n“茶点” = 奥克西莫注射剂，\n“聚会” = 突袭，\n“花园” = 安全屋，\n“乔迁之礼” = 治安部识别卡，\n“度假” = 紧急撤离，\n“年久失修” = 已暴露，\n“最后一刻” = 高度紧急情况\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401892
+    m_Localized: 一张不起眼的纸条，上面草草写着革命军所用的暗号对应表。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401893
+    m_Localized: ——导师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97559369936060416
+    m_Localized: 等离子燃料匣鉴定指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578536374419456
+    m_Localized: "等离子燃料匣是脉冲等离子引擎的标准燃料，这种引擎在中小型航天器上非常普及。\n由于需求量巨大且监管松散，不论是血汗黑工厂还是工业实验室均有生产。产地将直接影响等离子燃料匣的质量。\n\n本指南将提供鉴定等离子燃料匣价值所需的全部知识。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578620231139328
+    m_Localized: 等离子燃料匣图示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578666938908672
+    m_Localized: "空间站上共有四家常见的制造商：\n\n\t- 王尔德载具（“WLD”），\n\t- 共和国海军征用部（“RNR”），\n\t- 中华船舶（“ZHS”），\n\t- 点火实验室（“IGN”）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578677403697152
+    m_Localized: 无论制造商是谁，也无论当前品相如何，等离子燃料匣的基础价值均为300信用点，且最低价值为90信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578837257011200
+    m_Localized: 燃料匣品相
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578934199959552
+    m_Localized: 等离子燃料匣的价值由其品相决定。品相即是燃料匣各项属性的总和。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578995805896704
+    m_Localized: 标准（价格不变）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579017947627520
+    m_Localized: 轻度磨损（-45信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579023517663232
+    m_Localized: 重度磨损（-90信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579295308562432
+    m_Localized: 燃料匣品相
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579324266037248
+    m_Localized: 破裂（-150信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579339571052544
+    m_Localized: 螺丝外露（-30信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579346848169984
+    m_Localized: 加固处理（+60信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579654009634816
+    m_Localized: 等离子颜色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579702764224512
+    m_Localized: "等离子的颜色是判断质量的最重要指标。\n任何非“标准”或“高级”的颜色都被视为“低级”。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579718635470848
+    m_Localized: 标准（价格不变）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579734468968448
+    m_Localized: 低级示例（-150信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579741716725760
+    m_Localized: 高级（+150信用点）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579997401497600
+    m_Localized: 燃料匣制造商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580560818159616
+    m_Localized: 王尔德载具（“WLD”）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580794755465216
+    m_Localized: 参考示例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580685535789056
+    m_Localized: "WLD等离子燃料匣产自下层区，质量参差不齐。\n可能的外壳品相：所有类型\n可能的颜色：低级、标准\n防伪标：必定带有"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580739558424576
+    m_Localized: 如果所有条件均匹配：+60信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581029770706944
+    m_Localized: 中华船舶（“ZHS”）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581052319285248
+    m_Localized: "ZHS等离子燃料匣定价更为亲民，同时品质也毫不含糊。\n\n可能的外壳品相：无特殊状况或仅有加固处理\n可能的颜色：标准\n防伪标：必有"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581069801144320
+    m_Localized: 如果所有条件均匹配：+120信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581604390354944
+    m_Localized: 正确配置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581588955316224
+    m_Localized: 如果所有条件均匹配：+750信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581576204632064
+    m_Localized: "作为一家专业的研发实验室，IGN制造的等离子燃料匣代表着最高水准。\n可能的外壳品相：无特殊\n可能的颜色：高级\n防伪标：必定带有"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581555937755136
+    m_Localized: 点火实验室（“IGN”）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581540766957568
+    m_Localized: 如果所有条件均匹配：+120信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581527986913280
+    m_Localized: "由共和国直接拨款资助，RNR等离子燃料匣通常会被回收并循环使用。\n\n可能的外壳品相：除破裂外的任意品相\n可能的颜色：标准\n防伪标：必定带有"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581506910535680
+    m_Localized: 共和国海军征用部（“RNR”）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97582745979240448
+    m_Localized: 水资源交易手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583244593905664
+    m_Localized: 1.水质分级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583389582606336
+    m_Localized: 水质是由其纯度决定的：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583739890876416
+    m_Localized: 纯水（99.9%+）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583769452331008
+    m_Localized: 优质水（99%-99.9%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583797470281728
+    m_Localized: 基础水（98%-99%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583810321629184
+    m_Localized: 幽灵水（96%-98%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583830152298496
+    m_Localized: 铁锈水（90%-96%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583849882304512
+    m_Localized: 沟渠水（90%-）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583541718401024
+    m_Localized: 适宜饮用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583590137446400
+    m_Localized: 仅在必要时饮用，不建议长期使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583638321610752
+    m_Localized: 不安全，人类饮用存在风险
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583660907937792
+    m_Localized: 警告：剧毒，严禁饮用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585811071746048
+    m_Localized: 2.鉴别方法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585845494398976
+    m_Localized: 无论有意为之还是无心之失，空间站上出售的水都可能会出现标签不符的情况。购买和饮用前请务必核实水质。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585867443191808
+    m_Localized: 水质检测试纸是一种测试水质纯度的廉价且便捷的方法。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97586321032003584
+    m_Localized: 3.净水方法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587194655195136
+    m_Localized: "空间站的水可能含有多种类型的污染物。每种净水方法仅对特定类型的污染物有效。\n\n如果多次尝试仍无法提高水的纯度，则说明你所选的净水方法无法去除水中残留的污染物。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587213072384000
+    m_Localized: 净水药片会先减少化学污染物，再用剩下的药效清除微生物污染物。一片药片足够处理一大瓶铁锈水，更脏的水可能需要好几片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587223478452224
+    m_Localized: "滤水器：将其安装在水罐内，会在倒水时进行过滤。\n它可以去除杂质、微塑料和有机废物。滤水器耐久度有限。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587234954067968
+    m_Localized: 同时使用净水药片和滤水器，大多数水都能提升到基础水，甚至优质水，具体取决于水的初始纯度。污染严重的水可能需要好几片药片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587251731283968
+    m_Localized: 想要得到纯水，你就需要一台配备了合适模组的专用净水器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587259113259008
+    m_Localized: 不推荐使用基础净水方法来净化沟渠水，因为这会极大地损耗滤水器的耐久度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587744406814720
+    m_Localized: 4.水的种类
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589248253542400
+    m_Localized: 即使是对居住在上层区的人来说也很难弄到。极其昂贵，主要用于医院和实验室等敏感环境。在上层区社会，用纯水招待客人彰显着高贵的社会地位。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589392676012032
+    m_Localized: 上层区的标准用水，可安全用于饮用、烹饪和大多数家庭用途。虽然更容易获取，但依然价格不菲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589410753462272
+    m_Localized: 下层区的标准用水。足以满足短期使用，但长期接触可能引发慢性疾病。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589447902412800
+    m_Localized: "肉眼无法将其与优质水区分，但若未经过滤便饮用并不安全。幽灵水常被用于农业和工业。\n<b>在下层区，给幽灵水贴标签冒充好水出售是一种十分常见的诈骗手段。</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589459784876032
+    m_Localized: "不适合农业灌溉，且饮用非常危险。\n\\t<b>可以通过肉眼进行识别。</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589471994494976
+    m_Localized: "受到严重污染并带有剧毒。如果不慎饮用，请立即就医。\n\\t<b>可以通过肉眼进行识别。</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589767374159872
+    m_Localized: 5.常见的水资源交易骗局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589894516097024
+    m_Localized: 铁锈水与沟渠水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589953840332800
+    m_Localized: 铁锈水和沟渠水很难靠贴标签来诈骗，因为可以通过肉眼辨认颜色来将它们与其他类型的水区分开来。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589976489574400
+    m_Localized: 幽灵水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589998794883072
+    m_Localized: 给幽灵水贴上基础水的标签来出售是下层区常见的诈骗手段。大批量出售贴错标签的幽灵水属于犯罪行为。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590016012500992
+    m_Localized: 顾客行为
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590039429300224
+    m_Localized: "拾荒者通常穷困潦倒，没有条件随身携带水质检测试剂盒。\n下层区公民和拾荒者通常不会购买优质水或纯水。\n游客和上层区公民往往缺乏防备心，不会去检测他们买来的水纯不纯。\n但要求购买大量水的顾客通常都会随身携带水质检测试剂盒。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593996276973568
+    m_Localized: 水质：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594053361451008
+    m_Localized: 某些污染物会损害植物的生长。除非你种植的是有特殊需求的作物，否则务必要使用污染物浓度较低的水。（注：矿物质不属于污染物。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608845849575424
+    m_Localized: 冶金手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608911280717824
+    m_Localized: 1.引言
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609040402366464
+    m_Localized: 2.冶炼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609058861498368
+    m_Localized: "金属锭的纯度是由冶炼它所用的材料决定的。使用“废金属”会产生较低的纯度，而使用“金属矿石”则会产生较高的纯度。此外，可以在熔炉中加入“助熔剂”来提高纯度，任何加入的助熔剂都会在冶炼过程中被消耗掉。\n\n熔炉需要动力源。冶炼过程将在夜间进行。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297345539981312
+    m_Localized: 日历
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297458144460800
+    m_Localized: 夜间报告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297493984788480
+    m_Localized: 状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297743428435968
+    m_Localized: 别忘了补充展示柜存货！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298365355638784
+    m_Localized: 100：展示柜内的商品不会吸引任何额外顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298573393117184
+    m_Localized: 200：每天会有一名随机普通顾客光顾店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298632482471936
+    m_Localized: 250：每天会有+2名顾客光顾店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302142137647104
+    m_Localized: 300：所有顾客的可花费信用点增加10%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302218809524224
+    m_Localized: 400：贫穷顾客光顾店铺的几率降低
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99303976218705920
+    m_Localized: 450：所有顾客的可花费信用点增加25%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304027657650176
+    m_Localized: 500：每天会有+3名顾客光顾店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304075942477824
+    m_Localized: 650：贫穷顾客光顾店铺的几率进一步降低
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304116245544960
+    m_Localized: 750：所有顾客的可花费信用点增加75%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304161569193984
+    m_Localized: 900：所有顾客的可花费信用点增加100%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304721999511552
+    m_Localized: 已激活特性
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304878828732416
+    m_Localized: 预估总资产
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99322042457571328
+    m_Localized: 结束
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163968
+    m_Localized: 可用信用点：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163969
+    m_Localized: 王尔德的恩惠：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163970
+    m_Localized: 呼叫中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163971
+    m_Localized: 无响应
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163972
+    m_Localized: 通话中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163973
+    m_Localized: 就绪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163974
+    m_Localized: 拨号中……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163975
+    m_Localized: 租金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163976
+    m_Localized: 按揭还款
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163977
+    m_Localized: '{2}天后需支付{1}的{0}信用点！'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163978
+    m_Localized: 明天需支付{1}的{0}信用点！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163979
+    m_Localized: 今天需支付{1}的{0}信用点！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660465626202112
+    m_Localized: 营业结束
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660630688841728
+    m_Localized: 你负担不起所选的服务……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660720610525184
+    m_Localized: 结束营业
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834008154112
+    m_Localized: 总开销：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931328
+    m_Localized: 结算前余额：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931329
+    m_Localized: 最新余额：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931330
+    m_Localized: '[已激活]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931331
+    m_Localized: '[未激活]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931332
+    m_Localized: 你的店铺获得了{0}的名声。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931333
+    m_Localized: 你的店铺失去了{0}的名声。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841703575552
+    m_Localized: 今日结束
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841728741376
+    m_Localized: '{0}天后结束'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837908869758976
+    m_Localized: 基础
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838035407716352
+    m_Localized: 垃圾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837983167660032
+    m_Localized: 投影仪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838688112721920
+    m_Localized: 赝品检查
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838923694194688
+    m_Localized: 对质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530774437888
+    m_Localized: 正品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632192
+    m_Localized: 字母印刷问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632193
+    m_Localized: 颜色问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632194
+    m_Localized: 防伪标问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632195
+    m_Localized: 商标问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632196
+    m_Localized: 包装盒问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632197
+    m_Localized: 面值问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632198
+    m_Localized: 芯片问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632199
+    m_Localized: 指示灯问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632200
+    m_Localized: 标签问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632201
+    m_Localized: 序列号问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632202
+    m_Localized: 瓶体问题
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858351332835328
+    m_Localized: 底线公报
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858297700270080
+    m_Localized: 每日新闻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100038754609971200
+    m_Localized: "确定要关店打烊吗？\n\n队伍里还有人在排队等候。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050444726616064
+    m_Localized: 接受报价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050525357916160
+    m_Localized: 接受批发
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050603476828160
+    m_Localized: 顾客预算
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050722725085184
+    m_Localized: 治安部
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050755004448768
+    m_Localized: 种类多样
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050772217872384
+    m_Localized: 拒绝违禁品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275929935872
+    m_Localized: "顾客只剩下{0}信用点。\n你将少获得{1}信用点。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101696
+    m_Localized: 以物易物报价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101697
+    m_Localized: 情报贩子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101698
+    m_Localized: 定制枪械订单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101699
+    m_Localized: 鉴定服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101700
+    m_Localized: 出售
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101701
+    m_Localized: 买卖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101702
+    m_Localized: 正在购买{0}物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101703
+    m_Localized: 顾客对此类物品不感兴趣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101704
+    m_Localized: 顾客没有剩余的信用点可以花费了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101705
+    m_Localized: 顾客没有兴趣购买两件相同的物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101706
+    m_Localized: 正在出售{0}物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101707
+    m_Localized: 情报交易
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101708
+    m_Localized: 与市场相关的、可采取行动的消息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101709
+    m_Localized: 购买{0}物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101710
+    m_Localized: 出售{0}物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101871974884360192
+    m_Localized: 交易
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872055226253312
+    m_Localized: 返回
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872108007374848
+    m_Localized: 拾荒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443089420288
+    m_Localized: 冷却（{0}天）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808896
+    m_Localized: '{0}信用点'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808897
+    m_Localized: 此升级需要{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808898
+    m_Localized: 试玩版中不可用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254421569536
+    m_Localized: 全屏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735360
+    m_Localized: 无边框全屏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735361
+    m_Localized: 窗口化
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735362
+    m_Localized: 推荐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069631127371776
+    m_Localized: 彩票奖品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867563986944
+    m_Localized: 导师笔记：改造体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940631826432
+    m_Localized: 第{0}/{1}页
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867589152768
+    m_Localized: 改造体是被脑部植入物中的失控AI接管的人类。他们的身体已不由自己控制，目前也没有能在不杀死宿主的情况下安全移除植入物的方法。改造体极度危险，充满敌意，会主动绑架他人并为其安装改造植入物。店主们是防范改造体的第一道防线，因为改造体需要原材料来制造新的植入物，还需要医疗物资为更多受害者实施植入手术。他们还无法完全模仿正常人的行为，也可能使用过分正式的措辞或机械生硬的词语。只有在完全确认其身份后才能开枪。不要呼叫治安部，改造体已经侵入了他们的通信系统，会在治安部赶到前逃之夭夭。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940661186560
+    m_Localized: 警告：若饮用了沟渠水，请立即就医
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123280221805527040
+    m_Localized: 购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124710930575310848
+    m_Localized: 将所有中奖彩票兑换为信用点（不是配给站票券）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946643222528
+    m_Localized: 顾客群体
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971264
+    m_Localized: 打开顾客群体界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971265
+    m_Localized: 展示商品所吸引的预期买家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971266
+    m_Localized: 预期的普通顾客（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971267
+    m_Localized: 当卷帘门打开时，出现的顾客类型将取决于店铺的状态。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971268
+    m_Localized: 店铺的状态每天会吸引一定数量的随机顾客。展示柜中存放的特定商品能够影响哪些顾客会出现。以下每位特殊顾客每天可出现一次。剩余的顾客名额将由随机顾客填补。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799789809664
+    m_Localized: 存放在展示柜中的大多数商品都会吸引买家。买家的预算取决于存放商品的价值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799794003968
+    m_Localized: 未检测到展示柜内有商品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125454821289148416
+    m_Localized: 随机顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125458918834749440
+    m_Localized: 买家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126544338016321536
+    m_Localized: 卖家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342016
+    m_Localized: 此顾客每种物品只会购买一次，但愿意支付高昂的溢价。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342017
+    m_Localized: 此顾客不会接受任何违禁品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342018
+    m_Localized: 此顾客是空间站治安部的一员。向其展示赃物或违禁品可能会引来麻烦。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126624901758763008
+    m_Localized: 保持店铺照明并维持电网设备运转。若未支付电费，将会导致只有依靠能量电池供电的机器才能运转，且店内灯光会变暗。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250407931904
+    m_Localized: 若支付此费用，夜间被盗的任何物品都将在第二天早晨归还给你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250441486336
+    m_Localized: 若支付此费用，垃圾桶将被清空，店面也将得到清扫。如果店面连续多日未清理，店铺的吸引力将会下降。如果店铺当前遭到破坏，清理费用将会更高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034018873344
+    m_Localized: 清洁工上次打扫店面的时间，以及某些机器和升级项目，都会影响店铺吸引力。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034052427776
+    m_Localized: 通过与派系成员进行交易，可以获得该派系的声望。与特殊顾客交易可获得额外声望。向治安部举报顾客可能会导致你在该顾客所属派系中的声望下降。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711872
+    m_Localized: 某些物品贴有标签，并且可以被编辑。你可以利用它诚实地给物品贴标签，或者故意贴错标签以高价出售。但要注意：不同的顾客在辨别假冒标签商品时的能力各有高低。如果你被发现将物品以高于其实际价值的虚假标签出售，你的声望可能会受到打击。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711873
+    m_Localized: 顾客声称这件物品是正品且状况良好。如果你发现任何迹象表明它是赝品或已损坏，请使用此面板与其对质。指出一个问题就足够了。如果发生误判，你的声望可能会受损。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711874
+    m_Localized: 顾客正在出售这件物品，并声称它是赝品或已损坏。如果你认为对方搞错了，可以使用此面板告知实情。对方虽然会相应地提高要价，但会为你提供声望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175467409408
+    m_Localized: 已给出估价：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175496769536
+    m_Localized: 真实价值：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025076871168
+    m_Localized: 待鉴定物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425600
+    m_Localized: "基础价值：+300\n裂纹：-150\n加固：+60\n无制造商加成（不能有裂纹）：+0\n----------------------\n<b>总计：210</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425601
+    m_Localized: "基础价值：+300\n重度磨损：-90\n螺丝外露：-30\n低级颜色：-150\n------------------\n小计：30\n------------------\n此物品的最低价值为90\n<b>最终价值：90</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127570132838694912
+    m_Localized: 鉴定示例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510080
+    m_Localized: 关闭后，对话文本将瞬间全部显示，而非模拟打字效果。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510081
+    m_Localized: 关闭后，对话将不再自动推进。需按空格键继续浏览下一行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364928
+    m_Localized: 对话与打字机设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364929
+    m_Localized: 这些设置随时都可以在“游戏选项”菜单中进行更改。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430014664704
+    m_Localized: 吸引原因：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430056607744
+    m_Localized: 展示柜内的{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627870113792
+    m_Localized: 议价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056832
+    m_Localized: 出售：提供折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056833
+    m_Localized: 购买：要求折扣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056834
+    m_Localized: 出售：抬高售价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056835
+    m_Localized: 购买：提出加价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056836
+    m_Localized: 敲诈勒索（罪犯）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056837
+    m_Localized: 威胁（改造体）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056838
+    m_Localized: 声望倍率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056839
+    m_Localized: 向此顾客出售物品时提供折扣。每售出一件物品都将获得额外声望，并且还能增加顾客的预算。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056840
+    m_Localized: 向此顾客购买物品时要求折扣。若成功，每买入一件物品都将消耗声望。成功率取决于你的派系声望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056841
+    m_Localized: 向此顾客出售物品时额外加价，此举会减少其总预算，且每售出一件物品都将额外消耗声望。成功率取决于你当前的声望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056842
+    m_Localized: 向此顾客购买物品时额外加价。每买入一件物品都将获得额外声望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056843
+    m_Localized: 威胁要将此顾客举报给治安部，除非对方在交易时提供更好的价格。对非罪犯顾客必定失败。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056844
+    m_Localized: 指控此顾客是改造体并威胁要开枪，借此要求在交易中获得更好的价格。如果对普通顾客尝试此举，指控必定失败，且你将失去声望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056845
+    m_Localized: 此倍率决定了与该顾客交易时，派系声望增减的倍数。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056846
+    m_Localized: 每交易1000信用点时，预计会在该顾客所属派系中获得或失去的声望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655149109248
+    m_Localized: 仿生机械手鉴定指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469376
+    m_Localized: 空间站上的仿生机械手种类繁多，价格也千差万别。本指南将帮助确定任何仿生机械手的公平市场价值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469377
+    m_Localized: 基础价值与最低价值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469378
+    m_Localized: 所有仿生机械手的初始价值均为100信用点。各种状况都会影响其价格。但无论状况如何，仿生机械手的最低价值为50信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469379
+    m_Localized: 1.材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469380
+    m_Localized: 铝合金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469381
+    m_Localized: 碳复合材料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469382
+    m_Localized: 镀金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469383
+    m_Localized: 2.品相
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469384
+    m_Localized: 无
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469385
+    m_Localized: 磨损
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469386
+    m_Localized: 受损
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469387
+    m_Localized: 3.控制接口
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469388
+    m_Localized: 神经接口
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469389
+    m_Localized: 规格不明
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469390
+    m_Localized: 4.附加组件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469391
+    m_Localized: 装甲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469392
+    m_Localized: 刀刃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469393
+    m_Localized: 附加组件的加成为独立计算，且均可叠加生效。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469394
+    m_Localized: 5.套装加成
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469395
+    m_Localized: 仿生机械手的特定属性组合可以提升其价值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469396
+    m_Localized: "战术型：\n- 碳复合材料\n- EMG+ 或神经接口\n- 没有任何磨损、受损情况\n- 具备装甲与刀刃"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469397
+    m_Localized: "豪华型：\n- 镀金\n- 神经接口\n- 没有任何磨损、受损情况\n- 附加组件任何情况均可"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469398
+    m_Localized: 示例
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469399
+    m_Localized: "基础：+100\n碳复合材料：+50\n磨损：-35\nEMG+：+45\n总计：160信用点"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469400
+    m_Localized: "基础：+100\n受损：-85\n规格不明接口：-60\n小计：-45信用点\n不可低于50信用点\n总计：50信用点\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331200
+    m_Localized: 水质会影响酒的品质。请使用优质水或基础水。纯水缺乏发酵所需的矿物质。水质低于基础水时，酿出的酒品质会大幅下降。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331201
+    m_Localized: 标准酵母只是可选项，但强烈推荐使用。如果不使用它，空气中的野生酵母将代替其发酵酒液，但这会产生极不稳定的结果。此外，标准酵母也能极大地加速发酵过程。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331202
+    m_Localized: 浆果的品质是最重要的因素。一把浆果足以酿造低级酒。酿造高级酒则需要两把浆果。避免使用过熟、未熟或发霉的浆果。最适合酿酒的浆果通常比正常尺寸更小。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331203
+    m_Localized: 荧光莓鉴别方法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331204
+    m_Localized: 正常
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331205
+    m_Localized: 未熟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331206
+    m_Localized: 发霉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331207
+    m_Localized: 较小
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586749161472
+    m_Localized: 改造体鉴别指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715904
+    m_Localized: 视觉特征
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715905
+    m_Localized: 非视觉特征
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715906
+    m_Localized: 异常瞳孔
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715907
+    m_Localized: 诡异的表情
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715908
+    m_Localized: 外露的改造芯片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715909
+    m_Localized: "-不自然的僵滞\n-抽搐\n-穿着与其派系不符的服装\n-机械化的用词\n-过度正式的措辞"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147149026554068992
+    m_Localized: 感谢游玩试玩版！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147157085242310656
+    m_Localized: 欢迎您将本作加入Steam愿望单，并抽出5分钟来填写一下反馈问卷。您的意见将帮助我们进一步完善游戏！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582517645312
+    m_Localized: 品相
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582559588352
+    m_Localized: 市场与商人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060160
+    m_Localized: 射击
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060161
+    m_Localized: 收枪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060162
+    m_Localized: 缩放
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060163
+    m_Localized: 退出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154783458152726528
+    m_Localized: 确定要删除此栏位中的存档吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553554441289728
+    m_Localized: 肋明治鉴定指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553663073763328
+    m_Localized: 基础价值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553741188481024
+    m_Localized: 所有肋明治的基础价值均为150信用点，不同状况会影响其价格。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553814270033920
+    m_Localized: 1. 包装、赝品与最低价值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553878459662336
+    m_Localized: 2. 生产日期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97554477146226688
+    m_Localized: 这是达夫雷推出的限量版三明治，如今已经停产。由于现存的肋明治仍在不断被吃掉，其价格正稳步上涨。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553856145965056
+    m_Localized: "如果塑料包装缺失、已被撕开或属于赝品，无论其他条件如何，最终价值一律为40信用点。\n无论状况如何，肋明治的最终价值都不会低于40信用点。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553920436256768
+    m_Localized: 所有肋明治的包装上都会标明生产日期。肋明治只在以下两个批次中生产过：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553955567747072
+    m_Localized: "第一生产批次：425年1月—429年12月\n第二生产批次：432年1月—438年12月"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555086788313088
+    m_Localized: 出于历史纪念价值，首月（01/425）和末月（12/438）生产的肋明治价值+50信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555078433259520
+    m_Localized: 第一生产批次的肋明治使用了更优质的原料，价值+80信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555062360686592
+    m_Localized: 如果生产日期缺失、无效或不在上述范围内，则为赝品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556559559442432
+    m_Localized: 达夫雷曾使用多家工厂生产和包装肋明治。部分工厂的质控标准较高或较低，会影响肋明治的保质期。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556520833433600
+    m_Localized: 3. 包装工厂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556791819026432
+    m_Localized: "高品质包装工厂：01、02、05、08、21、34\n低品质包装工厂：07、15、18、26、31"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556578551250944
+    m_Localized: 曾有35家工厂负责包装肋明治。如果包装工厂编号缺失或无效，则该肋明治为赝品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556665188794368
+    m_Localized: 由高品质包装工厂出品的肋明治价值+50信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556679042580480
+    m_Localized: 由低品质包装工厂出品的肋明治价值-50信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556690048434176
+    m_Localized: 第二生产批次正品肋明治示例：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558344047050752
+    m_Localized: 4. 豪华版
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558370148204544
+    m_Localized: 与普通肋明治一同推出的还有使用芝麻面包并加量酸黄瓜的版本，上市时称为“豪华版”。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558401722925056
+    m_Localized: 豪华版肋明治必须同时具备芝麻面包和加量酸黄瓜。如果只有其中一项，则为赝品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558426083442688
+    m_Localized: 正品豪华版价值+300信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558450448154624
+    m_Localized: 5. 双层肉饼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558478566768640
+    m_Localized: 据报道，达夫雷的包装机偶尔会发生故障，产出含有两块肉饼的肋明治。质控团队通常会将这类产品剔除并销毁，因此双层肉饼肋明治极为罕见。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558496883294208
+    m_Localized: 正品双层肉饼肋明治价值+800信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558508056920064
+    m_Localized: 6. 达夫雷标志
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558545474306048
+    m_Localized: 所有肋明治都必须带有达夫雷标志。如标志缺失或错误，则为赝品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558562889056256
+    m_Localized: 7. Ribwich标志
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558698344103936
+    m_Localized: "所有第二生产批次的肋明治都带有Ribwich贴纸，如贴纸缺失或错误，则为赝品。\n第一生产批次的肋明治不带Ribwich贴纸。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511170883584
+    m_Localized: 常驻交易
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855104
+    m_Localized: 促销交易（周一重置）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855105
+    m_Localized: S主席
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855106
+    m_Localized: 地下交易所管理局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855107
+    m_Localized: 每晚一次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855108
+    m_Localized: 不限状态
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855109
+    m_Localized: 全新
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855110
+    m_Localized: 随机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855111
+    m_Localized: 随机合法商品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144633287955759104
+    m_Localized: 黑市声望
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80315113324544
+    m_Localized: 查看市场委托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064603201257472
+    m_Localized: 化学制剂成型机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593349360107520
+    m_Localized: 水培农业手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593399297490944
+    m_Localized: 快速入门指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593457183080448
+    m_Localized: "1. 放入一个装满幽灵水或基础水的储水容器。\n2. 加入一些矿物质，确保养分充足。\n3. 放入电源和种子。\n4. 一两天后，作物应该就能收获了。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593494038429696
+    m_Localized: 按需补水并更换能量电池，确保水培系统持续运转！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593544877588480
+    m_Localized: 新手农户小贴士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593590079602688
+    m_Localized: "可以从种植营养果开始学习水培。这种作物经过基因改造，很容易种植。\n\n务必储备充足的洁净水，并在产量下降时向水中加入一片水培营养片。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593921744191488
+    m_Localized: 进阶指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594074400079872
+    m_Localized: 养分：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594109267329024
+    m_Localized: 植物生长需要矿物质。含量过低或过高都会对产量造成不利影响。每种植物对养分浓度的耐受范围各不相同。通常而言，矿物质宁多勿少。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594128330440704
+    m_Localized: 植物分析仪：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594182365659136
+    m_Localized: 可对种子使用，以查看其生长需求和当前健康状况。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595269432786944
+    m_Localized: 化学入门指南
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595449448120320
+    m_Localized: 工具与机器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595523578249216
+    m_Localized: 化学用品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595595292459008
+    m_Localized: 拆包后可获得多种必需化学品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595998973247488
+    m_Localized: 成分光谱仪（化学扫描仪）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596026353664000
+    m_Localized: 对液体容器或化学制品使用，可查看其成分。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596200966733824
+    m_Localized: 搅拌机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596256537067520
+    m_Localized: 可升级以提高萃取产率。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596274690015232
+    m_Localized: 加热板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596300736643072
+    m_Localized: 可升级以提高最高温度、控温能力和加热速度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597227497472000
+    m_Localized: 蒸发器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597248573849600
+    m_Localized: 夜间运作，可去除水和酒精等特定液体。可使用普通模组升级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597267469189120
+    m_Localized: 化学制剂成型机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597291829706752
+    m_Localized: 可升级以减少加工过程中引入的杂质。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597525024620544
+    m_Localized: 与其他机器不同，大多数化学相关机器只能使用特殊的化学设备模组进行升级。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597821708713984
+    m_Localized: 梦尘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598475139334144
+    m_Localized: 第1步：原料准备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598541489029120
+    m_Localized: "- 将液体容器接到搅拌机上\n- 加入几株梦帽菇\n- 搅拌原料，制成梦帽菇糊"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598561487470592
+    m_Localized: 第2步：萃取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598580814823424
+    m_Localized: "- 取下上一步使用的容器\n- 将其放入加热板\n- 加入相当于梦帽菇糊体积3至6倍的溶剂（酒精）\n- 将混合物加热至40-60°C，使梦帽菇糊转化为梦帽菇萃取液"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598598804193280
+    m_Localized: 切勿过热，否则梦帽菇会被破坏。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598620887203840
+    m_Localized: 第3步：蒸发
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598636930416640
+    m_Localized: "- （可选）用韧棉织物过滤上一步所得溶液，以去除大颗粒污染物\n- 将容器放入蒸发器\n- 确保蒸发器装有能量电池供电\n- 等到第二天，让蒸发器完成处理"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598650855505920
+    m_Localized: 第4步：成型封装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598681629114368
+    m_Localized: "- （必需）待水和酒精全部蒸发后，将容器放入化学制剂成型机\n- 选择“梦尘”配方\n- 按下“输出”按钮\n- （可选）使用成分光谱仪检查纯度"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97599907884220416
+    m_Localized: 咖啡因片配方
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97601984458964992
+    m_Localized: 第1步：原料准备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602024158052352
+    m_Localized: "- 将液体容器接到搅拌机上\n- 加入一些咖啡豆\n- 搅拌原料，制成咖啡豆糊"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602038418685952
+    m_Localized: 第2步：萃取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602053216190464
+    m_Localized: "- 取下上一步使用的容器\n- 将其放入加热板\n- （可选但推荐）加入相当于咖啡豆糊体积3至6倍的溶剂（酒精）\n- 将混合物加热到至少80°C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602068449902592
+    m_Localized: 注意：咖啡因的耐热性很强。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602088817442816
+    m_Localized: 第3步：蒸发
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602105129091072
+    m_Localized: "- （可选）用韧棉织物过滤上一步所得溶液，以去除大颗粒污染物\n- 将容器放入蒸发器\n- 确保蒸发器装有能量电池供电\n- 等到第二天，让蒸发器完成处理"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602117913329664
+    m_Localized: 第4步：成型封装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602136741560320
+    m_Localized: "- （必需）待水和酒精全部蒸发后，将容器放入化学制剂成型机\n- 选择“咖啡因药片”配方\n- 按下“输出”按钮\n- （可选）使用成分光谱仪检查纯度"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602620424503296
+    m_Localized: 芬太片资料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602698144956416
+    m_Localized: 芬太的精确配方至今仍受到严密保护，以下内容整理自公开资料。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603346156535808
+    m_Localized: 基础原料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603389408198656
+    m_Localized: N-羟甲基碱是已知的一种芬太前体，可从管制化学用品中找到。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603407972188160
+    m_Localized: 准备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603424577437696
+    m_Localized: N-羟甲基碱中含有稳定剂，既能防止化学品降解，也会阻止其发生反应。因此必须设法将稳定剂去除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603439643377664
+    m_Localized: 反应
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603456760332288
+    m_Localized: "接下来需要一种能向N-羟甲基碱提供电子的物质，使其通过化学反应转化为芬太。\n\n我们推测，该过程还必须在高温下进行，因此需要升级过的加热板。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603474208636928
+    m_Localized: 成型封装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603490314764288
+    m_Localized: 之后过滤溶液，再按常规方式成型封装即可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603523869196288
+    m_Localized: 警告：芬太在130°C以上会发生降解。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604487388905472
+    m_Localized: 化学制品纯度分级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604571547615232
+    m_Localized: 部分顾客会携带化学扫描仪，核验产品标签上标示的纯度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604774765838336
+    m_Localized: 纯品级（99%以上）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604854067544064
+    m_Localized: 药用级（90%—99%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604877522092032
+    m_Localized: 近药用级（80%—90%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605855394709504
+    m_Localized: 街头标准级（60%—80%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605903411101696
+    m_Localized: 掺兑级（45%—60%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606068243054592
+    m_Localized: 垃圾级（30%—45%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606095426338816
+    m_Localized: 淀粉级（低于30%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607396725932032
+    m_Localized: 基础价值+135%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607458839379968
+    m_Localized: 基础价值+85%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607466187800576
+    m_Localized: 基础价值+40%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607474714820608
+    m_Localized: 无价格修正
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607483707408384
+    m_Localized: 基础价值-45%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607492393811968
+    m_Localized: 基础价值-75%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607502728577024
+    m_Localized: 基础价值-95%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049217611677696
+    m_Localized: 奖励：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049185151959040
+    m_Localized: 交付物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049984930234368
+    m_Localized: 提交估价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049935101902848
+    m_Localized: 顾客估价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172187061448392704
+    m_Localized: 提升你在下层区的声望，或使用通过乔·王尔德解锁的夜间服务，均可增加王尔德的恩惠。购买王尔德提供的升级时，会优先消耗恩惠。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172202336608632832
+    m_Localized: 地面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172529243283832832
+    m_Localized: 快捷拨号
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690208923648
+    m_Localized: 单击即可打开或关闭容器、检查和选择物品，以及开关物品功能，无需双击。激活物品的操作方式仍由下方的独立设置决定。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283776
+    m_Localized: 单击即可激活物品，无需双击。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283777
+    m_Localized: 基础
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134193438720
+    m_Localized: 未激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187456
+    m_Localized: 已激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187457
+    m_Localized: 搜索模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187458
+    m_Localized: Steam创意工坊
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187459
+    m_Localized: 取消订阅所选模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187460
+    m_Localized: 自动排序模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187461
+    m_Localized: 要重新排列已激活模组的顺序，让每个模组都在其依赖的模组之后加载吗？这将替换当前的加载顺序。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187462
+    m_Localized: 要取消订阅“{0}”吗？Steam会移除其文件，该模组将在下次重启后移除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187463
+    m_Localized: 恢复默认设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187464
+    m_Localized: 模组由其他玩家制作，并非Questing Goose Studio或tinyBuild开发。模组中可能包含代码，这些代码对电脑的访问权限与游戏本身相同。游戏会在激活模组前进行检查，但无法保证模组安全。请仅激活你信任的作者制作的模组。使用模组的风险由你自行承担。Questing Goose Studio和tinyBuild不对模组造成的任何损坏、数据丢失或其他损害负责，也无法为启用模组期间出现的问题提供技术支持。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187465
+    m_Localized: 模组更改将在游戏重启后生效。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187466
+    m_Localized: 依赖项
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187467
+    m_Localized: 激活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187468
+    m_Localized: 停用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187469
+    m_Localized: 作者：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187470
+    m_Localized: 模组版本：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187471
+    m_Localized: 适用游戏版本：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187472
+    m_Localized: 缺少依赖项：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187473
+    m_Localized: 依赖项未激活：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187474
+    m_Localized: 不适用于游戏版本{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187475
+    m_Localized: 打开模组文件夹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187476
+    m_Localized: '[{0}] 错误：{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187477
+    m_Localized: 创意工坊中也订阅了此模组，当前使用本地副本。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187478
+    m_Localized: 要取消订阅创意工坊中的“{0}”吗？模组文件夹中的本地副本会保留，并继续使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187479
+    m_Localized: 还有{0}个创意工坊项目正在下载，下次重启后才会显示。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801898369024
+    m_Localized: 限制条件：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117760
+    m_Localized: 感兴趣的商品：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117761
+    m_Localized: 这位顾客拒绝购买违禁品，别把违禁品放上柜台。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117762
+    m_Localized: 治安部人员。柜台上的违禁品会被没收，你还会被罚款。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117763
+    m_Localized: 不感兴趣
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117764
+    m_Localized: 总计
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117765
+    m_Localized: 你的资金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117766
+    m_Localized: 总计／批发价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117767
+    m_Localized: 批发优惠：{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117768
+    m_Localized: 购买信息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117769
+    m_Localized: 选择报价：{0}／{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117770
+    m_Localized: 基本要求
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117771
+    m_Localized: 额外奖励条件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117772
+    m_Localized: 选择店铺所需的夜间服务。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779480580096
+    m_Localized: 1.1. 贷款金额：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134528
+    m_Localized: 1.2. 首付款：{0}信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134529
+    m_Localized: 1.3. 利率：年利率{0}%（周利率{1}%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134530
+    m_Localized: 1.4. 还款：共{0}期，每周偿还{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134531
+    m_Localized: 顾客进店时自动打开议价界面。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134532
+    m_Localized: 空间站快速交通系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134533
+    m_Localized: 出发
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134534
+    m_Localized: 不可用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134535
+    m_Localized: 垃圾倾倒场
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134536
+    m_Localized: 选择事件选项、初始装备及其他内容时，单击即可确认，无需先点选再点一次确认。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170512356412801024
+    m_Localized: 匹配数：2/6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734612332544
+    m_Localized: 市场价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734658469888
+    m_Localized: 同类最佳，+{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235953479680
+    m_Localized: 概览
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228416
+    m_Localized: 支出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228417
+    m_Localized: 空间站
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228418
+    m_Localized: 夜间外出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228419
+    m_Localized: 游戏结束
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228420
+    m_Localized: 游玩时长：{0}小时{1}分钟
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228421
+    m_Localized: 生存天数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228422
+    m_Localized: 接待顾客数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228423
+    m_Localized: 销售总额
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228424
+    m_Localized: 最佳营业日
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228425
+    m_Localized: 第{0}天：售出价值{1}的商品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228426
+    m_Localized: 最成功的转卖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228427
+    m_Localized: '{0}：以{1}买入，以{2}卖出'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228428
+    m_Localized: 最大单笔销售
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228429
+    m_Localized: 将{0}卖给{1}：成交价{2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228430
+    m_Localized: 最佳收获
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228431
+    m_Localized: '{0}，价值{1}（第{2}天）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228432
+    m_Localized: 最糟糕的一夜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228433
+    m_Localized: 第{0}天遭遇入室盗窃：价值{1}的库存被盗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228434
+    m_Localized: 最惊险的一次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228435
+    m_Localized: 第{0}天付款后，仅剩{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228436
+    m_Localized: 高光时刻
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228437
+    m_Localized: 进货支出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228438
+    m_Localized: 支付给房东的租金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228439
+    m_Localized: 第{0}天购入，花费{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228440
+    m_Localized: 贿赂支出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228441
+    m_Localized: 许可证及贿赂支出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228442
+    m_Localized: 钱都花在哪儿了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228443
+    m_Localized: '{0}／{1}，无漏缴'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228444
+    m_Localized: '{0}／{1}，漏缴{2}次'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228445
+    m_Localized: 已缴租金周数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228446
+    m_Localized: 第{0}天现金购入，花费{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228447
+    m_Localized: 第{0}天以抵押贷款购入，购置价格为{1}，于第{2}天还清贷款
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228448
+    m_Localized: 第{0}天以抵押贷款购入，购置价格为{1}：共{3}期，已偿还{2}期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228449
+    m_Localized: 累计支付{0}：首付款{1}，另偿还{2}期，每期{3}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228450
+    m_Localized: 仍在租赁。最后一天的店铺售价：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228452
+    m_Localized: '{0}／{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228453
+    m_Localized: 拜访次数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228454
+    m_Localized: 向他购货
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228455
+    m_Localized: 借给他的资金
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228456
+    m_Localized: 已归还的借款
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228457
+    m_Localized: 声望
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228458
+    m_Localized: 夜晚都去哪儿了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228459
+    m_Localized: '{0}晚'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228460
+    m_Localized: 拾荒次数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228461
+    m_Localized: 拾荒所得物品总价值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228462
+    m_Localized: 受伤次数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228463
+    m_Localized: 轻伤{0}次，重伤{1}次
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228464
+    m_Localized: 最佳收获：{0}，价值{1}（第{2}天）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228465
+    m_Localized: 购入的机器和模组
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228466
+    m_Localized: 通过盘查次数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228467
+    m_Localized: 被盘查员没收的物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228468
+    m_Localized: 向盘查员支付的贿赂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228469
+    m_Localized: 抓获通缉犯人数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228470
+    m_Localized: 错误举报次数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228471
+    m_Localized: 击毙改造体数量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726784
+    m_Localized: 警告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726785
+    m_Localized: 不再显示此提示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726786
+    m_Localized: 我已了解
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725351436288
+    m_Localized: 读取或写入此电脑上任意位置的文件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796416
+    m_Localized: 访问互联网
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796417
+    m_Localized: 启动其他程序或打开链接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796418
+    m_Localized: 运行时加载或生成代码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796419
+    m_Localized: 调用原生系统库
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796420
+    m_Localized: 通过反射访问系统和引擎的内部实现
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796421
+    m_Localized: "{0}请求获取以下权限：\n{1}\n\n具备这些权限的模组，可以在这台电脑上执行你能执行的任何操作。请只启用你信任的作者制作的模组。是否启用？"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796422
+    m_Localized: '{0}已被开发者屏蔽：{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796423
+    m_Localized: '{0}的清单文件中列出了{1}，但该文件不存在。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796424
+    m_Localized: 无法扫描{0}：{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796425
+    m_Localized: '{0}包含与游戏自身程序集同名的程序集，无法启用：{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990720
+    m_Localized: "{0}未通过模组扫描检查：\n{1}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990721
+    m_Localized: "{0}使用了清单文件中未声明的权限：\n{1}\n\n模组作者需要更新清单文件。详情请查看控制台中的mod-scan记录。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990722
+    m_Localized: '{0}的文件夹中有未列入清单文件的DLL，因此无法启用：{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990723
+    m_Localized: 开发者已暂停模组加载。{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990724
+    m_Localized: 审阅并启用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990725
+    m_Localized: 权限：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990726
+    m_Localized: 无
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990727
+    m_Localized: 已屏蔽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990728
+    m_Localized: 开发者模式：开
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990729
+    m_Localized: 开发者模式：关
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990730
+    m_Localized: 已被开发者屏蔽：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990731
+    m_Localized: 未加载：开发者已暂停模组加载。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990732
+    m_Localized: 未加载：尚未在此电脑上获得批准。请点击“审阅并启用”以加载。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990733
+    m_Localized: 未加载：自你批准后已有更改（{0}）。请点击“审阅并启用”重新批准。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990734
+    m_Localized: 已于{0}更新，未新增权限。批准时间：{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990735
+    m_Localized: 开发者模式：此文件夹中的所有更改都会被信任。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990736
+    m_Localized: 已通过开发者验证。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990737
+    m_Localized: 已于{0}在此电脑上获得批准。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990738
+    m_Localized: 模组安全列表最近未能刷新，因此可能尚未识别出新近被屏蔽的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990739
+    m_Localized: '{0}位于模组文件夹中，但未在清单文件中列出，因此未加载'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990740
+    m_Localized: 无法检查其文件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990741
+    m_Localized: 当前来源与已批准副本的来源不同
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990742
+    m_Localized: 它已变为另一个创意工坊项目
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990743
+    m_Localized: 其文件夹包含清单文件中未列出的DLL：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990744
+    m_Localized: 新版本未通过模组扫描检查
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990745
+    m_Localized: 新版本使用了未声明的权限：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990746
+    m_Localized: 新版本请求了新的权限：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990747
+    m_Localized: 待鉴定物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990748
+    m_Localized: 选择鉴定顾客可以带来的物品种类。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990749
+    m_Localized: 允许
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990750
+    m_Localized: 下次晋升后，才能拒绝受理此类物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990751
+    m_Localized: 你当前的职级无法拒绝受理此类物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033920
+    m_Localized: 由模组添加的物品，会在提示信息底部显示所属模组的名称。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033921
+    m_Localized: 由模组添加的顾客，会在对话录音机中首次发言前显示一行所属模组的名称。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033922
+    m_Localized: 来自{0}：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467584
+    m_Localized: 每局游戏在磁盘上保留最近多少天的存档（包括最新一天）。较早的天数可在“载入游戏”界面中载入；保存新的一天时，最早的一天会被删除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467585
+    m_Localized: 扫描存档文件夹，查找手动添加的存档文件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185637425564663808
+    m_Localized: 你装上的零件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186842463947505664
+    m_Localized: 塞尔皮科的谢礼：任选一份。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187082072463818752
+    m_Localized: 埃莉诺的谢礼：任选一份。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628563652608
+    m_Localized: 高级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401344
+    m_Localized: 储物协调器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401345
+    m_Localized: 新建预设
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401346
+    m_Localized: 添加一个空的预设。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401347
+    m_Localized: 预设{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401348
+    m_Localized: 还没有预设。点击“新建预设”开始吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401349
+    m_Localized: 预设名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401350
+    m_Localized: 添加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401351
+    m_Localized: 停止
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401352
+    m_Localized: 点击店里的容器即可将其加入此预设。按Esc或右键停止添加。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401353
+    m_Localized: 请按下一个键……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401354
+    m_Localized: 点击后按下一个键，将其设为此预设的快捷键。部分按键无法使用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401355
+    m_Localized: 删除此预设。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401356
+    m_Localized: '{0}：点击将其从此预设中移除。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401357
+    m_Localized: （缺失）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401358
+    m_Localized: 这件物品已经不在店里了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401359
+    m_Localized: 正在添加到{0}：点击店里的容器。按Esc或右键停止。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401360
+    m_Localized: 请按下{0}的按键。按Esc或右键取消。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401361
+    m_Localized: '{0}已被游戏占用。请换一个键。按Esc或右键取消。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401362
+    m_Localized: 正在添加到{0}：点击一个容器。按Esc或右键停止。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401363
+    m_Localized: 无法将{0}添加到{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401364
+    m_Localized: '{0}已经在{1}里了。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401365
+    m_Localized: 点击将{0}添加到{1}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401366
+    m_Localized: '[已生效]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401367
+    m_Localized: 移除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401368
+    m_Localized: 添加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401369
+    m_Localized: 与{0}不兼容。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895863472128
+    m_Localized: 早晨送来的报纸会被放进垃圾桶，而不是柜台上。你仍然可以把它取出来阅读。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895897026560
+    m_Localized: 捐赠（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188164055981240320
+    m_Localized: 将游戏帧率限制在显示器的刷新率（至少每秒60帧）。更省电，也能让显卡更凉快、更安静。关闭后，游戏会尽可能多地绘制画面。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188509160777498624
+    m_Localized: 每次显示器刷新只绘制一帧画面，画面不会卡顿或撕裂。更省电，也能让显卡更凉快、更安静。关闭后，游戏会尽可能多地绘制画面。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688832
+    m_Localized: 在浏览器中打开网页链接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688833
+    m_Localized: 通过你的账户使用Steam功能（成就、好友、游戏内界面）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688834
+    m_Localized: 游戏更新后的模组扫描检查未通过
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688835
+    m_Localized: 游戏更新后的模组扫描检查发现了未声明的权限：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688836
+    m_Localized: 游戏更新后的模组扫描检查发现了你未批准的权限：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688837
+    m_Localized: 它试图以模组绝不允许的方式使用你的Steam账户（{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688838
+    m_Localized: 它试图启动其他程序，而模组绝不允许这样做
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688839
+    m_Localized: 已被游戏停止并停用：{0}。请删除或取消订阅此模组；如果它曾在这台电脑上运行，请更改你的Steam密码。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688840
+    m_Localized: '{0}已被游戏在这台电脑上停止，原因：{1}。该版本无法再次启用。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189286048303202304
+    m_Localized: 卢的谢礼：任选一份。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482432
+    m_Localized: 受流行文化启发的角色（如开箱狂人和觅食游客）将不再光顾商店。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482433
+    m_Localized: 购买或以物易物得到的物品会直接放进你的库存。关闭时，它们会留在柜台上。放不下的物品总是留在柜台上。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482434
+    m_Localized: 并非从Steam创意工坊安装：无法核实其上传日期和评分。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482435
+    m_Localized: 正在从创意工坊查询上传日期和评分……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482436
+    m_Localized: 创意工坊没有响应：上传日期和评分未知。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482437
+    m_Localized: 首次上传至创意工坊：{0}（{1}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482438
+    m_Localized: 不到一小时前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482439
+    m_Localized: 1小时前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482440
+    m_Localized: '{0}小时前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482441
+    m_Localized: 1天前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482442
+    m_Localized: '{0}天前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482443
+    m_Localized: '{0}周前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482444
+    m_Localized: '{0}个月前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482445
+    m_Localized: 1年前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482446
+    m_Localized: '{0}年前'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482447
+    m_Localized: 评分人数：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482448
+    m_Localized: 无法激活此模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482449
+    m_Localized: 复制日志并发送给模组作者，或附在错误报告中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482450
+    m_Localized: 复制日志
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482451
+    m_Localized: 已复制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482452
+    m_Localized: 潜在危险：{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482453
+    m_Localized: 商店和电话中对话气泡、名牌和回复选项的大小。100%为正常大小。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123392
+    m_Localized: '{0}请求获取以下权限：'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123393
+    m_Localized: 具备这些权限的模组，可以在这台电脑上执行你能执行的任何操作。请只激活你信任的作者制作的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123394
+    m_Localized: 请只激活你信任的作者制作的模组。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458793009152
+    m_Localized: 当游戏从Alt-Tab切换回来时变成了小窗口而不是全屏，它会切换回你选择的全屏模式。如果Alt-Tab后屏幕一直黑屏（例如在Linux上），请关闭此选项。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369280
+    m_Localized: 至少要保留一种允许的物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369281
+    m_Localized: 店主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190788156584148992
+    m_Localized: 向该模组的在线服务证明你拥有本游戏
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5621084498384125954
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00c0cc80593a0000

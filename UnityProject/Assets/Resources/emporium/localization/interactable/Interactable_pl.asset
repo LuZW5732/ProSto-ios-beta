@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Interactable_pl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 1f7b524d27c197c43ba7af051339d202, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 292150886400
+    m_Localized: Opuść sklep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 513538834432
+    m_Localized: Za późno, żeby gdzieś iść…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834927378432
+    m_Localized: Nie możesz opuścić sklepu aż do zakończenia dnia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972131450880
+    m_Localized: Nie możesz opuścić sklepu podczas interwencji!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1160036270080
+    m_Localized: Nie możesz opuścić sklepu przez poważne obrażenia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10956307218432
+    m_Localized: Automat do sprzedaży wody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10909502980096
+    m_Localized: Automat do sprzedaży
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55379932566306816
+    m_Localized: Podgląd klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10070226944000
+    m_Localized: Otwórz interfejs telefonu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468416
+    m_Localized: Przez agorafobię nie możesz wyjść ze sklepu! Odpocznij w nim przez jeszcze {0:plural:{} noc|{} noce|{} nocy}, nim wyjdziesz ponownie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468417
+    m_Localized: Przez agorafobię nie możesz wyjść ze sklepu! Będzie można wyjść jutro.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

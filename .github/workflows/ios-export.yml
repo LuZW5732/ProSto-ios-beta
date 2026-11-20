@@ -1,0 +1,106 @@
+name: Build iOS App
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-ios:
+    runs-on: macos-15
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Export Unity iOS project
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: UnityProject
+          unityVersion: 2021.3.45f2
+          targetPlatform: iOS
+          cacheUnityInstallationOnMac: true
+          versioning: None
+
+      - name: Upload Xcode project
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-xcode-project
+          path: build/iOS
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Compile unsigned iOS app with Xcode
+        shell: bash
+        run: |
+          set -euo pipefail
+          xcodebuild -version
+          xcode_project=build/iOS/iOS/Unity-iPhone.xcodeproj
+          if [[ ! -d "$xcode_project" ]]; then
+            printf 'Unity Xcode project missing at %s; found:\n' "$xcode_project" >&2
+            find build/iOS -maxdepth 3 -name '*.xcodeproj' -print >&2
+            exit 1
+          fi
+          xcodebuild \
+            -project "$xcode_project" \
+            -scheme Unity-iPhone \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath "$RUNNER_TEMP/ProbablyStolenDerivedData" \
+            CODE_SIGNING_ALLOWED=NO \
+            build 2>&1 | tee "$RUNNER_TEMP/xcodebuild-ios.log"
+
+      - name: Package unsigned IPA
+        shell: bash
+        run: |
+          set -euo pipefail
+          products="$RUNNER_TEMP/ProbablyStolenDerivedData/Build/Products/Release-iphoneos"
+          shopt -s nullglob
+          apps=("$products"/*.app)
+          if (( ${#apps[@]} != 1 )); then
+            printf 'Expected one iOS app, found %s\n' "${#apps[@]}" >&2
+            exit 1
+          fi
+          test -d "${apps[0]}"
+          python3 - "${apps[0]}/Info.plist" <<'PY'
+          import plistlib, sys
+          with open(sys.argv[1], "rb") as stream:
+              info = plistlib.load(stream)
+          key = "UISupportedInterfaceOrientations"
+          expected = {"UIInterfaceOrientationLandscapeLeft", "UIInterfaceOrientationLandscapeRight"}
+          for device in ("iphone", "ipad"):
+              orientations = info.get(key + "~" + device, info.get(key, []))
+              if set(orientations) != expected:
+                  sys.exit(f"Unexpected {device} orientations in built app: {orientations}")
+          PY
+          mkdir -p build/unsigned/Payload
+          cp -R "${apps[0]}" build/unsigned/Payload/
+          (cd build/unsigned && zip -qry ../ProbablyStolen-unsigned.ipa Payload)
+          test -s build/ProbablyStolen-unsigned.ipa
+          unzip -tq build/ProbablyStolen-unsigned.ipa
+
+      - name: Upload unsigned IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-unsigned-ipa
+          path: build/ProbablyStolen-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload Xcode build log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-xcode-build-log
+          path: ${{ runner.temp }}/xcodebuild-ios.log
+          if-no-files-found: ignore
+          retention-days: 7

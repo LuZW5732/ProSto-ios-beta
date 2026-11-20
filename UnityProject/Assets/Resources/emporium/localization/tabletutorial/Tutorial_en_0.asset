@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 00168f6b881b17d49a52d88adb03554e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: Open the Shutter Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: Call the Next Customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: Right Click on an item to display the Interact Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: '[Read] Note'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: Close the Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: You can also double click to Interact with an item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: Drag the Note into the Handbook to save it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: Quick Transfer an item using CTRL + Click
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: Review dialogue using the Recorder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: Store the Notebook inside the Dossier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: Ctrl-Click or Drag the item you wish to BUY to move it to the Negotiation Counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: Open the Tablet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: Ctrl-Click or Drag the item you wish to SELL to move it to the Negotiation Counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: Go to sleep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: Transfer ALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[Barter]: Move the requested item to the Counter'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: Services Can Be Toggle On Or Off Every Night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: Leave the Store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: Place merchandise inside the Display Case to attract buyers before opening the shutter doors.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: Check the Clientele UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: Check your reputation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: Open the Bargain Interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: Using the Bargain Interface, you can demand more or offer better prices to customers, which can affect their budget and the amount of reputation gained while trading.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: Press Space to advance dialogue when ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: Hold the left mouse button and drag to select multiple items.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: Right-click an empty inventory slot to open the sorting menu.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

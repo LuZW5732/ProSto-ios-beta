@@ -1,0 +1,592 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: RepPerkTable Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: RepPerkTable
+  m_TableCollectionNameGuidString: 1f325f4dfd14e6145bd45206cda287d0
+  m_Entries:
+  - m_Id: 1034312007680
+    m_Key: rep_perk_LLREFERAL_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1174275932160
+    m_Key: rep_perk_LLREFERAL_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214239260672
+    m_Key: rep_perk_LLREFERAL_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773368455168
+    m_Key: rep_perk_LLTIPS_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649472
+    m_Key: rep_perk_LLTIPS_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649473
+    m_Key: rep_perk_LLTIPS_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649474
+    m_Key: rep_perk_LLRAREGOOD_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649475
+    m_Key: rep_perk_LLRAREGOOD_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649476
+    m_Key: rep_perk_LLRAREGOOD_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649477
+    m_Key: rep_perk_LLTIGHTLIPS_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649478
+    m_Key: rep_perk_LLTIGHTLIPS_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649479
+    m_Key: rep_perk_LLTIGHTLIPS_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649480
+    m_Key: rep_perk_LLPILLAR_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649481
+    m_Key: rep_perk_LLPILLAR_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649482
+    m_Key: rep_perk_LLPILLAR_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649483
+    m_Key: rep_perk_LLPOORREVIEWS_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649484
+    m_Key: rep_perk_LLPOORREVIEWS_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649485
+    m_Key: rep_perk_LLPOORREVIEWS_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649486
+    m_Key: rep_perk_LLDISTRUSTED_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649487
+    m_Key: rep_perk_LLDISTRUSTED_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649488
+    m_Key: rep_perk_LLDISTRUSTED_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649489
+    m_Key: rep_perk_LLTARGET_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649490
+    m_Key: rep_perk_LLTARGET_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649491
+    m_Key: rep_perk_LLTARGET_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649492
+    m_Key: rep_perk_LLAVOIDED_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649493
+    m_Key: rep_perk_LLAVOIDED_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649494
+    m_Key: rep_perk_LLAVOIDED_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649495
+    m_Key: rep_perk_LLLYNCH_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649496
+    m_Key: rep_perk_LLLYNCH_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649497
+    m_Key: rep_perk_LLLYNCH_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649498
+    m_Key: rep_perk_SEC_REQUISITION_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649499
+    m_Key: rep_perk_SEC_REQUISITION_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649500
+    m_Key: rep_perk_SEC_REQUISITION_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649501
+    m_Key: rep_perk_SEC_ALARM_IGNORED_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649502
+    m_Key: rep_perk_SEC_ALARM_IGNORED_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649503
+    m_Key: rep_perk_SEC_ALARM_IGNORED_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649504
+    m_Key: rep_perk_SEC_WATCHLIST_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649505
+    m_Key: rep_perk_SEC_WATCHLIST_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649506
+    m_Key: rep_perk_SEC_WATCHLIST_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649507
+    m_Key: rep_perk_SEC_PRIORITY_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649508
+    m_Key: rep_perk_SEC_PRIORITY_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649509
+    m_Key: rep_perk_SEC_PRIORITY_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649510
+    m_Key: rep_perk_SEC_THOROUGH_INSPECTION_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649511
+    m_Key: rep_perk_SEC_THOROUGH_INSPECTION_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649512
+    m_Key: rep_perk_SEC_THOROUGH_INSPECTION_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649513
+    m_Key: rep_perk_SEC_CONTRABAND_TOLERANCE_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649514
+    m_Key: rep_perk_SEC_CONTRABAND_TOLERANCE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649515
+    m_Key: rep_perk_SEC_CONTRABAND_TOLERANCE_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649516
+    m_Key: rep_perk_SEC_IMMEDIATE_ARREST_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649517
+    m_Key: rep_perk_SEC_IMMEDIATE_ARREST_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649518
+    m_Key: rep_perk_SEC_IMMEDIATE_ARREST_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843776
+    m_Key: rep_perk_SEC_PROTECTION_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843777
+    m_Key: rep_perk_SEC_PROTECTION_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843778
+    m_Key: rep_perk_SEC_PROTECTION_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843779
+    m_Key: rep_perk_SEC_SURPLUS_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843780
+    m_Key: rep_perk_SEC_SURPLUS_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843781
+    m_Key: rep_perk_SEC_SURPLUS_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843782
+    m_Key: rep_perk_SEC_RELIABLE_VENDOR_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843783
+    m_Key: rep_perk_SEC_RELIABLE_VENDOR_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843784
+    m_Key: rep_perk_SEC_RELIABLE_VENDOR_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843785
+    m_Key: rep_perk_SEC_VIP_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843786
+    m_Key: rep_perk_SEC_VIP_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843787
+    m_Key: rep_perk_SEC_VIP_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843788
+    m_Key: rep_perk_SEC_TRUSTED_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843789
+    m_Key: rep_perk_SEC_TRUSTED_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843790
+    m_Key: rep_perk_SEC_TRUSTED_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843791
+    m_Key: rep_perk_BM_NETWORK_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843792
+    m_Key: rep_perk_BM_NETWORK_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843793
+    m_Key: rep_perk_BM_NETWORK_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843794
+    m_Key: rep_perk_BM_DISTRUSTED_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843795
+    m_Key: rep_perk_BM_DISTRUSTED_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843796
+    m_Key: rep_perk_BM_DISTRUSTED_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843797
+    m_Key: rep_perk_BM_UNINSURABLE_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843798
+    m_Key: rep_perk_BM_UNINSURABLE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843799
+    m_Key: rep_perk_BM_UNINSURABLE_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843800
+    m_Key: rep_perk_BM_SMALL_TIME_BROKER_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843801
+    m_Key: rep_perk_BM_SMALL_TIME_BROKER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843802
+    m_Key: rep_perk_BM_SMALL_TIME_BROKER_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843803
+    m_Key: rep_perk_BM_HONOR_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843804
+    m_Key: rep_perk_BM_HONOR_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843805
+    m_Key: rep_perk_BM_HONOR_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843806
+    m_Key: rep_perk_BM_RELIABLE_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843807
+    m_Key: rep_perk_BM_RELIABLE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843808
+    m_Key: rep_perk_BM_RELIABLE_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843809
+    m_Key: rep_perk_UL_GOSSIP_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843810
+    m_Key: rep_perk_UL_GOSSIP_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843811
+    m_Key: rep_perk_UL_GOSSIP_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843812
+    m_Key: rep_perk_UL_TIPS_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843813
+    m_Key: rep_perk_UL_TIPS_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843814
+    m_Key: rep_perk_UL_TIPS_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843815
+    m_Key: rep_perk_UL_CHARITY_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843816
+    m_Key: rep_perk_UL_CHARITY_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843817
+    m_Key: rep_perk_UL_CHARITY_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843818
+    m_Key: rep_perk_UL_HOUSEHOLD_NAME_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843819
+    m_Key: rep_perk_UL_HOUSEHOLD_NAME_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843820
+    m_Key: rep_perk_UL_HOUSEHOLD_NAME_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843821
+    m_Key: rep_perk_UL_TOP_REVIEW_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843822
+    m_Key: rep_perk_UL_TOP_REVIEW_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843823
+    m_Key: rep_perk_UL_TOP_REVIEW_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843824
+    m_Key: rep_perk_UL_TOURISTTRAP_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843825
+    m_Key: rep_perk_UL_TOURISTTRAP_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843826
+    m_Key: rep_perk_UL_TOURISTTRAP_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843827
+    m_Key: rep_perk_UL_PETITION_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843828
+    m_Key: rep_perk_UL_PETITION_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843829
+    m_Key: rep_perk_UL_PETITION_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843830
+    m_Key: rep_perk_UL_HITMAN_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843831
+    m_Key: rep_perk_UL_HITMAN_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843832
+    m_Key: rep_perk_UL_HITMAN_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843833
+    m_Key: rep_perk_REV_FRIEND_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843834
+    m_Key: rep_perk_REV_FRIEND_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843835
+    m_Key: rep_perk_REV_FRIEND_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843836
+    m_Key: rep_perk_REV_HIT_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843837
+    m_Key: rep_perk_REV_HIT_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843838
+    m_Key: rep_perk_REV_HIT_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843839
+    m_Key: rep_perk_REV_BLACKLISTED_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843840
+    m_Key: rep_perk_REV_BLACKLISTED_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843841
+    m_Key: rep_perk_REV_BLACKLISTED_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843842
+    m_Key: rep_perk_REV_REQUEST_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843843
+    m_Key: rep_perk_REV_REQUEST_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843844
+    m_Key: rep_perk_REV_REQUEST_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843845
+    m_Key: rep_perk_REV_RAID_LOOT_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843846
+    m_Key: rep_perk_REV_RAID_LOOT_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843847
+    m_Key: rep_perk_REV_RAID_LOOT_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843848
+    m_Key: rep_perk_REV_QUARTERMASTER_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843849
+    m_Key: rep_perk_REV_QUARTERMASTER_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843850
+    m_Key: rep_perk_REV_QUARTERMASTER_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843851
+    m_Key: rep_perk_CARTEL_RETIRED_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843852
+    m_Key: rep_perk_CARTEL_RETIRED_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843853
+    m_Key: rep_perk_CARTEL_RETIRED_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843854
+    m_Key: rep_perk_CARTEL_INCREASED_STIPEND_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843855
+    m_Key: rep_perk_CARTEL_INCREASED_STIPEND_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843856
+    m_Key: rep_perk_CARTEL_INCREASED_STIPEND_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843857
+    m_Key: rep_perk_CARTEL_RELIABLE_CHEMIST_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843858
+    m_Key: rep_perk_CARTEL_RELIABLE_CHEMIST_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843859
+    m_Key: rep_perk_CARTEL_RELIABLE_CHEMIST_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843860
+    m_Key: rep_perk_CARTEL_AUTHORIZED_EXIT_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843861
+    m_Key: rep_perk_CARTEL_AUTHORIZED_EXIT_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843862
+    m_Key: rep_perk_CARTEL_AUTHORIZED_EXIT_flavor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314774175744
+    m_Key: rep_perk_UL_DISCERNING_TASTE_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730176
+    m_Key: rep_perk_UL_DISCERNING_TASTE_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730177
+    m_Key: rep_perk_UL_DISCERNING_TASTE_flavor
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1084133072312205314
+  references:
+    version: 2
+    RefIds:
+    - rid: 1084133072312205314
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1771017066778

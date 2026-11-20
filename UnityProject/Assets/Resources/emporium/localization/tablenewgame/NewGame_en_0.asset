@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NewGame_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 64b2e850801a6fb4ebd9579f7e7462a4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1489972805632
+    m_Localized: Apprentice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1550517583872
+    m_Localized: Junker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1562228080640
+    m_Localized: Water Merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1579307286528
+    m_Localized: Fence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593098158080
+    m_Localized: Hydroponic Farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636114939904
+    m_Localized: Chemist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694201856000
+    m_Localized: Organ Dealer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713894113280
+    m_Localized: Pharmacist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1736983756800
+    m_Localized: Street Food Vendor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1777781751808
+    m_Localized: Moonshiner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33510552027136
+    m_Localized: Please select a starting specialization...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36113511923712
+    m_Localized: During your training with The Mentor, no particular specialization piqued your interest. Instead, you spent more time optimising your operation, resulting in less money spent setting up the store.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36412188311552
+    m_Localized: Increased starting Credit count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38817957199872
+    m_Localized: Recommended For New Players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39721708077056
+    m_Localized: Start with a stock of Household Goods and Food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39719812251648
+    m_Localized: Additional equipment (Storage Bay)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41091349659648
+    m_Localized: Work In Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44792365760512
+    m_Localized: During your training with The Mentor, you took a particular interest in learning about the Water trade. Clean water is a scarce resource on the station and there is money to be made by those with their hands on the tap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69123699425280
+    m_Localized: Water Trading Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69167391490048
+    m_Localized: Water Testing and Purification Equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69177692700672
+    m_Localized: Additional storage (Water Containers)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70344103477248
+    m_Localized: Before The Mentor found you, you were a scavenger, poor but with solid reputation. Despite your training, you never forgot your past, and have even repurposed your old equipment for your new occupation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70401448001536
+    m_Localized: Scavenger's Gear and Tools
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70434029355008
+    m_Localized: Increased starting reputation (Scavengers)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70436172644352
+    m_Localized: Additional equipment (Furnace)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72090364198912
+    m_Localized: Advanced Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72394300243968
+    m_Localized: During your training with The Mentor, you took a particular interest in contraband. You're an established black marketeer, and have even installed a hidden storage compartment in your store to avoid the prying of the station's security.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73142996090880
+    m_Localized: Additional equipment (Smuggler's Bay)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73278484692992
+    m_Localized: Start with a stock of Contraband
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73328950558720
+    m_Localized: Increased starting reputation (Black Market)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73330057854976
+    m_Localized: Decreased starting reputation (Security)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73331030933504
+    m_Localized: Immediate access to the Janitor Underground Exchange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73389046546432
+    m_Localized: Increased starting rent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74131299942400
+    m_Localized: During your training with The Mentor, you developed a taste for moonshine. You know how to trade, appraise and even brew your own liquor. Moonshine is popular in the Lower Levels due to its low cost, but it is also unregulated and illegal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74164715962368
+    m_Localized: Moonshine Trading Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74261122039808
+    m_Localized: Moonshine Brewing Starter Kit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74542706638848
+    m_Localized: During your training with The Mentor, you acquired a nose for narcotics. You are an expert in the illegal, addictive and lucrative trade of controlled substances. You're not bad in the lab, either, should supply run low.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698969628672
+    m_Localized: Chemistry Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74729940369408
+    m_Localized: Chemistry Lab Equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75185236262912
+    m_Localized: During your training with The Mentor, you developed a grim fascination in the trade of human organs. Certified, ethically sourced organs are legal to trade... but there is more money to be made in illicit stock harvested from living patients.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75262713446400
+    m_Localized: Organ Trading Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75305663119360
+    m_Localized: Additional equipment (Organ Storage Container)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75308548800512
+    m_Localized: Blood Transfusion Set
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75463129874432
+    m_Localized: During your training with The Mentor, you took a particular interest in over-the-counter medicines. You learned about the basics of running a pharmacy, helping sick customers and synthesizing drugs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75501117685760
+    m_Localized: Drug Trading Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75502254342144
+    m_Localized: First Aid Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75503260975104
+    m_Localized: Start with a stock of Medical Supplies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75997584867328
+    m_Localized: During your training with The Mentor, you developed a passion for cooking and street food. You know how to prepare quick, flavorful meals that cater to the busy residents of the lower levels. Operating a street food stall is a popular and flexible way to make a living, and with the right ingredients, you can turn a tidy profit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76052249231360
+    m_Localized: Cooking Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76054665150464
+    m_Localized: Additional equipment (Stove)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76056204460032
+    m_Localized: Start with a stock of Ingredients
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76194914287616
+    m_Localized: During your training with The Mentor, you refined your knowledge of hydroponic farming, an efficient way to grow crops in the limited space available on the station. With your expertise, you can help feed the lower levels while making a handy profit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76197867077632
+    m_Localized: Hydroponic Farming Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76201893609472
+    m_Localized: Additional equipment (Hydroponic Systems)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76203508416512
+    m_Localized: Start with a stock of Farming Supplies and Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76509856186368
+    m_Localized: Increased starting rent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229462627368960
+    m_Localized: Gunsmith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229510593429504
+    m_Localized: During your training with The Mentor, you developed an enthusiasm for firearms and munitions. You learned how to modify weapons, from handmade sidearms to powerful machine guns. With a license in hand, you now fulfill custom orders and earn a steady income arming the residents of the station.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230746092781568
+    m_Localized: Class I Weapon Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230752501678080
+    m_Localized: Start with a stock of Firearms and Gun Mods
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230769882873856
+    m_Localized: Start with a stock of Ammunition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99065213836115968
+    m_Localized: Rock Bottom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069202615025664
+    m_Localized: The Mentor didn't help you with anything aside from negotiating your lease with the Landlord. You have nothing but the Store, and a will to survive.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069229261438976
+    m_Localized: None.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069305866207232
+    m_Localized: Extreme Challenge Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99670006883467264
+    m_Localized: Corrupted Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004236062720
+    m_Localized: Rat Wrangler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811456
+    m_Localized: Animal Cage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811457
+    m_Localized: Rats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811458
+    m_Localized: Food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108082834627674112
+    m_Localized: To the Mentor's annoyance, you developed a great passion for animal ranching. Rats, more specifically. You've learned the basics of raising rats for meat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112700634117750784
+    m_Localized: "You're a shopkeeper in the Lower Levels of a sprawling space station. Once a poor scavenger, you were taken in by a mysterious figure known as the Mentor, who fronted you a generous loan and taught you the basics of running a shop. His true motives remain unclear.\nNow you must meet the Landlord's unrelenting demands or face eviction. Turn a profit, secure a mortgage, and buy the shop to carve out your place on the station.\n Survive at any cost. Earn your future."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915136
+    m_Localized: Aquafarmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915137
+    m_Localized: During your training with The Mentor, you learned to raise fish in tanks for meat. You start with a small recirculating system and a stock of starter fish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915138
+    m_Localized: Recirculating Aquaculture Systems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915139
+    m_Localized: Start with a stock of Tilapia and Fish Food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915140
+    m_Localized: Increased starting rent
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

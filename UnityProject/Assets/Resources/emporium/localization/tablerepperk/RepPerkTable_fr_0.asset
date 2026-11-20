@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: RepPerkTable_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 6c079ba598ee8c547ae853c64617b946, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1034312007680
+    m_Localized: Bouche-à-oreille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1174275932160
+    m_Localized: Vous avez {0} % de chances de recevoir un client supplémentaire par jour.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214239260672
+    m_Localized: Les nouvelles vont vite dans les strates inférieures... et les clients satisfaits sont la meilleure forme de publicité qui soit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773368455168
+    m_Localized: Rumeurs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649472
+    m_Localized: Vous recevez des informations sur la plupart des événements liés aux strates inférieures.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649473
+    m_Localized: Les habitants des strates inférieures sont constamment aux aguets. S'ils vous font confiance, ils vous mettront au parfum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649474
+    m_Localized: Articles rares
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649475
+    m_Localized: Vous recevez de nouveaux types de clients, qui proposent des articles rares ou de contrebande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649476
+    m_Localized: Même les strates inférieures recèlent des trésors, à condition d'avoir les bons contacts !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649477
+    m_Localized: Motus et bouche cousue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649478
+    m_Localized: La contrebande vendue aux clients des strates inférieures génère des preuves équivalentes à seulement {0:P0} de sa valeur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649479
+    m_Localized: Vous avez gagné la confiance des résidents, qui n'ont aucune intention de vous dénoncer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649480
+    m_Localized: Coqueluche des strates inférieures
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649481
+    m_Localized: Vous bénéficiez d'une réduction de {0} % auprès de Joe Wild et du Pr Jackson.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649482
+    m_Localized: Les résidents des strates inférieures vous respectent, et même leurs chefs saluent votre travail.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649483
+    m_Localized: Dénigrement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649484
+    m_Localized: Vous avez {0} % de chances de recevoir un client de moins par jour.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649485
+    m_Localized: Il suffit d'une poignée de clients mécontents pour que votre réputation dans les strates inférieures en prenne un coup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649486
+    m_Localized: Méfiance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649487
+    m_Localized: Les clients des strates inférieures ne vous vendent plus de contrebande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649488
+    m_Localized: Les contrebandiers vous considèrent comme un frein au commerce et iront vendre leurs produits ailleurs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649489
+    m_Localized: Cible facile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649490
+    m_Localized: Votre boutique est plus souvent prise pour cible par les voleurs. L'assurance coûte {0} fois plus cher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649491
+    m_Localized: Votre mauvaise réputation vous a valu une cible dans le dos. Les strates inférieures ont maintenant une dent contre vous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649492
+    m_Localized: Brebis galeuse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649493
+    m_Localized: Tous les fournisseurs refusent de prendre vos appels. Le Pr Jackson ne vous rend plus visite, sauf si la situation l'exige.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649494
+    m_Localized: Les gens ne veulent plus avoir affaire avec vous, de peur que vous n'entachiez leur réputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649495
+    m_Localized: Lynchage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649496
+    m_Localized: Un gang des strates inférieures va s'attaquer à votre boutique pour vous régler votre compte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649497
+    m_Localized: Les habitants des strates inférieures ne vous supportent plus et ont décidé de se faire justice eux-mêmes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649498
+    m_Localized: Ordre de réquisition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649499
+    m_Localized: Un agent de réquisition vous rend parfois visite pour acheter de la nourriture et des produits médicaux. Faites affaire avec lui pour améliorer votre réputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649500
+    m_Localized: Il faut bien que les agents se fournissent quelque part ! En plus, ils vous paieront généreusement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649501
+    m_Localized: Sourde oreille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649502
+    m_Localized: Le service de sécurité ne répond plus à vos alertes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649503
+    m_Localized: Vous avez trop crié au loup, ou alors vous ne valez même plus le déplacement. Personne ne viendra à votre secours en cas de pépin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649504
+    m_Localized: Liste de surveillance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649505
+    m_Localized: Vous faites partie de la liste de surveillance de la station. Les enquêtes menées sur vous avancent {0} fois plus vite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649506
+    m_Localized: Le service de sécurité a eu vent de votre notoriété. Vous devriez faire profil bas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649507
+    m_Localized: Tête mise à prix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649508
+    m_Localized: Les enquêtes menées sur vous avancent {0} fois plus vite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649509
+    m_Localized: Presque tous les dossiers sur le bureau du chef de la sécurité vous concernent de près ou de loin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649510
+    m_Localized: Excès de zèle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649511
+    m_Localized: Le service de sécurité ne vous envoie plus d'inspecteurs véreux ou fainéants. Les inspections sont plus fréquentes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649512
+    m_Localized: Vous ne vous en tirerez plus à bon compte ! À partir de maintenant, chaque inspecteur sera consciencieux.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649513
+    m_Localized: Sans pitié
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649514
+    m_Localized: Votre sanction pour possession de contrebande durant une inspection est maximale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649515
+    m_Localized: Les avertissements et les pots-de-vin, c'est fini ! Vous risquez gros, quelle que soit la quantité de contrebande en votre possession.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649516
+    m_Localized: Acharnement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649517
+    m_Localized: Le service de sécurité va venir vous arrêter et vous jeter en prison, sans tenir compte des preuves dont il dispose (ou non).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649518
+    m_Localized: Quand le service de sécurité veut faire disparaître quelqu'un, il emploie tous les moyens nécessaires. Les "preuves" joueront en votre défaveur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843776
+    m_Localized: Protection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843777
+    m_Localized: En raison de votre bonne réputation auprès du service de sécurité, les voleurs sont peu enclins à s'en prendre à vous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843778
+    m_Localized: La surveillance continue n'a pas que des désavantages.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843779
+    m_Localized: Équipement en trop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843780
+    m_Localized: Un vendeur du service de sécurité vous rend parfois visite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843781
+    m_Localized: Le service de sécurité a accepté de vous vendre de l'équipement ancien, notamment des armes et des armures.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843782
+    m_Localized: Fiabilité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843783
+    m_Localized: Le vendeur du service de sécurité propose de meilleures marchandises en plus grande quantité. Les clients du service ont {0} % de crédits supplémentaires à dépenser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843784
+    m_Localized: Vous avez prouvé votre valeur auprès du service, qui veut continuer à faire affaire avec vous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843785
+    m_Localized: VIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843786
+    m_Localized: En raison de votre excellente réputation auprès du service de sécurité, les voleurs ne vous prennent plus pour cible. Vous ne subissez plus d'inspections.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843787
+    m_Localized: Vous êtes intouchable. Le service de sécurité vous couvre et ne laissera personne s'en prendre à vous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843788
+    m_Localized: Confiance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843789
+    m_Localized: Les inspections sont moins fréquentes et les enquêtes avancent moins vite. Quelqu'un vous prévient avant une opération de sécurité imminente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843790
+    m_Localized: Maintenant que vous avez gagné sa confiance, le service de sécurité vous embête moins et ses agents vous inspectent rarement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843791
+    m_Localized: Réseau clandestin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843792
+    m_Localized: Vous recevez des informations sur la plupart des événements liés au marché noir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843793
+    m_Localized: Ici, les relations priment sur le reste.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843794
+    m_Localized: Persona non grata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843795
+    m_Localized: Les clients du marché noir ne vous vendent plus de contrebande, vous n'avez plus accès à l'échange clandestin et le service d'entretien coûte deux fois plus cher.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843796
+    m_Localized: Vos crédits ne valent absolument rien si personne n'a confiance en vous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843797
+    m_Localized: Assurance zéro risque
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843798
+    m_Localized: Vous ne pouvez plus bénéficier des services d'assurance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843799
+    m_Localized: En raison de votre affront au marché noir, plus personne ne veut vous assurer, pas même Joe Wild.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843800
+    m_Localized: Menu fretin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843801
+    m_Localized: Les petites frappes vous rendent visite plus souvent. Elles proposent de meilleures marchandises en plus grande quantité si votre réputation est bonne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843802
+    m_Localized: Vous commencez à vous forger une bonne réputation auprès du marché noir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843803
+    m_Localized: Code d'honneur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843804
+    m_Localized: Vous perdez en réputation auprès du marché noir {0} fois plus vite, et ce quelle que soit votre réputation actuelle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843805
+    m_Localized: La confiance, ça se mérite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843806
+    m_Localized: Tranquillité d'esprit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843807
+    m_Localized: Un voleur vous rend visite une fois par semaine. Tous les voleurs proposent de meilleures marchandises en plus grande quantité.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843808
+    m_Localized: Les voleurs du marché noir savent ce que vous valez et sont de plus en plus nombreux à vouloir traiter avec vous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843809
+    m_Localized: Colportage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843810
+    m_Localized: Vous recevez des informations sur la plupart des événements liés aux strates supérieures.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843811
+    m_Localized: Ça jacasse beaucoup, là-haut... mais vous entendez parfois des choses intéressantes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843812
+    m_Localized: Pourboire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843813
+    m_Localized: Vous recevez un pourboire de {0} % lorsque vous vendez des produits aux clients des strates supérieures.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843814
+    m_Localized: Le marchandage, très peu pour eux ! Ils préfèrent donner une poignée de crédits en plus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843815
+    m_Localized: Altruisme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843816
+    m_Localized: Un généreux bienfaiteur des strates supérieures vous offre parfois des produits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843817
+    m_Localized: Coup de publicité ou don désintéressé ? Qu'importe, les produits gratuits ne se refusent pas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843818
+    m_Localized: Célébrité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843819
+    m_Localized: Vous avez {0} % de chances de recevoir un client supplémentaire des strates supérieures par jour.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843820
+    m_Localized: Dans les strates supérieures, le nom de votre boutique est sur toutes les lèvres.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843821
+    m_Localized: Éloges
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843822
+    m_Localized: Les clients des strates supérieures ont {0} % de crédits supplémentaires à dépenser.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843823
+    m_Localized: Votre boutique est le secret le moins bien gardé des strates supérieures, et les résidents sont prêts à payer le prix fort à chaque visite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843824
+    m_Localized: Attrape-touristes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843825
+    m_Localized: Les clients des strates supérieures entrent moins souvent dans votre boutique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843826
+    m_Localized: Les habitants s'attendent à mieux. Ces derniers temps, votre boutique n'est pas au niveau.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843827
+    m_Localized: Influence de l'élite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843828
+    m_Localized: Votre réputation auprès du service de sécurité chute {0} fois plus vite. Les enquêtes avancent {1:P0} plus vite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843829
+    m_Localized: Les strates supérieures ont exercé leur grande influence sur le service de sécurité pour lui demander de vous surveiller de près.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843830
+    m_Localized: Assassinat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843831
+    m_Localized: Les strates supérieures vont commanditer votre meurtre.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843832
+    m_Localized: Un contrat vient d'être signé dans une suite de luxe. Vos ennemis ne plaisantent pas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843833
+    m_Localized: Rébellion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843834
+    m_Localized: Vous recevez des informations sur la plupart des événements liés à la Révolution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843835
+    m_Localized: La Révolution veillera à ce que vous ne vous retrouviez pas entre le marteau et l'enclume.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843836
+    m_Localized: Cible à abattre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843837
+    m_Localized: Un commando révolutionnaire va venir vous éliminer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843838
+    m_Localized: Vous faites partie des ennemis de la Révolution, qui ne reculera devant rien pour vous faire disparaître.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843839
+    m_Localized: Liste noire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843840
+    m_Localized: Les clients favorables à la Révolution entrent moins souvent dans votre boutique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843841
+    m_Localized: Une mise en garde circule parmi les membres de la Révolution, leur déconseillant de s'associer avec vous.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843842
+    m_Localized: Demandes de la Révolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843843
+    m_Localized: Vous recevez parfois des demandes du marché venues des révolutionnaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843844
+    m_Localized: Les demandes varient selon les besoins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843845
+    m_Localized: Butin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843846
+    m_Localized: Des membres de la Révolution viennent parfois vous vendre le butin de leurs raids. Les prix sont moins élevés en cas de bonne réputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843847
+    m_Localized: Pour libérer le peuple, il faut d'abord libérer l'accès aux produits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843848
+    m_Localized: Garde-magasin révolutionnaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843849
+    m_Localized: Un garde-magasin affilié à la Révolution vient parfois vous vendre des matériaux moins cher. La réduction est plus importante en cas de bonne réputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843850
+    m_Localized: Toute révolution a besoin de fonds. C'est pourquoi le garde-magasin vend ses produits à bas prix pour financer discrètement la prochaine opération.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843851
+    m_Localized: Retraite forcée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843852
+    m_Localized: Un assassin du cartel va venir vous éliminer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843853
+    m_Localized: Les chiens qui souffrent trop doivent être abattus. C'est la meilleure solution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843854
+    m_Localized: Salaire généreux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843855
+    m_Localized: Votre salaire hebdomadaire est désormais proportionnel à votre réputation auprès du cartel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843856
+    m_Localized: Plus qu'un témoignage de bonté, c'est un investissement pour l'avenir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843857
+    m_Localized: Chimie en béton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843858
+    m_Localized: Vos demandes de matériaux supplémentaires coûtent désormais {0} % de votre réputation habituelle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843859
+    m_Localized: Le cartel récompense la constance et le travail bien fait.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843860
+    m_Localized: Sortie autorisée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843861
+    m_Localized: La personne envoyée par le cartel va commencer à organiser votre sortie du cartel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843862
+    m_Localized: Vous avez de la chance de ne pas quitter le cartel dans un sac mortuaire.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314774175744
+    m_Localized: Goût raffiné
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730176
+    m_Localized: Tant qu'un objet de luxe est présent dans votre vitrine, vous avez {0} % de chances de recevoir la visite d'un client supplémentaire intéressé par les articles de luxe. La probabilité augmente en fonction de votre réputation. Le client ne peut vous rendre visite qu'une fois tous les {1} jours.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730177
+    m_Localized: Quoi ? Un article de luxe dans une vitrine des strates inférieures ?! Les bourgeois vont accourir à toutes jambes, ne serait-ce que pour se vanter d'être arrivés les premiers.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

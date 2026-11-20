@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NewGame_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 64b2e850801a6fb4ebd9579f7e7462a4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1489972805632
+    m_Localized: 学徒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1550517583872
+    m_Localized: 废料客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1562228080640
+    m_Localized: 水商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1579307286528
+    m_Localized: 销赃人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1593098158080
+    m_Localized: 水培农场主
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1636114939904
+    m_Localized: 化学家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1694201856000
+    m_Localized: 器官贩子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1713894113280
+    m_Localized: 药商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1736983756800
+    m_Localized: 街头小吃摊贩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1777781751808
+    m_Localized: 私酒贩子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33510552027136
+    m_Localized: 请选择一项初始专精……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36113511923712
+    m_Localized: 在跟随导师训练期间，你并未对某项特定专精产生浓厚兴趣。相对地，你把心思都用在了精打细算上，从而在盘下店铺时节省了一笔启动资金。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36412188311552
+    m_Localized: 增加初始信用点
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38817957199872
+    m_Localized: 适合初次游玩的玩家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39721708077056
+    m_Localized: 初始拥有一批日用品与食物库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39719812251648
+    m_Localized: 额外设备（储藏区）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41091349659648
+    m_Localized: 开发中
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44792365760512
+    m_Localized: 在跟随导师训练期间，你对水资源交易产生了浓厚兴趣。在这个空间站里，净水是稀缺资源。谁能控制水源，谁就能大发横财。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69123699425280
+    m_Localized: 水资源交易手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69167391490048
+    m_Localized: 水质检测与净水设备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69177692700672
+    m_Localized: 额外存储空间（储水容器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70344103477248
+    m_Localized: 在导师找到你之前，你是一名拾荒客，虽一贫如洗但口碑可靠。纵然学了新本事，你依旧不忘老本行，还将当年的旧行头翻新改装后用在了如今的行当上。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70401448001536
+    m_Localized: 拾荒客的装备与工具
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70434029355008
+    m_Localized: 提升初始声望（拾荒客）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70436172644352
+    m_Localized: 额外设备（熔炉）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72090364198912
+    m_Localized: 进阶开局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72394300243968
+    m_Localized: 在跟随导师训练期间，你对违禁品产生了格外的兴趣。你现在是一名资深的黑市商人，甚至在店里安装了暗格，以躲避空间站治安部的搜查。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73142996090880
+    m_Localized: 额外设备（走私者暗格）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73278484692992
+    m_Localized: 初始拥有一批违禁品库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73328950558720
+    m_Localized: 提升初始声望（黑市）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73330057854976
+    m_Localized: 降低初始声望（治安部）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73331030933504
+    m_Localized: 初始解锁“清道夫地下交易所”的访问权限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73389046546432
+    m_Localized: 初始房租更高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74131299942400
+    m_Localized: 在跟随导师训练期间，你对私酒情有独钟。你懂得如何交易、鉴定甚至亲自酿造烈酒。由于价格低廉，私酒在下层区极受欢迎，但它同时也缺乏质量管控，且属于明文禁止的非法物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74164715962368
+    m_Localized: 私酒交易手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74261122039808
+    m_Localized: 入门级私酒酿造设备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74542706638848
+    m_Localized: 在跟随导师训练期间，你培养出了对麻醉品的敏锐嗅觉。你是不法药物交易的专家，深知这类成瘾性管制品有多暴利。货源吃紧的话，你在实验室里亲自调配的手艺也相当不赖。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74698969628672
+    m_Localized: 化学手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74729940369408
+    m_Localized: 化学实验设备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75185236262912
+    m_Localized: 在跟随导师训练期间，你不知不觉迷上了人体器官交易这门阴森的生意。虽然交易那些来源合规、具备证明的器官并不犯法……但从活体病人身上摘取的黑市脏器，利润要丰厚得多。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75262713446400
+    m_Localized: 器官交易手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75305663119360
+    m_Localized: 额外设备（器官冷藏容器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75308548800512
+    m_Localized: 输血设备套件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75463129874432
+    m_Localized: 在跟随导师训练期间，你对非处方药产生了特别的兴趣。你学习了经营药房的基础知识，懂得如何救治患病的顾客，以及如何合成所需的药物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75501117685760
+    m_Localized: 药品交易手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75502254342144
+    m_Localized: 急救手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75503260975104
+    m_Localized: 初始拥有一批医疗物资库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75997584867328
+    m_Localized: 在跟随导师训练期间，你对烹饪和街头小吃倾注了极大的热情。你对下层区居民的口味了如指掌，随手就能端出便宜好吃的快餐。经营路边摊是一种普遍且灵活的谋生手段，只要食材选得对，利润也相当可观。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76052249231360
+    m_Localized: 烹饪手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76054665150464
+    m_Localized: 额外设备（炉灶）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76056204460032
+    m_Localized: 初始拥有一批食材库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76194914287616
+    m_Localized: 在跟随导师训练期间，你钻研了水培农作的知识。对于寸土寸金的空间站而言，这是高效种植作物的实用方法。凭借你的专业技能，你不仅能为下层区提供口粮，还能顺手大赚一笔。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76197867077632
+    m_Localized: 水培农业手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76201893609472
+    m_Localized: 额外设备（水培系统）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76203508416512
+    m_Localized: 初始拥有一批农用物资和种子库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76509856186368
+    m_Localized: 初始房租更高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229462627368960
+    m_Localized: 枪械匠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16229510593429504
+    m_Localized: 在跟随导师训练期间，你对枪械和弹药展现出了浓厚的兴趣。你学会了如何改装武器，从自制手枪到威力巨大的机枪都不在话下。如今，手握许可证的你可以承接定制订单，通过给空间站的居民提供武装来赚取稳定的收入。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230746092781568
+    m_Localized: I级武器许可证
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230752501678080
+    m_Localized: 初始拥有一批枪械与枪械模组库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16230769882873856
+    m_Localized: 初始拥有一批弹药库存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99670006883467264
+    m_Localized: 存档已损坏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99065213836115968
+    m_Localized: 一贫如洗
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069229261438976
+    m_Localized: 无。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069202615025664
+    m_Localized: 除了替你跟房东谈妥租约，导师没有给你提供任何帮助。除了这家店铺和求生的意志，你一无所有。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99069305866207232
+    m_Localized: 极限挑战模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004236062720
+    m_Localized: 养鼠人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108082834627674112
+    m_Localized: 令导师感到恼火的是，你偏偏对动物养殖情有独钟——准确点说，是老鼠养殖。你已经掌握了饲养肉用鼠的基础知识。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811456
+    m_Localized: 动物笼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811457
+    m_Localized: 老鼠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108073004273811458
+    m_Localized: 食物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112700634117750784
+    m_Localized: "你是这庞大空间站下层区的一名店主。曾经作为一名贫苦拾荒者的你，被一位人称“导师”的神秘人物收留。他为你提供了一笔慷慨的贷款，并教会了你经营店铺的基础知识。他真正的动机依然不明。\n现在，你必须满足房东那无休止的苛求，否则便会面临驱逐。赚取利润、偿清贷款，彻底买下这家店铺，在这个空间站上打拼出你的一席之地。\n不惜一切代价活下去。去赢取你的未来。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915136
+    m_Localized: 水产养殖户
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915137
+    m_Localized: 在跟随导师学习期间，你学会了用水缸养鱼，获取鱼肉。开局时，你会拥有一套小型循环水养殖系统和一批入门鱼种。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915138
+    m_Localized: 循环水养殖系统
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915139
+    m_Localized: 初始拥有一批罗非鱼和鱼食
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180521517629915140
+    m_Localized: 初始房租更高
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

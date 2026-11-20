@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PerkTable_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 121ca1bc99fe66246ac98a4fd477ca17, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1443059515392
+    m_Localized: 存款
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267617513472
+    m_Localized: 开局额外获得{0}信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902080
+    m_Localized: 高昂房租
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902081
+    m_Localized: 你的初始租金增加{0}信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902086
+    m_Localized: 前科犯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902087
+    m_Localized: 开局获得额外{0}点治安部声望，但在举报通缉名单上的顾客时，获得的悬赏减少{1}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902088
+    m_Localized: 模范公民
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902089
+    m_Localized: 开局获得额外+{0}点治安部声望，并在举报通缉名单上的顾客时，获得的悬赏提升{1}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902090
+    m_Localized: 八面玲珑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902091
+    m_Localized: 所有派系的初始声望均增加{0}点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902092
+    m_Localized: 警觉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902093
+    m_Localized: 你在夜间永远不会遭遇抢劫。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902094
+    m_Localized: 索耶的伙计
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902095
+    m_Localized: 初始解锁“地下交易所”。清洁服务永远免费，除非店铺遭到破坏；清理破坏的费用也大幅降低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902096
+    m_Localized: 舌灿莲花
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902097
+    m_Localized: 交易产生的声望增加{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902098
+    m_Localized: 凶神恶煞
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902099
+    m_Localized: 实施所有犯罪行为时，留下的可用证据减少{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902100
+    m_Localized: 偏街陋巷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902101
+    m_Localized: 每天减少一名随机顾客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902102
+    m_Localized: 尼古丁成瘾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902103
+    m_Localized: 如果不定期摄入尼古丁，你将承受{0}%的交易惩罚。此成瘾症可以被治愈。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902104
+    m_Localized: 麻醉品成瘾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902105
+    m_Localized: 如果不定期摄入麻醉品，你将承受{0}%的交易惩罚。此成瘾症可以被治愈。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902106
+    m_Localized: 酒精成瘾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902107
+    m_Localized: 如果不定期摄入酒精，你将承受{0}%的交易惩罚。此成瘾症可以被治愈。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902108
+    m_Localized: 神秘仰慕者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902109
+    m_Localized: 开店时，你偶尔会收到来自神秘仰慕者的随机物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902110
+    m_Localized: 奇人异士
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902111
+    m_Localized: 初始特性槽位上限增加{0}个。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902112
+    m_Localized: 敲诈勒索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902113
+    m_Localized: 你有一段不光彩的过去，一个敲诈者正威胁要曝光你的秘密。你必须每周向其支付一笔小额封口费，否则一旦曝光，你将在大多数派系中遭遇一次大幅度的声望降低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902114
+    m_Localized: 大嘴巴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902115
+    m_Localized: 实施所有犯罪时留下的可用证据增加{0}%。你在黑市和革命军处获得的声望减少50%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902116
+    m_Localized: 取消订阅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902117
+    m_Localized: 你将不会收到报道近期事件的每日报纸。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902118
+    m_Localized: 极简主义者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902119
+    m_Localized: 你的主物品栏容量缩减，从24x10降至20x10。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902120
+    m_Localized: 哨兵崩溃综合征
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902121
+    m_Localized: 你患有一种致命且无法治愈的自身免疫性疾病，必须每周注射一次免疫宁才能存活。开局自带1支免疫宁注射器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902124
+    m_Localized: 行动敏捷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902125
+    m_Localized: 每天夜间，你最多可以访问2个夜间地点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902126
+    m_Localized: 广场恐惧症
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902128
+    m_Localized: 低保户
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902129
+    m_Localized: 初始解锁配给站。在每周一，系统可能会根据你的总资产为你发放食品券。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902130
+    m_Localized: 熟练的拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902131
+    m_Localized: 每次访问垃圾场时，你最多可以额外执行2次搜索行动。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902132
+    m_Localized: 心向革命军
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902133
+    m_Localized: 开局获得额外{0}点革命军声望。你将更频繁地收到来自革命军的市场委托。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902134
+    m_Localized: 赌博成瘾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902135
+    m_Localized: 只要有机会，你总会购买一些彩票。所有彩票内容将从开局解锁。此成瘾症可以被治愈。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902136
+    m_Localized: 磁带迷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902137
+    m_Localized: 初始即解锁并拥有磁带播放器内所有可用的音乐磁带。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902138
+    m_Localized: 探险组织者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902139
+    m_Localized: 你可以雇佣特定角色并组织探险。初始即可解锁探险系统，并附带一名雇工。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902140
+    m_Localized: 自动贩卖机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902141
+    m_Localized: 初始自带一台安置于店外的自动贩卖机。允许顾客在非营业时间自助购买物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12200241315840
+    m_Localized: 特性点数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791168
+    m_Localized: 即使前一天晚上外出进行夜间活动，你也不会流失任何顾客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313910013952
+    m_Localized: 短眠者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791169
+    m_Localized: 管道畅通
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791170
+    m_Localized: 开局时水管已接通，可无限供应铁锈水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791171
+    m_Localized: 文盲
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791172
+    m_Localized: 你将无法阅读任何指南。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791173
+    m_Localized: 黄金地段
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313930985472
+    m_Localized: '每天会多来1位普通顾客，但初始租金增加{0}信用点。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876391931904
+    m_Localized: 退行性骨关节炎
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263552
+    m_Localized: 第一周内，你仍可照常在垃圾场拾荒。此后每过一周，每日拾荒次数上限就会减少1次。次数上限低于{0}次后，你将无法再拾荒。普通店主开局时每天最多可拾荒{1}次。开局额外获得{2}条外用药膏绷带。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263553
+    m_Localized: 人尽皆知的告密者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263554
+    m_Localized: 治安部通缉名单上的顾客绝不会光顾你的店铺。开局时，你在革命军和黑市的声望均为{0}点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180758536192
+    m_Localized: 巧手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673536
+    m_Localized: 开局自带一个破旧工具箱，以及一套破旧工具：螺丝刀、剪线钳、撬棍和等离子切割机。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673537
+    m_Localized: 全民公敌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673538
+    m_Localized: 所有派系的初始声望均为{0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673539
+    m_Localized: 苦行者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673540
+    m_Localized: 主物品栏的尺寸从24×10缩减为{0}×10。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673541
+    m_Localized: 肢体残缺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673542
+    m_Localized: 垃圾倾倒场不可用，你无法进行任何拾荒活动。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673543
+    m_Localized: 王尔德的红人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673544
+    m_Localized: 王尔德的人脉网络中，所有升级费用降低{0}%，保险费用降低{1}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673545
+    m_Localized: 王尔德的眼中钉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673546
+    m_Localized: 王尔德的人脉网络中，所有升级费用提高{0}%，保险费用提高{1}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673547
+    m_Localized: 改造体危机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673548
+    m_Localized: 开局即解锁改造体相关内容。击杀改造体获得的信用点增加{0}%。改造体危机将一直持续，无论选择哪种难度，放跑过多改造体都会导致游戏结束。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673549
+    m_Localized: 幸运儿
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673550
+    m_Localized: 让你的运气变好。大概吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673551
+    m_Localized: 厄运缠身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673552
+    m_Localized: 让你的运气变差。大概吧。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593216
+    m_Localized: 改装能手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593217
+    m_Localized: 升级物品时，有{0}%的概率不消耗所用材料。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593218
+    m_Localized: 谨慎的拾荒客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593219
+    m_Localized: 每次前往垃圾倾倒场，可进行的行动减少{0}次，但搜索时绝不会受伤。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593220
+    m_Localized: 马屁精
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593221
+    m_Localized: 开局额外获得{0}点上层区声望。获得的上层区声望增加{1}%，上层区顾客的预算增加{2}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593222
+    m_Localized: 去过夜间地点后，你必须先在店内休息{0}晚，才能再次外出。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593223
+    m_Localized: 不善议价
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593224
+    m_Localized: 你无法与顾客讨价还价，并且会永久承受{0}%的交易惩罚。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593225
+    m_Localized: 被配给站拒之门外
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593226
+    m_Localized: 配给站不可用，食品券相关内容也永远不会解锁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593227
+    m_Localized: 囤积癖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593228
+    m_Localized: 开局时，物品栏底部会堆着三堆无法移动的杂物。每堆杂物都可以清除。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593229
+    m_Localized: 简易反应堆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593230
+    m_Localized: 你的店铺将永久脱离空间站电网，不受停电影响。开局时，你会拥有一台从杰克逊博士那里买来的可升级简易微型核反应堆。它能为店铺供电，但需要定期维修。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 00168f6b881b17d49a52d88adb03554e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: シャッターを開こう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: 次の客を呼び出そう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: アイテムを右クリックでインタラクトメニューを開こう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: '[読む] メモ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: 店を閉めよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: ダブルクリックでもアイテムにインタラクトできる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: 手引きにメモをドラッグして保存しよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: Ctrl+クリックでアイテムを即時移動させよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: レコーダーで会話を見直そう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: ノートを書類入れに保管しよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: 買いたいアイテムをCtrl+クリックかドラッグして、交渉カウンターに移動させよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: タブレットを開こう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: 売りたいアイテムをCtrl+クリックかドラッグして、交渉カウンターに移動させよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: 寝よう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: すべて移動させよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[物々交換]：頼まれたアイテムをカウンターに移動させよう'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: サービスは毎晩オン/オフを切り替えられる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: 店から出よう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: シャッターを開く前にショーケースに商品を入れておくと、買い手を引き寄せられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: 顧客UIを見よう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: 評判を確認しよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: 取引画面を開こう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: 取引画面から、客に対してより高い価格を要求したり、より安い価格を提示したりできる。実行すると客の予算や、取引時に得られる評判に影響する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: 準備ができたらスペースキーで会話を進めよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: マウスの左ボタンを押したままドラッグして、複数のアイテムを選択しよう
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: インベントリの空きスロットを右クリックして、並べ替えメニューを開こう
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

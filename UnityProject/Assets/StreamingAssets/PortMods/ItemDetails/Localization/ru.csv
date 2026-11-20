@@ -1,0 +1,358 @@
+﻿# Item Details Русский (ru)
+auth.amount,Номиналы карточек
+auth.body,Проблемы с корпусом
+auth.box,Проблемы с упаковкой
+auth.chip,Чип
+auth.color,Проблемы с цветом
+auth.indicator,Показания индикатора
+auth.label,Проблемы с маркировкой
+auth.lettering,Проблемы с текстом
+auth.logo,Проблемы с логотипом
+auth.seal,Проблемы с пломбой
+auth.serial,Серийные номера
+# key,value
+alert.aug_kill_reward,Награда за убийство: {0}
+alert.aug_presence,Угроза аугментации: {0}/100
+alert.bounty," (награда {0})"
+alert.real_name,Настоящее имя: {0}
+alert.title_augmented,Аугментированный клиент
+alert.title_both,В розыске · Аугментированный клиент
+alert.title_wanted,В розыске
+appraisal.armor,Броня
+appraisal.base,Базовое значение
+appraisal.blade,Клинок
+appraisal.build_deluxe,Сочетание «Делюкс»
+appraisal.build_tactical,Сочетание «Тактическая»
+appraisal.carbon,Углеродный композит
+appraisal.casing_crack,Трещины
+appraisal.casing_reinforced,Усиленный корпус
+appraisal.casing_screws,Видны винты
+appraisal.casing_wear,Лёгкий износ
+appraisal.casing_wear_heavy,Значительный износ
+appraisal.damaged,Повреждения
+appraisal.emgplus,Интерфейс ЭМГ+
+appraisal.finish_cheap,Плазма низкого качества
+appraisal.finish_premium,Плазма высокого качества
+appraisal.gold,Золотое покрытие
+appraisal.iface_unknown,Механизм управления не указан
+appraisal.neural,Нейронный интерфейс
+appraisal.ribwich_deluxe,Deluxe Edition
+appraisal.ribwich_double_meat,Двойной слой мяса
+appraisal.ribwich_first_batch,Первая партия
+appraisal.ribwich_month_edge,Первый или последний месяц
+appraisal.ribwich_opened,Вскрыт или подделка (фикс. 40)
+appraisal.ribwich_plant_grade_a,Площадка высокого качества {0:D2}
+appraisal.ribwich_plant_grade_c,Площадка низкого качества {0:D2}
+appraisal.seal_ignition,Бонус Ignition Lab
+appraisal.seal_ll,Бонус Wild's Rides
+appraisal.seal_republic,Бонус Republic Naval Requisition
+appraisal.seal_zhonghua,Бонус ZhongHua Shipbuilding
+appraisal.worn,Износ
+auth.counterfeit,× Подделка ({0})
+auth.defect,× {0} ({1})
+auth.genuine,√ Оригинал
+berry.dried,Высушенная
+berry.line,{0} — качество: {1}
+berry.wine," (вклад в вино {0})"
+berry.moldy,Заплесневелая
+berry.normal,Нормальная
+berry.small,Маленькая
+berry.unripe,Недозревшая
+calorie.line,Энергия: {0} {1}
+calorie.per_credit," ({0} {1}/{2})"
+calorie.unit,ккал
+condition.line,Состояние: {0} {1}
+contraband.markup,Чёрный рынок: +{0}%
+generic.line,Источник: {0}
+hidden.chem_purity,Химическая чистота: {0}%
+hidden.durability,Прочность: {0}/{1}
+hidden.durability_faked,Реальная прочность: {0}/{1} (видно {2}/{3})
+hidden.purity,Чистота: {0}
+hidden.purity_faked,Реальная чистота: {0} (видно {1})
+hidden.purity_level,Чистота: {0}/10
+hidden.purity_level_faked,Реальная чистота: {0}/10 (видно {1}/10)
+hint.double_click,Двойной щелчок — осмотреть
+menu.scan,Отсканировать
+list.sep,", "
+lottery.matched_none,Совпало {0}/6 -> без приза
+lottery.matched_prize,Совпало {0}/6 -> приз {1}
+lottery.not_drawn,Тираж {0}: ждёт розыгрыша (сб. утром)
+lottery.winning,Выигрышные номера: {0}
+market.line,Рынок: {0}
+faucet.header,Вода из крана: {0}
+calendar.today_events,События сегодня
+module.power,{0} энергии/день
+module.speed,{0} скорости
+price.buy,"Закупка: "
+price.cost_close,)
+price.cost_open," (Закупка "
+price.list," Цена: {0}"
+price.sell,Продажа: {0}
+reveal.modifier,Реальный модификатор: {0}% (видно {1}%)
+reveal.real,На самом деле: {0} (выдаётся за {1})
+reveal.real_with_mod,На самом деле: {0} {1} (выдаётся за {2})
+ribwich.header,Почему подделка:
+ribwich.more,... и ещё {0}
+ribwich.reason_bun_no_pickles,Булочка с кунжутом без доп. огурцов
+ribwich.reason_date_missing,Нет даты производства
+ribwich.reason_davre_missing,Нет логотипа DAVRE
+ribwich.reason_davre_wrong,Неверный логотип DAVRE
+ribwich.reason_first_sticker,1-я партия: без наклейки RIBWICH
+ribwich.reason_month_range,Месяц {0} вне диапазона 1-12
+ribwich.reason_pickles_no_bun,Доп. огурцы без булочки с кунжутом
+ribwich.reason_plant_missing,Нет номера места производства
+ribwich.reason_plant_range,Место производства {0} вне 01-35
+ribwich.reason_second_sticker_missing,2-я партия: нет наклейки RIBWICH
+ribwich.reason_second_sticker_wrong,2-я партия: неверная наклейка RIBWICH
+ribwich.reason_unknown,{0}
+ribwich.reason_year_range,Год {0} вне диапазонов 425-429 / 432-438
+scratcher.no_prize,Скретч-карта: без выигрыша
+scratcher.progress_part,", стёрто {0}/3"
+scratcher.win,Скретч-карта: выигрыш {0} ({1} совп.)
+seed.header,Гены (не проанализированы)
+seed.rank,Ранг {0}
+seed.more,... и ещё {0}
+seed.trait_rank,{0} (ранг {1})
+seed.innate_lowered,Врождённая ({0}→{1})
+seed.innate_removed,Удалена
+storage.contains,"Содержит: "
+storage.more_kinds," ... всего видов: {0}"
+storage.ratio,Сжатие: {0} ({1}/{2} {2|клетка|клетки|клеток})
+grid.title,Содержимое {0}
+grid.title_sealed,Внутри {0}
+grid.title_sealed_value,Внутри {0} (оценка {1})
+title.appraisal_suffix,"{0} цена {1}, лучшее предложение {2}"
+value.from,"Источник: "
+value.part,{0} {1}
+value.cost_perf,Стоимость за клетку: {0}
+value.cost_perf_detail," ({0}/{1} {1|клетка|клетки|клеток})"
+value.perfect_range," | идеально {0}-{1}"
+value.total_line,Итого: {0}
+water.mismatch," (несовпадение этикетки)"
+water.trace_count,(ещё {0} ниже порога отображения)
+water.fold_inactive,{0} — показать неактивные компоненты
+chem.effects,Действие: {0}
+chem.lethal,смертельно ({0}x смертельная доза)
+chem.toxic,токсично
+chem.euphoria_weak,слабая эйфория
+chem.euphoria_mild,умеренная эйфория
+chem.euphoria_strong,сильная эйфория
+chem.euphoria_extreme,крайняя эйфория
+chem.synaprest,против зависимости
+chem.contraceptive,контрацептив
+wine.aging,Бонус выдержки: +{0}/день (всего +{1})
+wine.composition,"Состав: экстракт {0}‰, загрязнители {1}‰"
+wine.counterfeit,Подделка: незаконные дрожжи
+wine.empty,Пусто
+wine.fermenting,Бродит
+wine.finished,Готово
+wine.score_part,", оценка {0}"
+wine.state,Вино: {0}
+wine.preview,Оценка после брожения: {0}
+wine.tier,", уровень {0}"
+wine.unknown_state,Неизвестно ({0})
+wine.yeast_power,Сила дрожжей: {0}/тик
+wine.yeast_effect,"Вино +{0} (не сумм.), брожение {1} тик."
+wine.yeast_illegal,Вино станет подделкой
+machine.energy_label,"Расход: "
+machine.energy_unit,/дн.
+machine.energy_battery," {0}/{1} кДж, хватит на {2} дн."
+machine.energy_left," {0} кДж, хватит на {1} дн."
+config.section.layout,Оформление
+config.authenticity,Проверка подлинности
+config.authenticity.tip,"Отличает подлинник от подделки, называет дефекты и причины подделки."
+config.plant_analysis,Анализ растений
+config.plant_analysis.tip,Показывает качество цветоягоды и непроанализированные признаки семян. «При наличии анализатора» показывает признаки семян только при наличии анализатора растений; качество цветоягоды видно в обоих режимах.
+config.plant_analysis.off,Выкл.
+config.plant_analysis.analyser,При наличии анализатора
+config.plant_analysis.always,Всегда
+config.valuation,Расчёт оценки
+config.valuation.tip,"Показывает разбивку реальной стоимости и идеальный диапазон цены для предметов на оценку, а в заголовке услуги оценки — цену и лучшее предложение."
+config.cost_performance,Стоимость за клетку
+config.cost_performance.tip,Показывает стоимость за клетку инвентаря и степень сжатия контейнеров.
+config.container_contents,Содержимое контейнера
+config.container_contents.tip,Показывает предметы в незапертых контейнерах значками на панели рядом с подсказкой.
+config.section.info,Доп. сведения
+config.info_enhance,Доп. сведения о предметах
+config.info_enhance.tip,"Добавляет в подсказки сведения о предметах из списка ниже. При отключении всё скрывается, выбор отдельных пунктов сохраняется."
+config.tooltip_formatting,Форматирование текста подсказок
+config.tooltip_formatting.tip,"Понятные ценовые подписи, перенос описаний, примечания калорий и интервал блока цены. Отключите, чтобы сохранить исходную раскладку текста."
+config.type_badge,Плашки категорий
+config.type_badge.tip,Показывает категории предмета над подсказкой.
+config.type_badge_muted,Приглушённые цвета плашек
+config.type_badge_muted.tip,Плашки кроме контрабанды используют тёмный фон подсказки и осветлённый цвет категории; контрабанда сохраняет красный предупреждающий текст.
+config.item_name_display,Отображение названий предметов
+config.item_name_display.tip,"Показывает название внизу значков предметов. «Контейнеры и машины» подписывает все контейнеры и машины, с пользовательским названием, если оно есть. «Переименованные предметы» подписывает только предметы с пользовательским названием."
+config.item_name_display.off,Выкл.
+config.item_name_display.containers,Контейнеры и машины
+config.item_name_display.renamed,Переименованные предметы
+config.container_name_bg,Фон подписей
+config.container_name_bg.tip,Непрозрачность чёрного фона под подписью (0–100%); при 0 фона нет.
+config.slider_percent,{0}%
+config.customer_alert,Оповещение о приходе клиента
+config.customer_alert.tip,"Сообщает о приходе разыскиваемого или аугментированного клиента и показывает фактическую награду, настоящее имя, а также награду за убийство и угрозу аугментации."
+config.customer_history,История разговора при наведении
+config.customer_history.tip,При наведении на клиента в магазине показывается разговор текущего визита.
+config.section.interaction,Управление
+config.double_click_inspect,Осмотр двойным щелчком
+config.double_click_inspect.tip,"Двойной щелчок по предмету для оценки или проверки подлинности (инъекторы, сигареты, продуктовые карточки и т. п.) открывает панель осмотра без увеличительного стекла. Пока панель открыта, двойной щелчок по другому предмету сразу переключает на него."
+config.double_click_scan,Сканирование двойным щелчком
+config.double_click_scan.tip,"Если у вас есть нужное устройство, двойной щелчок по предмету открывает панель сканирования: сканер воды или химический сканер для жидкостей и химикатов, рентгеновский сканер для запертых ящиков снабжения, анализатор растений для семян. Предметы, которые и так открываются или используются двойным щелчком, сохраняют это действие; без устройства действует исходный двойной щелчок."
+config.context_menu_scan,Добавить сканирование в контекстное меню
+config.context_menu_scan.tip,"Если у вас есть нужное устройство, в меню правого щелчка по предмету появляется пункт «Отсканировать», открывающий панель сканирования: сканер воды или химический сканер для жидкостей и химикатов, рентгеновский сканер для запертых ящиков снабжения, анализатор растений для семян."
+config.expand_key,Клавиша раскрытия
+config.expand_key.tip,"Удерживайте эту клавишу, чтобы показать неактивные компоненты, свёрнутые в таблицах состава растений."
+config.expand_key.ctrl,Ctrl
+config.expand_key.shift,Shift
+config.expand_key.alt,Alt
+config.section.reveal,Раскрытие
+config.hidden_truth,Раскрывать маскировку и реальные параметры
+config.hidden_truth.tip,"Показывает, что скрывается за замаскированными особенностями, реальную прочность и реальную чистоту слитков и химикатов. Сразу выдаёт подделки и сильно упрощает оценку."
+config.liquid_analysis,Анализ состава жидкостей
+config.liquid_analysis.tip,"Показывает чистоту и примеси воды, а также состав и действие лекарств и химикатов. «При наличии сканера» показывает это только при наличии сканера воды или химического сканера."
+config.color_liquid_components,Раскрашивать примеси по типу
+config.color_liquid_components.tip,"Окрашивает каждый тип примесей в таблице состава в свой цвет: химические загрязнители, органические отходы, микробы, минералы, тяжёлые металлы и физические загрязнители. Выключено — все белые."
+config.liquid_analysis.off,Выкл.
+config.liquid_analysis.scanner,При наличии сканера
+config.liquid_analysis.always,Всегда
+config.water_advice,Советы по очистке
+config.water_advice.tip,"На ёмкости с водой показывает, насколько каждый способ очистки (фильтры, машины) повысит чистоту. Если «Анализ состава жидкостей» стоит на «При наличии сканера», здесь тоже нужен сканер."
+config.scratcher,Предпросмотр скретч-карты
+config.scratcher.tip,"До стирания показывает, выиграет ли скретч-карта, сколько и насколько она уже стёрта. Только чтение по правилам игры — карта за вас не стирается."
+config.sealed_box,Просвечивание запертых контейнеров
+config.sealed_box.tip,"Показывает содержимое и общую стоимость запертых контейнеров (сейфы, оружейные шкафы) до вскрытия. Это позволяет обойти замок."
+config.result_prefill,Предзаполнение результата осмотра
+config.result_prefill.tip,"При открытии панели осмотра отмечает реальные дефекты подделки и подставляет цену оценки — реальную стоимость или лучшее предложение, как выбрано ниже. Только заполняет поля, ничего не отправляет и не подтверждает."
+config.result_prefill_source,Подставляемая цена
+config.result_prefill_source.tip,Реальная стоимость = настоящая стоимость по игре; лучшее предложение = верхняя граница идеального диапазона из подсказки.
+config.result_prefill_source.true,Реальная стоимость
+config.result_prefill_source.best,Лучшее предложение
+machine.eta,До завершения примерно {0} дн.
+machine.eta_battery," (батареи хватит на {0} дн.)"
+machine.eta_battery_short," (батареи не хватит)"
+machine.eta_water," (воды хватит на {0} дн.)"
+machine.paused,Пауза: {0}
+machine.paused_label,Пауза
+hydro.water,"Вода: {0}{3} ({2}{3}/день), {1} дн."
+hydro.water_short,"Вода: {0}{3} ({2}{3}/день), <1 дн."
+hydro.status_label,Статус: 
+hydro.eta_paused,"прибл. {0} дн., {1}"
+hydro.eta_growing,"прибл. {0} дн., {1}"
+hydro.progress,{0}/{1} ({2} дн.)
+hydro.label,Вода
+hydro.value,{0}{1} ({2}{1}/дн.)
+hydro.left,{0} дн.
+hydro.left_short,<1 дн.
+purifier.estimate,"Ожидаемое удаление этой ночью: {0} мл"
+purifier.tier," ({0} → {1})"
+purifier.label,Очистка
+purifier.rate,{0} мл/сегодня ночью
+hydro.purify_rank,Ген очистки ур. {0}
+ras.purify_fish,Поглощают: {0} рыб
+fridge.no_effect,", без эффекта: {0}"
+fridge.label,Холодильник
+wine.rack,"Выдерживается бутылок: {0}, +{1} дн./день"
+wine.rack_idle,", не выдерживается: {0}"
+wine.rack_label,Выдержка
+inner.line,{0}: {1}
+inner.input_slot,Входной слот
+inner.output_slot,Выходной слот
+inner.printer_material_slot,Отсек материалов
+inner.printer_product_slot,Отсек изделий
+inner.durability,{0}: прочность {1}/{2}
+inner.faked," (указано {0})"
+inner.filter_spent," (израсходован, больше не фильтрует)"
+filter.label,Фильтр
+filter.lowest,"×{0}, мин. {1}/{2}"
+inner.filters,Фильтры ×{0}: минимальная прочность {1}/{2}
+inner.spent_count,", израсходовано: {0}"
+inner.liquid,{0}/{1}{2}
+inner.liquid_empty,пусто
+inner.liquid_purity,", {0}% {1}"
+unit.ml," мл"
+unit.liter," л"
+inner.uses,{0}: осталось использований {1}/{2}
+inner.tools,"Инструменты ×{0}, минимум: {1} ({2}/{3})"
+inner.energy,{0}: энергия {1}/{2}
+learning.progress,Обучение: {0}
+learning.stat,{0} {1}/{2}
+learning.stat_full,{0} — максимум
+learning.machine,Обучение: {0}/{1} {1|модуль|модуля|модулей}
+learning.nights,({0} {0|день|дня|дней})
+recharger.label,Зарядка
+module.days_faster,", примерно на {0} дн. быстрее"
+module.output,{0} мл в день
+module.evaporate,{0} мл испарения за ночь
+module.recover,{0}% дистиллята возвращается
+module.attract,{0}% привлекательности
+module.bargain,{0}% успеха торга
+module.theft,{0}% защиты от краж
+module.aging_next,ещё +{0}% — скорость выдержки +1
+module.print_quality,{0} качества печати
+module.success,{0}% шанса успеха
+module.harvest,{0}% урожая
+module.water_next,ещё +{0}% — будет {1}
+module.water_top,производит: {0}
+module.purifier_next,ещё +{0}% — очистка до: {1}
+module.purifier_full,ещё +{0}% — чистота 100%
+module.purifier_top,очистка до 100%
+module.furnace_gain,Чистота {0}
+module.furnace_step,ещё +{0}% — чистота {1}
+module.furnace_result,слиток ×{0}: {1}/10
+module.furnace_cap,предел чистоты
+module.furnace_basic,обычный флюс расходуется
+module.furnace_junk,переработка без бонуса качества
+history.empty,Разговора ещё не было.
+history.earlier,…ещё {0} {0|реплика|реплики|реплик}
+history.unknown,Клиент
+appraisal.minimum_adjustment,Поправка до минимальной стоимости
+meat.source,Происхождение мяса: {0}
+meat.unknown,Неизвестно
+meat.fish,Рыба
+meat.prion,Прионы: {0}
+meat.prion.present,Есть
+meat.prion.unmarked,Нет отметки
+berry.wine_value,Вклад в вино: {0}
+config.info_price_modifiers,Модификаторы цены
+config.info_price_modifiers.tip,"Показывает влияние меток, состояния предмета и событий магазина на цену."
+config.info_black_market,Наценка чёрного рынка
+config.info_black_market.tip,Показывает наценку чёрного рынка для контрабанды.
+config.info_lottery,Лотерея
+config.info_lottery.tip,"Показывает выпавшие номера, совпадения и призы. Не меняет результаты розыгрыша."
+config.info_brewing,Виноделие
+config.info_brewing.tip,"Показывает вклад ингредиентов, действие дрожжей, оценку и состав вина, сведения о брожении и выдержке."
+config.info_meat,Мясо
+config.info_meat.tip,Показывает вид животного и отметки о прионах.
+config.info_machines,Машины
+config.info_machines.tip,"Показывает эффекты модулей, обучение, оставшиеся дни, расход воды, охлаждение, выдержку, очистку и ожидаемый результат плавки."
+config.info_batteries,Батареи
+config.info_batteries.tip,"Показывает заряд и оставшиеся дни, включая каждую батарею в зарядном устройстве."
+config.info_progress_bar,Цветные индикаторы прогресса
+config.info_progress_bar.tip,Заменяет текстовые индикаторы цветными блоками. Отключите для исходного вида.
+config.info_manufacturer_inline,Компания в строке названия
+config.info_manufacturer_inline.tip,Переносит название компании вправо в строку с названием предмета.
+config.info_container_units,Оптимизация единиц жидкости
+config.info_container_units.tip,Объём свыше 3 л показывается в литрах (до 3 л — в мл). Количества компонентов всегда в мл со значащими цифрами; доли следов сохраняют 3 значащие цифры.
+config.gene_rank_arabic,Арабские цифры уровней генов
+config.gene_rank_arabic.tip,"Показывает уровни признаков семян арабскими цифрами (1, 2, 3...). Если выключено, возвращаются римские цифры оригинальной игры (I, II, III...)."
+list.zone_sep,; 
+module.special_label,Особое
+module.learn_chance,{0}% шанс за ночь получить «Самообучающийся»
+module.learn_extra,{0} доп. шагов обучения в день
+animal.next_stage,Следующая стадия: {0} (осталось {1} дн. роста)
+exchange.tonight,Ожидается этой ночью: {0}
+exchange.reputation,Репутация на чёрном рынке
+exchange.module,"Редко: {0}, иначе без награды"
+exchange.keycards,Два случайных выбора из: {0}
+exchange.low_purity,Без награды (низкая чистота пыли грёз)
+exchange.unknown,Награда определяется при обмене
+exchange.candidates,Случайно из: {0}
+exchange.module_candidates,{0}; редко: {1}
+animal.genes_trait,Признак
+animal.genes_expression,Экспрессия
+animal.genes_alleles,Аллели
+animal.genes_grade,Оценка
+luck.current,Текущая удача: {0}
+luck.base,Базовая удача: {0}
+luck.coin,Монета при себе: {0}
+luck.liquid,{0}: {1} (осталось {2} дн.)

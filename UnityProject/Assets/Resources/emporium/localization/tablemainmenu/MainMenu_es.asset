@@ -1,0 +1,841 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: MainMenu_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 8595c3b31db4e4b4197c997175a5415c, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 8322904584142454788
+  m_TableData:
+  - m_Id: 128057131008
+    m_Localized: Partida nueva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457938636800
+    m_Localized: Añadir a lista de deseados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744927363072
+    m_Localized: ¡La beta de prueba de Probably Stolen ha llegado a su fin! Gracias por probar el juego. La demo oficial con la última versión del juego ya está disponible en Steam. Tus archivos de guardado se transferirán automáticamente a la demo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173684744956723200
+    m_Localized: Jugar a la demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014241841152
+    m_Localized: Desactivar ordenar menú con clic derecho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395584
+    m_Localized: Activar rotación automática al ordenar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395585
+    m_Localized: Un solo clic para interactuar con objeto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395586
+    m_Localized: Activar objeto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395587
+    m_Localized: Controles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395588
+    m_Localized: Rotar objeto en sentido horario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395589
+    m_Localized: Rotar objeto en sentido antihorario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395590
+    m_Localized: Voltear objeto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395591
+    m_Localized: Reiniciar orientación
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395592
+    m_Localized: Tirar objeto sobre el que está el puntero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395593
+    m_Localized: Abrir menú de ordenar (con el puntero sobre una casilla vacía)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395594
+    m_Localized: Transferir al inventario (mantener + clic)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395595
+    m_Localized: Transferir al expositor (mantener + clic)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395596
+    m_Localized: Transferir al depósito de almacenaje (mantener + clic)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395597
+    m_Localized: Fijar/Desfijar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395598
+    m_Localized: Abrir opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395599
+    m_Localized: Recordatorio de controles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395600
+    m_Localized: Diálogo automático
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395601
+    m_Localized: Espacios en caja de herramientas {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395602
+    m_Localized: Nada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395603
+    m_Localized: Pulsa una tecla…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395604
+    m_Localized: Pulsa una tecla o pulsa Escape para cancelar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395605
+    m_Localized: '{0} no se puede usar. Pulsa otra tecla.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181560014275395606
+    m_Localized: '{0} ya está en uso para {1}. Pulsa otra tecla.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959590076416
+    m_Localized: Especialización
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436544
+    m_Localized: Empiezas con
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436545
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436546
+    m_Localized: La introducción no está disponible para esta especialización.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436547
+    m_Localized: Escoge rasgos negativos para conseguir puntos que gastar en rasgos positivos. Hay rasgos mutuamente excluyentes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436548
+    m_Localized: 'Puntos de rasgos disponibles: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436549
+    m_Localized: 'Rasgos: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436550
+    m_Localized: Dificultad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436551
+    m_Localized: Precios inflados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436552
+    m_Localized: Para jugar sin preocupaciones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436553
+    m_Localized: Con margen de beneficios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436554
+    m_Localized: Dificultad normal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436555
+    m_Localized: Beneficios escasos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436556
+    m_Localized: Modo difícil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436557
+    m_Localized: Tinta roja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436558
+    m_Localized: Para quienes busquen un desafío.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436559
+    m_Localized: Los precios de venta no tienen margen de beneficio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436560
+    m_Localized: Los precios de venta tienen un margen del {0} %.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436561
+    m_Localized: El alquiler aumenta un {0} % cada semana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959619436562
+    m_Localized: Tarifas de servicios nocturnos normales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630848
+    m_Localized: Tarifas de servicios nocturnos altas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630849
+    m_Localized: Tarifas de servicios nocturnos bajas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630850
+    m_Localized: La licencia comercial cuesta {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630851
+    m_Localized: Precios de mejora normales.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630852
+    m_Localized: Las mejoras cuestan un {0} % más.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630853
+    m_Localized: Las mejoras cuestan un {0} % menos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630854
+    m_Localized: Margen de beneficio de proveedores normal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630855
+    m_Localized: Margen de beneficio de proveedores alto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630856
+    m_Localized: Margen de beneficio de proveedores bajo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630857
+    m_Localized: Precio del local normal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630858
+    m_Localized: Precio del local alto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630859
+    m_Localized: Precio del local bajo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630860
+    m_Localized: Obtención de reputación ×{0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630861
+    m_Localized: Pérdida de reputación ×{0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630862
+    m_Localized: Se obtiene favor con Wild de forma normal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630863
+    m_Localized: Se obtiene más favor con Wild.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181875959623630864
+    m_Localized: Se obtiene menos favor con Wild.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786102989209600
+    m_Localized: Ambiente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764032
+    m_Localized: Abrir menú de comercio automáticamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182786103022764033
+    m_Localized: Un solo clic para confirmar artículo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27025948327936
+    m_Localized: Créditos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26937549176832
+    m_Localized: Cargar partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27007459835904
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1393761192820736
+    m_Localized: Salir del juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414435592519680
+    m_Localized: ¡Únete a nuestro Discord!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415424718454784
+    m_Localized: Agradecimientos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415526723928064
+    m_Localized: Colaboradores de la comunidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415597255344128
+    m_Localized: Cerrar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1415661109428224
+    m_Localized: ¡Gracias a todos los miembros de la comunidad por su apoyo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418489995509760
+    m_Localized: Dirección de desarrollo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1418544991223808
+    m_Localized: Diseño artístico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1422978999697408
+    m_Localized: Sistemas de juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423044611194880
+    m_Localized: Llamar automáticamente al próximo cliente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423139700260864
+    m_Localized: Sonido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423175637057536
+    m_Localized: Pantalla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423212513378304
+    m_Localized: La resolución de pantalla no es completamente compatible con la pantalla completa. El juego se mostrará con bordes exteriores negros mientras esté en pantalla completa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423323075231744
+    m_Localized: Resolución
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423377332748288
+    m_Localized: Pantalla completa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423449676103680
+    m_Localized: Diálogos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423491417817088
+    m_Localized: Velocidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423542080815104
+    m_Localized: Volumen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1423659152228352
+    m_Localized: Aplicar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424598437249024
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425290828759040
+    m_Localized: ¡Te damos la bienvenida a los niveles inferiores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1425310856560640
+    m_Localized: Los comentarios de la comunidad son imprescindibles para nosotros. Únete a nuestro Discord, participa en la comunidad y ayúdanos a darle forma al desarrollo de Probably Stolen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427776507527168
+    m_Localized: Hola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427886381514752
+    m_Localized: Modo difícil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1427924532903936
+    m_Localized: Saltar introducción
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1428966523846656
+    m_Localized: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1791467572740096
+    m_Localized: Cargando…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49680125533143040
+    m_Localized: Modo infinito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63469971271630848
+    m_Localized: Diálogo automático
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68914510270611456
+    m_Localized: Música
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94217292363907072
+    m_Localized: Dirección artística
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260403609419776
+    m_Localized: Diseño de sonido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260471221600256
+    m_Localized: Composición musical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262198301769728
+    m_Localized: Queremos enviar un agradecimiento especial a los desarrolladores de todos los juegos que han inspirado Probably Stolen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95262222729396224
+    m_Localized: Efectos de sonido adicionales cortesía de Zapsplat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264139253694464
+    m_Localized: Cargar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264686660698112
+    m_Localized: Sí
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95264698710933504
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992209629954048
+    m_Localized: ¡Mil gracias a Bowen Peng por sus aportaciones técnicas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98258866009849856
+    m_Localized: Diseño de personajes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99992394410016768
+    m_Localized: Equipo de desarrollo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041827549593600
+    m_Localized: Rasgos iniciales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101041931161485312
+    m_Localized: 'Rasgos disponibles:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101042014783324160
+    m_Localized: 'Rasgos escogidos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053347759177728
+    m_Localized: Sáltate toda la introducción y todos los clientes del tutorial. Desbloquea todo el contenido inmediatamente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053623253647360
+    m_Localized: Desactiva ciertos eventos y clientes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112030429184
+    m_Localized: 'Puntos de rasgo utilizados: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101105112034623488
+    m_Localized: 'Rasgos totales: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103629527129571328
+    m_Localized: No disponible en la demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119563457959608320
+    m_Localized: Enviar opiniones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892356329472
+    m_Localized: Ayúdanos a mejorar el juego compartiendo datos de juego de forma anónima.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119996892381495296
+    m_Localized: Compartir datos de juego para mejorar la experiencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123860245336080384
+    m_Localized: Activar efecto máquina de escribir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125321176029118464
+    m_Localized: No se pueden escoger rasgos en la primera partida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125426057079472128
+    m_Localized: ¿Seguro que quieres saltarte la introducción? Si juegas por primera vez, te recomendamos que juegues el tutorial.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128916364517490688
+    m_Localized: ¿Seguro que quieres empezar una partida con esta especialización? Si juegas por primera vez, te recomendamos que escojas Aprendiz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137315070048518144
+    m_Localized: Confirmar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328426020864
+    m_Localized: Opcional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137334328459575296
+    m_Localized: o
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148594413932429312
+    m_Localized: El idioma en el que empezaste la partida ({0}) es distinto al idioma actual ({1}) y es posible que algunos textos no se muestren correctamente. ¿Continuar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156521139916292096
+    m_Localized: Modificaciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171368485997035520
+    m_Localized: Seleccionar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182605126153584640
+    m_Localized: Diseño de la interfaz de usuario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101053534732861440
+    m_Localized: "- Sin margen minorista al vender\n- Empiezas sin periodo de gracia del alquiler\n- Algunos servicios cuestan más\n- El alquiler sube el doble"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202098683904
+    m_Localized: Limitar los fotogramas por segundo al minimizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044032
+    m_Localized: Despachar clientes automáticamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044033
+    m_Localized: Llamar a Seguridad automáticamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167337202128044034
+    m_Localized: Llamar al siguiente cliente automáticamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709276405760
+    m_Localized: Mostrar nombre del mod en las descripciones de objetos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186027709318348800
+    m_Localized: Mostrar nombre del mod en la grabadora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693632
+    m_Localized: Cargar la última
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693633
+    m_Localized: Cancelar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693634
+    m_Localized: Borrar partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693635
+    m_Localized: No se encontró el archivo de guardado. Se ha quitado la entrada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693636
+    m_Localized: 'Versión: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693637
+    m_Localized: '{0} (copia)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693638
+    m_Localized: No se pudo copiar la partida guardada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693639
+    m_Localized: No se encontró ningún archivo de guardado nuevo en la carpeta de partidas guardadas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693640
+    m_Localized: '{0:plural:Se ha añadido {} archivo de guardado|Se han añadido {} archivos de guardado} a la lista.'
+    m_Metadata:
+      m_Items:
+      - rid: 8322904584142454788
+  - m_Id: 187368377626693641
+    m_Localized: Días guardados por partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187368377626693642
+    m_Localized: 'Bloqueada por la ventaja: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189602199839227904
+    m_Localized: Enviar el periódico al cubo de basura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189604507520122880
+    m_Localized: Estás a punto de cargar una partida guardada de la demo. La partida es compatible, pero <color=#CC4849><b>te perderás las historias de los nuevos personajes y otro contenido nuevo</b></color>, y el juego <color=#CC4849><b>podría ser inestable</b></color>. Te <color=#CC4849><b>recomendamos encarecidamente empezar una partida nueva</b></color>. ¿Cargar de todos modos?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189909383209533440
+    m_Localized: Límite de fotogramas por segundo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464770031616
+    m_Localized: Sincronización vertical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190254464807780352
+    m_Localized: Llamar al siguiente cliente (timbre)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190649068024328192
+    m_Localized: Escape (tecla alternativa)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611836174336
+    m_Localized: Localización
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505984
+    m_Localized: Dirección y gestión del proyecto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505985
+    m_Localized: Gestión de la comunidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505986
+    m_Localized: Mascota del equipo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505987
+    m_Localized: Publicación
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505988
+    m_Localized: Dirección ejecutiva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505989
+    m_Localized: Dirección financiera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505990
+    m_Localized: Asistencia ejecutiva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505991
+    m_Localized: Dirección de desarrollo de negocio y licencias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505992
+    m_Localized: Dirección de ventas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505993
+    m_Localized: Dirección de publicación
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505994
+    m_Localized: Producción ejecutiva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505995
+    m_Localized: Producción
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505996
+    m_Localized: Producción asociada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505997
+    m_Localized: Marketing (sénior)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505998
+    m_Localized: Marketing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886505999
+    m_Localized: Dirección de influencers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506000
+    m_Localized: Gestión de influencers (sénior)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506001
+    m_Localized: Gestión de la comunidad (sénior)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506002
+    m_Localized: Marketing en redes sociales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506003
+    m_Localized: Captación de usuarios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506004
+    m_Localized: Producción de ports
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506005
+    m_Localized: Producción de LiveOps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506006
+    m_Localized: Dirección de servicios de desarrollo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506007
+    m_Localized: Gestión de lanzamientos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506008
+    m_Localized: Gestión de la localización
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506009
+    m_Localized: Gestión de Discord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506010
+    m_Localized: Gestión de atención al cliente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506011
+    m_Localized: Gestión de control de calidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506012
+    m_Localized: Dirección de producción audiovisual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506013
+    m_Localized: Gestión de proyectos audiovisuales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506014
+    m_Localized: Producción de tráileres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506015
+    m_Localized: Edición de vídeo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506016
+    m_Localized: Diseño gráfico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506017
+    m_Localized: Dirección de recursos humanos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506018
+    m_Localized: Administración de sistemas / DevOps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506019
+    m_Localized: Desactivar personajes inspirados en la cultura pop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506020
+    m_Localized: Mover lo comprado al inventario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191034611886506021
+    m_Localized: Tamaño de los bocadillos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762898788352
+    m_Localized: La última partida guardada de {0} estaba dañada (el ordenador se apagó mientras se escribía) y se ha apartado. La partida continúa desde el día {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342784
+    m_Localized: La partida guardada de {0} estaba dañada (el ordenador se apagó mientras se escribía) y no queda ningún día anterior. Sus archivos se han apartado en la carpeta de partidas guardadas, no se han borrado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342785
+    m_Localized: Este archivo de guardado está dañado (el ordenador se apagó mientras se escribía) y no se puede cargar. Se ha apartado en la carpeta de partidas guardadas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342786
+    m_Localized: Restaurar la pantalla tras Alt-Tab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342787
+    m_Localized: Menú del objeto, cancelar (clic derecho)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191873762932342788
+    m_Localized: Voltear objeto (tecla alternativa)
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 8322904584142454788
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 089094f68baa9902

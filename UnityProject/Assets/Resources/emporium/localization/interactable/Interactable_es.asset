@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Interactable_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 1f7b524d27c197c43ba7af051339d202, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 292150886400
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 513538834432
+    m_Localized: Es demasiado tarde para salir…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834927378432
+    m_Localized: ¡No puedes irte de la tienda hasta que haya acabado el día!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 972131450880
+    m_Localized: ¡No puedes irte de la tienda durante una represalia!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1160036270080
+    m_Localized: ¡No puedes irte de la tienda con heridas tan graves!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10956307218432
+    m_Localized: Fuente expendedora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10909502980096
+    m_Localized: Máquina expendedora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55379932566306816
+    m_Localized: Visor de clientela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10070226944000
+    m_Localized: Abrir la interfaz del teléfono
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468416
+    m_Localized: No te sientes capaz de salir por culpa de la agorafobia. Quédate en la tienda durante {0} noches y recupérate antes de volver a salir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89648645729468417
+    m_Localized: No te sientes capaz de salir por culpa de la agorafobia. Seguro que mañana te sentirás mejor.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

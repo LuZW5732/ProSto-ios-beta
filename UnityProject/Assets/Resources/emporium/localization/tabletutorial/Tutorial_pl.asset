@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_pl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 00e2e9faf693a7b4ebe7f85dd0053af1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: Otwórz roletę
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: Wezwij następnego klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: Kliknij przedmiot PPM, by wyświetlić menu interakcji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: '[Przeczytaj] Notatka'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: Zamknij sklep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: Kliknij przedmiot dwukrotnie, by wejść z nim w interakcję
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: Przeciągnij notatkę do podręcznika, by ją zapisać
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: 'Przenieś szybko przedmiot: CTRL + kliknięcie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: Przejrzyj dialog w rejestratorze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: Schowaj notatnik do teczki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: Użyj Ctrl + kliknięcie lub przeciągnij przedmiot do KUPIENIA, by przenieść go na ladę negocjacyjną.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: Otwórz tablet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: Użyj Ctrl + kliknięcie lub przeciągnij przedmiot do SPRZEDAŻY, by przenieść go na ladę negocjacyjną.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: Idź spać
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: Przenieś WSZYSTKO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[Barter]: przesuń pożądany przedmiot na ladę'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: Każdego wieczora można włączyć/wyłączyć usługi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: Opuść sklep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: Przed podniesieniem rolety umieść wewnątrz wystawy towar, by przyciągnąć kupujących.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: Sprawdź interfejs klientów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: Sprawdź reputację
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: Otwórz interfejs negocjacji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: Za pomocą interfejsu negocjacji możesz zażądać więcej lub zaoferować lepsze ceny klientom, co wpływa na ich budżet i ilość zdobywanej podczas handlu reputacji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: Naciśnij klawisz spacji, by przewinąć dialog po przeczytaniu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: Przytrzymaj LPM i przeciągnij, by wybrać wiele przedmiotów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: Kliknij PPM puste miejsce w wyposażeniu, by otworzyć menu sortowania.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

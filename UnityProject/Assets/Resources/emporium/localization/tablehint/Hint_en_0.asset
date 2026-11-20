@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Hint_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 6e81ea0c9d8aba746a2d484dabb0a7ae, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 79625502720
+    m_Localized: Telephone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104598388736
+    m_Localized: Call your contacts using the phone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125435691008
+    m_Localized: Display Case
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146742755328
+    m_Localized: Place items here to attract interested customers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188882927616
+    m_Localized: Shows the number of customers left in the line for the day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166976077824
+    m_Localized: Customers Remaining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202543775744
+    m_Localized: Negotiation Counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 256063094784
+    m_Localized: Place the item you want to buy or sell here and open the Negotiation Interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292633231360
+    m_Localized: Press O Letter Key to Hide/Show Hint Overlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352905379840
+    m_Localized: You will not be able to end a day if there are important people still in line
+    m_Metadata:
+      m_Items: []
+  - m_Id: 309112651776
+    m_Localized: Start/End Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411323645952
+    m_Localized: Call next customer forward or dismiss the current customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388569546752
+    m_Localized: Call next customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465782489088
+    m_Localized: Items placed on the Negotiation Counter can be sold/bought via the Negotiation Interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432559407104
+    m_Localized: Negotiation Interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 511542345728
+    m_Localized: Review past dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486678511616
+    m_Localized: Conversation Recorder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523219288064
+    m_Localized: Sleeping Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559659401216
+    m_Localized: Sleep to End Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 576273039360
+    m_Localized: The Game will AUTOSAVE after sleeping.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 594551816192
+    m_Localized: Close Overlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1083674771456
+    m_Localized: Keyboard Shortcuts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1803182456832
+    m_Localized: Quick Transfer to Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1841333846016
+    m_Localized: Quick Transfer to Display Case
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1862678659072
+    m_Localized: Quick Transfer to Counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1883302051840
+    m_Localized: Rotate Item (Left)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1916290252800
+    m_Localized: Rotate Item (Right)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1944815714304
+    m_Localized: Close UI/ Open Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1978437255168
+    m_Localized: Skip Dialogue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72260938283925504
+    m_Localized: Flip Item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96180185099714560
+    m_Localized: Click
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96180234504421376
+    m_Localized: Dragging Item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125495997362913280
+    m_Localized: Reputation Interface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125495997396467712
+    m_Localized: Check your reputation with the factions
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

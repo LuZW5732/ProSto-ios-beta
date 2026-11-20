@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 00168f6b881b17d49a52d88adb03554e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: 打开卷帘门
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: 呼叫下一位顾客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: 右键点击物品以显示交互菜单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: '[阅读]便签'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: 关闭店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: 也可以双击物品进行交互
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: 将便签拖入手册以将其保存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: 使用 CTRL + 点击 快速转移物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: 使用录音机回顾对话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: 将笔记本存入档案箱内
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: Ctrl+点击，或拖拽你想要购买的物品，将其移至谈判柜台
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: 打开平板电脑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: Ctrl+点击，或拖拽你想要出售的物品，将其移至谈判柜台
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: 睡觉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: 全部转移
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[以物易物]：将所需物品移至柜台'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: 每晚均可开启或关闭各项服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: 离开店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: 在打开卷帘门之前，请将商品放入展示柜中以吸引特定买家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: 查看顾客群体界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: 查看你的声望
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: 打开议价界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: 使用议价界面，你可以向顾客索要更高的要价或提供更好的价格，这会影响他们的预算以及交易时获取的声望数额。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: 准备好后，按空格键推进对话
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: 按住鼠标左键拖动，即可框选多个物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: 右键点击物品栏中的空槽位，即可打开排序菜单。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

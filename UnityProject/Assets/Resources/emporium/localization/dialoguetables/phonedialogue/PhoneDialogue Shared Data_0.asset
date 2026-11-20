@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PhoneDialogue Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: PhoneDialogue
+  m_TableCollectionNameGuidString: 66a9bddb98cef014eb6a833108c418a3
+  m_Entries:
+  - m_Id: 311964778496
+    m_Key: end_call
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525270302720
+    m_Key: browse_wild_service
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014057713664
+    m_Key: wild1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1030969147392
+    m_Key: wild2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212431515648
+    m_Key: wild3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435664957440
+    m_Key: goodbye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882173120512
+    m_Key: red_imp_rep_intro1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956194197504
+    m_Key: red_imp_rep_intro2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3982169522176
+    m_Key: red_imp_rep_intro3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3990079979520
+    m_Key: red_imp_rep_intro4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996421767168
+    m_Key: red_imp_rep_intro5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006756532224
+    m_Key: red_imp_rep_intro6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5439690162176
+    m_Key: red_imp_rep2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5445696405504
+    m_Key: red_imp_rep3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5773825196032
+    m_Key: red_imp_rep4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7844754407424
+    m_Key: red_imp_out1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7886064107520
+    m_Key: red_imp_out2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7957669265408
+    m_Key: red_imp_out3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081138988924928
+    m_Key: red_imp_order1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896448
+    m_Key: red_imp_order2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896449
+    m_Key: chem_order1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896450
+    m_Key: chem_order2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896451
+    m_Key: mining_order1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896452
+    m_Key: mining_order2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896453
+    m_Key: pharma_order1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896454
+    m_Key: pharma_order2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896456
+    m_Key: ashish_intro1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896457
+    m_Key: ashish_intro2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896458
+    m_Key: ashish_intro3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896459
+    m_Key: ashish_intro4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896460
+    m_Key: ashish_intro5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896461
+    m_Key: ashish_intro6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896462
+    m_Key: ashish_regular1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896463
+    m_Key: ashish_regular2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896464
+    m_Key: ashish_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896465
+    m_Key: ashish_cooldown1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896466
+    m_Key: ashish_cooldown2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896467
+    m_Key: ashish_cooldown3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896469
+    m_Key: caulson_intro1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896470
+    m_Key: caulson_intro2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896471
+    m_Key: caulson_intro3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896472
+    m_Key: caulson_intro4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896473
+    m_Key: caulson_intro5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896474
+    m_Key: caulson_intro6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896475
+    m_Key: caulson_intro7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896476
+    m_Key: caulson_regular1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896477
+    m_Key: caulson_regular2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896478
+    m_Key: caulson_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896479
+    m_Key: caulson_cooldown1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896480
+    m_Key: caulson_cooldown2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896481
+    m_Key: caulson_cooldown3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896482
+    m_Key: caulson_cooldown4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896483
+    m_Key: caulson_cooldown5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896485
+    m_Key: dale_intro1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896486
+    m_Key: dale_intro2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896487
+    m_Key: dale_intro3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896488
+    m_Key: dale_intro4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896489
+    m_Key: dale_intro5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896490
+    m_Key: dale_intro6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896491
+    m_Key: dale_intro7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896492
+    m_Key: dale_intro8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896493
+    m_Key: dale_intro9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896494
+    m_Key: dale_regular1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896495
+    m_Key: dale_regular2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896496
+    m_Key: dale_regular3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896497
+    m_Key: dale_ready
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896498
+    m_Key: dale_cooldown1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896499
+    m_Key: dale_cooldown2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896500
+    m_Key: dale_cooldown3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896501
+    m_Key: generic_cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896502
+    m_Key: odin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896503
+    m_Key: odin_blacklisted1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896504
+    m_Key: odin_blacklisted2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896505
+    m_Key: odin_blacklisted3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896506
+    m_Key: odin_crackdown1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896507
+    m_Key: odin_crackdown2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896508
+    m_Key: odin_yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896509
+    m_Key: odin_no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896510
+    m_Key: odin_regular1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090752
+    m_Key: odin_hold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090753
+    m_Key: odin_dropby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090754
+    m_Key: odin_goodbye
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6171895735871340623
+  references:
+    version: 2
+    RefIds:
+    - rid: 6171895735871340623
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1748456989889

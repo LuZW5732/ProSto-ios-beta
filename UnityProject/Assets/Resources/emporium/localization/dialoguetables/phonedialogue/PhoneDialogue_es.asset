@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PhoneDialogue_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 59af263a7f048994e8e04d7360d88855, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 311964778496
+    m_Localized: '[Colgar]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 525270302720
+    m_Localized: '[Consultar servicios de Wild]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1014057713664
+    m_Localized: Hola, ha llamado al despacho de Wild…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1030969147392
+    m_Localized: ¿En qué puedo ayudarle?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1212431515648
+    m_Localized: Estos son nuestros servicios.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435664957440
+    m_Localized: ¡Adiós!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882173120512
+    m_Localized: Ah, sí, el señor Wild me informó de que llamaría.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956194197504
+    m_Localized: Seré su contacto en El Diablillo Rojo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3982169522176
+    m_Localized: Llame a este número para hacer pedidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3990079979520
+    m_Localized: y le mandaremos un repartidor al día siguiente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3996421767168
+    m_Localized: Para empezar con buen pie esta relación comercial,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4006756532224
+    m_Localized: le mandaremos mañana una muestra gratuita.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5439690162176
+    m_Localized: Hola, está hablando con el comercial de El Diablillo Rojo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5445696405504
+    m_Localized: ¿Desea hacer un pedido?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5773825196032
+    m_Localized: Muy bien, lo dejo registrado en el sistema y mañana se lo enviarán.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7844754407424
+    m_Localized: Lamento comunicarle que ahora mismo no quedan existencias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7957669265408
+    m_Localized: Llámenos entonces.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7886064107520
+    m_Localized: El próximo lote debería estar listo dentro de {0:plural:{} día|{} días}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081138988924928
+    m_Localized: '[Pedir {0:plural:{} botellín|{} botellines} de cerveza (entrega en un día)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896448
+    m_Localized: '[Pedir {0:plural:{} botellín|{} botellines} de cerveza (entrega dentro de {1:plural:{} día|{} días})]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896449
+    m_Localized: '[Pedir {0:plural:{} vial de onírica|{} viales de onírica} (entrega en un día)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896450
+    m_Localized: '[Pedir {0:plural:{} vial de onírica|{} viales de onírica} (entrega dentro de {1:plural:{} día|{} días})]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896451
+    m_Localized: '[Pedir {0:plural:{} mineral|{} minerales} (entrega en un día)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896452
+    m_Localized: '[Pedir {0:plural:{} mineral|{} minerales} (entrega dentro de {1:plural:{} día|{} días})]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896453
+    m_Localized: '[Pedir {0:plural:{} inyector|{} inyectores} de Oxyplús (entrega en un día)]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896454
+    m_Localized: '[Pedir {0:plural:{} inyector|{} inyectores} de Oxyplús (entrega dentro de {1:plural:{} día|{} días})]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896456
+    m_Localized: Debes de ser el contacto de Joe. ¡Genial! Me llamo Ashish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896457
+    m_Localized: Solo tienes que decirme lo que necesitas y yo me encargaré de procurártelo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896458
+    m_Localized: Pero nada de preguntas, ¿vale?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896459
+    m_Localized: Te traeré al día siguiente lo que me hayas pedido. No quiero quejas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896460
+    m_Localized: Entendido. Chaíto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896461
+    m_Localized: Mañana te mandaré una muestra gratuita. Invito yo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896462
+    m_Localized: Ashish al habla.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896463
+    m_Localized: ¿Qué necesitas?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896464
+    m_Localized: Vale, prepararé la entrega.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896465
+    m_Localized: Hola, Ashish al aparato.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896466
+    m_Localized: Estoy liado con otro encargo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896467
+    m_Localized: Llámame dentro de {0:plural:{} día|{} días}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896469
+    m_Localized: Entonces, ¿Joe te ha dado mi número?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896470
+    m_Localized: Me llamo Caulson y soy el portavoz de la Cooperativa Minera GP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896471
+    m_Localized: Vendemos minerales al por mayor, si es lo que te interesa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896472
+    m_Localized: En cuanto hagas un pedido,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896473
+    m_Localized: te lo enviaremos al día siguiente. Así de fácil.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896474
+    m_Localized: Entendido. Gracias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896475
+    m_Localized: Como es tu primera vez, mañana te mandaré una muestra gratuita.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896476
+    m_Localized: Cooperativa Minera GP, ¿dígame?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896477
+    m_Localized: ¿Quieres comprar minerales?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896478
+    m_Localized: Vale, prepararé el envío.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896479
+    m_Localized: Hola, aquí la Cooperativa Minera GP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896480
+    m_Localized: Ahora mismo no tenemos existencias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896481
+    m_Localized: Llámame en… A ver que lo miro… ¿{0:plural:{} día|{} días}?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896482
+    m_Localized: Para entonces puede que tenga algo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896483
+    m_Localized: Ya veo, gracias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896485
+    m_Localized: Esperaba que me llamaras… Bien.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896486
+    m_Localized: Llámame Dale, pero no uses ese nombre en ningún otro sitio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896487
+    m_Localized: Puede que… tenga acceso a ciertos medicamentos de los niveles superiores.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896488
+    m_Localized: Todo en negro, por supuesto. ¿Eso queda claro?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896489
+    m_Localized: En cuanto me hagas un pedido,
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896490
+    m_Localized: te lo mandaré con un mensajero al día siguiente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896491
+    m_Localized: Y no tendremos más contacto a no ser que haya algún problema, ¿entendido?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896492
+    m_Localized: Entendido, gracias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896493
+    m_Localized: Mañana te mandaré una muestra gratuita.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896494
+    m_Localized: ¿Querías hacer un pedido?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896495
+    m_Localized: Asegúrate de que no haya nadie contigo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896496
+    m_Localized: ¿Qué necesitas?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896497
+    m_Localized: Vale, prepararé la entrega.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896498
+    m_Localized: Hola… Ahora mismo no puedo coger pedidos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896499
+    m_Localized: Vuelve a llamar dentro de {0:plural:{} día|{} días}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896500
+    m_Localized: Entendido, gracias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896501
+    m_Localized: Ahora mismo no puedo hablar. Llámame dentro de un par de días.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896502
+    m_Localized: Odin Haraldsson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896503
+    m_Localized: Sabemos lo que has hecho.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896504
+    m_Localized: No vuelvas a llamar a este número.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896505
+    m_Localized: Se acabó.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896506
+    m_Localized: No puedo hablar ahora mismo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896507
+    m_Localized: Llámame cuando se acabe la represalia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896508
+    m_Localized: Sí.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896509
+    m_Localized: Lo siento, te equivocas de número. [Colgar]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139009896510
+    m_Localized: ¿Eres tú? ¿Tienes algo para nosotros?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090752
+    m_Localized: Vale, guárdanoslo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090753
+    m_Localized: Me pasaré por allí dentro de {0:plural:{} día|{} días}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96081139014090754
+    m_Localized: Adiós.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

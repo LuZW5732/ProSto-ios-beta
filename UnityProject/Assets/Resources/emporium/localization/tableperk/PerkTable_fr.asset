@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PerkTable_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: b8081521f90d5004a96ecf7f776becff, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9267617513472
+    m_Localized: Vous commencez la partie avec {0} crédits supplémentaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1443059515392
+    m_Localized: Épargne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902080
+    m_Localized: Propriétaire sans scrupules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902081
+    m_Localized: Votre loyer de départ augmente de {0} crédits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902086
+    m_Localized: Délinquance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902087
+    m_Localized: Vous commencez la partie avec une moins bonne réputation auprès du service de sécurité ({0}). Lorsque vous dénoncez des clients recherchés, votre récompense est moindre (-{1} %).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902088
+    m_Localized: Civisme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902089
+    m_Localized: Vous commencez la partie avec une meilleure réputation auprès du service de sécurité (+{0}). Lorsque vous dénoncez des clients recherchés, votre récompense est plus importante (+{1} %).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902090
+    m_Localized: Sens du relationnel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902091
+    m_Localized: Vous commencez la partie avec une meilleure réputation auprès de chaque faction (+{0}).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902092
+    m_Localized: Vigilance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902093
+    m_Localized: Vous ne vous faites jamais cambrioler la nuit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902094
+    m_Localized: Propreté
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902095
+    m_Localized: L'échange clandestin est accessible dès le départ et le service d'entretien reste gratuit, sauf en cas de vandalisme. Les coûts de nettoyage après un acte de vandalisme sont réduits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902096
+    m_Localized: Diplomatie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902097
+    m_Localized: La réputation que vous acquérez grâce à l'achat et à la vente augmente de {0} %.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902098
+    m_Localized: Intimidation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902099
+    m_Localized: Vous générez {0} % de preuves en moins lorsque vous commettez des crimes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902100
+    m_Localized: Ruelle isolée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902101
+    m_Localized: Vous recevez un client de moins par jour.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902102
+    m_Localized: Addiction à la nicotine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902103
+    m_Localized: Si vous prenez pas de nicotine régulièrement, vous subissez une pénalité commerciale de {0} %. Cette dépendance est surmontable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902104
+    m_Localized: Toxicomanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902105
+    m_Localized: Si vous ne consommez pas de stupéfiants régulièrement, vous subissez une pénalité commerciale de {0} %. Cette dépendance est surmontable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902106
+    m_Localized: Alcoolisme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902107
+    m_Localized: Si vous ne buvez pas d'alcool régulièrement, vous subissez une pénalité commerciale de {0} %. Cette dépendance est surmontable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902108
+    m_Localized: Admiratrice anonyme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902109
+    m_Localized: Une admiratrice vous envoie parfois des articles aléatoires, que vous recevez à l'ouverture de la boutique.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902110
+    m_Localized: Excentricité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902111
+    m_Localized: Vous commencez la partie avec {0} emplacements de traits supplémentaires.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902112
+    m_Localized: Chantage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902113
+    m_Localized: Vous avez un passé trouble et quelqu'un vous fait chanter. Si vous ne versez pas une somme hebdomadaire à cette personne, elle révélera votre secret, ce qui entachera fortement votre réputation auprès de la majorité des factions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902114
+    m_Localized: Moulin à paroles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902115
+    m_Localized: Vous générez {0} % de preuves supplémentaires lorsque vous commettez des crimes. Vous acquérez moitié moins de réputation auprès du marché noir et de la Révolution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902116
+    m_Localized: Désabonnement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902117
+    m_Localized: Vous ne recevez plus le quotidien qui vous informe des derniers événements.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902118
+    m_Localized: Minimalisme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902119
+    m_Localized: Votre inventaire principal fait 20x10 au lieu de 24x10.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902120
+    m_Localized: Syndrome de la sentinelle effondrée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902121
+    m_Localized: Vous souffrez d'une maladie auto-immune aussi mortelle qu'incurable, et vous vous injectez de l'Immunivax chaque semaine pour rester en vie. Vous commencez la partie avec un injecteur d'Immunivax.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902124
+    m_Localized: À toute allure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902125
+    m_Localized: Vous pouvez vous rendre dans un maximum de deux lieux par jour après la fermeture.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902126
+    m_Localized: Agoraphobie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902128
+    m_Localized: Dispositif de solidarité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902129
+    m_Localized: L'intendance est accessible dès le départ. Vous êtes susceptible de recevoir des bons alimentaires chaque lundi en fonction de vos fonds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902130
+    m_Localized: Furetage de pro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902131
+    m_Localized: Vous bénéficiez de deux tentatives supplémentaires à la décharge.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902132
+    m_Localized: Révolutionarisme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902133
+    m_Localized: Vous commencez la partie avec une meilleure réputation auprès de la Révolution (+{0}), qui vous envoie plus souvent des demandes du marché.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902134
+    m_Localized: Addiction au jeu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902135
+    m_Localized: Vous achetez compulsivement des tickets de loto et des cartes à gratter, et commencez la partie avec un accès direct aux jeux d'argent. Cette dépendance est surmontable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902136
+    m_Localized: Mélomanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902137
+    m_Localized: Vous commencez la partie avec toutes les cassettes dans le lecteur.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902138
+    m_Localized: Passion expéditions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902139
+    m_Localized: Vous pouvez embaucher des personnes et organiser des expéditions. Vous commencez la partie avec un larbin et un accès direct aux expéditions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902140
+    m_Localized: Distributeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902141
+    m_Localized: Vous commencez la partie avec un distributeur installé devant la boutique. Vos clients y effectuent des achats après la fermeture.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12200241315840
+    m_Localized: point(s)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313910013952
+    m_Localized: Sommeil réparateur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791168
+    m_Localized: Vous pouvez sortir après la fermeture sans louper de clients le lendemain matin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791169
+    m_Localized: Tuyauterie efficace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791170
+    m_Localized: Vous bénéficiez d'emblée d'un approvisionnement illimité en eau-de-rouille.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791171
+    m_Localized: Illettrisme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791172
+    m_Localized: Vous ne pouvez lire aucun guide ni manuel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791173
+    m_Localized: Emplacement stratégique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313930985472
+    m_Localized: 'Vous attirez 1 client ordinaire de plus par jour, mais votre loyer de départ augmente de {0} crédits. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180758536192
+    m_Localized: Débrouillardise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673536
+    m_Localized: 'Vous commencez la partie avec une boîte à outils de bric et de broc et son contenu : tournevis, coupe-fil, pied-de-biche et torche à plasma.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673537
+    m_Localized: Bête noire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673538
+    m_Localized: Vous commencez la partie avec une réputation de {0} auprès de toutes les factions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673539
+    m_Localized: Ascétisme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673540
+    m_Localized: Votre inventaire principal se compose de {0}x10 tuiles au lieu de 24x10.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673541
+    m_Localized: Mutilation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673542
+    m_Localized: La décharge n'est pas disponible. Vous ne pouvez pas fureter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673543
+    m_Localized: Petits papiers de Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673544
+    m_Localized: Toutes les améliorations du réseau de Wild coûtent {0} % de moins. Le service d'assurance coûte {1} % de moins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673545
+    m_Localized: Collimateur de Wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673546
+    m_Localized: Toutes les améliorations du réseau de Wild coûtent {0} % de plus. Le service d'assurance coûte {1} % de plus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673547
+    m_Localized: Cauchemar des Augs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673548
+    m_Localized: Les contenus liés aux Augs sont débloqués dès le début de la partie. Vous gagnez {0} % de crédits en plus quand vous éliminez un Aug. L'invasion ne s'achève jamais, et vous perdez si vous laissez trop d'Augs vous échapper (quel que soit le niveau de difficulté choisi).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673549
+    m_Localized: Bonne étoile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673550
+    m_Localized: Vous avez davantage de chance. Enfin, probablement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673551
+    m_Localized: Poisse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673552
+    m_Localized: Vous avez moins de chance. Enfin, probablement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876391931904
+    m_Localized: Arthrose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263552
+    m_Localized: Vous commencez la partie avec {2} bandages cicatrisants supplémentaires. Vous furetez à la décharge normalement la première semaine, puis vous perdez 1 tentative maximum par semaine. Lorsque votre nombre de tentatives maximum tombe à {0}, le furetage devient impossible. Les commerçants sans arthrose ont {1} tentatives maximum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263553
+    m_Localized: Cafardage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263554
+    m_Localized: Les clients recherchés ne vous rendent jamais visite. Vous commencez la partie avec une moins bonne réputation auprès de la Révolution et du marché noir ({0}).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593216
+    m_Localized: Bricolage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593217
+    m_Localized: Quand vous améliorez un objet, les matériaux utilisés ont {0} % de chances de ne pas disparaître.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593218
+    m_Localized: Furetage appliqué
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593219
+    m_Localized: Lors de vos passages à la décharge, vous réalisez {0} actions de moins. En revanche, vous ne vous blessez jamais durant le furetage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593220
+    m_Localized: Flagornerie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593221
+    m_Localized: Vous commencez avec {0} points de réputation en plus auprès des strates supérieures. Votre réputation auprès de cette faction augmente {1} % plus vite, et les clients qui en sont issus ont un budget {2} % plus élevé.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593222
+    m_Localized: Après une sortie nocturne, vous devez vous reposer pendant {0} nuits avant de pouvoir sortir à nouveau.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593223
+    m_Localized: Gaucherie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593224
+    m_Localized: Vous ne pouvez pas négocier avec les clients, et vous subissez une pénalité commerciale permanente de {0} %.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593225
+    m_Localized: Ban de l'intendance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593226
+    m_Localized: L'intendance n'est pas disponible et les bons alimentaires ne vous sont jamais présentés.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593227
+    m_Localized: Syndrome de Diogène
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593228
+    m_Localized: Vous commencez avec trois piles de débris en bas de votre inventaire. Ils ne peuvent pas être déplacés, mais vous pouvez les retirer progressivement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593229
+    m_Localized: Réacteur improvisé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593230
+    m_Localized: Vous ne dépendez plus de l'électricité de la station. Les coupures de courant ne vous affectent donc pas. Vous commencez avec un micro-réacteur nucléaire improvisé, vendu par le Pr Jackson, qui alimente la boutique en énergie mais a fréquemment besoin de réparations.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

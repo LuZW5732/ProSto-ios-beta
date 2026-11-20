@@ -1,0 +1,796 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: ClientName Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: ClientName
+  m_TableCollectionNameGuidString: d4e8a77185edad245b52ef9f623c4fb6
+  m_Entries:
+  - m_Id: 1256899526656
+    m_Key: name_ashish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1293192839168
+    m_Key: name_caulson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1385803071488
+    m_Key: name_dale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1402513178624
+    m_Key: name_odin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1490727780352
+    m_Key: name_lun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1565721935872
+    m_Key: name_joe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1601390297088
+    m_Key: name_sawyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1638467944448
+    m_Key: name_mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1662761353216
+    m_Key: name_landlord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2041150488576
+    m_Key: name_georgio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070596811341824
+    m_Key: name_red_imp_rep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070660967415808
+    m_Key: name_joe_assistant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393252068704256
+    m_Key: name_james_bailey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96393311434883072
+    m_Key: name_arthur_lafleur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394096562454528
+    m_Key: name_lou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394134080503808
+    m_Key: name_li_bei_wen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394240880066560
+    m_Key: name_juan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394291748585472
+    m_Key: name_john_smith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96394655776423936
+    m_Key: name_leroy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396315055669248
+    m_Key: name_grandpa_cheng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396442461847552
+    m_Key: name_nellis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396618454843392
+    m_Key: name_serpico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96396678919929856
+    m_Key: name_eleanor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505600
+    m_Key: name_foodie_tourist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505601
+    m_Key: name_thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505602
+    m_Key: name_lower_levels_citizen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505603
+    m_Key: name_lower_level_citizen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96403726340505604
+    m_Key: name_security_officer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527839547392
+    m_Key: name_scav
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130304
+    m_Key: name_lower_levels_worker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96407527852130305
+    m_Key: name_the_butcher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990354276352
+    m_Key: name_citizen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470656
+    m_Key: name_desperate_addict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470657
+    m_Key: name_expedition_supplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470658
+    m_Key: name_hungry_spacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470659
+    m_Key: name_injured_spacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990358470660
+    m_Key: name_low_level_doctor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664960
+    m_Key: name_lower_level_repairman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664961
+    m_Key: name_lower_level_inventor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664962
+    m_Key: name_lower_level_parent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664963
+    m_Key: name_maintenance_worker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664964
+    m_Key: name_mid_level_nurse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664965
+    m_Key: name_private_security_contractor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664966
+    m_Key: name_scavenger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664967
+    m_Key: name_scrap_buyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664968
+    m_Key: name_self_defense_enthusiast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664969
+    m_Key: name_sick_child_caretaker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664970
+    m_Key: name_spacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664971
+    m_Key: name_spacer_cook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664972
+    m_Key: name_station_engineer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664973
+    m_Key: name_thirsty_spacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664974
+    m_Key: name_upper_hospital_supplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664975
+    m_Key: name_upper_private_chef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664976
+    m_Key: name_upper_level_servant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664977
+    m_Key: name_water_stockpiler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664978
+    m_Key: name_worn_out_spacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664979
+    m_Key: name_young_spacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664980
+    m_Key: name_courrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664981
+    m_Key: name_gp_mining_courrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664982
+    m_Key: name_lower_level_weapon_trader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664983
+    m_Key: name_lower_levels_trader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664984
+    m_Key: name_lower_levels_vendor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664985
+    m_Key: name_mercenary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664986
+    m_Key: name_red_imp_courrier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664987
+    m_Key: name_revolutionary_fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664988
+    m_Key: name_scrap_dealer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664989
+    m_Key: name_shady_addict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664990
+    m_Key: name_shifty_dealer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664991
+    m_Key: name_tense_local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664992
+    m_Key: name_upper_level_citizen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96412990362664993
+    m_Key: name_worried_resident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149120589824
+    m_Key: name_annoyed_engineer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978432
+    m_Key: name_cartel_handler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978433
+    m_Key: name_cartel_soldier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978434
+    m_Key: name_conspiracy_theorist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978435
+    m_Key: name_corporate_waste_manager
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978436
+    m_Key: name_dealer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978437
+    m_Key: name_desperate_lover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978438
+    m_Key: name_hydroponic_farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978439
+    m_Key: name_lower_level_nurse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978440
+    m_Key: name_lower_levels_elder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978441
+    m_Key: name_miner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978442
+    m_Key: name_old_scav
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978443
+    m_Key: name_revolution_quartermaster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978444
+    m_Key: name_revolution_raider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978445
+    m_Key: name_salvage_ship_pilot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978446
+    m_Key: name_shady_farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978447
+    m_Key: name_sick_lower_levels_citizen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978448
+    m_Key: name_sick_scav
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978449
+    m_Key: name_wounded_man
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978450
+    m_Key: name_angry_citizen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978451
+    m_Key: name_begger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978452
+    m_Key: name_blackmailer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978453
+    m_Key: name_clinic_volunteer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978454
+    m_Key: name_corporate_representative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978455
+    m_Key: name_farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978456
+    m_Key: name_food_buyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978457
+    m_Key: name_foreman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978458
+    m_Key: name_ice_miner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978459
+    m_Key: name_panicked_shopkeeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978460
+    m_Key: name_pharmacist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978461
+    m_Key: name_retired_chemist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978462
+    m_Key: name_retired_farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978463
+    m_Key: name_retired_gunsmith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978464
+    m_Key: name_retired_junker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978465
+    m_Key: name_retired_water_merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978466
+    m_Key: name_shady_customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978467
+    m_Key: name_upper_level_resident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978468
+    m_Key: name_mob_leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978469
+    m_Key: name_hitman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978470
+    m_Key: name_cartel_hitman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978471
+    m_Key: name_scav_addict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978472
+    m_Key: name_poor_scav
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978473
+    m_Key: name_addict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978474
+    m_Key: name_lower_level_chemist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978475
+    m_Key: name_the_mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978476
+    m_Key: name_joe_wild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978477
+    m_Key: name_officer_lun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978478
+    m_Key: name_appraiser_board_member
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978479
+    m_Key: name_off_duty_officer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978480
+    m_Key: name_loan_clerk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978481
+    m_Key: name_dr._jackson
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978482
+    m_Key: name_scrapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978483
+    m_Key: name_the_landlord
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978484
+    m_Key: name_merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978485
+    m_Key: name_upper_level_volunteer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978486
+    m_Key: name_loan_shark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978487
+    m_Key: name_supplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978489
+    m_Key: name_shady_merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978491
+    m_Key: name_security_requisition_officer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978493
+    m_Key: name_station_tourist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978494
+    m_Key: name_upper_levels_pharmacist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978495
+    m_Key: name_junker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978497
+    m_Key: name_food_thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978498
+    m_Key: name_supply_runner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978499
+    m_Key: name_shopping_mercenary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978500
+    m_Key: name_pale_scav
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978502
+    m_Key: name_security_inspector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978503
+    m_Key: name_trade_board_official
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978504
+    m_Key: name_upper_level_visitor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978505
+    m_Key: name_shady_security_inspector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978506
+    m_Key: name_lazy_security_inspector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978507
+    m_Key: name_food_bank_supplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978508
+    m_Key: name_lottery_representative
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978509
+    m_Key: name_shady_buyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978510
+    m_Key: name_rare_merchant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978512
+    m_Key: name_lower_level_gunsmith
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149128978513
+    m_Key: name_shopping_thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172736
+    m_Key: name_tourist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172737
+    m_Key: name_water_trader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96434149133172738
+    m_Key: name_petty_thief
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784342097920
+    m_Key: corpo_name_pastel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875136
+    m_Key: corpo_name_carmicheal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875137
+    m_Key: corpo_name_davre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875138
+    m_Key: corpo_name_mnsl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875139
+    m_Key: corpo_name_eminence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875140
+    m_Key: corpo_name_eninence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875141
+    m_Key: corpo_name_republic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875142
+    m_Key: corpo_name_republic_navy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875143
+    m_Key: corpo_name_neural
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875144
+    m_Key: corpo_name_watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875145
+    m_Key: corpo_name_front
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875146
+    m_Key: corpo_name_sokolov
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875147
+    m_Key: corpo_name_vision
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875148
+    m_Key: corpo_name_zhonghua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875149
+    m_Key: corpo_name_spacer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875150
+    m_Key: corpo_name_meridian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875151
+    m_Key: corpo_name_echelon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875152
+    m_Key: corpo_name_blueshield
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875153
+    m_Key: corpo_name_frontier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875154
+    m_Key: corpo_name_ashvins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875155
+    m_Key: corpo_name_solana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98626784358875156
+    m_Key: corpo_name_alison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732051034112
+    m_Key: faction_name_lower_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422720
+    m_Key: faction_name_upper_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422721
+    m_Key: faction_name_security
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422722
+    m_Key: faction_name_black_market
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422723
+    m_Key: faction_name_revolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98647732059422724
+    m_Key: faction_name_cartel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102613085076635648
+    m_Key: name_security_inspector_corpo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103108984169086976
+    m_Key: location_dumping_grounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107368985712705536
+    m_Key: name_retired_rancher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101362749440
+    m_Key: name_retired_winemaker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136975101396303872
+    m_Key: name_upper_level_hedonist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177674309933514752
+    m_Key: name_retired_aquafarmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183888579314630656
+    m_Key: name_scalper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184153730559295488
+    m_Key: corpo_name_harvey_bee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186448655309127680
+    m_Key: name_case_enjoyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265071149056
+    m_Key: name_eleanor_uncle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186688265100509184
+    m_Key: name_black_market_thug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186991818453073920
+    m_Key: name_hypertech_smuggler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189734698179411968
+    m_Key: name_republic_operative
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6171895735871340626
+  references:
+    version: 2
+    RefIds:
+    - rid: 6171895735871340626
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1748460699536

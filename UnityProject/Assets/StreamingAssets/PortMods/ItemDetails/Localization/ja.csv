@@ -1,0 +1,358 @@
+﻿# Item Details 日本語 (ja)
+auth.amount,スタンプの価格
+auth.body,本体の問題
+auth.box,箱の問題
+auth.chip,チップ
+auth.color,色の問題
+auth.indicator,表示の問題
+auth.label,ラベルの問題
+auth.lettering,文字の問題
+auth.logo,ロゴの問題
+auth.seal,セキュリティシールの問題
+auth.serial,シリアル番号
+# key,value
+alert.aug_kill_reward,撃破報酬：{0}
+alert.aug_presence,AI人間の脅威：{0}/100
+alert.bounty,（懸賞金 {0}）
+alert.real_name,本名：{0}
+alert.title_augmented,AI人間の客
+alert.title_both,指名手配犯 · AI人間の客
+alert.title_wanted,指名手配犯
+appraisal.armor,装甲
+appraisal.base,基本
+appraisal.blade,ブレード
+appraisal.build_deluxe,デラックス（セットボーナス）
+appraisal.build_tactical,タクティカル（セットボーナス）
+appraisal.carbon,カーボンコンジット
+appraisal.casing_crack,ひび割れ
+appraisal.casing_reinforced,補強済み
+appraisal.casing_screws,ネジの露出
+appraisal.casing_wear,軽度の摩耗
+appraisal.casing_wear_heavy,重度の摩耗
+appraisal.damaged,損傷
+appraisal.emgplus,EMG+インターフェース
+appraisal.finish_cheap,低グレードのプラズマ色
+appraisal.finish_premium,高グレードのプラズマ色
+appraisal.gold,金メッキ
+appraisal.iface_unknown,不特定の制御
+appraisal.neural,神経インターフェース
+appraisal.ribwich_deluxe,デラックス版
+appraisal.ribwich_double_meat,パティ2枚
+appraisal.ribwich_first_batch,第1次製造分
+appraisal.ribwich_month_edge,初月または最終月
+appraisal.ribwich_opened,開封済みまたは偽造品（固定40）
+appraisal.ribwich_plant_grade_a,高品質の包装施設 {0:D2}
+appraisal.ribwich_plant_grade_c,低品質の包装施設 {0:D2}
+appraisal.seal_ignition,イグニッション・ラボボーナス
+appraisal.seal_ll,ワイルド・ライドボーナス
+appraisal.seal_republic,共和国海軍徴発ボーナス
+appraisal.seal_zhonghua,Zhonghua造船ボーナス
+appraisal.worn,摩耗
+auth.counterfeit,× 偽造品（{0}）
+auth.defect,× {0}（{1}）
+auth.genuine,✓ 正規品
+berry.dried,乾燥
+berry.line,{0}の品質：{1}
+berry.wine,（醸造値 {0}）
+berry.moldy,カビあり
+berry.normal,通常
+berry.small,小さい
+berry.unripe,熟していない
+calorie.line,エネルギー：{0} {1}
+calorie.per_credit,（{0} {1}/{2}）
+calorie.unit,kcal
+condition.line,状態：{0} {1}
+contraband.markup,闇市場：+{0}%
+generic.line,出所：{0}
+hidden.chem_purity,化学純度：{0}%
+hidden.durability,耐久性：{0}/{1}
+hidden.durability_faked,実耐久度：{0}/{1}（表示 {2}/{3}）
+hidden.purity,純度：{0}
+hidden.purity_faked,実純度：{0}（表示 {1}）
+hidden.purity_level,純度：{0}/10
+hidden.purity_level_faked,実純度：{0}/10（表示 {1}/10）
+hint.double_click,ダブルクリックで鑑定
+menu.scan,スキャン
+list.sep,、
+lottery.matched_none,一致 {0}/6 -> はずれ
+lottery.matched_prize,一致 {0}/6 -> 賞金 {1}
+lottery.not_drawn,第{0}回：未抽選（毎週土曜の朝に発表）
+lottery.winning,当選番号：{0}
+market.line,市場：{0}
+faucet.header,蛇口の水質: {0}
+calendar.today_events,今日のイベント
+module.power,{0}電力/日
+module.speed,{0}速度
+price.buy,買値：
+price.cost_close,）
+price.cost_open,"（仕入 "
+price.list," 定価：{0}"
+price.sell,売値：{0}
+reveal.modifier,真の補正：{0}%（偽装 {1}%）
+reveal.real,真の値：{0}（偽装 {1}）
+reveal.real_with_mod,真の値：{0} {1}（偽装 {2}）
+ribwich.header,偽物の理由：
+ribwich.more,…ほか {0} 件
+ribwich.reason_bun_no_pickles,ゴマのパンなのに追加ピクルス無し
+ribwich.reason_date_missing,製造日の記載が無い
+ribwich.reason_davre_missing,Davre社のロゴが無い
+ribwich.reason_davre_wrong,Davre社のロゴが間違っている
+ribwich.reason_first_sticker,第1次製造分にリブイッチのステッカーは無いはず
+ribwich.reason_month_range,製造月 {0} が 1–12 の範囲外
+ribwich.reason_pickles_no_bun,追加ピクルスなのにゴマのパン無し
+ribwich.reason_plant_missing,包装施設の番号が無い
+ribwich.reason_plant_range,包装施設番号 {0} が 01–35 の範囲外
+ribwich.reason_second_sticker_missing,第2次製造分なのにリブイッチのステッカーが無い
+ribwich.reason_second_sticker_wrong,第2次製造分のリブイッチのステッカーが間違っている
+ribwich.reason_unknown,{0}
+ribwich.reason_year_range,製造年 {0} は 425-429/432-438 外
+scratcher.no_prize,スクラッチカード：はずれ
+scratcher.progress_part,、削り済み {0}/3
+scratcher.win,スクラッチカード：当たり {0}（{1}個一致）
+seed.header,遺伝子（未分析）
+seed.rank,ランク{0}
+seed.more,…ほか {0} 件
+seed.trait_rank,{0}（ランク {1}）
+seed.innate_lowered,固有({0}→{1})
+seed.innate_removed,削除済み
+storage.contains,中身：
+storage.more_kinds," など計{0}種"
+storage.ratio,圧縮率：{0}（{1}/{2} マス）
+grid.title,中身 {0}
+grid.title_sealed,中身 {0}
+grid.title_sealed_value,中身 {0}（推定価値 {1}）
+title.appraisal_suffix,{0} 定価{1}、最良提示{2}
+value.from,出所：
+value.part,{0}{1}
+value.cost_perf,コスパ：{0}
+value.cost_perf_detail,（{0}/{1} マス）
+value.perfect_range," ｜ 完璧 {0}–{1}"
+value.total_line,総額：{0}
+water.mismatch,（ラベルと不一致）
+water.trace_count,（ほか {0} 種が表示閾値未満）
+water.fold_inactive,{0} で非活性成分を表示
+chem.effects,効果：{0}
+chem.lethal,致死（致死量の {0} 倍）
+chem.toxic,有毒
+chem.euphoria_weak,弱い多幸感
+chem.euphoria_mild,中程度の多幸感
+chem.euphoria_strong,強い多幸感
+chem.euphoria_extreme,極度の多幸感
+chem.synaprest,依存抑制
+chem.contraceptive,避妊
+wine.aging,熟成ボーナス：+{0}/日（計 +{1}）
+wine.composition,成分：糖度 {0}‰、汚染物質 {1}‰
+wine.counterfeit,偽造品：違法酵母
+wine.empty,空
+wine.fermenting,発酵中
+wine.finished,醸成済み
+wine.score_part,、点数 {0}
+wine.state,ワイン：{0}
+wine.preview,発酵後の点数 {0}
+wine.tier,、第 {0} 段階
+wine.unknown_state,不明（{0}）
+wine.yeast_power,酵母の力：{0}/回
+wine.yeast_effect,果実酒 +{0}（重複なし）、{1} 回で発酵
+wine.yeast_illegal,偽造品になる
+machine.energy_label,消費電力：
+machine.energy_unit,/日
+machine.energy_battery, {0}/{1}kJ、{2}日分
+machine.energy_left, {0}kJ、{1}日分
+config.section.layout,レイアウト
+config.authenticity,真偽鑑定
+config.authenticity.tip,本物か偽物かを判定し、欠陥と偽物の理由を表示します。
+config.plant_analysis,植物分析
+config.plant_analysis.tip,ブルームベリーの品質と未分析の種の形質を表示します。「分析器所持時」では、植物分析器を持っている間だけ種の形質を表示します。ブルームベリーの品質はどちらでも表示されます。
+config.plant_analysis.off,オフ
+config.plant_analysis.analyser,分析器所持時
+config.plant_analysis.always,常に表示
+config.valuation,査定計算
+config.valuation.tip,鑑定アイテムの真の価値の内訳と完璧な価格帯を表示し、鑑定サービスのタイトルに定価と最良の提示額を表示します。
+config.cost_performance,マス単価
+config.cost_performance.tip,1マスあたりの価値とコンテナの圧縮率を表示します。
+config.container_contents,コンテナ内容
+config.container_contents.tip,ロックされていないコンテナの中身を、ツールチップの横にアイコンで表示します。
+config.section.info,追加情報
+config.info_enhance,追加アイテム情報
+config.info_enhance.tip,下に並ぶアイテム情報をツールチップに追加します。オフにするとすべて非表示になり、個別の選択は保持されます。
+config.tooltip_formatting,ツールチップ文章の整形
+config.tooltip_formatting.tip,価格表記、説明文の折り返し、カロリー注記、価格ブロックの間隔を最適化します。オフで原版のレイアウトを維持します。
+config.type_badge,アイテム分類バッジ
+config.type_badge.tip,ツールチップ上部にアイテム分類を表示します。
+config.type_badge_muted,バッジの色を控えめに
+config.type_badge_muted.tip,違法・制限品以外はツールチップの暗い背景と明るくした分類色を使います。違法・制限品は赤い警告文字のままです。
+config.item_name_display,アイテム名の表示
+config.item_name_display.tip,アイテムアイコンの下部に名前を常時表示します。「コンテナと機械」はすべてのコンテナと機械に名前を付け、名前を変更したものは新しい名前を表示します。「名前を変更したアイテム」は名前を変更したアイテムだけに表示します。
+config.item_name_display.off,オフ
+config.item_name_display.containers,コンテナと機械
+config.item_name_display.renamed,名前を変更したアイテム
+config.container_name_bg,名前ラベルの背景
+config.container_name_bg.tip,名前ラベルの後ろの黒い背景の不透明度（0–100%）。0 で背景なし。
+config.slider_percent,{0}%
+config.customer_alert,来客アラート
+config.customer_alert.tip,指名手配犯やAI人間の客が来店すると通知し、実際の懸賞金・本名・撃破報酬・AI人間の脅威を表示します。
+config.customer_history,顧客にカーソルで今回の会話
+config.customer_history.tip,店内の顧客にマウスを合わせると、今回の接客で交わした会話を表示します。
+config.section.interaction,操作
+config.double_click_inspect,ダブルクリックで鑑定
+config.double_click_inspect.tip,鑑定品や真偽確認が必要な品（注射器・タバコ・フードスタンプなど）をダブルクリックすると、虫眼鏡なしで検査パネルを開きます。パネル表示中に別の品をダブルクリックすると切り替わります。
+config.double_click_scan,ダブルクリックでスキャン
+config.double_click_scan.tip,対応する装置を持っていると、アイテムをダブルクリックしてスキャン結果パネルを開けます。液体と化学品は水質／ケミカルスキャナー、施錠された補給箱はX線スキャナー、種子は植物分析器に対応します。もともとダブルクリックで開く・使えるアイテムは元の動作のままで、装置がない場合も元のダブルクリック動作になります。
+config.context_menu_scan,右クリックメニューにスキャンを追加
+config.context_menu_scan.tip,対応する装置を持っていると、アイテムの右クリックメニューに「スキャン」が追加され、スキャン結果パネルを開けます。液体と化学品は水質／ケミカルスキャナー、施錠された補給箱はX線スキャナー、種子は植物分析器に対応します。
+config.expand_key,展開キー
+config.expand_key.tip,このキーを押している間、作物の成分表で折りたたまれた非活性成分を展開します。
+config.expand_key.ctrl,Ctrl
+config.expand_key.shift,Shift
+config.expand_key.alt,Alt
+config.section.reveal,透視
+config.hidden_truth,偽装と真の値を暴く
+config.hidden_truth.tip,偽装された特性の正体、真の耐久性、インゴット/化学製品の真の純度を表示します。偽物がすぐ分かり、鑑定がかなり易しくなります。
+config.liquid_analysis,液体成分分析
+config.liquid_analysis.tip,水の純度と不純物、薬品・化学品の成分と効果を表示します。「スキャナー所持時」では、水質スキャナーかケミカルスキャナーを持っている間だけ表示します。
+config.color_liquid_components,不純物を種類ごとに色分け
+config.color_liquid_components.tip,成分表の不純物を種類ごとに色分けします（化学汚染物質・有機廃棄物・微生物・ミネラル・重金属・物理汚染物質）。オフでは全て白です。
+config.liquid_analysis.off,オフ
+config.liquid_analysis.scanner,スキャナー所持時
+config.liquid_analysis.always,常に表示
+config.water_advice,浄化アドバイス
+config.water_advice.tip,水の入った容器で、各浄化方法（フィルター、機械など）で純度がどれだけ上がるかを一覧表示します。「液体成分分析」が「スキャナー所持時」のときは、こちらもスキャナーが必要です。
+config.scratcher,スクラッチカードの事前確認
+config.scratcher.tip,削る前に、スクラッチカードの当たり外れ・賞金・削った進み具合を表示します。ゲームと同じルールで読み取るだけで、代わりに削ることはありません。
+config.sealed_box,施錠コンテナ透視
+config.sealed_box.tip,施錠されたコンテナ（金庫、銃保管庫など）の中身と合計価値を、開錠前に一覧表示します。開錠の手間を飛ばすことになります。
+config.result_prefill,鑑定結果の事前入力
+config.result_prefill.tip,検査パネルを開いたとき、実際の偽造不具合にチェックを入れ、査定価格を下の選択に従って実価値か最高提示額で埋めます。入力のみで、送信や確定はしません。
+config.result_prefill_source,埋める価格
+config.result_prefill_source.tip,実価値＝ゲームが算出する真の価値、最高提示額＝ツールチップに出る完璧範囲の上限。
+config.result_prefill_source.true,実価値
+config.result_prefill_source.best,最高提示額
+machine.eta,完了まで約 {0} 日
+machine.eta_battery,（電池は {0} 日分）
+machine.eta_battery_short,（電池が足りない）
+machine.eta_water,（水は {0} 日分）
+machine.paused,停止中：{0}
+machine.paused_label,一時停止
+hydro.water,水量：{0}{3}（{2}{3}/日）、{1}日分
+hydro.water_short,水量：{0}{3}（{2}{3}/日）、1日未満
+hydro.status_label,状態：
+hydro.eta_paused,約{0}日、{1}
+hydro.eta_growing,約{0}日、{1}
+hydro.progress,{0}/{1}（{2}日）
+hydro.label,水量
+hydro.value,{0}{1}（{2}{1}/日）
+hydro.left,{0}日
+hydro.left_short,1日未満
+purifier.estimate,今夜の浄化予定量：{0}ml
+purifier.tier,（{0} → {1}）
+purifier.label,浄化
+purifier.rate,{0}mL/今夜
+hydro.purify_rank,浄化遺伝子 Lv.{0}
+ras.purify_fish,魚{0}匹が吸収
+fridge.no_effect,、効果なし {0} 個
+fridge.label,冷蔵庫
+wine.rack,{0} 本熟成中、1日ごとに {1} 日分熟成
+wine.rack_idle,、{0} 本は熟成しない
+wine.rack_label,熟成
+inner.line,{0}：{1}
+inner.input_slot,入力スロット内
+inner.output_slot,出力スロット内
+inner.printer_material_slot,材料スロット内
+inner.printer_product_slot,製品スロット内
+inner.durability,{0}：耐久性 {1}/{2}
+inner.faked,（表示は {0}）
+inner.filter_spent,（使い切り、ろ過しない）
+filter.label,ろ過器
+filter.lowest,×{0}、最低 {1}/{2}
+inner.filters,ろ過器 ×{0}：最低耐久性 {1}/{2}
+inner.spent_count,、{0} 個使い切り
+inner.liquid,{0}/{1}{2}
+inner.liquid_empty,空
+inner.liquid_purity,、{0}% {1}
+unit.ml,ml
+unit.liter,L
+inner.uses,{0}：残り使用回数 {1}/{2}
+inner.tools,道具 ×{0}：残り最少 {1}（{2}/{3}）
+inner.energy,{0}：エネルギー {1}/{2}
+learning.progress,学習進度：{0}
+learning.stat,{0} {1}/{2}
+learning.stat_full,{0}は上限
+learning.machine,自己学習：{0}/{1} 個のモジュールが学習中
+learning.nights,（{0}日）
+recharger.label,充電
+module.days_faster,、約 {0} 日短縮
+module.output,{0}ml/日
+module.evaporate,{0}ml 蒸発/晩
+module.recover,蒸留液 {0}% 回収
+module.attract,{0}%魅力
+module.bargain,{0}%交渉成功率
+module.theft,{0}%盗難防止率
+module.aging_next,あと+{0}%で熟成速度+1
+module.print_quality,{0}印刷品質
+module.success,{0}%成功率
+module.harvest,{0}%収穫量
+module.water_next,あと+{0}%で{1}を生産
+module.water_top,{0}を生産中
+module.purifier_next,あと+{0}%で{1}まで浄化可能
+module.purifier_full,あと+{0}%で純度上限100%
+module.purifier_top,純度上限100%に到達
+module.furnace_gain,純度{0}
+module.furnace_step,あと+{0}%で純度{1}
+module.furnace_result,インゴット×{0}：{1}/10
+module.furnace_cap,最高純度
+module.furnace_basic,通常融剤を消費
+module.furnace_junk,廃物変換に品質効果なし
+history.empty,まだ会話がありません。
+history.earlier,…さらに前の {0} 件
+history.unknown,顧客
+appraisal.minimum_adjustment,最低価値の補正
+meat.source,肉の由来：{0}
+meat.unknown,不明
+meat.fish,魚
+meat.prion,プリオン：{0}
+meat.prion.present,あり
+meat.prion.unmarked,未記録
+berry.wine_value,醸造値：{0}
+config.info_price_modifiers,価格補正
+config.info_price_modifiers.tip,ラベル、状態、店舗イベントによる価格補正を表示します。
+config.info_black_market,闇市場の割増
+config.info_black_market.tip,禁制品の闇市場での割増を表示します。
+config.info_lottery,宝くじ
+config.info_lottery.tip,当選番号、一致数、賞金を表示します。抽選結果は変更しません。
+config.info_brewing,醸造
+config.info_brewing.tip,材料の醸造値、酵母の効果、ワインの評価と成分、発酵と熟成の情報を表示します。
+config.info_meat,肉
+config.info_meat.tip,肉の由来となる種とプリオンの印を表示します。
+config.info_machines,機械
+config.info_machines.tip,モジュールの効果、学習進度、残り日数、水の消費、冷却、熟成、浄化量、炉の予想生成物を表示します。
+config.info_batteries,電池
+config.info_batteries.tip,充電量と残り日数を表示します。充電器内の各電池も対象です。
+config.info_progress_bar,カラー進捗バー
+config.info_progress_bar.tip,文字の進捗バーを色付きブロックに変更します。オフで元の表示に戻ります。
+config.info_manufacturer_inline,会社名を名前の行に表示
+config.info_manufacturer_inline.tip,会社名をアイテム名と同じ行の右側に表示します。
+config.info_container_units,液体単位の最適化
+config.info_container_units.tip,3 L を超える容量は L で表示します（3 L 以下は mL）。成分の量は常に mL で有効数字に合わせて表示し、微量成分の割合は有効数字 3 桁を保ちます。
+config.gene_rank_arabic,遺伝子レベルをアラビア数字で表示
+config.gene_rank_arabic.tip,種子の形質レベルをアラビア数字（1、2、3…）で表示します。オフにするとゲーム本来のローマ数字（I、II、III…）に戻ります。
+list.zone_sep,／
+module.special_label,特殊
+module.learn_chance,毎晩{0}%の確率で学習アルゴリズムを付与
+module.learn_extra,毎日{0}回の追加学習
+animal.next_stage,次の成長段階：{0}（日齢 +{1} 日）
+exchange.tonight,今夜の交換見込み：{0}
+exchange.reputation,闇市場の評判
+exchange.module,低確率で{0}、それ以外は報酬なし
+exchange.keycards,次からランダムに2枚：{0}
+exchange.low_purity,報酬なし（ドリームダストの純度不足）
+exchange.unknown,交換時に報酬が確定
+exchange.candidates,候補からランダム：{0}
+exchange.module_candidates,{0}（低確率：{1}）
+animal.genes_trait,形質
+animal.genes_expression,発現値
+animal.genes_alleles,対立遺伝子
+animal.genes_grade,評価
+luck.current,現在の幸運：{0}
+luck.base,基本の幸運：{0}
+luck.coin,所持中のコイン：{0}
+luck.liquid,{0}：{1}（残り {2} 日）

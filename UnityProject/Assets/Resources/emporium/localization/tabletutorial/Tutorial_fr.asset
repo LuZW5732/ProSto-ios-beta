@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Tutorial_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 00e2e9faf693a7b4ebe7f85dd0053af1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77637327044608
+    m_Localized: Ouvrir le volet roulant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77925890965504
+    m_Localized: Appeler le client suivant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78096183902208
+    m_Localized: Ouvrez le menu d'interaction d'un objet avec le clic droit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78169366118400
+    m_Localized: Lire la note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78248890122240
+    m_Localized: Fermer la boutique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78312341553152
+    m_Localized: Vous pouvez aussi directement interagir avec l'objet à l'aide du double-clic.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375725875200
+    m_Localized: Placer la note dans le guide de mentorat pour la conserver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78436396482560
+    m_Localized: Effectuer un transfert rapide avec Ctrl + clic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78492965060608
+    m_Localized: Relire les dialogues à l'aide du magnétophone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78592827244544
+    m_Localized: Placer le carnet dans le range-documents
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79031484334080
+    m_Localized: Utilisez Ctrl + clic sur un article à ACHETER ou prenez-le pour le placer sur le comptoir de négociation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79115106172928
+    m_Localized: Ouvrir la tablette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79156038385664
+    m_Localized: Utilisez Ctrl + clic sur un article à VENDRE ou prenez-le pour le placer sur le comptoir de négociation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79206000934912
+    m_Localized: Aller dormir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79264989626368
+    m_Localized: Tout transférer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79332098490368
+    m_Localized: '[Troc] : placez l''article demandé sur le comptoir.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122047477033254912
+    m_Localized: Les services peuvent être activés ou désactivés chaque nuit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131546472440971264
+    m_Localized: Quitter la boutique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028224
+    m_Localized: Installez des articles en vitrine avant l'ouverture du volet pour attirer des acheteurs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132251115471028225
+    m_Localized: Ouvrez l'interface de la clientèle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761458786304
+    m_Localized: Jetez un œil à votre réputation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136284761496535040
+    m_Localized: Ouvrez l'interface de marchandage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136290261554479104
+    m_Localized: L'interface de marchandage vous permet de demander plus de crédits à vos clients ou de leur proposer une réduction. Ces choix influent à la fois sur leur budget et sur votre réputation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141925777155080192
+    m_Localized: Quand vous voudrez faire avancer le dialogue, appuyez sur la barre d'espace.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046187085824
+    m_Localized: Maintenez le bouton gauche de la souris pour sélectionner plusieurs articles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177308046216445952
+    m_Localized: Faites un clic droit sur un espace vide de l'inventaire pour ouvrir le menu de tri.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

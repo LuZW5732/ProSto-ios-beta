@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: PerkTable_pl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: b8081521f90d5004a96ecf7f776becff, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9267617513472
+    m_Localized: Zaczynasz z dodatkowymi {0:plural:{} kredytem|{} kredytami|{} kredytami}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1443059515392
+    m_Localized: Oszczędności
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902080
+    m_Localized: Kiepska umowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902081
+    m_Localized: Początkowy czynsz powiększony o {0:plural:{} kredyt|{} kredyty|{} kredytów}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902086
+    m_Localized: Wyrok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902087
+    m_Localized: Zaczynasz z {0:plural:{} dodatkowym punktem|{} dodatkowymi punktami|{} dodatkowymi punktami} reputacji w Wydziale Ochrony i otrzymujesz o {1}% mniej nagród za zgłoszenie klienta z listy poszukiwanych.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902088
+    m_Localized: Przykładny obywatel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902089
+    m_Localized: Zaczynasz z {0:plural:+{} dodatkowym punktem|+{} dodatkowymi punktami|+{} dodatkowymi punktami} reputacji w Wydziale Ochrony i otrzymujesz o {1}% więcej nagród za zgłoszenie klientów z listy poszukiwanych.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902090
+    m_Localized: Dobre znajomości
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902091
+    m_Localized: Zaczynasz z {0:plural:{} dodatkowym punktem|{} dodatkowymi punktami|{} dodatkowymi punktami} reputacji w wszystkich frakcjach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902092
+    m_Localized: Czujność
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902093
+    m_Localized: Nikt nie obrabuje cię w nocy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902094
+    m_Localized: Ekipa Sawyera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902095
+    m_Localized: Podziemna Giełda jest dostępna od początku. Usługi dozorców są zawsze darmowe, chyba że sklep został zdemolowany. Koszt pozbycia się efektów wandalizmu jest znacząco zmniejszony.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902096
+    m_Localized: Dyplomacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902097
+    m_Localized: '{0}% więcej reputacji z handlu.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902098
+    m_Localized: Zastraszenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902099
+    m_Localized: Wszystkie popełnione przestępstwa generują o {0}% mniej dostępnych dowodów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902100
+    m_Localized: Boczna uliczka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902101
+    m_Localized: W ciągu dnia pojawia się o jednego losowego klienta mniej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902102
+    m_Localized: Uzależnienie od nikotyny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902103
+    m_Localized: Gdy nie zażywasz regularnie nikotyny, otrzymujesz karę do handlu o wartości {0}%. To uzależnienie można uleczyć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902104
+    m_Localized: Uzależnienie od narkotyków
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902105
+    m_Localized: Gdy nie zażywasz regularnie narkotyków, otrzymujesz karę do handlu o wartości {0}%. To uzależnienie można uleczyć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902106
+    m_Localized: Uzależnienie od alkoholu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902107
+    m_Localized: Jeśli regularnie nie zażywasz alkoholu, otrzymujesz karę do handlu o wartości {0}%. To uzależnienie można uleczyć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902108
+    m_Localized: Sekretny wielbiciel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902109
+    m_Localized: Podczas otwierania sklepu czasami otrzymujesz losowy przedmiot od sekretnego wielbiciela.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902110
+    m_Localized: Przyciągająca osobowość
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902111
+    m_Localized: Odblokowuje {0:plural:{} dodatkowe miejsce|{} dodatkowe miejsca|{} dodatkowych miejsc} na atut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902112
+    m_Localized: Szantaż
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902113
+    m_Localized: Jesteś osobą po przejściach i ktoś szantażuje cię ujawnieniem sekretu. Musisz płacić niewielką, tygodniową sumę. W przeciwnym wypadku szantażyści wyjawią tajemnicę, co spowoduje jednorazowy, znaczny spadek reputacji w większości frakcji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902114
+    m_Localized: Gadulstwo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902115
+    m_Localized: Wszystkie popełnione przestępstwa generują o {0}% więcej dostępnych dowodów. Zyskujesz o 50% mniej reputacji na Czarnym Rynku i w Rewolucji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902116
+    m_Localized: Bez prenumeraty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902117
+    m_Localized: Nie będziesz otrzymywać gazety codziennej, która informuje o toczących się wydarzeniach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902118
+    m_Localized: Minimalizm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902119
+    m_Localized: Wyposażenie główne jest zmniejszone do 20x10 (zamiast 24x10).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902120
+    m_Localized: Zespół kolapsu immunologicznego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902121
+    m_Localized: Cierpisz na śmiertelną, nieuleczalną chorobę autoimmunologiczną. Musisz co tydzień otrzymywać Immunivax, aby przeżyć. Zaczynasz grę z jedną strzykawką Immunivaxu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902124
+    m_Localized: Szybkość
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902125
+    m_Localized: Każdej nocy możesz odwiedzić dwa miejsca po godzinach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902126
+    m_Localized: Agorafobia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902128
+    m_Localized: Pomoc społeczna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902129
+    m_Localized: Kantyna jest dostępna od początku. W poniedziałki możesz otrzymać kartki żywnościowe, w zależności od całkowitego majątku.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902130
+    m_Localized: Sprawny złomiarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902131
+    m_Localized: Możesz wykonać dwa dodatkowe przeszukania na śmietnisku przy każdej wizycie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902132
+    m_Localized: Po stronie Rewolucji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902133
+    m_Localized: Zaczynasz z {0:plural:{} dodatkowym punktem|{} dodatkowymi punktami|{} dodatkowymi punktami} reputacji w Rewolucji. Będziesz częściej otrzymywać zapotrzebowania rynkowe od Rewolucji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902134
+    m_Localized: Uzależnienie od hazardu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902135
+    m_Localized: Kiedy możesz, kupujesz losy na loterię. Wszystkie loterie są od początku odblokowane. To uzależnienie można uleczyć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902136
+    m_Localized: Kaseciarstwo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902137
+    m_Localized: Zaczynasz ze wszystkimi kasetami z muzyką w odtwarzaczu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902138
+    m_Localized: Organizacja ekspedycji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902139
+    m_Localized: Możesz wynajmować pewne postaci i organizować ekspedycje. Odblokowujesz zawartość ekspedycji na początku wraz z wykonawcą.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902140
+    m_Localized: Automat do sprzedaży
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9267625902141
+    m_Localized: Zaczynasz z automatem do sprzedaży zainstalowanym przed sklepem. Umożliwia klientom automatyczny zakup przedmiotów po godzinach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12200241315840
+    m_Localized: Punkt atutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313910013952
+    m_Localized: Krótki sen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791168
+    m_Localized: Jeśli poprzedniego wieczora wyjdziesz po godzinach otwarcia nie ominą cię żadni klienci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791169
+    m_Localized: Działające wodociągi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791170
+    m_Localized: Twoje wodociągi będą od razu podłączone do nieskończonych zasobów rdzawody.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791171
+    m_Localized: Analfabetyzm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791172
+    m_Localized: Nie będziesz w stanie czytać poradników.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313926791173
+    m_Localized: Świetna lokalizacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18833313930985472
+    m_Localized: 'Sklep codziennie odwiedzi jeden dodatkowy zwykły klient, ale czynsz wyniesie {0:plural:{} kredyt|{} kredyty|{} kredytów} więcej. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263553
+    m_Localized: Znany kapuś
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180758536192
+    m_Localized: Złota rączka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673536
+    m_Localized: 'Zacznij z kiepską skrzynką z narzędziami i zestawem kiepskich narzędzi: śrubokrętem, nożycami do drutu, łomem i przecinakiem plazmowym.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673537
+    m_Localized: Wróg publiczny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673538
+    m_Localized: Zaczynasz z {0:plural:{} punktem|{} punktami|{} punktami} reputacji we wszystkich frakcjach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673539
+    m_Localized: Ascetyzm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673540
+    m_Localized: Wyposażenie główne jest zmniejszone do {0}x10 (zamiast 24x10).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673541
+    m_Localized: Okaleczenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673542
+    m_Localized: Śmietnisko nie jest dostępne. W ogóle nie możesz zbierać.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673543
+    m_Localized: Ulubieniec Wilda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673544
+    m_Localized: Wszystkie ulepszenia z sieci Wilda kosztują {0}% mniej. Ubezpieczenie kosztuje {1}% mniej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673545
+    m_Localized: Brak sympatii Wilda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673546
+    m_Localized: Wszystkie ulepszenia z sieci Wilda kosztują {0}% więcej. Ubezpieczenie kosztuje {1}% więcej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673547
+    m_Localized: Zatrzęsienie Ulpów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673548
+    m_Localized: Zawartość z Ulepszonymi odblokowuje się na początku gry. Zarabiaj {0}% więcej kredytów za zabicie Ulpa. Zatrzęsienie Ulpów się nie kończy, a jeśli zbyt wiele Ulpów ci umknie, gra się skończy bez względu na poziom trudności.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673549
+    m_Localized: Szczęście
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673550
+    m_Localized: Zwiększa szczęście. Chyba.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673551
+    m_Localized: Pech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88102180804673552
+    m_Localized: Zmniejsza szczęście. Chyba.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876391931904
+    m_Localized: Osteoartroza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263552
+    m_Localized: W pierwszym tygodniu zbieranie w śmietnisku działa normalnie. Później z każdym tygodniem tracisz 1 próbę zbierania z maksymalnej ich liczby. Gdy maksymalna liczba prób wyniesie mniej niż {0}, zbieranie w ogóle nie będzie możliwe. Zwykli sklepikarze zaczynają z maksymalną liczbą prób wynoszącą {1} na dzień. Zacznij z {2} dodatkowymi medycznymi bandażami miejscowymi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74930876442263554
+    m_Localized: Klienci z listu gończego nie będą odwiedzać twojego sklepu. Zacznij z {0:plural:{} punktem|{} punktami|{} punktami} reputacji w Rewolucji i Czarnym Rynku.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593216
+    m_Localized: Majsterkowicz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593217
+    m_Localized: Gdy ulepszasz przedmiot, istnieje {0}% szans, że potrzebny materiał nie zostanie zużyty.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593218
+    m_Localized: Ostrożny złomiarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593219
+    m_Localized: Podczas wizyt na śmietnisku masz {0:plural:{} działanie|{} działania|{} działań} mniej, ale podczas szukania nigdy nie doznasz urazu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593220
+    m_Localized: Lizus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593221
+    m_Localized: Zacznij z {0:plural:{} dodatkowym punktem|{} dodatkowymi punktami|{} dodatkowymi punktami} reputacji w Wyższych Poziomach. Reputacja zdobywana na Wyższych Poziomach jest zwiększona o {1}%, a klienci z Wyższych Poziomów mają {2}% większy budżet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593222
+    m_Localized: Po odwiedzeniu lokacji po godzinach musisz odpoczywać w sklepie przez {0:plural:{} noc|{} noce|{} nocy}, nim wyjdziesz ponownie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593223
+    m_Localized: Okropny negocjator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593224
+    m_Localized: Nie możesz się targować z klientami i otrzymujesz stałą karę do handlu w wysokości {0}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593225
+    m_Localized: Zakaz wstępu do kantyny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593226
+    m_Localized: Kantyna nie jest dostępna, a kartki żywnościowe nie zostaną wprowadzone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593227
+    m_Localized: Zbieracz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593228
+    m_Localized: Rozpocznij z trzema stertami niedających się ruszyć śmieci na dole wyposażenia. Każdą stertę można usunąć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593229
+    m_Localized: Prowizoryczny reaktor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89630520883593230
+    m_Localized: Na stałe nie masz dostępu do sieci energetycznej stacji, a awarie prądu cię nie dotyczą. Zacznij z dającym się ulepszyć prowizorycznym mikroreaktorem jądrowym od Dr. Jacksona. Zasila sklep, ale trzeba go regularnie naprawiać.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

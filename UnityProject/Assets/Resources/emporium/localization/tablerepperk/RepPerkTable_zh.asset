@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: RepPerkTable_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 45c4f39619603fc4d843907cae64818b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1034312007680
+    m_Localized: 有口皆碑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1174275932160
+    m_Localized: 每天有{0}%概率吸引{1}名额外的随机顾客光顾店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214239260672
+    m_Localized: 在下层区，消息传得很快。一个满意的回头客远不止是一笔买卖，更是你最好的广告。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773368455168
+    m_Localized: 市井传言
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649472
+    m_Localized: 你偶尔会收到来自下层区的关于即将发生事件的情报。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649473
+    m_Localized: 下层区的人总是耳听八方。如果他们信任你，也会让你随时掌握最新动向。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649474
+    m_Localized: 稀有货物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649475
+    m_Localized: 提供稀有货物或违禁品的新型顾客将开始光顾你的店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649476
+    m_Localized: 只要人脉合适，即便在下层区也能找到值得你花时间的好东西。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649477
+    m_Localized: 守口如瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649478
+    m_Localized: 向下层区顾客出售违禁品时，仅会产生相当于其价值{0:P0}的可用证据。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649479
+    m_Localized: 你已经赢得了他们的信任。他们知道你信得过，不会出卖你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649480
+    m_Localized: 下层区传奇
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649481
+    m_Localized: 你现在可以从乔·王尔德和杰克逊博士那里获得{0}%的折扣。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649482
+    m_Localized: 你已赢得了下层区的尊重。就连下层区的其他头目也认可你的善举。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649483
+    m_Localized: 差评
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649484
+    m_Localized: 每天有{0}%概率减少{1}名随机顾客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649485
+    m_Localized: 只需几个不满意的顾客，你在下层区的声望就会遭受打击。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649486
+    m_Localized: 遭到猜疑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649487
+    m_Localized: 来自下层区的顾客将不再向你出售违禁品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649488
+    m_Localized: 你在整个下层区都被视为一个麻烦人物。有违禁品要卖的人会去别处交易。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649489
+    m_Localized: 沦为猎物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649490
+    m_Localized: 你将更频繁地成为小偷的目标。保险费用现在涨至{0}倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649491
+    m_Localized: 你糟糕的声望让你成为了众矢之的。下层区的人永不遗忘。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649492
+    m_Localized: 狗嫌人厌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649493
+    m_Localized: 所有供货商都将拒接你的电话。除了特殊情况外，杰克逊博士将不再造访你的店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649494
+    m_Localized: 再也没有人愿意和你沾上关系了，他们担心败坏了自己的名声。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649495
+    m_Localized: 暴民私刑
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649496
+    m_Localized: 一群来自下层区的暴民将袭击你的店铺并对你施以私刑。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649497
+    m_Localized: 下层区的人已经受够了，他们将亲自采取行动解决问题。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649498
+    m_Localized: 征用令
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649499
+    m_Localized: 治安部征用官偶尔会造访你的店铺购买食物和医疗物资。与他们交易将提升你的声望。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649500
+    m_Localized: 即便是空间站治安部也得找人进货。他们会付给你公道的价格。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649501
+    m_Localized: 应该是风声吧
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649502
+    m_Localized: 治安部将不再回应你的报警。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649503
+    m_Localized: 或许是你喊了太多次狼来了，亦或是你已经不值得他们费心了。无论如何，大难临头时只能自求多福了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649504
+    m_Localized: 重点盯防
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649505
+    m_Localized: 治安部已将你列入观察名单。针对你的所有调查的速度都将加快至原来的{0}倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649506
+    m_Localized: 你的臭名昭著已成功引起了治安部的关注。夹好尾巴做人，否则就脑袋搬家。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649507
+    m_Localized: 头号通缉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649508
+    m_Localized: 针对你的所有调查的速度都将加快至原来的{0}倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649509
+    m_Localized: 又一天过去，空间站治安部主管的办公桌上，又多了一份写着你名字的案卷……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649510
+    m_Localized: 彻底查抄
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649511
+    m_Localized: 治安部将停止派遣敷衍了事或涉黑腐败的检查员来你这里。此外，盘查将变得更加频繁。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649512
+    m_Localized: 别指望盘查员让你轻易过关，或是睁一只眼闭一只眼了。现在每一次盘查都会翻个底朝天。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649513
+    m_Localized: 毫不留情
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649514
+    m_Localized: 针对盘查中查获的违禁品，治安部将依法对你进行顶格起诉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649515
+    m_Localized: 不再有警告，也不再接受贿赂。哪怕是最小的违禁品也能让你陷入大麻烦。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649516
+    m_Localized: 不择手段
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649517
+    m_Localized: 无论他们是否掌握证据，治安部都会立即将你逮捕入狱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773372649518
+    m_Localized: 当他们想让你消失时，真相就无关紧要了。他们会确保所谓的“证据”完全如他们所愿。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843776
+    m_Localized: 治安部庇护
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843777
+    m_Localized: 由于你在治安部声誉良好，小偷更不愿意把你的店铺当成目标。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843778
+    m_Localized: 被空间站治安部盯着并不总是一件坏事。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843779
+    m_Localized: 治安部盈余
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843780
+    m_Localized: 一名治安部盈余物资商人偶尔会造访店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843781
+    m_Localized: 空间站治安部已同意向你出售他们退役的装备，包括武器和护甲。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843782
+    m_Localized: 可靠供应商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843783
+    m_Localized: 治安部盈余物资商人将提供更好的商品，且治安部顾客将增加{0}%的可花费信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843784
+    m_Localized: 你已经证明了自己是一个可靠的供应商。空间站治安部愿意与你做更多的生意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843785
+    m_Localized: VIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843786
+    m_Localized: 由于你在治安部拥有极高声望，小偷将不再把你的店铺当成目标。你也将不再接受任何盘查。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843787
+    m_Localized: 现在谁也惹不起你了。治安部是你的后盾，他们不会让任何人找你的麻烦。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843788
+    m_Localized: 值得信赖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843789
+    m_Localized: 盘查频率将降低，且所有调查的进度都会变慢。你将提前收到关于任何即将开展的治安部行动的警告。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843790
+    m_Localized: 被信赖便意味着治安部会更少来刁难。盘查如今已变得寥寥无几。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843791
+    m_Localized: 地下网络
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843792
+    m_Localized: 你将提前收到关于大多数黑市事件的通知。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843793
+    m_Localized: 决定生死的永远是人脉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843794
+    m_Localized: 黑名单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843795
+    m_Localized: 来自黑市的顾客将不再向你出售违禁品。你被禁止使用地下交易所。清洁服务费用翻倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843796
+    m_Localized: 如果没有人信任你并愿意把东西卖给你，你的信用点就一文不值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843797
+    m_Localized: 无法参保
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843798
+    m_Localized: 你将无法再使用保险服务。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843799
+    m_Localized: 由于你在黑市的恶名，连乔·王尔德都无法再为你提供担保了。往后你只能靠自己了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843800
+    m_Localized: 小牌掮客
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843801
+    m_Localized: 小偷顾客光顾你店铺的几率提升。他们的货物质量现在会随着你黑市声望的提高而改善。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843802
+    m_Localized: 你开始在黑市中建立起名声。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843803
+    m_Localized: 盗亦有道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843804
+    m_Localized: 无论你当前的声望如何，黑市声望流失速度将变为原本的{0}倍。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843805
+    m_Localized: 信任是我们的硬通货。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843806
+    m_Localized: 销赃信誉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843807
+    m_Localized: 每周至少会有一名小偷顾客前来光顾。现在所有小偷都会提供更好的货物。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843808
+    m_Localized: 黑市的小偷们知道你很可靠，越来越多的人愿意和你做生意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843809
+    m_Localized: 打听八卦
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843810
+    m_Localized: 你将提前收到关于大多数上层区事件的通知。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843811
+    m_Localized: 那帮权贵的嘴巴一刻也没停过……甚至有的时候，会冒出几句不是废话的话。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843812
+    m_Localized: 小费
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843813
+    m_Localized: 向上层区顾客出售物品时，你将获得{0}%的奖励。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843814
+    m_Localized: 他们从不讨价还价。他们还会多扔出几枚信用点，美其名曰贵族风度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843815
+    m_Localized: 上层区施舍
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843816
+    m_Localized: 一位来自上层区的施恩人将不定期向你的店铺捐赠物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843817
+    m_Localized: 是逢场作戏的作秀，还是发自内心的善意？反正免费的不要白不要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843818
+    m_Localized: 家喻户晓
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843819
+    m_Localized: 你有{0}%的概率每天额外吸引{1}名上层区顾客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843820
+    m_Localized: 你的店铺已经成为了上层区谈论的话题。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843821
+    m_Localized: 好评如潮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843822
+    m_Localized: 所有来自上层区的顾客都将增加{0}%的可花费信用点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843823
+    m_Localized: 你的店铺是上层区人尽皆知的秘密。上层区的顾客在造访时愿意花更多的钱。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843824
+    m_Localized: 旅游陷阱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843825
+    m_Localized: 上层区的顾客光顾你的店铺的可能性降低。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843826
+    m_Localized: 上层区客户的期望总是更高。而最近，你没能满足他们。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843827
+    m_Localized: 联名检举
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843828
+    m_Localized: 你在治安部的声望流失速度变为原来的{0}倍，且正在进行的调查的速度加快{1:P0}。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843829
+    m_Localized: 利用他们的影响力，上层区已经向治安部联合施压，要求对你密切监视。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843830
+    m_Localized: 雇佣杀手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843831
+    m_Localized: 上层区的人将立即对你的人头下达悬赏。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843832
+    m_Localized: 上层某间豪华套房里已经签下了一份契约。你惹了不该惹的人。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843833
+    m_Localized: 革命军之友
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843834
+    m_Localized: 你将提前收到关于大多数革命军事件的通知。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843835
+    m_Localized: 革命军会确保你不会被卷入交火之中。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843836
+    m_Localized: 暗杀名单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843837
+    m_Localized: 一支革命军处决小队将立即接到清除你的任务。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843838
+    m_Localized: 你已被宣布为革命军的敌人。在你彻底消失之前，他们绝不会善罢甘休。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843839
+    m_Localized: 黑名单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843840
+    m_Localized: 同情革命军的顾客不太可能再光顾你的店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843841
+    m_Localized: 革命军各小组已发布内部通报，警告成员避免与你做生意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843842
+    m_Localized: 革命军市场委托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843843
+    m_Localized: 偶尔会收到来自各个革命军小组的市场委托。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843844
+    m_Localized: 各尽所能，各取所需。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843845
+    m_Localized: 突袭所得
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843846
+    m_Localized: 革命军成员偶尔会造访，出售他们在袭击中抢来的战利品。你的声望越高，价格就越好。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843847
+    m_Localized: 人民的解放需要物资的解放。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843848
+    m_Localized: 革命军军需官
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843849
+    m_Localized: 一名革命军军需官偶尔会造访你的店铺，以折扣价出售材料。声望越高，折扣越大。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843850
+    m_Localized: 革命不能仅靠理想来维持。军需官出售廉价物资，是为了暗中为下一步行动筹集资金。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843851
+    m_Localized: 强制退休
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843852
+    m_Localized: 一名卡特尔杀手已被派来清除你。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843853
+    m_Localized: 有时候，对一条狗最好的处理方式，就是给它个痛快。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843854
+    m_Localized: 增加津贴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843855
+    m_Localized: 你每周的津贴现在会随着你的卡特尔声望而调整。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843856
+    m_Localized: 别把它误认为是仁慈，这只是一笔投资。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843857
+    m_Localized: 可靠化学家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843858
+    m_Localized: 现在申请额外材料只需花费平时所需声望的{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843859
+    m_Localized: 卡特尔一向欣赏忠诚与稳定。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843860
+    m_Localized: 金盆洗手
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843861
+    m_Localized: 你的接头人将开始为你办理脱离卡特尔的相关事宜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10773376843862
+    m_Localized: 你很幸运，很少有人能不躺在裹尸袋里就离开组织……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314774175744
+    m_Localized: 品味不凡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730176
+    m_Localized: 展示柜中放有奢侈品时，每天有{0}%的概率额外迎来一名想购买奢侈品的顾客。概率会随声望提高。此类顾客每{1}天最多来访一次。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89280314807730177
+    m_Localized: 下层区的橱窗里居然摆着高档货？上层区那帮人哪怕只是为了吹嘘一句“这可是我先发现的”，也会专程跑下来一趟。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

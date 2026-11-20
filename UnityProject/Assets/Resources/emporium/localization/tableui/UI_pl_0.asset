@@ -1,0 +1,3239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI_pl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: 8733b0844cf071443a46f0df4a075d09, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 180859801898369024
+    m_Localized: 'Ograniczenia:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117760
+    m_Localized: 'Zainteresowania:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117761
+    m_Localized: Klient nie uznaje kontrabandy. Schowaj ją z lady.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117762
+    m_Localized: Pracuje w Wydziale Ochrony. Kontrabanda na ladzie zostanie skonfiskowana i otrzymasz grzywnę.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117763
+    m_Localized: Brak zainteresowania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117764
+    m_Localized: Suma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117765
+    m_Localized: Twoje środki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117766
+    m_Localized: Suma/Hurt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117767
+    m_Localized: Oferuje zniżkę {0}% przy zakupie hurtowym
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117768
+    m_Localized: Kup informacje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117769
+    m_Localized: 'Wybierz ofertę: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117770
+    m_Localized: Podstawowe wymagania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117771
+    m_Localized: Dodatkowe wymagania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180859801936117772
+    m_Localized: Wybierz nocne usługi potrzebne w sklepie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134193438720
+    m_Localized: NIEAKTYWNE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187456
+    m_Localized: AKTYWNE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187457
+    m_Localized: Wyszukaj modyfikacje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187458
+    m_Localized: Warsztat Steam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187459
+    m_Localized: Przestań subskrybować wybrane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187460
+    m_Localized: Automatycznie sortuj modyfikacje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187461
+    m_Localized: Zmienić kolejność aktywnych modyfikacji, by wczytywały się po modyfikacjach, od których zależą? Bieżąca kolejność zostanie zastąpiona.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187462
+    m_Localized: Przerwać subskrypcję modyfikacji „{0}”? Steam usunie pliki i modyfikację po następnym ponownym uruchomieniu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187463
+    m_Localized: Przywróć domyślne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187464
+    m_Localized: Modyfikacje są tworzone przez innych graczy, a nie przez firmy Questing Goose Studio i tinyBuild. Modyfikacja może zawierać kod mający taki sam dostęp do komputera, co gra. Gra sprawdza modyfikacje przed aktywacją, ale nie może zapewnić ich bezpieczeństwa. Aktywuj wyłącznie modyfikacje od zaufanych autorów. Używaj modyfikacji na własne ryzyko. Firmy Questing Goose Studio i tinyBuild nie ponoszą odpowiedzialności za wszelkie szkody, utratę danych i inne negatywne efekty spowodowane przez modyfikację i nie mogą udzielać wsparcia w sprawie problemów występujących, gdy modyfikacje są aktywne.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187465
+    m_Localized: Zmiany związane z modyfikacjami będą widoczne po ponownym uruchomieniu gry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187466
+    m_Localized: Zależności
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187467
+    m_Localized: Aktywuj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187468
+    m_Localized: Dezaktywuj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187469
+    m_Localized: 'Autor: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187470
+    m_Localized: 'Wersja modyfikacji: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187471
+    m_Localized: 'Wersje gry: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187472
+    m_Localized: 'Brakująca zależność: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187473
+    m_Localized: 'Zależność nieaktywna: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187474
+    m_Localized: Nie stworzono do wersji gry {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187475
+    m_Localized: Otwórz folder z modyfikacjami
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187476
+    m_Localized: '[{0}] Błąd: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187477
+    m_Localized: Zasubskrybowano również w Warsztacie. Używana jest lokalna kopia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187478
+    m_Localized: Przerwać subskrypcję kopii modyfikacji „{0}” z Warsztatu? Lokalna kopia w folderze z modyfikacjami nie zostanie usunięta i będzie dalej używana.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180502134231187479
+    m_Localized: Trwa pobieranie {0:plural:{} elementu|{} elementów|{} elementów} z Warsztatu. Pojawią się po ponownym uruchomieniu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779480580096
+    m_Localized: '1.1. Kwota pożyczki: {0:plural:{} kredyt|{} kredyty|{} kredytów}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134528
+    m_Localized: '1.2. Zadatek: {0:plural:{} kredyt|{} kredyty|{} kredytów}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134529
+    m_Localized: '1.3. Oprocentowanie: {0}% rocznie (stopa tygodniowa {1}%)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134530
+    m_Localized: '1.4. Spłata: {0:plural:{} rata tygodniowa|{} raty cotygodniowe|{} rat cotygodniowych} po {1:plural:{} kredyt|{} kredyty|{} kredytów}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134531
+    m_Localized: Gdy klient wejdzie do sklepu, automatycznie otwiera interfejs negocjacji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134532
+    m_Localized: System szybkiego transportu stacji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134533
+    m_Localized: Podróżuj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134534
+    m_Localized: Niedostępne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134535
+    m_Localized: Śmietnisko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181040779514134536
+    m_Localized: 'Wybieraj opcje wydarzenia, wybór rozładunku i inne opcje jednym kliknięciem zamiast dwoma: jednym, by wybrać i kolejnym, by potwierdzić.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55710344593408
+    m_Localized: Wznów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55727805480960
+    m_Localized: Nakładka samouczka (O)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55768439898112
+    m_Localized: Opcje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55807065243648
+    m_Localized: Menu główne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55856922935296
+    m_Localized: Wyjdź z gry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58797314588672
+    m_Localized: Bieżąca liczba kredytów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59349180137472
+    m_Localized: Czekaj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59446253109248
+    m_Localized: Odeślij wszystkich oczekujących klientów i zakończ dzień
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59613819748352
+    m_Localized: Nie możesz zakończyć dnia, w kolejce czekają ważne osoby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59636871643136
+    m_Localized: Zacznij dzień
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59652143104000
+    m_Localized: Dzień się skończył
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60775671316480
+    m_Localized: Sprawdź kalendarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62907535376384
+    m_Localized: Otwórz tablet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63130466828288
+    m_Localized: Nie możesz teraz wezwać następnego klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63189254193152
+    m_Localized: Nie możesz wezwać następnego klienta, sklep jest zamknięty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63233680261120
+    m_Localized: Odpraw klienta i wezwij następnego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63266530050048
+    m_Localized: Nie możesz teraz odprawić klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63322666614784
+    m_Localized: Wezwij następnego klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64156087402496
+    m_Localized: 'Liczba klientów w kolejce: {count}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77168739401728
+    m_Localized: Przenieś wszystkie przedmioty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77365632614400
+    m_Localized: Nie możesz teraz odprawić klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77786434551808
+    m_Localized: Odpraw klienta i nie wzywaj następnego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78076277735424
+    m_Localized: Klient został już zgłoszony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78589987700736
+    m_Localized: Klient nie może zostać zgłoszony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78608509747200
+    m_Localized: Poproś Ochronę o pomoc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79608394072064
+    m_Localized: Rejestrator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79732914569216
+    m_Localized: Skrzynka opinii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79830084009984
+    m_Localized: Idź spać
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79925714141184
+    m_Localized: Nie możesz iść spać, gdy sklep jest otwarty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79972023451648
+    m_Localized: Nie możesz teraz iść spać
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80315113324544
+    m_Localized: Sprawdź zapotrzebowania rynkowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174603755110400
+    m_Localized: Zapisywanie…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578349003980800
+    m_Localized: Poszukiwani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578396634497024
+    m_Localized: Ochrona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93578957761069056
+    m_Localized: Wydział Ochrony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579052590088192
+    m_Localized: Teczka Ochrony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579553721335808
+    m_Localized: Profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579670658531328
+    m_Localized: NAZWISKO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579693173555200
+    m_Localized: MIEJSCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579716393222144
+    m_Localized: ZAWÓD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579789374111744
+    m_Localized: NOTATKA FUNKCJONARIUSZA PROWADZĄCEGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93579754880155648
+    m_Localized: PODEJRZANA DZIAŁALNOŚĆ KRYMINALNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580455396032512
+    m_Localized: SKLEPIKARZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580519317225472
+    m_Localized: NIŻSZE POZIOMY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580721717559296
+    m_Localized: HANDLARZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93580866337161216
+    m_Localized: DODATKOWE INFORMACJE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581231879143424
+    m_Localized: REKOMENDOWANE DZIAŁANIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581300363739136
+    m_Localized: FUNKCJONARIUSZ PROWADZĄCY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581591477796864
+    m_Localized: AKTYWNA OPERACJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581674730536960
+    m_Localized: POSTĘPY ŚLEDZTWA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581707546771456
+    m_Localized: SPODZIEWANY WYROK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93581860617895936
+    m_Localized: ///TAJNE///NIE KOLPORTOWAĆ///
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93587912008712192
+    m_Localized: DRAP I WYGRYWAJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588131404365824
+    m_Localized: JAK WYGRAĆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588417753694208
+    m_Localized: 2 IDENTYCZNE SYMBOLE = 10 KREDYTÓW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588465635868672
+    m_Localized: 3 IDENTYCZNE SYMBOLE = 75 KREDYTÓW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588481234485248
+    m_Localized: 2 IDENTYCZNE POŻYWNOWOCE = 30 KREDYTÓW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93588581063114752
+    m_Localized: 3 IDENTYCZNE POŻYWNOWOCE = 350 KREDYTÓW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598206919491584
+    m_Localized: Sieć Wilda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93598467398352896
+    m_Localized: Odblokuj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96051782333808640
+    m_Localized: Etykieciarka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96052992709279744
+    m_Localized: Komisja Handlu Stacji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053216886439936
+    m_Localized: Podręcznik autentyczności Hemingway Cigarette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053359593439232
+    m_Localized: 'Podrabiane papierosy Hemingway Cigarette są powszechne na stacji. Ich wartość i jakość jest znacząco niższa niż w przypadku oryginałów. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053451670994944
+    m_Localized: Problemy z tekstem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054067961053184
+    m_Localized: Różnice powinny być dostrzegalne gołym okiem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053659368734720
+    m_Localized: Problemy z logo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053957164318720
+    m_Localized: Problemy z kolorystyką
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96053984980942848
+    m_Localized: Problemy z plombą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054690999746560
+    m_Localized: Błędna pisownia, źle rozstawiony tekst lub niespójna jakość wydruku na paczce, różnice w kolorystyce, kroju lub brak tekstu wskazują na podróbki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054818166849536
+    m_Localized: Oryginał
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054861590478848
+    m_Localized: Nieprawidłowy krój
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054893702070272
+    m_Localized: Błędna pisownia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056281177833472
+    m_Localized: Użyj wzornika barw, by porównać
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054988258459648
+    m_Localized: Błąd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96054942020452352
+    m_Localized: Błędny przykład
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96056565048328192
+    m_Localized: Papierosy Hemingway Cigarette zawsze sprzedawane są z plombą zabezpieczającą. Jeśli jej brakuje lub jest przerwana, papierosy są podrobione.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057260392628224
+    m_Localized: Podręcznik autentyczności kartek żywnościowych Republiki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057349144100864
+    m_Localized: 'W ramach wyjątkowo hojnej inicjatywy społecznej zorganizowanej przez Republikę mieszkańcy Niższych Poziomów regularnie otrzymują kartki żywnościowe. Można ich użyć w celu zakupienia produktów potrzeb podstawowych w sklepach wspieranych przez Republikę. Uwaga: na Niższych Poziomach podróbki kartek nie należą do rzadkości.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057513896361984
+    m_Localized: Wypatruj błędów w pisowni, ewidentnych problemów z układem tekstu. Na podróbkach znaleźć też można różnice w kolorystyce, kroju pisma czy brak tekstu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96057755253391360
+    m_Localized: (Nieprawidłowe, jeśli brakuje logo)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058034761809920
+    m_Localized: Kartka żywnościowa o nominale 160 kredytów lub wyższym, ma plombę zabezpieczającą. Kartki o nominale poniżej 160 kredytów nie mają plomby.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058168140677120
+    m_Localized: Wartość kartki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058204379463680
+    m_Localized: "Kartki żywnościowe wydawane są JEDYNIE w nominałach:\n40 kredytów, 80 kredytów,\n120 kredytów, 160 kredytów,\n200 kredytów, 240 kredytów."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058228136001536
+    m_Localized: Czip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96058254006468608
+    m_Localized: 'Wszystkie kartki żywnościowe zawierają czip. Jeśli czip jest uszkodzony lub go brakuje, nie można skorzystać z kartki, nawet, jeśli jest prawdziwa. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059018745528320
+    m_Localized: Podręcznik autentyczności strzykawki Immunivax
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059108805623808
+    m_Localized: Wysoce precyzyjny regulator układu odpornościowego, który tymczasowo blokuje symptomy związane ze śmiertelną chorobą kolapsu immunologicznego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059345028825088
+    m_Localized: Problemy ze wskaźnikiem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059529305571328
+    m_Localized: 'Przykład:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059675703558144
+    m_Localized: Po dacie ważności
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059701712437248
+    m_Localized: Pusta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059889814388736
+    m_Localized: Problemy z etykietą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96059996320350208
+    m_Localized: (Podróbka, jeśli brakuje etykiety).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060274918604800
+    m_Localized: TYLKO odpowiedni przypadek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060400747724800
+    m_Localized: "Możliwe błędy:\n – Pisownia\n – Brak nazwy firmy\n – Brak nazwy produktu\n – Znaczne różnice w kroju pisma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060752268148736
+    m_Localized: Numer seryjny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96060973857423360
+    m_Localized: 'Wszelkie strzykawki Immunivax MUSZĄ posiadać ważny, siedmiocyfrowy numer seryjny. Pierwsze trzy cyfry to numer serii. Prawidłowy zakres: 1250000-4559999.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061056065781760
+    m_Localized: "Nota o cofnięciu produktu (numer serii): 250, 251, 301, 355, 385, 386, 421\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061186227617792
+    m_Localized: Egzemplarz wycofany (NIEUŻYWALNY)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061727754207232
+    m_Localized: Problemy z korpusem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061800735096832
+    m_Localized: Gdy na strzykawce widać uszkodzenia, np. widoczne pęknięcia, zostaje ona uznana za niezdatną do użycia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96061957102944256
+    m_Localized: Prawidłowe kolory główne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062623657541632
+    m_Localized: Kantyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062734018068480
+    m_Localized: Kup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96062866713264128
+    m_Localized: 'Użyte żetony Kantyny:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063002021511168
+    m_Localized: Użyj ważnych kartek żywnościowych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063130195247104
+    m_Localized: Zrealizuj wszystkie losy na loterię
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96063415374364672
+    m_Localized: „Władza istnieje, by podnosić ludzi, nie ich ciemiężyć.”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064079886336000
+    m_Localized: Konfrontacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064044792594432
+    m_Localized: Dopasuj etykietę
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96064603201257472
+    m_Localized: Wykańczacz chemiczny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065702779994112
+    m_Localized: Akt własności
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065787035172864
+    m_Localized: "Niniejszy dokument potwierdza, że jego posiadacz jest prawowitym właścicielem nieruchomości użytkowej zlokalizowanej pod adresem:\n\nNiższe Poziomy, Sektor 14\n\nNiniejszy Akt nadaje pełne prawo własności wspomnianej nieruchomości posiadaczowi ze skutkiem natychmiastowym w momencie spłaty długu, określonego w Umowie oraz po uiszczeniu pełnej kwoty zakupu.\n\nW skład własności nieruchomości wchodzą następujące prawa:\n\nPrawo do działalności i zarządzania – pełna kontrola oraz domniemana odpowiedzialność za codzienne funkcjonowanie i aktywności.\nPrawo do renowacji i zmian – podlegające odpowiednim prawom i przepisom zagospodarowania przestrzennego.\nPrawo do sprzedaży lub przekazania – podlegające zatwierdzeniu władz Stacji oraz zgodnie z odpowiednimi prawami i przepisami."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065848574001152
+    m_Localized: Sklepikarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96065889678180352
+    m_Localized: Właściciel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96066893626785792
+    m_Localized: Umowa najmu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96067891871137792
+    m_Localized: "PUNKT 1: STRONY\nWłaściciel: („Właściciel”),\nSklepikarz: („Najemca”).\n\nPUNKT 2: LOKAL\nWłaściciel wynajmuje Najemcy lokal w celu prowadzenia działalności gospodarczej, zgodnie z określonymi tu zasadami i warunkami.\n\nPUNKT 3: WARUNKI NAJMU\nKwota najmu: nieokreślona        \nHarmonogram płatności: co siedem (7) dni\n\nPUNKT 4: ZALEGŁOŚCI CZYNSZOWE\nW przypadku braku płatności w terminie Najemca otrzyma jednorazowo okres karencji zgodnie z postanowieniami niniejszej umowy. Zaległości czynszowe zostaną dodane do czynszu z następnego tygodnia. Nieuiszczenie pełnej kwoty w kolejnym terminie stanowić będzie złamanie warunków niniejszej umowy.\n\nEksmisja: w przypadku braku płatności czynszu lub zwiększonej jednorazowo kwoty czynszu Właściciel zastrzega sobie prawo do rozwiązania umowy oraz wszczęcia procedury eksmisji zgodnie z Rozporządzeniami Stacji.\n\nPUNKT 5: ZMIANA CZYNSZU\nZwiększenie czynszu: Właściciel zastrzega sobie prawo do zmiany czynszu w górę o wartość 5% obecnej kwoty czynszu w kolejnym tygodniu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96068981312241664
+    m_Localized: Informacja o Loterii Niższych Poziomów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069071271673856
+    m_Localized: Wraca Loteria Niższych Poziomów! Możesz odwrócić swój los, kupując… los!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069114858881024
+    m_Localized: Jak działa loteria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069224581873664
+    m_Localized: Liczby losowane są w sobotnie poranki. Wylosowane liczby zostaną podane w gazecie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069304206540800
+    m_Localized: System loterii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069332459372544
+    m_Localized: Wylosowane zostanie 6 unikalnych liczb z zakresu od 1 do 49. Wygrana zależy od tego, ile skreślonych przez ciebie liczb pasuje do wylosowanych liczb.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069469126574080
+    m_Localized: Przykładowe wylosowane liczby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069476978311168
+    m_Localized: Przykładowe wylosowane liczby (3 pasujące liczby)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070226617876480
+    m_Localized: 6/6 liczb (szóstka)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070259631243264
+    m_Localized: 5/6 liczb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070272549699584
+    m_Localized: 4/6 liczb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96070284029509632
+    m_Localized: 3/6 liczb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854868041728
+    m_Localized: 'Notatka Mentora: handel'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401856
+    m_Localized: " 1. Przesuń przedmiot na ladę negocjacyjną, a pojawi się interfejs negocjacji.\n2. Jeśli możesz kupić lub sprzedać przedmiot, pojawi się przycisk.\n\nKlienci mają ograniczony budżet do wydania w sklepie.\n\nPodczas sprzedaży marża naliczana jest automatycznie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401857
+    m_Localized: 'Notatka Mentora: żywność'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401858
+    m_Localized: " Na Stacji najczęściej handluje się żywnością.\nMocno rekomenduję zaopatrzenie się w jedzenie, ponieważ ceny żywności i wody mocno wzrastają podczas okresów niedoboru. Wszyscy muszą jeść."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401859
+    m_Localized: 'Notatka Mentora: po godzinach'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401860
+    m_Localized: " Po zamknięciu sklepu powinno starczyć ci czasu na odwiedzenie różnych miejsc w sektorze.\nZawsze możesz wrócić na śmietnisko, by je przeszukać. Bez plecaka nie zabierzesz ze sobą do sklepu zbyt wielu przedmiotów.\nWeź też ze sobą bandaż, aby się załatać, jeśli zranisz się podczas szukania złomu. W przypadku poważnych ran nie można wyjść na zewnątrz przez kilka dni."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401861
+    m_Localized: 'Notatka Mentora: zakup hurtowy'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401862
+    m_Localized: " Czasami sprzedający zaoferują zniżkę, jeśli kupisz wszystkie przedmioty (czyli „hurtowo”).\n\nWciąż możesz sprawdzić każdy oferowany przedmiot indywidualnie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401863
+    m_Localized: 'Notatka Mentora: kontrabanda'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401864
+    m_Localized: " Kontrabanda to wszystkie przedmioty uznawane za nielegalne przez Republikę. Posiadanie lub sprzedaż kontrabandy niesie wysokie ryzyko… i zapewnia lepszy zysk.\nSą 4 poziomy kontrabandy:\nNiskiego poziomu (+{0}% do marży): technicznie jest nielegalna, ale zazwyczaj ignorowana przez Ochronę, chyba że ta się na ciebie uwzięła.\nŚredniego poziomu (+{1}% do marży): Ochrona skonfiskuje ją podczas kontroli.\nWysokiego poziomu (+{2}% do marży): Ochrona skonfiskuje ją podczas kontroli i wyznaczy ci grzywnę.\nKrytycznego poziomu (+{3}% do marży): jeśli Ochrona ją znajdzie podczas kontroli, zamknie sklep na stałe, a ciebie natychmiast aresztuje.\nDodatkowo w przypadku znalezienia kontrabandy spadnie reputacja w Wydziale Ochrony."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401865
+    m_Localized: 'Notatka Mentora: kradzione przedmioty'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401866
+    m_Localized: " Sprzedaż [kradzionych] towarów jest nielegalna. Każdy skradziony przedmiot ma poziom uwagi, im wyższy poziom uwagi, tym łatwiej Ochrona rozpozna przedmiot podczas kontroli. Sprzedający oferują zniżki w zależności od poziomu uwagi.\nPoziom uwagi spada z czasem."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401867
+    m_Localized: 'Notatka Mentora: kontrola Ochrony'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401868
+    m_Localized: " Ochrona Stacji prowadzi losowe kontrole w poszukiwaniu kontrabandy. Twoja reputacja w Wydziale Ochrony wpływa na poziom kary w momencie znalezienia kontrabandy. Wydarzenia mogą wpływać na częstotliwość kontroli w sklepie.\n\nDodatkowo różni funkcjonariusze inaczej przeprowadzają kontrole. Niektórych można przekupić, inni nie będą zaglądać do każdego kąta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401869
+    m_Localized: Usługa rzeczoznawcza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401870
+    m_Localized: " Niektóre przedmioty oznaczone jako [Do rzeczoznawstwa] mają kompleksową strukturę wyceny. Klienci odwiedzą sklep, by skorzystać z usług rzeczoznawczych, w celu wyceny danego przedmiotu.\n\nZa usługę rzeczoznawczą otrzymuje się opłatę podstawową plus premię uzależnioną od precyzji wyceny.\nMożesz przystępować do egzaminów rzeczoznawstwa i otrzymać certyfikat, który zwiększy opłatę podstawową i odblokuje nowe przedmioty do wyceny."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401871
+    m_Localized: – Rada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401872
+    m_Localized: 'Notatka Mentora: wydarzenia'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401873
+    m_Localized: " Pewne wydarzenia wpływają na ceny rynkowe towarów, zwiększając je lub zmniejszając. Bieżące wydarzenia opisane są w gazecie.\n Niektórzy informatorzy mogą sprzedać informacje o wydarzeniach, zanim do nich dojdzie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401874
+    m_Localized: 'Notatka Mentora: oferta barteru'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401875
+    m_Localized: " Niektórzy klienci będą chcieli wymieniać towary, a nie kupować je za kredyty.\nOferty barteru nie są negocjowane jak standardowe oferty kupna i sprzedaży.\nNie wpływają na nie również bieżące wydarzenia."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401876
+    m_Localized: 'Notatka Mentora: wystawa'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401877
+    m_Localized: " Po lewej stronie rolety znajdują się wystawa, jedna z podstawowych części sklepu.\nZależnie od rodzaju wstawionych przedmiotów raz na dzień przyciągniesz klienta szukającego towaru danego typu.\nNa przykład, jeśli wystawiasz wiele przedmiotów oznaczonych jako [Żywność] oraz przedmiot [Medyczny] o niskiej wartości, następnego dnia pojawi się klient poszukujący żywności.\nŁączna wartość wystawionych przedmiotów wpływa na status społeczny przyciąganego klienta.\nUlepszenie wystawy przyciągnie więcej klientów.\n\n<b>Pamiętaj, by uzupełnić wystawę przed otwarciem sklepu.</b>\nNie trzymaj kontrabandy na wystawie – Ochrona może cię wtedy aresztować."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401878
+    m_Localized: 'Notatka Mentora: ulepszenia'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401879
+    m_Localized: " Z upływem czasu poznasz różne osoby, które za odpowiednią cenę zaoferują ulepszenia sklepu.\n Ulepszenia są przydatne, ale pamiętaj o płynności finansowej i uzbieraniu kolejnej opłaty za czynsz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401880
+    m_Localized: 'Notatka Mentora: inspekcja wizualna'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401881
+    m_Localized: " Niektóre przedmioty są oznaczone symbolem szkła powiększającego.\nUżyj szkła powiększającego na takim przedmiocie, by otworzyć okno inspekcji.\nJeśli dostrzeżesz problem z przedmiotem, możesz wybrać ten problem na dole interfejsu okna inspekcji i skonfrontować się z klientem.\n <b>Jeśli przedmiot jest podróbką, do konfrontacji z klientem wystarczy jeden powód.</b>\n\nJeśli masz rację, klient zmieni cenę. Jeśli nie masz racji, stracisz trochę reputacji, a klient może udać się do innego sklepu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401882
+    m_Localized: 'Notatka Mentora: kartki żywnościowe'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401883
+    m_Localized: " Kartki żywnościowe to element programu pomocy społecznej, który pomaga niektórym mieszkańcom Niższych Poziomów i zapobiega niepokojom pośród ludności.\nKartek żywnościowych używa się w Kantynie do kupowania jedzenia.\nKartki żywnościowe mają różne wartości. Można za nie kupić wyłączenie jedzenie, dlatego często sprzedawane są za mniej kredytów, niż wynosi ich nominał.\nPo Stacji krążą podróbki kartek żywnościowych. Nieszczęśnicy dowiadują się o tym dopiero podczas próby wymiany kartek."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401884
+    m_Localized: 'Notatka Mentora: Kantyna'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401885
+    m_Localized: " Kantyna prowadzona jest przez Republikę. Ceny sprzedawanych przedmiotów są narzucone z góry i nie wpływa na nie rynek.\n\nChoć ceny są ustalone, sama dostępność towarów uzależniona jest od rynku.\nW Kantynie dobra można kupić jedynie za kartki żywnościowe.\n\n<u>Odwiedź Kantynę po zamknięciu sklepu, by kupić towary.</u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401886
+    m_Localized: 'Notatka Mentora: etykiety przedmiotów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401887
+    m_Localized: " Niektóre przedmioty można ponownie etykietować. Na przykład można przykleić nową etykietę na pudełko podrobionych papierosów, aby podnieść ich cenę.\n\nUważaj, większość pracowników, funkcjonariuszy Ochrony i mieszkańców Niższych Poziomów jest świadoma istnienia podróbek. Próby oszustwa mogą się nie udać i skutkować zmniejszeniem reputacji.\nZłomiarze też o tym wiedzą, ale często nie posiadają sprzętu do sprawdzenia autentyczności.\nTuryści i mieszkańcy Wyższych Poziomów zazwyczaj są bardziej łatwowierni.\nWcześniej czy później prawda wyjdzie jednak na jaw."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401888
+    m_Localized: 'Notatka Mentora: zespół kolapsu immunologicznego'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401889
+    m_Localized: " Przykro mi, że masz ZKI… To poważna, nieuleczalna choroba.\nMusisz regularnie brać Immunivax. W przeciwnym wypadku twój stan zdrowia się pogorszy i nastąpi jego trwały uszczerbek. Z początku możesz sobie pozwolić na kilka dni opóźnienia, ale z upływem czasu obrażenia się kumulują."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401890
+    m_Localized: Lista słów kluczowych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401891
+    m_Localized: " \nZapotrzebowania rynkowe będą zawierały następujące słowa:\nnadchodząca operacja, impreza urodzinowa\nstrzykawka Oxymore, napoje\nnapad, spotkanie\nkryjówka, ogród\nkarta dostępu Ochrony, prezent na parapetówkę\nekstrakcja, wakacje\nujawnienie, w ruinie\nsytuacja priorytetowa, na już\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401892
+    m_Localized: Niepozorny kawałek papieru z naprędce spisanymi słowami kluczowymi rewolucjonistów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97530854897401893
+    m_Localized: – Mentor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609007955230720
+    m_Localized: Sztabki metalu powstają z rozpuszczenia w piecu DWÓCH egzemplarzy złomu lub rudy. Mogą posiadać różne poziomy czystości. Im wyższa czystość, tym wyższa wartość sztabki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553554441289728
+    m_Localized: Poradnik wyceny żebronapki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553663073763328
+    m_Localized: Wartość podstawowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553741188481024
+    m_Localized: Wszystkie żebronapki kosztują na początku 150 kredytów. Na cenę wpływają różne warunki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553814270033920
+    m_Localized: 1. Opakowanie, podróbki i wartość minimalna.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553878459662336
+    m_Localized: 2. Data produkcji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97554477146226688
+    m_Localized: Limitowana edycja kanapki od Davre. Nie jest już produkowana, ale jej wartość stale wzrasta, ponieważ ludzie dalej ją jedzą.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553856145965056
+    m_Localized: "Jeśli brakuje plastikowego opakowania, jest ono rozerwane lub podrobione, wartość końcowa zawsze wynosi 40 kredytów bez niezależnie od innych okoliczności.\nKońcowa wartość żebronapek nie może spaść poniżej 40 kredytów."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553920436256768
+    m_Localized: 'Wszystkie żebronapki posiadają na opakowaniu datę produkcji. Żebronapki były produkowane w następujących cyklach:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97553955567747072
+    m_Localized: "Pierwszy cykl produkcyjny: styczeń 425 – grudzień 429\nDrugi cykl produkcyjny: styczeń 432 – grudzień 438"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555086788313088
+    m_Localized: Żebronapka wyprodukowana w pierwszym (01/425) lub ostatnim miesiącu (12/438) jest warta o 50 kredytów więcej ze względów historycznych.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555078433259520
+    m_Localized: W pierwszym cyklu produkcyjnym żebronapki tworzone były z lepszych składników, ich wartość jest o 80 kredytów wyższa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97555062360686592
+    m_Localized: Jeśli brakuje daty produkcji, jest ona nieprawidłowa lub poza zakresem, masz do czynienia z podróbką.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556559559442432
+    m_Localized: Davre korzystało z różnych fabryk do produkcji i pakowania żebronapek. Miały one różny poziom standardów kontroli jakości, co może wpływać na okres przydatności do spożycia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556520833433600
+    m_Localized: 3. Zakład pakowania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556791819026432
+    m_Localized: "Zakłady pakowania wysokiej jakości: 01, 02, 05, 08, 21, 34\nZakłady pakowania niskiej jakości: 07, 15, 18, 26, 31"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556578551250944
+    m_Localized: Łącznie korzystano z 35 zakładów pakowania. Jeśli na opakowaniu nie widnieje numer zakładu lub jest on nieprawidłowy, masz do czynienia z podróbką.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556665188794368
+    m_Localized: Żebronapki z zakładów pakowania wysokiej jakości są warte o 50 kredytów więcej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556679042580480
+    m_Localized: Żebronapki z zakładów pakowania niskiej jakości są warte o 50 kredytów mniej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97556690048434176
+    m_Localized: 'Przykład prawdziwej żebronapki z drugiego cyklu produkcji:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558344047050752
+    m_Localized: 4. Edycja Deluxe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558370148204544
+    m_Localized: Obok standardowych żebronapek do sprzedaży trafiła wersja w bułce z sezamem i dodatkowymi ogórkami konserwowymi pod nazwą Edycja Deluxe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558401722925056
+    m_Localized: Edycja Deluxe żebronapki musi zawierać zarówno bułkę z sezamem i dodatkowe ogórki konserwowe. Jeśli występuje tylko jeden element, jest to podróbka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558426083442688
+    m_Localized: Prawidłowe egzemplarze Edycji Deluxe są warte o 300 kredytów więcej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558450448154624
+    m_Localized: 5. Podwójny kotlet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558478566768640
+    m_Localized: Według doniesień w trakcie produkcji doszło do nielicznych usterek maszyn pakujących Davre, które wyprodukowały żebronapki z dwoma kotletami. Większość takich egzemplarzy została usunięta i zniszczona przez zespół kontroli jakości, przez co podwójne żebronapki są niezwykle rzadkie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558496883294208
+    m_Localized: Prawidłowe egzemplarze podwójnych żebronapek są warte o 800 kredytów więcej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558508056920064
+    m_Localized: 6. Logo Davre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558545474306048
+    m_Localized: Wszystkie żebronapki posiadają logo Davre. Jeśli go brakuje lub jest nieprawidłowe, masz do czynienia z podróbką.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558562889056256
+    m_Localized: 7. Logo żebronapki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97558698344103936
+    m_Localized: Wszystkie żebronapki z drugiego cyklu produkcyjnego posiadają naklejkę żebronapki. Jeśli jej brakuje lub jest nieprawidłowa, masz do czynienia z podróbką. Żebronapki z pierwszego cyklu nie posiadają tej naklejki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97559369936060416
+    m_Localized: Poradnik wyceny wkładów plazmowych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578536374419456
+    m_Localized: "Wkłady plazmowe zasilają pulsacyjne napędy plazmowe, często instalowane na małych i średnich statkach kosmicznych.\nZe względu na duży popyt i niskie wymagania prawne wkłady plazmowe produkowane są zarówno w chałupniczych warsztatach, jak i laboratoriach przemysłowych. Miejsce wyrobu wpływa na jakość wkładu.\n\nNiniejszy przewodnik zapewnia wszystkie informacje niezbędne do wyceny wkładu plazmowego."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578620231139328
+    m_Localized: ILUSTRACJA WKŁADU PLAZMOWEGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578666938908672
+    m_Localized: "Na stacji działa czterech głównych producentów:\n\n\t– Wild's Rides („WLD”),\n\t– Republic Naval Requisition („RNR”),\n\t– ZhongHua Shipbuilding („ZHS”),\n\t– Ignition Lab („IGN”)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578677403697152
+    m_Localized: Bez względu na producenta i ich aktualny stan, wartość podstawowa wkładów plazmowych to 300 kredytów, a wartość minimalna – 90 kredytów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578837257011200
+    m_Localized: Stan wkładu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578934199959552
+    m_Localized: Wartość wkładu plazmowego zależy od jego stanu. Stan jest sumą atrybutów wkładu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97578995805896704
+    m_Localized: Standardowy (bez zmian)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579017947627520
+    m_Localized: Lekkie zużycie (-45 kredytów)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579023517663232
+    m_Localized: Mocne zużycie (-90 kredytów)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579295308562432
+    m_Localized: Stan wkładu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579324266037248
+    m_Localized: Pęknięcie (-150 kredytów)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579339571052544
+    m_Localized: Widoczne śruby (-30 kredytów)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579346848169984
+    m_Localized: Wzmocniony (+60 kredytów)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579654009634816
+    m_Localized: Barwa plazmy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579702764224512
+    m_Localized: "Barwa plazmy to najważniejszy wskaźnik jakości.\nWszelkie barwy nieoznaczone jako standardowe lub wysokiej jakości są uznawane za wskaźnik niskiej jakości."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579718635470848
+    m_Localized: Standardowy (bez zmian)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579734468968448
+    m_Localized: Egzemplarz niskiej jakości (-150 kredytów)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579741716725760
+    m_Localized: Wysokiej jakości (+150 kredytów)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97579997401497600
+    m_Localized: Producent wkładu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580560818159616
+    m_Localized: Wild's Rides („WLD”)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580794755465216
+    m_Localized: Przykład
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580685535789056
+    m_Localized: "Wkłady plazmowe WLD produkowane są na Niższych Poziomach i znacznie różnią się jakością.\nMożliwy stan wkładu: dowolny\nMożliwy kolor: niskiej jakości, standardowy\nPlomba: zawsze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97580739558424576
+    m_Localized: 'Spełnione WSZYSTKIE warunki: +60 kredytów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581029770706944
+    m_Localized: ZhongHua Shipbuilding („ZHS”)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581052319285248
+    m_Localized: "Wkłady plazmowe ZHS sprzedawane są w rozsądnej cenie przy zachowaniu jakości.\n\nMożliwy stan wkładu: brak lub wzmocniony\nMożliwy kolor: standardowy\nPlomba: zawsze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581069801144320
+    m_Localized: 'Spełnione WSZYSTKIE warunki: +120 kredytów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581604390354944
+    m_Localized: Prawidłowa konfiguracja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581588955316224
+    m_Localized: 'Spełnione WSZYSTKIE warunki: +750 kredytów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581576204632064
+    m_Localized: "Wkłady plazmowe IGN produkowane są w laboratorium badawczym. Mają najwyższą możliwość jakość.\nMożliwy stan wkładu: brak\nMożliwy kolor: wysokiej jakości\nPlomba: zawsze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581555937755136
+    m_Localized: Ignition Lab („IGN”)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581540766957568
+    m_Localized: 'Spełnione WSZYSTKIE warunki: +120 kredytów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581527986913280
+    m_Localized: "Wkłady plazmowe RNR, których produkcję funduje Republika, zazwyczaj są z odzysku lub recyclingu.\n\nMożliwy stan wkładu: każdy oprócz pękniętego\nMożliwy kolor: standardowy\nPlomba: zawsze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97581506910535680
+    m_Localized: Republic Naval Requisition („RNR”)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97582745979240448
+    m_Localized: Podręcznik handlu wodą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583244593905664
+    m_Localized: 1. Ocena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583389582606336
+    m_Localized: 'Jakość wody oceniania jest na podstawie czystości:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583739890876416
+    m_Localized: Czysta woda (99,9%+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583769452331008
+    m_Localized: Wysokiej jakości (99%-99,9%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583797470281728
+    m_Localized: Podstawoda (98%-99%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583810321629184
+    m_Localized: Widmowoda (96%-98%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583830152298496
+    m_Localized: Rdzawoda (90%-96%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583849882304512
+    m_Localized: Kanalizówa (90%-)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583541718401024
+    m_Localized: Zdatna do spożycia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583590137446400
+    m_Localized: W potrzebie; niezalecane długotrwałe użycie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583638321610752
+    m_Localized: Konsumpcja niebezpieczna i ryzykowna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97583660907937792
+    m_Localized: 'Uwaga: wysoka toksyczność, nie spożywać'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585811071746048
+    m_Localized: 2. Identyfikacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585845494398976
+    m_Localized: Sprzedawana na stacji woda może nie mieć odpowiedniej etykiety – celowo lub nie. Przed zakupem i konsumpcją zawsze sprawdź jakość wody.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97585867443191808
+    m_Localized: Papierek wskaźnikowy do wody to tani i łatwy sposób na sprawdzenie czystości wody.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97586321032003584
+    m_Localized: 3. Uzdatnianie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587194655195136
+    m_Localized: "Woda na stacji może zawierać różne rodzaje zanieczyszczeń. Każda z metod uzdatniania jest skuteczna tylko wobec konkretnego rodzaju zanieczyszczenia.\n\nJeśli kolejne próby uzdatniania się nie udają, wybrana metoda nie może usunąć z wody danego zanieczyszczenia."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587213072384000
+    m_Localized: Tabletki do uzdatniania wody najpierw zmniejszają zanieczyszczenie chemiczne, a resztą działania usuwają zanieczyszczenie mikrobiologiczne. Jedna tabletka wystarczy na dużą butelkę Rdzawody, bardziej zanieczyszczona woda może wymagać kilku.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587223478452224
+    m_Localized: "Filtr do wody: po umieszczeniu w dzbanku filtruje wlewaną wodę.\nUsuwa zanieczyszczenia, mikroplastik i odpady organiczne. Filtry posiadają okres używalności."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587234954067968
+    m_Localized: Użycie tabletek do uzdatniania i filtru razem powinno podnieść większość wody do Podstawody, a nawet do wody wysokiej jakości, w zależności od początkowej czystości. Mocno zanieczyszczona woda może wymagać kilku tabletek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587251731283968
+    m_Localized: Aby uzyskać czystą wodę, należy użyć oddzielnego uzdatniacza wody z odpowiednio zainstalowanymi modułami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587259113259008
+    m_Localized: Nie rekomendujemy uzdatniania kanalizówy przy użyciu metod podstawowych, ponieważ prowadzi to do szybkiego zużycia filtra do wody.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97587744406814720
+    m_Localized: 4. Rodzaje wody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589248253542400
+    m_Localized: Ciężka do zdobycia nawet dla mieszkańców Wyższych Poziomów. Niezwykle droga i używana głównie w środowiskach wrażliwych, takich jak szpitale czy laboratoria. W społecznościach Wyższych Poziomów oferowanie gościom czystej wody to symbol wysokiego statusu społecznego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589392676012032
+    m_Localized: Standard na Wyższych Poziomach. Można ją pić, używać do gotowania oraz w innych zastosowaniach domowych. Bardziej dostępna, jednak wciąż droga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589410753462272
+    m_Localized: Standard na Niższych Poziomach. Można jej używać przez krótki czas, jednak długotrwałe użycie może skutkować chronicznymi chorobami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589447902412800
+    m_Localized: "Nie do odróżnienia gołym okiem od innej wody o wyższej jakości. Bez przefiltrowania nie nadaje się do spożycia. Widmowoda używana jest w rolnictwie i przemyśle.\n<b>Sprzedaż źle oznakowanej widmowody to najczęstsze oszustwo na Niższych Poziomach.</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589459784876032
+    m_Localized: "Nieprzydatna w rolnictwie, nienadająca się do picia.\n\t<b>Można odróżnić gołym okiem.</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589471994494976
+    m_Localized: "Mocno zanieczyszczona i toksyczna. W przypadku spożycia natychmiast skontaktować się z lekarzem.\n\t<b>Można odróżnić gołym okiem.</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589767374159872
+    m_Localized: 5. Najczęstsze oszustwa w handlu wodą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589894516097024
+    m_Localized: Rdzawoda i kanalizówa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589953840332800
+    m_Localized: Oszustwa z wykorzystaniem rdzawody i kanalizówy są trudniejsze ze względu na inną barwę tych rodzajów wody.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589976489574400
+    m_Localized: Widmowoda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97589998794883072
+    m_Localized: Sprzedaż widmowody jako podstawody to często oszustwo na Niższych Poziomach. Sprzedaż dużej ilości źle oznakowanej widmowody jest przestępstwem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590016012500992
+    m_Localized: Zachowanie klientów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97590039429300224
+    m_Localized: "Złomiarze zazwyczaj są zbyt biedni, by używać zestawów do sprawdzania wody.\nNiektórzy mieszkańcy Niższych Poziomów i Złomiarze nie kupują czystej wody.\nTuryści i mieszkańcy Wyższych Poziomów są zbyt nieświadomi, by sprawdzać jej jakość.\nKlienci kupujący duże ilości zazwyczaj używają zestawów do sprawdzania."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593349360107520
+    m_Localized: Podręcznik hydroponiki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593399297490944
+    m_Localized: Poradnik skrócony
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593457183080448
+    m_Localized: "1. Umieścić pojemnik napełniony widmowodą lub podstawodą.\n2. Dodać minerały, by zapewnić wartości odżywcze.\n3. Podłączyć źródło zasilania i wstawić nasiona.\n4. Po jednym lub dwóch dniach plony powinny być gotowe do zebrania."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593494038429696
+    m_Localized: Dodawaj wody i wymieniaj ogniwa energetyczne, aby hydroponika stale działała.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593544877588480
+    m_Localized: Wskazówki dla początkujących
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593590079602688
+    m_Localized: "Zacznij uczyć się hydroponiki, uprawiając Pożywnowoce. To genetycznie zmodyfikowane, łatwe w uprawie owoce.\n\nPamiętaj o dodawaniu czystej wody oraz używaniu tabletek odżywczych, kiedy plony spadają."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593921744191488
+    m_Localized: Poradnik zaawansowany
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97593996276973568
+    m_Localized: Jakość wody
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594053361451008
+    m_Localized: 'Niektóre zanieczyszczenia wpływają na rozwój roślin. Używaj wody z niską koncentracją zanieczyszczeń, chyba że hodujesz rośliny z odpowiednimi wymaganiami. (UWAGA: minerały to NIE zanieczyszczenia).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594074400079872
+    m_Localized: 'Składniki odżywcze:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594109267329024
+    m_Localized: Rośliny potrzebują do wzrostu minerałów. Zbyt mała lub zbyt wysoka ilość tych składników wpływa na plony. Każda roślina ma własny poziom tolerancji na poziom składników odżywczych. Zazwyczaj lepiej jest użyć zbyt dużej ilości minerałów niż zbyt małej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594128330440704
+    m_Localized: 'Analizator roślin:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97594182365659136
+    m_Localized: Można użyć na nasionach, by sprawdzić wymagania i stan bieżący.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595269432786944
+    m_Localized: Wprowadzenie do chemii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595449448120320
+    m_Localized: Narzędzia i maszyny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595523578249216
+    m_Localized: Środki chemiczne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595595292459008
+    m_Localized: Można rozpakować, by otrzymać różne podstawowe chemikalia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97595998973247488
+    m_Localized: Spektrometr składu (skaner chemiczny)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596026353664000
+    m_Localized: Użyj na pojemniku z płynem lub produkcie chemicznym, by sprawdzić skład.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596200966733824
+    m_Localized: Blender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596256537067520
+    m_Localized: Można ulepszyć, by zwiększyć wyjściowe zasoby.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596274690015232
+    m_Localized: Płyta grzewcza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97596300736643072
+    m_Localized: Można ulepszyć, by zwiększyć maks. temperaturę, sterowanie temperaturą i prędkość nagrzewania.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597227497472000
+    m_Localized: Parownik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597248573849600
+    m_Localized: Ustaw na noc, usunąć niektóre płyny, takie jak woda czy alkohol. Używa normalnych modułów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597267469189120
+    m_Localized: Wykańczacz chemiczny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597291829706752
+    m_Localized: Można ulepszyć, by obniżyć ilość wprowadzanych nieczystości.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597525024620544
+    m_Localized: W przeciwieństwie do innych maszyn większość wyposażenia chemicznego można ulepszyć tylko przy użyciu specjalistycznych modułów sprzętu chemicznego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97597821708713984
+    m_Localized: Proszek Snów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598475139334144
+    m_Localized: 'Krok 1: przygotowanie składników'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598541489029120
+    m_Localized: "– Podłączyć pojemnik na płyn do blendera\n– Dodać kilka snówek\n– Zblendować składniki, by otrzymać papkę ze snówki"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598561487470592
+    m_Localized: 'Krok 2: przygotowanie ekstraktu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598580814823424
+    m_Localized: "– Wziąć pojemnik z poprzedniego kroku\n– Postawić go na płycie grzewczej\n– Dodać rozpuszczalnik (alkohol) do papki ze snówki w stosunku 3-6:1\n– Podgrzać miksturę do 40–60°C, aby zmienić papkę w ekstrakt ze snówki"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598598804193280
+    m_Localized: Zbytnie podgrzanie doprowadzi do zepsucia snówki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598620887203840
+    m_Localized: 'Krok 3: ewaporacja'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598636930416640
+    m_Localized: "– (Opcjonalne) Odfiltrować roztwór z poprzedniego kroku przy użyciu tkaniny z baxełny, by usunąć większe zanieczyszczenia\n– Wprowadzić pojemnik do parownika\n– Upewnić się, że parownik jest podłączony do ogniwa energetycznego\n– Poczekać do następnego dnia, aż parownik skończy pracę"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598650855505920
+    m_Localized: 'Krok 4: pakowanie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97598681629114368
+    m_Localized: "– (WYMAGANE) Po odparowaniu całej wody i całego alkoholu wstawić pojemnik do wykańczacza chemicznego\n– Wybrać Proszek Snów jako przepis\n– Nacisnąć przycisk „Wyjście”\n– (Opcjonalne) Sprawdzić czystość spektrometrem składu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97599907884220416
+    m_Localized: Przepis na tabletki kofeinowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97601984458964992
+    m_Localized: 'Krok 1: przygotowanie składników'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602024158052352
+    m_Localized: "– Podłączyć pojemnik na płyn do blendera\n– Dodać kilka ziaren kawy\n– Zblendować składniki, by otrzymać papkę z nasion kawy"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602038418685952
+    m_Localized: 'Krok 2: przygotowanie ekstraktu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602053216190464
+    m_Localized: "– Wziąć pojemnik z poprzedniego kroku\n– Postawić go na płycie grzewczej\n– (Opcjonalne, ale zalecane) Dodać rozpuszczalnik (alkohol) do papki z nasion kawy w stosunku 3-6:1\n– Podgrzać miksturę przynajmniej do 80°C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602068449902592
+    m_Localized: 'Uwaga: kofeina jest bardzo odporna na temperaturę'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602088817442816
+    m_Localized: 'Krok 3: ewaporacja'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602105129091072
+    m_Localized: "– (Opcjonalne) Odfiltrować roztwór z poprzedniego kroku przy użyciu tkaniny z baxełny, by usunąć większe zanieczyszczenia\n– Wprowadzić pojemnik do parownika\n– Upewnić się, że parownik jest podłączony do ogniwa energetycznego\n– Poczekać do następnego dnia, aż parownik skończy pracę"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602117913329664
+    m_Localized: 'Krok 4: pakowanie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602136741560320
+    m_Localized: "– (WYMAGANE) Po odparowaniu całej wody i całego alkoholu wstawić pojemnik do wykańczacza chemicznego\n– Wybrać tabletki kofeinowe jako przepis\n– Nacisnąć przycisk „Wyjście”\n– (Opcjonalne) Sprawdzić czystość spektrometrem składu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602620424503296
+    m_Localized: Informacje o tabletkach Fenty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97602698144956416
+    m_Localized: Dokładny przepis na Fentę jest pilnie strzeżony. Poniżej zebrano publicznie dostępne informacje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603346156535808
+    m_Localized: Składnik podstawowy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603389408198656
+    m_Localized: Baza N-metylolowa jest znanym prekursorem Fenty. To środek chemiczny objęty ograniczeniami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603424577437696
+    m_Localized: Baza N-metylolowa zawiera stabilizator, który chroni związek przed rozkładem, ale powstrzymuje również reakcje chemiczne. Należy go usunąć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603439643377664
+    m_Localized: Reakcja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603456760332288
+    m_Localized: "Potrzebujemy teraz substancji, która dostarczy elektrony do podstawy N-metylolowej, by zmienić ją chemicznie w Fentę. \n\nPodejrzewamy, że proces ten przebiega w wysokich temperaturach, co wymaga ulepszonej płyty grzewczej"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603474208636928
+    m_Localized: Pakowanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603490314764288
+    m_Localized: Na koniec przefiltrować roztwór i standardowo zapakować.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604487388905472
+    m_Localized: Poziom czystości chemicznej
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604571547615232
+    m_Localized: Niektórzy klienci używają skanerów chemicznych w celu weryfikacji podanej czystości produktu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604774765838336
+    m_Localized: Czysty (99%+)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604854067544064
+    m_Localized: Farmaceutyczny (90-99%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97604877522092032
+    m_Localized: Bliski farmaceutycznemu (80-90%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605855394709504
+    m_Localized: Standard uliczny (60-80%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97605903411101696
+    m_Localized: Produkt wymieszany (45-60%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606068243054592
+    m_Localized: Jakość śmieciowa (30-45%)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97606095426338816
+    m_Localized: Ze skrobią (30%-)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607396725932032
+    m_Localized: +135% do wartości podst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607458839379968
+    m_Localized: +85% do wartości podst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607466187800576
+    m_Localized: +40% do wartości podst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607474714820608
+    m_Localized: Brak modyfikatora ceny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607483707408384
+    m_Localized: -45% od wartości podst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607492393811968
+    m_Localized: -75% od wartości podst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97607502728577024
+    m_Localized: -95% od wartości podst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608845849575424
+    m_Localized: Podręcznik metalurgii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97608911280717824
+    m_Localized: 1. Wprowadzenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609040402366464
+    m_Localized: 2. Wytapianie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97609058861498368
+    m_Localized: "Czystość sztabki zależy od materiałów użytych podczas wytapiania. Użycie złomu skutkuje niższą czystością, a użycie rudy metali – wyższą. Dodatkowo do pieca można dodać topnik, który zwiększa czystość. Dodany topnik zostanie zużyty.\n\nPiec wymaga źródła zasilania. Wytapianie następuje przez noc."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297345539981312
+    m_Localized: Kalendarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297458144460800
+    m_Localized: Raport nocny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297493984788480
+    m_Localized: Status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99297743428435968
+    m_Localized: Pamiętaj, by uzupełnić wystawę!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298365355638784
+    m_Localized: '100: towar na wystawie nie przyciągnie dodatkowych klientów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298573393117184
+    m_Localized: '200: sklep codziennie odwiedzi jeden losowy zwykły klient'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99298632482471936
+    m_Localized: '250: sklep codziennie odwiedzi dwóch dodatkowych klientów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302142137647104
+    m_Localized: '300: wszyscy klienci będą mieli 10% więcej kredytów do wydania'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99302218809524224
+    m_Localized: '400: biedni klienci będą rzadziej odwiedzać sklep'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99303976218705920
+    m_Localized: '450: wszyscy klienci będą mieli 25% więcej kredytów do wydania'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304027657650176
+    m_Localized: '500: sklep codziennie odwiedzi trzech dodatkowych klientów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304075942477824
+    m_Localized: '650: biedni klienci będą jeszcze rzadziej odwiedzać sklep'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304116245544960
+    m_Localized: '750: wszyscy klienci będą mieli 75% więcej kredytów do wydania'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304161569193984
+    m_Localized: '900: wszyscy klienci będą mieli 100% więcej kredytów do wydania'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304721999511552
+    m_Localized: Aktywne atuty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99304878828732416
+    m_Localized: Szacowany łączny majątek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99322042457571328
+    m_Localized: Zakończ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163968
+    m_Localized: 'Dostępne kredyty: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163969
+    m_Localized: 'Przysługa Wilda: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163970
+    m_Localized: Dzwonienie…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163971
+    m_Localized: Brak odpowiedzi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163972
+    m_Localized: Trwa połączenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163973
+    m_Localized: Gotowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163974
+    m_Localized: Dzwonienie…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163975
+    m_Localized: czynsz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163976
+    m_Localized: kredyt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163977
+    m_Localized: '{0:plural:{} kredyt|{} kredyty|{} kredytów} do zapłaty za {1} za {2} dni!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163978
+    m_Localized: '{0:plural:{} kredyt|{} kredyty|{} kredytów} do zapłaty {1} jutro!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99359809166163979
+    m_Localized: '{0:plural:{} kredyt|{} kredyty|{} kredytów} do zapłaty {1} dzisiaj!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660465626202112
+    m_Localized: Koniec dnia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660630688841728
+    m_Localized: Nie stać cię na wszystkie wybrane usługi…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99660720610525184
+    m_Localized: Zakończ dzień
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834008154112
+    m_Localized: Łączny koszt    {0:plural:{} kredyt|{} kredyty|{} kredytów}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931328
+    m_Localized: Obecne saldo    {0:plural:{} kredyt|{} kredyty|{} kredytów}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931329
+    m_Localized: Nowe saldo    {0:plural:{} kredyt|{} kredyty|{} kredytów}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931330
+    m_Localized: '[Aktywne]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931331
+    m_Localized: '[Nieaktywne]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931332
+    m_Localized: Twój sklep zyskał reputację we frakcji {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99684834024931333
+    m_Localized: Twój sklep stracił reputację we frakcji {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841703575552
+    m_Localized: Kończy się dzisiaj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99719841728741376
+    m_Localized: Kończy się za {0} dni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837908869758976
+    m_Localized: Standard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838035407716352
+    m_Localized: Śmieciowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99837983167660032
+    m_Localized: Projektor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838688112721920
+    m_Localized: Podrabiany czek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99838923694194688
+    m_Localized: Konfrontacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530774437888
+    m_Localized: Oryginał
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632192
+    m_Localized: Problemy z tekstem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632193
+    m_Localized: Problemy z kolorystyką
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632194
+    m_Localized: Problemy z plombą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632195
+    m_Localized: Problemy z logo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632196
+    m_Localized: Problemy z opakowaniem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632197
+    m_Localized: Problemy z wartością
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632198
+    m_Localized: Problemy z czipem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632199
+    m_Localized: Problemy ze wskaźnikiem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632200
+    m_Localized: Problemy z etykietą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632201
+    m_Localized: Problemy z numerem seryjnym
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99849530778632202
+    m_Localized: Problemy z korpusem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858351332835328
+    m_Localized: Biuletyn „Życie niskich lotów”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99858297700270080
+    m_Localized: Codzienne wiadomości
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100038754609971200
+    m_Localized: "Na pewno chcesz zamknąć sklep?\n\nW kolejce nadal stoją klienci."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049217611677696
+    m_Localized: 'Nagroda:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049185151959040
+    m_Localized: Daj przedmiot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049984930234368
+    m_Localized: Wyślij szacunkową kwotę
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100049935101902848
+    m_Localized: Szacunki klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050444726616064
+    m_Localized: Przyjmij ofertę
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050525357916160
+    m_Localized: Przyjmij hurtowo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050603476828160
+    m_Localized: Budżet klienta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050722725085184
+    m_Localized: Ochrona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050755004448768
+    m_Localized: Różne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100050772217872384
+    m_Localized: Brak kontrabandy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275929935872
+    m_Localized: "Klient ma tylko {0:plural:{} kredyt|{} kredyty|{} kredytów}.\nNie otrzymasz {1:plural:{} kredytu|{} kredytów|{} kredytów}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101696
+    m_Localized: Oferta barteru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101697
+    m_Localized: Sprzedawca informacji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101698
+    m_Localized: Zamówienie na zmodyfikowaną broń
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101699
+    m_Localized: Usługa rzeczoznawcza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101700
+    m_Localized: Sprzedaż
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101701
+    m_Localized: Kupno i sprzedaż
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101702
+    m_Localized: Kupno {0:plural:{} przedmiotu|{} przedmiotów|{} przedmiotów}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101703
+    m_Localized: Klienta nie interesują przedmioty tego typu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101704
+    m_Localized: Klient nie ma już kredytów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101705
+    m_Localized: Klienta nie interesuje kupienie tego samego dwa razy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101706
+    m_Localized: Sprzedaż {0:plural:{} przedmiotu|{} przedmiotów|{} przedmiotów}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101707
+    m_Localized: Oferta na informacje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101708
+    m_Localized: Informacje o działaniach związanych z rynkiem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101709
+    m_Localized: Kup {0:plural:{} przedmiot|{} przedmioty|{} przedmiotów}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100401275955101710
+    m_Localized: Sprzedaj {0:plural:{} przedmiot|{} przedmioty|{} przedmiotów}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101871974884360192
+    m_Localized: Wymień
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872055226253312
+    m_Localized: Zwróć
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101872108007374848
+    m_Localized: Zbieraj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443089420288
+    m_Localized: Odnowienie ({0:plural:{} dzień|{} dni|{} dni})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808896
+    m_Localized: '{0:plural:{} kredyt|{} kredyty|{} kredytów}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808897
+    m_Localized: 'Ulepszenie wymaga: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101900443097808898
+    m_Localized: Niedostępne w wersji demo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254421569536
+    m_Localized: Pełny ekran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735360
+    m_Localized: Pełny ekran bez ramki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735361
+    m_Localized: Okno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103435254446735362
+    m_Localized: Rekomendowane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069631127371776
+    m_Localized: Nagrody w loterii
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867563986944
+    m_Localized: 'Notatka Mentora: Ulepszeni'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113902867589152768
+    m_Localized: Ulpy to ludzie przejęci przez zbuntowaną sztuczną inteligencję wbudowaną w implant mózgowy. Ich ciała nie należą już do nich, a nie istnieje bezpieczna metoda usunięcia implantu bez zabijania gospodarza. Ulpy są wrogie i wyjątkowo niebezpiecznie, aktywnie próbują porywać ludzi i wszczepiać im implanty ulepszające. Sklepikarze to pierwsza linia obrony, ponieważ Ulpy do produkcji nowych implantów potrzebują nieprzetworzonych materiałów oraz wyrobów medycznych, by chirurgicznie je umieszczać w ofiarach. Nie opanowały w pełni ludzkiego zachowania i mogą też używać nadmiernie oficjalnego słownictwa bądź robotycznej mowy. Strzelaj tylko, gdy masz absolutną pewność. Nie próbuj wzywać Wydziału Ochrony, Ulpy zhakowały ich łącza i uciekną, nim ktoś przybędzie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940631826432
+    m_Localized: Strona {0}/{1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121794940661186560
+    m_Localized: 'UWAGA: PO SPOŻYCIU KANALIZÓWY NATYCHMIAST SKONTAKTOWAĆ SIĘ Z LEKARZEM'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123280221805527040
+    m_Localized: Kupno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124710930575310848
+    m_Localized: Zrealizuj wszystkie zwycięskie losy loterii i otrzymaj {0:plural:{} kredyt|{} kredyty|{} kredytów} (nie żetony Kantyny)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946643222528
+    m_Localized: Klienci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971264
+    m_Localized: Otwórz interfejs klientów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971265
+    m_Localized: Kupujący spodziewani z towaru na wystawie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971266
+    m_Localized: Spodziewani zwykli klienci ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971267
+    m_Localized: Po podniesieniu rolety klienci będą przychodzić zależnie od stanu sklepu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125432946680971268
+    m_Localized: Stan sklepu przyciągnie codziennie określoną liczbę losowych klientów. Pewne specjalne przedmioty umieszczone na wystawie mogą wpłynąć na to, jacy klienci się pojawią. Każdy z następujących klientów może pojawić się raz dziennie. Pozostałe miejsca będą zapełniane przez losowych klientów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799789809664
+    m_Localized: Większość towaru przechowywanego na wystawie będzie przyciągać klientów. Budżet klientów zależy od wartości przechowywanego towaru.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125452799794003968
+    m_Localized: Nie wykryto towaru na wystawie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125454821289148416
+    m_Localized: Losowy klient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125458918834749440
+    m_Localized: Kupujący
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126544338016321536
+    m_Localized: Sprzedający
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342016
+    m_Localized: Ten klient kupi każdy przedmiot tylko raz, ale zapłaci cenę ekstra.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342017
+    m_Localized: Ten klient nie przyjmie kontrabandy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126616720672342018
+    m_Localized: Ten klient należy do Ochrony Stacji. Pokazanie mu skradzionych przedmiotów lub kontrabandy może mieć konsekwencje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126624901758763008
+    m_Localized: Dzięki prądowi sklep jest oświetlony, a urządzenia podłączane do sieci elektrycznej działają. Jeśli nie zapłacisz rachunku, działać będą tylko maszyny napędzane ogniwami energetycznymi, a światła w sklepie będą przyciemnione.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250407931904
+    m_Localized: Jeśli zapłacisz, przedmioty skradzione nocą wrócą do ciebie następnego ranka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126847250441486336
+    m_Localized: Gdy zapłacisz, kosz na śmieci zostanie opróżniony, a witryna uprzątnięta. Jeśli witryna będzie niesprzątana przez parę dni, atrakcyjność sklepu ucierpi. Koszt sprzątania wzrasta, jeśli sklep został zdemolowany.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034018873344
+    m_Localized: Na atrakcyjność sklepu wpływa to, czy dozorca uprzątnął niedawno witrynę, a także niektóre maszyny oraz ulepszenia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127279034052427776
+    m_Localized: Reputację we frakcji można zyskać, handlując z jej członkami. Handel z określonymi klientami daje wzrost reputacji. Zgłoszenie klienta do Wydziału Ochrony może spowodować utratę reputacji w danej frakcji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711872
+    m_Localized: 'Niektóre przedmioty mają etykiety, które można edytować. Użyj ich, by oznaczać przedmioty uczciwie – bądź nieuczciwie, aby sprzedać je drożej. Uważaj: klienci mają różne doświadczenie w rozpoznawaniu źle oznaczonych przedmiotów. Jeśli ktoś cię przyłapie na sprzedaży przedmiotu wartego mniej niż to, co mówi etykieta, twoja reputacja może ucierpieć.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711873
+    m_Localized: Klient twierdzi, że przedmiot to oryginał i działa. Za pomocą tego panelu skonfrontuj się z nim, jeśli znajdziesz jakieś oznaki, że przedmiot jest podrabiany lub niesprawny. Wystarczy jeden problem. Jeśli się mylisz, twoja reputacja może ucierpieć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127290448741711874
+    m_Localized: Klient chce sprzedać ten przedmiot i twierdzi, że jest podrabiany lub nie działa. Jeśli sądzisz, że się myli, możesz użyć tego panelu, by to powiedzieć. Cena odpowiednio wzrośnie i otrzymasz reputację.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175467409408
+    m_Localized: 'Wysłany szacunek: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127545175496769536
+    m_Localized: 'Wartość rzeczywista: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025076871168
+    m_Localized: Do rzeczoznawstwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425600
+    m_Localized: "Wartość podstawowa: +300\nPęknięcia: -150\nWzmocnione: +60\nBrak premii producenta (nie może mieć pęknięć): +0 \n----------------------\n<b>Suma: 210</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127569025110425601
+    m_Localized: "Wartość podstawowa +300\nMocne zużycie: -90\nWidoczne śruby: -30\nKolor wskazujący niską jakość: -150\n------------------\nSuma częściowa: 30\n------------------\nMinimalna wartość 90\n<b>Ostateczna wartość: 90</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127570132838694912
+    m_Localized: Przykład rzeczoznawstwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510080
+    m_Localized: Po wyłączeniu tekst dialogów pojawia się natychmiast (zamiast wpisywania).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131679029870510081
+    m_Localized: Po wyłączeniu dialog nie jest przewijany automatycznie. Naciśnij klawisz spacji, by kontynuować do kolejnego wiersza.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364928
+    m_Localized: Ustawienia dialogów i maszyny do pisania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131684622186364929
+    m_Localized: Ustawienia te można zmienić w dowolnym momencie w menu opcji gry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430014664704
+    m_Localized: 'Przyciągane przez:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131947430056607744
+    m_Localized: '{0} na wystawie'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627870113792
+    m_Localized: Okazja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056832
+    m_Localized: 'Sprzedaż: zaproponuj zniżkę'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056833
+    m_Localized: 'Kupno: zażądaj zniżki'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056834
+    m_Localized: 'Sprzedaż: dodaj marżę'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056835
+    m_Localized: 'Kupno: zaoferuj marżę'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056836
+    m_Localized: Zaszantażuj (przestępca)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056837
+    m_Localized: Zagróź (Ulp)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056838
+    m_Localized: Mnożnik reputacji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056839
+    m_Localized: Zaproponuj temu klientowi zniżkę podczas sprzedaży. Daje dodatkową reputację za każdy sprzedany przedmiot i zwiększa budżet klienta.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056840
+    m_Localized: Zażądaj zniżki podczas kupowania od tego klienta. Kosztuje reputację za każdy udany zakup przedmiotu. Powodzenie zależy od reputacji we frakcji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056841
+    m_Localized: Podnieś cenę podczas sprzedaży temu klientowi. Zmniejsza jego łączny budżet i kosztuje reputację za każdy sprzedany przedmiot. Powodzenie zależy od aktualnej reputacji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056842
+    m_Localized: Zapłać więcej podczas kupna od tego klienta. Daje dodatkową reputację za każdy kupiony przedmiot.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056843
+    m_Localized: Zagróź, że zgłosisz klienta do Wydziału Ochrony, jeśli nie zaproponuje lepszych cen podczas handlu. Zawsze się nie udaje w przypadku klientów niebędących przestępcami.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056844
+    m_Localized: Oskarż klienta o bycie Ulpem i zagróź zastrzeleniem, żądając lepszych cen podczas handlu. Jeśli spróbujesz tego na zwykłych klientach, oskarżenie zawsze się nie powiedzie i stracisz reputację.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056845
+    m_Localized: Mnożnik określający ilość zyskiwanej lub traconej reputacji we frakcji podczas handlu z tym klientem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133010627912056846
+    m_Localized: Szacowany wzrost lub utrata reputacji we frakcji klienta za każde 1000 wymienionych kredytów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655149109248
+    m_Localized: Poradnik wyceny ręki cybernetycznej
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469376
+    m_Localized: Ręce cybernetyczne na stacji są bardzo zróżnicowane, podobnie jak ich ceny. Niniejszy przewodnik pomoże określić uczciwą cenę rynkową dowolnej ręki cybernetycznej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469377
+    m_Localized: Wartość podstawowa i minimalna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469378
+    m_Localized: Wszystkie ręce cybernetyczne zaczynają się od 100 kredytów. Na ich cenę mogą wpływać różne stany. Bez względu na stan minimalna wartość ręki cybernetycznej to 50 kredytów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469379
+    m_Localized: 1. Materiał
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469380
+    m_Localized: Stop aluminium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469381
+    m_Localized: Kompozyt węglowy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469382
+    m_Localized: Pozłacane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469383
+    m_Localized: 2. Stan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469384
+    m_Localized: Brak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469385
+    m_Localized: Zużycie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469386
+    m_Localized: Uszkodzenia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469387
+    m_Localized: 3. Interfejs sterowania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469388
+    m_Localized: Interfejs neuronowy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469389
+    m_Localized: Nie określono
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469390
+    m_Localized: 4. Dodatki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469391
+    m_Localized: Opancerzenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469392
+    m_Localized: Ostrze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469393
+    m_Localized: Premie za dodatki są niezależne od siebie i mogą być osobno zliczane.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469394
+    m_Localized: 5. Premia za zestaw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469395
+    m_Localized: Określone kombinacje rąk cybernetycznych mogą zwiększać ich wartość.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469396
+    m_Localized: "Taktyczna:\n- kompozyt węglowy\n- interfejs neuronowy lub EMG+\n- brak śladów zużycia i uszkodzeń\n- Opancerzenie i ostrze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469397
+    m_Localized: "Deluxe:\n- pozłacana\n- interfejs neuronowy\n- brak śladów zużycia i uszkodzeń\n- z dodatkami lub bez"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469398
+    m_Localized: Przykłady
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469399
+    m_Localized: "Podstawowa wartość: +100\nKompozyt węglowy: +50\nZużycie: -35\nEMG+: +45\nSuma: 160 kredytów"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135547655178469400
+    m_Localized: "Podstawowa wartość: +100\nUszkodzenia: -85\nNieokreślone sterowanie: -60\nSuma częściowa: -45 kredytów\nMINIMALNA WARTOŚĆ 50 KREDYTÓW\nŁącznie: 50 kredytów\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331200
+    m_Localized: Jakość wody wpływa na jakość wina. Użyj wody wysokiej jakości lub podstawody. W czystej wodzie nie ma minerałów potrzebnych do fermentacji. Woda niższej jakości znacznie obniży jakość wina.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331201
+    m_Localized: Standardowe drożdże są opcjonalne, ale wysoce zalecane. Bez nich wino fermentować będą dzikie drożdże, co daje niekonsekwentne rezultaty. Standardowe drożdże znacznie przyspieszają również proces fermentacji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331202
+    m_Localized: Jakość jagód to także ważny czynnik. Jedna garść wystarczy na wino niższej jakości. By uzyskać wino wysokiej jakości, potrzeba dwóch garści. Unikaj przejrzałych, niedojrzałych i spleśniałych jagód. Najlepsze jagody do robienia wina mają zazwyczaj rozmiar poniżej średniej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331203
+    m_Localized: Identyfikacja KwiatoGód
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331204
+    m_Localized: Normalne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331205
+    m_Localized: Niedojrzałe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331206
+    m_Localized: Spleśniałe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135589004225331207
+    m_Localized: Małe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586749161472
+    m_Localized: Poradnik identyfikacji Ulepszonych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715904
+    m_Localized: Cechy wizualne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715905
+    m_Localized: Cechy niewizualne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715906
+    m_Localized: Nietypowe źrenice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715907
+    m_Localized: Dziwny wyraz twarzy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715908
+    m_Localized: Widoczny czip ulepszający
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144609586782715909
+    m_Localized: "- Nienaturalny bezruch\n- Drganie\n- Strój niepasujący do frakcji\n- Robotyczne słownictwo\n- Nazbyt formalne wyrażenia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511170883584
+    m_Localized: Stałe wymiany
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855104
+    m_Localized: Promocyjne wymiany (resetuje się w poniedziałek)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855105
+    m_Localized: Prezes S.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855106
+    m_Localized: Władze Podziemnej Giełdy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855107
+    m_Localized: Raz na noc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855108
+    m_Localized: Dowolny stan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855109
+    m_Localized: Nowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855110
+    m_Localized: Losowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144625511191855111
+    m_Localized: Losowe legalne towary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144633287955759104
+    m_Localized: Reputacja na Czarnym Rynku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147149026554068992
+    m_Localized: Dziękujemy za grę w wersję demo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147157085242310656
+    m_Localized: Będzie nam miło, jeśli umieścisz grę na liście życzeń Steam i wypełnisz ankietę. Zajmie to tylko pięć minut, a bardzo pomoże nam ulepszyć grę!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582517645312
+    m_Localized: Stan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147534582559588352
+    m_Localized: Rynek i handlarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060160
+    m_Localized: Zastrzel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060161
+    m_Localized: Schowaj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060162
+    m_Localized: Przybliż
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148918918580060163
+    m_Localized: Wyjdź
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154783458152726528
+    m_Localized: Na pewno chcesz usunąć to miejsce zapisu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170512356412801024
+    m_Localized: 2/6 liczb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172202336608632832
+    m_Localized: Na ziemi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96069672667758592
+    m_Localized: Wylosowanych zostanie 6 unikalnych liczb z zakresu 1-49. Wygrywasz nagrody w zależności od tego, ile twoich liczb pasuje do sześciu wylosowanych.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603407972188160
+    m_Localized: Przygotowanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97603523869196288
+    m_Localized: 'UWAGA: JAKOŚĆ FENTY POGARSZA SIĘ W TEMPERATURZE POWYŻEJ 130°C.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172187061448392704
+    m_Localized: Zyskiwanie reputacji w Niższych Poziomach lub korzystanie z nocnych usług odblokowanych poprzez Joego Wilda zwiększa Przysługę Wilda. Na początku używa się jej do ulepszeń od Wilda.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172529243283832832
+    m_Localized: Szybkie wybieranie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690208923648
+    m_Localized: Otwieraj i zamykaj pojemniki, badaj, wybieraj i przełączaj przedmioty jednym kliknięciem zamiast dwoma. Aktywacja zachowa ustawienia własne poniżej.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283776
+    m_Localized: Aktywuj przedmioty jednym kliknięciem zamiast dwoma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179814690238283777
+    m_Localized: Podstawowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734612332544
+    m_Localized: Cena rynkowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182082734658469888
+    m_Localized: Najlepsza broń tego typu, +{0}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235953479680
+    m_Localized: Podsumowanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228416
+    m_Localized: Wydatki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228417
+    m_Localized: Stacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228418
+    m_Localized: Wyjścia nocą
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228419
+    m_Localized: Koniec gry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228420
+    m_Localized: grano przez {0} godz. {1} min
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228421
+    m_Localized: Przetrwane dni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228422
+    m_Localized: Obsłużeni klienci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228423
+    m_Localized: Łączna sprzedaż
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228424
+    m_Localized: Najlepszy dzień
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228425
+    m_Localized: 'Dzień {0}: sprzedano towar o wartości {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228426
+    m_Localized: Najlepszy zysk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228427
+    m_Localized: '{0}: kupiono za {1}, sprzedano za {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228428
+    m_Localized: Najdroższy przedmiot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228429
+    m_Localized: 'Przedmiot {0} dla klienta {1}: {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228430
+    m_Localized: Najlepsze znalezisko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228431
+    m_Localized: '{0}, o wartości {1} (dzień {2})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228432
+    m_Localized: Najgorsza noc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228433
+    m_Localized: 'Rabunek dnia {0}: zabrano towar o wartości {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228434
+    m_Localized: Najmniejszy zapas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228435
+    m_Localized: Zapłacono dnia {0}, mając w zapasie {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228436
+    m_Localized: Najlepsze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228437
+    m_Localized: Kupiony towar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228438
+    m_Localized: Czynsz zapłacony właścicielowi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228439
+    m_Localized: Kupiono dnia {0} za {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228440
+    m_Localized: Łapówki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228441
+    m_Localized: Pozwolenia i łapówki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228442
+    m_Localized: Na co poszła kasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228443
+    m_Localized: '{0} z {1}, nie ominięto żadnego'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228444
+    m_Localized: '{0} z {1}, ominięto {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228445
+    m_Localized: Liczba zapłaconych czynszów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228446
+    m_Localized: Kupiono za gotówkę dnia {0} za {1}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228447
+    m_Localized: Kredyt hipoteczny wzięty dnia {0} w kwocie {1}, spłacona dnia {2}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228448
+    m_Localized: 'Kredyt hipoteczny wzięty dnia {0} w kwocie {1}: zapłacono {2} z {3} rat tygodniowych'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228449
+    m_Localized: 'Zapłacono {0}: zadatek w wysokości {1}, raty tygodniowe: {2} po {3}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228450
+    m_Localized: 'Nadal wynajmujesz. Czynsz za sklep ostatniego dnia: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228452
+    m_Localized: '{0} z {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228453
+    m_Localized: Odwiedziny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228454
+    m_Localized: Kupiono od niego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228455
+    m_Localized: Pożyczono mu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228456
+    m_Localized: Spłacone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228457
+    m_Localized: Reputacja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228458
+    m_Localized: Jak spędzono noce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228459
+    m_Localized: 'Noce: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228460
+    m_Localized: Próby zbierania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228461
+    m_Localized: Wartość zebranych przedmiotów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228462
+    m_Localized: Liczba urazów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228463
+    m_Localized: 'Lekkie: {0}, poważne: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228464
+    m_Localized: 'Najlepsze znalezisko: {0}, o wartości {1} (dzień {2})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228465
+    m_Localized: Kupione maszyny i moduły
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228466
+    m_Localized: Zdane kontrole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228467
+    m_Localized: Towary przejęte przez inspektorów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228468
+    m_Localized: Łapówki wręczone inspektorom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228469
+    m_Localized: Złapani przestępcy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228470
+    m_Localized: Złe zgłoszenia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182822235991228471
+    m_Localized: Zastrzelone Ulpy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726784
+    m_Localized: UWAGA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726785
+    m_Localized: Nie pokazuj ponownie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184204471172726786
+    m_Localized: Rozumiem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725351436288
+    m_Localized: Odczytywanie i zapisywanie plików w dowolnym miejscu na komputerze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796416
+    m_Localized: Dostęp do internetu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796417
+    m_Localized: Uruchamianie innych programów i otwieranie linków
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796418
+    m_Localized: Wczytywanie i generowanie kodu przy uruchomieniu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796419
+    m_Localized: Wywoływanie natywnych bibliotek systemowych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796420
+    m_Localized: Uzyskanie dostępu do ustawień wewnętrznych systemu i silnika poprzez refleksję
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796421
+    m_Localized: "Modyfikacja {0} żąda następujących możliwości:\n{1}\n\nModyfikacja o takich możliwościach może robić na komputerze to, co ty. Włączaj wyłącznie modyfikacje od zaufanych autorów. Włączyć?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796422
+    m_Localized: 'Modyfikacja {0} została zablokowana przez twórców: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796423
+    m_Localized: Modyfikacja {0} wymienia w manifeście plik {1}, ale plik ten nie istnieje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796424
+    m_Localized: 'Nie udało się przeskanować modyfikacji {0}: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725380796425
+    m_Localized: 'Modyfikacja {0} wysyła zestawy o nazwie identycznej, jak występujące w grze, przez co nie można jej włączyć: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990720
+    m_Localized: "Modyfikacja {0} została odrzucona przez skaner modyfikacji:\n{1}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990721
+    m_Localized: "Modyfikacja {0} używa w manifeście możliwości, których nie deklaruje:\n{1}\n\nAutor modyfikacji musi zaktualizować manifest. Szczegóły w konsoli (skan modyfikacji)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990722
+    m_Localized: 'Modyfikacja {0} zawiera w folderze pliki .dll, które nie zostały wymienione w manifeście, przez co nie można jej włączyć: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990723
+    m_Localized: Wczytywanie modyfikacji zostało wstrzymane przez twórców. {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990724
+    m_Localized: Zweryfikuj i włącz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990725
+    m_Localized: 'Możliwości: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990726
+    m_Localized: brak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990727
+    m_Localized: Zablokowane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990728
+    m_Localized: 'Tryb twórcy: wł.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990729
+    m_Localized: 'Tryb twórcy: wył.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990730
+    m_Localized: 'Zablokowane przez twórców: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990731
+    m_Localized: 'Nie wczytano: wczytywanie modyfikacji wstrzymane przez twórców.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990732
+    m_Localized: 'Nie wczytano: jeszcze nie zatwierdzono na tym komputerze. Użyj „Zweryfikuj i włącz”, by wczytać.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990733
+    m_Localized: 'Nie wczytano: od ostatniego zatwierdzenia dokonano zmian ({0}). Użyj „Zweryfikuj i włącz”, by zatwierdzić ponownie.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990734
+    m_Localized: Modyfikacja została zaktualizowana {0}, brak nowych możliwości. Zatwierdzono dnia {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990735
+    m_Localized: 'Tryb twórcy: ufaj każdej zmianie w folderze.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990736
+    m_Localized: Zweryfikowane przez twórców.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990737
+    m_Localized: Zatwierdzono na komputerze dnia {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990738
+    m_Localized: Nie udało się w ostatnim czasie odświeżyć listy bezpieczeństwa modyfikacji. Możliwy brak informacji o nowo zablokowanych modyfikacjach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990739
+    m_Localized: Plik {0} znajduje się w folderze modyfikacji, jednak nie został wymieniony w manifeście, przez co nie został wczytany.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990740
+    m_Localized: nie udało się sprawdzić plików
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990741
+    m_Localized: pochodzi z innego źródła niż zatwierdzona kopia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990742
+    m_Localized: jest innym elementem z Warsztatu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990743
+    m_Localized: 'jej folder zawiera pliki .dll, które nie zostały wymienione w manifeście: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990744
+    m_Localized: nowa wersja została odrzucona przez skaner modyfikacji
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990745
+    m_Localized: 'nowa wersja korzysta z możliwości, które nie zostały zadeklarowane: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990746
+    m_Localized: 'nowa wersja żąda nowych możliwości: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990747
+    m_Localized: Do rzeczoznawstwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990748
+    m_Localized: Wybierz, które przedmioty mogą przynosić klienci rzeczoznawczy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990749
+    m_Localized: Zezwolone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990750
+    m_Localized: Przedmiot można zablokować dopiero po kolejnym awansie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184275725384990751
+    m_Localized: Przedmiotu nie można zablokować przy obecnej randze.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033920
+    m_Localized: Przedmioty dodane przez modyfikacje będą miały nazwę modyfikacji na dole podpowiedzi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033921
+    m_Localized: Klienci dodani przez modyfikację będą mieli przed pierwszą kwestią rozmowy dodaną kwestię z nazwą modyfikacji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184282387198033922
+    m_Localized: 'Z {0}:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467584
+    m_Localized: Ile ostatnich dni każdej rozgrywki jest przechowywanych na dysku, łącznie z najnowszym. Wcześniejsze dni możesz wczytać na ekranie „Wczytaj grę”; najstarszy jest usuwany po zapisaniu nowego dnia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185623050438467585
+    m_Localized: Przeszukaj folder zapisów w poszukiwaniu ręcznie dodanych plików zapisu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185637425564663808
+    m_Localized: Twoje części na broni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186842463947505664
+    m_Localized: 'Prezent od Serpico w podziękowaniu: wybierz jeden.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187082072463818752
+    m_Localized: 'Prezent od Eleanor w podziękowaniu: wybierz jeden.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628563652608
+    m_Localized: Zaawansowane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401344
+    m_Localized: Koordynator schowków
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401345
+    m_Localized: Utwórz zestaw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401346
+    m_Localized: Dodaje pusty zestaw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401347
+    m_Localized: Zestaw {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401348
+    m_Localized: Nie ma jeszcze zestawów. Kliknij „Utwórz zestaw”, żeby zacząć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401349
+    m_Localized: Nazwa zestawu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401350
+    m_Localized: Dodaj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401351
+    m_Localized: Zakończ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401352
+    m_Localized: Kliknij pojemnik w sklepie, żeby dodać go do tego zestawu. Escape lub prawy przycisk myszy kończy dodawanie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401353
+    m_Localized: Naciśnij dowolny klawisz…
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401354
+    m_Localized: Kliknij, a potem naciśnij klawisz, żeby ustawić go jako skrót tego zestawu. Niektórych klawiszy nie można użyć.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401355
+    m_Localized: Usuwa ten zestaw.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401356
+    m_Localized: '{0}: kliknij, żeby usunąć z tego zestawu.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401357
+    m_Localized: (brak)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401358
+    m_Localized: Tego przedmiotu nie ma już w sklepie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401359
+    m_Localized: 'Dodawanie do zestawu {0}: kliknij pojemnik w sklepie. Escape lub prawy przycisk myszy, żeby przerwać.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401360
+    m_Localized: Naciśnij klawisz dla zestawu {0}. Escape lub prawy przycisk myszy anuluje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401361
+    m_Localized: Klawisz {0} jest już używany przez grę. Naciśnij inny. Escape lub prawy przycisk myszy anuluje.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401362
+    m_Localized: 'Dodawanie do zestawu {0}: kliknij pojemnik. Escape lub prawy przycisk myszy, żeby przerwać.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401363
+    m_Localized: 'Nie można dodać do zestawu {1}: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401364
+    m_Localized: '{0}: już jest w zestawie {1}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401365
+    m_Localized: 'Kliknij, żeby dodać do zestawu {1}: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401366
+    m_Localized: '[aktywny]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401367
+    m_Localized: Usuń
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401368
+    m_Localized: Dodaj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187385628601401369
+    m_Localized: 'Niezgodne z: {0}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895863472128
+    m_Localized: Poranna gazeta trafia do kosza na śmieci zamiast na ladę. Nadal możesz ją wyjąć i przeczytać.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187856895897026560
+    m_Localized: Przekaż ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188164055981240320
+    m_Localized: Ogranicza grę do częstotliwości odświeżania monitora (co najmniej 60 klatek na sekundę). Zużywa mniej energii, a karta graficzna pracuje chłodniej i ciszej. Po wyłączeniu gra renderuje tyle klatek, ile może.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188509160777498624
+    m_Localized: Renderuje jedną klatkę na każde odświeżenie monitora, dzięki czemu obraz nie przycina się ani nie rozrywa. Zużywa mniej energii, a karta graficzna pracuje chłodniej i ciszej. Po wyłączeniu gra renderuje tyle klatek, ile może.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688832
+    m_Localized: Otwieranie linków w przeglądarce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688833
+    m_Localized: Korzystanie z funkcji Steam na twoim koncie (osiągnięcia, znajomi, nakładka)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688834
+    m_Localized: zaktualizowany skaner modyfikacji odrzuca tę wersję
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688835
+    m_Localized: 'zaktualizowany skaner modyfikacji wykrył możliwości, które nie zostały zadeklarowane: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688836
+    m_Localized: 'zaktualizowany skaner modyfikacji wykrył możliwości, których nie zatwierdzono: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688837
+    m_Localized: modyfikacja próbowała użyć twojego konta Steam w sposób, który jest modyfikacjom zabroniony ({0})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688838
+    m_Localized: modyfikacja próbowała uruchomić inny program, co jest modyfikacjom zabronione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688839
+    m_Localized: 'Zatrzymane i wyłączone przez grę: {0}. Usuń tę modyfikację lub przestań ją subskrybować, a jeśli działała na tym komputerze, zmień hasło Steam.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188903740813688840
+    m_Localized: 'Modyfikacja {0} została zatrzymana przez grę na tym komputerze: {1}. Tej wersji nie można włączyć ponownie.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189286048303202304
+    m_Localized: 'Prezent od Lou w podziękowaniu: wybierz jeden.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482432
+    m_Localized: Postacie inspirowane popkulturą, takie jak Fan skrzynek i Turysta smakosz, przestają odwiedzać sklep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482433
+    m_Localized: Kupione lub wymienione przedmioty trafiają prosto do ekwipunku. Po wyłączeniu zostają na ladzie. Przedmioty, które się nie mieszczą, zawsze zostają na ladzie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482434
+    m_Localized: 'Nie zainstalowano z Warsztatu Steam: nie można sprawdzić daty przesłania ani ocen.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482435
+    m_Localized: Sprawdzanie daty przesłania i ocen w Warsztacie...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482436
+    m_Localized: 'Warsztat nie odpowiedział: data przesłania i oceny są nieznane.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482437
+    m_Localized: 'Pierwsze przesłanie do Warsztatu: {0} ({1})'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482438
+    m_Localized: niecałą godzinę temu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482439
+    m_Localized: 1 godzinę temu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482440
+    m_Localized: '{0:plural:{} godzinę|{} godziny|{} godzin} temu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482441
+    m_Localized: 1 dzień temu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482442
+    m_Localized: '{0:plural:{} dzień|{} dni|{} dni} temu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482443
+    m_Localized: '{0:plural:{} tydzień|{} tygodnie|{} tygodni} temu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482444
+    m_Localized: '{0:plural:{} miesiąc|{} miesiące|{} miesięcy} temu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482445
+    m_Localized: 1 rok temu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482446
+    m_Localized: '{0:plural:{} rok|{} lata|{} lat} temu'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482447
+    m_Localized: 'Liczba użytkowników, którzy ją ocenili: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482448
+    m_Localized: Nie można aktywować tej modyfikacji.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482449
+    m_Localized: Skopiuj dziennik i wyślij go autorowi modyfikacji albo dołącz go do zgłoszenia błędu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482450
+    m_Localized: Kopiuj dziennik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482451
+    m_Localized: Skopiowano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482452
+    m_Localized: 'POTENCJALNIE NIEBEZPIECZNE: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189289306782482453
+    m_Localized: Rozmiar dymków, plakietek z imionami i opcji odpowiedzi w sklepie i w telefonie. 100% to normalny rozmiar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123392
+    m_Localized: 'Modyfikacja {0} żąda następujących możliwości:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123393
+    m_Localized: Modyfikacja o takich możliwościach może robić na tym komputerze to, co ty. Aktywuj wyłącznie modyfikacje od zaufanych autorów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189702702328123394
+    m_Localized: Aktywuj wyłącznie modyfikacje od zaufanych autorów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458793009152
+    m_Localized: Gdy gra po Alt-Tab wraca jako małe okno zamiast na pełnym ekranie, przełącza się z powrotem na wybrany przez ciebie tryb pełnoekranowy. Wyłącz, jeśli po Alt-Tab ekran pozostaje czarny, na przykład w systemie Linux.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369280
+    m_Localized: Co najmniej jeden przedmiot musi pozostać zezwolony.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190128458822369281
+    m_Localized: Sklepikarz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190788156584148992
+    m_Localized: Potwierdzanie usłudze online tego moda, że posiadasz grę
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

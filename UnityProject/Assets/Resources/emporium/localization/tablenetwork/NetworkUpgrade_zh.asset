@@ -1,0 +1,499 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: NetworkUpgrade_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 51497bd2ea02b6c4b8fe669147dd7259, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 70813270016
+    m_Localized: 红魔鬼酿酒厂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1077454618624
+    m_Localized: 王尔德会将你引荐给红魔鬼酿酒厂的销售代表，让你能立刻且持续地获得他们的啤酒供应。你将获得一张用于联系该供货商的名片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916352
+    m_Localized: 引荐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916353
+    m_Localized: 恩惠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916354
+    m_Localized: 线人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916355
+    m_Localized: 推荐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916356
+    m_Localized: 服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916357
+    m_Localized: 许可
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916358
+    m_Localized: 供货商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916359
+    m_Localized: 下层区化学家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916360
+    m_Localized: 王尔德会将你引荐给一位下层区化学家，他生产用于娱乐和医疗的廉价违禁药物。你将获得一张用于联系该供货商的名片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916361
+    m_Localized: 上层区药商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916362
+    m_Localized: 王尔德会将你引荐给一位匿名上层区药商的库存管理员，让你能及时且稳定地获取合法但难以采购的药物。你将获得一张用于联系该供货商的名片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916363
+    m_Localized: GP采矿合作社
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916364
+    m_Localized: 王尔德会将你引荐给GP采矿合作社的负责人，允许你订购大量矿石。你将获得一张用于联系该供货商的名片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916365
+    m_Localized: 租金宽限
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916366
+    m_Localized: 王尔德会出面摆平房东，如果你错过了一次租金支付，可以接受你将欠款与下周的租金一并缴纳。这个恩惠是一次性的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916367
+    m_Localized: 你已经获得过房东的宽限了。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916368
+    m_Localized: 豁免权
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916369
+    m_Localized: 王尔德将利用他的政治影响力，确保当治安部检查员查获了通常会导致监禁的违禁品时，你只会受到警告处理。这个恩惠是一次性的。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916370
+    m_Localized: 王尔德已经为你提供过此恩惠。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916371
+    m_Localized: 盘查预警服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916372
+    m_Localized: 王尔德会将你引荐给他在治安部内部的线人。只要你每晚支付一笔费用，线人就会提前通知你任何常规的盘查。但线人无法对突击检查提供帮助。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916373
+    m_Localized: 王尔德的善后人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916374
+    m_Localized: 王尔德将允许你雇佣他的善后人。只要你每晚支付一笔费用，善后人就会让目击者闭嘴，并清理尚未被治安部收集的证据，以更快的速度降低你的犯罪嫌疑度。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916375
+    m_Localized: 清除证据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916376
+    m_Localized: 王尔德将命令他在治安部的联络人销毁所有已收集到的证据，并暗中破坏任何针对你的正在进行的调查。此恩惠有{0}天的冷却时间。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916377
+    m_Localized: 买家推荐服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916378
+    m_Localized: 只要支付每晚的费用，王尔德便会动用其人脉将买家推荐到你的店铺。此外，展示柜中的物品会吸引更多顾客。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916379
+    m_Localized: 卖家推荐服务
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916380
+    m_Localized: 只要支付每晚的费用，王尔德便会动用其人脉将卖家推荐到你的店铺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916381
+    m_Localized: 罪犯人脉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916382
+    m_Localized: 只要支付每晚的费用，王尔德便会动用其人脉将财力雄厚的违禁品买家推荐到你的店铺。使用此服务还能为你提供少量黑市声望（冷却时间：{0}天）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916383
+    m_Localized: 偷接私电
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916384
+    m_Localized: 你的电力将由外面某块太阳能板供应，反正原主人（多半）也不差这点电。每晚的电力服务现在免费。这块面板带不动电流转换器，所以它们仍需付费，但费用降低15%。停电不会再影响你的店铺和电流转换器。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916385
+    m_Localized: 商用级供电单元
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617922916386
+    m_Localized: 你的供电单元将得到升级以容纳更多电力。充能器和能量阵列的充电速度将提升{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110656
+    m_Localized: 展示柜扩建 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110657
+    m_Localized: 你的展示柜将得到扩建以展示更多物品。每天将有额外{0}名顾客来购买展示柜中的物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110658
+    m_Localized: 展示柜扩建 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110659
+    m_Localized: 你的展示柜将得到进一步扩建。每天将有额外{0}名顾客来购买展示柜中的物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110660
+    m_Localized: 沟渠水直供
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110661
+    m_Localized: 王尔德会将你的水管连接到下水道，让你能无限制地获取沟渠水。水质纯度每天都会发生变化。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110662
+    m_Localized: 铁锈水直供
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110663
+    m_Localized: 王尔德会将你的水管连接到工业排放管，让你能无限制地获取铁锈水。水质纯度每天都会发生变化。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110664
+    m_Localized: 废弃机器拆解
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110665
+    m_Localized: 一位会教你如何将废弃机器拆解成零件的废料客将在第二天到访。（解锁废弃机器内容）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110666
+    m_Localized: 退休农夫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110667
+    m_Localized: 立即获取一套入门级水培设备。一名退休农夫将在第二天到访，随后每周到访一次，出售种子和水培设备。（解锁进阶农业内容。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110668
+    m_Localized: 退休枪匠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110669
+    m_Localized: 立即获取一套入门级武器改装设备。一名退休枪匠将在第二天到访，随后每周到访一次，出售枪械模组和弹药。（解锁进阶枪械改装内容。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110670
+    m_Localized: 武器许可证 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110671
+    m_Localized: 王尔德将替你疏通关系，为你争取一张通常仅限下层区商人持有的枪械许可证，允许你合法交易低级违禁枪械和弹药。治安部声望达到{0}时许可证即会下发，若声望跌破0则会被吊销。获得霰弹枪后，治安部允许你保留它用于自卫。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110672
+    m_Localized: 武器许可证 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110673
+    m_Localized: 王尔德将替你疏通关系，为你争取一张通常仅限上层区商人持有的枪械许可证，允许你合法交易中级违禁枪械和弹药。只有当治安部声望至少达到{0}时，许可证才会下发。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110674
+    m_Localized: 武器许可证 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110675
+    m_Localized: 王尔德会替你疏通关系，为你争取一张通常仅限空间站治安部军需官持有的武器许可证，允许你合法交易高级违禁枪械和弹药。只有当治安部声望至少达到{0}时，许可证才会下发。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110676
+    m_Localized: 退休化学家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110677
+    m_Localized: 立即获取一套入门级化学家设备。一名退休化学家将在第二天到访，随后每周到访一次，出售化学用品和设备。（解锁进阶化学内容。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110678
+    m_Localized: 水资源交易
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110679
+    m_Localized: 立即获取一套入门级水资源交易设备。一名水贩将开始定期造访你的店铺。（解锁水资源交易内容。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110680
+    m_Localized: 市场委托
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110681
+    m_Localized: 王尔德会将你接入市场委托网络，允许你浏览并完成买家的各类需求。委托物品的报酬通常高于常规市场价值。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110682
+    m_Localized: 杰克逊投资 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110683
+    m_Localized: 王尔德会说服杰克逊博士接受你的一小笔投资，从而永久增加他的预算以及你拜访他时的可用库存。杰克逊博士将始终有模组在售。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110684
+    m_Localized: 杰克逊投资 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110685
+    m_Localized: 王尔德会说服杰克逊博士接受你的另一笔投资，从而永久增加他的预算以及你拜访他时的可用库存。杰克逊博士将始终有额外的模组在售。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110686
+    m_Localized: 店铺翻新 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110687
+    m_Localized: 王尔德将雇佣承包商对店铺进行适度翻新，使其基础吸引力提升{0}点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110688
+    m_Localized: 店铺翻新 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110689
+    m_Localized: 王尔德将雇佣承包商对店铺进行大幅翻新，使其基础吸引力再提升{0}点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110690
+    m_Localized: 店铺翻新 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5617927110691
+    m_Localized: 王尔德将雇佣承包商对店铺进行脱胎换骨的翻新，使其基础吸引力再提升{0}点。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759671308288
+    m_Localized: 养殖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14152759692279808
+    m_Localized: 王尔德会为你引荐一位养鼠人，他会每周到访一次。立即获得一套入门级养鼠设备。（解锁养殖内容）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088798810112
+    m_Localized: 退休酿酒师
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38007088832364544
+    m_Localized: 立即获取一套入门级酿酒设备。一名退休酿酒师将在第二天到访，随后每周到访一次，出售酿酒用品和设备。（解锁酿酒玩法。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081375535104
+    m_Localized: 水产养殖
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84458081438449664
+    m_Localized: 王尔德会为你引荐一位退休水产养殖户，对方会每周到访一次，出售养鱼设备和受精鱼卵。立即获得一套入门级水产养殖设备。（解锁水产养殖内容。）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217368723456
+    m_Localized: 水产养殖 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84884217402277888
+    m_Localized: 退休水产养殖户每次来访时，还会带来体型更大、收益更高的鱼种供你养殖。立即获得两条幼年鳗鱼。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919055683584
+    m_Localized: 植物基因
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238016
+    m_Localized: 立即获得一台DNA编辑器、一台基因扫描仪和一些空白DNA数据盘。此后，杰克逊博士会常备DNA编辑设备供你购买。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238017
+    m_Localized: 档案箱升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238018
+    m_Localized: 扩大档案箱的容量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238019
+    m_Localized: 垃圾桶升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238020
+    m_Localized: 扩大垃圾桶的容量。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238021
+    m_Localized: 自动售货机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238022
+    m_Localized: 立即在店内安装一台自动贩卖机，让你能在夜间售卖商品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238023
+    m_Localized: 自动售水机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238024
+    m_Localized: 立即在店内安装一台自动售水机，让你能在夜间售水。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86607919089238025
+    m_Localized: 店铺
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254073679872
+    m_Localized: 小股东：红魔鬼酿酒厂
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428608
+    m_Localized: 买下红魔鬼酿酒厂的一小部分股份。快递员给你的批发优惠会增加{0}%，每周四早上，你还会在柜台上收到{1}箱啤酒作为分红。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428609
+    m_Localized: 小股东：GP采矿合作社
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428610
+    m_Localized: 买下GP采矿合作社的一小部分股份。快递员给你的批发折扣会增加{0}%，每周五早上，你还会在柜台上收到{1}份矿石作为分红。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428611
+    m_Localized: 小股东：下层区化学家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428612
+    m_Localized: 入股下层区化学家的生意，成为小股东。快递员给你的批发折扣会增加{0}%，每周六早上，你还会在柜台上收到{1}份街头级梦尘作为分红。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428613
+    m_Localized: 小股东：上层区药商
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428614
+    m_Localized: 入股上层区药商的生意，成为小股东。快递员给你的批发折扣会增加{0}%，每周日早上，你还会在柜台上收到{1}支奥克西莫注射器作为分红。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428615
+    m_Localized: 周一特供
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88049254111428616
+    m_Localized: 杰克逊博士会在周一专门为你营业，提供一批价格较高的稀有物品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592013217792
+    m_Localized: 超科技走私贩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577920
+    m_Localized: 乔·王尔德会把你介绍给一个倒卖超科技物品的走私贩，那是远超空间站工业水平的技术。解锁“超科技走私贩”夜间服务。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577921
+    m_Localized: 背书
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577922
+    m_Localized: 王尔德的背书 I
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577923
+    m_Localized: 乔·王尔德亲自为你的店铺背书。来店顾客的预算增加{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577924
+    m_Localized: 王尔德的背书 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577925
+    m_Localized: 乔·王尔德向他最好的人脉大力推荐你的店铺。来店顾客的预算再增加{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577926
+    m_Localized: 王尔德的背书 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577927
+    m_Localized: 乔·王尔德用自己的名声为你的店铺担保。来店顾客的预算再增加{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577928
+    m_Localized: 王尔德的善后人 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577929
+    m_Localized: 王尔德会给你派来更有经验的善后人。他们清理证据更快，你的犯罪嫌疑度每晚会降得更多。每晚的费用也会提高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577930
+    m_Localized: 王尔德的善后人 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93775592042577931
+    m_Localized: 王尔德把他最好的人手派到你的店里。目击者会忘事，证据会消失，你的犯罪嫌疑度每晚降得更快。每晚的费用也会提高。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291312619520
+    m_Localized: 偷接私电 II
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785344
+    m_Localized: 王尔德的人往你的线路里接进了一组更大的太阳能板。它现在能分担电流转换器的部分负载：运行费用降低{0}%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785345
+    m_Localized: 偷接私电 III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95679291337785346
+    m_Localized: 王尔德的人为你接上了一整片屋顶的太阳能板。你的电流转换器运行费用现在总共降低{0}%。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,358 @@
+﻿# Item Details 한국어 (ko)
+auth.amount,액면 이상
+auth.body,본체 손상
+auth.box,상자 이상
+auth.chip,칩 이상
+auth.color,색상 이상
+auth.indicator,표시등 이상
+auth.label,라벨 이상
+auth.lettering,인쇄 이상
+auth.logo,로고 이상
+auth.seal,봉인 씰 이상
+auth.serial,일련번호 이상
+# key,value
+alert.aug_kill_reward,처치 보상: {0}
+alert.aug_presence,개조 위협: {0}/100
+alert.bounty," (현상금 {0})"
+alert.real_name,본명: {0}
+alert.title_augmented,개조 고객
+alert.title_both,수배범 · 개조 고객
+alert.title_wanted,수배범
+appraisal.armor,장갑
+appraisal.base,기본
+appraisal.blade,칼날
+appraisal.build_deluxe,디럭스 세트 보너스
+appraisal.build_tactical,택티컬 세트 보너스
+appraisal.carbon,탄소 복합재
+appraisal.casing_crack,균열
+appraisal.casing_reinforced,보강됨
+appraisal.casing_screws,나사 노출
+appraisal.casing_wear,경미한 마모
+appraisal.casing_wear_heavy,심한 마모
+appraisal.damaged,손상
+appraisal.emgplus,EMG+ 인터페이스
+appraisal.finish_cheap,저급 플라즈마 색
+appraisal.finish_premium,고급 플라즈마 색
+appraisal.gold,금 도금
+appraisal.iface_unknown,규격 불명 인터페이스
+appraisal.neural,신경 인터페이스
+appraisal.ribwich_deluxe,디럭스 에디션
+appraisal.ribwich_double_meat,더블 패티
+appraisal.ribwich_first_batch,1차 생산분
+appraisal.ribwich_month_edge,첫 달 또는 마지막 달
+appraisal.ribwich_opened,개봉됨 또는 위조품 (고정 40)
+appraisal.ribwich_plant_grade_a,고품질 포장 시설 {0:D2}
+appraisal.ribwich_plant_grade_c,저품질 포장 시설 {0:D2}
+appraisal.seal_ignition,이그니션 랩 보너스
+appraisal.seal_ll,와일드 라이드 보너스
+appraisal.seal_republic,공화국 해군 징발부 보너스
+appraisal.seal_zhonghua,중화 조선 보너스
+appraisal.worn,마모
+auth.counterfeit,× 위조품 ({0})
+auth.defect,× {0} ({1})
+auth.genuine,✓ 정품
+berry.dried,마름
+berry.line,{0} 품질: {1}
+berry.wine," (양조 값 {0})"
+berry.moldy,곰팡이 핌
+berry.normal,정상
+berry.small,작음
+berry.unripe,덜 익음
+calorie.line,에너지: {0} {1}
+calorie.per_credit," ({0} {1}/{2})"
+calorie.unit,kcal
+condition.line,상태: {0} {1}
+contraband.markup,암시장: +{0}%
+generic.line,출처: {0}
+hidden.chem_purity,화학 순도: {0}%
+hidden.durability,내구도: {0}/{1}
+hidden.durability_faked,실제 내구도: {0}/{1} (표시 {2}/{3})
+hidden.purity,순도: {0}
+hidden.purity_faked,실제 순도: {0} (표시 {1})
+hidden.purity_level,순도: {0}/10
+hidden.purity_level_faked,실제 순도: {0}/10 (표시 {1}/10)
+hint.double_click,더블클릭하여 감정
+menu.scan,스캔
+list.sep,", "
+lottery.matched_none,적중 {0}/6 -> 미당첨
+lottery.matched_prize,적중 {0}/6 -> 상금 {1}
+lottery.not_drawn,제{0}회: 미추첨 (매주 토요일 아침)
+lottery.winning,당첨 번호: {0}
+market.line,시장: {0}
+faucet.header,수도꼭지 수질: {0}
+calendar.today_events,오늘의 이벤트
+module.power,{0} 전력/일
+module.speed,{0} 속도
+price.buy,"매입가: "
+price.cost_close,)
+price.cost_open," (원가 "
+price.list," 정가: {0}"
+price.sell,판매가: {0}
+reveal.modifier,실제 보정: {0}% (위장 {1}%)
+reveal.real,실제: {0} (위장 {1})
+reveal.real_with_mod,실제: {0} {1} (위장 {2})
+ribwich.header,위조 사유:
+ribwich.more,…외 {0} 항목
+ribwich.reason_bun_no_pickles,참깨 빵인데 추가 피클 없음
+ribwich.reason_date_missing,생산일자 없음
+ribwich.reason_davre_missing,Davre 로고 없음
+ribwich.reason_davre_wrong,Davre 로고가 틀림
+ribwich.reason_first_sticker,1차 생산분: Ribwich 스티커 없어야 함
+ribwich.reason_month_range,생산월 {0}이(가) 1–12 범위 밖
+ribwich.reason_pickles_no_bun,추가 피클인데 참깨 빵 없음
+ribwich.reason_plant_missing,포장 시설 번호 없음
+ribwich.reason_plant_range,포장 시설 번호 {0}이(가) 01–35 범위 밖
+ribwich.reason_second_sticker_missing,2차 생산분인데 Ribwich 스티커 없음
+ribwich.reason_second_sticker_wrong,2차 생산분의 Ribwich 스티커가 틀림
+ribwich.reason_unknown,{0}
+ribwich.reason_year_range,생산연도 {0}: 425-429/432-438 밖
+scratcher.no_prize,스크래치 복권: 꽝
+scratcher.progress_part,", 긁은 칸 {0}/3"
+scratcher.win,스크래치 복권: 당첨 {0} ({1}개 일치)
+seed.header,유전자(미분석)
+seed.rank,등급 {0}
+seed.more,…외 {0} 항목
+seed.trait_rank,{0} (등급 {1})
+seed.innate_lowered,고유({0}→{1})
+seed.innate_removed,제거됨
+storage.contains,"포함: "
+storage.more_kinds," 등 총 {0}종"
+storage.ratio,압축률: {0} ({1}/{2} 칸)
+grid.title,내용물 {0}
+grid.title_sealed,내용물 {0}
+grid.title_sealed_value,내용물 {0} (추정 가치 {1})
+title.appraisal_suffix,"{0} 정가{1}, 최고 제시가{2}"
+value.from,"출처: "
+value.part,{0}{1}
+value.cost_perf,칸당 가치: {0}
+value.cost_perf_detail," ({0}/{1} 칸)"
+value.perfect_range," | 완벽 {0}–{1}"
+value.total_line,총액: {0}
+water.mismatch," (라벨과 불일치)"
+water.trace_count,(표시 임계값 미만 {0} 항목 더)
+water.fold_inactive,{0}: 비활성 성분 펼치기
+chem.effects,효과: {0}
+chem.lethal,치명적 (치사량의 {0}배)
+chem.toxic,유독
+chem.euphoria_weak,약한 도취
+chem.euphoria_mild,보통 도취
+chem.euphoria_strong,강한 도취
+chem.euphoria_extreme,극도의 도취
+chem.synaprest,중독 억제
+chem.contraceptive,피임
+wine.aging,숙성 보너스: +{0}/일 (총 +{1})
+wine.composition,"성분: 당도 {0}‰, 오염물 {1}‰"
+wine.counterfeit,위조품: 불법 효모
+wine.empty,비어 있음
+wine.fermenting,발효 중
+wine.finished,완성됨
+wine.score_part,", 점수 {0}"
+wine.state,와인: {0}
+wine.preview,발효 후 점수 {0}
+wine.tier,", {0} 단계"
+wine.unknown_state,알 수 없음 ({0})
+wine.yeast_power,효모 강도: {0}/회
+wine.yeast_effect,"과실주 +{0}(중복 없음), {1}회 발효"
+wine.yeast_illegal,위조품이 됨
+machine.energy_label,"소비 전력: "
+machine.energy_unit,/일
+machine.energy_battery," {0}/{1}kJ, {2}일분"
+machine.energy_left," {0}kJ, {1}일분"
+config.section.layout,레이아웃
+config.authenticity,진위 감정
+config.authenticity.tip,진품과 위조품을 판정해 결함과 위조 사유를 보여 줍니다.
+config.plant_analysis,식물 분석
+config.plant_analysis.tip,"블룸베리 품질과 미분석 씨앗 형질을 표시합니다. '분석기 보유 시'는 식물 분석기를 보유한 동안에만 씨앗 형질을 표시하며, 블룸베리 품질은 두 모드 모두 표시합니다."
+config.plant_analysis.off,끄기
+config.plant_analysis.analyser,분석기 보유 시
+config.plant_analysis.always,항상
+config.valuation,감정가 계산
+config.valuation.tip,"감정 아이템의 실제 가치 내역과 완벽 가격 범위를 보여 주고, 감정 서비스 제목에 정가와 최고 제시가를 표시합니다."
+config.cost_performance,칸당 가치
+config.cost_performance.tip,칸당 가치와 컨테이너 압축률을 표시합니다.
+config.container_contents,컨테이너 내용
+config.container_contents.tip,잠기지 않은 컨테이너의 내용물을 툴팁 옆에 아이콘으로 표시합니다.
+config.section.info,추가 정보
+config.info_enhance,추가 아이템 정보
+config.info_enhance.tip,아래 나열된 아이템 정보를 툴팁에 추가합니다. 끄면 모두 숨기고 개별 선택은 유지됩니다.
+config.tooltip_formatting,툴팁 텍스트 서식
+config.tooltip_formatting.tip,"가격 표기, 설명 줄 바꿈, 칼로리 주석, 가격 블록 간격을 최적화합니다. 끄면 원래 텍스트 레이아웃을 유지합니다."
+config.type_badge,아이템 분류 배지
+config.type_badge.tip,툴팁 위에 아이템 분류를 표시합니다.
+config.type_badge_muted,배지 색상 줄이기
+config.type_badge_muted.tip,금지·제한 품목 외에는 툴팁의 어두운 배경과 밝게 조정한 분류 색을 사용합니다. 금지·제한 품목은 빨간 경고 텍스트를 유지합니다.
+config.item_name_display,아이템 이름 표시
+config.item_name_display.tip,"아이템 아이콘 아래에 이름을 항상 표시합니다. ‘컨테이너와 기계’는 모든 컨테이너와 기계에 이름을 붙이며, 이름을 바꾼 경우 새 이름을 표시합니다. ‘이름을 바꾼 아이템’은 이름을 바꾼 아이템에만 표시합니다."
+config.item_name_display.off,끄기
+config.item_name_display.containers,컨테이너와 기계
+config.item_name_display.renamed,이름을 바꾼 아이템
+config.container_name_bg,이름표 배경
+config.container_name_bg.tip,이름표 뒤 검정 배경의 불투명도(0–100%)입니다. 0이면 배경이 없습니다.
+config.slider_percent,{0}%
+config.customer_alert,손님 방문 알림
+config.customer_alert.tip,"수배범이나 개조 고객이 방문하면 알리고, 실제 현상금, 본명, 처치 보상, 개조 위협을 표시합니다."
+config.customer_history,손님에 커서를 올려 이번 대화 보기
+config.customer_history.tip,매장 손님 위에 마우스를 올리면 이번 응대에서 오간 대화를 표시합니다.
+config.section.interaction,조작
+config.double_click_inspect,더블클릭으로 감정
+config.double_click_inspect.tip,"감정품이나 진위 확인이 필요한 물품(주사기, 담배, 식량 배급표 등)을 더블클릭하면 돋보기 없이 검사 패널이 열립니다. 패널이 열린 상태에서 다른 물품을 더블클릭하면 바로 전환됩니다."
+config.double_click_scan,더블클릭으로 스캔
+config.double_click_scan.tip,"해당 장치를 보유하고 있으면 아이템을 더블클릭해 스캔 결과 패널을 엽니다. 액체와 화학 물질은 수질/화학 스캐너, 잠긴 보급 상자는 X선 스캐너, 씨앗은 식물 분석기에 대응합니다. 원래 더블클릭으로 열거나 사용하는 아이템은 그 동작을 유지하며, 장치가 없을 때도 기존 더블클릭 동작이 유지됩니다."
+config.context_menu_scan,우클릭 메뉴에 스캔 추가
+config.context_menu_scan.tip,"해당 장치를 보유하고 있으면 아이템 우클릭 메뉴에 '스캔'이 추가되어 스캔 결과 패널을 엽니다. 액체와 화학 물질은 수질/화학 스캐너, 잠긴 보급 상자는 X선 스캐너, 씨앗은 식물 분석기에 대응합니다."
+config.expand_key,펼치기 키
+config.expand_key.tip,이 키를 누르고 있으면 작물 성분표에서 접힌 비활성 성분을 펼칩니다.
+config.expand_key.ctrl,Ctrl
+config.expand_key.shift,Shift
+config.expand_key.alt,Alt
+config.section.reveal,투시
+config.hidden_truth,위장 및 실제 수치 공개
+config.hidden_truth.tip,"위장된 특성의 실제 값, 실제 내구도, 주괴/화학품의 실제 순도를 표시합니다. 가짜가 바로 드러나 감정이 훨씬 쉬워집니다."
+config.liquid_analysis,액체 성분 분석
+config.liquid_analysis.tip,"물의 순도와 불순물, 약품 및 화학 물질의 성분과 효과를 표시합니다. '스캐너 보유 시'는 수질 스캐너나 화학 스캐너를 보유한 동안에만 표시합니다."
+config.color_liquid_components,불순물을 종류별로 색상 구분
+config.color_liquid_components.tip,"성분표의 불순물을 종류별로 다른 색으로 표시합니다(화학 오염물, 유기 폐기물, 미생물, 미네랄, 중금속, 물리 오염물). 끄면 모두 흰색입니다."
+config.liquid_analysis.off,끄기
+config.liquid_analysis.scanner,스캐너 보유 시
+config.liquid_analysis.always,항상
+config.water_advice,정화 조언
+config.water_advice.tip,"물이 든 용기에서 각 정화 방법(필터, 기계 등)으로 순도가 얼마나 오르는지 보여 줍니다. ‘액체 성분 분석’ 설정이 ‘스캐너 보유 시’이면 여기에도 스캐너가 필요합니다."
+config.scratcher,스크래치 복권 미리보기
+config.scratcher.tip,"긁기 전에 스크래치 복권의 당첨 여부, 당첨금, 긁은 진행도를 표시합니다. 게임과 같은 규칙으로 읽기만 하며 대신 긁지 않습니다."
+config.sealed_box,잠긴 컨테이너 투시
+config.sealed_box.tip,"잠긴 컨테이너(금고, 총기 보관함 등)의 내용물과 총가치를 열기 전에 보여줍니다. 잠금 해제 과정을 건너뛰는 셈입니다."
+config.result_prefill,감정 결과 미리 채우기
+config.result_prefill.tip,"검사 패널을 열면 실제 위조 결함을 체크하고, 아래 선택에 따라 감정 가격을 실제 가치나 최적 제안가로 채웁니다. 입력만 하며 제출이나 확인은 하지 않습니다."
+config.result_prefill_source,채울 가격
+config.result_prefill_source.tip,"실제 가치 = 게임이 계산한 진짜 가치, 최적 제안가 = 툴팁에 표시되는 완벽 범위의 상한."
+config.result_prefill_source.true,실제 가치
+config.result_prefill_source.best,최적 제안가
+machine.eta,완료까지 약 {0}일
+machine.eta_battery," (배터리 {0}일분)"
+machine.eta_battery_short," (배터리 부족)"
+machine.eta_water," (물 {0}일분)"
+machine.paused,일시정지: {0}
+machine.paused_label,일시정지
+hydro.water,"물: {0}{3} ({2}{3}/일), {1}일분"
+hydro.water_short,"물: {0}{3} ({2}{3}/일), 1일 미만"
+hydro.status_label,상태: 
+hydro.eta_paused,"약 {0}일, {1}"
+hydro.eta_growing,"약 {0}일, {1}"
+hydro.progress,{0}/{1} ({2}일)
+hydro.label,물
+hydro.value,{0}{1} ({2}{1}/일)
+hydro.left,{0}일
+hydro.left_short,1일 미만
+purifier.estimate,오늘 밤 예상 정화: {0}ml
+purifier.tier," ({0} → {1})"
+purifier.label,정화
+purifier.rate,{0}mL/오늘 밤
+hydro.purify_rank,정화 유전자 {0}단계
+ras.purify_fish,물고기 {0}마리 흡수
+fridge.no_effect,", 효과 없음 {0}개"
+fridge.label,냉장고
+wine.rack,"{0}병 숙성 중, 하루에 {1}일씩 숙성"
+wine.rack_idle,", {0}병은 숙성 안 됨"
+wine.rack_label,숙성
+inner.line,{0}: {1}
+inner.input_slot,입력 슬롯
+inner.output_slot,출력 슬롯
+inner.printer_material_slot,재료 슬롯
+inner.printer_product_slot,완제품 슬롯
+inner.durability,{0}: 내구도 {1}/{2}
+inner.faked," (표시 {0})"
+inner.filter_spent," (소진됨, 더 이상 거르지 않음)"
+filter.label,필터
+filter.lowest,"×{0}, 최저 {1}/{2}"
+inner.filters,필터 ×{0}: 최저 내구도 {1}/{2}
+inner.spent_count,", {0}개 소진"
+inner.liquid,{0}/{1}{2}
+inner.liquid_empty,비어 있음
+inner.liquid_purity,", {0}% {1}"
+unit.ml,ml
+unit.liter,L
+inner.uses,{0}: 남은 사용 횟수 {1}/{2}
+inner.tools,도구 ×{0}: 최소 잔여 {1} ({2}/{3})
+inner.energy,{0}: 에너지 {1}/{2}
+learning.progress,학습 진행: {0}
+learning.stat,{0} {1}/{2}
+learning.stat_full,{0} 최대
+learning.machine,자가 학습: {0}/{1}개 모듈 학습 중
+learning.nights,({0}일)
+recharger.label,충전
+module.days_faster,", 약 {0}일 단축"
+module.output,{0}ml/일
+module.evaporate,밤마다 {0}ml 증발
+module.recover,증류액 {0}% 회수
+module.attract,{0}% 매력
+module.bargain,{0}% 흥정 성공률
+module.theft,{0}% 도난 방지율
+module.aging_next,+{0}% 더하면 숙성 속도 +1
+module.print_quality,{0} 인쇄 품질
+module.success,{0}% 성공률
+module.harvest,{0}% 수확량
+module.water_next,+{0}% 더하면 {1} 생산
+module.water_top,{0} 생산 중
+module.purifier_next,+{0}% 더하면 {1}까지 정화 가능
+module.purifier_full,+{0}% 더하면 순도 상한 100%
+module.purifier_top,순도 상한 100% 달성
+module.furnace_gain,순도{0}
+module.furnace_step,+{0}% 더하면 순도{1}
+module.furnace_result,금속괴×{0}: {1}/10
+module.furnace_cap,최고 순도
+module.furnace_basic,일반 융제 소모
+module.furnace_junk,폐기물 변환에 품질 효과 없음
+history.empty,아직 대화가 없습니다.
+history.earlier,…이전 {0}줄
+history.unknown,손님
+appraisal.minimum_adjustment,최소 가치 보정
+meat.source,고기 출처: {0}
+meat.unknown,알 수 없음
+meat.fish,생선
+meat.prion,프리온: {0}
+meat.prion.present,있음
+meat.prion.unmarked,표시 없음
+berry.wine_value,양조 값: {0}
+config.info_price_modifiers,가격 보정
+config.info_price_modifiers.tip,"라벨, 상태, 상점 이벤트로 인한 가격 보정 값을 표시합니다."
+config.info_black_market,암시장 할증
+config.info_black_market.tip,금지품의 암시장 할증을 표시합니다.
+config.info_lottery,복권
+config.info_lottery.tip,"당첨 번호, 일치 개수, 상금을 표시합니다. 추첨 결과를 바꾸지 않습니다."
+config.info_brewing,양조
+config.info_brewing.tip,"재료의 양조 값, 효모 효과, 와인 점수와 성분, 발효 및 숙성 정보를 표시합니다."
+config.info_meat,고기
+config.info_meat.tip,고기의 출처 종과 프리온 표식을 표시합니다.
+config.info_machines,기계
+config.info_machines.tip,"모듈 효과, 학습 진행도, 남은 일수, 물 사용량, 냉각, 숙성, 정화량, 용광로 예상 생산물을 표시합니다."
+config.info_batteries,배터리
+config.info_batteries.tip,충전량과 남은 일수를 표시합니다. 충전기 안의 각 배터리도 포함합니다.
+config.info_progress_bar,색상 진행 막대
+config.info_progress_bar.tip,문자 진행 막대를 색상 블록으로 바꿉니다. 끄면 원래 스타일을 유지합니다.
+config.info_manufacturer_inline,회사명을 이름 줄에 표시
+config.info_manufacturer_inline.tip,회사명을 아이템 이름과 같은 줄의 오른쪽으로 옮깁니다.
+config.info_container_units,액체 단위 최적화
+config.info_container_units.tip,"3 L를 초과하는 용량은 L로 표시합니다(3 L 이하는 mL). 성분량은 항상 mL로 유효숫자에 맞춰 표시하고, 미량 성분의 비율은 유효숫자 3자리를 유지합니다."
+config.gene_rank_arabic,유전자 등급 아라비아 숫자 표시
+config.gene_rank_arabic.tip,"씨앗 형질 등급을 아라비아 숫자(1, 2, 3…)로 표시합니다. 끄면 게임 원래의 로마 숫자(I, II, III…)로 돌아갑니다."
+list.zone_sep,; 
+module.special_label,특수
+module.learn_chance,매일 밤 {0}% 확률로 학습 알고리즘 부여
+module.learn_extra,매일 추가 학습 {0}회
+animal.next_stage,다음 성장 단계: {0} (성장일 {1}일 남음)
+exchange.tonight,오늘 밤 예상 교환품: {0}
+exchange.reputation,암시장 평판
+exchange.module,"낮은 확률로 {0}, 그 외에는 보상 없음"
+exchange.keycards,다음 중 무작위 2장: {0}
+exchange.low_purity,보상 없음 (꿈가루 순도 부족)
+exchange.unknown,정산 시 보상 확정
+exchange.candidates,다음 중 무작위: {0}
+exchange.module_candidates,{0} (희귀: {1})
+animal.genes_trait,형질
+animal.genes_expression,발현값
+animal.genes_alleles,대립유전자
+animal.genes_grade,등급
+luck.current,현재 행운: {0}
+luck.base,기본 행운: {0}
+luck.coin,소지 중인 동전: {0}
+luck.liquid,{0}: {1} ({2}일 남음)

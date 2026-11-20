@@ -1,0 +1,3943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Item_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 93fe472e9fd181141974a1f58c3bef9e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 158976881508352
+    m_Localized: 「古代異星の遺物」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159203780771840
+    m_Localized: ただの金属くずに見えるが……「古代異星」の金属くずなのだろうか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158979263873024
+    m_Localized: 100%純粋な水（水分0%）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582820036608
+    m_Localized: PAXタンポン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230912
+    m_Localized: しっかり守ってくれる衛生用品は、下層世界では手を出せる人の少ない贅沢品とされている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230913
+    m_Localized: Hemingwayのタバコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230914
+    m_Localized: フレーバーでも価格でも、どちらを取っても忘れがたい贅沢な時間を過ごせる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230915
+    m_Localized: REXコンドーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230916
+    m_Localized: 政府からの配布プログラムのおかげで、下層世界では一般的なものとなっている。人口の抑制は暴動を鎮圧するよりも安上がりなのだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230917
+    m_Localized: 4in1 ウォッシュボトル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230918
+    m_Localized: シャンプー、コンディショナー、ボディソープが1本で済むうえに、歯磨きまでできるボトル。若返り効果のあるニュートリフルーツエキスを配合。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230919
+    m_Localized: 歯磨き粉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230920
+    m_Localized: 息が爽やかになる、ミント味の歯磨き粉。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230921
+    m_Localized: ペーパータオル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230922
+    m_Localized: トイレットペーパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230923
+    m_Localized: 強度と信頼性を兼ね備えた、手頃な価格のトイレットペーパー。ダブルタイプは、下層世界では贅沢品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230924
+    m_Localized: 水質検査キット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230925
+    m_Localized: 水質を色で調べる試験紙が入った、小さなボトル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230926
+    m_Localized: 水質試験紙
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230927
+    m_Localized: 水サンプルの品質を正確に把握するために使われる試験紙。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230928
+    m_Localized: UVランプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230929
+    m_Localized: 水入れで使用可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230930
+    m_Localized: 紫外線を発して、細菌やその他の微生物を殺せるランプ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230931
+    m_Localized: アクアスキャン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230932
+    m_Localized: 水サンプルの品質を正確に把握するために使われる装置。検出された不純物を表示する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230933
+    m_Localized: 漁り屋スキャナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230934
+    m_Localized: 廃品漁りをするときに高価なものが見つかる確率が上がる装置。（一度に効果を得られるスキャナーは1つのみ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230935
+    m_Localized: 第三の目、第二の鼻が欲しいと思ったことはないだろうか？ このスキャナーを使えば、雑然とした状況も突破できる！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230936
+    m_Localized: 浄水タブレット入れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230937
+    m_Localized: 浄水に使えるタブレットが入った、小さなボトル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230938
+    m_Localized: 浄水タブレット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230939
+    m_Localized: 微生物汚染を大量に除去し、化学汚染を部分的に減らせる。他の種類の汚染物質には効果なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230946
+    m_Localized: コットン生地
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230947
+    m_Localized: 液体から大きな粒子を除去するのに使える。粗すぎて浄水には使えない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230948
+    m_Localized: 有機繊維で作られた汎用性の高い生地。作業着の補強や、衝撃を和らげる包帯などに広く使われている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230949
+    m_Localized: ろ過器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230950
+    m_Localized: 取り付けることで、水の純度が少し上がる。一定のレベルを超えると効果がなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230951
+    m_Localized: 軽量で、一般家庭用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425224
+    m_Localized: SYNCニューロアクティブ香水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425225
+    m_Localized: 使用すると、その時点での客の取引ボーナスが15%上がる。一度に効果を得られる香水は1つのみ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425226
+    m_Localized: 悲嘆療法の研究から開発された香水だ。適応型香気マッピング技術を用いて、個人のポジティブな記憶を呼び起こす。高級ホテルやレストランではよく使われており、従業員たちは、この香水を使った場合に得られる利益が値段を上回っていることを実感している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425227
+    m_Localized: L'ESSENCEフェロモン香水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425228
+    m_Localized: 使用すると、その時点での客の取引ボーナスが25%上がる。一度に効果を得られる香水は1つのみ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425229
+    m_Localized: 人工的に作られた人間のフェロモンを配合した、違法な香水。魅力と感受性を高める効果がある。違法ではあるが、上層世界で成り上がりを目論む者たちからの需要が高い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425230
+    m_Localized: ドライバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425231
+    m_Localized: 簡素なドライバー。上層・下層を問わず、市民があまり使わない引き出しに入れている定番アイテム。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425232
+    m_Localized: 所持している場合、ゴミ捨て場で廃品漁りをしたときに得られるネジの量が10%増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425233
+    m_Localized: プラズマカッター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425234
+    m_Localized: 高周波の点火式プラズマカッター。安定した性能が保証されており、高速かつ強力で滑らかに切断できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425235
+    m_Localized: 壊れた機械を分解して金属くずにすることができる。所持している場合、ゴミ捨て場で廃品漁りをしたときに得られる金属くずの量が10%増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425236
+    m_Localized: ワイヤーカッター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425237
+    m_Localized: バネのおかげでてこの力が働き、使用者の負担を軽減する。ゴム製の取っ手はやわらかく、握りやすい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425238
+    m_Localized: 壊れた機械を分解してワイヤーにすることができる。所持している場合、ゴミ捨て場で廃品漁りをしたときに得られるワイヤーの量が10%増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425241
+    m_Localized: ラベラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425242
+    m_Localized: アイテムのラベルを替えることができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425243
+    m_Localized: 虫眼鏡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425244
+    m_Localized: 特定のアイテムを詳しく調べることができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425245
+    m_Localized: ネオンサイン（水）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425246
+    m_Localized: ショーケースに設置すると、水を売りたがっている客が来てくれるネオンサイン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425249
+    m_Localized: 使い捨てターボブースター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425250
+    m_Localized: 起動に時間を要する機械を即座に稼働させる道具。使用前に、対象の機械に必要な入力が済んでいることを確認するように。使用するとなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425251
+    m_Localized: 高度なターボブースター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425252
+    m_Localized: 起動に時間を要する機械を即座に稼働させる道具。使用前に、対象の機械に必要な入力が済んでいることを確認するように。時間が経つと、もう一度使えるようになる。高度なバージョンは、使用してもなくならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425253
+    m_Localized: プラスチック爆発物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425254
+    m_Localized: 取り扱い注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425255
+    m_Localized: プラスチック爆発物（起爆後）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425256
+    m_Localized: 3……2……1……ドカン！！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425257
+    m_Localized: カバン（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425258
+    m_Localized: 使い込まれてから縫って補強された、コンパクトなカバン。軽量だが、必需品を入れるのには十分な容量だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425259
+    m_Localized: カバン（基本）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425260
+    m_Localized: カバン（軍用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425261
+    m_Localized: 軍用に設計された、丈夫なカバン。生地の耐久性が非常に高く、戦闘時に追加の防具として前に背負う兵士もいる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425262
+    m_Localized: カバン（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425265
+    m_Localized: 肩掛けバッグ（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425266
+    m_Localized: ニュートリフルーツの種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425267
+    m_Localized: 保安部の物資箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425268
+    m_Localized: 鍵のかかった箱。保安部の武器庫宛てになっており、物資がたくさん入っている。アクセスカードが必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425269
+    m_Localized: 工学鋳造所の物資箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425270
+    m_Localized: 鍵のかかった箱。工学鋳造所宛てになっており、物資がたくさん入っている。アクセスカードが必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425271
+    m_Localized: 道具をなくした労働者は悔しがるだろう……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425272
+    m_Localized: 医務室の物資箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425273
+    m_Localized: 鍵のかかった箱。医務室宛てになっており、物資がたくさん入っている。アクセスカードが必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425274
+    m_Localized: これがなくなっても、誰かの命が奪われることはない……はずだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425275
+    m_Localized: 保安部の証拠品箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425276
+    m_Localized: 下層世界の人間を丸ごと刑務所送りにできそうなほど、証拠が集まっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425277
+    m_Localized: 鍵のかかった箱。保安部の証拠品保管庫宛てになっており、貴重。アクセスカードが必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425278
+    m_Localized: 管理部の物資箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425279
+    m_Localized: 鍵のかかった箱。ステーションの管理部宛てになっており、物資がたくさん入っている。アクセスカードが必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425280
+    m_Localized: ステーションの管理部は、必要としている者や代金を支払った者に実用的な物資を配布している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425342
+    m_Localized: 化学用品（一般）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425343
+    m_Localized: 基本的な化学系の製作に便利なアイテムが入っている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425344
+    m_Localized: ステーションのホームセンターでよく見かけるような、一般的な化学用品のセットだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425345
+    m_Localized: 化学用品（制限）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425346
+    m_Localized: 高度な化学系の製作に便利なアイテムが入っている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425347
+    m_Localized: 麻薬や爆発物の製作に必要になる、制限付きの化学用品のセットだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425348
+    m_Localized: 医療用品（一般）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425349
+    m_Localized: 薬局で売られていることが多い、一般的な医療用品のセットだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425350
+    m_Localized: 医療用品（制限）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425351
+    m_Localized: ステーションの病人の治療に必要になる、制限付きの医療用品のセットだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425352
+    m_Localized: 金属くず
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425353
+    m_Localized: 溶解して鉱石にできる。ステーションでは資源が限られているため、回収と再利用が大切だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425354
+    m_Localized: ガラクタ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425355
+    m_Localized: 壊れて何の役にも立たないゴミ。リサイクルもほとんど不可能で、価値はほぼない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425356
+    m_Localized: 鉱石
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425358
+    m_Localized: 電子部品（一般）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425359
+    m_Localized: ありふれてはいるが便利な電子部品の詰め合わせ。コネクター、スイッチ、コンデンサー、プロセッサー、処理ユニットなど。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425360
+    m_Localized: 電子部品（希少）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425361
+    m_Localized: 珍しく高性能な電子部品の詰め合わせ。とても興味を持ちそうな発明家がいる……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425362
+    m_Localized: ワイヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425363
+    m_Localized: 電線の束。どこかから取ってきたもののように見える……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425364
+    m_Localized: 3Dプリント用フィラメント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425365
+    m_Localized: '3Dプリンターで使用するための、高品質なフィラメント。可能な限り、再利用したプラスチックから作られる。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425369
+    m_Localized: 放射性廃棄物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425370
+    m_Localized: 放射性廃棄物。取り扱い注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425371
+    m_Localized: 有害な核廃棄物が集まっている。こんなものを扱いたい人はいない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425372
+    m_Localized: 溶解用フラックス剤（基本）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425373
+    m_Localized: 溶解中に使用すると、鉱石の純度が上がる便利な添加剤。使用するとなくなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425374
+    m_Localized: 溶解用フラックス剤（応用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425375
+    m_Localized: '溶解中に使用すると、鉱石の純度が上がる便利な添加剤。再利用可能。 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425408
+    m_Localized: テーザー銃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425409
+    m_Localized: 自己防衛や法執行に使用される、コンパクトなスタンガン。電気ショックを与える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425410
+    m_Localized: 避妊薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425411
+    m_Localized: 妊娠を防ぐ避妊用の薬。エストロゲンとプロゲスチンのホルモンが配合されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425421
+    m_Localized: ZeroChewタブレット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425422
+    m_Localized: 手頃な価格で食欲を抑えられる、ZeroChewのタブレット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425423
+    m_Localized: 食事を抜いて節約しようとする下層世界の住民が、愛用しているタブレット。上層世界では、ダイエットサプリ「Regime-X」として販売されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425424
+    m_Localized: 気付け薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425425
+    m_Localized: アルコールとアンモニアが入った、細いガラス管。失神後に意識を回復させる際に役立つ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425426
+    m_Localized: 血液バッグ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425427
+    m_Localized: ユニバーサルドナーから採取した、500mlの血液バッグ。ドナーからの許可を得ているとは限らない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425428
+    m_Localized: 青の血液バッグ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425429
+    m_Localized: 動脈プラークや微小血栓を時間をかけて溶かすように作られた、注射用バイオゲル。冠動脈疾患、虚血性脳卒中、高血圧関連の合併症を効果的に予防する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425430
+    m_Localized: 実際には血液ではなく、上層世界でもあまり見かけない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425431
+    m_Localized: 「ドリームダスト」の小瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425432
+    m_Localized: 下層世界で作られた、安価で陶酔感が得られる粉末。ステーションで過酷な人生を送る中で、現実逃避するために使われる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425433
+    m_Localized: 「ナイトメアダスト」の小瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425434
+    m_Localized: 毒物であり幻覚剤でもある、細かい粉末。摂取または吸入すると、激しい吐き気、脱力感、方向感覚の喪失を引き起こし、その後、恐ろしい幻覚を見る。大量に摂取すると死に至る恐れがある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425435
+    m_Localized: カフェイン錠剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425436
+    m_Localized: 上層世界のエスプレッソバーから出る廃棄物から調合された。下層世界で長時間働く労働者には欠かせない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425437
+    m_Localized: Nightingaleの軟膏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425438
+    m_Localized: 加工されたアロエと医療用のハチミツから作られた軟膏。抗菌作用があり、細胞の再生と成長を促進する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425439
+    m_Localized: 消毒用アルコール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425440
+    m_Localized: 傷や表面の洗浄に使われる、強力な消毒薬。飲み込むと非常に危険だが、それでも下層世界ではNUDKAの代用とされている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425441
+    m_Localized: 基本の包帯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425442
+    m_Localized: 傷の手当てに使われる、簡素で清潔な包帯。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425443
+    m_Localized: 止血包帯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425444
+    m_Localized: 強力な止血剤が塗布されており、重度の出血から軽度の出血まで止められる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425445
+    m_Localized: 外用包帯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425446
+    m_Localized: 刺激の少ない外用医療ジェルが塗布されており、治癒を促進する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425447
+    m_Localized: Immunivaxの注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425448
+    m_Localized: 「センチネル崩壊症候群」に伴う過剰な免疫反応を一時的に抑えるため開発された、高精度の免疫調整剤。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425449
+    m_Localized: Synaprestの注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425450
+    m_Localized: 薬物依存症に対する次世代治療薬。脳の報酬系を抑制して渇望を抑え、長期的な回復を支える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425451
+    m_Localized: 心理療法や社会的支援も行うことで、最大限の効果が得られる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425452
+    m_Localized: Oxymoreの注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425453
+    m_Localized: 激しい痛みを和らげ、多幸感を引き出す。合法ではあるが危険。過剰処方による依存症や過剰摂取が蔓延している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425454
+    m_Localized: Nomoreの注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425455
+    m_Localized: Oxymoreの代わりとなる、依存性のない鎮痛剤。依存症や過剰摂取に至るリスクなく、効果的な鎮痛作用をもたらす。注射器を再利用した試作品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425456
+    m_Localized: Naloxgoneの注射器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425457
+    m_Localized: Oxymoreの過剰摂取に対処するために使われる、緊急用の薬。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425460
+    m_Localized: ガラスの刃物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425461
+    m_Localized: 鋭利なガラス片を布で包んだもの。武器として使える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425462
+    m_Localized: 戦闘ナイフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425463
+    m_Localized: 軍用に設計されたナイフ。主に白兵戦や接近戦で使うことが想定されているが、実用的な用途にも使える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425464
+    m_Localized: カッターナイフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425465
+    m_Localized: 刃先を引っ込められる、丈夫なカッターナイフ。建築や製作、倉庫作業でよく使われる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425466
+    m_Localized: 肉切り包丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425467
+    m_Localized: 包丁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619520
+    m_Localized: ステンレス鋼のナイフ。子供や上層世界の腹黒い主婦の手の届かないところに置くように。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619521
+    m_Localized: 戦闘マチェット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619522
+    m_Localized: 戦い、生き残るために作られた頑丈なマチェット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619523
+    m_Localized: バール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619524
+    m_Localized: ステーションにいる熟練の漁り屋や理論物理学者が、頼りにしている道具。いざという時には武器にも使える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619525
+    m_Localized: 手斧
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619526
+    m_Localized: 小型だが頑丈。水耕栽培園で、育てているものを取り除くのに使用できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619527
+    m_Localized: 鉛管
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619528
+    m_Localized: 重量のある鉛管。ステーションで水道管が全面改修されると、大量の余った鉛管が漁り屋と泥棒の手に渡った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619529
+    m_Localized: スタン警棒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619530
+    m_Localized: STUNモードとHARMモードを備えた、制式のスタン警棒。ステーション内の秩序維持に努める警察の必需品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619531
+    m_Localized: バッテリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619532
+    m_Localized: 廃棄物を削減するため、使い捨てのバッテリーは共和国で違法とされている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619533
+    m_Localized: 大半の機械に対応する、基本的なエネルギー源。充電可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619534
+    m_Localized: バッテリー（Mk. II）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619535
+    m_Localized: 標準モデルを改良したもの。大きさも性能も向上し、口に入れた際の窒息の危険も高まっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619536
+    m_Localized: 大半の機械に対応する、改良されたエネルギー源。充電可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619537
+    m_Localized: 自己充電バッテリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619538
+    m_Localized: 高度で希少なバッテリー。自己充電が可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619539
+    m_Localized: ガラスの破片
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619543
+    m_Localized: 懐中電灯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619544
+    m_Localized: 頑丈な懐中電灯。所持している場合、ゴミ捨て場で廃品漁りをしたときに怪我をする確率が低くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619545
+    m_Localized: 新聞
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619546
+    m_Localized: 新しい新聞。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619547
+    m_Localized: 師匠の手引き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619548
+    m_Localized: 師匠から受け取ったメモをすべて保管できる本。便利！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619549
+    m_Localized: Hemingway識別ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619550
+    m_Localized: 「Hemingway」の偽造タバコを見分けるためのガイド。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619551
+    m_Localized: Hemingwayのカラーチェッカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619552
+    m_Localized: 「Hemingway」公式の色見本。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619554
+    m_Localized: プラズマカートリッジ鑑定ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619555
+    m_Localized: プラズマカートリッジの適正価格を調べるためのガイド。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619558
+    m_Localized: フードスタンプの識別についての手引き
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619559
+    m_Localized: フードスタンプが本物か偽物かどうかを見分けるための、便利なガイド。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619560
+    m_Localized: Immunivax評価ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619561
+    m_Localized: 「Immunivax」注射器の状態を確実に調べるために必要な情報がそろっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619562
+    m_Localized: 水の取引マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619563
+    m_Localized: 水の売買に関する情報がそろっている、便利なマニュアル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619568
+    m_Localized: 冶金マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619571
+    m_Localized: 賃貸契約書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619572
+    m_Localized: 大家と自分の署名が入った契約書。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619575
+    m_Localized: 営業許可証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619576
+    m_Localized: 共和国から発行された許可証。下層世界で合法的に商売をするために必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619577
+    m_Localized: 手書きメモ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619578
+    m_Localized: 手書きの簡単なメモ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619579
+    m_Localized: 漁り屋のトークン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619580
+    m_Localized: 認められた証。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619581
+    m_Localized: 漁り屋コミュニティから贈られたトークン。ショーケースに設置するたびに、漁り屋が来る確率が上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619582
+    m_Localized: 書類入れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619583
+    m_Localized: 書類、メモ、本、虫眼鏡などを収納できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619584
+    m_Localized: ゴミ箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619585
+    m_Localized: 清掃サービスを利用している場合、中に入れたアイテムが夜間に回収される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619586
+    m_Localized: 排水溝
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619587
+    m_Localized: 不要な水はここに流せる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619588
+    m_Localized: 蛇口
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619589
+    m_Localized: 水が出ない……誰か、水道管につなげてくれないだろうか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619590
+    m_Localized: 使い捨てカードキー（司令）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619591
+    m_Localized: ステーションの司令部だけが所持している、マスターカードキー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619592
+    m_Localized: ステーションの司令部用の使い捨てカードキー。カードキーが必要な大半の仕組みを突破できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619593
+    m_Localized: 使い捨てカードキー（警察）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619594
+    m_Localized: 悪い人間の手に渡れば、危ないかもしれない……
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619595
+    m_Localized: ステーションの警察用の使い捨てカードキー。保安部のアクセスが必要な仕組みを突破できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619596
+    m_Localized: 使い捨てカードキー（研究開発）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619597
+    m_Localized: ステーションの研究員が所持しているカードキー。貴重。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619598
+    m_Localized: 研究開発用の使い捨てカードキー。科学部のアクセスが必要な仕組みを突破できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619599
+    m_Localized: 使い捨てカードキー（医療）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619600
+    m_Localized: ステーションの医療部用の使い捨てカードキー。医療部のアクセスが必要な仕組みを突破できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619601
+    m_Localized: 使い捨てカードキー（エンジニア）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619602
+    m_Localized: ステーションのエンジニア部用の使い捨てカードキー。エンジニア部のアクセスが必要な仕組みを突破できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619603
+    m_Localized: 使い捨てカードキー（供給）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619604
+    m_Localized: ステーションの供給部用の使い捨てカードキー。供給部のアクセスが必要な仕組みを突破できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619605
+    m_Localized: 使い捨てカードキー（管理）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619606
+    m_Localized: ステーションの管理部用の使い捨てカードキー。管理部のアクセスが必要な仕組みを突破できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619607
+    m_Localized: 使い捨てカードキー（空白）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619608
+    m_Localized: ステーションで見つかる中では、最もマスターカードキーに近い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619609
+    m_Localized: 何も書かれていないカードキー。適切な機械があれば、あらゆる種類のアクセス権を付与できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619610
+    m_Localized: 名刺（ジョー・ワイルド）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619611
+    m_Localized: 「何なりとお申し付けください」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619612
+    m_Localized: 名刺（レッド・インプ醸造所）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619613
+    m_Localized: 「悪魔的なおいしさ！」
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619614
+    m_Localized: 名刺（GP採掘協同組合）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619615
+    m_Localized: GPが何の略なのか、もう誰も知らない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619616
+    m_Localized: 名刺（薬剤師）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619617
+    m_Localized: 名前と電話番号だけが書かれた、とてもシンプルな名刺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619618
+    m_Localized: 名刺（化学者）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619619
+    m_Localized: 電話番号が書かれた紙切れ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619620
+    m_Localized: 名刺（緑）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619621
+    m_Localized: 電話番号が書かれた、シンプルな緑の名刺。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619631
+    m_Localized: 事案の控え
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619632
+    m_Localized: 保安部が事案への対応後に出す控え。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619633
+    m_Localized: 指名手配リスト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619637
+    m_Localized: フードスタンプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619638
+    m_Localized: 売店で引き換えると、食品を購入できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619639
+    m_Localized: 食料品の購入にだけ使えるプリペイドカード。下層世界の恵まれない住民を支援するための、福祉プログラムの一環。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619640
+    m_Localized: 鑑定委員会のジュニア認定証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619644
+    m_Localized: '音楽カセット - '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619645
+    m_Localized: ' （使用感なし）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619646
+    m_Localized: ' （破損）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619647
+    m_Localized: ' （損傷）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619648
+    m_Localized: Perseverance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619649
+    m_Localized: Datasphere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619650
+    m_Localized: High Stakes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619651
+    m_Localized: Stardust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619652
+    m_Localized: Afterglow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619653
+    m_Localized: Spaceflight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619654
+    m_Localized: Dark Matter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619657
+    m_Localized: スクラッチカード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619658
+    m_Localized: マークが2つ以上そろったら、賞金がもらえる！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619659
+    m_Localized: 下層世界で人気のギャンブル。上層世界では禁止されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619660
+    m_Localized: スクラッチカード5枚セット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619661
+    m_Localized: 広げる前に、十分なスペースを確保しなければならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619662
+    m_Localized: スクラッチカードが5枚集められた束。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619665
+    m_Localized: アングラ取引の情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619667
+    m_Localized: プラズマカートリッジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619668
+    m_Localized: 宇宙飛行用のパルスプラズマドライブに使用される、コンパクトな固体燃料カートリッジ。カートリッジの品質によって、価格が大幅に変わる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619671
+    m_Localized: 保管ケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619672
+    m_Localized: アイテムを保管するための、標準的なケース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619673
+    m_Localized: 保管ケース（拡張）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619674
+    m_Localized: アイテムを保管するための、拡張されたケース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619679
+    m_Localized: 機械ケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619680
+    m_Localized: 機械を保管するための、標準的なケース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619681
+    m_Localized: 機械ケース（拡張）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619682
+    m_Localized: 機械を保管するための、拡張されたケース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619683
+    m_Localized: 密輸者のケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619684
+    m_Localized: 検査時に中身がバレないように作られた、小型の偽装保管ケース。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619685
+    m_Localized: 密輸者のケース（改良）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619686
+    m_Localized: 検査時に中身がバレないように作られた、偽装保管ケース。改造して容量が増えている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619689
+    m_Localized: パワーブロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619690
+    m_Localized: 隣接するバッテリーを充電できる、コンパクトなエネルギー源。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619691
+    m_Localized: 電力サービスを利用している場合に毎晩、隣接するバッテリー、または隣接する機械（リチャージャーを除く）に入ったバッテリーの電力を+2回復する。この効果は重複可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619692
+    m_Localized: 空白モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619693
+    m_Localized: 空白のモジュール。適切な機械があれば、有用なものに書き換えられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619694
+    m_Localized: 性能モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619695
+    m_Localized: 効率モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619696
+    m_Localized: 品質モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619697
+    m_Localized: 高速モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619698
+    m_Localized: エコモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619699
+    m_Localized: 精製モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619700
+    m_Localized: 能率モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619701
+    m_Localized: 破損したモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619702
+    m_Localized: 完全に壊れたモジュール。スクラップとしての価値はまだ残っている。ドライバーで分解可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619703
+    m_Localized: 損傷したモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619704
+    m_Localized: 損傷したモジュール。電子部品と、少しのノウハウがあれば修復可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619705
+    m_Localized: ニューラルコアモジュール（制限なし）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619706
+    m_Localized: 高性能だが安定せず、違法。システムモジュール内に収められたAIコア。この種のAIコアは暴走する傾向にある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619707
+    m_Localized: ニューラルコアモジュール（制限あり）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619708
+    m_Localized: ステーションでのAIコアの使用は違法だ。このユニットには、性能を制限しつつ、暴走を抑える安全機能が付いている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619709
+    m_Localized: 暗号デシーケンサーチップ（司令）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619710
+    m_Localized: 暗号デシーケンサーで、空白のカードキーに司令の権限を与えられるようにするモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619711
+    m_Localized: 暗号デシーケンサーチップ（警察）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619712
+    m_Localized: 暗号デシーケンサーで、空白のカードキーに警察の権限を与えられるようにするモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619713
+    m_Localized: 暗号デシーケンサーチップ（医療）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619714
+    m_Localized: 暗号デシーケンサーで、空白のカードキーに医療の権限を与えられるようにするモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619715
+    m_Localized: 暗号デシーケンサーチップ（エンジニア）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619716
+    m_Localized: 暗号デシーケンサーで、空白のカードキーにエンジニアの権限を与えられるようにするモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619717
+    m_Localized: 暗号デシーケンサーチップ（供給）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619718
+    m_Localized: 暗号デシーケンサーで、空白のカードキーに供給の権限を与えられるようにするモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619719
+    m_Localized: 暗号デシーケンサーチップ（管理）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619720
+    m_Localized: 暗号デシーケンサーで、空白のカードキーに管理の権限を与えられるようにするモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619738
+    m_Localized: 成長したハイドロリードの茎を収穫し、ろ過器として使用できるようにするモジュール。他の植物には効果なし。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619752
+    m_Localized: アラーム送信モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619753
+    m_Localized: "現在送信中：<b>{0}</b>\n同じ派閥に2回送信しても、追加の効果は得られない。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619754
+    m_Localized: 防犯カメラで撮影された映像を、設定された派閥に送信するモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619755
+    m_Localized: 溶鉱炉モジュール（送風）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619756
+    m_Localized: 溶鉱炉に変更を加え、{0}個の素材から{1}個のインゴットを作れるようにする特殊なモジュール（純度は少し低くなる）。重複不可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619757
+    m_Localized: 溶鉱炉モジュール（ガラクタ処理）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619758
+    m_Localized: 溶鉱炉に変更を加え、ガラクタを処理して金属くずを作れるようにする特殊なモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619759
+    m_Localized: モジュール取り出し機（基本）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619760
+    m_Localized: 機械に詰まったモジュールを、分解せずに取り出せる。使用回数は{0}回。電子部品を使って部分的に修復可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619761
+    m_Localized: モジュール取り出し機（応用）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619762
+    m_Localized: 機械に詰まったモジュールを、分解せずに取り出せる。使用しても劣化しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619763
+    m_Localized: モジュールケース拡張キット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619764
+    m_Localized: 機械のモジュール容量を拡張する、使い捨てのキット。化学系などの特殊な機械には対応していない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619767
+    m_Localized: 特定の機械に設置すると、隣接するモジュールに追加効果を与えたり、与えられたりする専用の回路。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619768
+    m_Localized: ノード（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619769
+    m_Localized: ノード（中）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619774
+    m_Localized: ポケット#1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619775
+    m_Localized: ポケット#2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813840
+    m_Localized: PILK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813841
+    m_Localized: 加工乳のパック。牛乳というよりは、甘くて炭酸の入った「ミルクベース」の飲み物。意外とおいしい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813842
+    m_Localized: PUICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813843
+    m_Localized: 加工ジュースのパック。天然の糖分はすべて取り除かれ、精製糖に置き換わっている。果汁0.1%！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813844
+    m_Localized: PEAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813845
+    m_Localized: Davre社製の、しょっぱい加工肉の缶。安価で手に入れやすく、腹持ちもいい。何の肉で出来ているか気にならなければ最高だ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813846
+    m_Localized: ホットソース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813847
+    m_Localized: 天然水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813848
+    m_Localized: 産業活動の影響を一切受けていない遠くの惑星で採れた湧き水を使用している、密封されたペットボトル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813849
+    m_Localized: とても高価なため、下層世界の住民は喉が渇いて死にそうになっても飲もうとしない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813850
+    m_Localized: レッド・インプのビール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813851
+    m_Localized: 下層世界で醸造されている、人気のビール。毎回味が少し違うが、安さは断トツ。アルコール度数3.5%。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813852
+    m_Localized: ビールの空き瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813853
+    m_Localized: 1滴も残っていない。廃棄物削減のため、醸造所では通常、瓶の「買い戻し」プログラムが実施されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813854
+    m_Localized: 水（標準）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813855
+    m_Localized: 水（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813856
+    m_Localized: 水（極小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813876
+    m_Localized: 水（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813877
+    m_Localized: 水差し
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813878
+    m_Localized: ソーダ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813879
+    m_Localized: 甘い炭酸飲料。ステーションの一部では、清潔な水よりも安い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813880
+    m_Localized: エナジードリンク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813881
+    m_Localized: NUDKA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813882
+    m_Localized: ニュートリフルーツから作られた、強い酒。元々は強力なペンキ除去剤として開発された。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813883
+    m_Localized: ギャラクシーブレンド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813884
+    m_Localized: pastel社のニュートリフルーツを原料とし、ビタミンやミネラルを追加して栄養価が高められたピューレ。非常に健康的だが、下層世界ではほとんど人気がない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813885
+    m_Localized: CATチョコレートバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813886
+    m_Localized: チョコレートでコーティングされたウエハース。シェアできるようになっているが、1人で食べる人が多い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813887
+    m_Localized: LI-EATスナックバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813888
+    m_Localized: 高タンパク質のスナックバー。チョコレート味。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813889
+    m_Localized: 生肉（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813890
+    m_Localized: 生肉の小さな欠片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813891
+    m_Localized: 下層世界で新鮮な肉を見かけることは珍しい。何の肉かなど、誰も気にしない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813892
+    m_Localized: 生肉（標準）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813893
+    m_Localized: 生肉の欠片。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813894
+    m_Localized: 下層世界で新鮮な肉を見かけることは珍しい。何の肉かなど、誰も気にしない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813895
+    m_Localized: 動物の脂肪
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813896
+    m_Localized: 0.5キロのスエット。価格が安く、獣脂にしたりスープに風味を加えたりするためによく使われている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813897
+    m_Localized: 臓物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813898
+    m_Localized: 臓器、内臓、軟骨、切り落とし肉。食用可能で栄養も豊富だが、大半の料理では好ましくない食べ物とされている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813899
+    m_Localized: インスタントラーメン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813900
+    m_Localized: 使い捨てのファイアレスヒーター付き。水を注ぐだけで調理可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813901
+    m_Localized: 人工的なビーフシチュー味。グルタミン酸ナトリウム、白コショウ、花椒で味付けされており、ピリッとした辛味がある。下層世界の定番。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813902
+    m_Localized: 密封された配給水（標準）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813903
+    m_Localized: 750mlのベースウォーターが入る容器に注ぐことができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813904
+    m_Localized: 密封された配給水（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813905
+    m_Localized: 375mlのベースウォーターが入る容器に注ぐことができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772018733056
+    m_Localized: 警報システム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510272
+    m_Localized: 前の店主が設置した防犯カメラと連携する、各種センサーが搭載されたスマートセキュリティ警報システム。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510273
+    m_Localized: 夜間に盗難に遭う可能性が大幅に下がる。動作には専用のエネルギー源が必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510274
+    m_Localized: 警報の取扱説明書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510275
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：回避率アップ\n品質：効果なし"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510280
+    m_Localized: 暗号デシーケンサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510281
+    m_Localized: 空白のカードキーにさまざまな権限を与えられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510282
+    m_Localized: デシーケンサーチップとアクセスカードキーが必要。エネルギーが必要。一晩かかる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510283
+    m_Localized: 改造されたカードキー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510284
+    m_Localized: 使い方：デシーケンサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510285
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：速度\n品質：効果なし\nデシーケンサーチップとアクセスカードキーを挿入する必要あり。エネルギーが必要。一晩かかる。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510290
+    m_Localized: 溶鉱炉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510291
+    m_Localized: 金属くずか鉱石2個から、インゴットを作る。エネルギーが必要。一晩かかる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510292
+    m_Localized: 使い方：溶鉱炉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510293
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：効果なし\n品質：最大純度"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510294
+    m_Localized: 鉱石または金属くずを2個投入すると、インゴット1個が作られます。インゴットの品質は使用した素材の純度で決まり、鉱石を使用した場合は、金属くずの場合よりも純度が高くなります。処理には一晩を要します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510297
+    m_Localized: ボトルプリンター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510298
+    m_Localized: 水（小）を作ることのできる、プログラミング済みの3Dプリンター。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510299
+    m_Localized: カセットプレイヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510300
+    m_Localized: リチャージャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510301
+    m_Localized: バッテリーを充電するための装置。電力サービスを利用している場合、バッテリーを時間をかけて充電する。一晩かかる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510302
+    m_Localized: ミラージュプロジェクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510303
+    m_Localized: 気分の上がるホログラム映像を投影する、高性能な装置。客が前より店に魅力を感じるようになる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510304
+    m_Localized: 充電には一晩かかるが、翌日には店の魅力度が上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510305
+    m_Localized: 使い方：プロジェクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510306
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能（比率0.25）：魅力\n品質（比率0.5）：魅力"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510317
+    m_Localized: モイスチャーファーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510318
+    m_Localized: ステーションの湿った空気から、水を抽出するために作られた機械。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510319
+    m_Localized: 容器があれば、水を作り出せる。エネルギーが必要。一晩かかる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510320
+    m_Localized: 使い方：モイスチャーファーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510321
+    m_Localized: 大気中から水分を採取して水を作り出し、用意された容器にその水を入れる機械です。十分なエネルギーを供給できるエネルギー源が必要となり、処理には一晩を要します。モジュールを使って改良可能です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510322
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：生成量\n品質：純度"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510323
+    m_Localized: 浄水器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510324
+    m_Localized: 逆浸透を利用して、浄水する機械。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510325
+    m_Localized: 挿入された水入れの中身を浄化する。一晩かかる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510326
+    m_Localized: 浄水器の説明書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510327
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：一晩あたりの除去量\n品質（比率0.5）：最大純度"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510328
+    m_Localized: 用意された容器内の水を浄化する機械です。汚染の激しい水には、特に効果的です。十分なエネルギーを供給できるエネルギー源が必要となり、処理には一晩を要します。モジュールを使って改良可能です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747959889920
+    m_Localized: 水質試験紙（使用済み）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1241747976667136
+    m_Localized: 使用済みの水質試験紙。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594865029120
+    m_Localized: ニュートリフルーツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806336
+    m_Localized: 害虫や病気に強い塊茎。pastel社が開発し、かなり手が加えられている。安価で大量に生産され、育てやすいうえに栄養も豊富。だが意図的に種が入っていない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806339
+    m_Localized: ニュートリフルーツの種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806340
+    m_Localized: 遺伝子組み換えされて、耐寒性と成長の早さが高められた塊茎。成長には養分と水が必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806341
+    m_Localized: ワタの種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806342
+    m_Localized: 栽培が難しい種。これを植えると、さらにワタの繊維を育てられる。育てたあとは耐久性のある生地を作ることができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6113839712878592
+    m_Localized: ネジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073686130688
+    m_Localized: 加工チーズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490816
+    m_Localized: チーズに穴を開けると、古きよき見た目になるうえに、製造コストも削減できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490817
+    m_Localized: 清掃ロボット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490818
+    m_Localized: 夜間に周囲から、動物のフンを自動的に回収する。手動で起動して、すぐに掃除することもできる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490819
+    m_Localized: 動物のフン（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490820
+    m_Localized: 動物のフン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490821
+    m_Localized: ネズミ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490822
+    m_Localized: 動物の成長速度が少し上昇するが、その代わりに空腹度が増加し、免疫力が低下する血清。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10266073715490823
+    m_Localized: 動物の免疫力が少し上昇するが、その代わりに空腹度が増加する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196139339776
+    m_Localized: 青のラベラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10511196160311296
+    m_Localized: アイテムの名前を変えられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343674576896
+    m_Localized: 家畜用エサやり器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13006343699742720
+    m_Localized: 家畜用にエサを調合して、蓄積カロリーに変換できる機械。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230943
+    m_Localized: 水耕栄養タブレット入れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230944
+    m_Localized: 水耕栄養タブレットが入ったボトル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230945
+    m_Localized: 飲用禁止。水耕栽培専用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425379
+    m_Localized: ネストファイア拳銃
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425385
+    m_Localized: センチネルMk. III
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425386
+    m_Localized: 10mm口径の、信頼性の高い拳銃。主に警察が所持している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425404
+    m_Localized: 10mm弾薬（AP）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425405
+    m_Localized: 高速で飛ぶ10mm装弾筒付徹甲弾（ADPS）の弾薬少量。防弾チョッキを貫通できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425418
+    m_Localized: ファンタ錠剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425419
+    m_Localized: 極めて中毒性のある、危険で安価な合成オピオイド。激しい痛みの治療に使われる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425420
+    m_Localized: Oxymoreの50倍以上の強さ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619540
+    m_Localized: 警察の記録
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619541
+    m_Localized: 保安部が保管している、警察の記録ファイルの写し。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619542
+    m_Localized: ツテが最新の状態に保ってくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619569
+    m_Localized: 共和国のロゴチェッカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619570
+    m_Localized: 公式の共和国ロゴを参照できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806352
+    m_Localized: フィラーウィードの種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806353
+    m_Localized: 初心者でも扱いやすく、成長が早い種。栄養や水質による影響を受けない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070918529024
+    m_Localized: AIスキャナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500544
+    m_Localized: 電力を大量に消費する、電磁場検出器。AIチップ特有のサインを捉えられるよう、微調整されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500545
+    m_Localized: 不審な人物がAI人間かどうか、100%の精度で確かめられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500546
+    m_Localized: 外科器具セット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16446070939500547
+    m_Localized: 高品質な外科器具のセット。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726051295232
+    m_Localized: 遺伝子スキャナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21347726118404096
+    m_Localized: オンにすると、動物の完全な遺伝子構成が表示される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662026989568
+    m_Localized: ベースウォーターの配給。検査され、保証済み。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662052155392
+    m_Localized: ベースウォーターの配給。検査され、保証済み。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960660115456
+    m_Localized: 閃光手榴弾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086976
+    m_Localized: 発煙弾
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086977
+    m_Localized: ネオンサイン（医療）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086978
+    m_Localized: ネオンサイン（食品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086979
+    m_Localized: ネオンサイン（日用品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086980
+    m_Localized: ネオンサイン（贅沢品）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086981
+    m_Localized: ネオンサイン（素材）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27515960681086982
+    m_Localized: ショーケースに設置すれば、「{0}」を売りたい客を引き寄せられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308168081408
+    m_Localized: ウエストポーチ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830144
+    m_Localized: ネズミ捕り
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28624308205830145
+    m_Localized: 中にチーズを入れておけば、捕まえられるかもしれない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149553991680
+    m_Localized: サイバネティックハンドの適正価格を調べるためのガイド。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351808
+    m_Localized: サイバネティックハンド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36943149583351809
+    m_Localized: 生体工学の奇跡。置き換える手の形状と機能を忠実に再現するようにできている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174904340480
+    m_Localized: 酵母
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506304
+    m_Localized: パンの発酵から醸造まで、数え切れないほどの用途がある万能なドライイースト。ワイン醸造では発酵を促進し、醸造物の品質を向上させる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506305
+    m_Localized: 超酵母
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506306
+    m_Localized: 数多くの目的で重宝されている、非常に強力で万能なドライイースト。ワイン醸造では、発酵を急激に早める。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506307
+    m_Localized: 酵母バイオリアクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506308
+    m_Localized: 無限に酵母を生み出せる装置。発酵が始まると、消費されずにインベントリに戻る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506309
+    m_Localized: 独自の酵母を継続的に再生させる、自立型の培養槽。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506310
+    m_Localized: ワインの瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506311
+    m_Localized: ワインの発酵に使われる、高級なガラス瓶。発酵栓が組み込まれている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506312
+    m_Localized: ブルームベリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506313
+    m_Localized: 水耕栽培用に改良された、甘いベリー。それほど腹持ちはよくないが、下層世界で手に入る数少ない果物の一つ。ワインの醸造に適している。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692160
+    m_Localized: 熟成装置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692161
+    m_Localized: 中にある、ワインやチーズのような特定のアイテムの熟成を早める。1サイクルごとに1日分早くなる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692162
+    m_Localized: 熟成装置の説明書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692163
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：電力消費\n品質：品質125につき、熟成日数+1\n電力と完成したワインの瓶があれば、一晩中動作する。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692164
+    m_Localized: ブルームベリーワイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36961915897692165
+    m_Localized: 上層でも下層でも人気のアルコール飲料。ただのブルームベリーから上質なヴィンテージワインを生み出すのは、一種の芸術とされている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36981174929506314
+    m_Localized: ブルームベリーワイン発酵ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253248
+    m_Localized: グルームベリーワイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253249
+    m_Localized: 自家製のブルームベリーワインのように見えるが、安物で軽度の発がん性がある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253250
+    m_Localized: 合成酵母
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38118528243253251
+    m_Localized: 酵母の代わりに使って、軽度の発がん性があるワインを安く造れる違法物質。必要なのは水のみ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318361403392
+    m_Localized: 高度なろ過器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763520
+    m_Localized: 毎日、開始時に耐久性が50回復する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763521
+    m_Localized: 上層世界で使われるピッチャー専用の、高級ろ過器。徐々に自動洗浄される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763522
+    m_Localized: HydraTechマイクロ浄水器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763523
+    m_Localized: 水入れに使用すると、中身に関係なく、ベースウォーターの純度まで浄水される。100mlごとに耐久性が1消費される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43892318390763524
+    m_Localized: 上層世界でよく見かける、使い捨ての高度な浄水器。廃棄されたものはゴミ捨て場に流れ着くが、その状態でも数回は使える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651641692160
+    m_Localized: 黒いランプ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48314651650080768
+    m_Localized: ショーケースに設置すると、盗品を扱っている店だということが泥棒に伝わる。闇市場からの評判によって、泥棒が反応する確率が変わる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425341
+    m_Localized: インゴット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619556
+    m_Localized: リブイッチ鑑定ガイド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619557
+    m_Localized: リブイッチの正確な価格を判断するための、便利なガイド。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619655
+    m_Localized: 包装されたリブサンドイッチ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619656
+    m_Localized: 常温保存可能な、限定版のサンドイッチ。調整されて小型のあばら骨の形をした骨なしポークパティが入っており、熱狂的なファンがついている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158981042257920
+    m_Localized: 漁り屋の日記
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159205794037760
+    m_Localized: '   廃墟地区の奥まで来た。ステーションの他の場所は漁り尽くされていたけれど……この場所は違う。噂には聞いていたが、今のところ戦利品は上々だ。ただ、空気には不気味な重苦しさがある。まるで目に見えない何かが、すぐそこに潜んでいるかのようだ。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5225789046784
+    m_Localized: ETERNALのエイジング美容液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5296811196416
+    m_Localized: 洗練されたガラス瓶に、キラキラした美容液が入っている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5267547537408
+    m_Localized: 大人気の高級美容液。倫理的に調達された幹細胞を用いて、肌を若返らせ、修復してくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230940
+    m_Localized: 水耕栄養タブレット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230941
+    m_Localized: 植物の成長に不可欠なミネラルが含まれている。水入れに追加できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230942
+    m_Localized: 飲用禁止。水耕栽培専用。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582824230952
+    m_Localized: ろ過ハイドロリード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425216
+    m_Localized: 取り付けることで、特定の汚染物質を除去できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425217
+    m_Localized: ハイドロリードをもとにした、バイオテクノロジー製品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425218
+    m_Localized: 宝くじの券
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425219
+    m_Localized: 当選番号は毎週土曜日の朝に発表される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425220
+    m_Localized: 大当たりが出れば、上層世界で一生快適に暮らすことができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425221
+    m_Localized: 古い宝くじの券
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425222
+    m_Localized: 価値がなくなった、下層世界の宝くじの券。番号は当選しておらず、希望も消え去った。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425223
+    m_Localized: 大当たりが出れば、上層世界で一生快適に暮らすことができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425239
+    m_Localized: 携帯用X線スキャナー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425240
+    m_Localized: 密閉された容器の中身を確認できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425247
+    m_Localized: 遠征のサイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425248
+    m_Localized: ショーケースに設置すれば、雇ってほしい人や、すでに雇っていて遠征の準備が整っている人を引き寄せられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425263
+    m_Localized: 大きな軍用カバン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425264
+    m_Localized: 軍用に設計された、丈夫なカバン。生地の耐久性が非常に高く、戦闘時に追加の防具として前に背負う兵士もいる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425281
+    m_Localized: レッド・インプのビールケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425282
+    m_Localized: 高耐久の内部バネ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425283
+    m_Localized: 高度な内部バネのセット。負荷がかかった状態での動作性能と破損耐性が向上する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425284
+    m_Localized: 調整済みのトリガー機構
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425285
+    m_Localized: トリガーの操作感が向上した、トリガー機構。引きの重さと射撃前の動きが軽減される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425286
+    m_Localized: マッチグレードの銃身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425287
+    m_Localized: 精度が向上する、高精度の銃身。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425288
+    m_Localized: ピストルのオートシア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425289
+    m_Localized: 拳銃専用の改造パーツ。取り付けると内部機構が変わり、トリガーを引き続けている間、銃を連射していられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425290
+    m_Localized: 弾薬表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425291
+    m_Localized: 現在の弾薬数と弾薬タイプが表示される、スマートディスプレイ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425292
+    m_Localized: 触覚記憶グリップジェル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425293
+    m_Localized: グリップ面の裏にある生体反応ジェル。使用者の手に合わせてフィットするようになっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425294
+    m_Localized: レッドドットサイト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425295
+    m_Localized: 標的を早く捕捉できるようになる、従来型のコンパクトなレッドドットサイト。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425296
+    m_Localized: 即席のレッドドットサイト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425297
+    m_Localized: 赤色のLEDとプラスチックレンズを備えた、3Dプリント製のRDS。信頼性は高くないが、意外と使える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425298
+    m_Localized: サプレッサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425299
+    m_Localized: 簡素な多口径のサプレッサー。発砲の音を軽減し、気付かれにくくする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425300
+    m_Localized: ナイトサプレッサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425301
+    m_Localized: 洗練された多口径のサプレッサー。発砲の音を軽減し、気付かれにくくする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425302
+    m_Localized: 即席のサプレッサー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425303
+    m_Localized: ペットボトルと金属くずで作られた、即席のサプレッサー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425304
+    m_Localized: 取り付け式の延長銃身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425305
+    m_Localized: 弾丸のスピードと精度が向上する、多口径の延長銃身。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425306
+    m_Localized: コンペンセイター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425307
+    m_Localized: 排出されるガスの流れを変え、発射時に銃口が跳ね上がるのを軽減する銃口装置。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425308
+    m_Localized: レーザーサイト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425309
+    m_Localized: 標的に光を照射する、簡素なレーザーサイト。取り回しが向上する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425310
+    m_Localized: 標的捕捉装置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425311
+    m_Localized: 高性能の戦略的な装置。さまざまな状況に応じて、標的に光を照射できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425312
+    m_Localized: おもちゃのレーザーポインター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425313
+    m_Localized: 低出力のレーザーポインター。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425314
+    m_Localized: 二脚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425315
+    m_Localized: 銃器に取り付けられる二脚。安定性が向上する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425316
+    m_Localized: アンダーバレル25mmグレネードランチャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425317
+    m_Localized: コンパクトな25mmのアンダーバレルグレネードランチャー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425318
+    m_Localized: フォアグリップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425319
+    m_Localized: 10mm弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425320
+    m_Localized: コンパクトな10mmの弾倉。9発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425321
+    m_Localized: 大容量10mm弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425322
+    m_Localized: 大容量の10mmの弾倉。14発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425323
+    m_Localized: 拡張型10mm弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425324
+    m_Localized: 拡張された10mmの弾倉。19発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425325
+    m_Localized: 10mmSMG弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425326
+    m_Localized: ピースメーカー・ヘビーSMGのために作られた10mmの弾倉。20発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425327
+    m_Localized: 大容量10mmSMG弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425328
+    m_Localized: ピースメーカー・ヘビーSMGのために作られた10mmの弾倉。35発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425329
+    m_Localized: 箱型10mmSMG弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425330
+    m_Localized: ピースメーカー・ヘビーSMGのために作られた10mmの弾倉。150発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425331
+    m_Localized: .22弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425332
+    m_Localized: 3Dプリント製の、安価でコンパクトな.22弾倉。12発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425333
+    m_Localized: 大容量.22弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425334
+    m_Localized: 3Dプリント製の、安価でコンパクトな.22弾倉。24発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425335
+    m_Localized: 拡張型.22弾倉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425336
+    m_Localized: 3Dプリント製の、安価でコンパクトな.22弾倉。48発装填可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425337
+    m_Localized: ガーディアン銃床
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425338
+    m_Localized: Meridian製の銃器に対応した、頑丈な銃床。反動を抑えやすくするよう設計されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425339
+    m_Localized: バックラー銃床
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425340
+    m_Localized: Meridian製の銃器に対応した、短い銃床。取り回しを損なうことなく、反動を抑えやすくするよう設計されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425357
+    m_Localized: 希少な鉱石
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425366
+    m_Localized: 銃の部品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425367
+    m_Localized: ドライバーで銃器を分解することで入手できる。中古の銃器を修復するのに使える。繰り返し試行することで、修復の成功率が上がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425368
+    m_Localized: ネジやバネのような小さい部品など、銃の内部パーツが集まっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425376
+    m_Localized: リベレーターの3Dプリントピストル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425377
+    m_Localized: プラスチックでできた、低コストの3Dプリント製ピストル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425378
+    m_Localized: これより安いものはない。数発撃つくらいならできる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425380
+    m_Localized: .22 SR口径の、小型のオープンソース製ピストル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425381
+    m_Localized: 下層世界では自宅を守るためによく使われており、通常、警察からは許容されている。おそらく下層世界の銃工が作ったもの。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425382
+    m_Localized: アイアンクラフト10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425383
+    m_Localized: 10mm口径の、重量のあるオープンソース製ピストル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425384
+    m_Localized: 防弾チョッキを貫通できる。下層世界の革命家から人気。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425387
+    m_Localized: ピースメーカー・ヘビーSMG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425388
+    m_Localized: 10mm口径の、重量のあるサブマシンガン。リスクの高い作戦において、警察が慎重に使用する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425389
+    m_Localized: ランパート・ダブルアクションショットガン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425390
+    m_Localized: 法執行機関のために作られた、頼りになって使い勝手のいいショットガン。ダブルアクション方式が採用されているため、幅広い弾薬タイプで確かな性能を発揮する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425391
+    m_Localized: パルスガードスタンガン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425392
+    m_Localized: 警察公認の、よくできた自衛用武器。価格が高いため、主に上層世界で使用されている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425393
+    m_Localized: ランスウェルリボルバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425394
+    m_Localized: 5インチ銃身の、汎用性が高いランスウェルリボルバー。.45 AFP口径。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425395
+    m_Localized: 簡素ながらも信頼性の高い武器。過酷な状況にも耐えられるようにできているが、メンテナンスは最低限で済む。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425396
+    m_Localized: .22 SR弾薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425397
+    m_Localized: 少量の.22 SR弾薬。小型ではあるが、至近距離では致命的になる。非常に安価なのが最大の強み。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425398
+    m_Localized: .22 SR弾薬（AP）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425399
+    m_Localized: .22 SR徹甲弾の弾薬少量。防弾チョッキを貫通できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425400
+    m_Localized: .22 SR弾薬（非致死性）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425401
+    m_Localized: 少量の.22 SR非致死性弾薬。先端がゴム製で、相手を無力化する設計になっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425402
+    m_Localized: 10mm弾薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425403
+    m_Localized: 少量の10mm弾薬。威力が高く、優れている。大型ピストルに使われている、標準的な弾薬。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425406
+    m_Localized: 10mm弾薬（非致死性）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425407
+    m_Localized: 少量の10mm非致死性弾薬。先端がゴム製で、相手を無力化する設計になっている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425412
+    m_Localized: ファジマイシン錠剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425413
+    m_Localized: 抗生物質耐性に対抗するために、バクテリオファージと菌類を使って製造された強力な抗生物質。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425414
+    m_Localized: 未認可のファジマイシン錠剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425415
+    m_Localized: 強力な抗生物質。Carmicheal社の特許を侵害し、地下実験室で違法に製造されたもの。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425416
+    m_Localized: ジアン化物錠剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425417
+    m_Localized: 即効性があり、致命的な化合物。取り扱い注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425458
+    m_Localized: 組成スペクトロメーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582828425459
+    m_Localized: 物質の化学組成を分析するための装置。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619553
+    m_Localized: 下層世界の宝くじ情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619564
+    m_Localized: 水耕栽培マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619565
+    m_Localized: 水耕栽培に関する情報がそろっている、便利なマニュアル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619566
+    m_Localized: 化学マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619567
+    m_Localized: 化学の基礎が掲載された便利なマニュアル。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619573
+    m_Localized: 権利書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619574
+    m_Localized: 店の権利書。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619622
+    m_Localized: 第1種武器の許可証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619623
+    m_Localized: ショーケースに設置すると、銃を買いたい客が来る確率が高くなる。この許可証は、警察からの評判が0未満になると無効にされる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619624
+    m_Localized: 刑務所長が発行している許可証。所持者は、低級の禁制品とされる銃器と弾薬を合法的に所持・取引することができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619625
+    m_Localized: 第2種武器の許可証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619626
+    m_Localized: ショーケースに設置すると、銃を買いたい客が来る確率が高くなる。この許可証は、警察からの評判が30未満になると無効にされる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619627
+    m_Localized: 刑務所長が発行している許可証。所持者は、中級の禁制品とされる武器を合法的に所持・取引することができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619628
+    m_Localized: 第3種武器の許可証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619629
+    m_Localized: ショーケースに設置すると、銃を買いたい客が来る確率が高くなる。この許可証は、警察からの評判が60未満になると無効にされる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619630
+    m_Localized: 刑務所長が発行している許可証。所持者は、上級の禁制品とされる武器を合法的に所持・取引することができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619634
+    m_Localized: MBS神経ガス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619635
+    m_Localized: 取り扱い注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619636
+    m_Localized: 神経系を破壊するように設計された、非常に有毒な化学兵器。呼吸不全、痙攣、身体機能の喪失、意識喪失といった症状が現れるほか、死に至る可能性もある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619641
+    m_Localized: ジュニア鑑定士として認定します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619642
+    m_Localized: ショーケースに設置すれば、鑑定サービスを求めている客を引き寄せられる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619643
+    m_Localized: 付箋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619663
+    m_Localized: 調達伝票
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619664
+    m_Localized: 伝票
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619666
+    m_Localized: 遠征記録
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619669
+    m_Localized: 即席の保管ケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619670
+    m_Localized: アイテムを保管するための、即席で作った保管ケース。他の容器や機械は保管できない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619675
+    m_Localized: 銃工の保管ケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619676
+    m_Localized: 銃器と改造パーツを保管するための、専用の保管ケース。他の容器や機械は保管できない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619677
+    m_Localized: 化学者の保管ケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619678
+    m_Localized: 化学用品と備品を保管するための、専用の保管ケース。他の容器や機械は保管できない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619687
+    m_Localized: 密輸者のケース（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619688
+    m_Localized: 検査時に中身がバレないように作られた、偽装保管ケース。これはミニバージョン。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619721
+    m_Localized: 3Dプリンターの設計図が記録されたチップ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619722
+    m_Localized: .22ピストルの3Dプリンターチップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619723
+    m_Localized: 3Dプリンターチップ（即席のレッドドットサイト x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619724
+    m_Localized: 3Dプリンターチップ（おもちゃのレーザーポインター x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619725
+    m_Localized: 3Dプリンターチップ（少量の水 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619726
+    m_Localized: 3Dプリンターチップ（レッドドットサイト x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619727
+    m_Localized: 3Dプリンターチップ（レーザーサイト x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619728
+    m_Localized: 3Dプリンターチップ（サイレンサー x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619729
+    m_Localized: 3Dプリンターチップ（.22弾倉 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619730
+    m_Localized: 3Dプリンターチップ（拡張型.22弾倉 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619731
+    m_Localized: 3Dプリンターチップ（大容量.22弾倉 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619732
+    m_Localized: 3Dプリンターチップ（10mm弾倉 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619733
+    m_Localized: 3Dプリンターチップ（拡張型10mm弾倉 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619734
+    m_Localized: 3Dプリンターチップ（大容量10mm弾倉 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619735
+    m_Localized: 水耕モジュール（密輸）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619736
+    m_Localized: 成長中の種の「禁制品」ステータスを解除できるモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619737
+    m_Localized: 水耕モジュール（ろ過ハイドロリード）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619739
+    m_Localized: 水耕モジュール（フィラーウィードの生産）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619740
+    m_Localized: 種を失う代わりに、フィラーウィードの収穫量を増やすモジュール。このモジュールの効果は、他の植物には影響しない。効果は重複不可。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619741
+    m_Localized: 水耕モジュール（ナイトメアキノコへの変換）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619742
+    m_Localized: ドリームキノコの栽培時、その精神活性作用を集中させ、有毒な変種とされるナイトメアキノコに変えるモジュール。このモジュールの効果は、他の植物には影響しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619743
+    m_Localized: 水耕モジュール（ドリームキノコの中和）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619744
+    m_Localized: ドリームキノコの栽培時、その精神活性作用を完全に中和し、ミールキノコに変えるモジュール。このモジュールの効果は重複可能だが、他の植物には影響しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619745
+    m_Localized: 水耕モジュール（ニュートリフルーツ）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619746
+    m_Localized: ニュートリフルーツの栽培時、収穫量を増やすpastel社のモジュール。このモジュールの効果は、他の植物には影響しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619747
+    m_Localized: 水耕モジュール（コットン自動織り）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619748
+    m_Localized: ワタの繊維の栽培時、自動でコットン生地を作るモジュール。このモジュールの効果は、他の植物には影響しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619749
+    m_Localized: エバポレーターモジュール（溶剤回収）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619750
+    m_Localized: プリンターモジュール（金属）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619751
+    m_Localized: プリンターで金属のプリンターチップが使えるようになるモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619765
+    m_Localized: 化学備品モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619766
+    m_Localized: ブレンダー、加熱プレート、化学フィニッシャーを改良できる、特殊なモジュール。一度取り付けると、モジュール取り出し機で取り除かなければならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619770
+    m_Localized: 遠征隊の補給箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619771
+    m_Localized: この箱に物資や備品を入れておくと、遠征中に使用してもらえる。使われなかったものは手元に戻る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619772
+    m_Localized: メイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582832619773
+    m_Localized: サブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813824
+    m_Localized: カバン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813825
+    m_Localized: コットン裏地
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813826
+    m_Localized: コットン生地を集めて作られた布。着用者をそこそこ守ってくれる。重ね着すれば、小さな武器から守ることもできる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813827
+    m_Localized: 危険な環境で働く者たちのために設計された。漁り屋にとっても必須の品。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813828
+    m_Localized: 成長中の種の「禁制品」ステータスを解除する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813829
+    m_Localized: 溶剤しか回収しない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813830
+    m_Localized: 金属プリント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813831
+    m_Localized: 1晩につき評判+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813832
+    m_Localized: "入力量が増加\n1晩あたりの出力量が増加\n純度が減少"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813833
+    m_Localized: ガラクタ{0}個を金属くず{1}個に変換する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813834
+    m_Localized: ろ過ハイドロリードの収穫量+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813835
+    m_Localized: "フィラーウィードから種が得られなくなる\nフィラーウィードの収穫量+{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813836
+    m_Localized: 栽培したドリームキノコがナイトメアキノコになる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813837
+    m_Localized: "ドリームキノコの「禁制品」ステータスを解除する\nタイプを食品に設定する\nドリームキノコの収穫量+{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813838
+    m_Localized: ニュートリフルーツの収穫量+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813839
+    m_Localized: ワタの繊維の代わりにコットン生地を生産する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813857
+    m_Localized: 酸性溶液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813858
+    m_Localized: 腐食性あり。取り扱い注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813859
+    m_Localized: タンパク質と安定剤を凝集させ、ろ過しやすくできる。また、塩基を中和する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813860
+    m_Localized: 塩基性溶液
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813861
+    m_Localized: 苛性あり。取り扱い注意。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813862
+    m_Localized: タンパク質と安定剤を凝集させ、ろ過しやすくできる。また、酸を中和する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813863
+    m_Localized: N-メチロール塩基
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813864
+    m_Localized: 多くの合法的な化学品製造に使われる、汎用性の高い化学塩基。ファンタの一般的な前駆体でもある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813865
+    m_Localized: 還元剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813866
+    m_Localized: 他の物質に電子を供与し、その物質の化学状態を変化させる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813867
+    m_Localized: 特定の化学反応に不可欠。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813868
+    m_Localized: リポボンド剤
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813869
+    m_Localized: 油分と脂肪分を凝集させ、ろ過しやすくする。その後、この薬剤は蒸発させて除去できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813870
+    m_Localized: 1mlスポイト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813871
+    m_Localized: 少量の液体を分配するための高精度なスポイト。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813872
+    m_Localized: 5mlスポイト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813873
+    m_Localized: 25mlメスシリンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813874
+    m_Localized: 50mlメスシリンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140582836813875
+    m_Localized: 100mlメスシリンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510276
+    m_Localized: ブレンダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510277
+    m_Localized: 壊れやすそうなブレンダー。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510278
+    m_Localized: 化学フィニッシャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510279
+    m_Localized: 化学製品を錠剤や小瓶、その他の容器に入れる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510286
+    m_Localized: エバポレーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510287
+    m_Localized: 低熱と乾燥した空気を用いて、溶液中の液体を蒸発させる。夜通し作動する、動作の遅い機械。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510288
+    m_Localized: エバポレーターの説明書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510289
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：一晩あたりの蒸発量\n品質：回収した蒸気の量\n電力と水入れがあれば、一晩中動作する。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510295
+    m_Localized: 加熱プレート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510296
+    m_Localized: 粗末な見た目で性能も精度も低い加熱プレート。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510307
+    m_Localized: 3Dプリンター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510308
+    m_Localized: プラスチックを使ってさまざまなアイテムをプリントできる機械。一晩中動作する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510309
+    m_Localized: 3Dプリンターの説明書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510310
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能：プリンターの稼働速度\n品質（比率0.25）：対象アイテムのプリント品質"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510311
+    m_Localized: エネルギー源、プリンターチップ、素材をセットしてください。条件が満たされていれば、夜間に自動的に作動します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510312
+    m_Localized: 水耕システム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510313
+    m_Localized: コンパクトな水耕システム。動作には専用のエネルギー源が必要。一晩中動作する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510314
+    m_Localized: 水耕システムの説明書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510315
+    m_Localized: "[モジュールの影響]：\n効率：電力消費\n性能（比率0.5）：成長速度\n品質（比率0.5）：最大収穫率（%）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510316
+    m_Localized: 入手できる中で最も清潔な水が入った水入れ、種、十分なエネルギーがたまったエネルギー源をセットしてください。夜通し作動します。この機械には、性能を上げるためのモジュールをお好みで取り付けられます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510329
+    m_Localized: 自動販売機のコア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510330
+    m_Localized: 自動販売機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510331
+    m_Localized: 夜通し自動的にアイテムを販売する自動販売機。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510332
+    m_Localized: アイテムは価格が+10%高くなり、該当する場合は小売価格で販売されるが、進行中の出来事による影響は受けない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510333
+    m_Localized: 水自動販売機のコア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510334
+    m_Localized: 水自動販売機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510335
+    m_Localized: 夜通し自動的に水を販売する、水自動販売機。販売できるのはベースウォーター、高品質な水、純水のみ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412772035510336
+    m_Localized: アイテムは価格が+10%高くなり、該当する場合は小売価格で販売されるが、進行中の出来事による影響は受けない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806337
+    m_Localized: ワタの繊維
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806338
+    m_Localized: 従来のワタが改良されたもの。耐久性と汎用性が高い生地を作ることができる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806343
+    m_Localized: ドリームキノコの胞子
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806344
+    m_Localized: コーヒー豆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806345
+    m_Localized: 少量のコーヒー豆。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806346
+    m_Localized: ドリームキノコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806347
+    m_Localized: 摂取すると、軽度の多幸感と腹痛を引き起こす。ドリームダストの主要な材料。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806348
+    m_Localized: ナイトメアキノコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806349
+    m_Localized: 一般的なドリームキノコの有毒な変種。致命的な毒に加工することができる。生き延びた者たちの話では、摂取すると恐ろしい幻覚を見るらしい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806350
+    m_Localized: 植物アナライザー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806351
+    m_Localized: 植物の成長を分析するために使用される道具。特定の植物にとって、最適な生育条件を見極められる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806354
+    m_Localized: フィラーウィード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806355
+    m_Localized: 主に下層世界で栽培される、成長が早く黄色がかった葉物作物。栄養価はほぼないが、食料を持たせるためのまぜ物として使われている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806356
+    m_Localized: どろっとした食感で、わずかに苦い後味が残る。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806357
+    m_Localized: ハイドロリードの種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1420594881806358
+    m_Localized: 食用ではない実用的な作物の種。成長中に、周囲の水を浄化する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349696
+    m_Localized: ブルームベリーの種
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43225662056349697
+    m_Localized: 多年生の低木。実をつけた後も枯れない。質のいいブルームベリーを育てるためには、水を清潔に保つことが大切。プランターに手斧を使うと除去できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545411469312
+    m_Localized: ミールキノコ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48627545453412352
+    m_Localized: 精神活性作用のない、中和されたドリームキノコ。合法で、食べても安全。ドリームダストへの加工はできない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380865
+    m_Localized: 動物のフン（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698507987632128
+    m_Localized: 皮剥ぎナイフ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62698508025380864
+    m_Localized: ベテランの飼育者から見て理想的なナイフ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146879209472
+    m_Localized: 道具箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346816
+    m_Localized: アイテムを収納できる。キーボードの1～9で、収納したアイテムを装備可能。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64126146925346817
+    m_Localized: 非常に頑丈。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199391264768
+    m_Localized: 冷蔵庫
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430592
+    m_Localized: 夜通し飲み物を冷蔵保存する。冷蔵した商品は高値で売れる。ワインと開封済みの水は影響を受けない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430593
+    m_Localized: ベイのプレミアムバニラアイスクリーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430594
+    m_Localized: 法律上は「人工香料入り冷凍乳製品」に分類される、おいしいおやつ。なぜか、冷蔵しなくても溶けない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69880199416430595
+    m_Localized: 冷蔵庫で一晩保存しておくと、高値で売れる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298531184640
+    m_Localized: ピッチャー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73574298564739072
+    m_Localized: 内蔵されたろ過器で、中に注いだ水から汚染物質を除去できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279426768896
+    m_Localized: 肉の切れ端
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73610279460323328
+    m_Localized: 肉の切れ端（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289481588736
+    m_Localized: ティラピア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948864
+    m_Localized: ガターティラピア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948865
+    m_Localized: グラフトティラピア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948866
+    m_Localized: ごく普通の養殖魚。成長が早く、ほとんど何でも食べる。繁殖に手間がかからない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948867
+    m_Localized: 下水で育つティラピア。成長が遅く、必要な餌の量の割に肉はあまり取れないが、汚れた水による影響を受けない。水槽で育てている間は、水槽から重金属や化学汚染を除去してくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948868
+    m_Localized: 改良されたティラピア。必要な餌の量の割に肉はあまり取れないうえ、清潔な水を必要とするが、皮は殺菌して包帯として使用でき、未受精卵はそのまま傷の手当てに使用できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948869
+    m_Localized: ティラピアの卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948870
+    m_Localized: ガターティラピアの卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948871
+    m_Localized: グラフトティラピアの卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948872
+    m_Localized: ティラピアの卵（受精済み）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948873
+    m_Localized: ガターティラピアの卵（受精済み）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948874
+    m_Localized: グラフトティラピアの卵（受精済み）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948875
+    m_Localized: ティラピアの稚魚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948876
+    m_Localized: ガターティラピアの稚魚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948877
+    m_Localized: グラフトティラピアの稚魚
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948878
+    m_Localized: グラフトティラピアの卵。皮膚の治癒を促す修復タンパク質が豊富に含まれているため、医療関係者がまとめて買っていく。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948879
+    m_Localized: グラフトティラピアの皮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948880
+    m_Localized: 殺菌処理を施した、グラフトティラピアの皮。出血を止め、傷口を塞いでくれる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948881
+    m_Localized: 魚の切り身（極小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948882
+    m_Localized: 魚の切り身（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948883
+    m_Localized: 魚の切り身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948884
+    m_Localized: 魚の切り身（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948885
+    m_Localized: 魚の内臓
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948886
+    m_Localized: 循環式養殖システム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948887
+    m_Localized: 閉鎖循環式で魚を育てられる。水を清潔に保つには、水槽、電力、ろ過器が必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948888
+    m_Localized: RAS水槽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948889
+    m_Localized: 循環式養殖システムの水槽。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948890
+    m_Localized: ガターフローのペレット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79460289510948891
+    m_Localized: 下水汚泥を圧縮したもの。人間は食べられないが、雑食の魚は安価に栄養を摂れる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421783789568
+    m_Localized: ウナギ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149696
+    m_Localized: デンキウナギ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149697
+    m_Localized: チョウザメ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149698
+    m_Localized: 他の魚よりもずっと貴重で、高級な切り身のために育てられる。飼育下では繁殖しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149699
+    m_Localized: 生きた発電機。若年期以降、毎晩水槽とその付近にあるバッテリーを充電する。充電量は、成長につれて増える。飼育下では繁殖しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149700
+    m_Localized: キャビアのために育てられる。卵は、魚が生きているときに外科器具で取り出すことも、解体時にまとめて取り出すこともできる。飼育下では繁殖しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149701
+    m_Localized: キャビア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149702
+    m_Localized: チョウザメの卵
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149703
+    m_Localized: ウナギの切り身（小）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149704
+    m_Localized: ウナギの切り身
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79886421813149705
+    m_Localized: ステーションのごちそう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888699678720
+    m_Localized: 産業用の魚のエサ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80557888733233152
+    m_Localized: 雑食および草食の魚のために工場で大量生産されたエサ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676618002432
+    m_Localized: DNAデータディスク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362560
+    m_Localized: 空のデータディスク。DNAマニピュレーターを使えば、特性を取り出してコピーできる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362561
+    m_Localized: DNAマニピュレーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362562
+    m_Localized: DNAデータを取り出してDNAデータディスクにコピーし、ディスクの特性を対象にインストールできる。対象が持つ遺伝子の複雑さが高いほど、成功率が下がる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362563
+    m_Localized: DNAマニピュレーターの説明書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362564
+    m_Localized: DNAマニピュレーターの使い方。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362565
+    m_Localized: "インストール：書き込み済みのDNAデータディスクを入力スロットに、対象をターゲットスロットに配置してください。対象に特性が付与されます。対象がすでに持っている特性をインストールすると、ランクが上がります。インストールに成功するたび、ディスクのチャージが1つ消費されます。\nコピー：空のDNAデータディスクを出力スロットに、対象をターゲットスロットに配置してください。遺伝子安定モジュールがインストールされていない限り、ランダムな特性1つがディスクにコピーされ、対象は失われます。対象が所持している特性が記録されたディスクを、空のディスクの代わりに使うことも可能です。その場合、使用回数が追加されます。\n編集を行うたび、対象の遺伝子に熱が蓄積されます。熱と複雑さが溜まると、対象が成熟するまで次の編集のペースが遅くなり、リスクも高くなります。対象の遺伝子情報は、遺伝子スキャナーから読み取ってください。\nモジュール：遺伝子安定モジュールがあれば、取り出し中も対象を維持できます。特性フィルターは取り出すDNAをプラスまたはマイナスに限定し、精密モジュールは書き込み済みのディスクに使用すると、その特性に限定して取り出せます。\n出力：各処理の後、ディスクは出力トレイに排出されます。ディスクをスロット内に保持したい場合は、機械を切り替えてください。\n[モジュールの影響]：\n効率：電力消費\n性能（比率0.5）：処理速度\n品質（比率0.5）：成功率"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362566
+    m_Localized: 遺伝子安定モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362567
+    m_Localized: 対象がDNAを取り出しても耐えられる。対象を破棄せずに特性を削除できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362568
+    m_Localized: 対象がDNAを取り出しても耐える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362569
+    m_Localized: プラス特性フィルターモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362570
+    m_Localized: 取り出すDNAを、プラスの特性に限定する。プラスの特性を持たない対象からは、何も取り出せない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362571
+    m_Localized: プラスの特性のみを取り出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362572
+    m_Localized: マイナス特性フィルターモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362573
+    m_Localized: 取り出すDNAを、マイナスの特性に限定する。マイナスの特性を持たない対象からは、何も取り出せない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362574
+    m_Localized: マイナスの特性のみを取り出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362575
+    m_Localized: 精密取り出しモジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362576
+    m_Localized: 特性が記録されたDNAデータディスクに使うことで、その特性をスキャンできる。DNAマニピュレーターにインストールすると、スキャンされた特性だけを取り出す。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81590676647362577
+    m_Localized: スキャンされた特性のみを取り出す
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82432951786979328
+    m_Localized: モイスチャーファームを複数稼働させると、それぞれの出力が減少する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906176339968
+    m_Localized: 3Dプリンターチップ（カッターナイフ x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700096
+    m_Localized: 3Dプリンターチップ（包丁 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700097
+    m_Localized: 3Dプリンターチップ（手斧 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700098
+    m_Localized: 3Dプリンターチップ（肉切り包丁 x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700099
+    m_Localized: 3Dプリンターチップ（戦闘ナイフ x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700100
+    m_Localized: 3Dプリンターチップ（戦闘マチェット x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700101
+    m_Localized: 近接武器モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700102
+    m_Localized: 近接武器をプリントするたび、武器を1つ追加するモジュール。動作が遅く、電力消費量が多い。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700103
+    m_Localized: 近接武器のプリント出力+{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700104
+    m_Localized: 3Dプリンターチップ（.22ピストル x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700105
+    m_Localized: ネストファイア拳銃の骨格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700106
+    m_Localized: アイアンクラフト10の骨格
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700107
+    m_Localized: 不完全な銃の骨格。部品をつけると完成する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700108
+    m_Localized: ネストファイア拳銃の骨格の3Dプリンターチップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700109
+    m_Localized: アイアンクラフト10の骨格の3Dプリンターチップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700110
+    m_Localized: 銃の部品の3Dプリンターチップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700111
+    m_Localized: コンピューター数値制御モジュール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700112
+    m_Localized: 金属プリンターモジュールと組み合わせて、プリンターで銃の骨格と銃の部品のチップが使えるようになるモジュール。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83474906205700113
+    m_Localized: コンピューター数値制御
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801482706944
+    m_Localized: ガラクタの山
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067072
+    m_Localized: 店から出ずに寝ようとすると、少し時間を費やしてガラクタの片付けをする。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067073
+    m_Localized: 片付けるには道具が必要。使った道具は壊れる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067074
+    m_Localized: 重すぎて自分では動かせない。ガラクタ撤去の夜間サービスを使わなければならない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067075
+    m_Localized: 即席のマイクロ原子炉
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84579801512067076
+    m_Localized: 完全性が{0}を上回る場合、店に電力を供給する。完全性は毎晩低下し、0になると爆発する。金属くずで{1}回復可能。ガラクタでは{2}回復できるが、最大完全性が{3}低下する。一般の電子部品1つにつき、毎晩低下する量を1減らせる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997352247296
+    m_Localized: 鑑定委員会の認定証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607424
+    m_Localized: 鑑定委員会におけるランクを認定します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607425
+    m_Localized: 鑑定委員会のシニア認定証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85667997381607426
+    m_Localized: 鑑定委員会のマスター認定証
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760602595328
+    m_Localized: A Bao A Qu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344064
+    m_Localized: The Wailing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344065
+    m_Localized: Long Star River
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344066
+    m_Localized: Deluge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344067
+    m_Localized: Spellsinger Radio Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344068
+    m_Localized: Golden Lotus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85939760640344069
+    m_Localized: Junkyard Jockey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687331373056
+    m_Localized: ネオンサイン（銃器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87029687343955968
+    m_Localized: ネオンサイン（重火器）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274678018048
+    m_Localized: 電流コンバーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87133274715766784
+    m_Localized: 下層世界の電力網から直接電気を引いて、バッテリーの代わりにどんな機械にも給電する。電気を受け取るには、夜間の「電流コンバーター」サービス料を払う必要がある。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056494051328
+    m_Localized: リー・ベイウェンのNomore製法
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411456
+    m_Localized: 起動済みのプラスチック爆発物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411457
+    m_Localized: ルーが仕掛けたもの。タイマーによると、午前0時に爆発するらしい。解除しておいたほうがいい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411458
+    m_Localized: 偽のプラスチック爆発物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411459
+    m_Localized: ルーが仕掛けた爆弾。だが、中に爆薬は入っていないようだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411460
+    m_Localized: 共和国の古い命令書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411461
+    m_Localized: 黄ばんで、もろくなった紙。何度も折ったり広げたりした跡がある。ルーに宛てた命令書で、日付は何年も前のものだ。上部には、色あせた共和国の印章がまだ見える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411462
+    m_Localized: "共和国統合特殊作戦司令部・優先命令\n宛先：緊急対応チーム隊長 ルー\n\n時間稼ぎはやめ、直ちに本命令を実行せよ。チームを率いて研究船イカロスの自爆シーケンスを起動すること。脱出ポッドはすべて使用不能にし、イカロスの生存者を一人たりともチームと共に脱出させてはならない。従わなければ、軍法会議にかける。\n\n（署名は色あせて読めない。）"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411463
+    m_Localized: ルーのおもちゃ箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87855056523411464
+    m_Localized: 保安部の証拠品箱を流用したもののようだ。中の物には触らないほうがいい。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649152
+    m_Localized: リキッド・ラック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649153
+    m_Localized: 3日間、運が100%アップ！ジョルジオのお墨付き！味はラストウォーターそっくり。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649154
+    m_Localized: 子ども用リュック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87889430937649155
+    m_Localized: 子ども用リュック（大）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785493061632
+    m_Localized: 改良型の内部バネ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810368
+    m_Localized: より頑丈な内部バネのセット。作動機構の動作が安定する。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88109785530810369
+    m_Localized: 3Dプリンターチップ（改良型の内部バネ x{0}）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004867645440
+    m_Localized: ギャンブラーのコイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88262004905394176
+    m_Localized: 誰も覚えていない通貨のコイン。幸運を呼ぶと言われている。実際のところ、スクラッチを削るのが速くなるだけだ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245508415488
+    m_Localized: エレノアへの差し入れ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387008
+    m_Localized: 上層世界の高級品が詰まった、封のされた箱。詰めた人物は金に糸目をつけなかったようだ。妙なことに、警察のフィードではこの箱が盗難品として届け出られている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387009
+    m_Localized: SYNC自動補充ニューロアクティブ香水
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387010
+    m_Localized: 使用すると、その時点での客の取引ボーナスが15%上がる。一度に効果を得られる香水は1つのみ。中身は自動で補充される。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387011
+    m_Localized: SYNC香水のプレミアム版。キャップ内の密閉リザーバーが少しずつ新しい1回分を合成するので、瓶が完全に空になることはない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387012
+    m_Localized: 保管ケース拡張キット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88474245529387013
+    m_Localized: 保管ケースに使うと保管タブが2つ、保管ケース（拡張）に使うと1つ増える。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798324109312
+    m_Localized: 収納コーディネーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275136
+    m_Localized: 容器や機械をプリセットに割り当てる。プリセットごとにホットキーを決めれば、すぐに開ける。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275137
+    m_Localized: 電子部品（ハイパーテック）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275138
+    m_Localized: 電子工学の最先端。ステーションの誰にも作れない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275139
+    m_Localized: 一部のハイパーテック製品の強化や充電に使う。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275140
+    m_Localized: ハイパーテック・パワーセル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275141
+    m_Localized: 電力を蓄えない実験的なセル。消費電力が定格出力以内の機械なら、いくらでも動かし続けられる。定格を超える機械には一切給電しない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275142
+    m_Localized: ハイパーテック・ターボブースター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275143
+    m_Localized: バッテリーで動くターボブースター。サイクルごとに充電され、余った分は蓄えておける。充電が済むと、機械の現在のサイクルを即座に完了させる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275144
+    m_Localized: ハイパーテックの保管ケース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275145
+    m_Localized: マインド・リプログラマー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88777798349275146
+    m_Localized: 特定のパークを外したり付けたりできる。電子部品（ハイパーテック）を消費して充電する。使うたびにリセットの時間が必要。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356914843648
+    m_Localized: 自動解体機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426560
+    m_Localized: 設定できる自動解体機。動物の檻か養殖システムに設置して使う。毎晩、設定に合う動物を解体してトレイに入れる。マーキングペンでマークした動物には決して手を出さない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426561
+    m_Localized: 偉大なる粉砕機。中に入らないこと。誰かに入れてもらうのもだめ。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426562
+    m_Localized: マーキングペン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88855356927426563
+    m_Localized: 動物や魚に色のマークを付ける。自動解体機はマークした動物に決して手を出さない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259386847232
+    m_Localized: 投入ホッパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401664
+    m_Localized: 排出ホッパーと接続し、毎晩、置かれた収納のアイテムを排出ホッパー側の収納へ送るよう設定できる。排出ホッパーに使うと接続、ダブルクリックで設定。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401665
+    m_Localized: 排出ホッパー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88937259420401666
+    m_Localized: 接続した投入ホッパーから送られたアイテムを、毎晩、置かれた収納に受け取る。投入ホッパーに使うと接続、ダブルクリックで今すぐ実行。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160964653056
+    m_Localized: 使い捨てバッテリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818880
+    m_Localized: 大容量の使い捨てバッテリー。充電はできない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818881
+    m_Localized: 手軽さから上層世界で好まれている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818882
+    m_Localized: 小型アルコール瓶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818883
+    m_Localized: 貯水タンク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89249160989818884
+    m_Localized: 大型の液体容器。金属くずかインゴットを使うと容量を拡張できる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89901428357513216
+    m_Localized: 包帯を使って巻けば、ガラスの刃物になる。包帯は消費されない。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728700862464
+    m_Localized: 共和国の発信機
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833984
+    m_Localized: 共和国の工作員から渡された小さな発信機。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833985
+    m_Localized: ルーが持ち去る物の中に隠そう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833986
+    m_Localized: 夜のうちにカウンターに残されていた、一発の弾丸。薬莢には「{0}」と刻まれている。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833987
+    m_Localized: ルーのロッカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91520728721833988
+    m_Localized: 空っぽで、鍵もかかっておらず、待っている。中身を入れて、閉店時に店頭のカウンターに置いておこう。
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,606 @@
+#nullable enable
+using System;
+using ItemDetails.Integration;
+using System.Collections.Generic;
+using ProbablyStolen.Port.Mods;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace ItemDetails
+{
+
+/// <summary>
+/// 容器内容物图标格：tooltip 右侧一块独立面板，按物品图标 + 件数列出箱内物品，
+/// 密封箱标题附带估价；正文没有文字清单或数量摘要。
+///
+/// 设计要点：
+///   - 认领：<see cref="StorageInfo"/> / <see cref="SealedBoxInfo"/> 构建正文时调用 <see cref="Claim"/>，
+///     面板在 OverlayHandler.ShowTooltip 后缀里按认领时交来的内容物与估价画。
+///   - tooltip 每帧重建、ShowTooltip 每帧都会调用：内容物签名和估价没变就不重新分组和建格子，
+///     正文文本没变（原版也据此跳过重排）就沿用上次找到的可见框，只重新定位。
+///     tooltip 还从没显示过（拿不到字体模板）或面板出过错时不认领，也没有文字回退。
+///   - 分组按显示名合并，件数累加堆叠数；最多 15 格，超出时最后一格写「+件数」。
+///   - 图标用物品自己的贴图（GameItemElement.background.image.sprite），不另建图集；
+///     按整数倍缩放，保持像素风清晰。
+///   - GetTooltipWindow().rectTransform 本身几乎没有尺寸（窗口靠子 Image 撑开），所以定位与取外框都以
+///     窗口里面积最大的 Image 作为「可见框」。
+///   - 底板复制可见框和覆盖它大半的 Image（外框与底色），和原版窗口一个样子；找不到时用纯色兜底。
+///   - 放在 tooltip 右侧顶对齐，右边放不下就换到左侧；纵向不出屏幕。
+///     第三方注册了提示框锚点时改贴着锚点，底板照旧复制原版窗口
+///   - 与「当铺估价单」(amres.sectioned_tooltips) 共存：两者都可能画未上锁容器的内容物网格。
+///     谁画由协议决定——对方声明了 DrawsContents（布局槽位或逐件 RegisterTooltipDisplay），
+///     这件物品就按注册让路；未接入协议的已知旧版由 LegacySectionedTooltips 保留普通容器面板兼容
+///   - 超过 StaleSeconds 没有重新构建（缓存 tooltip）时不显示，避免画成上一件物品。
+/// </summary>
+internal static class ContentsGrid
+{
+    private const string PanelName = "ItemDetailsContentsGrid";
+    private const float StaleSeconds = 0.5f;
+    private const int MaxColumns = 5;
+    private const int MaxCells = 15;
+    private const float CountScale = 0.65f;
+
+    private struct FramePart
+    {
+        internal Image Source;
+        internal float Left, Bottom, Right, Top;
+    }
+
+    private static bool _patched;
+    private static GameObject? _panel;
+    private static TMP_Text? _template;
+    private static bool _broken;
+
+    private static GameItem? _pendingItem;
+    private static ContainerContents? _pendingContents;
+    private static bool _pendingSealed;
+    private static string? _pendingSealedEstimate;
+    private static float _pendingAt = float.MinValue;
+
+    // 已画好的内容；快照引用相同就只重新定位（O(1)，不比对内容物）
+    private static ContainerContents? _builtContents;
+    private static GameItem? _builtItem;
+    private static bool _builtSealed;
+    private static string? _builtSealedEstimate;
+    private static Transform? _builtParent;
+    /// <summary>画好时的语言。名字按当前语言现取（GameRead.ItemDisplayName），签名不随语言变，换语言要重建。</summary>
+    private static string _builtLocale = "";
+    private static Vector2 _builtSize;
+    private static RectTransform? _box;
+    private static int _boxTextHash;
+
+    // 兼容旧调用方（传 List 而不是快照）：同一份列表实例只建一次快照。
+    private static List<GameItem>? _listSnapshotKey;
+    private static ContainerContents? _listSnapshotValue;
+
+    /// <summary>当前 tooltip 用的字体；供水质成分表按实际字宽补位。还没显示过 tooltip 时为 null。</summary>
+    internal static TMP_FontAsset? TemplateFont
+    {
+        get { try { return _template != null ? _template.font : null; } catch { return null; } }
+    }
+
+    internal static void Install(PatchScope scope)
+    {
+        try
+        {
+            bool patched = false;
+            foreach (var m in new[]
+            {
+                PortReflection.Method(typeof(OverlayHandler), "ShowTooltip",
+                    new[] { typeof(Vector2), typeof(RichText), typeof(int) }),
+                PortReflection.Method(typeof(OverlayHandler), "ShowTooltip",
+                    new[] { typeof(Vector2), typeof(Vector2), typeof(RichText), typeof(int) }),
+            })
+            {
+                patched |= scope.Patch(m, postfix: new HookMethod(typeof(ContentsGrid), nameof(AfterShow)));
+            }
+            patched |= scope.Patch(PortReflection.Method(typeof(OverlayHandler), "HideTooltip"),
+                postfix: new HookMethod(typeof(ContentsGrid), nameof(AfterHide)));
+
+            if (!patched)
+            {
+                Log.Warn("ContentsGrid.Apply", "OverlayHandler 补丁一个都没打上，内容物网格停用");
+                return;
+            }
+            _patched = true;
+            scope.OnDispose(Remove);
+            Log.Msg("ContentsGrid: patched OverlayHandler tooltip");
+        }
+        catch (Exception ex)
+        {
+            Log.Warn("ContentsGrid.Apply", ex);
+        }
+    }
+
+    internal static void Remove()
+    {
+        _patched = false;
+        try { if (_panel != null) UnityEngine.Object.Destroy(_panel); } catch { }
+        _panel = null;
+        _template = null;
+        _broken = false;
+        _pendingItem = null;
+        _pendingContents = null;
+        _pendingSealedEstimate = null;
+        _builtSealedEstimate = null;
+        _builtContents = null;
+        _builtItem = null;
+        _builtParent = null;
+        _builtLocale = "";
+        _box = null;
+        _listSnapshotKey = null;
+        _listSnapshotValue = null;
+    }
+
+    /// <summary>由 GetTooltipBasic 前缀调用：新一次构建开始，清掉上一件物品的认领。</summary>
+    internal static void Begin()
+    {
+        _pendingItem = null;
+        _pendingContents = null;
+        _pendingSealedEstimate = null;
+    }
+
+    /// <summary>
+    /// 正文构建时调用：本次 tooltip 的内容物交给图标格显示。调用方没有文字回退。
+    /// </summary>
+    internal static bool Claim(GameItem item, List<GameItem> items, bool sealedBox,
+        string? sealedEstimate = null, RichTextBuilder? builder = null)
+    {
+        if (items == null) return false;
+        // 旧调用方（自检等）传的是稳定列表；同一实例只建一次快照，避免每帧重建。
+        if (!ReferenceEquals(_listSnapshotKey, items) || _listSnapshotValue == null
+            || _listSnapshotValue.Sealed != sealedBox)
+        {
+            _listSnapshotKey = items;
+            _listSnapshotValue = ContainerContents.Capture(items, sealedBox);
+        }
+        return Claim(item, _listSnapshotValue, sealedBox, sealedEstimate, builder);
+    }
+
+    /// <summary>
+    /// 内容物快照由 <see cref="StorageInfo"/> / <see cref="SealedBoxInfo"/> 按短间隔刷新；
+    /// 这里只存引用，AfterShow 每帧用引用判断是否需要重绘。
+    /// </summary>
+    internal static bool Claim(GameItem item, ContainerContents contents, bool sealedBox,
+        string? sealedEstimate = null, RichTextBuilder? builder = null)
+    {
+        try
+        {
+            if (contents == null || contents.Items.Count == 0) return false;
+            if (!ModSettings.ContentsGrid) return false;
+            if (builder != null)
+            {
+                var output = new TooltipSections.Writer(builder, item, sealedBox ? "sealed-contents" : "contents", TooltipGroupIds.Contents);
+                if (output.Capturing)
+                {
+                    // 快照自带只读视图，不每帧 ToArray。
+                    output.Field("items", contents.ItemsView);
+                    if (sealedEstimate != null) output.Field("estimateText", sealedEstimate);
+                    if (output.Finish()) return true;
+                }
+            }
+            if (LegacySectionedTooltips.YieldsContentsGrid(sealedBox)) return false;
+            if (!_patched || _broken) return false;
+            if (!TooltipPipeline.IsBuilding) return false;
+            if (_template == null) return false;              // tooltip 还没显示过，画不出来
+            _pendingItem = item;
+            _pendingContents = contents;
+            _pendingSealed = sealedBox;
+            _pendingSealedEstimate = sealedBox ? sealedEstimate : null;
+            _pendingAt = UnityEngine.Time.unscaledTime;
+            return true;
+        }
+        catch { return false; }
+    }
+
+    // ---------------- StaticHookOwner 回调 ----------------
+
+    private static void AfterShow(OverlayHandler __instance, RichText richText)
+    {
+        try
+        {
+            var win = __instance?.GetTooltipWindow();
+            var tooltipRect = win != null ? win.rectTransform : null;
+            if (tooltipRect == null) { Hide(); return; }
+
+            // 每次都顺手取模板：认领要先知道画得出来
+            if (_template == null) _template = tooltipRect.GetComponentInChildren<TMP_Text>(true);
+
+            var item = _pendingItem;
+            var contents = _pendingContents;
+            if (item == null || contents == null || contents.Items.Count == 0 || _broken || !ModSettings.ContentsGrid
+                || UnityEngine.Time.unscaledTime - _pendingAt > StaleSeconds || _template == null)
+            {
+                Hide();
+                return;
+            }
+
+            var parent = tooltipRect.parent;
+            if (parent == null) { Hide(); return; }
+
+            // 与原版 ShowTooltip 同一判据：文本哈希变了，原版才重排窗口，可见框才需要重找
+            int textHash = richText?.GetHashCode() ?? 0;
+            if (_box == null || textHash != _boxTextHash)
+            {
+                _box = FindBox(tooltipRect, _template);
+                _boxTextHash = textHash;
+            }
+            if (_box == null) { Hide(); return; }
+
+            string locale = Loc.Code;
+            if (_panel == null || _panel.transform.parent != parent || !ReferenceEquals(_builtParent, parent)
+                || !ReferenceEquals(_builtItem, item) || _builtSealed != _pendingSealed
+                || !string.Equals(_builtSealedEstimate, _pendingSealedEstimate, StringComparison.Ordinal)
+                || !ReferenceEquals(_builtContents, contents)
+                || !string.Equals(_builtLocale, locale, StringComparison.Ordinal))
+            {
+                var rollup = RollupOf(contents);
+                if (rollup.Groups.Count == 0) { Hide(); return; }
+                Build(tooltipRect, _box, parent, contents, rollup, _pendingSealed, _pendingSealedEstimate);
+                _builtItem = item;
+                _builtSealed = _pendingSealed;
+                _builtSealedEstimate = _pendingSealedEstimate;
+                _builtParent = parent;
+                _builtLocale = locale;
+                _builtContents = contents;
+            }
+
+            if (_panel == null) return;
+            var placeBox = PlacementBox(__instance, tooltipRect, _box);
+            Place(tooltipRect, placeBox, parent);
+            // 原版窗口每帧都会置顶，贴着它时得跟着压上去；贴第三方锚点时在它旁边，
+            // 不用每帧抢最上层，不然锚点那边也置顶的话两边每帧来回换
+            if (ReferenceEquals(placeBox, _box)) _panel.transform.SetAsLastSibling();
+            _panel.SetActive(true);
+        }
+        catch (Exception ex)
+        {
+            // 画不出来就停用：之后的 tooltip 不再认领，也没有文字回退
+            _broken = true;
+            Log.Warn("ContentsGrid.Show", ex);
+            Hide();
+        }
+    }
+
+    private static void AfterHide()
+    {
+        try { Hide(); } catch { }
+    }
+
+    private static void Hide()
+    {
+        try { if (_panel != null) _panel.SetActive(false); } catch { }
+    }
+
+    // ---------------- 数据 ----------------
+
+    /// <summary>归组只做一次（快照内容不变就一直复用）；换语言时按新语言重建名字。</summary>
+    private static ContentsRollup RollupOf(ContainerContents contents)
+    {
+        contents.RebindLocale(Loc.Code);
+        return contents.Rollup ??= ContentsRollup.Build(contents.Facts, MaxCells);
+    }
+
+    // ---------------- 构建 ----------------
+
+    private static void Build(RectTransform tooltipRect, RectTransform box, Transform parent,
+        ContainerContents contents, ContentsRollup rollup, bool sealedBox, string? sealedEstimate)
+    {
+        var tmp = _template!;
+        var items = contents.Items;
+        int total = rollup.Total;
+
+        if (_panel == null)
+        {
+            _panel = new GameObject(PanelName, typeof(RectTransform));
+            _panel.layer = tooltipRect.gameObject.layer;
+        }
+        var panel = (RectTransform)_panel.transform;
+        if (panel.parent != parent) panel.SetParent(parent, false);
+        panel.anchorMin = new Vector2(0.5f, 0.5f);
+        panel.anchorMax = new Vector2(0.5f, 0.5f);
+        panel.pivot = new Vector2(0f, 1f);
+        panel.localRotation = Quaternion.identity;
+        panel.localScale = tooltipRect.localScale;
+        // Destroy 要到帧末才生效，先隐藏，免得新旧两套格子叠一帧
+        for (int i = panel.childCount - 1; i >= 0; i--)
+        {
+            var old = panel.GetChild(i).gameObject;
+            old.SetActive(false);
+            UnityEngine.Object.Destroy(old);
+        }
+
+        // 尺寸都按 tooltip 窗口的本地单位算：TMP 字号先换算到窗口空间
+        float winScale = Mathf.Abs(tooltipRect.lossyScale.y);
+        float tmpScale = Mathf.Abs(tmp.rectTransform.lossyScale.y);
+        float font = tmp.fontSize * (winScale > 0.0001f && tmpScale > 0.0001f ? tmpScale / winScale : 1f);
+        if (font < 4f) font = 12f;
+        float line = Mathf.Round(font * 1.25f);
+        float cellSize = Mathf.Round(line * 1.8f);
+        float gap = Mathf.Max(2f, Mathf.Round(font * 0.25f));
+        float pad = Mathf.Max(4f, Mathf.Round(font * 0.6f));
+
+        int shown = rollup.ShownCount;
+        int overflow = rollup.Overflow;
+        int slots = shown + (overflow > 0 ? 1 : 0);
+        int cols = Math.Min(MaxColumns, slots);
+        int rows = (slots + cols - 1) / cols;
+
+        string title;
+        if (sealedBox)
+        {
+            title = string.IsNullOrEmpty(sealedEstimate)
+                ? Loc.T("grid.title_sealed", "Inside {0}", total)
+                : Loc.T("grid.title_sealed_value", "Inside {0} (est. {1})", total, sealedEstimate);
+        }
+        else
+        {
+            title = Loc.T("grid.title", "Contents {0}", total);
+        }
+        float titleWidth = Mathf.Ceil(Measure(title, font));
+
+        float gridWidth = cols * cellSize + (cols - 1) * gap;
+        float width = Mathf.Ceil(Mathf.Max(2f * pad + gridWidth, 2f * pad + titleWidth));
+        float top = pad + line + gap * 2f;
+        float height = top + rows * cellSize + (rows - 1) * gap + pad;
+        panel.sizeDelta = new Vector2(width, height);
+        _builtSize = new Vector2(width, height);
+
+        AddFrame(panel, box, tooltipRect, tmp);
+
+        var title1 = NewText(panel, title, font, new Color(0.85f, 0.85f, 0.85f, 1f), TextAlignmentOptions.TopLeft);
+        PlaceRect(title1.rectTransform, pad, pad, width - 2f * pad, line);
+
+        var outer = new Color(1f, 1f, 1f, 0.07f);
+        var inner = new Color(0f, 0f, 0f, 0.35f);
+        for (int i = 0; i < slots; i++)
+        {
+            float x = pad + (i % cols) * (cellSize + gap);
+            float y = top + (i / cols) * (cellSize + gap);
+            PlaceRect(NewImage(panel, outer).rectTransform, x, y, cellSize, cellSize);
+            PlaceRect(NewImage(panel, inner).rectTransform, x + 1f, y + 1f, cellSize - 2f, cellSize - 2f);
+
+            if (i >= shown)
+            {
+                var more = NewText(panel, "+" + overflow, font, Color.white, TextAlignmentOptions.Center);
+                PlaceRect(more.rectTransform, x, y, cellSize, cellSize);
+                continue;
+            }
+
+            var group = rollup.Groups[i];
+            var sprite = IconOf(items[group.FirstIndex]);
+            if (sprite != null)
+            {
+                Fit(sprite, cellSize - 4f, cellSize - 4f, out float w, out float h);
+                if (w > 0f && h > 0f)
+                {
+                    var icon = NewImage(panel, Color.white);
+                    icon.sprite = sprite;
+                    PlaceRect(icon.rectTransform, x + Mathf.Round((cellSize - w) / 2f),
+                        y + Mathf.Round((cellSize - h) / 2f), w, h);
+                }
+            }
+
+            if (group.Count > 1)
+            {
+                string count = group.Count.ToString();
+                float size = font * CountScale;
+                var shadow = NewText(panel, count, size, new Color(0f, 0f, 0f, 0.9f), TextAlignmentOptions.BottomRight);
+                PlaceRect(shadow.rectTransform, x + 1f, y + 1f, cellSize - 2f, cellSize - 1f);
+                var label = NewText(panel, count, size, Color.white, TextAlignmentOptions.BottomRight);
+                PlaceRect(label.rectTransform, x, y, cellSize - 2f, cellSize - 1f);
+            }
+        }
+    }
+
+    /// <summary>tooltip 的可见框：窗口里面积最大的可见 Image（不含正文 TMP 之下的节点）。</summary>
+    private static RectTransform? FindBox(RectTransform win, TMP_Text tmp)
+    {
+        RectTransform? best = null;
+        float bestArea = 0f;
+        var corners = new Vector3[4];
+        foreach (var img in win.GetComponentsInChildren<Image>(false))
+        {
+            if (img == null || !img.enabled || img.color.a < 0.01f || img.transform.IsChildOf(tmp.transform)) continue;
+            img.rectTransform.GetWorldCorners(corners);
+            float area = Mathf.Abs((corners[2].x - corners[0].x) * (corners[2].y - corners[0].y));
+            if (area > bestArea)
+            {
+                bestArea = area;
+                best = img.rectTransform;
+            }
+        }
+        return best;
+    }
+
+    /// <summary>
+    /// 复制 tooltip 的外框与底色：覆盖可见框大半的 Image 按它相对可见框的内缩量铺到面板上。
+    /// 内缩量先在世界坐标里量，再换算成面板的本地单位。一个都找不到时用深底 + 细边兜底。
+    /// </summary>
+    private static void AddFrame(RectTransform panel, RectTransform box, RectTransform win, TMP_Text tmp)
+    {
+        var parts = new List<FramePart>();
+        try
+        {
+            var corners = new Vector3[4];
+            box.GetWorldCorners(corners);
+            Vector3 boxMin = corners[0], boxMax = corners[2];
+            float boxW = boxMax.x - boxMin.x, boxH = boxMax.y - boxMin.y;
+            float kx = Mathf.Abs(panel.lossyScale.x), ky = Mathf.Abs(panel.lossyScale.y);
+            if (boxW > 0f && boxH > 0f && kx > 0.0001f && ky > 0.0001f)
+            {
+                foreach (var img in win.GetComponentsInChildren<Image>(false))
+                {
+                    if (img == null || !img.enabled || img.color.a < 0.01f || img.transform.IsChildOf(tmp.transform)) continue;
+                    img.rectTransform.GetWorldCorners(corners);
+                    Vector3 min = corners[0], max = corners[2];
+                    if (max.x - min.x < boxW * 0.5f || max.y - min.y < boxH * 0.5f) continue;
+                    parts.Add(new FramePart
+                    {
+                        Source = img,
+                        Left = (min.x - boxMin.x) / kx,
+                        Bottom = (min.y - boxMin.y) / ky,
+                        Right = (boxMax.x - max.x) / kx,
+                        Top = (boxMax.y - max.y) / ky,
+                    });
+                }
+            }
+        }
+        catch (Exception ex) { Log.Warn("ContentsGrid.Frame", ex); parts.Clear(); }
+
+        if (parts.Count == 0)
+        {
+            Stretch(NewImage(panel, new Color32(115, 56, 51, 255)), 0f, 0f, 0f, 0f);
+            Stretch(NewImage(panel, new Color32(43, 39, 51, 255)), 2f, 2f, 2f, 2f);
+            return;
+        }
+
+        foreach (var part in parts)
+        {
+            var src = part.Source;
+            var img = NewImage(panel, src.color);
+            img.sprite = src.sprite;
+            img.type = src.type;
+            img.fillCenter = src.fillCenter;
+            img.pixelsPerUnitMultiplier = src.pixelsPerUnitMultiplier;
+            img.material = src.material;
+            Stretch(img, part.Left, part.Bottom, part.Right, part.Top);
+        }
+    }
+
+    /// <summary>
+    /// 位置：有可见的第三方锚点就贴它，没有就贴原版窗口
+    /// 只借位置，底板不从锚点复制，锚点可能是浅色的，标题会看不清
+    /// </summary>
+    private static RectTransform PlacementBox(OverlayHandler? handler, RectTransform win, RectTransform box)
+    {
+        var anchor = TypeBadge.ResolveTooltipAnchor(handler);
+        return anchor != null && !ReferenceEquals(anchor, win) && anchor.gameObject.activeInHierarchy ? anchor : box;
+    }
+
+    /// <summary>放在可见框右侧顶对齐；右边出屏就换到左侧，纵向夹在屏幕内。</summary>
+    private static void Place(RectTransform tooltipRect, RectTransform box, Transform parent)
+    {
+        if (_panel == null) return;
+        var corners = new Vector3[4];
+        box.GetWorldCorners(corners);
+        Vector3 bl = parent.InverseTransformPoint(corners[0]);
+        Vector3 tr = parent.InverseTransformPoint(corners[2]);
+
+        float sx = Mathf.Abs(tooltipRect.localScale.x);
+        float sy = Mathf.Abs(tooltipRect.localScale.y);
+        float w = _builtSize.x * sx;
+        float h = _builtSize.y * sy;
+        float gap = Mathf.Round(4f * sx);
+
+        Rect screen = ScreenRect(tooltipRect, parent);
+        float x = tr.x + gap;
+        if (x + w > screen.xMax && bl.x - gap - w >= screen.xMin) x = bl.x - gap - w;
+        float y = tr.y;
+        if (y - h < screen.yMin) y = screen.yMin + h;
+        if (y > screen.yMax) y = screen.yMax;
+
+        _panel.transform.localPosition = new Vector3(Mathf.Round(x), Mathf.Round(y), 0f);
+    }
+
+    private static Rect ScreenRect(RectTransform tooltipRect, Transform parent)
+    {
+        var canvas = tooltipRect.GetComponentInParent<Canvas>();
+        var root = canvas != null ? canvas.rootCanvas.transform as RectTransform : null;
+        if (root == null) return new Rect(float.MinValue / 4, float.MinValue / 4, float.MaxValue / 2, float.MaxValue / 2);
+        var corners = new Vector3[4];
+        root.GetWorldCorners(corners);
+        Vector3 a = parent.InverseTransformPoint(corners[0]);
+        Vector3 b = parent.InverseTransformPoint(corners[2]);
+        return Rect.MinMaxRect(Mathf.Min(a.x, b.x), Mathf.Min(a.y, b.y), Mathf.Max(a.x, b.x), Mathf.Max(a.y, b.y));
+    }
+
+    // ---------------- 小工具 ----------------
+
+    private static Sprite? IconOf(GameItem item)
+    {
+        try
+        {
+            var bg = (item as GameItemElement)?.background;
+            if (bg == null || bg.image == null) return null;
+            return bg.image.sprite;
+        }
+        catch { return null; }
+    }
+
+    /// <summary>等比缩放进格子；放大时取整数倍，像素图不糊。</summary>
+    private static void Fit(Sprite sprite, float w, float h, out float outW, out float outH)
+    {
+        outW = outH = 0f;
+        float sw = sprite.rect.width, sh = sprite.rect.height;
+        if (sw <= 0f || sh <= 0f || w <= 0f || h <= 0f) return;
+        float k = Mathf.Min(w / sw, h / sh);
+        if (k >= 1f) k = Mathf.Floor(k);
+        outW = Mathf.Round(sw * k);
+        outH = Mathf.Round(sh * k);
+    }
+
+    private static float Measure(string text, float size)
+    {
+        try
+        {
+            var t = _template!;
+            float k = t.fontSize > 0.01f ? size / t.fontSize : 1f;
+            return t.GetPreferredValues(text).x * k;
+        }
+        catch { return text.Length * size; }
+    }
+
+    private static Image NewImage(RectTransform parent, Color color)
+    {
+        var go = new GameObject("img", typeof(RectTransform), typeof(Image));
+        go.layer = parent.gameObject.layer;
+        go.transform.SetParent(parent, false);
+        var img = go.GetComponent<Image>();
+        img.color = color;
+        img.raycastTarget = false;
+        return img;
+    }
+
+    private static TextMeshProUGUI NewText(RectTransform parent, string text, float size, Color color,
+        TextAlignmentOptions align)
+    {
+        var go = new GameObject("text", typeof(RectTransform), typeof(TextMeshProUGUI));
+        go.layer = parent.gameObject.layer;
+        go.transform.SetParent(parent, false);
+        var tmp = go.GetComponent<TextMeshProUGUI>();
+        tmp.font = _template!.font;
+        tmp.fontSharedMaterial = _template.fontSharedMaterial;
+        tmp.fontSize = size;
+        tmp.color = color;
+        tmp.alignment = align;
+        tmp.enableWordWrapping = false;
+        tmp.overflowMode = TextOverflowModes.Overflow;
+        tmp.raycastTarget = false;
+        tmp.text = text;
+        return tmp;
+    }
+
+    /// <summary>按面板左上角为原点、向下为正放置。</summary>
+    private static void PlaceRect(RectTransform rt, float x, float y, float w, float h)
+    {
+        rt.anchorMin = new Vector2(0f, 1f);
+        rt.anchorMax = new Vector2(0f, 1f);
+        rt.pivot = new Vector2(0f, 1f);
+        rt.anchoredPosition = new Vector2(x, -y);
+        rt.sizeDelta = new Vector2(w, h);
+    }
+
+    private static void Stretch(Image img, float left, float bottom, float right, float top)
+    {
+        var rt = img.rectTransform;
+        rt.anchorMin = Vector2.zero;
+        rt.anchorMax = Vector2.one;
+        rt.pivot = new Vector2(0.5f, 0.5f);
+        rt.offsetMin = new Vector2(left, bottom);
+        rt.offsetMax = new Vector2(-right, -top);
+    }
+}
+
+}

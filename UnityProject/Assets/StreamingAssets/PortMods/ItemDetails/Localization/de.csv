@@ -1,0 +1,358 @@
+﻿# Item Details Deutsch (de)
+auth.amount,Markenwert
+auth.body,Materialfehler
+auth.box,Schachtelfehler
+auth.chip,Chip
+auth.color,Farbfehler
+auth.indicator,Anzeigefehler
+auth.label,Etikettierungsfehler
+auth.lettering,Beschriftungsfehler
+auth.logo,Logografik-Fehler
+auth.seal,Fehlerhaftes Siegel
+auth.serial,Seriennummer
+# key,value
+alert.aug_kill_reward,Abschussprämie: {0}
+alert.aug_presence,Augment-Bedrohung: {0}/100
+alert.bounty," (Belohnung {0})"
+alert.real_name,Echter Name: {0}
+alert.title_augmented,Augmentierter Kunde
+alert.title_both,Gesucht · Augmentierter Kunde
+alert.title_wanted,Gesucht
+appraisal.armor,Gepanzert
+appraisal.base,Basis
+appraisal.blade,Klinge
+appraisal.build_deluxe,Set-Bonus: Deluxe
+appraisal.build_tactical,Set-Bonus: Taktisch
+appraisal.carbon,Karbongemisch
+appraisal.casing_crack,Rissig
+appraisal.casing_reinforced,Verstärkt
+appraisal.casing_screws,Freiliegende Schrauben
+appraisal.casing_wear,Leicht abgenutzt
+appraisal.casing_wear_heavy,Schwer abgenutzt
+appraisal.damaged,Schaden
+appraisal.emgplus,EMG+-Schnittstelle
+appraisal.finish_cheap,Minderwertige Plasmafarbe
+appraisal.finish_premium,Hochwertige Plasmafarbe
+appraisal.gold,Vergoldet
+appraisal.iface_unknown,Unspezifische Steuerung
+appraisal.neural,Neuralschnittstelle
+appraisal.ribwich_deluxe,Deluxe-Version
+appraisal.ribwich_double_meat,Doppelte Frikadelle
+appraisal.ribwich_first_batch,Erster Produktionslauf
+appraisal.ribwich_month_edge,Erster oder letzter Monat
+appraisal.ribwich_opened,Geöffnet oder Fälschung (pauschal 40)
+appraisal.ribwich_plant_grade_a,Hochqualitative Anlage {0:D2}
+appraisal.ribwich_plant_grade_c,Niedrigqualitative Anlage {0:D2}
+appraisal.seal_ignition,Bonus: Ignition Lab
+appraisal.seal_ll,Bonus: Wild’s Rides
+appraisal.seal_republic,Bonus: Republikanische Flottenrequirierung
+appraisal.seal_zhonghua,Bonus: ZhongHua Schiffsbau
+appraisal.worn,Abnutzung
+auth.counterfeit,× Fälschung ({0})
+auth.defect,× {0} ({1})
+auth.genuine,√ Echt
+berry.dried,Getrocknet
+berry.line,{0}-Qualität: {1}
+berry.wine, (Weinwert {0})
+berry.moldy,Schimmlig
+berry.normal,Normal
+berry.small,Klein
+berry.unripe,Unreif
+calorie.line,Energie: {0} {1}
+calorie.per_credit," ({0} {1}/{2})"
+calorie.unit,kcal
+condition.line,Zustand: {0} {1}
+contraband.markup,Schwarzmarkt: +{0}%
+generic.line,Quelle: {0}
+hidden.chem_purity,Chemische Reinheit: {0}%
+hidden.durability,Haltbarkeit: {0}/{1}
+hidden.durability_faked,Echte Haltbarkeit: {0}/{1} (Anzeige {2}/{3})
+hidden.purity,Reinheit: {0}
+hidden.purity_faked,Echte Reinheit: {0} (Anzeige {1})
+hidden.purity_level,Reinheit: {0}/10
+hidden.purity_level_faked,Echte Reinheit: {0}/10 (Anzeige {1}/10)
+hint.double_click,Zum Untersuchen doppelklicken
+menu.scan,Scannen
+list.sep,", "
+lottery.matched_none,Treffer {0}/6 -> kein Gewinn
+lottery.matched_prize,Treffer {0}/6 -> Gewinn {1}
+lottery.not_drawn,Ziehung {0}: noch offen (samstags früh)
+lottery.winning,Gewinnzahlen: {0}
+market.line,Markt: {0}
+faucet.header,Leitungswasser: {0}
+calendar.today_events,Heutige Ereignisse
+module.power,{0} Energie/Tag
+module.speed,{0} Tempo
+price.buy,"Einkauf: "
+price.cost_close,)
+price.cost_open," (Kosten "
+price.list," Preis: {0}"
+price.sell,Verkauf: {0}
+reveal.modifier,Echter Faktor: {0}% (getarnt als {1}%)
+reveal.real,Echt: {0} (getarnt als {1})
+reveal.real_with_mod,Echt: {0} {1} (getarnt als {2})
+ribwich.header,Warum gefälscht:
+ribwich.more,... und {0} weitere
+ribwich.reason_bun_no_pickles,Sesambrötchen ohne Extragürkchen
+ribwich.reason_date_missing,Kein Produktionsdatum
+ribwich.reason_davre_missing,Davre-Logo fehlt
+ribwich.reason_davre_wrong,Davre-Logo falsch
+ribwich.reason_first_sticker,1. Lauf: kein Ribwich-Aufkleber erlaubt
+ribwich.reason_month_range,Monat {0} nicht zwischen 1 und 12
+ribwich.reason_pickles_no_bun,Extragürkchen ohne Sesambrötchen
+ribwich.reason_plant_missing,Keine Anlagennummer
+ribwich.reason_plant_range,Anlagennummer {0} nicht in 01-35
+ribwich.reason_second_sticker_missing,2. Lauf: Ribwich-Aufkleber fehlt
+ribwich.reason_second_sticker_wrong,2. Lauf: falscher Ribwich-Aufkleber
+ribwich.reason_unknown,{0}
+ribwich.reason_year_range,Jahr {0} nicht in 425-429 / 432-438
+scratcher.no_prize,Rubbellos: kein Gewinn
+scratcher.progress_part,", gerubbelt {0}/3"
+scratcher.win,Rubbellos: gewinnt {0} ({1} Treffer)
+seed.header,Gene (nicht analysiert)
+seed.rank,Rang {0}
+seed.more,... und {0} weitere
+seed.trait_rank,{0} (Rang {1})
+seed.innate_lowered,Angeboren ({0}→{1})
+seed.innate_removed,Entfernt
+storage.contains,"Enthält: "
+storage.more_kinds," ... insgesamt {0} {0|Sorte|Sorten}"
+storage.ratio,Kompressionsrate: {0} ({1}/{2} {2|Feld|Felder})
+grid.title,Inhalt {0}
+grid.title_sealed,Inhalt {0}
+grid.title_sealed_value,Inhalt {0} (Schätzwert {1})
+title.appraisal_suffix,"{0} Preis {1}, bestes Angebot {2}"
+value.from,"Quelle: "
+value.part,{0} {1}
+value.cost_perf,Wert pro Feld: {0}
+value.cost_perf_detail," ({0}/{1} {1|Feld|Felder})"
+value.perfect_range," | perfekt {0}-{1}"
+value.total_line,Gesamt: {0}
+water.mismatch," (Etikett passt nicht)"
+water.trace_count,(+{0} weitere unter der Anzeigeschwelle)
+water.fold_inactive,{0}: inaktive Bestandteile anzeigen
+chem.effects,Wirkung: {0}
+chem.lethal,tödlich ({0}-fache tödliche Dosis)
+chem.toxic,giftig
+chem.euphoria_weak,leichte Euphorie
+chem.euphoria_mild,mäßige Euphorie
+chem.euphoria_strong,starke Euphorie
+chem.euphoria_extreme,extreme Euphorie
+chem.synaprest,gegen Sucht
+chem.contraceptive,verhütend
+wine.aging,Reifebonus: +{0}/Tag (gesamt +{1})
+wine.composition,"Gehalt: Extrakt {0}‰, Schadstoffe {1}‰"
+wine.counterfeit,Fälschung: illegale Hefe
+wine.empty,Leer
+wine.fermenting,Gärt
+wine.finished,Fertig
+wine.score_part,", Wertung {0}"
+wine.state,Wein: {0}
+wine.preview,Wertung nach der Gärung: {0}
+wine.tier,", Stufe {0}"
+wine.unknown_state,Unbekannt ({0})
+wine.yeast_power,Hefestärke: {0}/Tick
+wine.yeast_effect,"Wein +{0} (einmalig), Gärung: {1} {1|Tick|Ticks}"
+wine.yeast_illegal,Der Wein wird eine Fälschung
+machine.energy_label,"Verbrauch: "
+machine.energy_unit,/Tag
+machine.energy_battery," {0}/{1} kJ, noch {2} {2|Tag|Tage}"
+machine.energy_left," {0} kJ, {1} {1|Tag|Tage}"
+config.section.layout,Layout
+config.authenticity,Echtheitsprüfung
+config.authenticity.tip,Unterscheidet echt von gefälscht und nennt Mängel und Fälschungsgründe.
+config.plant_analysis,Pflanzenanalyse
+config.plant_analysis.tip,"Zeigt Blühbeerenqualität und unanalysierte Samenmerkmale. „Mit Analysator“ zeigt Samenmerkmale nur, solange Sie einen Pflanzenanalysator besitzen; die Blühbeerenqualität erscheint in beiden Modi."
+config.plant_analysis.off,Aus
+config.plant_analysis.analyser,Mit Analysator
+config.plant_analysis.always,Immer
+config.valuation,Gutachtenrechner
+config.valuation.tip,Zeigt die Aufschlüsselung des wahren Werts und den perfekten Preisbereich von Gutachtenobjekten sowie Listenpreis und bestes Angebot im Titel des Gutachtendienstes.
+config.cost_performance,Wert pro Feld
+config.cost_performance.tip,Zeigt den Wert pro Inventarfeld und das Kompressionsverhältnis von Behältern.
+config.container_contents,Behälterinhalt
+config.container_contents.tip,Zeigt die Gegenstände in unverschlossenen Behältern als Symbole in einem Feld neben dem Tooltip.
+config.section.info,Zusatzinfos
+config.info_enhance,Zusätzliche Gegenstandsinfos
+config.info_enhance.tip,Ergänzt Tooltips um die unten aufgeführten Gegenstandsinfos. Ausgeschaltet wird alles ausgeblendet; die Einzelauswahl bleibt erhalten.
+config.tooltip_formatting,Tooltip-Textformatierung
+config.tooltip_formatting.tip,"Klarere Preisangaben, Beschreibungsumbrüche, Kalorienhinweise und Preisblockabstände. Deaktivieren erhält das originale Textlayout."
+config.type_badge,Kategorie-Plaketten
+config.type_badge.tip,Zeigt die Kategorien des Gegenstands über dem Tooltip.
+config.type_badge_muted,Plakettenfarben dämpfen
+config.type_badge_muted.tip,Plaketten außer Schmuggelware nutzen den dunklen Tooltip-Hintergrund und eine aufgehellte Kategoriefarbe; Schmuggelware behält roten Warntext.
+config.item_name_display,Gegenstandsnamen anzeigen
+config.item_name_display.tip,"Zeigt einen Namen unten an Gegenstandssymbolen. „Behälter & Maschinen“ beschriftet alle Behälter und Maschinen, bei eigenem Namen mit diesem. „Umbenannte Gegenstände“ beschriftet nur Gegenstände mit eigenem Namen."
+config.item_name_display.off,Aus
+config.item_name_display.containers,Behälter & Maschinen
+config.item_name_display.renamed,Umbenannte Gegenstände
+config.container_name_bg,Namenshintergrund
+config.container_name_bg.tip,Deckkraft der schwarzen Fläche hinter dem Namen (0–100 %); bei 0 kein Hintergrund.
+config.slider_percent,{0} %
+config.customer_alert,Hinweis bei Kundenankunft
+config.customer_alert.tip,"Meldet die Ankunft gesuchter oder augmentierter Kunden mit tatsächlicher Belohnung, echtem Namen sowie Abschussprämie und Bedrohung bei Augmentierten."
+config.customer_history,Gesprächsverlauf beim Hovern
+config.customer_history.tip,Beim Hovern über einem Kunden im Laden wird der Verlauf des aktuellen Besuchs angezeigt.
+config.section.interaction,Bedienung
+config.double_click_inspect,Doppelklick zum Untersuchen
+config.double_click_inspect.tip,"Ein Doppelklick auf Gutachten- oder Echtheitsprüfungsobjekte (Injektoren, Zigaretten, Lebensmittelmarken usw.) öffnet die Untersuchungsansicht ohne Lupe. Ist sie geöffnet, wechselt ein Doppelklick auf einen anderen Gegenstand direkt dorthin."
+config.double_click_scan,Doppelklick zum Scannen
+config.double_click_scan.tip,"Wenn Sie das passende Gerät besitzen, öffnet ein Doppelklick auf einen Gegenstand die Scanansicht: Wasser- oder Chemiescanner für Flüssigkeiten und Chemikalien, Röntgenscanner für verschlossene Versorgungskisten, Pflanzenanalysator für Samen. Gegenstände, die sich per Doppelklick öffnen oder benutzen lassen, behalten diese Aktion; ohne Gerät bleibt der ursprüngliche Doppelklick."
+config.context_menu_scan,Scannen zum Kontextmenü hinzufügen
+config.context_menu_scan.tip,"Wenn Sie das passende Gerät besitzen, enthält das Rechtsklickmenü eines Gegenstands den Eintrag „Scannen“, der die Scanansicht öffnet: Wasser- oder Chemiescanner für Flüssigkeiten und Chemikalien, Röntgenscanner für verschlossene Versorgungskisten, Pflanzenanalysator für Samen."
+config.expand_key,Taste zum Aufklappen
+config.expand_key.tip,"Halten Sie diese Taste, um die eingeklappten inaktiven Bestandteile in Zusammensetzungstabellen von Pflanzen anzuzeigen."
+config.expand_key.ctrl,Strg
+config.expand_key.shift,Umschalt
+config.expand_key.alt,Alt
+config.section.reveal,Einblick
+config.hidden_truth,Tarnungen & echte Werte aufdecken
+config.hidden_truth.tip,"Zeigt, was hinter getarnten Merkmalen steckt, die echte Haltbarkeit sowie die echte Barren- und Chemikalienreinheit. Entlarvt Fälschungen sofort und erleichtert Gutachten deutlich."
+config.liquid_analysis,Flüssigkeitsanalyse
+config.liquid_analysis.tip,"Zeigt Wasserreinheit und Verunreinigungen sowie Zusammensetzung und Wirkung von Medikamenten und Chemikalien. „Mit Scanner“ zeigt dies nur, solange Sie einen Wasser- oder Chemiescanner besitzen."
+config.color_liquid_components,Verunreinigungen nach Art einfärben
+config.color_liquid_components.tip,"Färbt jede Verunreinigungsart in der Zusammensetzungstabelle anders ein: chemische Schadstoffe, organischer Abfall, Mikroben, Mineralien, Schwermetalle und physische Verunreinigungen. Aus: alle weiß."
+config.liquid_analysis.off,Aus
+config.liquid_analysis.scanner,Mit Scanner
+config.liquid_analysis.always,Immer
+config.water_advice,Reinigungsempfehlung
+config.water_advice.tip,"Zeigt bei Wasserbehältern, um wie viel jede Reinigungsmethode (Filter, Maschinen) die Reinheit erhöhen würde. Steht „Flüssigkeitsanalyse“ auf „Mit Scanner“, braucht auch dies einen Scanner."
+config.scratcher,Rubbellos-Vorschau
+config.scratcher.tip,"Zeigt vor dem Rubbeln, ob und wie viel ein Rubbellos gewinnt und wie weit es freigerubbelt ist. Nur Auslesen nach den Spielregeln; es wird nie für dich gerubbelt."
+config.sealed_box,Röntgenblick für verschlossene Behälter
+config.sealed_box.tip,"Listet Inhalt und Gesamtwert verschlossener Behälter (Safes, Waffenschränke) schon vor dem Öffnen auf. Das umgeht das Schloss."
+config.result_prefill,Prüfergebnis vorausfüllen
+config.result_prefill.tip,"Öffnet das Prüffenster, hakt die tatsächlichen Fälschungsmängel ab und trägt den Prüfpreis ein – echter Wert oder bestes Angebot, wie unten gewählt. Füllt nur die Felder aus, sendet oder bestätigt nichts."
+config.result_prefill_source,Vorausgefüllter Preis
+config.result_prefill_source.tip,Echter Wert = der reale Wert des Spiels; bestes Angebot = die Obergrenze des perfekten Bereichs aus dem Tooltip.
+config.result_prefill_source.true,Echter Wert
+config.result_prefill_source.best,Bestes Angebot
+machine.eta,Fertig in etwa {0} {0|Tag|Tagen}
+machine.eta_battery," (Batterie reicht {0} {0|Tag|Tage})"
+machine.eta_battery_short," (Batterie reicht nicht)"
+machine.eta_water," (Wasser reicht {0} {0|Tag|Tage})"
+machine.paused,Pausiert: {0}
+machine.paused_label,Pausiert
+hydro.water,"Wasser: {0}{3} ({2}{3}/Tag), {1} {1|Tag|Tage}"
+hydro.water_short,"Wasser: {0}{3} ({2}{3}/Tag), <1 Tag"
+hydro.status_label,Status: 
+hydro.eta_paused,"ca. {0} {0|Tag|Tage}, {1}"
+hydro.eta_growing,"ca. {0} {0|Tag|Tage}, {1}"
+hydro.progress,{0}/{1} ({2} {2|Tag|Tage})
+hydro.label,Wasser
+hydro.value,{0}{1} ({2}{1}/Tag)
+hydro.left,{0} {0|Tag|Tage}
+hydro.left_short,<1 Tag
+purifier.estimate,Geschätzte Reinigung heute Nacht: {0} ml
+purifier.tier," ({0} → {1})"
+purifier.label,Reinigung
+purifier.rate,{0}mL/heute Nacht
+hydro.purify_rank,Reinigungs-Gen Stufe {0}
+ras.purify_fish,{0} {0|Fisch|Fische} nehmen auf
+fridge.no_effect,", {0} ohne Wirkung"
+fridge.label,Kühlschrank
+wine.rack,"{0} {0|Flasche reift|Flaschen reifen}, +{1} {1|Tag|Tage}/Tag"
+wine.rack_idle,", {0} reifen nicht"
+wine.rack_label,Reifung
+inner.line,{0}: {1}
+inner.input_slot,Eingabefach
+inner.output_slot,Ausgabefach
+inner.printer_material_slot,Materialfach
+inner.printer_product_slot,Produktfach
+inner.durability,{0}: Haltbarkeit {1}/{2}
+inner.faked," (angezeigt: {0})"
+inner.filter_spent," (verbraucht, filtert nicht mehr)"
+filter.label,Filter
+filter.lowest,"×{0}, niedrigste {1}/{2}"
+inner.filters,Filter ×{0}: niedrigste Haltbarkeit {1}/{2}
+inner.spent_count,", {0} verbraucht"
+inner.liquid,{0}/{1}{2}
+inner.liquid_empty,Leer
+inner.liquid_purity,", {0}% {1}"
+unit.ml," ml"
+unit.liter," L"
+inner.uses,{0}: verbleibende Anwendungen {1}/{2}
+inner.tools,"Werkzeuge ×{0}, am wenigsten: {1} ({2}/{3})"
+inner.energy,{0}: Energie {1}/{2}
+learning.progress,Lernfortschritt: {0}
+learning.stat,{0} {1}/{2}
+learning.stat_full,{0} ausgelernt
+learning.machine,Lernen: {0}/{1} {1|Modul|Module}
+learning.nights,({0} {0|Tag|Tage})
+recharger.label,Laden
+module.days_faster,", etwa {0} {0|Tag|Tage} schneller"
+module.output,{0} ml/Tag
+module.evaporate,{0} ml Verdampfung pro Nacht
+module.recover,{0}% Destillat zurückgewonnen
+module.attract,{0} % Attraktivität
+module.bargain,{0} % Feilscherfolg
+module.theft,{0} % Diebstahlschutz
+module.aging_next,+{0} % für +1 Reifetempo
+module.print_quality,{0} Druckqualität
+module.success,{0} % Erfolgschance
+module.harvest,{0} % Ernte
+module.water_next,+{0} % für {1}
+module.water_top,erzeugt {0}
+module.purifier_next,+{0} % zum Reinigen bis {1}
+module.purifier_full,+{0} % für 100 % Reinheit
+module.purifier_top,reinigt bis 100 %
+module.furnace_gain,Reinheit {0}
+module.furnace_step,+{0} % für Reinheit {1}
+module.furnace_result,Barren ×{0}: {1}/10
+module.furnace_cap,Maximale Reinheit
+module.furnace_basic,Einfaches Flussmittel verbraucht
+module.furnace_junk,Kein Qualitätseffekt bei Abfall
+history.empty,Noch keine Unterhaltung.
+history.earlier,…{0} frühere {0|Zeile|Zeilen}
+history.unknown,Kunde
+appraisal.minimum_adjustment,Mindestwertanpassung
+meat.source,Fleischherkunft: {0}
+meat.unknown,Unbekannt
+meat.fish,Fisch
+meat.prion,Prionen: {0}
+meat.prion.present,Vorhanden
+meat.prion.unmarked,Nicht markiert
+berry.wine_value,Weinwert: {0}
+config.info_price_modifiers,Preismodifikatoren
+config.info_price_modifiers.tip,"Zeigt Preiseinflüsse durch Etiketten, Zustand und Ladenereignisse."
+config.info_black_market,Schwarzmarktaufschlag
+config.info_black_market.tip,Zeigt den Schwarzmarktaufschlag für Schmuggelware.
+config.info_lottery,Lotterie
+config.info_lottery.tip,"Zeigt gezogene Zahlen, Treffer und Gewinne. Ändert keine Ziehungsergebnisse."
+config.info_brewing,Weinherstellung
+config.info_brewing.tip,"Zeigt Weinwerte der Zutaten, Hefeeffekte, Weinbewertung und Zusammensetzung sowie Gärung und Reifung."
+config.info_meat,Fleisch
+config.info_meat.tip,Zeigt die Herkunftsart des Fleisches und Prionenmarkierungen.
+config.info_machines,Maschinen
+config.info_machines.tip,"Zeigt Moduleffekte, Lernfortschritt, verbleibende Tage, Wasserverbrauch, Kühlung, Reifung, Reinigungsertrag und erwartete Schmelzprodukte."
+config.info_batteries,Batterien
+config.info_batteries.tip,"Zeigt Ladung und verbleibende Tage, auch für jede Batterie im Ladegerät."
+config.info_progress_bar,Farbige Fortschrittsbalken
+config.info_progress_bar.tip,Ersetzt Textbalken durch farbige Blöcke. Ausschalten stellt den ursprünglichen Stil wieder her.
+config.info_manufacturer_inline,Firmenname in der Namenszeile
+config.info_manufacturer_inline.tip,Verschiebt den Firmennamen nach rechts in die Zeile des Gegenstandsnamens.
+config.info_container_units,Flüssigkeitseinheiten optimieren
+config.info_container_units.tip,Mengen über 3 L werden in Litern angezeigt (bis 3 L in mL). Komponentenmengen stets in mL mit signifikanten Stellen; Spurenanteile behalten 3 signifikante Stellen.
+config.gene_rank_arabic,Genetik-Stufen als arabische Ziffern
+config.gene_rank_arabic.tip,"Zeigt die Stufen der Samen-Merkmale als arabische Ziffern (1, 2, 3 ...). Ausgeschaltet stehen wieder die römischen Zahlen des Originalspiels (I, II, III ...)."
+list.zone_sep,; 
+module.special_label,Spezial
+module.learn_chance,{0} % Chance pro Nacht auf „Lernender Algorithmus“
+module.learn_extra,{0} zusätzliche Lernschritte pro Tag
+animal.next_stage,Nächste Stufe: {0} (+{1} {1|Lebenstag|Lebenstage})
+exchange.tonight,Heute Nacht voraussichtlich: {0}
+exchange.reputation,Schwarzmarktruf
+exchange.module,"Selten: {0}, sonst keine Belohnung"
+exchange.keycards,Zweimal zufällig aus: {0}
+exchange.low_purity,Keine Belohnung (Traumstaub zu unrein)
+exchange.unknown,Belohnung wird bei der Abrechnung ermittelt
+exchange.candidates,Zufällig aus: {0}
+exchange.module_candidates,{0}; selten: {1}
+animal.genes_trait,Merkmal
+animal.genes_expression,Ausprägung
+animal.genes_alleles,Allele
+animal.genes_grade,Rang
+luck.current,Aktuelles Glück: {0}
+luck.base,Grundglück: {0}
+luck.coin,Mitgeführte Münze: {0}
+luck.liquid,{0}: {1} (noch {2} {2|Tag|Tage})
