@@ -17,6 +17,23 @@ jobs:
         with:
           lfs: true
 
+      # GameCI v4 installs the editor through the Hub 3 headless interface.
+      - name: Install compatible Unity Hub
+        shell: bash
+        run: |
+          set -euo pipefail
+          version=3.22.6
+          dmg="$RUNNER_TEMP/unity-hub.dmg"
+          mount="$RUNNER_TEMP/unity-hub-volume"
+          curl --fail --location --retry 3 --output "$dmg" \
+            "https://public-cdn.cloud.unity3d.com/hub/prod/$version/UnityHubSetup-$version-arm64.dmg"
+          echo "e04d0320daf5df3d460435320222d8f4981f1388ecb0b5b22482ad98a9bbbf85  $dmg" | shasum -a 256 -c -
+          mkdir -p "$mount"
+          hdiutil attach -readonly -nobrowse -mountpoint "$mount" "$dmg"
+          trap 'hdiutil detach "$mount"' EXIT
+          ditto "$mount/Unity Hub.app" "/Applications/Unity Hub.app"
+          test "$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' '/Applications/Unity Hub.app/Contents/Info.plist')" = "$version"
+
       - name: Export Unity iOS project
         uses: game-ci/unity-builder@v4
         env:
