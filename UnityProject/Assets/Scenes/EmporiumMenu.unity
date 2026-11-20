@@ -47763,6 +47763,7 @@ MonoBehaviour:
   hardToggle: {fileID: 1994}
   endlessToggle: {fileID: 1779}
   versionTMP: {fileID: 1433}
+  portNoticeTypeface: {fileID: 12800000, guid: 8a2afd130cb94684abd985e5081cdf29, type: 3}
   creditPanel: {fileID: 21}
   welcomePanel: {fileID: 77}
   modPanel: {fileID: 178}

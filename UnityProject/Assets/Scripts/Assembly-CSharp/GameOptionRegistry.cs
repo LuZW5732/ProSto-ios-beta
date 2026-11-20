@@ -464,6 +464,14 @@ public static class GameOptionRegistry
 			Opt.dialogVolume = v;
 		}));
 		Section orAddSection3 = GetOrAddSection("display", MainMenu("option_graphic"));
+#if UNITY_IOS
+		orAddSection3.entries.Add(Slider("ios_toolbar_size",
+			() => LocHelper.GetCurrentLocaleCode()?.StartsWith("zh") == true ? "工具栏按键大小" : "Toolbar button size",
+			() => ProbablyStolen.Port.PortTouchToolbar.SizePercent,
+			v => ProbablyStolen.Port.PortTouchToolbar.SizePercent = Mathf.RoundToInt(v),
+			ProbablyStolen.Port.PortTouchLayout.MinPercent, ProbablyStolen.Port.PortTouchLayout.MaxPercent,
+			wholeNumbers: true, valueText: v => Mathf.RoundToInt(v) + "%"));
+#endif
 		orAddSection3.note = MainMenu("option_note");
 		orAddSection3.noteVisible = FullscreenLetterboxed;
 		Entry entry = Dropdown("resolution", MainMenu("option_resolution"), ResolutionOptions, () => Opt.resolution, (int v) =>

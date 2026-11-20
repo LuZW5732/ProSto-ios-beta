@@ -42,6 +42,20 @@ namespace ProbablyStolen.Port
         private string currentLocale = "";
         private Rect lastSafeArea;
         private float lastScale;
+        private const string SizeKey = "iosPortToolbarSizePercent";
+        private static int? sizePercent;
+        internal static int SizePercent
+        {
+            get => sizePercent ?? (sizePercent = Mathf.Clamp(PlayerPrefs.GetInt(SizeKey, PortTouchLayout.DefaultPercent),
+                PortTouchLayout.MinPercent, PortTouchLayout.MaxPercent)).Value;
+            set
+            {
+                sizePercent = Mathf.Clamp(value, PortTouchLayout.MinPercent, PortTouchLayout.MaxPercent);
+                PlayerPrefs.SetInt(SizeKey, sizePercent.Value);
+                PlayerPrefs.Save();
+            }
+        }
+        private int lastSizePercent;
 
         private void Awake()
         {
@@ -301,8 +315,9 @@ namespace ProbablyStolen.Port
             }
 
             float currentScale = TouchInputBridge.Instance != null ? TouchInputBridge.Instance.PixelsPerPoint : Mathf.Max(1f, Screen.dpi / 163f);
-            if (Mathf.Abs(lastScale - currentScale) > 0.001f)
+            if (Mathf.Abs(lastScale - currentScale) > 0.001f || lastSizePercent != SizePercent)
             {
+                lastSizePercent = SizePercent;
                 lastScale = currentScale;
                 dirty = true;
             }
@@ -363,7 +378,7 @@ namespace ProbablyStolen.Port
                 if (font != null) entry.Label.font = font;
                 entry.Label.text = isZh ? entry.TextZh : entry.TextEn;
 
-                PortTouchLayout.CalculateButtonRect(sa, scale, visibleIndex, totalVisible, out var size, out var pos, out var fontSize);
+                PortTouchLayout.CalculateButtonRect(sa, scale, visibleIndex, totalVisible, out var size, out var pos, out var fontSize, SizePercent);
 
                 entry.Label.enableAutoSizing = false;
                 entry.Label.fontSize = fontSize;

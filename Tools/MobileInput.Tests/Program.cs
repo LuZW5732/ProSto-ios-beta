@@ -700,6 +700,22 @@ internal static class Program
 
     private static void TestToolbarLayoutSafeAreaConstraints()
     {
+        var safe = new Rect(132, 63, 2532, 1227);
+        float previousWidth = 0;
+        foreach (int percent in new[] { 80, 100, PortTouchLayout.DefaultPercent, 150 })
+        {
+            for (int i = 0; i < 20; ++i)
+            {
+                PortTouchLayout.CalculateButtonRect(safe, 3, i, 20, out var button, out var pos, out var font, percent);
+                Assert(pos.x >= safe.xMin && pos.y >= safe.yMin && pos.x + button.x <= safe.xMax + .01f
+                    && pos.y + button.y <= safe.yMax + .01f, $"Toolbar {percent}% button {i} outside safe area");
+                if (i == 0)
+                {
+                    Assert(button.x > previousWidth && font > 0, "Increasing the setting must enlarge the button");
+                    previousWidth = button.x;
+                }
+            }
+        }
         // Scenario 1: iPhone 15 Pro Max Landscape (2796 x 1290) with Dynamic Island / Home Indicator
         // safeArea: xMin=132, xMax=2664, yMin=63, yMax=1290, width=2532, height=1227
         var saMax = new Rect(132f, 63f, 2532f, 1227f);

@@ -52,6 +52,7 @@ public class MainMenuUIController : MonoBehaviour
 	public Toggle endlessToggle;
 
 	public TextMeshProUGUI versionTMP;
+	[SerializeField] private Font portNoticeTypeface;
 
 	public GameObject creditPanel;
 
@@ -165,7 +166,7 @@ public class MainMenuUIController : MonoBehaviour
 		HandleLocaleDropdown();
 		HandleWelcomePanel();
 #if UNITY_IOS
-		ProbablyStolen.Port.PortAuthorNotice.Install(versionTMP);
+		ProbablyStolen.Port.PortAuthorNotice.Install(versionTMP, portNoticeTypeface);
 #endif
 		if (NewGameData.Instance.isShowcase)
 		{
