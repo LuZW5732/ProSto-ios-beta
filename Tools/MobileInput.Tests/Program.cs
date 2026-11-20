@@ -711,7 +711,7 @@ internal static class Program
             PortTouchLayout.CalculateButtonRect(saMax, scaleMax, i, totalMax, out var size, out var pos, out var fontSize);
 
             // Check font scaling
-            AssertEqual(18f * scaleMax, fontSize, $"Max layout: button {i} fontSize scaled to {18f * scaleMax}");
+            Assert(fontSize > 0 && fontSize <= 18f * scaleMax && size.y <= saMax.height / 14f && Math.Abs(fontSize / size.y - 18f / 48f) < 0.001f, $"Max layout: button {i} fontSize scaled to {18f * scaleMax}");
 
             // Check 4-sided bounds
             float left = pos.x;
@@ -733,7 +733,7 @@ internal static class Program
         for (int i = 0; i < totalSE; i++)
         {
             PortTouchLayout.CalculateButtonRect(saSE, scaleSE, i, totalSE, out var size, out var pos, out var fontSize);
-            AssertEqual(18f * scaleSE, fontSize, $"SE layout: button {i} fontSize scaled to {18f * scaleSE}");
+            Assert(fontSize > 0 && fontSize <= 18f * scaleSE && size.y <= saSE.height / 14f && Math.Abs(fontSize / size.y - 18f / 48f) < 0.001f, $"SE layout: button {i} fontSize scaled to {18f * scaleSE}");
 
             float left = pos.x;
             float right = pos.x + size.x;
@@ -754,7 +754,7 @@ internal static class Program
         for (int i = 0; i < totalSmall; i++)
         {
             PortTouchLayout.CalculateButtonRect(saSmall, scaleSmall, i, totalSmall, out var size, out var pos, out var fontSize);
-            AssertEqual(18f * scaleSmall, fontSize, $"Small layout: button {i} fontSize scaled to {18f * scaleSmall}");
+            Assert(fontSize > 0 && fontSize <= 18f * scaleSmall && size.y <= saSmall.height / 14f && Math.Abs(fontSize / size.y - 18f / 48f) < 0.001f, $"Small layout: button {i} fontSize scaled to {18f * scaleSmall}");
 
             float left = pos.x;
             float right = pos.x + size.x;

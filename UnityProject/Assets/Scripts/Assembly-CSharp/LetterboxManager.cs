@@ -542,7 +542,9 @@ public class LetterboxManager : MonoBehaviour
 		Canvas[] array = UnityEngine.Object.FindObjectsOfType<Canvas>(includeInactive: true);
 		foreach (Canvas canvas2 in array)
 		{
-			if (!canvas2.isRootCanvas || canvas2 == dockCanvas)
+			// Touch controls use physical screen coordinates, including the
+			// safe parts of the side margins outside the game camera.
+			if (!canvas2.isRootCanvas || canvas2 == dockCanvas || canvas2.GetComponent<ProbablyStolen.Port.PortTouchCanvas>() != null)
 			{
 				continue;
 			}

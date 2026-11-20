@@ -164,6 +164,9 @@ public class MainMenuUIController : MonoBehaviour
 		PreLoadLocalizationTable();
 		HandleLocaleDropdown();
 		HandleWelcomePanel();
+#if UNITY_IOS
+		ProbablyStolen.Port.PortAuthorNotice.Install(versionTMP);
+#endif
 		if (NewGameData.Instance.isShowcase)
 		{
 			creditButton.SetActive(value: false);

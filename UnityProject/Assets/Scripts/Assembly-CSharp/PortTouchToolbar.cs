@@ -224,6 +224,9 @@ namespace ProbablyStolen.Port
         private void Update()
         {
             if (canvas == null) Build();
+            bool showToolbar = !PortAuthorNotice.IsOpen;
+            if (canvas.gameObject.activeSelf != showToolbar) canvas.gameObject.SetActive(showToolbar);
+            if (!showToolbar) return;
 
             // Handle transfer key release per original IPA 0x1A3DF7C
             if (transferKey != KeyCode.None)
@@ -330,7 +333,7 @@ namespace ProbablyStolen.Port
             bool isZh = string.IsNullOrEmpty(currentLocale) || currentLocale.StartsWith("zh", StringComparison.OrdinalIgnoreCase);
             float scale = TouchInputBridge.Instance != null ? TouchInputBridge.Instance.PixelsPerPoint : Mathf.Max(1f, Screen.dpi / 163f);
             Rect sa = Screen.safeArea;
-
+            if (sa.width <= 0f || sa.height <= 0f) return;
             TMP_FontAsset font = null;
             try
             {
