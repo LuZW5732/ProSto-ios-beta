@@ -135,6 +135,24 @@ public class MainMenuUIController : MonoBehaviour
 		("pl", "Polish")
 	};
 
+	private static string saveFailureMessage;
+
+	internal static void ReturnAfterSaveFailure(System.Exception error, bool endingDay)
+	{
+		Debug.LogException(error);
+		bool chinese = LocHelper.GetCurrentLocaleCode()?.StartsWith("zh") == true;
+		string summary = endingDay
+			? (chinese ? "过夜未完成。请重新载入最近的存档。" : "The day transition failed. Reload your latest save.")
+			: (chinese ? "读取存档失败。请保留当前存档，或选择较早的一天。" : "Could not load this save. Keep the file or select an earlier day.");
+		var cause = error.GetBaseException();
+		saveFailureMessage = summary + "\n" + cause.GetType().Name + ": " + cause.Message;
+		if (AudioManager.Instance != null)
+			AudioManager.Instance.ResumeAllSource();
+		PlayerStore.ResetData();
+		StoreStation.ResetData();
+		UnityEngine.SceneManagement.SceneManager.LoadScene("EmporiumMenu");
+	}
+
 	public static MainMenuUIController Instance { get; private set; }
 
 	private void Awake()
@@ -169,6 +187,11 @@ public class MainMenuUIController : MonoBehaviour
 		PreLoadLocalizationTable();
 		HandleLocaleDropdown();
 		HandleWelcomePanel();
+		if (saveFailureMessage != null)
+		{
+			confirmPanelUIManager.OpenPanel(saveFailureMessage, hideNoButton: true);
+			saveFailureMessage = null;
+		}
 #if UNITY_IOS
 		ProbablyStolen.Port.PortAuthorNotice.Install(versionTMP, portNoticeTypeface);
 #endif

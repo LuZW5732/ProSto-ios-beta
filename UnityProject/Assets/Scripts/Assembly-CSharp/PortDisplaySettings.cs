@@ -38,13 +38,11 @@ namespace ProbablyStolen.Port
                 PlayerPrefs.SetInt(key, next);
                 PlayerPrefs.Save();
                 refresh = true;
-                if (this == UiSize && EmporiumEntry.Instance != null && RenderHandler.current?.windowUICanvas != null)
-                    EmporiumEntry.Instance.UpdateScaleFactor();
             }
         }
 
-        internal static readonly Percentage UiSize = new Percentage("ios_ui_scale", "界面大小", "Interface size", 85, 110);
-        internal static readonly Percentage TextSize = new Percentage("ios_text_scale", "文字大小", "Text size", 85, 135);
+        internal static readonly Percentage UiSize = new Percentage("ios_ui_scale", "界面大小", "Interface size", 85, 150);
+        internal static readonly Percentage TextSize = new Percentage("ios_text_scale", "文字大小", "Text size", 85, 175);
         private static bool refresh;
         private static Font typeface;
         private static TMP_FontAsset settingsFont;
@@ -147,6 +145,10 @@ namespace ProbablyStolen.Port
         {
             if (canvas == null || !canvas.isRootCanvas || canvas.renderMode == RenderMode.WorldSpace ||
                 canvas.GetComponent<PortTouchCanvas>() != null) return;
+            // These screen-space layers are aligned to the store backdrop.
+            var render = RenderHandler.current;
+            if (canvas.name == "CanvasWorldStoreInteract" ||
+                (render != null && (canvas == render.windowUICanvas || canvas == render.OverlayCanvas))) return;
             var scaler = canvas.GetComponent<CanvasScaler>();
             if (scaler == null) return;
             if (scaler.uiScaleMode == CanvasScaler.ScaleMode.ScaleWithScreenSize)
@@ -158,9 +160,6 @@ namespace ProbablyStolen.Port
             }
             else if (scaler.uiScaleMode == CanvasScaler.ScaleMode.ConstantPixelSize)
             {
-                // The store sets its window and overlay pixel scales in EmporiumEntry.UpdateScaleFactor.
-                var render = RenderHandler.current;
-                if (render != null && (canvas == render.windowUICanvas || canvas == render.OverlayCanvas)) return;
                 if (!originalPixelScale.TryGetValue(scaler, out float size))
                     originalPixelScale.Add(scaler, size = scaler.scaleFactor);
                 float target = size * UiSize.Scale;

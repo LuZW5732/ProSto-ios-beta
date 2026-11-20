@@ -12,6 +12,8 @@ public class DialogBubbleScaler
 		public Vector2 basePosition;
 
 		public Entry leader;
+
+		public bool isChoice;
 	}
 
 	private readonly List<Entry> entries = new List<Entry>();
@@ -26,6 +28,7 @@ public class DialogBubbleScaler
 				Entry item = new Entry
 				{
 					rect = rectTransform,
+					isChoice = bubble is DialogChoiceBubble,
 					baseScale = rectTransform.localScale,
 					basePosition = rectTransform.anchoredPosition,
 					leader = ((leader != null) ? Find(leader) : null)
@@ -66,11 +69,15 @@ public class DialogBubbleScaler
 		{
 			if (!(entry.rect == null))
 			{
-				entry.rect.localScale = entry.baseScale * factor;
+				float bubbleFactor = factor;
+#if UNITY_IOS
+                if (entry.isChoice) bubbleFactor *= 1.25f;
+#endif
+                entry.rect.localScale = entry.baseScale * bubbleFactor;
 				if (entry.leader != null && entry.leader.rect != null)
 				{
 					Vector2 vector = entry.basePosition - entry.leader.basePosition;
-					entry.rect.anchoredPosition = entry.leader.rect.anchoredPosition + vector * factor;
+					entry.rect.anchoredPosition = entry.leader.rect.anchoredPosition + vector * bubbleFactor;
 				}
 			}
 		}

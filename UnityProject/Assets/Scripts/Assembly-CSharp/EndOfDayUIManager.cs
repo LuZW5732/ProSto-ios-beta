@@ -240,6 +240,7 @@ public class EndOfDayUIManager : MonoBehaviour
 
 	public void OnEndDayButtonClick()
 	{
+		System.Exception transitionError = null;
 		Stopwatch stopwatch = Stopwatch.StartNew();
 		EmporiumAnalytics.TrackOnSleep();
 		if (endDayButton != null)
@@ -250,34 +251,21 @@ public class EndOfDayUIManager : MonoBehaviour
 		StoreUIManager.Instance.savingTMP.gameObject.SetActive(value: true);
 		StoreUIManager.Instance.StartBlackscreenSequence(playFullSequence: true, () =>
 		{
-			StoreShutterButton.Instance.ForceImmediateClose();
-			PlayerStore.Instance.storeState = PlayerStore.StoreState.MORNING;
-			PlayerStore.Instance.lockShutterButtonFlag = 0;
-			StoreUIManager.Instance.CloseAllUI();
-			EmporiumAudioPlayer.Instance.Play();
-			CloseUI(restorePaperUI: false);
-			PlayerStore.Instance.EndNight();
-			StoreStation.Instance.storeEventManager.OnDayEnd();
-			PlayerStore.Instance.storeState = PlayerStore.StoreState.MORNING;
-			PlayerStore.Instance.lockShutterButtonFlag = 0;
-			StoreUIManager.Instance.savingTMP.gameObject.SetActive(value: false);
-			RecorderUIManager.Instance.ClearAllElement();
-			PlayerStore.Instance.BeginDay();
-			TutorialUIManager.Instance.OnDayBegin();
-			if (ReactorHelper.ConsumeExplosion())
+			try
 			{
-				PlayerStore.Instance.ExecuteGameOver("reactor");
+				CompleteNight();
 			}
-			else if (PlayerStore.Instance.augPresence >= 100 && (Difficulty.Rules.augGameOverAtFullPresence || StartingPerk.IsAugMenace()))
+			catch (System.Exception error)
 			{
-				PlayerStore.Instance.ExecuteGameOver("aug");
-			}
-			else
-			{
-				PlayerStore.Instance.SaveGame();
+				transitionError = error;
 			}
 		}, () =>
 		{
+			if (transitionError != null)
+			{
+				MainMenuUIController.ReturnAfterSaveFailure(transitionError, endingDay: true);
+				return;
+			}
 			if (!GameOverUIManager.Instance.uiPanel.activeSelf)
 			{
 				if (PaperUIManager.Instance != null)
@@ -289,5 +277,35 @@ public class EndOfDayUIManager : MonoBehaviour
 			stopwatch.Stop();
 			Debug.Log($"OnEndDayButtonClick took {stopwatch.ElapsedMilliseconds} ms");
 		}, 0.5f, 0.5f);
+	}
+
+	private void CompleteNight()
+	{
+		StoreShutterButton.Instance.ForceImmediateClose();
+		PlayerStore.Instance.storeState = PlayerStore.StoreState.MORNING;
+		PlayerStore.Instance.lockShutterButtonFlag = 0;
+		StoreUIManager.Instance.CloseAllUI();
+		EmporiumAudioPlayer.Instance.Play();
+		CloseUI(restorePaperUI: false);
+		PlayerStore.Instance.EndNight();
+		StoreStation.Instance.storeEventManager.OnDayEnd();
+		PlayerStore.Instance.storeState = PlayerStore.StoreState.MORNING;
+		PlayerStore.Instance.lockShutterButtonFlag = 0;
+		StoreUIManager.Instance.savingTMP.gameObject.SetActive(value: false);
+		RecorderUIManager.Instance.ClearAllElement();
+		PlayerStore.Instance.BeginDay();
+		TutorialUIManager.Instance.OnDayBegin();
+		if (ReactorHelper.ConsumeExplosion())
+		{
+			PlayerStore.Instance.ExecuteGameOver("reactor");
+		}
+		else if (PlayerStore.Instance.augPresence >= 100 && (Difficulty.Rules.augGameOverAtFullPresence || StartingPerk.IsAugMenace()))
+		{
+			PlayerStore.Instance.ExecuteGameOver("aug");
+		}
+		else
+		{
+			PlayerStore.Instance.SaveGame();
+		}
 	}
 }

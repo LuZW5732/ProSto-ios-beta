@@ -385,13 +385,20 @@ private void Start()
         backInvinvElement.mayInventoryAddItemFunc = (GameItem item, GameInventory _) => (!GeneralHelper.IsHazardousWaste(item) || !MapUIManager.Instance.IsOutside) ? true : false;
         InitResponseWindow();
         AddAlwayItems();
-        PlayerStore preloadedStore = PlayerStore.PreLoadStore();
-        LoadDisplayCaseUpgrade(preloadedStore);
-        LoadFixtureUpgrades(preloadedStore);
         if (NewGameData.Instance != null && NewGameData.Instance.saveSlot != -1)
         {
-            Debug.Log("Loaded save slot: " + NewGameData.Instance.saveSlot);
-            PlayerStore.Instance.LoadGame();
+            try
+            {
+                PlayerStore preloadedStore = PlayerStore.PreLoadStore();
+                LoadDisplayCaseUpgrade(preloadedStore);
+                LoadFixtureUpgrades(preloadedStore);
+                PlayerStore.Instance.LoadGame();
+            }
+            catch (Exception error)
+            {
+                MainMenuUIController.ReturnAfterSaveFailure(error, endingDay: false);
+                return;
+            }
             if (PlayerStore.Instance.nightLogs.Count > 0)
             {
                 StartOfDayUIManager.Instance.ShowMorningReport();
@@ -453,13 +460,13 @@ private void Start()
 
 	public void LoadDisplayCaseUpgrade(PlayerStore preloadedStore)
 	{
-		if (preloadedStore != null && NewGameData.Instance != null && NewGameData.Instance.saveSlot != -1)
+		if (preloadedStore?.networkUpgrade != null && NewGameData.Instance != null && NewGameData.Instance.saveSlot != -1)
 		{
-			if (preloadedStore.networkUpgrade["SHOWCASE_II"].IsUnlocked())
+			if (preloadedStore.networkUpgrade.TryGetValue("SHOWCASE_II", out var upgradeII) && upgradeII?.IsUnlocked() == true)
 			{
 				UpgradeDisplayCaseII();
 			}
-			else if (preloadedStore.networkUpgrade["SHOWCASE_I"].IsUnlocked())
+			else if (preloadedStore.networkUpgrade.TryGetValue("SHOWCASE_I", out var upgradeI) && upgradeI?.IsUnlocked() == true)
 			{
 				UpgradeDisplayCaseI();
 			}
@@ -993,9 +1000,6 @@ private void Start()
 				num = 1f;
 			}
 		}
-#if UNITY_IOS
-        num *= ProbablyStolen.Port.PortDisplaySettings.UiSize.Scale;
-#endif
         Debug.Log("UI scale for game area " + gameAreaWidth + "x" + gameAreaHeight + ": " + num);
 		RenderHandler.current.windowUICanvas.scaleFactor = num;
 		UIFamilyLayer.SyncScale();

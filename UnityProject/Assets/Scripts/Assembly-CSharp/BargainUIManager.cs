@@ -448,7 +448,14 @@ public class BargainUIManager : MonoBehaviour
 		}
 	}
 
-	private void BuildGroups(List<BargainType> shown)
+	#if UNITY_IOS
+    private const float ChoiceHeight = 44f;
+#else
+    private const float ChoiceHeight = 32f;
+#endif
+    private const float GroupHeight = 36f + ChoiceHeight + 6f;
+
+    private void BuildGroups(List<BargainType> shown)
 	{
 		TabletUI.ClearChildren(frame.groupsHost);
 		groups.Clear();
@@ -456,7 +463,7 @@ public class BargainUIManager : MonoBehaviour
 		foreach (BargainType item in shown)
 		{
 			groups.Add(BuildGroup(item, num));
-			num += 82f;
+			num += GroupHeight + 8f;
 		}
 		float y = Mathf.Max(399f, num - 8f);
 		frame.groupsHost.sizeDelta = new Vector2(frame.groupsHost.sizeDelta.x, y);
@@ -472,7 +479,7 @@ public class BargainUIManager : MonoBehaviour
 		{
 			type = type
 		};
-		RectTransform rectTransform = TabletUI.NewRect(frame.groupsHost, "Group_" + type, 12f, y, 290f, 74f);
+		RectTransform rectTransform = TabletUI.NewRect(frame.groupsHost, "Group_" + type, 12f, y, 290f, GroupHeight);
 		obj.root = rectTransform.gameObject;
 		TabletUI.NewStretched(rectTransform, "Frame", frame.frame2, TabletStyle.INK);
 		float num = 2f;
@@ -496,7 +503,7 @@ public class BargainUIManager : MonoBehaviour
 			int percent = (flag ? ((type == BargainType.Blackmail) ? 20 : 20) : PRICE_PERCENTS[num7]);
 			float x = num + 6f + (float)num7 * (num6 + 8f);
 			BargainType captured = type;
-			TabletButton tabletButton = TabletUI.SmallButton(frame, rectTransform, x, y2, num6, 32f, ButtonLabel(type, percent), () =>
+			TabletButton tabletButton = TabletUI.SmallButton(frame, rectTransform, x, y2, num6, ChoiceHeight, ButtonLabel(type, percent), () =>
 			{
 				OnBargainButton(captured, percent);
 			});

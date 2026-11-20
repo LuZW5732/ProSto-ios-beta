@@ -174,8 +174,13 @@ public static class SaveFiles
 
 	public static string RotateIntoHistory(int slotId)
 	{
-		string text = AbsolutePath(Slot(slotId));
-		if (!File.Exists(text))
+		return ArchivePreviousSave(slotId, keepLatest: false);
+    }
+
+    internal static string ArchivePreviousSave(int slotId, bool keepLatest)
+    {
+        string text = AbsolutePath(Slot(slotId));
+        if (!File.Exists(text))
 		{
 			return null;
 		}
@@ -188,8 +193,11 @@ public static class SaveFiles
 		{
 			File.Delete(text2);
 		}
-		File.Move(text, text2);
-		List<SaveHistoryEntry> list = LoadHistory(slotId);
+		if (keepLatest)
+            File.Copy(text, text2);
+        else
+            File.Move(text, text2);
+        List<SaveHistoryEntry> list = LoadHistory(slotId);
 		list.RemoveAll((SaveHistoryEntry e) => e.file == historyName);
 		list.Insert(0, new SaveHistoryEntry
 		{
@@ -1035,7 +1043,7 @@ public static class SaveFiles
 		SaveUIManager.RemoveCacheEntry(slotId);
 	}
 
-	private static PlayerStore ReadStoreForPreview(ES3Settings settings)
+	internal static PlayerStore ReadStoreForPreview(ES3Settings settings)
 	{
 		PlayerStore playerStore = (PlayerStore)FormatterServices.GetUninitializedObject(typeof(PlayerStore));
 		ES3.LoadInto("playerStore", playerStore, settings);

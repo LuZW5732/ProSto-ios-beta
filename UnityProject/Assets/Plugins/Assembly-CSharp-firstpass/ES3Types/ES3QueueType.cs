@@ -84,6 +84,9 @@ namespace ES3Types
 				}
 			}
 			reader.EndReadCollection();
+			// Keep the constructor used by saved dialogue history reachable in IL2CPP.
+			if (type == typeof(Queue<string>))
+				return new Queue<string>((IEnumerable<string>)list);
 			return ES3Reflection.CreateInstance(type, list);
 		}
 

@@ -229,6 +229,13 @@ public class PixelWindow : PixelElement, GraphNodeWindow, GraphNodeStorage, Mach
 		bool isButtonPressed = false;
 		topCloseButton.image.sprite = RenderHandler.LoadFromAtlas("Window/elements_outer", "border_top_button_x");
 		topCloseButton.image.SetNativeSize();
+#if UNITY_IOS
+        if (canMove)
+        {
+            topCloseButton.rectTransform.sizeDelta *= 1.375f;
+            titleHeight = Mathf.CeilToInt(topCloseButton.rectTransform.sizeDelta.y);
+        }
+#endif
 		topCloseButton.eventHandler.mouseDownFunc.Add((PointerEventData r) =>
 		{
 			topCloseButton.image.sprite = xButtonInvertedSprite;
@@ -266,6 +273,9 @@ public class PixelWindow : PixelElement, GraphNodeWindow, GraphNodeStorage, Mach
 		Sprite resizeButtonDownSprite = RenderHandler.LoadFromAtlas("Window/elements_outer", "border_bottom_resizable_button_down");
 		bottomResizeButton.image.sprite = RenderHandler.LoadFromAtlas("Window/elements_outer", "border_bottom_resizable_button");
 		bottomResizeButton.image.SetNativeSize();
+#if UNITY_IOS
+        if (canMove) bottomResizeButton.rectTransform.sizeDelta *= 1.375f;
+#endif
 		bottomResizeButton.eventHandler.mouseEnterFunc.Add((PointerEventData r) =>
 		{
 			bottomResizeButton.image.sprite = resizeButtonDownSprite;
@@ -920,11 +930,13 @@ public class PixelWindow : PixelElement, GraphNodeWindow, GraphNodeStorage, Mach
 		return xPadding;
 	}
 
+	private int MachineryHeaderHeight => Mathf.Max(20, titleHeight + 4);
+
 	private int TopPadding()
 	{
 		if (style == WindowStyle.Machinery)
 		{
-			return 21 + (IsBareMachineryChild() ? 8 : 0);
+			return MachineryHeaderHeight + 1 + (IsBareMachineryChild() ? 8 : 0);
 		}
 		return yPadding + ((canMove || hasTitle) ? (titleHeight + yPadding) : 0);
 	}
@@ -998,14 +1010,14 @@ public class PixelWindow : PixelElement, GraphNodeWindow, GraphNodeStorage, Mach
 		background.image.raycastPadding = Vector4.zero;
 		background.rectTransform.sizeDelta = new Vector2(widthPixels, heightPixels);
 		background.rectTransform.anchoredPosition = Vector2.zero;
-		MachineryStyle.Place(machineryHeader, 0, 0, widthPixels, 20);
-		MachineryStyle.Place(machineryRuleBacking, 0, 20, widthPixels, 1);
-		MachineryStyle.Place(machineryRule, 4, 20, Mathf.Max(0, widthPixels - 8), 1);
+		MachineryStyle.Place(machineryHeader, 0, 0, widthPixels, MachineryHeaderHeight);
+		MachineryStyle.Place(machineryRuleBacking, 0, MachineryHeaderHeight, widthPixels, 1);
+		MachineryStyle.Place(machineryRule, 4, MachineryHeaderHeight, Mathf.Max(0, widthPixels - 8), 1);
 		machineryPlate.image.enabled = flag;
 		machineryIntake.image.enabled = flag;
 		if (flag)
 		{
-			int num4 = 21;
+			int num4 = MachineryHeaderHeight + 1;
 			MachineryStyle.Place(machineryPlate, 0, num4, widthPixels, heightPixels - num4);
 			MachineryStyle.Place(machineryIntake, 4, num4 + 4, widthPixels - 8, heightPixels - num4 - 8);
 		}
@@ -1014,7 +1026,7 @@ public class PixelWindow : PixelElement, GraphNodeWindow, GraphNodeStorage, Mach
 		int num5 = widthPixels - 2;
 		if (flag2)
 		{
-			num5 -= 16;
+			num5 -= Mathf.CeilToInt(topCloseButton.rectTransform.sizeDelta.x);
 			topCloseButton.rectTransform.anchoredPosition = new Vector2(num5, -2f);
 			num5 -= 2;
 		}
@@ -1023,7 +1035,7 @@ public class PixelWindow : PixelElement, GraphNodeWindow, GraphNodeStorage, Mach
 			if (!headerButton.isHidden)
 			{
 				num5 -= headerButton.widthPixels;
-				headerButton.handler.rectTransform.anchoredPosition = new Vector2(num5, -(2 + (16 - headerButton.heightPixels) / 2));
+				headerButton.handler.rectTransform.anchoredPosition = new Vector2(num5, -((MachineryHeaderHeight - headerButton.heightPixels) / 2));
 				num5 -= 2;
 			}
 		}

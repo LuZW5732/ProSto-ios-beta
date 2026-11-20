@@ -394,7 +394,15 @@ public static class TabletUI
 
 	public static TabletButton BigButton(TabletSkin skin, Transform parent, float x, float y, string label, Action onClick, float width = 256f)
 	{
-		return BuildButton(skin, parent, "Button", x, y, width, 42f, TabletButton.Kind.Large, label, onClick);
+		float height = 42f;
+#if UNITY_IOS
+        if (skin is NegotiationTabletFrame)
+        {
+            height = 56f;
+            y -= (height - 42f) / 2f;
+        }
+#endif
+        return BuildButton(skin, parent, "Button", x, y, width, height, TabletButton.Kind.Large, label, onClick);
 	}
 
 	public static TabletButton SmallButton(TabletSkin skin, Transform parent, float x, float y, float width, float height, string label, Action onClick)

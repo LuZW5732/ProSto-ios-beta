@@ -225,22 +225,17 @@ public class SaveManager
 					}
 				}
 			}
-			foreach (var (key, key2) in savedItem2.childItems.Zip(savedItem2.childItemInventoryNode, Tuple.Create))
+			if (savedItem2.childItems.Count != savedItem2.childItemInventoryNode.Count)
+				throw new System.IO.InvalidDataException("Incomplete inventory links: " + savedItem2.identifier);
+			for (int i = 0; i < savedItem2.childItems.Count; i++)
 			{
-				GameItem item = itemDict[key];
-				if (!dictionary2.ContainsKey(key2))
-				{
-					Debug.LogWarning("Warning, child item load failure, Item ID:" + key + ", Inv ID:" + key2 + ", Parent ID:" + savedItem2.identifier + "(" + savedItem2.uuid + ")");
-					continue;
-				}
-				try
-				{
-					((GameInventory)dictionary2[key2]).UncheckedAccept(item);
-				}
-				catch (Exception)
-				{
-					Debug.LogWarning("Warning, GameInventory is invalid, Item ID:" + key + ", Inv ID:" + key2 + ", Parent ID:" + savedItem2.identifier + "(" + savedItem2.uuid + ")");
-				}
+				long childId = savedItem2.childItems[i];
+				int inventoryNode = savedItem2.childItemInventoryNode[i];
+				if (!itemDict.TryGetValue(childId, out GameItem item)
+					|| !dictionary2.TryGetValue(inventoryNode, out GraphNodeStorage node)
+					|| !(node is GameInventory inventory)
+					|| !inventory.UncheckedAccept(item))
+					throw new System.IO.InvalidDataException($"Could not restore {savedItem2.identifier}, child {childId}, inventory {inventoryNode}.");
 			}
 		}
 		return gameItem;

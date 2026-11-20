@@ -70,7 +70,21 @@ public class GameOptionUIManager : MonoBehaviour, GameOptionRegistry.IPendingVal
 		Instance = this;
 	}
 
-	private void OnDestroy()
+	#if UNITY_IOS
+    private RectTransform optionsPanel;
+    private Vector2 designSize;
+
+    private void LateUpdate()
+    {
+        if (optionsPanel == null || !(optionsPanel.parent is RectTransform parent)) return;
+        Vector2 available = parent.rect.size - new Vector2(24f, 24f);
+        if (available.x <= 0 || available.y <= 0) return;
+        Vector2 size = Vector2.Min(designSize, available);
+        if (optionsPanel.sizeDelta != size) optionsPanel.sizeDelta = size;
+    }
+#endif
+
+    private void OnDestroy()
 	{
 		if (Instance == this)
 		{
@@ -121,6 +135,10 @@ public class GameOptionUIManager : MonoBehaviour, GameOptionRegistry.IPendingVal
 			.End();
 		customUIBuilder.Last.SetFixedWidth(180f);
 		window = customUIBuilder.Show();
+#if UNITY_IOS
+        optionsPanel = window.root.transform.Find("Panel") as RectTransform;
+        if (optionsPanel != null) designSize = optionsPanel.sizeDelta;
+#endif
 		RefreshRules();
 	}
 

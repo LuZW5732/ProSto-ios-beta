@@ -216,9 +216,9 @@ public class PlayerStore
 
 	public const bool DEV_CONSOLE_FORCE_AVAILABLE = false;
 
-	public const string VERSION_NUMBER = "VERSION 100-Rev13";
+	public const string VERSION_NUMBER = "VERSION 100-REV13.1";
 
-	public static readonly string VERSION = "VERSION 100-Rev13";
+	public static readonly string VERSION = VERSION_NUMBER;
 
 	public const string BUILD_TYPE_INTERNAL_PLAYTEST = "INTERNAL_PLAYTEST";
 
@@ -905,36 +905,9 @@ public class PlayerStore
 				}
 			}
 		}
-		string rotated = null;
-		try
-		{
-			SaveFiles.WithIORetry(() =>
-			{
-				if (rotated == null)
-				{
-					rotated = SaveFiles.RotateIntoHistory(saveSlotId);
-				}
-				WriteSlotFile();
-			});
-		}
-		catch (IOException ex)
-		{
-			Debug.LogError($"[SaveGame] Slot file {saveSlotId} stayed locked, save skipped this cycle: {ex.Message}");
-			SaveFiles.RestoreFromHistory(saveSlotId, rotated);
-		}
-		catch (Exception ex2)
-		{
-			Debug.LogError($"[SaveGame] Slot file {saveSlotId} unreadable ({ex2.Message}). Quarantining and rewriting.");
-			if (SaveFiles.QuarantineFile(SaveFiles.Slot(saveSlotId)))
-			{
-				WriteSlotFile();
-			}
-			else
-			{
-				Debug.LogError($"[SaveGame] Could not quarantine slot {saveSlotId}, save skipped this cycle.");
-				SaveFiles.RestoreFromHistory(saveSlotId, rotated);
-			}
-		}
+        // ES3 writes a temporary file and commits it only after serialization.
+        SaveFiles.WithIORetry(() => SaveFiles.ArchivePreviousSave(saveSlotId, keepLatest: true));
+        SaveFiles.WithIORetry(WriteSlotFile);
 		SaveFiles.IndexSave("totalPlayTimeSeconds", totalPlayTimeSeconds);
 		SavePreviewData savePreviewData = SavePreviewData.GenerateData();
 		SaveFiles.IndexSave("preview_" + saveSlotId, savePreviewData);
@@ -947,7 +920,7 @@ public class PlayerStore
 		using ES3Writer eS3Writer = ES3Writer.Create(new ES3Settings(SaveFiles.Slot(saveSlotId)));
 		eS3Writer.Write<PlayerStore>("playerStore", this);
 		eS3Writer.Write<StoreStation>("storeStation", StoreStation.Instance);
-		eS3Writer.Save();
+		eS3Writer.Save(false);
 	}
 
 	private GameItem GetSaveBag(string id)
@@ -965,12 +938,14 @@ public class PlayerStore
 	{
 		GameItem saveBag = GetSaveBag(id);
 		saveBag.contentWindow.Attach(pixelElement);
-		string result = JsonUtility.ToJson(new SaveState
-		{
-			saveItems = SaveManager.EncodeNodes(saveBag)
-		});
-		pixelWindow?.Attach(pixelElement);
-		return result;
+		try
+        {
+            return JsonUtility.ToJson(new SaveState { saveItems = SaveManager.EncodeNodes(saveBag) });
+        }
+        finally
+        {
+            pixelWindow?.Attach(pixelElement);
+        }
 	}
 
 	public string EncodeItem(GameItem gameItem)
@@ -987,9 +962,7 @@ public class PlayerStore
 		string loadFile = SaveFiles.ResolveLoadFile(NewGameData.Instance);
 		if (!ES3.FileExists(loadFile))
 		{
-			Debug.LogError($"[LoadGame] Save file missing for slot {saveSlotId}. Cleaning index.");
-			SaveFiles.DeleteSlot(saveSlotId);
-			return;
+			throw new FileNotFoundException($"Save file missing for slot {saveSlotId}", loadFile);
 		}
 		ModHook.FireOnGameLoadedInit();
 		SaveFiles.WithIORetry(() =>
@@ -1101,7 +1074,10 @@ public class PlayerStore
 	{
 		if (NewGameData.Instance != null && NewGameData.Instance.saveSlot != -1)
 		{
-			return ES3.Load<PlayerStore>("playerStore", SaveFiles.ResolveLoadFile(NewGameData.Instance));
+			// Fixture setup needs saved fields only. The gameplay constructor creates
+            // a live inventory and changes menu state, which a preload must not do.
+            var settings = new ES3Settings(SaveFiles.ResolveLoadFile(NewGameData.Instance));
+            return SaveFiles.ReadStoreForPreview(settings);
 		}
 		return null;
 	}
@@ -1138,8 +1114,8 @@ public class PlayerStore
 		{
 			((GameInventory)gameItem.contentWindow.child).Expel((GameItem)item3);
 			GameItem item = item3 as GameItem;
-			gameInventory.UncheckedAccept(item);
-			GraphUtils.DestroyIfUnplaced(item, "load: target inventory refused a saved item");
+			if (!gameInventory.UncheckedAccept(item))
+				throw new InvalidDataException("Could not restore inventory item: " + item.identifier);
 		}
 		gameItem.Destroy();
 	}
