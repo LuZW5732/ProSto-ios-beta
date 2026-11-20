@@ -178,7 +178,7 @@ public class MainMenuUIController : MonoBehaviour
 		skipToggle.isOn = false;
 		hardToggle.isOn = false;
 		endlessToggle.isOn = false;
-		versionTMP.text = PlayerStore.VERSION;
+		versionTMP.text = PlayerStore.PORT_DISPLAY_VERSION;
 		if (EmporiumOption.Instance != null)
 		{
 			EmporiumOption.Instance.ApplyMusicVolume();
@@ -776,10 +776,10 @@ public class MainMenuUIController : MonoBehaviour
 	{
 		if (ES3.KeyExists("welcomeVersion"))
 		{
-			if (!ES3.Load<string>("welcomeVersion").Equals(PlayerStore.VERSION) && !NewGameData.Instance.isShowcase)
+			if (!ES3.Load<string>("welcomeVersion").Equals(PlayerStore.PORT_DISPLAY_VERSION) && !NewGameData.Instance.isShowcase)
 			{
 				OpenWelcomePanel();
-				ES3.Save("welcomeVersion", PlayerStore.VERSION);
+				ES3.Save("welcomeVersion", PlayerStore.PORT_DISPLAY_VERSION);
 			}
 		}
 		else
@@ -788,7 +788,7 @@ public class MainMenuUIController : MonoBehaviour
 			{
 				OpenWelcomePanel();
 			}
-			ES3.Save("welcomeVersion", PlayerStore.VERSION);
+			ES3.Save("welcomeVersion", PlayerStore.PORT_DISPLAY_VERSION);
 		}
 	}
 

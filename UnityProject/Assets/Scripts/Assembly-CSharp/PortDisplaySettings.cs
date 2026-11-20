@@ -92,6 +92,7 @@ namespace ProbablyStolen.Port
             if (refresh)
             {
                 refresh = false;
+                if (DialogUIManager.Instance != null) DialogUIManager.Instance.ApplyBubbleScale();
                 foreach (var scaler in FindObjectsOfType<CanvasScaler>())
                     ScaleCanvas(scaler.GetComponent<Canvas>());
                 foreach (var label in FindObjectsOfType<TextMeshProUGUI>()) changed.Add(label);
@@ -147,7 +148,7 @@ namespace ProbablyStolen.Port
                 canvas.GetComponent<PortTouchCanvas>() != null) return;
             // These screen-space layers are aligned to the store backdrop.
             var render = RenderHandler.current;
-            if (canvas.name == "CanvasWorldStoreInteract" ||
+            if (canvas.name == "CanvasBack" || canvas.name == "CanvasWorldStoreInteract" ||
                 (render != null && (canvas == render.windowUICanvas || canvas == render.OverlayCanvas))) return;
             var scaler = canvas.GetComponent<CanvasScaler>();
             if (scaler == null) return;

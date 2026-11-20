@@ -206,7 +206,7 @@ public class StoreUIManager : MonoBehaviour
 		defaultClientPosition = clientGameObjectParent.transform.localPosition;
 		SetTypewriterSpeed();
 		tutorialGroup.SetActive(PlayerStore.Instance.tutorialEnable);
-		versionTMP.text = "Game: " + PlayerStore.VERSION + "\nSave: " + PlayerStore.Instance.saveVersion;
+		versionTMP.text = "Game: " + PlayerStore.PORT_DISPLAY_VERSION + "\nSave: " + PlayerStore.Instance.saveVersion;
 		foreach (Transform item in paperUICanvasObject.transform)
 		{
 			if (item.GetComponent<PaperPanelFocusStamp>() == null)

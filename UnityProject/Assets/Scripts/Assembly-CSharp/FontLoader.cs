@@ -73,8 +73,38 @@ public class FontLoader : MonoBehaviour
 		else
 		{
 			Instance = this;
+#if UNITY_IOS
+			var sans = InstallGlyphFallback(simplifiedChineseFont);
+			InstallGlyphFallback(simplifiedChineseHandwrittenFont, sans);
+			InstallGlyphFallback(lubrifont, sans);
+#endif
 		}
 	}
+
+#if UNITY_IOS
+	// Recovered atlas pages are imported textures. Keep them for baked glyphs
+	// and rasterize additional glyphs into TMP-owned writable atlas pages.
+	private static TMP_FontAsset InstallGlyphFallback(TMP_FontAsset baked, TMP_FontAsset lastResort = null)
+	{
+		if (baked == null) return lastResort;
+		var fallbacks = baked.fallbackFontAssetTable;
+		if (fallbacks == null)
+			baked.fallbackFontAssetTable = fallbacks = new System.Collections.Generic.List<TMP_FontAsset>();
+		string name = baked.name + " iOS dynamic glyphs";
+		foreach (var font in fallbacks)
+			if (font != null && font.name == name) return font;
+		var source = baked.sourceFontFile;
+		if (source == null) return lastResort;
+		var dynamicFont = TMP_FontAsset.CreateFontAsset(source);
+		if (dynamicFont == null) return lastResort;
+		dynamicFont.name = name;
+		dynamicFont.isMultiAtlasTexturesEnabled = true;
+		fallbacks.Add(dynamicFont);
+		if (lastResort != null && !fallbacks.Contains(lastResort)) fallbacks.Add(lastResort);
+		baked.atlasPopulationMode = AtlasPopulationMode.Static;
+		return dynamicFont;
+	}
+#endif
 
 	private void Start()
 	{

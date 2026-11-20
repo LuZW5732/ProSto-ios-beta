@@ -55,7 +55,7 @@ public static class ModRefusalUI
 	{
 		StringBuilder stringBuilder = new StringBuilder();
 		stringBuilder.AppendLine("Probably Stolen: mod activation refused");
-		stringBuilder.AppendLine("Game: " + PlayerStore.VERSION);
+		stringBuilder.AppendLine("Game: " + PlayerStore.PORT_DISPLAY_VERSION);
 		stringBuilder.AppendLine($"Date (UTC): {DateTime.UtcNow:yyyy-MM-dd HH:mm}");
 		LoadedMod mod = check.Mod;
 		if (mod != null)

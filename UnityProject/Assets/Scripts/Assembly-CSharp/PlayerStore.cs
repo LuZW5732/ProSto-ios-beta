@@ -216,9 +216,11 @@ public class PlayerStore
 
 	public const bool DEV_CONSOLE_FORCE_AVAILABLE = false;
 
-	public const string VERSION_NUMBER = "VERSION 100-REV13.1";
+	public const string VERSION_NUMBER = "VERSION 100-Rev13";
 
 	public static readonly string VERSION = VERSION_NUMBER;
+
+	public const string PORT_DISPLAY_VERSION = "VERSION 100-REV13.1";
 
 	public const string BUILD_TYPE_INTERNAL_PLAYTEST = "INTERNAL_PLAYTEST";
 
@@ -968,6 +970,9 @@ public class PlayerStore
 		SaveFiles.WithIORetry(() =>
 		{
 			ES3.LoadInto("playerStore", loadFile, this);
+			// The first mobile point release used its display label as the save version.
+			if (saveVersion == "VERSION 100-REV13.1")
+				saveVersion = VERSION;
 		});
 		SaveFiles.WithIORetry(() =>
 		{

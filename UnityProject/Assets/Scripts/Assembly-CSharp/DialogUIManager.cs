@@ -185,7 +185,11 @@ public class DialogUIManager : MonoBehaviour
 
 	public void ApplyBubbleScale()
 	{
+#if UNITY_IOS
+		bubbleScaler.Apply(EmporiumOption.DialogBubbleScale * ProbablyStolen.Port.PortDisplaySettings.UiSize.Scale);
+#else
 		bubbleScaler.Apply();
+#endif
 	}
 
 	private void Start()
