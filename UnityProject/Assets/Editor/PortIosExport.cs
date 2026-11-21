@@ -19,6 +19,20 @@ public static class PortIosExport
         plist.root.SetBoolean("UIFileSharingEnabled", true);
         plist.root.SetBoolean("LSSupportsOpeningDocumentsInPlace", true);
         plist.WriteToFile(path);
+
+        const string launcher = "Classes/PSLauncher.mm";
+        File.Copy(Path.Combine(UnityEngine.Application.dataPath, "Editor/PSLauncher.mm.txt"),
+            Path.Combine(exportPath, launcher), overwrite: true);
+        var projectPath = UnityEditor.iOS.Xcode.PBXProject.GetPBXProjectPath(exportPath);
+        var project = new UnityEditor.iOS.Xcode.PBXProject();
+        project.ReadFromFile(projectPath);
+        var file = project.FindFileGuidByProjectPath(launcher);
+        if (string.IsNullOrEmpty(file))
+        {
+            file = project.AddFile(launcher, launcher, UnityEditor.iOS.Xcode.PBXSourceTree.Source);
+            project.AddFileToBuildWithFlags(project.GetUnityFrameworkTargetGuid(), file, "-fobjc-arc");
+        }
+        project.WriteToFile(projectPath);
     }
 #endif
 

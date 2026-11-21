@@ -324,6 +324,13 @@ return null; // No emitted replacement methods in the static iOS loader.
 		}
 	}
 
+#if UNITY_IOS && !UNITY_EDITOR
+    [System.Runtime.InteropServices.DllImport("__Internal")]
+    private static extern int PSLauncherModState(string id);
+    [System.Runtime.InteropServices.DllImport("__Internal")]
+    private static extern void PSLauncherMirrorMod(string id, int enabled);
+#endif
+
 	private void Awake()
 	{
 #if UNITY_IOS
@@ -341,6 +348,26 @@ return null; // No emitted replacement methods in the static iOS loader.
             ES3.Save("modOrder", _modOrder);
             ES3.Save("portBundledDefaultsV1", true);
         }
+#if !UNITY_EDITOR
+        bool changedByLauncher = false;
+        foreach (var mod in bundled)
+        {
+            var id = mod.Manifest.ID;
+            int preference = PSLauncherModState(id);
+            if (preference == 1 && EnabledMods.Add(id))
+            {
+                _modOrder.Add(id);
+                changedByLauncher = true;
+            }
+            else if (preference == 0 && EnabledMods.Remove(id))
+            {
+                _modOrder.Remove(id);
+                changedByLauncher = true;
+            }
+            PSLauncherMirrorMod(id, EnabledMods.Contains(id) ? 1 : 0);
+        }
+        if (changedByLauncher) ES3.Save("modOrder", _modOrder);
+#endif
         ApplySavedOrder();
         foreach (var mod in bundled) LoadLocalization(mod);
         foreach (var mod in mods) BundledModCatalog.Initialize(mod, EnabledMods.Contains(mod.Manifest.ID));
@@ -479,6 +506,9 @@ if (Instance == this) ModHelper.DrainMainThread();
         if (enabled) { if (EnabledMods.Add(id)) _modOrder.Add(id); }
         else { EnabledMods.Remove(id); _modOrder.Remove(id); }
         ES3.Save("modOrder", _modOrder);
+#if !UNITY_EDITOR
+        PSLauncherMirrorMod(id, enabled ? 1 : 0);
+#endif
         RestartRequired = true; // Let active solver/coroutine work finish; apply at restart.
 
 #else
