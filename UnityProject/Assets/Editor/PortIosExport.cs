@@ -7,6 +7,21 @@ using UnityEditor.Build.Reporting;
 
 public static class PortIosExport
 {
+#if UNITY_IOS
+    [UnityEditor.Callbacks.PostProcessBuild(100)]
+    public static void EnableSaveFileSharing(BuildTarget target, string exportPath)
+    {
+        if (target != BuildTarget.iOS) return;
+
+        var path = Path.Combine(exportPath, "Info.plist");
+        var plist = new UnityEditor.iOS.Xcode.PlistDocument();
+        plist.ReadFromFile(path);
+        plist.root.SetBoolean("UIFileSharingEnabled", true);
+        plist.root.SetBoolean("LSSupportsOpeningDocumentsInPlace", true);
+        plist.WriteToFile(path);
+    }
+#endif
+
     public static void Run()
     {
         var exportPath = Environment.GetEnvironmentVariable("PORT_IOS_EXPORT_PATH");
