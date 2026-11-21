@@ -34,8 +34,6 @@ The first commit must include the local build files. The hook queues the exact r
 
 Windows results are under `build/vm-results`, one directory per request. See `build/vm-sync.log` for the most recent transfer and `~/ProbablyStolenBuild/runner.log` on the Mac for worker status. `bash Tools/ios-vm-host.sh queue` requests another build of the current commit, and `bash Tools/ios-vm-host.sh sync` runs a transfer immediately.
 
-For live logs on Windows, run `Tools\iOSBuildMonitor\build-windows.cmd` once and open `build\vm-monitor\iOS Build Monitor.exe`. The monitor reads Mac build status and log updates over SSH. The selected job's logs are cached under `build\vm-monitor\logs`, even when automatic scrolling is paused. It uses the existing SSH setup and runs independently of the artifact sync task.
-
 ## GitHub Actions on ProSto-ios-beta
 
 Run **Build iOS App** from GitHub Actions after pushing the workflow. The job exports the Unity project, builds the `Unity-iPhone` scheme for a generic iOS device with code signing disabled, and packages the resulting `.app` as `ios-unsigned-ipa`. It retains `ios-xcode-project` and uploads `ios-xcode-build-log` if a later step fails.

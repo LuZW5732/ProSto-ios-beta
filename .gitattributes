@@ -1,3 +1,2 @@
 Tools/build-ios-local.sh text eol=lf
 Tools/ios-vm-*.sh text eol=lf
-Tools/iOSBuildMonitor/read-vm-logs.sh text eol=lf

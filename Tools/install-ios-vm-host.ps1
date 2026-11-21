@@ -1,7 +1,11 @@
+[CmdletBinding(DefaultParameterSetName = 'Install')]
 param(
-    [Parameter(Mandatory)]
+    [Parameter(Mandatory, ParameterSetName = 'Install')]
     [string]$MacDestination,
-    [string]$BootstrapDirectory
+    [Parameter(ParameterSetName = 'Install')]
+    [string]$BootstrapDirectory,
+    [Parameter(Mandatory, ParameterSetName = 'SyncOnly')]
+    [switch]$SyncOnly
 )
 
 $ErrorActionPreference = 'Stop'
@@ -20,8 +24,10 @@ if ($BootstrapDirectory) {
         -Destination (Join-Path $BootstrapDirectory 'worker.sh')
 }
 
-& $bash (Join-Path $PSScriptRoot 'ios-vm-host.sh') install $MacDestination
-if ($LASTEXITCODE -ne 0) { throw 'Could not install the Git commit hook.' }
+if (!$SyncOnly) {
+    & $bash (Join-Path $PSScriptRoot 'ios-vm-host.sh') install $MacDestination
+    if ($LASTEXITCODE -ne 0) { throw 'Could not install the Git commit hook.' }
+}
 
 $build = Join-Path $repo 'build'
 New-Item -ItemType Directory -Force -Path $build | Out-Null
@@ -31,10 +37,16 @@ if ($existing -and $existing.Actions.WorkingDirectory -ne $repo) {
     throw 'A scheduled task already exists for another checkout.'
 }
 
-$shellPath = $bash.Replace("'", "''")
-$command = "& '$shellPath' -c 'bash Tools/ios-vm-host.sh sync > build/vm-sync.log 2>&1'"
-$action = New-ScheduledTaskAction -Execute 'powershell.exe' -WorkingDirectory $repo `
-    -Argument ('-NoProfile -NonInteractive -WindowStyle Hidden -Command "' + $command + '"')
+$compiler = Join-Path $env:SystemRoot 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
+$launcher = Join-Path $build 'ios-vm-sync.exe'
+Push-Location -LiteralPath $repo
+try {
+    & $compiler /nologo /target:winexe /platform:x64 /out:build\ios-vm-sync.exe Tools\ios-vm-sync-launcher.cs
+    if ($LASTEXITCODE -ne 0) { throw 'Could not compile the silent SSH sync launcher.' }
+} finally { Pop-Location }
+
+$action = New-ScheduledTaskAction -Execute $launcher -WorkingDirectory $repo `
+    -Argument ('"' + $bash + '"')
 $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) `
     -RepetitionInterval (New-TimeSpan -Minutes 1)
 $user = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
