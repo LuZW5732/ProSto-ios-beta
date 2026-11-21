@@ -92,6 +92,9 @@ jobs:
           import plistlib, sys
           with open(sys.argv[1], "rb") as stream:
               info = plistlib.load(stream)
+          for flag in ("UIFileSharingEnabled", "LSSupportsOpeningDocumentsInPlace"):
+              if info.get(flag) is not True:
+                  sys.exit(f"Missing file sharing setting in built app: {flag}")
           key = "UISupportedInterfaceOrientations"
           expected = {"UIInterfaceOrientationLandscapeLeft", "UIInterfaceOrientationLandscapeRight"}
           for device in ("iphone", "ipad"):
