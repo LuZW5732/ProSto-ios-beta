@@ -163,45 +163,70 @@ public class GraphUtils
 		return amount - num;
 	}
 
-	public static int TryAcceptAll(GraphNodeStorage currentNode, GameItem item, int amount = -1)
-	{
-		if (item == null)
-		{
-			return 0;
-		}
-		if (currentNode == null)
-		{
-			return 0;
-		}
-		if (amount < 0)
-		{
-			amount = item.unitCount;
-		}
-		if (amount <= 0)
-		{
-			return 0;
-		}
-		int num = 0;
-		for (int i = 0; i < 40; i++)
-		{
-			if (num >= amount)
-			{
-				break;
-			}
-			SlotMarker slotMarker = currentNode.TryFindOneValidInventorySlot(item);
-			if (slotMarker == null || slotMarker.numTransfer <= 0)
-			{
-				break;
-			}
-			int num2 = slotMarker.TryAcceptOnce(amount - num);
-			if (num2 == 0)
-			{
-				break;
-			}
-			num += num2;
-		}
-		return amount - num;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GraphUtils), "TryAcceptAll", new System.Type[] { typeof(GraphNodeStorage), typeof(GameItem), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static int TryAcceptAll(GraphNodeStorage currentNode, GameItem item, int amount = -1)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<int>(__portHook0, null, new object[] { currentNode, item, amount }, __portArguments =>
+    {
+        currentNode = (GraphNodeStorage)__portArguments[0];
+        item = (GameItem)__portArguments[1];
+        amount = (int)__portArguments[2];
+        return __PortOriginal();
+    });
+    int __PortOriginal()
+    {
+        if (item == null)
+        {
+            return 0;
+        }
+
+        if (currentNode == null)
+        {
+            return 0;
+        }
+
+        if (amount < 0)
+        {
+            amount = item.unitCount;
+        }
+
+        if (amount <= 0)
+        {
+            return 0;
+        }
+
+        int num = 0;
+        for (int i = 0; i < 40; i++)
+        {
+            if (num >= amount)
+            {
+                break;
+            }
+
+            SlotMarker slotMarker = currentNode.TryFindOneValidInventorySlot(item);
+            if (slotMarker == null || slotMarker.numTransfer <= 0)
+            {
+                break;
+            }
+
+            int num2 = slotMarker.TryAcceptOnce(amount - num);
+            if (num2 == 0)
+            {
+                break;
+            }
+
+            num += num2;
+        }
+
+        return amount - num;
+    }
+}
 
 	public static int TryAcceptAllMid(GameGridInventory currentNode, GameItem item, int amount = -1)
 	{

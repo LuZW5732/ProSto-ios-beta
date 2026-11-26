@@ -19,6 +19,8 @@ public static class PortInterpreterBuild
     private static readonly string ShutterFolder = Path.Combine(WorkshopFolder, "ShutterEvents");
     private static readonly string ReputationFolder = Path.Combine(WorkshopFolder, "ReputationPop");
     private static readonly string ReputationDll = Path.Combine(ReputationFolder, "ReputationPop.dll");
+    private static readonly string PurchaseFolder = Path.Combine(WorkshopFolder, "PurchaseStayCounter");
+    private static readonly string PurchaseDll = Path.Combine(PurchaseFolder, "PurchaseStayCounter.dll");
     private const BindingFlags LoaderFlags = BindingFlags.Static | BindingFlags.NonPublic;
 
     public static void VerifyInput()
@@ -27,6 +29,8 @@ public static class PortInterpreterBuild
         WorkshopBindingCheck.Verify(game, Path.Combine(ShutterFolder, "ShutterEvents.dll"));
         if (System.IO.Directory.Exists(ReputationFolder))
             WorkshopBindingCheck.Verify(game, ReputationDll, typeof(HarmonyPatch).Assembly.Location);
+        if (File.Exists(PurchaseDll))
+            WorkshopBindingCheck.Verify(game, PurchaseDll, typeof(HarmonyPatch).Assembly.Location);
     }
 
     // Editor Mono test only. Used separately from the IL2CPP generation step.
@@ -167,11 +171,11 @@ public static class PortInterpreterBuild
         VerifyInput();
         var settings = HybridCLRSettings.Instance;
         settings.enable = true;
-        settings.hotUpdateAssemblies = File.Exists(ReputationDll)
-            ? new[] { "ShutterEvents", "ReputationPop" } : new[] { "ShutterEvents" };
+        var fixtures = new[] { Path.Combine(ShutterFolder, "ShutterEvents.dll"), ReputationDll, PurchaseDll }
+            .Where(File.Exists).ToArray();
+        settings.hotUpdateAssemblies = fixtures.Select(Path.GetFileNameWithoutExtension).ToArray();
         settings.hotUpdateAssemblyDefinitions = new UnityEditorInternal.AssemblyDefinitionAsset[0];
-        settings.externalHotUpdateAssembliyDirs = File.Exists(ReputationDll)
-            ? new[] { ShutterFolder, ReputationFolder } : new[] { ShutterFolder };
+        settings.externalHotUpdateAssembliyDirs = fixtures.Select(Path.GetDirectoryName).ToArray();
         settings.hybridclrRepoURL = "https://github.com/focus-creative-games/hybridclr";
         settings.il2cppPlusRepoURL = "https://github.com/focus-creative-games/il2cpp_plus";
         HybridCLRSettings.Save();

@@ -2508,50 +2508,94 @@ public class PlayerStore
 		TryAddDirectSellingItemToTable(identifier, isOwend, isStolen, ignorePerk, forcedHeat);
 	}
 
-	public bool TryAddDirectSellingItemToTable(string identifier, bool isOwend = false, bool isStolen = false, bool ignorePerk = false, int forcedHeat = 0)
-	{
-		if (EmporiumEntry.Instance != null && EmporiumEntry.Instance.frontInvinvElement != null && !EmporiumEntry.Instance.frontInvinvElement.CanTakeAnything())
-		{
-			GraphUtils.ReportUnplaced(identifier, 1, "front counter full, offer skipped");
-			return false;
-		}
-		return TryAddDirectSellingItemToTable(DirectoryMaster.Item(identifier), isOwend, isStolen, ignorePerk, forcedHeat);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "TryAddDirectSellingItemToTable", new System.Type[] { typeof(string), typeof(bool), typeof(bool), typeof(bool), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public bool TryAddDirectSellingItemToTable(string identifier, bool isOwend = false, bool isStolen = false, bool ignorePerk = false, int forcedHeat = 0)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook0, this, new object[] { identifier, isOwend, isStolen, ignorePerk, forcedHeat }, __portArguments =>
+    {
+        identifier = (string)__portArguments[0];
+        isOwend = (bool)__portArguments[1];
+        isStolen = (bool)__portArguments[2];
+        ignorePerk = (bool)__portArguments[3];
+        forcedHeat = (int)__portArguments[4];
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        if (EmporiumEntry.Instance != null && EmporiumEntry.Instance.frontInvinvElement != null && !EmporiumEntry.Instance.frontInvinvElement.CanTakeAnything())
+        {
+            GraphUtils.ReportUnplaced(identifier, 1, "front counter full, offer skipped");
+            return false;
+        }
+
+        return TryAddDirectSellingItemToTable(DirectoryMaster.Item(identifier), isOwend, isStolen, ignorePerk, forcedHeat);
+    }
+}
 
 	public void AddDirectSellingItemToTable(GameItem gameItem, bool isOwend = false, bool isStolen = false, bool ignorePerk = false, int forcedHeat = 0)
 	{
 		TryAddDirectSellingItemToTable(gameItem, isOwend, isStolen, ignorePerk, forcedHeat);
 	}
 
-	public bool TryAddDirectSellingItemToTable(GameItem gameItem, bool isOwend = false, bool isStolen = false, bool ignorePerk = false, int forcedHeat = 0)
-	{
-		if (gameItem == null)
-		{
-			Debug.LogWarning("AddDirectSellingItemToTable called with null item (identifier not registered in this build variant?)");
-			return false;
-		}
-		if (!ignorePerk && StoreReputation.IsPerkUnlocked("LLDISTRUSTED") && currentClientInstance != null && currentClientInstance.GetClientBlueprint().clientFaction == "FACTION_LOWER_LEVEL" && ContrabandHelper.IsContraband(gameItem))
-		{
-			GraphUtils.DestroyIfUnplaced(gameItem, "distrusted faction, contraband offer withheld");
-			return false;
-		}
-		if (!ignorePerk && StoreReputation.IsPerkUnlocked("BM_DISTRUSTED") && currentClientInstance != null && currentClientInstance.GetClientBlueprint().clientFaction == "FACTION_BLACK_MARKET" && ContrabandHelper.IsContraband(gameItem))
-		{
-			GraphUtils.DestroyIfUnplaced(gameItem, "distrusted faction, contraband offer withheld");
-			return false;
-		}
-		GeneralHelper.SetItemOwned(gameItem, isOwend);
-		if (isStolen && isStolenItemIntroduced)
-		{
-			StolenHelper.InitStolenItem(gameItem, forcedHeat);
-		}
-		if (!GraphUtils.TryAcceptAllOrDestroy(EmporiumEntry.Instance.frontInvinvElement, gameItem, "front counter full"))
-		{
-			return false;
-		}
-		StartingPerkContent.HandleGamblingAddictionItemAdded(gameItem);
-		return true;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "TryAddDirectSellingItemToTable", new System.Type[] { typeof(GameItem), typeof(bool), typeof(bool), typeof(bool), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public bool TryAddDirectSellingItemToTable(GameItem gameItem, bool isOwend = false, bool isStolen = false, bool ignorePerk = false, int forcedHeat = 0)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook1, this, new object[] { gameItem, isOwend, isStolen, ignorePerk, forcedHeat }, __portArguments =>
+    {
+        gameItem = (GameItem)__portArguments[0];
+        isOwend = (bool)__portArguments[1];
+        isStolen = (bool)__portArguments[2];
+        ignorePerk = (bool)__portArguments[3];
+        forcedHeat = (int)__portArguments[4];
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        if (gameItem == null)
+        {
+            Debug.LogWarning("AddDirectSellingItemToTable called with null item (identifier not registered in this build variant?)");
+            return false;
+        }
+
+        if (!ignorePerk && StoreReputation.IsPerkUnlocked("LLDISTRUSTED") && currentClientInstance != null && currentClientInstance.GetClientBlueprint().clientFaction == "FACTION_LOWER_LEVEL" && ContrabandHelper.IsContraband(gameItem))
+        {
+            GraphUtils.DestroyIfUnplaced(gameItem, "distrusted faction, contraband offer withheld");
+            return false;
+        }
+
+        if (!ignorePerk && StoreReputation.IsPerkUnlocked("BM_DISTRUSTED") && currentClientInstance != null && currentClientInstance.GetClientBlueprint().clientFaction == "FACTION_BLACK_MARKET" && ContrabandHelper.IsContraband(gameItem))
+        {
+            GraphUtils.DestroyIfUnplaced(gameItem, "distrusted faction, contraband offer withheld");
+            return false;
+        }
+
+        GeneralHelper.SetItemOwned(gameItem, isOwend);
+        if (isStolen && isStolenItemIntroduced)
+        {
+            StolenHelper.InitStolenItem(gameItem, forcedHeat);
+        }
+
+        if (!GraphUtils.TryAcceptAllOrDestroy(EmporiumEntry.Instance.frontInvinvElement, gameItem, "front counter full"))
+        {
+            return false;
+        }
+
+        StartingPerkContent.HandleGamblingAddictionItemAdded(gameItem);
+        return true;
+    }
+}
 
 	public void AddDirectSellingItemToTableMiddle(GameItem gameItem, bool isOwend = false)
 	{
@@ -2624,29 +2668,62 @@ public class PlayerStore
 		return CanSellThisItem(currentNegociatedItem, ignoreBudget);
 	}
 
-	public void BuyItemFromTable()
-	{
-		if (EmporiumEntry.Instance.backInvinvElement.childItems.Count != 0 && CanBuyItemFromTable())
-		{
-			BuyItem(currentNegociatedItem);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "BuyItemFromTable", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void BuyItemFromTable()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void BuyItem(GameItem item)
-	{
-		instance.currentClientInstance.GetClientBlueprint();
-		int num = 0;
-		num += (int)item.GetNegociatedValue();
-		OnItemBought(item, num);
-		playerCash -= num;
-		MoveDealItemToInventory(item);
-		if (item.IsRootedInBackInv() && (item.parentInventory == null || item.parentInventory.GetParentItem() == null))
-		{
-			item.RemoveFeatureRelatedToEvent();
-			ItemFeatureList.RemovePerfumeFeatures(item);
-			item.OnAddedToWeightedArea(ignoreOnItemAddedToWeighted: true);
-		}
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (EmporiumEntry.Instance.backInvinvElement.childItems.Count != 0 && CanBuyItemFromTable())
+        {
+            BuyItem(currentNegociatedItem);
+        }
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "BuyItem", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void BuyItem(GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook3, this, new object[] { item }, __portArguments =>
+    {
+        item = (GameItem)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        instance.currentClientInstance.GetClientBlueprint();
+        int num = 0;
+        num += (int)item.GetNegociatedValue();
+        OnItemBought(item, num);
+        playerCash -= num;
+        MoveDealItemToInventory(item);
+        if (item.IsRootedInBackInv() && (item.parentInventory == null || item.parentInventory.GetParentItem() == null))
+        {
+            item.RemoveFeatureRelatedToEvent();
+            ItemFeatureList.RemovePerfumeFeatures(item);
+            item.OnAddedToWeightedArea(ignoreOnItemAddedToWeighted: true);
+        }
+    }
+}
 
 	public void MoveDealItemToInventory(GameItem item)
 	{
@@ -2663,30 +2740,50 @@ public class PlayerStore
 		}
 	}
 
-	public void OnItemBought(GameItem gameItem, int cost)
-	{
-		gameItem.DisableTag("ALREADY_CONFRONTED_TAG");
-		StoreClient clientBlueprint = instance.currentClientInstance.GetClientBlueprint();
-		if (clientBlueprint != null)
-		{
-			clientBlueprint.OnItemSold(gameItem, cost);
-			StoreReputation.OnItemTraded(clientBlueprint.clientFaction, cost, cost, clientBlueprint, isPlayerSold: false, gameItem);
-		}
-		else
-		{
-			Debug.Log("ERROR: Client was null when bought item");
-		}
-		GeneralHelper.TrackBuyPrice(gameItem, cost);
-		RunStats.OnItemBought(gameItem, cost, clientBlueprint);
-		if (gameItem.IsGameItemType("MACHINE") || gameItem.IsGameItemType("MODULE") || gameItem.IsGameItemType("NODE"))
-		{
-			machineryBoughtCount++;
-			EmporiumAnalytics.TrackItemOfInterestAcquisition(gameItem);
-		}
-		GeneralHelper.SetItemOwned(gameItem);
-		gameItem.RemoveFeatureRelatedToEvent();
-		gameItem.RemoveFeatureTemporaryBuying();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook4 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "OnItemBought", new System.Type[] { typeof(GameItem), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void OnItemBought(GameItem gameItem, int cost)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook4))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook4, this, new object[] { gameItem, cost }, __portArguments =>
+    {
+        gameItem = (GameItem)__portArguments[0];
+        cost = (int)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        gameItem.DisableTag("ALREADY_CONFRONTED_TAG");
+        StoreClient clientBlueprint = instance.currentClientInstance.GetClientBlueprint();
+        if (clientBlueprint != null)
+        {
+            clientBlueprint.OnItemSold(gameItem, cost);
+            StoreReputation.OnItemTraded(clientBlueprint.clientFaction, cost, cost, clientBlueprint, isPlayerSold: false, gameItem);
+        }
+        else
+        {
+            Debug.Log("ERROR: Client was null when bought item");
+        }
+
+        GeneralHelper.TrackBuyPrice(gameItem, cost);
+        RunStats.OnItemBought(gameItem, cost, clientBlueprint);
+        if (gameItem.IsGameItemType("MACHINE") || gameItem.IsGameItemType("MODULE") || gameItem.IsGameItemType("NODE"))
+        {
+            machineryBoughtCount++;
+            EmporiumAnalytics.TrackItemOfInterestAcquisition(gameItem);
+        }
+
+        GeneralHelper.SetItemOwned(gameItem);
+        gameItem.RemoveFeatureRelatedToEvent();
+        gameItem.RemoveFeatureTemporaryBuying();
+    }
+}
 
 	public void BuyAllItemFromTable()
 	{

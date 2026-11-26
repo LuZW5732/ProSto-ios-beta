@@ -10,6 +10,8 @@ internal static class PortHarmonyHooks
 {
     private const string AssemblyName = "0Harmony";
     private const string AttributeName = "HarmonyLib.HarmonyPatch";
+    private const string NamedTarget = "System.Void HarmonyLib.HarmonyPatch::.ctor(System.Type,System.String)";
+    private const string OverloadedTarget = "System.Void HarmonyLib.HarmonyPatch::.ctor(System.Type,System.String,System.Type[])";
     private const BindingFlags DeclaredMethods = BindingFlags.Public | BindingFlags.NonPublic |
         BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly;
 
@@ -31,7 +33,7 @@ internal static class PortHarmonyHooks
         foreach (var member in module.GetMemberReferences())
         {
             if (member.DeclaringType.Scope?.Name == AssemblyName &&
-                member.FullName != "System.Void HarmonyLib.HarmonyPatch::.ctor(System.Type,System.String)")
+                member.FullName != NamedTarget && member.FullName != OverloadedTarget)
                 throw new NotSupportedException("Unsupported Harmony member: " + member.FullName);
         }
 
@@ -74,7 +76,8 @@ internal static class PortHarmonyHooks
         if (patch.TargetType == null || patch.TargetType.Assembly != typeof(IMod).Assembly ||
             string.IsNullOrEmpty(patch.MethodName))
             throw new NotSupportedException("Expected a named game method on " + patchType.FullName);
-        var targets = patch.TargetType.GetMethods(DeclaredMethods).Where(m => m.Name == patch.MethodName).ToArray();
+        var targets = patch.TargetType.GetMethods(DeclaredMethods).Where(m => m.Name == patch.MethodName &&
+            (patch.ArgumentTypes == null || m.GetParameters().Select(p => p.ParameterType).SequenceEqual(patch.ArgumentTypes))).ToArray();
         if (targets.Length != 1)
             throw new NotSupportedException("Missing or ambiguous Harmony target: " + patch.TargetType + "." + patch.MethodName);
 
@@ -86,29 +89,38 @@ internal static class PortHarmonyHooks
         // Never silently omit Harmony conventions such as Prepare or Transpiler.
         foreach (var m in methods)
             if (m.Name == "Prepare" || m.Name == "Cleanup" || m.Name == "TargetMethod" || m.Name == "TargetMethods" ||
-                m.Name == "Transpiler" || m.Name == "Finalizer" || m.Name == "ILManipulator")
+                m.Name == "Transpiler" || m.Name == "ILManipulator")
                 throw new NotSupportedException("Unsupported Harmony convention: " + patchType.FullName + "." + m.Name);
         var prefix = FindCallback(methods, "Prefix");
         var postfix = FindCallback(methods, "Postfix");
+        var finalizer = FindCallback(methods, "Finalizer");
         var before = StateParameter(prefix);
         var after = StateParameter(postfix);
         if ((before != null && (!before.IsOut || !before.ParameterType.IsByRef)) ||
             (after != null && (after.ParameterType.IsByRef || before == null ||
              before.ParameterType.GetElementType() != after.ParameterType)))
             throw new NotSupportedException("Incompatible Harmony __state on " + patchType.FullName);
-        StaticModHooks.Register(Owner(mod), targets[0], prefix, postfix);
+        StaticModHooks.Register(Owner(mod), targets[0], prefix, postfix, finalizer);
     }
 
     private static HookCallback FindCallback(MethodInfo[] methods, string name)
     {
         var candidates = methods.Where(m => m.Name == name).ToArray();
         if (candidates.Length == 0) return null;
-        if (candidates.Length != 1 || candidates[0].ReturnType != typeof(void))
-            throw new NotSupportedException("Expected one void " + name + " in " + methods[0].DeclaringType);
+        if (candidates.Length != 1)
+            throw new NotSupportedException("Expected one " + name + " in " + methods[0].DeclaringType);
+        var method = candidates[0];
+        if (method.ReturnType != typeof(void) &&
+            !(name == "Prefix" && method.ReturnType == typeof(bool)))
+            throw new NotSupportedException("Unsupported Harmony callback return type: " + method);
+        // The dispatcher checks accepted injections against the exact target signature.
         foreach (var p in candidates[0].GetParameters())
-            if (p.Name != "__state" && (p.ParameterType.IsByRef || p.Name.StartsWith("__", StringComparison.Ordinal)))
+            if (p.Name != "__result" &&
+                !(p.Name == "__args" && p.ParameterType == typeof(object[])) &&
+                !(p.Name == "__state" && name != "Finalizer") &&
+                (p.ParameterType.IsByRef || p.Name.StartsWith("__", StringComparison.Ordinal)))
                 throw new NotSupportedException("Unsupported Harmony callback parameter: " + candidates[0] + " " + p.Name);
-        return new HookCallback(candidates[0]);
+        return new HookCallback(method);
     }
 
     private static ParameterInfo StateParameter(HookCallback callback) =>

@@ -1,0 +1,51 @@
+[
+  {
+    "type": "StoreReputation",
+    "method": "OnItemTraded",
+    "parameters": ["string", "int", "int", "StoreClient", "bool", "GameItem"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "BuyItem",
+    "parameters": ["GameItem"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "BuyItemFromTable",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "OnItemBought",
+    "parameters": ["GameItem", "int"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "TryAddDirectSellingItemToTable",
+    "parameters": ["string", "bool", "bool", "bool", "int"],
+    "isStatic": false,
+    "returnType": "bool"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "TryAddDirectSellingItemToTable",
+    "parameters": ["GameItem", "bool", "bool", "bool", "int"],
+    "isStatic": false,
+    "returnType": "bool"
+  },
+  {
+    "type": "GraphUtils",
+    "method": "TryAcceptAll",
+    "parameters": ["GraphNodeStorage", "GameItem", "int"],
+    "isStatic": true,
+    "returnType": "int"
+  }
+]

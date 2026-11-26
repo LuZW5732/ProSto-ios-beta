@@ -9,11 +9,18 @@ namespace HarmonyLib
     {
         public readonly Type TargetType;
         public readonly string MethodName;
+        public readonly Type[] ArgumentTypes;
 
         public HarmonyPatch(Type declaringType, string methodName)
+            : this(declaringType, methodName, null)
+        {
+        }
+
+        public HarmonyPatch(Type declaringType, string methodName, params Type[] argumentTypes)
         {
             TargetType = declaringType;
             MethodName = methodName;
+            ArgumentTypes = argumentTypes;
         }
     }
 }

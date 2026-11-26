@@ -129,6 +129,16 @@
     "parameters": []
   },
   {
+    "file": "GraphUtils.cs",
+    "type": "GraphUtils",
+    "method": "TryAcceptAll",
+    "parameters": [
+      "GraphNodeStorage",
+      "GameItem",
+      "int"
+    ]
+  },
+  {
     "file": "HusbandryHelper.cs",
     "type": "HusbandryHelper",
     "method": "GetStatCompareColor",
@@ -365,6 +375,53 @@
     "parameters": [
       "RichTextBuilder",
       "GameItem"
+    ]
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "TryAddDirectSellingItemToTable",
+    "parameters": [
+      "string",
+      "bool",
+      "bool",
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "TryAddDirectSellingItemToTable",
+    "parameters": [
+      "GameItem",
+      "bool",
+      "bool",
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "BuyItemFromTable",
+    "parameters": []
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "BuyItem",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "OnItemBought",
+    "parameters": [
+      "GameItem",
+      "int"
     ]
   },
   {

@@ -70,11 +70,58 @@ internal static class Program
             Equal(false, StaticModHooks.HasHooks(Target), "Rollback left no callbacks");
             Throws<NotSupportedException>(() => owner.Patch(Target, transpiler: new HookMethod(Callback(nameof(High)).Method)), "Transpilers rejected");
             TestReputationHooks();
+            TestPurchaseHooks();
             Console.WriteLine("PASS: " + count + " static callback assertions (no Unity/game execution).");
             return 0;
         }
         catch (Exception error) { Console.Error.WriteLine(error); return 1; }
     }
+
+    private static void TestPurchaseHooks()
+    {
+        using var purchase = StaticModHooks.Register("purchase", Target,
+            Callback(nameof(PurchasePrefix)), finalizer: Callback(nameof(PurchaseFinalizer)));
+        using var observer = StaticModHooks.Register("purchase-observer", Target,
+            postfix: Callback(nameof(PurchasePostfix)));
+
+        Events.Clear();
+        Equal(7, Game(3), "Purchase postfix updates the original result");
+        Equal("purchase-prefix:3,original,purchase-postfix:3:6,purchase-finalizer:3",
+            string.Join(",", Events), "Purchase callbacks on normal return");
+
+        Events.Clear();
+        Equal(43, Game(2), "Purchase postfix updates the short-circuited result");
+        Equal("purchase-prefix:2,purchase-postfix:2:42,purchase-finalizer:2",
+            string.Join(",", Events), "Purchase callbacks after cancellation");
+
+        Events.Clear();
+        Throws<InvalidOperationException>(() => Game(-1), "Purchase finalizer preserves the original exception");
+        Equal("purchase-prefix:-1,original,purchase-finalizer:-1",
+            string.Join(",", Events), "Purchase cleanup after failure");
+
+        StaticModHooks.RemoveOwner("purchase");
+        Events.Clear();
+        Equal(5, Game(2), "Removing the purchase owner restores the original call");
+        Equal("original,purchase-postfix:2:4", string.Join(",", Events), "Purchase observer remains registered");
+    }
+
+    private static bool PurchasePrefix(object[] __args, ref int __result)
+    {
+        var value = (int)__args[0];
+        Events.Add("purchase-prefix:" + value);
+        if (value != 2)
+            return true;
+        __result = 42;
+        return false;
+    }
+
+    private static void PurchasePostfix(object[] __args, ref int __result)
+    {
+        Events.Add("purchase-postfix:" + (int)__args[0] + ":" + __result);
+        __result++;
+    }
+
+    private static void PurchaseFinalizer(object[] __args) => Events.Add("purchase-finalizer:" + (int)__args[0]);
 
     private static void TestReputationHooks()
     {
