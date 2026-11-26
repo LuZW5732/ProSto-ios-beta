@@ -515,6 +515,19 @@
     "parameters": []
   },
   {
+    "file": "StoreReputation.cs",
+    "type": "StoreReputation",
+    "method": "OnItemTraded",
+    "parameters": [
+      "string",
+      "int",
+      "int",
+      "StoreClient",
+      "bool",
+      "GameItem"
+    ]
+  },
+  {
     "file": "WaterHelper.cs",
     "type": "WaterHelper",
     "method": "CreateWaterContainerTooltip",

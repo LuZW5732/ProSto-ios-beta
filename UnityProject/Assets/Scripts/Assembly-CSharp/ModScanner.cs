@@ -2018,6 +2018,16 @@ public static class ModScanner
 
 	public static ModScanResult Scan(IEnumerable<string> dllPaths, IEnumerable<string> allowedReferences = null, string folderPath = null, bool localFolder = false)
 	{
+		return ScanCore(dllPaths, allowedReferences, folderPath, localFolder, null);
+	}
+
+	internal static ModScanResult ScanLocalImage(string dllPath, byte[] image, string folderPath)
+	{
+		return ScanCore(new[] { dllPath }, null, folderPath, true, image);
+	}
+
+	private static ModScanResult ScanCore(IEnumerable<string> dllPaths, IEnumerable<string> allowedReferences, string folderPath, bool localFolder, byte[] singleImage)
+	{
 		ModScanResult modScanResult = new ModScanResult();
 		List<string> list = dllPaths.ToList();
 		HashSet<string> allowedReferences2 = new HashSet<string>((allowedReferences ?? Enumerable.Empty<string>()).Concat(list.Select(Path.GetFileNameWithoutExtension)), StringComparer.OrdinalIgnoreCase);
@@ -2030,10 +2040,10 @@ public static class ModScanner
 		{
 			try
 			{
-				using MemoryStream stream = new MemoryStream(File.ReadAllBytes(item2), writable: false);
+				using MemoryStream stream = new MemoryStream(singleImage ?? File.ReadAllBytes(item2), writable: false);
 				using AssemblyDefinition assembly = AssemblyDefinition.ReadAssembly(stream, new ReaderParameters
 				{
-					ReadingMode = ReadingMode.Immediate,
+					ReadingMode = singleImage == null ? ReadingMode.Immediate : ReadingMode.Deferred,
 					InMemory = true,
 					AssemblyResolver = defaultAssemblyResolver
 				});

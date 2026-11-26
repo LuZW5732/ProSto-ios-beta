@@ -68,6 +68,15 @@ fi
 
 build_job() (
     set -e
+    if [[ -L "$state/experiments/requests/$job" ]]; then
+        local project
+        project=$(cd -P "$state/experiments/requests/$job" && pwd) || exit 1
+        [[ "$project" == "$state/experiments/"* ]] || exit 1
+        printf 'Build mode: no-JIT interpreter (external IMod packages)\n'
+        PORT_IOS_OUTPUT_DIR="$attempt/build" PORT_IOS_STAGE_LOG_DIR="$attempt/stages" \
+            /bin/bash "$project/Tools/build.sh" || exit "$?"
+        exit 0
+    fi
     cd "$checkout"
     git fetch --quiet --no-tags "$source_repo" "$ref" || exit "$?"
     actual=$(git rev-parse FETCH_HEAD) || exit "$?"
@@ -100,6 +109,9 @@ while IFS= read -r ref; do
     shopt -s nullglob
     for log in "$attempt"/build/run.*/{unity,xcode}.log; do
         cp "$log" "$staging/"
+    done
+    for log in "$attempt"/stages/{VerifyLifecycle,Generate,CopyMetadata}.log; do
+        if [[ -f "$log" ]]; then cp "$log" "$staging/"; fi
     done
     if [[ $status == succeeded ]]; then
         cp "$attempt/build/ProbablyStolen-unsigned.ipa" "$staging/"

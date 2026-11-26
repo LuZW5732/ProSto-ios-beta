@@ -13,12 +13,12 @@ extern "C" void PSLauncherMirrorMod(const char *identifier, int enabled) {
 }
 
 extern "C" int PSLauncherProbeEnabled(void) {
-    return [NSUserDefaults.standardUserDefaults boolForKey:@"port.launcher.import.ProStoModProbe.dll"] ? 1 : 0;
+    return 0;
 }
 
-static NSURL *PSModFolder(void) {
+static NSURL *PSZipInbox(void) {
     NSURL *docs = [NSFileManager.defaultManager URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask].firstObject;
-    return [docs URLByAppendingPathComponent:@"ImportedMods" isDirectory:YES];
+    return [docs URLByAppendingPathComponent:@"ModImports" isDirectory:YES];
 }
 
 static NSString *PSAttachStatus(void) {
@@ -27,6 +27,10 @@ static NSString *PSAttachStatus(void) {
     size_t size = sizeof(info);
     if (sysctl(query, 4, &info, &size, NULL, 0) || size != sizeof(info)) return @"无法读取";
     return (info.kp_proc.p_flag & P_TRACED) ? @"已连接" : @"未检测到连接";
+}
+
+static BOOL PSHasZipExtension(NSURL *url) {
+    return [url.pathExtension.lowercaseString isEqualToString:@"zip"];
 }
 
 @interface PSLaunchSettings : UITableViewController <UIDocumentPickerDelegate>
@@ -45,12 +49,13 @@ static NSString *PSAttachStatus(void) {
 - (void)startGame { if (self.play) self.play(); }
 - (void)refreshOnActive:(NSNotification *)note { [self refresh]; }
 - (void)refresh {
-    NSArray *files = [NSFileManager.defaultManager contentsOfDirectoryAtURL:PSModFolder() includingPropertiesForKeys:@[NSURLIsRegularFileKey] options:NSDirectoryEnumerationSkipsHiddenFiles error:NULL];
-    NSMutableArray *list = [NSMutableArray array];
-    for (NSURL *url in files) {
+    NSArray *queued = [NSFileManager.defaultManager contentsOfDirectoryAtURL:PSZipInbox() includingPropertiesForKeys:@[NSURLIsRegularFileKey] options:NSDirectoryEnumerationSkipsHiddenFiles error:NULL];
+    NSMutableArray<NSURL *> *list = [NSMutableArray array];
+    for (NSURL *url in queued) {
+        if (!PSHasZipExtension(url)) continue;
         NSNumber *regular = nil;
         [url getResourceValue:&regular forKey:NSURLIsRegularFileKey error:NULL];
-        if (regular.boolValue && [url.pathExtension.lowercaseString isEqualToString:@"dll"]) [list addObject:url];
+        if (regular.boolValue) [list addObject:url];
     }
     self.mods = [list sortedArrayUsingComparator:^NSComparisonResult(NSURL *a, NSURL *b) {return [a.lastPathComponent localizedStandardCompare:b.lastPathComponent];}];
     [self.tableView reloadData];
@@ -60,11 +65,19 @@ static NSString *PSAttachStatus(void) {
     return section == 0 ? 3 : section == 1 ? 2 : 1 + self.mods.count;
 }
 - (NSString *)tableView:(UITableView *)table titleForHeaderInSection:(NSInteger)section {
-    return @[@"运行模式",@"内置模组",@"外部 DLL"][section];
+    return @[@"运行模式",@"内置模组",@"外部模组"][section];
 }
 - (NSString *)tableView:(UITableView *)table titleForFooterInSection:(NSInteger)section {
+#if PROSTO_INTERP
+    if (section == 0) return [NSString stringWithFormat:@"调试器：%@。外部运行时：免 JIT 解释器（实验）。优先 JIT 时也会回退到解释器。", PSAttachStatus()];
+#else
     if (section == 0) return [@"调试器：" stringByAppendingFormat:@"%@。当前可用：IL2CPP 内置模组。偏好会保存；外部运行时尚未集成。", PSAttachStatus()];
-    if (section == 2) return @"导入的 DLL 保存在“文件”中的 ImportedMods。开关保存启用意愿；本构建仅运行内置模组。";
+#endif
+    if (section == 2) {
+        NSString *result = [NSString stringWithContentsOfURL:[PSZipInbox() URLByAppendingPathComponent:@"result.txt"] encoding:NSUTF8StringEncoding error:NULL];
+        NSString *help = @"进入游戏时安装 ZIP。在游戏模组菜单查看，或用“文件”管理 Mods 下的模组目录。";
+        return result.length ? [help stringByAppendingFormat:@"\n%@",result] : help;
+    }
     return nil;
 }
 - (UITableViewCell *)tableView:(UITableView *)table cellForRowAtIndexPath:(NSIndexPath *)path {
@@ -78,17 +91,22 @@ static NSString *PSAttachStatus(void) {
         return cell;
     }
     if (path.section == 2 && row == 0) {
-        cell.textLabel.text = @"从“文件”导入 DLL…";
+        cell.textLabel.text = @"导入模组 ZIP…";
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         return cell;
     }
-    BOOL bundled = path.section == 1;
-    NSString *identifier = bundled ? @[@"item_details",@"smart_inventory_arrange"][row] : self.mods[row-1].lastPathComponent;
-    cell.textLabel.text = bundled ? @[@"Item Details",@"Smart Inventory Arrange"][row] : identifier;
-    NSString *key = bundled ? PSModKey(identifier) : [@"port.launcher.import." stringByAppendingString:identifier];
+    if (path.section == 2) {
+        cell.textLabel.text = self.mods[row-1].lastPathComponent;
+        cell.detailTextLabel.text = @"等待安装";
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        return cell;
+    }
+    NSString *identifier = @[@"item_details",@"smart_inventory_arrange"][row];
+    cell.textLabel.text = @[@"Item Details",@"Smart Inventory Arrange"][row];
+    NSString *key = PSModKey(identifier);
     NSNumber *value = [NSUserDefaults.standardUserDefaults objectForKey:key];
     // Older installs keep their ES3 preference until the user explicitly chooses.
-    if (!value && bundled) cell.detailTextLabel.text = @"沿用游戏设置";
+    if (!value) cell.detailTextLabel.text = @"沿用游戏设置";
     else cell.detailTextLabel.text = value.boolValue ? @"已启用" : @"已停用";
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
@@ -100,15 +118,15 @@ static NSString *PSAttachStatus(void) {
         [table reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationNone];
         return;
     }
-    if (path.section == 2 && path.row == 0) {
-        UIDocumentPickerViewController *picker = [[UIDocumentPickerViewController alloc] initWithDocumentTypes:@[@"public.data"] inMode:UIDocumentPickerModeImport];
+    if (path.section == 2) {
+        if (path.row != 0) return;
+        UIDocumentPickerViewController *picker = [[UIDocumentPickerViewController alloc] initWithDocumentTypes:@[@"public.zip-archive"] inMode:UIDocumentPickerModeImport];
         picker.delegate = self;
         [self presentViewController:picker animated:YES completion:nil];
         return;
     }
-    BOOL bundled = path.section == 1;
-    NSString *name = bundled ? @[@"item_details",@"smart_inventory_arrange"][path.row] : self.mods[path.row-1].lastPathComponent;
-    NSString *key = bundled ? PSModKey(name) : [@"port.launcher.import." stringByAppendingString:name];
+    NSString *name = @[@"item_details",@"smart_inventory_arrange"][path.row];
+    NSString *key = PSModKey(name);
     UIAlertController *menu = [UIAlertController alertControllerWithTitle:name message:nil preferredStyle:UIAlertControllerStyleAlert];
     for (NSString *label in @[@"启用",@"停用"]) {
         [menu addAction:[UIAlertAction actionWithTitle:label style:UIAlertActionStyleDefault handler:^(UIAlertAction *a) {
@@ -124,10 +142,10 @@ static NSString *PSAttachStatus(void) {
     if (!url) return;
     NSError *error = nil;
     NSString *message = nil;
-    if (![url.pathExtension.lowercaseString isEqualToString:@"dll"]) message = @"请选择 .dll 文件。";
+    if (!PSHasZipExtension(url)) message = @"请选择模组 ZIP。";
     else {
         NSFileManager *fm = NSFileManager.defaultManager;
-        NSURL *folder = PSModFolder();
+        NSURL *folder = PSZipInbox();
         if (![fm createDirectoryAtURL:folder withIntermediateDirectories:YES attributes:nil error:&error] ||
             ![fm copyItemAtURL:url toURL:[folder URLByAppendingPathComponent:url.lastPathComponent] error:&error])
             message = error.localizedDescription;

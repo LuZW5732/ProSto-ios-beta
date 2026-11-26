@@ -9,7 +9,11 @@ using ProbablyStolen.Port.Mods;
 internal static class Program
 {
     private static readonly MethodInfo Target = typeof(Program).GetMethod(nameof(Game), BindingFlags.NonPublic | BindingFlags.Static);
+    private static readonly MethodInfo ReputationTarget = typeof(Program).GetMethod(nameof(ReputationPop), BindingFlags.NonPublic | BindingFlags.Static);
     private static readonly List<string> Events = new List<string>();
+    private static readonly List<string> ReputationCalls = new List<string>();
+    private static readonly List<(string, double)> ReputationStates = new List<(string, double)>();
+    private static readonly List<(string, double)> ObserverStates = new List<(string, double)>();
     private static int count;
     private static int Main(string[] args)
     {
@@ -65,11 +69,66 @@ internal static class Program
             Throws<ArgumentException>(() => owner.Patch(Target, new HookMethod(Callback(nameof(High)).Method), new HookMethod(Callback(nameof(BadType)).Method)), "Partial registration rolls back");
             Equal(false, StaticModHooks.HasHooks(Target), "Rollback left no callbacks");
             Throws<NotSupportedException>(() => owner.Patch(Target, transpiler: new HookMethod(Callback(nameof(High)).Method)), "Transpilers rejected");
+            TestReputationHooks();
             Console.WriteLine("PASS: " + count + " static callback assertions (no Unity/game execution).");
             return 0;
         }
         catch (Exception error) { Console.Error.WriteLine(error); return 1; }
     }
+
+    private static void TestReputationHooks()
+    {
+        using var reputation = StaticModHooks.Register("reputation", ReputationTarget,
+            Callback(nameof(ReputationPrefix)), Callback(nameof(ReputationPostfix)));
+        using var observer = StaticModHooks.Register("observer", ReputationTarget,
+            postfix: Callback(nameof(ObserveReputation)));
+
+        ReputationPop("outer");
+        ReputationPop("next");
+        Equal("outer,inner,next", string.Join(",", ReputationCalls), "Reputation original executes once per invocation");
+        Equal(3, ReputationStates.Count, "Reputation postfix runs once per invocation");
+        Equal(("inner", 20.5), ReputationStates[0], "Inner invocation receives its prefix state");
+        Equal(("outer", 10.25), ReputationStates[1], "Outer invocation retains its prefix state");
+        Equal(("next", 30.75), ReputationStates[2], "Sequential invocation receives fresh prefix state");
+        Equal(3, ObserverStates.Count, "Second owner runs for each invocation");
+        Equal(("inner", 0d), ObserverStates[0], "Inner state is isolated by owner");
+        Equal(("outer", 0d), ObserverStates[1], "Outer state is isolated by owner");
+        Equal(("next", 0d), ObserverStates[2], "Sequential state is isolated by owner");
+
+        StaticModHooks.RemoveOwner("reputation");
+        ReputationPop("removed");
+        Equal("outer,inner,next,removed", string.Join(",", ReputationCalls), "Original still executes once after owner removal");
+        Equal(3, ReputationStates.Count, "Removed owner receives no further postfix calls");
+        Equal(4, ObserverStates.Count, "Removing one owner preserves the other owner");
+        Equal(("removed", 0d), ObserverStates[3], "Remaining owner receives default state after removal");
+    }
+
+    [StaticHookTarget]
+    private static void ReputationPop(string factionId)
+    {
+        StaticModHooks.Invoke<object>(ReputationTarget, null, new object[] { factionId }, args =>
+        {
+            var faction = (string)args[0];
+            ReputationCalls.Add(faction);
+            if (faction == "outer")
+                ReputationPop("inner");
+            return null;
+        });
+    }
+
+    private static void ReputationPrefix(string factionId, out double __state)
+    {
+        __state = factionId switch
+        {
+            "outer" => 10.25,
+            "inner" => 20.5,
+            "next" => 30.75,
+            _ => throw new InvalidOperationException("Unexpected reputation prefix call for " + factionId)
+        };
+    }
+
+    private static void ReputationPostfix(string factionId, double __state) => ReputationStates.Add((factionId, __state));
+    private static void ObserveReputation(string factionId, double __state) => ObserverStates.Add((factionId, __state));
 
     private static HookCallback Callback(string name, int priority = 400) => new HookCallback(typeof(Program).GetMethod(name, BindingFlags.NonPublic | BindingFlags.Static), priority);
     [StaticHookTarget]

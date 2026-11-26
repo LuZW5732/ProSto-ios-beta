@@ -283,6 +283,10 @@ return null; // No emitted replacement methods in the static iOS loader.
 	private static HashSet<string> CollectGameAssemblyNames()
 	{
 		HashSet<string> names = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+#if PROSTO_INTERP
+        // Include the ABI even when Unity loads it after the initial assembly snapshot.
+        names.Add(typeof(HarmonyLib.HarmonyPatch).Assembly.GetName().Name);
+#endif
 		Assembly[] assemblies = AppDomain.CurrentDomain.GetAssemblies();
 		foreach (Assembly assembly in assemblies)
 		{
@@ -368,9 +372,34 @@ return null; // No emitted replacement methods in the static iOS loader.
         }
         if (changedByLauncher) ES3.Save("modOrder", _modOrder);
 #endif
+        try { PortModPackages.Discover(Application.persistentDataPath, mods); }
+        catch (Exception error) { UnityEngine.Debug.LogWarning("[ModImport] " + error.Message); }
         ApplySavedOrder();
+#if PROSTO_INTERP
+        gameAssemblyNames = CollectGameAssemblyNames();
+#endif
         foreach (var mod in bundled) LoadLocalization(mod);
-        foreach (var mod in mods) BundledModCatalog.Initialize(mod, EnabledMods.Contains(mod.Manifest.ID));
+        foreach (var mod in mods)
+        {
+            if (mod.Source == ModSource.Bundled) BundledModCatalog.Initialize(mod, EnabledMods.Contains(mod.Manifest.ID));
+#if PROSTO_INTERP
+            else if (mod.LoadError == null && EnabledMods.Contains(mod.Manifest.ID))
+            {
+                try
+                {
+                    LoadLocalization(mod);
+                    PortInterpretedMods.Start(mod);
+                    LoadTextures(mod);
+                    LoadAdditionalContent(mod);
+                }
+                catch (Exception error)
+                {
+                    PortInterpretedMods.Stop(mod);
+                    ReportLoadError(mod, error, "iOS interpreter");
+                }
+            }
+#endif
+        }
 
 #else
 
@@ -502,12 +531,13 @@ if (Instance == this) ModHelper.DrainMainThread();
 	{
 #if UNITY_IOS
 
-        if (!BundledModCatalog.Contains(id)) throw new PlatformNotSupportedException("This build supports bundled mods only.");
+        RequireNoMod("change the enabled mods");
+        if (!BundledModCatalog.Contains(id) && !Mods.Exists(m => m.Manifest.ID == id && (!enabled || PortInterpretedMods.UnavailableReason(m.Manifest) == null))) throw new PlatformNotSupportedException("Unsupported external mod.");
         if (enabled) { if (EnabledMods.Add(id)) _modOrder.Add(id); }
         else { EnabledMods.Remove(id); _modOrder.Remove(id); }
         ES3.Save("modOrder", _modOrder);
 #if !UNITY_EDITOR
-        PSLauncherMirrorMod(id, enabled ? 1 : 0);
+        if (BundledModCatalog.Contains(id)) PSLauncherMirrorMod(id, enabled ? 1 : 0);
 #endif
         RestartRequired = true; // Let active solver/coroutine work finish; apply at restart.
 
@@ -723,8 +753,8 @@ if (Instance == this) ModHelper.DrainMainThread();
 	{
 #if UNITY_IOS
 return new ModEnableCheck { Mod = mod,
-        Refusal = mod != null && mod.Source == ModSource.Bundled && BundledModCatalog.Contains(mod.Manifest.ID)
-            ? null : "This iOS build supports its bundled mods only." };
+        Refusal = mod != null && (BundledModCatalog.Contains(mod.Manifest.ID) || PortInterpretedMods.UnavailableReason(mod.Manifest) == null)
+            ? null : mod?.LoadError ?? "Unsupported mod." };
 #else
 
 		ModEnableCheck modEnableCheck = new ModEnableCheck
@@ -841,7 +871,7 @@ return new ModEnableCheck { Mod = mod,
 	public static void ApproveAndEnable(LoadedMod mod, ModEnableCheck check)
 	{
 #if UNITY_IOS
-if (check == null || check.Mod != mod || check.Refusal != null || mod.Source != ModSource.Bundled)
+if (check == null || check.Mod != mod || check.Refusal != null || mod == null)
             throw new InvalidOperationException("Invalid bundled mod enable request.");
         SetModEnabled(mod.Manifest.ID, true);
 #else
@@ -1829,11 +1859,16 @@ throw new PlatformNotSupportedException("Dynamic assemblies are not supported on
 			{
 				LoadTextures(mod);
 				LoadLocalization(mod);
-				ModLootFile.Load(mod);
-				PaperBookRegistry.LoadMod(mod);
-				StartCoroutine(LoadSoundsCoroutine(mod));
+				LoadAdditionalContent(mod);
 			}
 		}
+	}
+
+	private void LoadAdditionalContent(LoadedMod mod)
+	{
+		ModLootFile.Load(mod);
+		PaperBookRegistry.LoadMod(mod);
+		StartCoroutine(LoadSoundsCoroutine(mod));
 	}
 
 	private void LoadTextures(LoadedMod mod)
@@ -2002,7 +2037,17 @@ throw new PlatformNotSupportedException("Dynamic assemblies are not supported on
 	private void OnApplicationQuit()
 	{
 #if UNITY_IOS
-foreach (var mod in mods) BundledModCatalog.Stop(mod);
+        foreach (var mod in mods)
+        {
+#if PROSTO_INTERP
+            if (mod.Source != ModSource.Bundled)
+            {
+                PortInterpretedMods.Stop(mod);
+                continue;
+            }
+#endif
+            BundledModCatalog.Stop(mod);
+        }
 #else
 
 		ModSteamAuth.CancelAll();

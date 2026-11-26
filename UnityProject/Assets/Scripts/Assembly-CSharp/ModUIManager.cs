@@ -501,6 +501,9 @@ public class ModUIManager : MonoBehaviour
 	{
 		if (mod != null)
 		{
+#if UNITY_IOS
+			if (mod.Source == ModSource.Local && PortInterpretedMods.UnavailableReason(mod.Manifest) != null) return false;
+#endif
 			return ModLoader.IsModEnabled(mod.Manifest.ID);
 		}
 		return false;
@@ -635,6 +638,10 @@ public class ModUIManager : MonoBehaviour
 		handle.Get("detail_game_versions")?.SetText(InfoLine("ui_mods_game_versions", FormatGameVersions(manifest)));
 		ScriptFontSwap.Apply(handle.Get("detail_description")?.text, manifest.Description);
 		handle.Get("activate")?.SetText(LocHelper.GetLocalizedUI(IsActive(mod) ? "ui_mods_deactivate" : "ui_mods_activate"))?.SetInteractable(interactable: true);
+#if UNITY_IOS
+        if (mod.Source == ModSource.Local && PortInterpretedMods.UnavailableReason(mod.Manifest) != null)
+            handle.Get("activate")?.SetText("未运行")?.SetInteractable(false);
+#endif
 		handle.Get("settings")?.SetInteractable(ModHasSettings(manifest.ID));
 		bool flag = !IsWorkshopMod(mod) && mod.ShadowedWorkshopId != 0;
 		handle.Get("detail_override")?.SetText(flag ? ("<color=#AFADA4>" + LocHelper.GetLocalizedUI("ui_mods_local_override") + "</color>") : "");

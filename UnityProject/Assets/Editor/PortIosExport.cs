@@ -30,7 +30,12 @@ public static class PortIosExport
         if (string.IsNullOrEmpty(file))
         {
             file = project.AddFile(launcher, launcher, UnityEditor.iOS.Xcode.PBXSourceTree.Source);
-            project.AddFileToBuildWithFlags(project.GetUnityFrameworkTargetGuid(), file, "-fobjc-arc");
+            const string flags = "-fobjc-arc"
+#if PROSTO_INTERP
+                + " -DPROSTO_INTERP=1"
+#endif
+                ;
+            project.AddFileToBuildWithFlags(project.GetUnityFrameworkTargetGuid(), file, flags);
         }
         project.WriteToFile(projectPath);
     }

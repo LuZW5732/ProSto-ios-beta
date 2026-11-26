@@ -213,46 +213,75 @@ public class StoreReputation
 		return null;
 	}
 
-	public static void OnItemTraded(string factionId, int value, int originalValue, StoreClient storeClient, bool isPlayerSold, GameItem gameItem)
-	{
-		value = math.abs(value);
-		if (Difficulty.Rules.tradeFavorRate > 0f)
-		{
-			PlayerStore.Instance.wildFavor += RNG.MultiplyAndRound(math.abs(originalValue), Difficulty.Rules.tradeFavorRate);
-		}
-		float num = (float)storeClient.GetTradeRepMultiplier(isPlayerSold);
-		if (isPlayerSold && value != originalValue)
-		{
-			num++;
-		}
-		value = BargainUIManager.GetPreBargainValue(gameItem, value);
-		value = RNG.MultiplyAndRound(value, num);
-		StoreReputation storeReputation = GetStoreReputation(factionId);
-		if (storeReputation != null)
-		{
-			if (!isPlayerSold && StolenHelper.IsStolenItem(gameItem))
-			{
-				value = RNG.MultiplyAndRound(value, StolenHelper.GetStolenItemTradingRepBonus(gameItem));
-			}
-			if (!isPlayerSold && ContrabandHelper.IsSeriousContraband(gameItem))
-			{
-				value = RNG.MultiplyAndRound(value, (float)ContrabandHelper.GetContrabandLevelInInt(gameItem) / 2f + 1f);
-			}
-			if (factionId.Equals("FACTION_LOWER_LEVEL"))
-			{
-				value = RNG.MultiplyAndRound(value, 0.66);
-			}
-			if (factionId.Equals("FACTION_UPPER_LEVEL"))
-			{
-				value = RNG.MultiplyAndRound(value, 1.2000000476837158);
-			}
-			if (StartingPerk.IsDiplomatic() && value > 0)
-			{
-				value = RNG.MultiplyAndRound(value, 1.3300000429153442);
-			}
-			storeReputation.ModReputation((double)value / 400.0);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(StoreReputation), "OnItemTraded", new System.Type[] { typeof(string), typeof(int), typeof(int), typeof(StoreClient), typeof(bool), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void OnItemTraded(string factionId, int value, int originalValue, StoreClient storeClient, bool isPlayerSold, GameItem gameItem)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { factionId, value, originalValue, storeClient, isPlayerSold, gameItem }, __portArguments =>
+    {
+        factionId = (string)__portArguments[0];
+        value = (int)__portArguments[1];
+        originalValue = (int)__portArguments[2];
+        storeClient = (StoreClient)__portArguments[3];
+        isPlayerSold = (bool)__portArguments[4];
+        gameItem = (GameItem)__portArguments[5];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        value = math.abs(value);
+        if (Difficulty.Rules.tradeFavorRate > 0f)
+        {
+            PlayerStore.Instance.wildFavor += RNG.MultiplyAndRound(math.abs(originalValue), Difficulty.Rules.tradeFavorRate);
+        }
+
+        float num = (float)storeClient.GetTradeRepMultiplier(isPlayerSold);
+        if (isPlayerSold && value != originalValue)
+        {
+            num++;
+        }
+
+        value = BargainUIManager.GetPreBargainValue(gameItem, value);
+        value = RNG.MultiplyAndRound(value, num);
+        StoreReputation storeReputation = GetStoreReputation(factionId);
+        if (storeReputation != null)
+        {
+            if (!isPlayerSold && StolenHelper.IsStolenItem(gameItem))
+            {
+                value = RNG.MultiplyAndRound(value, StolenHelper.GetStolenItemTradingRepBonus(gameItem));
+            }
+
+            if (!isPlayerSold && ContrabandHelper.IsSeriousContraband(gameItem))
+            {
+                value = RNG.MultiplyAndRound(value, (float)ContrabandHelper.GetContrabandLevelInInt(gameItem) / 2f + 1f);
+            }
+
+            if (factionId.Equals("FACTION_LOWER_LEVEL"))
+            {
+                value = RNG.MultiplyAndRound(value, 0.66);
+            }
+
+            if (factionId.Equals("FACTION_UPPER_LEVEL"))
+            {
+                value = RNG.MultiplyAndRound(value, 1.2000000476837158);
+            }
+
+            if (StartingPerk.IsDiplomatic() && value > 0)
+            {
+                value = RNG.MultiplyAndRound(value, 1.3300000429153442);
+            }
+
+            storeReputation.ModReputation((double)value / 400.0);
+        }
+    }
+}
 
 	public static void InitReputation()
 	{
