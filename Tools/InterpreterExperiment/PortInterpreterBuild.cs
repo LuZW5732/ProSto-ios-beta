@@ -15,7 +15,7 @@ using UnityEngine;
 
 public static class PortInterpreterBuild
 {
-    private static readonly string WorkshopFolder = Path.GetFullPath("WorkshopReference");
+    private static readonly string WorkshopFolder = Path.Combine(Path.GetDirectoryName(Application.dataPath), "WorkshopReference");
     private static readonly string ShutterFolder = Path.Combine(WorkshopFolder, "ShutterEvents");
     private static readonly string ReputationFolder = Path.Combine(WorkshopFolder, "ReputationPop");
     private static readonly string ReputationDll = Path.Combine(ReputationFolder, "ReputationPop.dll");
@@ -196,5 +196,15 @@ public static class PortInterpreterBuild
         foreach (var name in names)
             File.Copy(Path.Combine(source, name), Path.Combine(dest, name + ".bytes"), true);
         AssetDatabase.Refresh();
+    }
+
+    public static void ExportForActions()
+    {
+        var workspace = Environment.GetEnvironmentVariable("GITHUB_WORKSPACE");
+        if (string.IsNullOrEmpty(workspace) || !Path.IsPathRooted(workspace))
+            throw new InvalidOperationException("GITHUB_WORKSPACE must be an absolute path.");
+        CopyMetadata();
+        Environment.SetEnvironmentVariable("PORT_IOS_EXPORT_PATH", Path.Combine(workspace, "build", "iOS", "iOS"));
+        PortIosExport.Run();
     }
 }

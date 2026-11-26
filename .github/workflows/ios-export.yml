@@ -17,6 +17,44 @@ jobs:
         with:
           lfs: true
 
+      - name: Prepare no-JIT Unity project
+        shell: bash
+        env:
+          PORT_IOS_WORKSHOP_FIXTURES: ${{ secrets.PORT_IOS_WORKSHOP_FIXTURES }}
+        run: |
+          set -euo pipefail
+          fixtures="$RUNNER_TEMP/port-ios-workshop-fixtures"
+          python3 - "$fixtures" <<'PY'
+          import base64
+          import binascii
+          import io
+          import os
+          import sys
+          import zipfile
+
+          encoded = os.environ.get("PORT_IOS_WORKSHOP_FIXTURES", "")
+          if not encoded.strip():
+              sys.exit("PORT_IOS_WORKSHOP_FIXTURES is required")
+          try:
+              archive = base64.b64decode("".join(encoded.split()), validate=True)
+              with zipfile.ZipFile(io.BytesIO(archive)) as fixtures:
+                  fixtures.extractall(sys.argv[1])
+          except (binascii.Error, OSError, RuntimeError, ValueError, zipfile.BadZipFile):
+              sys.exit("Could not unpack PORT_IOS_WORKSHOP_FIXTURES as a base64 ZIP")
+          PY
+          unset PORT_IOS_WORKSHOP_FIXTURES
+          shutter="$fixtures/ShutterEvents/ShutterEvents.dll"
+          reputation="$fixtures/ReputationPop/ReputationPop.dll"
+          purchase="$fixtures/PurchaseStayCounter/PurchaseStayCounter.dll"
+          for fixture in "$shutter" "$reputation" "$purchase"; do
+            if [[ ! -s "$fixture" ]]; then
+              printf 'Required Workshop fixture is missing or empty: %s\n' "${fixture##*/}" >&2
+              exit 1
+            fi
+          done
+          python3 Tools/InterpreterExperiment/prepare.py build/no-jit "$shutter" \
+            --reputation-dll "$reputation" --purchase-dll "$purchase"
+
       # GameCI v4 installs the editor through the Hub 3 headless interface.
       - name: Install compatible Unity Hub
         shell: bash
@@ -34,18 +72,47 @@ jobs:
           ditto "$mount/Unity Hub.app" "/Applications/Unity Hub.app"
           test "$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' '/Applications/Unity Hub.app/Contents/Info.plist')" = "$version"
 
-      - name: Export Unity iOS project
+      - name: Verify Workshop mod lifecycles in Unity
         uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          projectPath: UnityProject
+          projectPath: build/no-jit/UnityProject
           unityVersion: 2021.3.45f2
           targetPlatform: iOS
           cacheUnityInstallationOnMac: true
           versioning: None
+          buildMethod: PortInterpreterBuild.VerifyLifecycle
+
+      - name: Generate HybridCLR iOS metadata
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: build/no-jit/UnityProject
+          unityVersion: 2021.3.45f2
+          targetPlatform: iOS
+          cacheUnityInstallationOnMac: true
+          versioning: None
+          buildMethod: PortInterpreterBuild.Generate
+
+      - name: Export no-JIT Unity iOS project
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: build/no-jit/UnityProject
+          unityVersion: 2021.3.45f2
+          targetPlatform: iOS
+          cacheUnityInstallationOnMac: true
+          versioning: None
+          buildMethod: PortInterpreterBuild.ExportForActions
 
       - name: Upload Xcode project
         uses: actions/upload-artifact@v4
@@ -64,6 +131,10 @@ jobs:
           if [[ ! -d "$xcode_project" ]]; then
             printf 'Unity Xcode project missing at %s; found:\n' "$xcode_project" >&2
             find build/iOS -maxdepth 3 -name '*.xcodeproj' -print >&2
+            exit 1
+          fi
+          if ! grep -Fq 'PROSTO_INTERP=1' "$xcode_project/project.pbxproj"; then
+            printf 'The generated Xcode project is missing the interpreter launcher flag.\n' >&2
             exit 1
           fi
           xcodebuild \
@@ -107,6 +178,18 @@ jobs:
           (cd build/unsigned && zip -qry ../ProbablyStolen-unsigned.ipa Payload)
           test -s build/ProbablyStolen-unsigned.ipa
           unzip -tq build/ProbablyStolen-unsigned.ipa
+          python3 - build/ProbablyStolen-unsigned.ipa <<'PY'
+          import sys
+          import zipfile
+
+          bundle = "Payload/ProbablyStolen.app/"
+          metadata = "Data/Raw/PortInterpreterMetadata/"
+          prefixes = (bundle + metadata, bundle + "Frameworks/UnityFramework.framework/" + metadata)
+          with zipfile.ZipFile(sys.argv[1]) as ipa:
+              if not any(item.filename.startswith(prefixes) and item.filename.endswith(".bytes")
+                         and item.file_size > 0 for item in ipa.infolist()):
+                  sys.exit("The unsigned IPA is missing HybridCLR AOT metadata (.bytes)")
+          PY
 
       - name: Upload unsigned IPA
         uses: actions/upload-artifact@v4
