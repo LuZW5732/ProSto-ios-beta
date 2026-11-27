@@ -11,6 +11,8 @@ using HybridCLR.Editor.Installer;
 using HybridCLR.Editor.Settings;
 using ProbablyStolen.Port.Mods;
 using UnityEditor;
+using UnityEditor.Callbacks;
+using UnityEditor.Compilation;
 using UnityEngine;
 
 public static class PortInterpreterBuild
@@ -22,6 +24,8 @@ public static class PortInterpreterBuild
     private static readonly string PurchaseFolder = Path.Combine(WorkshopFolder, "PurchaseStayCounter");
     private static readonly string PurchaseDll = Path.Combine(PurchaseFolder, "PurchaseStayCounter.dll");
     private const BindingFlags LoaderFlags = BindingFlags.Static | BindingFlags.NonPublic;
+    private const string ActionsExportPending = "ProbablyStolen.PortInterpreterBuild.ActionsExportPending";
+    private static bool actionsCompilationFailed;
 
     public static void VerifyInput()
     {
@@ -198,13 +202,63 @@ public static class PortInterpreterBuild
         AssetDatabase.Refresh();
     }
 
-    public static void ExportForActions()
+    // GameCI keeps one activated Editor open until this driver exits.
+    public static void RunForActions()
     {
-        var workspace = Environment.GetEnvironmentVariable("GITHUB_WORKSPACE");
-        if (string.IsNullOrEmpty(workspace) || !Path.IsPathRooted(workspace))
-            throw new InvalidOperationException("GITHUB_WORKSPACE must be an absolute path.");
-        CopyMetadata();
-        Environment.SetEnvironmentVariable("PORT_IOS_EXPORT_PATH", Path.Combine(workspace, "build", "iOS", "iOS"));
-        PortIosExport.Run();
+        try
+        {
+            Debug.Log("Unity interpreter step: VerifyLifecycle");
+            VerifyLifecycle();
+            Debug.Log("Unity interpreter step: Generate");
+            Generate();
+            SessionState.SetBool(ActionsExportPending, true);
+            CompilationPipeline.assemblyCompilationFinished += RecordActionsCompilerErrors;
+            CompilationPipeline.compilationFinished += CheckActionsCompilation;
+            CompilationPipeline.RequestScriptCompilation(RequestScriptCompilationOptions.CleanBuildCache);
+        }
+        catch (Exception error) { FailActionsBuild(error); }
+    }
+
+    private static void RecordActionsCompilerErrors(string assembly, CompilerMessage[] messages)
+    {
+        actionsCompilationFailed |= messages.Any(message => message.type == CompilerMessageType.Error);
+    }
+
+    private static void CheckActionsCompilation(object context)
+    {
+        if (actionsCompilationFailed)
+            FailActionsBuild(new InvalidOperationException("HybridCLR generated scripts failed to compile."));
+    }
+
+    [DidReloadScripts]
+    private static void ResumeActionsBuild()
+    {
+        if (!SessionState.GetBool(ActionsExportPending, false)) return;
+        SessionState.EraseBool(ActionsExportPending);
+        EditorApplication.delayCall += ExportForActions;
+    }
+
+    private static void ExportForActions()
+    {
+        try
+        {
+            var workspace = Environment.GetEnvironmentVariable("GITHUB_WORKSPACE");
+            if (string.IsNullOrEmpty(workspace) || !Path.IsPathRooted(workspace))
+                throw new InvalidOperationException("GITHUB_WORKSPACE must be an absolute path.");
+            Debug.Log("Unity interpreter step: CopyMetadata");
+            CopyMetadata();
+            Debug.Log("Unity interpreter step: Export");
+            Environment.SetEnvironmentVariable("PORT_IOS_EXPORT_PATH", Path.Combine(workspace, "build", "iOS", "iOS"));
+            PortIosExport.Run();
+            EditorApplication.Exit(0);
+        }
+        catch (Exception error) { FailActionsBuild(error); }
+    }
+
+    private static void FailActionsBuild(Exception error)
+    {
+        SessionState.EraseBool(ActionsExportPending);
+        Debug.LogException(error);
+        EditorApplication.Exit(1);
     }
 }

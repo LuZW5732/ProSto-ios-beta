@@ -72,7 +72,7 @@ jobs:
           ditto "$mount/Unity Hub.app" "/Applications/Unity Hub.app"
           test "$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' '/Applications/Unity Hub.app/Contents/Info.plist')" = "$version"
 
-      - name: Verify Workshop mod lifecycles in Unity
+      - name: Verify Workshop mods, generate HybridCLR metadata, and export iOS project
         uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
@@ -84,35 +84,8 @@ jobs:
           targetPlatform: iOS
           cacheUnityInstallationOnMac: true
           versioning: None
-          buildMethod: PortInterpreterBuild.VerifyLifecycle
-
-      - name: Generate HybridCLR iOS metadata
-        uses: game-ci/unity-builder@v4
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          projectPath: build/no-jit/UnityProject
-          unityVersion: 2021.3.45f2
-          targetPlatform: iOS
-          cacheUnityInstallationOnMac: true
-          versioning: None
-          buildMethod: PortInterpreterBuild.Generate
-
-      - name: Export no-JIT Unity iOS project
-        uses: game-ci/unity-builder@v4
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          projectPath: build/no-jit/UnityProject
-          unityVersion: 2021.3.45f2
-          targetPlatform: iOS
-          cacheUnityInstallationOnMac: true
-          versioning: None
-          buildMethod: PortInterpreterBuild.ExportForActions
+          buildMethod: PortInterpreterBuild.RunForActions
+          manualExit: true
 
       - name: Upload Xcode project
         uses: actions/upload-artifact@v4
