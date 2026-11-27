@@ -183,35 +183,68 @@ public class DialogUIManager : MonoBehaviour
 		}
 	}
 
-	public void ApplyBubbleScale()
-	{
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(DialogUIManager), "ApplyBubbleScale", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ApplyBubbleScale()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
 #if UNITY_IOS
 		bubbleScaler.Apply(EmporiumOption.DialogBubbleScale * ProbablyStolen.Port.PortDisplaySettings.UiSize.Scale);
 #else
-		bubbleScaler.Apply();
+        bubbleScaler.Apply();
 #endif
-	}
+    }
+}
 
-	private void Start()
-	{
-		defaultModeY = clientBubble.transform.localPosition.y;
-		defaultModeYName = clientNameBubble.transform.localPosition.y;
-		bubbleScaler.Register(clientBubble);
-		bubbleScaler.Register(clientNameBubble, clientBubble);
-		bubbleScaler.Register(secBubble);
-		bubbleScaler.Register(secNameBubble, secBubble);
-		bubbleScaler.Register(playerBubble);
-		for (int i = 0; i < dialogChoiceBubbles.Count; i++)
-		{
-			bubbleScaler.Register(dialogChoiceBubbles[i], (i == 0) ? null : dialogChoiceBubbles[0]);
-		}
-		ApplyBubbleScale();
-		DialogBubbleClickAdvance.Attach(clientBubble.gameObject, OnBubbleClicked);
-		DialogBubbleClickAdvance.Attach(playerBubble.gameObject, OnBubbleClicked);
-		DialogBubbleClickAdvance.Attach(secBubble.gameObject, OnBubbleClicked);
-		DialogBubbleClickAdvance.Attach(clientNameBubble, OnBubbleClicked);
-		DialogBubbleClickAdvance.Attach(secNameBubble, OnBubbleClicked);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(DialogUIManager), "Start", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void Start()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        defaultModeY = clientBubble.transform.localPosition.y;
+        defaultModeYName = clientNameBubble.transform.localPosition.y;
+        bubbleScaler.Register(clientBubble);
+        bubbleScaler.Register(clientNameBubble, clientBubble);
+        bubbleScaler.Register(secBubble);
+        bubbleScaler.Register(secNameBubble, secBubble);
+        bubbleScaler.Register(playerBubble);
+        for (int i = 0; i < dialogChoiceBubbles.Count; i++)
+        {
+            bubbleScaler.Register(dialogChoiceBubbles[i], (i == 0) ? null : dialogChoiceBubbles[0]);
+        }
+
+        ApplyBubbleScale();
+        DialogBubbleClickAdvance.Attach(clientBubble.gameObject, OnBubbleClicked);
+        DialogBubbleClickAdvance.Attach(playerBubble.gameObject, OnBubbleClicked);
+        DialogBubbleClickAdvance.Attach(secBubble.gameObject, OnBubbleClicked);
+        DialogBubbleClickAdvance.Attach(clientNameBubble, OnBubbleClicked);
+        DialogBubbleClickAdvance.Attach(secNameBubble, OnBubbleClicked);
+    }
+}
 
 	private void OnBubbleClicked()
 	{
@@ -869,17 +902,49 @@ public void UpdateDialogHistory(string text)
 		Instance.StartDialogue(dialogue);
 	}
 
-	public void SetNormalMode()
-	{
-		clientBubble.transform.localPosition = new Vector3(clientBubble.transform.localPosition.x, defaultModeY, clientBubble.transform.localPosition.z);
-		clientNameBubble.transform.localPosition = new Vector3(clientNameBubble.transform.localPosition.x, defaultModeYName, clientNameBubble.transform.localPosition.z);
-		ApplyBubbleScale();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(DialogUIManager), "SetNormalMode", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void SetNormalMode()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void SetShootingMode()
-	{
-		clientBubble.transform.localPosition = new Vector3(clientBubble.transform.localPosition.x, shootingModeY, clientBubble.transform.localPosition.z);
-		clientNameBubble.transform.localPosition = new Vector3(clientNameBubble.transform.localPosition.x, shootingModeYName, clientNameBubble.transform.localPosition.z);
-		ApplyBubbleScale();
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook3, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        clientBubble.transform.localPosition = new Vector3(clientBubble.transform.localPosition.x, defaultModeY, clientBubble.transform.localPosition.z);
+        clientNameBubble.transform.localPosition = new Vector3(clientNameBubble.transform.localPosition.x, defaultModeYName, clientNameBubble.transform.localPosition.z);
+        ApplyBubbleScale();
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook4 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(DialogUIManager), "SetShootingMode", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void SetShootingMode()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook4))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook4, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        clientBubble.transform.localPosition = new Vector3(clientBubble.transform.localPosition.x, shootingModeY, clientBubble.transform.localPosition.z);
+        clientNameBubble.transform.localPosition = new Vector3(clientNameBubble.transform.localPosition.x, shootingModeYName, clientNameBubble.transform.localPosition.z);
+        ApplyBubbleScale();
+    }
+}
 }

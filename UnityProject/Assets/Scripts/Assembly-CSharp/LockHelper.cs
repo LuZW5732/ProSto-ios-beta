@@ -163,22 +163,41 @@ public class LockHelper
 		return false;
 	}
 
-	public static void TryOpenLock(GameItem key, GameItem box, string keyLockId)
-	{
-		if (IsCurrentlyLocked(box))
-		{
-			if (CanOpenLock(box, keyLockId))
-			{
-				EmporiumAudioPlayer.Instance.audioClickClick.Play();
-				key.Destroy();
-				UnlockContainer(box);
-			}
-			else
-			{
-				EmporiumAudioPlayer.Instance.audioNegativeTwoBeep.Play();
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(LockHelper), "TryOpenLock", new System.Type[] { typeof(GameItem), typeof(GameItem), typeof(string) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void TryOpenLock(GameItem key, GameItem box, string keyLockId)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { key, box, keyLockId }, __portArguments =>
+    {
+        key = (GameItem)__portArguments[0];
+        box = (GameItem)__portArguments[1];
+        keyLockId = (string)__portArguments[2];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (IsCurrentlyLocked(box))
+        {
+            if (CanOpenLock(box, keyLockId))
+            {
+                EmporiumAudioPlayer.Instance.audioClickClick.Play();
+                key.Destroy();
+                UnlockContainer(box);
+            }
+            else
+            {
+                EmporiumAudioPlayer.Instance.audioNegativeTwoBeep.Play();
+            }
+        }
+    }
+}
 
 	public static void SetChildBehindLock(GameItem gameItem)
 	{

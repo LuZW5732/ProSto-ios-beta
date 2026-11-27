@@ -71,61 +71,82 @@ public class WaterScannerUIManager : MonoBehaviour
 		}
 	}
 
-	public void RefreshUI()
-	{
-		if (currentWaterContainer == null)
-		{
-			testedTMP.text = "";
-			labelTMP.text = "";
-			contaminantTMP.text = "";
-			matchButton.gameObject.SetActive(value: false);
-			matchButton.gameObject.SetActive(value: false);
-			return;
-		}
-		testedTMP.text = GetTestedString(currentWaterContainer);
-		labelTMP.text = GetLabeledString(currentWaterContainer);
-		WaterHelper.SetLastScanResult(currentWaterContainer);
-		if (WaterHelper.IsEmpty(currentWaterContainer))
-		{
-			testedTMP.text = "";
-			labelTMP.text = "";
-			contaminantTMP.text = "";
-			matchButton.gameObject.SetActive(value: false);
-			return;
-		}
-		if (CanConfront(currentWaterContainer))
-		{
-			confrontButton.gameObject.SetActive(value: true);
-		}
-		else
-		{
-			confrontButton.gameObject.SetActive(value: false);
-		}
-		if (CanMatch(currentWaterContainer))
-		{
-			matchButton.gameObject.SetActive(value: true);
-		}
-		else
-		{
-			matchButton.gameObject.SetActive(value: false);
-		}
-		int num = 0;
-		foreach (Liquid liquid in Liquid.Liquids)
-		{
-			num += currentWaterContainer.GetTagReadonly(liquid.currentPart).GetInt();
-		}
-		contaminantTMP.text = "";
-		for (int i = 0; i < Liquid.Liquids.Count; i++)
-		{
-			int num2 = currentWaterContainer.GetTagReadonly(Liquid.Liquids[i].currentPart).GetInt();
-			if (num2 > 0)
-			{
-				string displayName = Liquid.Liquids[i].displayName;
-				float num3 = (float)num2 / (float)num * 100f;
-				contaminantTMP.text += $"{displayName}: {FormatAmount(num2)} ({num3:F2}%)\n";
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(WaterScannerUIManager), "RefreshUI", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void RefreshUI()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (currentWaterContainer == null)
+        {
+            testedTMP.text = "";
+            labelTMP.text = "";
+            contaminantTMP.text = "";
+            matchButton.gameObject.SetActive(value: false);
+            matchButton.gameObject.SetActive(value: false);
+            return;
+        }
+
+        testedTMP.text = GetTestedString(currentWaterContainer);
+        labelTMP.text = GetLabeledString(currentWaterContainer);
+        WaterHelper.SetLastScanResult(currentWaterContainer);
+        if (WaterHelper.IsEmpty(currentWaterContainer))
+        {
+            testedTMP.text = "";
+            labelTMP.text = "";
+            contaminantTMP.text = "";
+            matchButton.gameObject.SetActive(value: false);
+            return;
+        }
+
+        if (CanConfront(currentWaterContainer))
+        {
+            confrontButton.gameObject.SetActive(value: true);
+        }
+        else
+        {
+            confrontButton.gameObject.SetActive(value: false);
+        }
+
+        if (CanMatch(currentWaterContainer))
+        {
+            matchButton.gameObject.SetActive(value: true);
+        }
+        else
+        {
+            matchButton.gameObject.SetActive(value: false);
+        }
+
+        int num = 0;
+        foreach (Liquid liquid in Liquid.Liquids)
+        {
+            num += currentWaterContainer.GetTagReadonly(liquid.currentPart).GetInt();
+        }
+
+        contaminantTMP.text = "";
+        for (int i = 0; i < Liquid.Liquids.Count; i++)
+        {
+            int num2 = currentWaterContainer.GetTagReadonly(Liquid.Liquids[i].currentPart).GetInt();
+            if (num2 > 0)
+            {
+                string displayName = Liquid.Liquids[i].displayName;
+                float num3 = (float)num2 / (float)num * 100f;
+                contaminantTMP.text += $"{displayName}: {FormatAmount(num2)} ({num3:F2}%)\n";
+            }
+        }
+    }
+}
 
 	public static string GetTestedString(GameItem currentWaterContainer)
 	{

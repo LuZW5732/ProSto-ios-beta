@@ -299,17 +299,34 @@ private void UpdateSelectButtonColor(RichTextElement selectedButton)
     }
 }
 
-	private void UpdateSortSelectButtonColor(RichTextElement selectedButton)
-	{
-		if (currentInventory != null)
-		{
-			SetSortButtonColor(buttonSortBigStart, selectedButton, canSort);
-			SetSortButtonColor(buttonSortSmallStart, selectedButton, canSort);
-			SetSortButtonColor(buttonSortBigEnd, selectedButton, canSort);
-			SetSortButtonColor(buttonSortSmallEnd, selectedButton, canSort);
-			SetSortButtonColor(buttonSortUndo, selectedButton, canUndoSort);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook7 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "UpdateSortSelectButtonColor", new System.Type[] { typeof(RichTextElement) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void UpdateSortSelectButtonColor(RichTextElement selectedButton)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook7))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook7, this, new object[] { selectedButton }, __portArguments =>
+    {
+        selectedButton = (RichTextElement)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (currentInventory != null)
+        {
+            SetSortButtonColor(buttonSortBigStart, selectedButton, canSort);
+            SetSortButtonColor(buttonSortSmallStart, selectedButton, canSort);
+            SetSortButtonColor(buttonSortBigEnd, selectedButton, canSort);
+            SetSortButtonColor(buttonSortSmallEnd, selectedButton, canSort);
+            SetSortButtonColor(buttonSortUndo, selectedButton, canUndoSort);
+        }
+    }
+}
 
 	private void SetSortButtonColor(RichTextElement button, RichTextElement selectedButton = null, bool isEnabled = false)
 	{
@@ -340,29 +357,54 @@ private void UpdateSelectButtonColor(RichTextElement selectedButton)
 		}
 	}
 
-	private void EqualizeSortButtonWidths()
-	{
-		RichTextElement[] array = new RichTextElement[5] { buttonSortBigStart, buttonSortSmallStart, buttonSortBigEnd, buttonSortSmallEnd, buttonSortUndo };
-		RichTextElement[] array2 = array;
-		for (int i = 0; i < array2.Length; i++)
-		{
-			array2[i].SetFixedSize(-1, -1);
-		}
-		int num = 0;
-		array2 = array;
-		foreach (RichTextElement richTextElement in array2)
-		{
-			if (richTextElement.widthPixels > num)
-			{
-				num = richTextElement.widthPixels;
-			}
-		}
-		array2 = array;
-		for (int i = 0; i < array2.Length; i++)
-		{
-			array2[i].SetFixedSize(num, -1);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook8 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "EqualizeSortButtonWidths", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void EqualizeSortButtonWidths()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook8))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook8, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        RichTextElement[] array = new RichTextElement[5]
+        {
+            buttonSortBigStart,
+            buttonSortSmallStart,
+            buttonSortBigEnd,
+            buttonSortSmallEnd,
+            buttonSortUndo
+        };
+        RichTextElement[] array2 = array;
+        for (int i = 0; i < array2.Length; i++)
+        {
+            array2[i].SetFixedSize(-1, -1);
+        }
+
+        int num = 0;
+        array2 = array;
+        foreach (RichTextElement richTextElement in array2)
+        {
+            if (richTextElement.widthPixels > num)
+            {
+                num = richTextElement.widthPixels;
+            }
+        }
+
+        array2 = array;
+        for (int i = 0; i < array2.Length; i++)
+        {
+            array2[i].SetFixedSize(num, -1);
+        }
+    }
+}
 
 	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "EqualizeButtonWidths", new System.Type[] {  });
 [ProbablyStolen.Port.Mods.StaticHookTarget]
@@ -727,30 +769,48 @@ private bool TryOpenSortMenu(Vector2 mousePosition)
 		return null;
 	}
 
-	public RichTextElement FindRichTextNode(Vector2 eventDataPosition, Canvas canvas)
-	{
-		GraphicRaycaster component = canvas.GetComponent<GraphicRaycaster>();
-		if (component == null)
-		{
-			Debug.LogError("No GraphicRaycaster found on the canvas.");
-			return null;
-		}
-		PointerEventData eventData = new PointerEventData(EventSystem.current)
-		{
-			position = eventDataPosition
-		};
-		List<RaycastResult> list = new List<RaycastResult>();
-		component.Raycast(eventData, list);
-		foreach (RaycastResult item in list)
-		{
-			TreeNodeRender component2 = item.gameObject.GetComponent<TreeNodeRender>();
-			if (component2.parent.element is RichTextElement)
-			{
-				return (RichTextElement)component2.parent.element;
-			}
-		}
-		return null;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook9 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "FindRichTextNode", new System.Type[] { typeof(Vector2), typeof(Canvas) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public RichTextElement FindRichTextNode(Vector2 eventDataPosition, Canvas canvas)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook9))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RichTextElement>(__portHook9, this, new object[] { eventDataPosition, canvas }, __portArguments =>
+    {
+        eventDataPosition = (Vector2)__portArguments[0];
+        canvas = (Canvas)__portArguments[1];
+        return __PortOriginal();
+    });
+    RichTextElement __PortOriginal()
+    {
+        GraphicRaycaster component = canvas.GetComponent<GraphicRaycaster>();
+        if (component == null)
+        {
+            Debug.LogError("No GraphicRaycaster found on the canvas.");
+            return null;
+        }
+
+        PointerEventData eventData = new PointerEventData(EventSystem.current)
+        {
+            position = eventDataPosition
+        };
+        List<RaycastResult> list = new List<RaycastResult>();
+        component.Raycast(eventData, list);
+        foreach (RaycastResult item in list)
+        {
+            TreeNodeRender component2 = item.gameObject.GetComponent<TreeNodeRender>();
+            if (component2.parent.element is RichTextElement)
+            {
+                return (RichTextElement)component2.parent.element;
+            }
+        }
+
+        return null;
+    }
+}
 
 	private static readonly System.Reflection.MethodInfo __portHook6 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemContextHandler), "OnEventReset", new System.Type[] {  });
 [ProbablyStolen.Port.Mods.StaticHookTarget]

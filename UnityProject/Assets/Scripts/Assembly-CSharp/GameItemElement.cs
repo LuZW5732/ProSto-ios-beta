@@ -237,23 +237,56 @@ public class GameItemElement : GameItem, PixelElement, TooltipListener
 		return ResolveSpriteByName(base.spritePath);
 	}
 
-	public void ValidatePartialSprite()
-	{
-		Sprite sprite = ResolveItemSprite();
-		background.image.sprite = sprite;
-		background.image.SetNativeSize();
-		fakeBackground.image.sprite = background.image.sprite;
-		fakeBackground.image.SetNativeSize();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook7 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "ValidatePartialSprite", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ValidatePartialSprite()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook7))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void ApplyAnimationFrame(Sprite frame)
-	{
-		if (!(frame == null))
-		{
-			background.image.sprite = frame;
-			fakeBackground.image.sprite = frame;
-		}
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook7, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        Sprite sprite = ResolveItemSprite();
+        background.image.sprite = sprite;
+        background.image.SetNativeSize();
+        fakeBackground.image.sprite = background.image.sprite;
+        fakeBackground.image.SetNativeSize();
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook8 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "ApplyAnimationFrame", new System.Type[] { typeof(Sprite) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ApplyAnimationFrame(Sprite frame)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook8))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook8, this, new object[] { frame }, __portArguments =>
+    {
+        frame = (Sprite)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!(frame == null))
+        {
+            background.image.sprite = frame;
+            fakeBackground.image.sprite = frame;
+        }
+    }
+}
 
 	public void HandleModSprite()
 	{
@@ -301,89 +334,115 @@ public void ValidateSelect(bool updateBackground = true)
     }
 }
 
-	private void ValidateSelectLocked(bool updateBackground)
-	{
-		if (base.spriteChanged)
-		{
-			Sprite sprite = ResolveItemSprite();
-			background.image.sprite = sprite;
-			background.image.SetNativeSize();
-			fakeBackground.image.sprite = background.image.sprite;
-			fakeBackground.image.SetNativeSize();
-			base.spriteChanged = false;
-		}
-		if (updateBackground)
-		{
-			ToggleBackground(base.unitCount > 0);
-			ToggleFakeBackground(enabled: false, UISettings.current.dragOpacity);
-		}
-		int gridSize = UISettings.current.gridSize;
-		Vector2 sizeDelta = new Vector2(base.modifiedShape.width * gridSize, base.modifiedShape.height * gridSize);
-		background.rectTransform.anchoredPosition = new Vector2(base.modifiedXOrigin * gridSize, base.modifiedYOrigin * gridSize);
-		fakeBackground.rectTransform.anchoredPosition = new Vector2(base.modifiedXOrigin * gridSize, base.modifiedYOrigin * gridSize);
-		middle.rectTransform.sizeDelta = sizeDelta;
-		rotator.rectTransform.sizeDelta = sizeDelta;
-		handler.rectTransform.anchoredPosition = Vector2.zero;
-		fakeMiddle.rectTransform.sizeDelta = sizeDelta;
-		fakeRotator.rectTransform.sizeDelta = sizeDelta;
-		if (base.parentInventory != null)
-		{
-			UpdateRectTransform();
-		}
-		string text = base.customText;
-		if (text == null)
-		{
-			text = "";
-		}
-		if (text.Length < 1 && base.unitCount > 1)
-		{
-			text = base.unitCount.ToString() ?? "";
-		}
-		stackCountText.text.text = text;
-		stackCountText.text.enabled = text.Length > 0 && !base.isDebugMenu;
-		stackCountTextBackground.text.text = stackCountText.text.text;
-		stackCountTextBackground.text.enabled = text.Length > 0 && !base.isDebugMenu;
-		fakeStackCountText.text.text = stackCountText.text.text;
-		fakeStackCountText.text.enabled = false;
-		fakeStackCountTextBackground.text.text = stackCountTextBackground.text.text;
-		fakeStackCountTextBackground.text.enabled = false;
-		UpdatePinOverlay();
-		UpdateMarkOverlay();
-		UpdatePlayingFrameOverlay();
-		int num = 0;
-		List<GameInventory> list = GraphUtils.FindChildrenType<GameInventory>(this);
-		new List<GridShape>();
-		foreach (GameInventory item in list)
-		{
-			foreach (GameItem childItem in item.childItems)
-			{
-				foreach (ItemSpriteModifier item2 in SortedByPriority(childItem.parentItemSpriteModifierForItemFunc?.Invoke(childItem, item, item.GetIncompleteItemInventorySlot(childItem), childItem.modifiedShape, childItem.modifiedState, this)))
-				{
-					UpdateModSprite(num, item2.sprite, item2.position, item2.orientation, item2.isFlipped, item2);
-					num++;
-				}
-				foreach (ItemSpriteModifier item3 in SortedByPriority(item.parentItemSpriteModifierForItemFunc?.Invoke(childItem, item, item.GetIncompleteItemInventorySlot(childItem), childItem.modifiedShape, childItem.modifiedState, this)))
-				{
-					UpdateModSprite(num, item3.sprite, item3.position, item3.orientation, item3.isFlipped, item3);
-					num++;
-				}
-			}
-		}
-		for (int i = num; i < spriteMods.Count; i++)
-		{
-			spriteMods[i].gameObject.SetActive(value: false);
-			fakeSpriteMods[i].gameObject.SetActive(value: false);
-		}
-		if (num > 0 || base.parentInventory?.parentItemSpriteModifierForItemFunc != null || base.parentItemSpriteModifierForItemFunc != null)
-		{
-			GraphUtils.FindParentsType<GameItem>(base.parentInventory)?.ForEach((GameItem n) =>
-			{
-				n.Validate();
-			});
-		}
-		HandleInnateModSprite();
-		SpriteAnimationHelper.SyncSpriteAnimation(this);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook6 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "ValidateSelectLocked", new System.Type[] { typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void ValidateSelectLocked(bool updateBackground)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook6))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook6, this, new object[] { updateBackground }, __portArguments =>
+    {
+        updateBackground = (bool)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (base.spriteChanged)
+        {
+            Sprite sprite = ResolveItemSprite();
+            background.image.sprite = sprite;
+            background.image.SetNativeSize();
+            fakeBackground.image.sprite = background.image.sprite;
+            fakeBackground.image.SetNativeSize();
+            base.spriteChanged = false;
+        }
+
+        if (updateBackground)
+        {
+            ToggleBackground(base.unitCount > 0);
+            ToggleFakeBackground(enabled: false, UISettings.current.dragOpacity);
+        }
+
+        int gridSize = UISettings.current.gridSize;
+        Vector2 sizeDelta = new Vector2(base.modifiedShape.width * gridSize, base.modifiedShape.height * gridSize);
+        background.rectTransform.anchoredPosition = new Vector2(base.modifiedXOrigin * gridSize, base.modifiedYOrigin * gridSize);
+        fakeBackground.rectTransform.anchoredPosition = new Vector2(base.modifiedXOrigin * gridSize, base.modifiedYOrigin * gridSize);
+        middle.rectTransform.sizeDelta = sizeDelta;
+        rotator.rectTransform.sizeDelta = sizeDelta;
+        handler.rectTransform.anchoredPosition = Vector2.zero;
+        fakeMiddle.rectTransform.sizeDelta = sizeDelta;
+        fakeRotator.rectTransform.sizeDelta = sizeDelta;
+        if (base.parentInventory != null)
+        {
+            UpdateRectTransform();
+        }
+
+        string text = base.customText;
+        if (text == null)
+        {
+            text = "";
+        }
+
+        if (text.Length < 1 && base.unitCount > 1)
+        {
+            text = base.unitCount.ToString() ?? "";
+        }
+
+        stackCountText.text.text = text;
+        stackCountText.text.enabled = text.Length > 0 && !base.isDebugMenu;
+        stackCountTextBackground.text.text = stackCountText.text.text;
+        stackCountTextBackground.text.enabled = text.Length > 0 && !base.isDebugMenu;
+        fakeStackCountText.text.text = stackCountText.text.text;
+        fakeStackCountText.text.enabled = false;
+        fakeStackCountTextBackground.text.text = stackCountTextBackground.text.text;
+        fakeStackCountTextBackground.text.enabled = false;
+        UpdatePinOverlay();
+        UpdateMarkOverlay();
+        UpdatePlayingFrameOverlay();
+        int num = 0;
+        List<GameInventory> list = GraphUtils.FindChildrenType<GameInventory>(this);
+        new List<GridShape>();
+        foreach (GameInventory item in list)
+        {
+            foreach (GameItem childItem in item.childItems)
+            {
+                foreach (ItemSpriteModifier item2 in SortedByPriority(childItem.parentItemSpriteModifierForItemFunc?.Invoke(childItem, item, item.GetIncompleteItemInventorySlot(childItem), childItem.modifiedShape, childItem.modifiedState, this)))
+                {
+                    UpdateModSprite(num, item2.sprite, item2.position, item2.orientation, item2.isFlipped, item2);
+                    num++;
+                }
+
+                foreach (ItemSpriteModifier item3 in SortedByPriority(item.parentItemSpriteModifierForItemFunc?.Invoke(childItem, item, item.GetIncompleteItemInventorySlot(childItem), childItem.modifiedShape, childItem.modifiedState, this)))
+                {
+                    UpdateModSprite(num, item3.sprite, item3.position, item3.orientation, item3.isFlipped, item3);
+                    num++;
+                }
+            }
+        }
+
+        for (int i = num; i < spriteMods.Count; i++)
+        {
+            spriteMods[i].gameObject.SetActive(value: false);
+            fakeSpriteMods[i].gameObject.SetActive(value: false);
+        }
+
+        if (num > 0 || base.parentInventory?.parentItemSpriteModifierForItemFunc != null || base.parentItemSpriteModifierForItemFunc != null)
+        {
+            GraphUtils.FindParentsType<GameItem>(base.parentInventory)?.ForEach((GameItem n) =>
+            {
+                n.Validate();
+            });
+        }
+
+        HandleInnateModSprite();
+        SpriteAnimationHelper.SyncSpriteAnimation(this);
+    }
+}
 
 	public IEnumerable<TreeNodeRender> GetActiveInnateSpriteMods()
 	{
@@ -704,85 +763,133 @@ public void ValidateSelect(bool updateBackground = true)
 		node.rectTransform.anchoredPosition = Vector2.zero;
 	}
 
-	public void ToggleBackground(bool enabled, float opacity = 1f, float lightness = 1f)
-	{
-		inner.gameObject.GetComponentsInChildren(innerNodeBuffer);
-		if (enabled)
-		{
-			Vector4 vector = new Vector4(lightness, lightness, lightness, opacity);
-			background.image.color = vector;
-			foreach (TreeNodeRender spriteMod in spriteMods)
-			{
-				spriteMod.image.color = vector;
-			}
-			foreach (TreeNodeRender innateSpriteMod in innateSpriteMods)
-			{
-				innateSpriteMod.image.color = vector;
-			}
-			foreach (TreeNodeRender item in innerNodeBuffer)
-			{
-				item.image.color = vector;
-			}
-		}
-		background.image.enabled = enabled;
-		foreach (TreeNodeRender spriteMod2 in spriteMods)
-		{
-			spriteMod2.image.enabled = enabled;
-		}
-		foreach (TreeNodeRender innateSpriteMod2 in innateSpriteMods)
-		{
-			innateSpriteMod2.image.enabled = enabled;
-		}
-		foreach (TreeNodeRender item2 in innerNodeBuffer)
-		{
-			item2.image.enabled = enabled;
-		}
-		markHiddenWithBackground = !enabled;
-		UpdateMarkOverlay();
-		UpdatePlayingFrameOverlay();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook9 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "ToggleBackground", new System.Type[] { typeof(bool), typeof(float), typeof(float) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ToggleBackground(bool enabled, float opacity = 1f, float lightness = 1f)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook9))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void ToggleFakeBackground(bool enabled, Vector4 color)
-	{
-		if (enabled)
-		{
-			fakeMiddle.SetParent(RenderHandler.current.overlayRoot, worldPositionStays: true);
-		}
-		else
-		{
-			fakeMiddle.SetParent(handler, worldPositionStays: true);
-		}
-		fakePinOverlayVisible = enabled;
-		UpdatePinOverlay();
-		UpdateMarkOverlay();
-		UpdatePlayingFrameOverlay();
-		fakeInner.gameObject.GetComponentsInChildren(innerNodeBuffer);
-		if (enabled)
-		{
-			fakeBackground.image.color = color;
-			foreach (TreeNodeRender fakeSpriteMod in fakeSpriteMods)
-			{
-				fakeSpriteMod.image.color = color;
-			}
-			foreach (TreeNodeRender item in innerNodeBuffer)
-			{
-				item.image.color = color;
-			}
-		}
-		fakeBackground.image.enabled = enabled;
-		foreach (TreeNodeRender fakeSpriteMod2 in fakeSpriteMods)
-		{
-			fakeSpriteMod2.image.enabled = enabled;
-		}
-		foreach (TreeNodeRender innateFakeSpriteMod in innateFakeSpriteMods)
-		{
-			innateFakeSpriteMod.image.enabled = enabled;
-		}
-		foreach (TreeNodeRender item2 in innerNodeBuffer)
-		{
-			item2.image.enabled = enabled;
-		}
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook9, this, new object[] { enabled, opacity, lightness }, __portArguments =>
+    {
+        enabled = (bool)__portArguments[0];
+        opacity = (float)__portArguments[1];
+        lightness = (float)__portArguments[2];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        inner.gameObject.GetComponentsInChildren(innerNodeBuffer);
+        if (enabled)
+        {
+            Vector4 vector = new Vector4(lightness, lightness, lightness, opacity);
+            background.image.color = vector;
+            foreach (TreeNodeRender spriteMod in spriteMods)
+            {
+                spriteMod.image.color = vector;
+            }
+
+            foreach (TreeNodeRender innateSpriteMod in innateSpriteMods)
+            {
+                innateSpriteMod.image.color = vector;
+            }
+
+            foreach (TreeNodeRender item in innerNodeBuffer)
+            {
+                item.image.color = vector;
+            }
+        }
+
+        background.image.enabled = enabled;
+        foreach (TreeNodeRender spriteMod2 in spriteMods)
+        {
+            spriteMod2.image.enabled = enabled;
+        }
+
+        foreach (TreeNodeRender innateSpriteMod2 in innateSpriteMods)
+        {
+            innateSpriteMod2.image.enabled = enabled;
+        }
+
+        foreach (TreeNodeRender item2 in innerNodeBuffer)
+        {
+            item2.image.enabled = enabled;
+        }
+
+        markHiddenWithBackground = !enabled;
+        UpdateMarkOverlay();
+        UpdatePlayingFrameOverlay();
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook10 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "ToggleFakeBackground", new System.Type[] { typeof(bool), typeof(Vector4) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ToggleFakeBackground(bool enabled, Vector4 color)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook10))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook10, this, new object[] { enabled, color }, __portArguments =>
+    {
+        enabled = (bool)__portArguments[0];
+        color = (Vector4)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (enabled)
+        {
+            fakeMiddle.SetParent(RenderHandler.current.overlayRoot, worldPositionStays: true);
+        }
+        else
+        {
+            fakeMiddle.SetParent(handler, worldPositionStays: true);
+        }
+
+        fakePinOverlayVisible = enabled;
+        UpdatePinOverlay();
+        UpdateMarkOverlay();
+        UpdatePlayingFrameOverlay();
+        fakeInner.gameObject.GetComponentsInChildren(innerNodeBuffer);
+        if (enabled)
+        {
+            fakeBackground.image.color = color;
+            foreach (TreeNodeRender fakeSpriteMod in fakeSpriteMods)
+            {
+                fakeSpriteMod.image.color = color;
+            }
+
+            foreach (TreeNodeRender item in innerNodeBuffer)
+            {
+                item.image.color = color;
+            }
+        }
+
+        fakeBackground.image.enabled = enabled;
+        foreach (TreeNodeRender fakeSpriteMod2 in fakeSpriteMods)
+        {
+            fakeSpriteMod2.image.enabled = enabled;
+        }
+
+        foreach (TreeNodeRender innateFakeSpriteMod in innateFakeSpriteMods)
+        {
+            innateFakeSpriteMod.image.enabled = enabled;
+        }
+
+        foreach (TreeNodeRender item2 in innerNodeBuffer)
+        {
+            item2.image.enabled = enabled;
+        }
+    }
+}
 
 	public void ToggleFakeBackground(bool enabled, float opacity = 1f, float lightness = 1f)
 	{
@@ -800,56 +907,138 @@ public void ValidateSelect(bool updateBackground = true)
 		throw new NotImplementedException();
 	}
 
-	public void GridFlipX()
-	{
-		fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.x, fakeRotator.rectTransform.pivot.y);
-		fakeRotator.rectTransform.localScale = new Vector3(0f - fakeRotator.rectTransform.localScale.x, 1f, 1f);
-		tempShape.flipped = !tempShape.flipped;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook11 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GridFlipX", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void GridFlipX()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook11))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void GridFlipY()
-	{
-		fakeRotator.rectTransform.pivot = new Vector2(fakeRotator.rectTransform.pivot.x, 1f - fakeRotator.rectTransform.pivot.y);
-		fakeRotator.rectTransform.localScale = new Vector3(0f - fakeRotator.rectTransform.localScale.x, 1f, 1f);
-		fakeRotator.rectTransform.localEulerAngles += 180f * Vector3.forward;
-		tempShape.flipped = !tempShape.flipped;
-		tempShape.SetOrientation((tempShape.orientation + 2) % 4);
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook11, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.x, fakeRotator.rectTransform.pivot.y);
+        fakeRotator.rectTransform.localScale = new Vector3(0f - fakeRotator.rectTransform.localScale.x, 1f, 1f);
+        tempShape.flipped = !tempShape.flipped;
+    }
+}
 
-	public void GridRotCCW()
-	{
-		if (tempShape.flipped)
-		{
-			fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.y, fakeRotator.rectTransform.pivot.x);
-		}
-		else
-		{
-			fakeRotator.rectTransform.pivot = new Vector2(fakeRotator.rectTransform.pivot.y, 1f - fakeRotator.rectTransform.pivot.x);
-		}
-		fakeRotator.rectTransform.localEulerAngles += 90f * Vector3.forward;
-		tempShape.SetOrientation((tempShape.orientation + 1) % 4);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook12 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GridFlipY", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void GridFlipY()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook12))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void GridRotCW()
-	{
-		if (tempShape.flipped)
-		{
-			fakeRotator.rectTransform.pivot = new Vector2(fakeRotator.rectTransform.pivot.y, 1f - fakeRotator.rectTransform.pivot.x);
-		}
-		else
-		{
-			fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.y, fakeRotator.rectTransform.pivot.x);
-		}
-		fakeRotator.rectTransform.localEulerAngles -= 90f * Vector3.forward;
-		tempShape.SetOrientation((tempShape.orientation + 3) % 4);
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook12, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        fakeRotator.rectTransform.pivot = new Vector2(fakeRotator.rectTransform.pivot.x, 1f - fakeRotator.rectTransform.pivot.y);
+        fakeRotator.rectTransform.localScale = new Vector3(0f - fakeRotator.rectTransform.localScale.x, 1f, 1f);
+        fakeRotator.rectTransform.localEulerAngles += 180f * Vector3.forward;
+        tempShape.flipped = !tempShape.flipped;
+        tempShape.SetOrientation((tempShape.orientation + 2) % 4);
+    }
+}
 
-	public void GridRot180()
-	{
-		fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.x, 1f - fakeRotator.rectTransform.pivot.y);
-		fakeRotator.rectTransform.localEulerAngles += 180f * Vector3.forward;
-		tempShape.SetOrientation((tempShape.orientation + 2) % 4);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook13 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GridRotCCW", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void GridRotCCW()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook13))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook13, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (tempShape.flipped)
+        {
+            fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.y, fakeRotator.rectTransform.pivot.x);
+        }
+        else
+        {
+            fakeRotator.rectTransform.pivot = new Vector2(fakeRotator.rectTransform.pivot.y, 1f - fakeRotator.rectTransform.pivot.x);
+        }
+
+        fakeRotator.rectTransform.localEulerAngles += 90f * Vector3.forward;
+        tempShape.SetOrientation((tempShape.orientation + 1) % 4);
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook14 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GridRotCW", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void GridRotCW()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook14))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook14, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (tempShape.flipped)
+        {
+            fakeRotator.rectTransform.pivot = new Vector2(fakeRotator.rectTransform.pivot.y, 1f - fakeRotator.rectTransform.pivot.x);
+        }
+        else
+        {
+            fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.y, fakeRotator.rectTransform.pivot.x);
+        }
+
+        fakeRotator.rectTransform.localEulerAngles -= 90f * Vector3.forward;
+        tempShape.SetOrientation((tempShape.orientation + 3) % 4);
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook15 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItemElement), "GridRot180", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void GridRot180()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook15))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook15, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        fakeRotator.rectTransform.pivot = new Vector2(1f - fakeRotator.rectTransform.pivot.x, 1f - fakeRotator.rectTransform.pivot.y);
+        fakeRotator.rectTransform.localEulerAngles += 180f * Vector3.forward;
+        tempShape.SetOrientation((tempShape.orientation + 2) % 4);
+    }
+}
 
 	public void FlipX()
 	{

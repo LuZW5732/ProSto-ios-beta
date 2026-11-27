@@ -290,22 +290,55 @@ public class ItemFeature
 		return fakeCondition.display;
 	}
 
-	public void DiscoverFeature()
-	{
-		isFeatureDiscovered = true;
-		NotebookUIManager.Instance.UpdateUI();
-		NotebookUIManager.Instance.OnFeatureDiscovered();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemFeature), "DiscoverFeature", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void DiscoverFeature()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        isFeatureDiscovered = true;
+        NotebookUIManager.Instance.UpdateUI();
+        NotebookUIManager.Instance.OnFeatureDiscovered();
+    }
+}
 
 	public bool IsFeatureDiscovered()
 	{
 		return isFeatureDiscovered;
 	}
 
-	public void SetFeatureDiscovered(bool value)
-	{
-		isFeatureDiscovered = value;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemFeature), "SetFeatureDiscovered", new System.Type[] { typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void SetFeatureDiscovered(bool value)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { value }, __portArguments =>
+    {
+        value = (bool)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        isFeatureDiscovered = value;
+    }
+}
 
 	public static ItemFeature CreateFeatureFromNegociationData(NegociationData negociationData)
 	{
@@ -443,21 +476,38 @@ public class ItemFeature
 		return dialogue;
 	}
 
-	public void SetExposed(bool value)
-	{
-		isFeatureExposed = value;
-		if (useCondition)
-		{
-			if (isFeatureExposed && realCondition.HasOnActivateAction())
-			{
-				realCondition.ExecuteOnActivateAction(EmporiumEntry.Instance.FindItemByUniqueID(parentItemUniqueId));
-			}
-			else if (!isFeatureExposed && fakeCondition.HasOnActivateAction())
-			{
-				fakeCondition.ExecuteOnActivateAction(EmporiumEntry.Instance.FindItemByUniqueID(parentItemUniqueId));
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemFeature), "SetExposed", new System.Type[] { typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void SetExposed(bool value)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { value }, __portArguments =>
+    {
+        value = (bool)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        isFeatureExposed = value;
+        if (useCondition)
+        {
+            if (isFeatureExposed && realCondition.HasOnActivateAction())
+            {
+                realCondition.ExecuteOnActivateAction(EmporiumEntry.Instance.FindItemByUniqueID(parentItemUniqueId));
+            }
+            else if (!isFeatureExposed && fakeCondition.HasOnActivateAction())
+            {
+                fakeCondition.ExecuteOnActivateAction(EmporiumEntry.Instance.FindItemByUniqueID(parentItemUniqueId));
+            }
+        }
+    }
+}
 
 	public bool WillClientExposeFeature()
 	{
@@ -509,10 +559,27 @@ public class ItemFeature
 		return false;
 	}
 
-	public void SetPublicHidden(bool val)
-	{
-		isPublicHidden = val;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ItemFeature), "SetPublicHidden", new System.Type[] { typeof(bool) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void SetPublicHidden(bool val)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook3, this, new object[] { val }, __portArguments =>
+    {
+        val = (bool)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        isPublicHidden = val;
+    }
+}
 
 	public bool GetPublicHidden()
 	{

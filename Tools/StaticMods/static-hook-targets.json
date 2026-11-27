@@ -27,6 +27,50 @@
     ]
   },
   {
+    "file": "BargainButton.cs",
+    "type": "BargainButton",
+    "method": "Setup",
+    "parameters": [
+      "BargainType",
+      "int"
+    ]
+  },
+  {
+    "file": "BargainButton.cs",
+    "type": "BargainButton",
+    "method": "OnPointerEnter",
+    "parameters": [
+      "PointerEventData"
+    ]
+  },
+  {
+    "file": "BargainUIManager.cs",
+    "type": "BargainUIManager",
+    "method": "GetBargainTooltip",
+    "parameters": [
+      "BargainType",
+      "int"
+    ]
+  },
+  {
+    "file": "BargainUIManager.cs",
+    "type": "BargainUIManager",
+    "method": "OpenUI",
+    "parameters": []
+  },
+  {
+    "file": "BargainUIManager.cs",
+    "type": "BargainUIManager",
+    "method": "DockToTablet",
+    "parameters": []
+  },
+  {
+    "file": "ChemScannerUIManager.cs",
+    "type": "ChemScannerUIManager",
+    "method": "RefreshUI",
+    "parameters": []
+  },
+  {
     "file": "ChemicalHelper.cs",
     "type": "ChemicalHelper",
     "method": "DissolveInto",
@@ -38,9 +82,49 @@
   {
     "file": "DialogUIManager.cs",
     "type": "DialogUIManager",
+    "method": "ApplyBubbleScale",
+    "parameters": []
+  },
+  {
+    "file": "DialogUIManager.cs",
+    "type": "DialogUIManager",
+    "method": "Start",
+    "parameters": []
+  },
+  {
+    "file": "DialogUIManager.cs",
+    "type": "DialogUIManager",
     "method": "UpdateDialogHistory",
     "parameters": [
       "string"
+    ]
+  },
+  {
+    "file": "DialogUIManager.cs",
+    "type": "DialogUIManager",
+    "method": "SetNormalMode",
+    "parameters": []
+  },
+  {
+    "file": "DialogUIManager.cs",
+    "type": "DialogUIManager",
+    "method": "SetShootingMode",
+    "parameters": []
+  },
+  {
+    "file": "DialoguePhoneUIManager.cs",
+    "type": "DialoguePhoneUIManager",
+    "method": "UpdateDialogHistory",
+    "parameters": [
+      "string"
+    ]
+  },
+  {
+    "file": "DialoguePhoneUIManager.cs",
+    "type": "DialoguePhoneUIManager",
+    "method": "StartDialogue",
+    "parameters": [
+      "Dialogue"
     ]
   },
   {
@@ -82,6 +166,22 @@
     "parameters": []
   },
   {
+    "file": "GameGridInventory.cs",
+    "type": "GameGridInventory",
+    "method": "UncheckedAccept",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
+    "file": "GameGridInventory.cs",
+    "type": "GameGridInventory",
+    "method": "Expel",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
     "file": "GameItem.cs",
     "type": "GameItem",
     "method": "DisplayManufacturer",
@@ -91,12 +191,101 @@
     ]
   },
   {
+    "file": "GameItem.cs",
+    "type": "GameItem",
+    "method": "GetNegociatedValue",
+    "parameters": []
+  },
+  {
+    "file": "GameItem.cs",
+    "type": "GameItem",
+    "method": "GetCurrentValue",
+    "parameters": [
+      "bool",
+      "bool",
+      "bool",
+      "bool",
+      "long"
+    ]
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "ValidatePartialSprite",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "ApplyAnimationFrame",
+    "parameters": [
+      "Sprite"
+    ]
+  },
+  {
     "file": "GameItemElement.cs",
     "type": "GameItemElement",
     "method": "ValidateSelect",
     "parameters": [
       "bool"
     ]
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "ValidateSelectLocked",
+    "parameters": [
+      "bool"
+    ]
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "ToggleBackground",
+    "parameters": [
+      "bool",
+      "float",
+      "float"
+    ]
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "ToggleFakeBackground",
+    "parameters": [
+      "bool",
+      "Vector4"
+    ]
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GridFlipX",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GridFlipY",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GridRotCCW",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GridRotCW",
+    "parameters": []
+  },
+  {
+    "file": "GameItemElement.cs",
+    "type": "GameItemElement",
+    "method": "GridRot180",
+    "parameters": []
   },
   {
     "file": "GameItemElement.cs",
@@ -129,6 +318,20 @@
     "parameters": []
   },
   {
+    "file": "GameSlotInventory.cs",
+    "type": "GameSlotInventory",
+    "method": "Validate",
+    "parameters": []
+  },
+  {
+    "file": "GraphUtils.cs",
+    "type": "GraphUtils",
+    "method": "EmporiumTryAdd",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
     "file": "GraphUtils.cs",
     "type": "GraphUtils",
     "method": "TryAcceptAll",
@@ -137,6 +340,12 @@
       "GameItem",
       "int"
     ]
+  },
+  {
+    "file": "GunOrderData.cs",
+    "type": "GunOrderData",
+    "method": "OnOrderAccepted",
+    "parameters": []
   },
   {
     "file": "HusbandryHelper.cs",
@@ -166,6 +375,14 @@
       "string",
       "int",
       "bool"
+    ]
+  },
+  {
+    "file": "InputActionManager.cs",
+    "type": "InputActionManager",
+    "method": "UpdateKeys",
+    "parameters": [
+      "List\u003CKeyCode\u003E"
     ]
   },
   {
@@ -220,6 +437,20 @@
   {
     "file": "ItemContextHandler.cs",
     "type": "ItemContextHandler",
+    "method": "UpdateSortSelectButtonColor",
+    "parameters": [
+      "RichTextElement"
+    ]
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
+    "method": "EqualizeSortButtonWidths",
+    "parameters": []
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
     "method": "EqualizeButtonWidths",
     "parameters": []
   },
@@ -242,8 +473,47 @@
   {
     "file": "ItemContextHandler.cs",
     "type": "ItemContextHandler",
+    "method": "FindRichTextNode",
+    "parameters": [
+      "Vector2",
+      "Canvas"
+    ]
+  },
+  {
+    "file": "ItemContextHandler.cs",
+    "type": "ItemContextHandler",
     "method": "OnEventReset",
     "parameters": []
+  },
+  {
+    "file": "ItemFeature.cs",
+    "type": "ItemFeature",
+    "method": "DiscoverFeature",
+    "parameters": []
+  },
+  {
+    "file": "ItemFeature.cs",
+    "type": "ItemFeature",
+    "method": "SetFeatureDiscovered",
+    "parameters": [
+      "bool"
+    ]
+  },
+  {
+    "file": "ItemFeature.cs",
+    "type": "ItemFeature",
+    "method": "SetExposed",
+    "parameters": [
+      "bool"
+    ]
+  },
+  {
+    "file": "ItemFeature.cs",
+    "type": "ItemFeature",
+    "method": "SetPublicHidden",
+    "parameters": [
+      "bool"
+    ]
   },
   {
     "file": "ItemMouseDoubleClickHandler.cs",
@@ -261,6 +531,68 @@
     "parameters": [
       "RichTextBuilder",
       "ItemFeature"
+    ]
+  },
+  {
+    "file": "LockHelper.cs",
+    "type": "LockHelper",
+    "method": "TryOpenLock",
+    "parameters": [
+      "GameItem",
+      "GameItem",
+      "string"
+    ]
+  },
+  {
+    "file": "MachineBlender.cs",
+    "type": "MachineBlender",
+    "method": "SetupChemModuleGrid",
+    "parameters": [
+      "GameGridInventory",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "MachineDesequencer.cs",
+    "type": "MachineDesequencer",
+    "method": "Desequencer",
+    "parameters": []
+  },
+  {
+    "file": "MachineDesequencer.cs",
+    "type": "MachineDesequencer",
+    "method": "FinishDesequencer",
+    "parameters": [
+      "GameItem",
+      "GameSlotInventory",
+      "GameSlotInventory"
+    ]
+  },
+  {
+    "file": "MachineDesequencer.cs",
+    "type": "MachineDesequencer",
+    "method": "CreateMachineInventoryWindow",
+    "parameters": [
+      "bool",
+      "bool",
+      "int"
+    ]
+  },
+  {
+    "file": "MachineEvaporator.cs",
+    "type": "MachineEvaporator",
+    "method": "Evaporator",
+    "parameters": []
+  },
+  {
+    "file": "MachineHelper.cs",
+    "type": "MachineHelper",
+    "method": "SetupModuleBay",
+    "parameters": [
+      "GameInventory",
+      "GameItem",
+      "Action",
+      "string[]"
     ]
   },
   {
@@ -292,6 +624,14 @@
     ]
   },
   {
+    "file": "MachineTurboBoosterAdv.cs",
+    "type": "MachineTurboBoosterAdv",
+    "method": "BoostMachine",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
     "file": "MachineryHelper.cs",
     "type": "MachineryHelper",
     "method": "CreateMachineryTooltip",
@@ -299,6 +639,42 @@
       "RichTextBuilder",
       "GameItem"
     ]
+  },
+  {
+    "file": "MiscItemDirectory.cs",
+    "type": "MiscItemDirectory",
+    "method": "SecKeycard",
+    "parameters": []
+  },
+  {
+    "file": "MiscItemDirectory.cs",
+    "type": "MiscItemDirectory",
+    "method": "CommandKeycard",
+    "parameters": []
+  },
+  {
+    "file": "MiscItemDirectory.cs",
+    "type": "MiscItemDirectory",
+    "method": "MedicalKeycard",
+    "parameters": []
+  },
+  {
+    "file": "MiscItemDirectory.cs",
+    "type": "MiscItemDirectory",
+    "method": "EngineerKeycard",
+    "parameters": []
+  },
+  {
+    "file": "MiscItemDirectory.cs",
+    "type": "MiscItemDirectory",
+    "method": "ServiceKeycard",
+    "parameters": []
+  },
+  {
+    "file": "MiscItemDirectory.cs",
+    "type": "MiscItemDirectory",
+    "method": "BlankKeycard",
+    "parameters": []
   },
   {
     "file": "ModConfig.cs",
@@ -331,6 +707,196 @@
       "RichTextBuilder",
       "GameItem"
     ]
+  },
+  {
+    "file": "ModuleHelper.cs",
+    "type": "ModuleHelper",
+    "method": "ComputeModuleEffect",
+    "parameters": [
+      "List\u003CGameItem\u003E",
+      "GameItem"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "CreateWindow",
+    "parameters": []
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "OpenUI",
+    "parameters": []
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "SectionTitle",
+    "parameters": [
+      "StoreClient"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "RefreshClientHeader",
+    "parameters": [
+      "StoreClient"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "RefreshBargainControl",
+    "parameters": []
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildSignature",
+    "parameters": [
+      "StoreClient"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "Rebuild",
+    "parameters": [
+      "StoreClient"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildInfoBlock",
+    "parameters": [
+      "StoreClient"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildBuying",
+    "parameters": [
+      "StoreClient",
+      "bool"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildSelling",
+    "parameters": [
+      "StoreClient",
+      "bool"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "OnBuyAllClick",
+    "parameters": []
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildBarter",
+    "parameters": [
+      "StoreClient",
+      "bool"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildInfoDealer",
+    "parameters": [
+      "StoreClient",
+      "bool"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildGunOrder",
+    "parameters": [
+      "StoreClient",
+      "bool"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "GunRequirementRow",
+    "parameters": [
+      "string",
+      "bool",
+      "string"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildItemRow",
+    "parameters": [
+      "GameItem",
+      "string",
+      "string"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "AutoSelectLoneItem",
+    "parameters": []
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuildExpandedRow",
+    "parameters": [
+      "GameItem",
+      "string",
+      "bool",
+      "Func\u003Cstring\u003E"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "OnWholesaleClick",
+    "parameters": []
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "OnOfferAcceptClick",
+    "parameters": []
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "BuyMultipleItem",
+    "parameters": [
+      "List\u003CGameItem\u003E"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "SellMultiple",
+    "parameters": [
+      "List\u003CGameItem\u003E",
+      "bool"
+    ]
+  },
+  {
+    "file": "NegociationUIManager.cs",
+    "type": "NegociationUIManager",
+    "method": "OpenConfirmPanel",
+    "parameters": []
   },
   {
     "file": "OverlayHandler.cs",
@@ -380,6 +946,12 @@
   {
     "file": "PlayerStore.cs",
     "type": "PlayerStore",
+    "method": "SaveGame",
+    "parameters": []
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
     "method": "TryAddDirectSellingItemToTable",
     "parameters": [
       "string",
@@ -423,6 +995,44 @@
       "GameItem",
       "int"
     ]
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "HandleAutoNegoUIDisplay",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "AcceptBarter",
+    "parameters": []
+  },
+  {
+    "file": "PlayerStore.cs",
+    "type": "PlayerStore",
+    "method": "ResetData",
+    "parameters": []
+  },
+  {
+    "file": "RecorderUIManager.cs",
+    "type": "RecorderUIManager",
+    "method": "OpenUI",
+    "parameters": []
+  },
+  {
+    "file": "RecorderUIManager.cs",
+    "type": "RecorderUIManager",
+    "method": "RefreshUI",
+    "parameters": []
+  },
+  {
+    "file": "RecorderUIManager.cs",
+    "type": "RecorderUIManager",
+    "method": "ClearAllElement",
+    "parameters": []
   },
   {
     "file": "RichTextBuilder.cs",
@@ -566,6 +1176,16 @@
     ]
   },
   {
+    "file": "SoldItem.cs",
+    "type": "SoldItem",
+    "method": "TrackItem",
+    "parameters": [
+      "GameItem",
+      "StoreClient",
+      "int"
+    ]
+  },
+  {
     "file": "StoreCalendar.cs",
     "type": "StoreCalendar",
     "method": "GetTooltip",
@@ -585,6 +1205,106 @@
     ]
   },
   {
+    "file": "StoreRequest.cs",
+    "type": "StoreRequest",
+    "method": "CanFillRequest",
+    "parameters": []
+  },
+  {
+    "file": "StoreRequest.cs",
+    "type": "StoreRequest",
+    "method": "FillRequest",
+    "parameters": []
+  },
+  {
+    "file": "StoreUI.cs",
+    "type": "StoreUI",
+    "method": "ApplyZoom",
+    "parameters": [
+      "int"
+    ]
+  },
+  {
+    "file": "StoreUIManager.cs",
+    "type": "StoreUIManager",
+    "method": "Update",
+    "parameters": []
+  },
+  {
+    "file": "TabletUI.cs",
+    "type": "TabletUI",
+    "method": "InfoRow",
+    "parameters": [
+      "TabletSkin",
+      "Transform",
+      "float",
+      "string",
+      "IList\u003CTagSpec\u003E"
+    ]
+  },
+  {
+    "file": "TabletUI.cs",
+    "type": "TabletUI",
+    "method": "InfoLine",
+    "parameters": [
+      "TabletSkin",
+      "Transform",
+      "float",
+      "string",
+      "string"
+    ]
+  },
+  {
+    "file": "TabletUI.cs",
+    "type": "TabletUI",
+    "method": "ListRow",
+    "parameters": [
+      "TabletSkin",
+      "Transform",
+      "string",
+      "string",
+      "bool",
+      "Func\u003Cstring\u003E",
+      "Action"
+    ]
+  },
+  {
+    "file": "TabletUI.cs",
+    "type": "TabletUI",
+    "method": "SubHeader",
+    "parameters": [
+      "TabletSkin",
+      "Transform",
+      "string",
+      "float",
+      "Sprite",
+      "Func\u003Cstring\u003E",
+      "Color?"
+    ]
+  },
+  {
+    "file": "TabletUI.cs",
+    "type": "TabletUI",
+    "method": "TextRow",
+    "parameters": [
+      "TabletSkin",
+      "Transform",
+      "string",
+      "float",
+      "Color",
+      "TextAlignmentOptions"
+    ]
+  },
+  {
+    "file": "TooltipManager.cs",
+    "type": "TooltipManager",
+    "method": "SetAndShowTooltip",
+    "parameters": [
+      "string",
+      "Component"
+    ]
+  },
+  {
     "file": "WaterHelper.cs",
     "type": "WaterHelper",
     "method": "CreateWaterContainerTooltip",
@@ -597,6 +1317,20 @@
     "file": "WaterHelper.cs",
     "type": "WaterHelper",
     "method": "PurifyToBaseWater",
+    "parameters": [
+      "GameItem"
+    ]
+  },
+  {
+    "file": "WaterScannerUIManager.cs",
+    "type": "WaterScannerUIManager",
+    "method": "RefreshUI",
+    "parameters": []
+  },
+  {
+    "file": "WineHelper.cs",
+    "type": "WineHelper",
+    "method": "StartFermentation",
     "parameters": [
       "GameItem"
     ]

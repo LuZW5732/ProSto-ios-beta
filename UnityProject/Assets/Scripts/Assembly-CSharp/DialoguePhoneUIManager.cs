@@ -194,37 +194,73 @@ public class DialoguePhoneUIManager : MonoBehaviour
 		return currentDialog;
 	}
 
-	public void UpdateDialogHistory(string text)
-	{
-		PlayerStore.Instance.dialogHistory.Enqueue(DialogUIManager.RemoveTag(text));
-		if (PlayerStore.Instance.dialogHistory.Count > 100)
-		{
-			PlayerStore.Instance.dialogHistory.Dequeue();
-		}
-		if (RecorderUIManager.Instance != null)
-		{
-			RecorderUIManager.Instance.RefreshUI();
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(DialoguePhoneUIManager), "UpdateDialogHistory", new System.Type[] { typeof(string) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void UpdateDialogHistory(string text)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void StartDialogue(Dialogue dialogue)
-	{
-		conversationEpoch++;
-		currentDialog = dialogue;
-		ClearPendingAdvance();
-		if (TutorialUIManager.Instance != null)
-		{
-			TutorialUIManager.Instance.ShowAdvanceDialogHintIfArmed();
-		}
-		if (currentDialog.title.Equals("PLAYER"))
-		{
-			DisplayerPlayerText(currentDialog);
-		}
-		else
-		{
-			DisplayClientText(currentDialog);
-		}
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { text }, __portArguments =>
+    {
+        text = (string)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        PlayerStore.Instance.dialogHistory.Enqueue(DialogUIManager.RemoveTag(text));
+        if (PlayerStore.Instance.dialogHistory.Count > 100)
+        {
+            PlayerStore.Instance.dialogHistory.Dequeue();
+        }
+
+        if (RecorderUIManager.Instance != null)
+        {
+            RecorderUIManager.Instance.RefreshUI();
+        }
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(DialoguePhoneUIManager), "StartDialogue", new System.Type[] { typeof(Dialogue) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void StartDialogue(Dialogue dialogue)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { dialogue }, __portArguments =>
+    {
+        dialogue = (Dialogue)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        conversationEpoch++;
+        currentDialog = dialogue;
+        ClearPendingAdvance();
+        if (TutorialUIManager.Instance != null)
+        {
+            TutorialUIManager.Instance.ShowAdvanceDialogHintIfArmed();
+        }
+
+        if (currentDialog.title.Equals("PLAYER"))
+        {
+            DisplayerPlayerText(currentDialog);
+        }
+        else
+        {
+            DisplayClientText(currentDialog);
+        }
+    }
+}
 
 	public void OnCurrentTextDisplayed()
 	{

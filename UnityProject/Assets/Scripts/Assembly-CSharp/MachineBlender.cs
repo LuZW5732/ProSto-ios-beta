@@ -58,35 +58,56 @@ public class MachineBlender
 		inputGrid.mayInventoryAddItemFunc = (GameItem item, GameInventory inv) => ContainerHelper.CanContainerStoredItem(item, inv);
 	}
 
-	public static void SetupChemModuleGrid(GameGridInventory moduleGrid, GameItem machine)
-	{
-		string[] tags = new string[1] { "MODULE_TYPE_CHEM" };
-		ContainerHelper.AllowOnlyTaggedItemsOr(moduleGrid, tags, ownedOnly: true);
-		moduleGrid.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 3;
-		moduleGrid.onSlotAddItemEndFunc = (GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			if (addedItem.IsTag("MODULE_TAG"))
-			{
-				int count = machine.GetTagReadonly("CHEMICAL_MACHINE_UPGRADE_COUNT").GetInt();
-				ModuleHelper.SetModuleStuck(addedItem);
-				machine.ModifyTag("CHEMICAL_MACHINE_UPGRADE_COUNT", (TagState state) =>
-				{
-					state.Enable().SetInt(count + 1);
-				});
-			}
-		};
-		moduleGrid.onSlotRemoveItemEndFunc = (GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			if (addedItem.IsTag("MODULE_TAG"))
-			{
-				int count = machine.GetTagReadonly("CHEMICAL_MACHINE_UPGRADE_COUNT").GetInt();
-				machine.ModifyTag("CHEMICAL_MACHINE_UPGRADE_COUNT", (TagState state) =>
-				{
-					state.Enable().SetInt(count - 1);
-				});
-			}
-		};
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MachineBlender), "SetupChemModuleGrid", new System.Type[] { typeof(GameGridInventory), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void SetupChemModuleGrid(GameGridInventory moduleGrid, GameItem machine)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { moduleGrid, machine }, __portArguments =>
+    {
+        moduleGrid = (GameGridInventory)__portArguments[0];
+        machine = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        string[] tags = new string[1]
+        {
+            "MODULE_TYPE_CHEM"
+        };
+        ContainerHelper.AllowOnlyTaggedItemsOr(moduleGrid, tags, ownedOnly: true);
+        moduleGrid.slotPriorityFunc = (GameItem _, GameInventory _, SlotMarker _) => 3;
+        moduleGrid.onSlotAddItemEndFunc = (GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            if (addedItem.IsTag("MODULE_TAG"))
+            {
+                int count = machine.GetTagReadonly("CHEMICAL_MACHINE_UPGRADE_COUNT").GetInt();
+                ModuleHelper.SetModuleStuck(addedItem);
+                machine.ModifyTag("CHEMICAL_MACHINE_UPGRADE_COUNT", (TagState state) =>
+                {
+                    state.Enable().SetInt(count + 1);
+                });
+            }
+        };
+        moduleGrid.onSlotRemoveItemEndFunc = (GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            if (addedItem.IsTag("MODULE_TAG"))
+            {
+                int count = machine.GetTagReadonly("CHEMICAL_MACHINE_UPGRADE_COUNT").GetInt();
+                machine.ModifyTag("CHEMICAL_MACHINE_UPGRADE_COUNT", (TagState state) =>
+                {
+                    state.Enable().SetInt(count - 1);
+                });
+            }
+        };
+    }
+}
 
 	public static (PixelWindow, GameGridInventory, GameGridInventory, GameSlotInventory, MachineryButton) CreateMachineInventoryWindow(int width, int height, bool isDraggable = true, bool isCentered = true, int minWidth = 150)
 	{

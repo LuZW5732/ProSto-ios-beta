@@ -401,7 +401,7 @@ public class ModUIManager : MonoBehaviour
 		rows.Clear();
 		foreach (LoadedMod mod in ModLoader.Mods)
 		{
-			GameObject gameObject = (IsActive(mod) ? activeModLayoutObject : inactiveModLayoutObject);
+			GameObject gameObject = (IsActive(mod) && !HasLocalLoadFailure(mod) ? activeModLayoutObject : inactiveModLayoutObject);
 			rows.Add(CreateRow(mod, gameObject.transform));
 		}
 		RefreshRowIssues();
@@ -507,6 +507,15 @@ public class ModUIManager : MonoBehaviour
 			return ModLoader.IsModEnabled(mod.Manifest.ID);
 		}
 		return false;
+	}
+
+	private static bool HasLocalLoadFailure(LoadedMod mod)
+	{
+#if UNITY_IOS
+		return mod.Source == ModSource.Local && mod.LoadError != null;
+#else
+		return false;
+#endif
 	}
 
 	private static string LoadErrorLine(LoadedMod mod)
@@ -637,7 +646,11 @@ public class ModUIManager : MonoBehaviour
 		handle.Get("detail_version")?.SetText(InfoLine("ui_mods_mod_version", manifest.ModVersion));
 		handle.Get("detail_game_versions")?.SetText(InfoLine("ui_mods_game_versions", FormatGameVersions(manifest)));
 		ScriptFontSwap.Apply(handle.Get("detail_description")?.text, manifest.Description);
-		handle.Get("activate")?.SetText(LocHelper.GetLocalizedUI(IsActive(mod) ? "ui_mods_deactivate" : "ui_mods_activate"))?.SetInteractable(interactable: true);
+		bool isActive = IsActive(mod);
+		string activationLabel = isActive && HasLocalLoadFailure(mod)
+			? LocHelper.GetLocalizedUIOrDefault("ui_mods_deactivate_load_failed", "Disable (load failed)")
+			: LocHelper.GetLocalizedUI(isActive ? "ui_mods_deactivate" : "ui_mods_activate");
+		handle.Get("activate")?.SetText(activationLabel)?.SetInteractable(interactable: true);
 #if UNITY_IOS
         if (mod.Source == ModSource.Local && PortInterpretedMods.UnavailableReason(mod.Manifest) != null)
             handle.Get("activate")?.SetText("未运行")?.SetInteractable(false);
@@ -817,7 +830,7 @@ public class ModUIManager : MonoBehaviour
 	{
 		if (row != null && !(row.element == null))
 		{
-			GameObject gameObject = (active ? activeModLayoutObject : inactiveModLayoutObject);
+			GameObject gameObject = (active && !HasLocalLoadFailure(row.mod) ? activeModLayoutObject : inactiveModLayoutObject);
 			row.element.transform.SetParent(gameObject.transform, worldPositionStays: false);
 			RefreshNotes();
 			RefreshRowIssues();

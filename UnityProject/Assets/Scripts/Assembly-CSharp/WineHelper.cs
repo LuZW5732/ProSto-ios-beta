@@ -460,87 +460,112 @@ public class WineHelper
 		return true;
 	}
 
-	public static void StartFermentation(GameItem item)
-	{
-		if (item.GetTagReadonly("WINE_CONTAINER_STATE").GetInt() != 0)
-		{
-			return;
-		}
-		item.ModifyTag("FERMENTATION_TIME_REMAINING_INT", (TagState s) =>
-		{
-			s.Enable().SetInt(4);
-		});
-		item.ModifyTag("WINE_CONTAINER_STATE", (TagState state) =>
-		{
-			state.SetInt(1);
-		});
-		int wineScore = item.GetTagReadonly("WINE_SCORE_INT").GetInt();
-		bool flag = false;
-		int num = 0;
-		foreach (GameItem item2 in GraphUtils.FindAllChildrenType<GameItem>(item))
-		{
-			if (item2.IsTag("WINE_INGREDIENT_TAG"))
-			{
-				int num2 = item2.GetTagReadonly("BERRY_CONDITION_INT").GetInt();
-				if (num2 < 0)
-				{
-					num2++;
-				}
-				wineScore += num2;
-				num++;
-			}
-			if (item2.IsTag("WINE_YEAST_TAG"))
-			{
-				int yeastPower = item2.GetTagReadonly("WINE_YEAST_POWER_INT").GetInt();
-				item.ModifyTag("WINE_YEAST_POWER_INT", (TagState s) =>
-				{
-					s.Enable().SetInt(yeastPower);
-				});
-				flag = true;
-				if (item2.IsTag("WINE_YEAST_ILLEGAL_TAG"))
-				{
-					item.EnableTag("WINE_COUNTERFEIT_TAG");
-				}
-			}
-			if (item2.IsTag("WINE_YEAST_REUSABLE_TAG"))
-			{
-				item2.parentInventory?.Expel(item2);
-				GraphUtils.EmporiumTryAdd(item2);
-			}
-			else
-			{
-				item2.Destroy();
-			}
-		}
-		if (num >= 2)
-		{
-			wineScore++;
-		}
-		if (flag)
-		{
-			wineScore++;
-		}
-		wineScore += GetWaterQualityScore(item);
-		item.ModifyTag("WINE_SCORE_INT", (TagState s) =>
-		{
-			s.Enable().SetInt(wineScore);
-		});
-		if (!item.IsTag("WINE_YEAST_POWER_INT"))
-		{
-			item.ModifyTag("WINE_YEAST_POWER_INT", (TagState s) =>
-			{
-				s.Enable().SetInt(1);
-			});
-		}
-		DrainBottle(item);
-		item.DisableTag("LIQUID_CONTAINER_TAG");
-		ContainerHelper.RemoveContainerTooltipTag(item);
-		item.RemoveGameItemType("HOUSEHOLD_GOOD");
-		item.SetSpriteAndShape("Items/items_winemaking", "wine_fermenting");
-		item.Validate();
-		item.CloseContentWindow(includeChildren: true);
-		item.SetContentWindow(null);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(WineHelper), "StartFermentation", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void StartFermentation(GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { item }, __portArguments =>
+    {
+        item = (GameItem)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (item.GetTagReadonly("WINE_CONTAINER_STATE").GetInt() != 0)
+        {
+            return;
+        }
+
+        item.ModifyTag("FERMENTATION_TIME_REMAINING_INT", (TagState s) =>
+        {
+            s.Enable().SetInt(4);
+        });
+        item.ModifyTag("WINE_CONTAINER_STATE", (TagState state) =>
+        {
+            state.SetInt(1);
+        });
+        int wineScore = item.GetTagReadonly("WINE_SCORE_INT").GetInt();
+        bool flag = false;
+        int num = 0;
+        foreach (GameItem item2 in GraphUtils.FindAllChildrenType<GameItem>(item))
+        {
+            if (item2.IsTag("WINE_INGREDIENT_TAG"))
+            {
+                int num2 = item2.GetTagReadonly("BERRY_CONDITION_INT").GetInt();
+                if (num2 < 0)
+                {
+                    num2++;
+                }
+
+                wineScore += num2;
+                num++;
+            }
+
+            if (item2.IsTag("WINE_YEAST_TAG"))
+            {
+                int yeastPower = item2.GetTagReadonly("WINE_YEAST_POWER_INT").GetInt();
+                item.ModifyTag("WINE_YEAST_POWER_INT", (TagState s) =>
+                {
+                    s.Enable().SetInt(yeastPower);
+                });
+                flag = true;
+                if (item2.IsTag("WINE_YEAST_ILLEGAL_TAG"))
+                {
+                    item.EnableTag("WINE_COUNTERFEIT_TAG");
+                }
+            }
+
+            if (item2.IsTag("WINE_YEAST_REUSABLE_TAG"))
+            {
+                item2.parentInventory?.Expel(item2);
+                GraphUtils.EmporiumTryAdd(item2);
+            }
+            else
+            {
+                item2.Destroy();
+            }
+        }
+
+        if (num >= 2)
+        {
+            wineScore++;
+        }
+
+        if (flag)
+        {
+            wineScore++;
+        }
+
+        wineScore += GetWaterQualityScore(item);
+        item.ModifyTag("WINE_SCORE_INT", (TagState s) =>
+        {
+            s.Enable().SetInt(wineScore);
+        });
+        if (!item.IsTag("WINE_YEAST_POWER_INT"))
+        {
+            item.ModifyTag("WINE_YEAST_POWER_INT", (TagState s) =>
+            {
+                s.Enable().SetInt(1);
+            });
+        }
+
+        DrainBottle(item);
+        item.DisableTag("LIQUID_CONTAINER_TAG");
+        ContainerHelper.RemoveContainerTooltipTag(item);
+        item.RemoveGameItemType("HOUSEHOLD_GOOD");
+        item.SetSpriteAndShape("Items/items_winemaking", "wine_fermenting");
+        item.Validate();
+        item.CloseContentWindow(includeChildren: true);
+        item.SetContentWindow(null);
+    }
+}
 
 	public static void FinishFermentation(GameItem item)
 	{

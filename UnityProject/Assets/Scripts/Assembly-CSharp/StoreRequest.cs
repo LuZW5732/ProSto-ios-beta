@@ -210,23 +210,39 @@ public class StoreRequest
 		return true;
 	}
 
-	public bool CanFillRequest()
-	{
-		List<GameItem> allOwnedItems = EmporiumEntry.Instance.GetAllOwnedItems();
-		int num = 0;
-		foreach (GameItem item in allOwnedItems)
-		{
-			if (CanThisItemFillRequest(item))
-			{
-				num++;
-			}
-		}
-		if (num >= requiredItemCount)
-		{
-			return true;
-		}
-		return false;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(StoreRequest), "CanFillRequest", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public bool CanFillRequest()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        List<GameItem> allOwnedItems = EmporiumEntry.Instance.GetAllOwnedItems();
+        int num = 0;
+        foreach (GameItem item in allOwnedItems)
+        {
+            if (CanThisItemFillRequest(item))
+            {
+                num++;
+            }
+        }
+
+        if (num >= requiredItemCount)
+        {
+            return true;
+        }
+
+        return false;
+    }
+}
 
 	public bool CanThisItemFillRequest(GameItem item)
 	{
@@ -245,26 +261,42 @@ public class StoreRequest
 		return false;
 	}
 
-	public void FillRequest()
-	{
-		List<GameItem> allOwnedItems = EmporiumEntry.Instance.GetAllOwnedItems();
-		int num = 0;
-		for (int num2 = allOwnedItems.Count - 1; num2 >= 0; num2--)
-		{
-			if (CanThisItemFillRequest(allOwnedItems[num2]))
-			{
-				CheckDeliveredItem(allOwnedItems[num2]);
-				allOwnedItems[num2].Destroy();
-				num++;
-				if (num >= requiredItemCount)
-				{
-					DispenseReward();
-					PlayerStore.Instance.storeRequests.Remove(this);
-					break;
-				}
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(StoreRequest), "FillRequest", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void FillRequest()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        List<GameItem> allOwnedItems = EmporiumEntry.Instance.GetAllOwnedItems();
+        int num = 0;
+        for (int num2 = allOwnedItems.Count - 1; num2 >= 0; num2--)
+        {
+            if (CanThisItemFillRequest(allOwnedItems[num2]))
+            {
+                CheckDeliveredItem(allOwnedItems[num2]);
+                allOwnedItems[num2].Destroy();
+                num++;
+                if (num >= requiredItemCount)
+                {
+                    DispenseReward();
+                    PlayerStore.Instance.storeRequests.Remove(this);
+                    break;
+                }
+            }
+        }
+    }
+}
 
 	private void CheckDeliveredItem(GameItem item)
 	{

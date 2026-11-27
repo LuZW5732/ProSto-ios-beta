@@ -113,23 +113,41 @@ public class StoreUI : MonoBehaviour
 		ApplyZoom(bestLevel);
 	}
 
-	private void ApplyZoom(int level)
-	{
-		currentZoomLevel = level;
-		Transform obj = ((zoomRoot != null) ? zoomRoot : base.transform);
-		float num = level switch
-		{
-			3 => zoomScaleAlt2, 
-			2 => zoomScaleAlt, 
-			_ => zoomScaleNormal, 
-		};
-		if (obj == base.transform && TryGetComponent<UIDragHandler>(out var component))
-		{
-			component.SetHomeScale(num);
-			num *= component.DockScaleRatio;
-		}
-		obj.localScale = new Vector3(num, num, obj.localScale.z);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(StoreUI), "ApplyZoom", new System.Type[] { typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void ApplyZoom(int level)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { level }, __portArguments =>
+    {
+        level = (int)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        currentZoomLevel = level;
+        Transform obj = ((zoomRoot != null) ? zoomRoot : base.transform);
+        float num = level switch
+        {
+            3 => zoomScaleAlt2,
+            2 => zoomScaleAlt,
+            _ => zoomScaleNormal,
+        };
+        if (obj == base.transform && TryGetComponent<UIDragHandler>(out var component))
+        {
+            component.SetHomeScale(num);
+            num *= component.DockScaleRatio;
+        }
+
+        obj.localScale = new Vector3(num, num, obj.localScale.z);
+    }
+}
 
 	public void OnDisable()
 	{

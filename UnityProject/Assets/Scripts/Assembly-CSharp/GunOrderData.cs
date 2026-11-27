@@ -231,10 +231,26 @@ public class GunOrderData
 		return "";
 	}
 
-	public void OnOrderAccepted()
-	{
-		PlayerStore.Instance.ModCash(GetTotalReward(ResolveOrderGun()));
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GunOrderData), "OnOrderAccepted", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void OnOrderAccepted()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        PlayerStore.Instance.ModCash(GetTotalReward(ResolveOrderGun()));
+    }
+}
 
 	private static string RequestText(string key, string english)
 	{

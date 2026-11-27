@@ -216,74 +216,102 @@ public class StoreUIManager : MonoBehaviour
 		}
 	}
 
-	private void Update()
-	{
-		if (isMagnifyingMode)
-		{
-			UpdateMagnifyCamera();
-		}
-		if (gameOptionUIManager != null)
-		{
-			gameOptionUIManager.PollKeyCapture();
-		}
-		if (KeyBindHelper.GetKeyDown("control_hints") && !IsTyping())
-		{
-			ToggleControlHintOverlay();
-		}
-		if (KeyBindHelper.GetKeyDown("trash_item") && !IsTyping())
-		{
-			TryTrashHoveredItem();
-		}
-		if (!IsTyping())
-		{
-			ToolboxHelper.HandleHotkeys();
-			MachineStorageCoordinator.HandleInput();
-			HopperHelper.HandleInput();
-			ItemPinHelper.HandleInput();
-		}
-		bool flag = GameOptionUIManager.ConsumedEscapeThisFrame() || ItemPinHelper.ConsumedEscapeThisFrame() || MachineStorageCoordinator.ConsumedEscapeThisFrame() || HopperHelper.ConsumedEscapeThisFrame();
-		if (KeyBindHelper.GetBackDown() && !flag)
-		{
-			ResolveEscape();
-		}
-		if (KeyBindHelper.GetKeyDown("advance_dialogue"))
-		{
-			if (TutorialUIManager.Instance != null)
-			{
-				TutorialUIManager.Instance.DismissAdvanceDialogHint();
-			}
-			DialogUIManager.Instance.OnAdvancePressed();
-			DialoguePhoneUIManager.Instance.OnAdvancePressed();
-		}
-		if (Input.GetKeyDown("d") && !PlayerStore.Instance.isProduction && !IsTyping())
-		{
-			PlayerStore.Instance.devMode = !PlayerStore.Instance.devMode;
-			Debug.Log("Dev Mode " + PlayerStore.Instance.devMode);
-		}
-		if (PlayerStore.Instance.devMode && !IsTyping())
-		{
-			if (Input.GetKeyDown("g"))
-			{
-				WildNetworkUI.Open(debug: true);
-			}
-			if (Input.GetKeyDown("h"))
-			{
-				EmporiumEntry.Instance.DeselectDragItem();
-			}
-		}
-		if (Input.GetKeyDown("f9") && DevTools.IsEnabled && !NewGameData.Instance.isShowcase)
-		{
-			if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-			{
-				CustomUIDebugPanel.ToggleLegacyPanel();
-			}
-			else
-			{
-				CustomUIDebugPanel.Toggle();
-			}
-		}
-		CheckRaycast();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(StoreUIManager), "Update", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void Update()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (isMagnifyingMode)
+        {
+            UpdateMagnifyCamera();
+        }
+
+        if (gameOptionUIManager != null)
+        {
+            gameOptionUIManager.PollKeyCapture();
+        }
+
+        if (KeyBindHelper.GetKeyDown("control_hints") && !IsTyping())
+        {
+            ToggleControlHintOverlay();
+        }
+
+        if (KeyBindHelper.GetKeyDown("trash_item") && !IsTyping())
+        {
+            TryTrashHoveredItem();
+        }
+
+        if (!IsTyping())
+        {
+            ToolboxHelper.HandleHotkeys();
+            MachineStorageCoordinator.HandleInput();
+            HopperHelper.HandleInput();
+            ItemPinHelper.HandleInput();
+        }
+
+        bool flag = GameOptionUIManager.ConsumedEscapeThisFrame() || ItemPinHelper.ConsumedEscapeThisFrame() || MachineStorageCoordinator.ConsumedEscapeThisFrame() || HopperHelper.ConsumedEscapeThisFrame();
+        if (KeyBindHelper.GetBackDown() && !flag)
+        {
+            ResolveEscape();
+        }
+
+        if (KeyBindHelper.GetKeyDown("advance_dialogue"))
+        {
+            if (TutorialUIManager.Instance != null)
+            {
+                TutorialUIManager.Instance.DismissAdvanceDialogHint();
+            }
+
+            DialogUIManager.Instance.OnAdvancePressed();
+            DialoguePhoneUIManager.Instance.OnAdvancePressed();
+        }
+
+        if (Input.GetKeyDown("d") && !PlayerStore.Instance.isProduction && !IsTyping())
+        {
+            PlayerStore.Instance.devMode = !PlayerStore.Instance.devMode;
+            Debug.Log("Dev Mode " + PlayerStore.Instance.devMode);
+        }
+
+        if (PlayerStore.Instance.devMode && !IsTyping())
+        {
+            if (Input.GetKeyDown("g"))
+            {
+                WildNetworkUI.Open(debug: true);
+            }
+
+            if (Input.GetKeyDown("h"))
+            {
+                EmporiumEntry.Instance.DeselectDragItem();
+            }
+        }
+
+        if (Input.GetKeyDown("f9") && DevTools.IsEnabled && !NewGameData.Instance.isShowcase)
+        {
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                CustomUIDebugPanel.ToggleLegacyPanel();
+            }
+            else
+            {
+                CustomUIDebugPanel.Toggle();
+            }
+        }
+
+        CheckRaycast();
+    }
+}
 
 	private void TryTrashHoveredItem()
 	{

@@ -43,7 +43,7 @@ internal static class PortInterpretedMods
         {
             if (module.Assembly == null || (module.Attributes & DseCecil.ModuleAttributes.ILOnly) == 0)
                 throw new NotSupportedException("需要纯托管的 .NET 模组 DLL。");
-            PortHarmonyHooks.ValidateImage(module);
+            mod.ManagesHarmonyPatches = PortHarmonyHooks.ValidateImage(module);
             string name = module.Assembly.Name.Name;
             if (ModLoader.IsGameAssemblyName(name) || AppDomain.CurrentDomain.GetAssemblies().Any(a =>
                     string.Equals(a.GetName().Name, name, StringComparison.OrdinalIgnoreCase)))
@@ -67,11 +67,12 @@ internal static class PortInterpretedMods
 
     internal static void Stop(LoadedMod mod)
     {
-        RemoveHooks(mod);
+        if (!mod.ManagesHarmonyPatches) RemoveHooks(mod);
         try { mod.Instance?.OnDisable(); }
         catch (Exception error) { UnityEngine.Debug.LogException(error); }
         finally
         {
+            if (mod.ManagesHarmonyPatches) RemoveHooks(mod);
             mod.Instance = null;
             mod.IsEnabled = false;
         }

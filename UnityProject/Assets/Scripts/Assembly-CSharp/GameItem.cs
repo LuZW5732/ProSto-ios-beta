@@ -1755,22 +1755,37 @@ public void DisplayManufacturer(RichTextBuilder builder, string manufacturer)
 		return (long)Math.Round(((num + (double)marketScaledValue) * num2 + (double)miscValue) * finalFactor);
 	}
 
-	public long GetNegociatedValue()
-	{
-		long complexeItemValue = GetComplexeItemValue();
-		long totalBaseValue = unitValue + complexeItemValue;
-		long innateMult = 0L;
-		long marketMult = 0L;
-		double finalFactor = 1.0;
-		AccumulateFeatureStages(ref innateMult, ref marketMult, ref finalFactor);
-		int itemMiscValue = GetItemMiscValue(useMarkup: true);
-		long finalValue = ComposeStagedValue(totalBaseValue, innateMult, marketMult, finalFactor, itemMiscValue, WaterHelper.GetContainerPrice(this));
-		if (DebugPanel.Instance != null && DebugPanel.Instance.debugPricePanel.activeSelf)
-		{
-			DebugPanel.Instance.priceDebugTMP2.text = "NegociatedValue\nbase " + totalBaseValue + ", innate " + innateMult + "%, market " + marketMult + "%, misc " + itemMiscValue + ", deal x" + finalFactor.ToString("0.00") + " = " + finalValue;
-		}
-		return CheckValueSafe(finalValue);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItem), "GetNegociatedValue", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public long GetNegociatedValue()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<long>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    long __PortOriginal()
+    {
+        long complexeItemValue = GetComplexeItemValue();
+        long totalBaseValue = unitValue + complexeItemValue;
+        long innateMult = 0L;
+        long marketMult = 0L;
+        double finalFactor = 1.0;
+        AccumulateFeatureStages(ref innateMult, ref marketMult, ref finalFactor);
+        int itemMiscValue = GetItemMiscValue(useMarkup: true);
+        long finalValue = ComposeStagedValue(totalBaseValue, innateMult, marketMult, finalFactor, itemMiscValue, WaterHelper.GetContainerPrice(this));
+        if (DebugPanel.Instance != null && DebugPanel.Instance.debugPricePanel.activeSelf)
+        {
+            DebugPanel.Instance.priceDebugTMP2.text = "NegociatedValue\nbase " + totalBaseValue + ", innate " + innateMult + "%, market " + marketMult + "%, misc " + itemMiscValue + ", deal x" + finalFactor.ToString("0.00") + " = " + finalValue;
+        }
+
+        return CheckValueSafe(finalValue);
+    }
+}
 
 	public long GetDonationCreditValue()
 	{
@@ -1786,50 +1801,73 @@ public void DisplayManufacturer(RichTextBuilder builder, string manufacturer)
 		return negociatedValue;
 	}
 
-	public long GetCurrentValue(bool useRetailMarkup = false, bool withChild = true, bool includeEvents = true, bool forceMarkup = false, long extraMarketMod = 0L)
-	{
-		List<StoreEvent> activeEvents = StoreStation.Instance.storeEventManager.GetActiveEvents();
-		long complexeItemValue = GetComplexeItemValue();
-		long totalBaseValue = unitValue + complexeItemValue;
-		long innateMult = 0L;
-		long marketMult = 0L;
-		double finalFactor = 1.0;
-		if (includeEvents)
-		{
-			foreach (StoreEvent item in activeEvents)
-			{
-				for (int i = 0; i < item.negociationDatas.Count; i++)
-				{
-					if (IsTag(item.negociationDatas[i].itemType))
-					{
-						marketMult += item.negociationDatas[i].value;
-					}
-				}
-			}
-		}
-		AccumulateFeatureStages(ref innateMult, ref marketMult, ref finalFactor, skipEventFeatures: true);
-		if (((IsApplyMarkUp() & useRetailMarkup) | forceMarkup) && FindItemFeatureByID("retailMarkUp") == null)
-		{
-			marketMult += PlayerStore.Instance.retailMarkup;
-		}
-		marketMult += extraMarketMod;
-		int itemMiscValue = GetItemMiscValue(useRetailMarkup, withChild, includeEvents, forceMarkup);
-		long finalValue = ComposeStagedValue(totalBaseValue, innateMult, marketMult, finalFactor, itemMiscValue, WaterHelper.GetContainerPrice(this));
-		if (DebugPanel.Instance != null && DebugPanel.Instance.debugPricePanel.activeSelf)
-		{
-			DebugPanel.Instance.priceDebugTMP.text = "CurrentValue\nbase " + totalBaseValue + ", innate " + innateMult + "%, market " + marketMult + "%, misc " + itemMiscValue + ", deal x" + finalFactor.ToString("0.00") + " = " + finalValue;
-			if (IsRootedInBackInv())
-			{
-				DebugPanel.Instance.priceDebugTMP.text += "\nIn back inv";
-			}
-			else
-			{
-				DebugPanel.Instance.priceDebugTMP.text += "\nNOT In back inv";
-			}
-			DebugPanel.Instance.priceDebugTMP3.text = "RefreshedValue\n" + GetRefreshedValue();
-		}
-		return CheckValueSafe(finalValue);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameItem), "GetCurrentValue", new System.Type[] { typeof(bool), typeof(bool), typeof(bool), typeof(bool), typeof(long) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public long GetCurrentValue(bool useRetailMarkup = false, bool withChild = true, bool includeEvents = true, bool forceMarkup = false, long extraMarketMod = 0L)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<long>(__portHook2, this, new object[] { useRetailMarkup, withChild, includeEvents, forceMarkup, extraMarketMod }, __portArguments =>
+    {
+        useRetailMarkup = (bool)__portArguments[0];
+        withChild = (bool)__portArguments[1];
+        includeEvents = (bool)__portArguments[2];
+        forceMarkup = (bool)__portArguments[3];
+        extraMarketMod = (long)__portArguments[4];
+        return __PortOriginal();
+    });
+    long __PortOriginal()
+    {
+        List<StoreEvent> activeEvents = StoreStation.Instance.storeEventManager.GetActiveEvents();
+        long complexeItemValue = GetComplexeItemValue();
+        long totalBaseValue = unitValue + complexeItemValue;
+        long innateMult = 0L;
+        long marketMult = 0L;
+        double finalFactor = 1.0;
+        if (includeEvents)
+        {
+            foreach (StoreEvent item in activeEvents)
+            {
+                for (int i = 0; i < item.negociationDatas.Count; i++)
+                {
+                    if (IsTag(item.negociationDatas[i].itemType))
+                    {
+                        marketMult += item.negociationDatas[i].value;
+                    }
+                }
+            }
+        }
+
+        AccumulateFeatureStages(ref innateMult, ref marketMult, ref finalFactor, skipEventFeatures: true);
+        if (((IsApplyMarkUp() & useRetailMarkup) | forceMarkup) && FindItemFeatureByID("retailMarkUp") == null)
+        {
+            marketMult += PlayerStore.Instance.retailMarkup;
+        }
+
+        marketMult += extraMarketMod;
+        int itemMiscValue = GetItemMiscValue(useRetailMarkup, withChild, includeEvents, forceMarkup);
+        long finalValue = ComposeStagedValue(totalBaseValue, innateMult, marketMult, finalFactor, itemMiscValue, WaterHelper.GetContainerPrice(this));
+        if (DebugPanel.Instance != null && DebugPanel.Instance.debugPricePanel.activeSelf)
+        {
+            DebugPanel.Instance.priceDebugTMP.text = "CurrentValue\nbase " + totalBaseValue + ", innate " + innateMult + "%, market " + marketMult + "%, misc " + itemMiscValue + ", deal x" + finalFactor.ToString("0.00") + " = " + finalValue;
+            if (IsRootedInBackInv())
+            {
+                DebugPanel.Instance.priceDebugTMP.text += "\nIn back inv";
+            }
+            else
+            {
+                DebugPanel.Instance.priceDebugTMP.text += "\nNOT In back inv";
+            }
+
+            DebugPanel.Instance.priceDebugTMP3.text = "RefreshedValue\n" + GetRefreshedValue();
+        }
+
+        return CheckValueSafe(finalValue);
+    }
+}
 
 	public static long CheckValueSafe(long finalValue)
 	{

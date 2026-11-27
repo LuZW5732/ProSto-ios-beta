@@ -222,67 +222,91 @@ public class GameSlotInventory : GameInventory, PixelElement, TooltipListener
 		Validate();
 	}
 
-	public override void Validate()
-	{
-		if (validateLock)
-		{
-			return;
-		}
-		validateLock = true;
-		insideBorder.image.color = new Color(1f, 1f, 1f, 1f - transparency);
-		background.image.color = new Color(1f, 1f, 1f, 1f - transparency);
-		if (cellNode != null)
-		{
-			background.image.color = new Color(1f, 1f, 1f, 0f);
-		}
-		if (currentItem?.modifiedShape is GridShapeBuilder gridShapeBuilder)
-		{
-			gridShapeBuilder.SetPosition(0, 0);
-		}
-		int gridSize = UISettings.current.gridSize;
-		widthPixels = defaultGridWidth * gridSize;
-		heightPixels = defaultGridHeight * gridSize;
-		if ((object)backgroundImage != null)
-		{
-			backgroundImage.image.enabled = true;
-			widthPixels = (int)backgroundImage.rectTransform.sizeDelta.x;
-			heightPixels = (int)backgroundImage.rectTransform.sizeDelta.y;
-		}
-		if (currentItem != null)
-		{
-			widthPixels = currentItem.modifiedShape.globalWidth * gridSize;
-			heightPixels = currentItem.modifiedShape.globalHeight * gridSize;
-			if ((object)backgroundImage != null)
-			{
-				backgroundImage.image.enabled = false;
-			}
-		}
-		background.rectTransform.sizeDelta = new Vector2(widthPixels, heightPixels);
-		highlight.rectTransform.sizeDelta = new Vector2(widthPixels, heightPixels);
-		insideBorder.rectTransform.sizeDelta = new Vector2(widthPixels + 2, heightPixels + 2);
-		insideBorder.rectTransform.anchoredPosition = new Vector2(-1f, 1f);
-		if (cellNode != null)
-		{
-			MachineryStyle.Place(cellNode, 1, 1, Mathf.Max(0, widthPixels - 2), Mathf.Max(0, heightPixels - 2));
-		}
-		if (stolenUI != null)
-		{
-			int num = handler.FindParentWindow()?.xPadding ?? 0;
-			int num2 = handler.FindParentWindow()?.yPadding ?? 0;
-			stolenInner.rectTransform.anchoredPosition = (isUIDown ? new Vector2(0f, -heightPixels - num2) : new Vector2(widthPixels + num, 0f));
-			widthPixels = (isUIDown ? Math.Max(widthPixels, stolenUI.widthPixels) : (widthPixels + stolenUI.widthPixels + num));
-			heightPixels = (isUIDown ? (heightPixels + stolenUI.heightPixels + num2) : Math.Max(heightPixels, stolenUI.heightPixels));
-		}
-		if (isHidden)
-		{
-			widthPixels = 0;
-			heightPixels = 0;
-		}
-		handler.gameObject.SetActive(!isHidden);
-		currentItem?.Validate();
-		handler.parent?.FindParentElement<GraphNodeStorage>()?.Validate();
-		validateLock = false;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameSlotInventory), "Validate", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public override void Validate()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (validateLock)
+        {
+            return;
+        }
+
+        validateLock = true;
+        insideBorder.image.color = new Color(1f, 1f, 1f, 1f - transparency);
+        background.image.color = new Color(1f, 1f, 1f, 1f - transparency);
+        if (cellNode != null)
+        {
+            background.image.color = new Color(1f, 1f, 1f, 0f);
+        }
+
+        if (currentItem?.modifiedShape is GridShapeBuilder gridShapeBuilder)
+        {
+            gridShapeBuilder.SetPosition(0, 0);
+        }
+
+        int gridSize = UISettings.current.gridSize;
+        widthPixels = defaultGridWidth * gridSize;
+        heightPixels = defaultGridHeight * gridSize;
+        if ((object)backgroundImage != null)
+        {
+            backgroundImage.image.enabled = true;
+            widthPixels = (int)backgroundImage.rectTransform.sizeDelta.x;
+            heightPixels = (int)backgroundImage.rectTransform.sizeDelta.y;
+        }
+
+        if (currentItem != null)
+        {
+            widthPixels = currentItem.modifiedShape.globalWidth * gridSize;
+            heightPixels = currentItem.modifiedShape.globalHeight * gridSize;
+            if ((object)backgroundImage != null)
+            {
+                backgroundImage.image.enabled = false;
+            }
+        }
+
+        background.rectTransform.sizeDelta = new Vector2(widthPixels, heightPixels);
+        highlight.rectTransform.sizeDelta = new Vector2(widthPixels, heightPixels);
+        insideBorder.rectTransform.sizeDelta = new Vector2(widthPixels + 2, heightPixels + 2);
+        insideBorder.rectTransform.anchoredPosition = new Vector2(-1f, 1f);
+        if (cellNode != null)
+        {
+            MachineryStyle.Place(cellNode, 1, 1, Mathf.Max(0, widthPixels - 2), Mathf.Max(0, heightPixels - 2));
+        }
+
+        if (stolenUI != null)
+        {
+            int num = handler.FindParentWindow()?.xPadding ?? 0;
+            int num2 = handler.FindParentWindow()?.yPadding ?? 0;
+            stolenInner.rectTransform.anchoredPosition = (isUIDown ? new Vector2(0f, -heightPixels - num2) : new Vector2(widthPixels + num, 0f));
+            widthPixels = (isUIDown ? Math.Max(widthPixels, stolenUI.widthPixels) : (widthPixels + stolenUI.widthPixels + num));
+            heightPixels = (isUIDown ? (heightPixels + stolenUI.heightPixels + num2) : Math.Max(heightPixels, stolenUI.heightPixels));
+        }
+
+        if (isHidden)
+        {
+            widthPixels = 0;
+            heightPixels = 0;
+        }
+
+        handler.gameObject.SetActive(!isHidden);
+        currentItem?.Validate();
+        handler.parent?.FindParentElement<GraphNodeStorage>()?.Validate();
+        validateLock = false;
+    }
+}
 
 	public bool Attach(PixelElement element)
 	{

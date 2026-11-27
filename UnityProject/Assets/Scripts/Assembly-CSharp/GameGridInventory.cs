@@ -710,72 +710,112 @@ public class GameGridInventory : GameInventory, PixelElement
 		return slotMarker;
 	}
 
-	public override bool UncheckedAccept(GameItem item)
-	{
-		if (item == null)
-		{
-			return false;
-		}
-		if (item.parentInventory != null)
-		{
-			return false;
-		}
-		if (items.Contains(item))
-		{
-			return false;
-		}
-		base.onSlotAddItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		items.Add(item);
-		item.AddParent(this);
-		if (item is PixelElement pixelElement)
-		{
-			pixelElement.SetRenderingParent(this);
-		}
-		item.onSlotAddItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		base.onSlotAddItemEndFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		base.onSlotAddItemLateFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		if (item.IsRootedInBackInv())
-		{
-			PlayerStore.Instance.OnWeightedAreaChanged();
-		}
-		item.ValidateShapeState();
-		return true;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameGridInventory), "UncheckedAccept", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public override bool UncheckedAccept(GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
 
-	public override bool Expel(GameItem item)
-	{
-		if (item == null)
-		{
-			return false;
-		}
-		if (item.parentInventory != this)
-		{
-			return false;
-		}
-		if (!items.Contains(item))
-		{
-			return false;
-		}
-		item.onSlotRemoveItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		base.onSlotRemoveItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		bool flag = items.Remove(item);
-		if (!flag)
-		{
-			return false;
-		}
-		item.RemoveParent(this);
-		if (item is PixelElement pixelElement)
-		{
-			pixelElement.RemoveRenderingParent(this);
-		}
-		base.onSlotRemoveItemEndFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		base.onSlotRemoveItemLateFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
-		GameItem gameItem = GraphUtils.FindParentType<GameItem>(this);
-		gameItem?.ValidateShapeState();
-		gameItem?.Validate();
-		OverlayHandler.current.UpdateInventoryStateUI();
-		return flag;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook0, this, new object[] { item }, __portArguments =>
+    {
+        item = (GameItem)__portArguments[0];
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        if (item == null)
+        {
+            return false;
+        }
+
+        if (item.parentInventory != null)
+        {
+            return false;
+        }
+
+        if (items.Contains(item))
+        {
+            return false;
+        }
+
+        base.onSlotAddItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        items.Add(item);
+        item.AddParent(this);
+        if (item is PixelElement pixelElement)
+        {
+            pixelElement.SetRenderingParent(this);
+        }
+
+        item.onSlotAddItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        base.onSlotAddItemEndFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        base.onSlotAddItemLateFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        if (item.IsRootedInBackInv())
+        {
+            PlayerStore.Instance.OnWeightedAreaChanged();
+        }
+
+        item.ValidateShapeState();
+        return true;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GameGridInventory), "Expel", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public override bool Expel(GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<bool>(__portHook1, this, new object[] { item }, __portArguments =>
+    {
+        item = (GameItem)__portArguments[0];
+        return __PortOriginal();
+    });
+    bool __PortOriginal()
+    {
+        if (item == null)
+        {
+            return false;
+        }
+
+        if (item.parentInventory != this)
+        {
+            return false;
+        }
+
+        if (!items.Contains(item))
+        {
+            return false;
+        }
+
+        item.onSlotRemoveItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        base.onSlotRemoveItemFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        bool flag = items.Remove(item);
+        if (!flag)
+        {
+            return false;
+        }
+
+        item.RemoveParent(this);
+        if (item is PixelElement pixelElement)
+        {
+            pixelElement.RemoveRenderingParent(this);
+        }
+
+        base.onSlotRemoveItemEndFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        base.onSlotRemoveItemLateFunc?.Invoke(item, this, GetIncompleteItemInventorySlot(item));
+        GameItem gameItem = GraphUtils.FindParentType<GameItem>(this);
+        gameItem?.ValidateShapeState();
+        gameItem?.Validate();
+        OverlayHandler.current.UpdateInventoryStateUI();
+        return flag;
+    }
+}
 
 	public override bool MayHaveValidInventorySlot(GameItem item)
 	{

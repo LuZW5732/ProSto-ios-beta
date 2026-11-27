@@ -103,10 +103,27 @@ public class GraphUtils
 		return DestroyIfUnplaced(item, context);
 	}
 
-	public static void EmporiumTryAdd(GameItem item)
-	{
-		EmporiumTryAdd(EmporiumEntry.Instance.invElement, item);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(GraphUtils), "EmporiumTryAdd", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void EmporiumTryAdd(GameItem item)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, null, new object[] { item }, __portArguments =>
+    {
+        item = (GameItem)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        EmporiumTryAdd(EmporiumEntry.Instance.invElement, item);
+    }
+}
 
 	public static bool CanAccept(GraphNodeStorage currentNode, GameItem item)
 	{

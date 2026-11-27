@@ -214,44 +214,85 @@ public static class TabletUI
 		return num2;
 	}
 
-	public static float InfoRow(TabletSkin skin, Transform host, float y, string label, IList<TagSpec> tags)
-	{
-		TextMeshProUGUI textMeshProUGUI = NewText(skin, host, "InfoLabel", 24f, y, 102f, 23f, FontLoader.FontRole.Noto_Sans, 16f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
-		textMeshProUGUI.text = label;
-		AutoSize(textMeshProUGUI);
-		float num = 0f;
-		float num2 = 0f;
-		for (int i = 0; i < tags.Count; i++)
-		{
-			RectTransform rectTransform = NewRect(host, "Probe", 0f, 0f, 0f, 0f);
-			float num3 = Tag(skin, rectTransform, 0f, 0f, tags[i]);
-			UnityEngine.Object.Destroy(rectTransform.gameObject);
-			if (num > 0f && num + num3 > 368f)
-			{
-				num = 0f;
-				num2 += 27f;
-			}
-			Tag(skin, host, 138f + num, y + num2, tags[i]);
-			num += num3 + 8f;
-		}
-		return num2 + 23f;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(TabletUI), "InfoRow", new System.Type[] { typeof(TabletSkin), typeof(Transform), typeof(float), typeof(string), typeof(IList<TagSpec>) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static float InfoRow(TabletSkin skin, Transform host, float y, string label, IList<TagSpec> tags)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
 
-	public static float InfoLine(TabletSkin skin, Transform host, float y, string label, string value)
-	{
-		if (!string.IsNullOrEmpty(label))
-		{
-			TextMeshProUGUI textMeshProUGUI = NewText(skin, host, "InfoLabel", 24f, y, 102f, 23f, FontLoader.FontRole.Noto_Sans, 16f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
-			textMeshProUGUI.text = label;
-			AutoSize(textMeshProUGUI);
-		}
-		float num = (string.IsNullOrEmpty(label) ? 24f : 138f);
-		float width = 506f - num;
-		TextMeshProUGUI textMeshProUGUI2 = NewText(skin, host, "InfoValue", num, y, width, 23f, FontLoader.FontRole.Noto_Sans, 18f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
-		textMeshProUGUI2.text = value;
-		AutoSize(textMeshProUGUI2);
-		return 23f;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<float>(__portHook0, null, new object[] { skin, host, y, label, tags }, __portArguments =>
+    {
+        skin = (TabletSkin)__portArguments[0];
+        host = (Transform)__portArguments[1];
+        y = (float)__portArguments[2];
+        label = (string)__portArguments[3];
+        tags = (IList<TagSpec>)__portArguments[4];
+        return __PortOriginal();
+    });
+    float __PortOriginal()
+    {
+        TextMeshProUGUI textMeshProUGUI = NewText(skin, host, "InfoLabel", 24f, y, 102f, 23f, FontLoader.FontRole.Noto_Sans, 16f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
+        textMeshProUGUI.text = label;
+        AutoSize(textMeshProUGUI);
+        float num = 0f;
+        float num2 = 0f;
+        for (int i = 0; i < tags.Count; i++)
+        {
+            RectTransform rectTransform = NewRect(host, "Probe", 0f, 0f, 0f, 0f);
+            float num3 = Tag(skin, rectTransform, 0f, 0f, tags[i]);
+            UnityEngine.Object.Destroy(rectTransform.gameObject);
+            if (num > 0f && num + num3 > 368f)
+            {
+                num = 0f;
+                num2 += 27f;
+            }
+
+            Tag(skin, host, 138f + num, y + num2, tags[i]);
+            num += num3 + 8f;
+        }
+
+        return num2 + 23f;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(TabletUI), "InfoLine", new System.Type[] { typeof(TabletSkin), typeof(Transform), typeof(float), typeof(string), typeof(string) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static float InfoLine(TabletSkin skin, Transform host, float y, string label, string value)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<float>(__portHook1, null, new object[] { skin, host, y, label, value }, __portArguments =>
+    {
+        skin = (TabletSkin)__portArguments[0];
+        host = (Transform)__portArguments[1];
+        y = (float)__portArguments[2];
+        label = (string)__portArguments[3];
+        value = (string)__portArguments[4];
+        return __PortOriginal();
+    });
+    float __PortOriginal()
+    {
+        if (!string.IsNullOrEmpty(label))
+        {
+            TextMeshProUGUI textMeshProUGUI = NewText(skin, host, "InfoLabel", 24f, y, 102f, 23f, FontLoader.FontRole.Noto_Sans, 16f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
+            textMeshProUGUI.text = label;
+            AutoSize(textMeshProUGUI);
+        }
+
+        float num = (string.IsNullOrEmpty(label) ? 24f : 138f);
+        float width = 506f - num;
+        TextMeshProUGUI textMeshProUGUI2 = NewText(skin, host, "InfoValue", num, y, width, 23f, FontLoader.FontRole.Noto_Sans, 18f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
+        textMeshProUGUI2.text = value;
+        AutoSize(textMeshProUGUI2);
+        return 23f;
+    }
+}
 
 	public static RectTransform RowRoot(Transform content, string name, float height)
 	{
@@ -270,67 +311,132 @@ public static class TabletUI
 		return rectTransform.gameObject;
 	}
 
-	public static TabletListRow ListRow(TabletSkin skin, Transform content, string name, string right, bool refused, Func<string> tooltip, Action onClick)
-	{
-		RectTransform rectTransform = RowRoot(content, "Row", 30f);
-		Image image = rectTransform.gameObject.AddComponent<Image>();
-		image.color = Color.clear;
-		image.raycastTarget = true;
-		TabletListRow tabletListRow = rectTransform.gameObject.AddComponent<TabletListRow>();
-		tabletListRow.onClick = onClick;
-		tabletListRow.selectable = onClick != null;
-		RectTransform rectTransform2 = NewRect(rectTransform, "Visuals", 0f, 0f, 502f, 30f);
-		if (refused)
-		{
-			CanvasGroup canvasGroup = rectTransform2.gameObject.AddComponent<CanvasGroup>();
-			canvasGroup.alpha = 0.3f;
-			canvasGroup.blocksRaycasts = false;
-			canvasGroup.interactable = false;
-		}
-		TextMeshProUGUI textMeshProUGUI = NewText(skin, rectTransform2, "Name", 12f, 0f, 360f, 28f, FontLoader.FontRole.Noto_Sans, 18f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
-		textMeshProUGUI.text = name;
-		AutoSize(textMeshProUGUI);
-		TextMeshProUGUI textMeshProUGUI2 = NewText(skin, rectTransform2, "Right", 368f, 0f, 130f, 28f, FontLoader.FontRole.Noto_Sans, refused ? 16f : 20f, TabletStyle.INK, TextAlignmentOptions.MidlineRight);
-		textMeshProUGUI2.text = right;
-		AutoSize(textMeshProUGUI2);
-		NewFlat(rectTransform2, "Separator", 0f, 28f, 502f, 2f, TabletStyle.ROW_SEPARATOR);
-		tabletListRow.hoverVisual = RowFrame(skin, rectTransform, 28f, 28f);
-		tabletListRow.hoverVisual.SetActive(value: false);
-		if (tooltip != null)
-		{
-			AddTooltip(rectTransform.gameObject, tooltip);
-		}
-		return tabletListRow;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(TabletUI), "ListRow", new System.Type[] { typeof(TabletSkin), typeof(Transform), typeof(string), typeof(string), typeof(bool), typeof(Func<string>), typeof(Action) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static TabletListRow ListRow(TabletSkin skin, Transform content, string name, string right, bool refused, Func<string> tooltip, Action onClick)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        return __PortOriginal();
+    }
 
-	public static RectTransform SubHeader(TabletSkin skin, Transform content, string text, float height, Sprite icon = null, Func<string> tooltip = null, Color? textColor = null)
-	{
-		RectTransform rectTransform = RowRoot(content, "SubHeader", height);
-		NewFlat(rectTransform, "Plate", 0f, 0f, 502f, height, TabletStyle.INK);
-		Color color = textColor ?? TabletStyle.SUB_HEADER_TEXT;
-		TextMeshProUGUI textMeshProUGUI = NewText(skin, rectTransform, "Text", 0f, 0f, 502f, height, FontLoader.FontRole.Noto_Sans, (height >= 38f) ? 16f : 18f, color, TextAlignmentOptions.Center);
-		textMeshProUGUI.text = text;
-		AutoSize(textMeshProUGUI);
-		if (icon != null)
-		{
-			float num = MeasureWidth(textMeshProUGUI, text);
-			float x = (502f + num) * 0.5f + 4f;
-			InfoIcon(rectTransform, x, (height - 14f) * 0.5f, icon, tooltip);
-			textMeshProUGUI.rectTransform.anchoredPosition = new Vector2(-9f, 0f);
-			(rectTransform.GetChild(rectTransform.childCount - 1) as RectTransform).anchoredPosition += new Vector2(-9f, 0f);
-		}
-		return rectTransform;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<TabletListRow>(__portHook2, null, new object[] { skin, content, name, right, refused, tooltip, onClick }, __portArguments =>
+    {
+        skin = (TabletSkin)__portArguments[0];
+        content = (Transform)__portArguments[1];
+        name = (string)__portArguments[2];
+        right = (string)__portArguments[3];
+        refused = (bool)__portArguments[4];
+        tooltip = (Func<string>)__portArguments[5];
+        onClick = (Action)__portArguments[6];
+        return __PortOriginal();
+    });
+    TabletListRow __PortOriginal()
+    {
+        RectTransform rectTransform = RowRoot(content, "Row", 30f);
+        Image image = rectTransform.gameObject.AddComponent<Image>();
+        image.color = Color.clear;
+        image.raycastTarget = true;
+        TabletListRow tabletListRow = rectTransform.gameObject.AddComponent<TabletListRow>();
+        tabletListRow.onClick = onClick;
+        tabletListRow.selectable = onClick != null;
+        RectTransform rectTransform2 = NewRect(rectTransform, "Visuals", 0f, 0f, 502f, 30f);
+        if (refused)
+        {
+            CanvasGroup canvasGroup = rectTransform2.gameObject.AddComponent<CanvasGroup>();
+            canvasGroup.alpha = 0.3f;
+            canvasGroup.blocksRaycasts = false;
+            canvasGroup.interactable = false;
+        }
 
-	public static RectTransform TextRow(TabletSkin skin, Transform content, string text, float size, Color color, TextAlignmentOptions alignment = TextAlignmentOptions.MidlineLeft)
-	{
-		RectTransform rectTransform = RowRoot(content, "TextRow", 30f);
-		TextMeshProUGUI textMeshProUGUI = NewText(skin, rectTransform, "Text", 4f, 0f, 494f, 28f, FontLoader.FontRole.Noto_Sans, size, color, alignment);
-		textMeshProUGUI.text = text;
-		AutoSize(textMeshProUGUI);
-		NewFlat(rectTransform, "Separator", 0f, 28f, 502f, 2f, TabletStyle.ROW_SEPARATOR);
-		return rectTransform;
-	}
+        TextMeshProUGUI textMeshProUGUI = NewText(skin, rectTransform2, "Name", 12f, 0f, 360f, 28f, FontLoader.FontRole.Noto_Sans, 18f, TabletStyle.INK, TextAlignmentOptions.MidlineLeft);
+        textMeshProUGUI.text = name;
+        AutoSize(textMeshProUGUI);
+        TextMeshProUGUI textMeshProUGUI2 = NewText(skin, rectTransform2, "Right", 368f, 0f, 130f, 28f, FontLoader.FontRole.Noto_Sans, refused ? 16f : 20f, TabletStyle.INK, TextAlignmentOptions.MidlineRight);
+        textMeshProUGUI2.text = right;
+        AutoSize(textMeshProUGUI2);
+        NewFlat(rectTransform2, "Separator", 0f, 28f, 502f, 2f, TabletStyle.ROW_SEPARATOR);
+        tabletListRow.hoverVisual = RowFrame(skin, rectTransform, 28f, 28f);
+        tabletListRow.hoverVisual.SetActive(value: false);
+        if (tooltip != null)
+        {
+            AddTooltip(rectTransform.gameObject, tooltip);
+        }
+
+        return tabletListRow;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(TabletUI), "SubHeader", new System.Type[] { typeof(TabletSkin), typeof(Transform), typeof(string), typeof(float), typeof(Sprite), typeof(Func<string>), typeof(Color?) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static RectTransform SubHeader(TabletSkin skin, Transform content, string text, float height, Sprite icon = null, Func<string> tooltip = null, Color? textColor = null)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RectTransform>(__portHook3, null, new object[] { skin, content, text, height, icon, tooltip, textColor }, __portArguments =>
+    {
+        skin = (TabletSkin)__portArguments[0];
+        content = (Transform)__portArguments[1];
+        text = (string)__portArguments[2];
+        height = (float)__portArguments[3];
+        icon = (Sprite)__portArguments[4];
+        tooltip = (Func<string>)__portArguments[5];
+        textColor = (Color? )__portArguments[6];
+        return __PortOriginal();
+    });
+    RectTransform __PortOriginal()
+    {
+        RectTransform rectTransform = RowRoot(content, "SubHeader", height);
+        NewFlat(rectTransform, "Plate", 0f, 0f, 502f, height, TabletStyle.INK);
+        Color color = textColor ?? TabletStyle.SUB_HEADER_TEXT;
+        TextMeshProUGUI textMeshProUGUI = NewText(skin, rectTransform, "Text", 0f, 0f, 502f, height, FontLoader.FontRole.Noto_Sans, (height >= 38f) ? 16f : 18f, color, TextAlignmentOptions.Center);
+        textMeshProUGUI.text = text;
+        AutoSize(textMeshProUGUI);
+        if (icon != null)
+        {
+            float num = MeasureWidth(textMeshProUGUI, text);
+            float x = (502f + num) * 0.5f + 4f;
+            InfoIcon(rectTransform, x, (height - 14f) * 0.5f, icon, tooltip);
+            textMeshProUGUI.rectTransform.anchoredPosition = new Vector2(-9f, 0f);
+            (rectTransform.GetChild(rectTransform.childCount - 1) as RectTransform).anchoredPosition += new Vector2(-9f, 0f);
+        }
+
+        return rectTransform;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook4 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(TabletUI), "TextRow", new System.Type[] { typeof(TabletSkin), typeof(Transform), typeof(string), typeof(float), typeof(Color), typeof(TextAlignmentOptions) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static RectTransform TextRow(TabletSkin skin, Transform content, string text, float size, Color color, TextAlignmentOptions alignment = TextAlignmentOptions.MidlineLeft)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook4))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<RectTransform>(__portHook4, null, new object[] { skin, content, text, size, color, alignment }, __portArguments =>
+    {
+        skin = (TabletSkin)__portArguments[0];
+        content = (Transform)__portArguments[1];
+        text = (string)__portArguments[2];
+        size = (float)__portArguments[3];
+        color = (Color)__portArguments[4];
+        alignment = (TextAlignmentOptions)__portArguments[5];
+        return __PortOriginal();
+    });
+    RectTransform __PortOriginal()
+    {
+        RectTransform rectTransform = RowRoot(content, "TextRow", 30f);
+        TextMeshProUGUI textMeshProUGUI = NewText(skin, rectTransform, "Text", 4f, 0f, 494f, 28f, FontLoader.FontRole.Noto_Sans, size, color, alignment);
+        textMeshProUGUI.text = text;
+        AutoSize(textMeshProUGUI);
+        NewFlat(rectTransform, "Separator", 0f, 28f, 502f, 2f, TabletStyle.ROW_SEPARATOR);
+        return rectTransform;
+    }
+}
 
 	public static FooterRow FooterLine(TabletSkin skin, Transform footer, float y, string label, string value, Color? color = null)
 	{

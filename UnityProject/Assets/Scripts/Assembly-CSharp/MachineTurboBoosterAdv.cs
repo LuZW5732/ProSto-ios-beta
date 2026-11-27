@@ -153,11 +153,28 @@ public class MachineTurboBoosterAdv
 		}
 	}
 
-	public static void BoostMachine(GameItem machine)
-	{
-		machine.onCycleEndEarlySlotItemFunc?.Invoke(machine, machine.parentInventory, machine.GetIncompleteSlotInInventory());
-		machine.onCycleEndSlotItemFunc?.Invoke(machine, machine.parentInventory, machine.GetIncompleteSlotInInventory());
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MachineTurboBoosterAdv), "BoostMachine", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void BoostMachine(GameItem machine)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { machine }, __portArguments =>
+    {
+        machine = (GameItem)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        machine.onCycleEndEarlySlotItemFunc?.Invoke(machine, machine.parentInventory, machine.GetIncompleteSlotInInventory());
+        machine.onCycleEndSlotItemFunc?.Invoke(machine, machine.parentInventory, machine.GetIncompleteSlotInInventory());
+    }
+}
 
 	public static string GetStatus(GameItem item)
 	{

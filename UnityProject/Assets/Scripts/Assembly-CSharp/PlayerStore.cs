@@ -874,48 +874,66 @@ public class PlayerStore
 		EmporiumAnalytics.TrackNewGame();
 	}
 
-	public void SaveGame()
-	{
-		savedItemFeatureList = new List<ItemFeature>();
-		mainInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.invElement, EmporiumEntry.Instance.invWindow);
-		backInvJSON = EncodeSaveItem("back_inv_save_bag", EmporiumEntry.Instance.backInvinvElement, EmporiumEntry.Instance.backInvWindow);
-		hiddenInvJSON = EncodeSaveItem("hidden_save_bag", EmporiumEntry.Instance.hiddenElement, EmporiumEntry.Instance.hiddenWindow);
-		showcaseInvJSON = EncodeSaveItem("showcase_save_bag", EmporiumEntry.Instance.showcaseElement, EmporiumEntry.Instance.showcaseWindow);
-		soldInvJSON = EncodeSaveItem("sold_save_bag", EmporiumEntry.Instance.soldElement, null);
-		hirelingInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.hirelingInv, EmporiumEntry.Instance.hirelingWindow);
-		vendingMachineInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.vendingMachineElement, EmporiumEntry.Instance.vendingMachineWindow);
-		vendingFountainInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.vendingFountainElement, EmporiumEntry.Instance.vendingFountainWindow);
-		trashcanInvJSON = EncodeItem(EmporiumEntry.Instance.trashcan);
-		docInvJSON = EncodeItem(EmporiumEntry.Instance.dossier);
-		cassettePlayerInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.cassettePlayerElement, EmporiumEntry.Instance.cassettePlayerWindow);
-		StorePoster.Instance.SaveStorePoster();
-		float num = Time.realtimeSinceStartup - sessionStartTime;
-		sessionStartTime = Time.realtimeSinceStartup;
-		runPlayTimeSeconds += num;
-		totalPlayTimeSeconds += num;
-		if (WindowsHandler.current != null && WindowsHandler.current.visibleWindows != null)
-		{
-			foreach (PixelWindow visibleWindow in WindowsHandler.current.visibleWindows)
-			{
-				if (visibleWindow == null)
-				{
-					continue;
-				}
-				foreach (GameItem parentItem in visibleWindow.parentItems)
-				{
-					parentItem.RememberContentWindowPositionIfMine(visibleWindow);
-				}
-			}
-		}
+	private static readonly System.Reflection.MethodInfo __portHook6 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "SaveGame", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void SaveGame()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook6))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook6, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        savedItemFeatureList = new List<ItemFeature>();
+        mainInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.invElement, EmporiumEntry.Instance.invWindow);
+        backInvJSON = EncodeSaveItem("back_inv_save_bag", EmporiumEntry.Instance.backInvinvElement, EmporiumEntry.Instance.backInvWindow);
+        hiddenInvJSON = EncodeSaveItem("hidden_save_bag", EmporiumEntry.Instance.hiddenElement, EmporiumEntry.Instance.hiddenWindow);
+        showcaseInvJSON = EncodeSaveItem("showcase_save_bag", EmporiumEntry.Instance.showcaseElement, EmporiumEntry.Instance.showcaseWindow);
+        soldInvJSON = EncodeSaveItem("sold_save_bag", EmporiumEntry.Instance.soldElement, null);
+        hirelingInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.hirelingInv, EmporiumEntry.Instance.hirelingWindow);
+        vendingMachineInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.vendingMachineElement, EmporiumEntry.Instance.vendingMachineWindow);
+        vendingFountainInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.vendingFountainElement, EmporiumEntry.Instance.vendingFountainWindow);
+        trashcanInvJSON = EncodeItem(EmporiumEntry.Instance.trashcan);
+        docInvJSON = EncodeItem(EmporiumEntry.Instance.dossier);
+        cassettePlayerInvJSON = EncodeSaveItem("save_bag", EmporiumEntry.Instance.cassettePlayerElement, EmporiumEntry.Instance.cassettePlayerWindow);
+        StorePoster.Instance.SaveStorePoster();
+        float num = Time.realtimeSinceStartup - sessionStartTime;
+        sessionStartTime = Time.realtimeSinceStartup;
+        runPlayTimeSeconds += num;
+        totalPlayTimeSeconds += num;
+        if (WindowsHandler.current != null && WindowsHandler.current.visibleWindows != null)
+        {
+            foreach (PixelWindow visibleWindow in WindowsHandler.current.visibleWindows)
+            {
+                if (visibleWindow == null)
+                {
+                    continue;
+                }
+
+                foreach (GameItem parentItem in visibleWindow.parentItems)
+                {
+                    parentItem.RememberContentWindowPositionIfMine(visibleWindow);
+                }
+            }
+        }
+
         // ES3 writes a temporary file and commits it only after serialization.
         SaveFiles.WithIORetry(() => SaveFiles.ArchivePreviousSave(saveSlotId, keepLatest: true));
         SaveFiles.WithIORetry(WriteSlotFile);
-		SaveFiles.IndexSave("totalPlayTimeSeconds", totalPlayTimeSeconds);
-		SavePreviewData savePreviewData = SavePreviewData.GenerateData();
-		SaveFiles.IndexSave("preview_" + saveSlotId, savePreviewData);
-		SaveUIManager.UpdateCacheEntry(saveSlotId, savePreviewData);
-		Debug.Log("Game Saved in Slot: " + saveSlotId);
-	}
+        SaveFiles.IndexSave("totalPlayTimeSeconds", totalPlayTimeSeconds);
+        SavePreviewData savePreviewData = SavePreviewData.GenerateData();
+        SaveFiles.IndexSave("preview_" + saveSlotId, savePreviewData);
+        SaveUIManager.UpdateCacheEntry(saveSlotId, savePreviewData);
+        Debug.Log("Game Saved in Slot: " + saveSlotId);
+    }
+}
 
 	private void WriteSlotFile()
 	{
@@ -2998,54 +3016,72 @@ public void OnItemBought(GameItem gameItem, int cost)
 		OnWeightedAreaChanged();
 	}
 
-	public void HandleAutoNegoUIDisplay(GameItem gameItem)
-	{
-		if (!EmporiumOption.AutoOpenNegotiationUI || currentClientInstance == null || !Instance.isClientArrived)
-		{
-			return;
-		}
-		if (GetCurrentClientIntent() == StoreClient.ClientIntent.BUY)
-		{
-			if (GeneralHelper.IsItemOwned(gameItem) && currentClientInstance.GetClientBlueprint().IsClientBuyingThisItem(gameItem))
-			{
-				NegociationUIManager.Instance.OpenUI();
-			}
-		}
-		else if (GetCurrentClientIntent() == StoreClient.ClientIntent.SELL)
-		{
-			if (!GeneralHelper.IsItemOwned(gameItem))
-			{
-				NegociationUIManager.Instance.OpenUI();
-			}
-		}
-		else if (GetCurrentClientIntent() == StoreClient.ClientIntent.SELLNBUY)
-		{
-			if (!GeneralHelper.IsItemOwned(gameItem))
-			{
-				NegociationUIManager.Instance.OpenUI();
-			}
-			else if (GeneralHelper.IsItemOwned(gameItem) && currentClientInstance.GetClientBlueprint().IsClientBuyingThisItem(gameItem))
-			{
-				NegociationUIManager.Instance.OpenUI();
-			}
-		}
-		else if (GetCurrentClientIntent() == StoreClient.ClientIntent.INFORMATION_DEALER)
-		{
-			NegociationUIManager.Instance.OpenUI();
-		}
-		else if (GetCurrentClientIntent() == StoreClient.ClientIntent.BARTER)
-		{
-			NegociationUIManager.Instance.OpenUI();
-		}
-		else if (GetCurrentClientIntent() == StoreClient.ClientIntent.PROCUREMENT_OFFER)
-		{
-			NegociationUIManager.Instance.OpenUI();
-		}
-		else if (GetCurrentClientIntent() == StoreClient.ClientIntent.APPRAISAL_SERVICE && !GeneralHelper.IsItemOwned(gameItem))
-		{
-			NegociationUIManager.Instance.OpenUI();
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook5 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "HandleAutoNegoUIDisplay", new System.Type[] { typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void HandleAutoNegoUIDisplay(GameItem gameItem)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook5))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook5, this, new object[] { gameItem }, __portArguments =>
+    {
+        gameItem = (GameItem)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!EmporiumOption.AutoOpenNegotiationUI || currentClientInstance == null || !Instance.isClientArrived)
+        {
+            return;
+        }
+
+        if (GetCurrentClientIntent() == StoreClient.ClientIntent.BUY)
+        {
+            if (GeneralHelper.IsItemOwned(gameItem) && currentClientInstance.GetClientBlueprint().IsClientBuyingThisItem(gameItem))
+            {
+                NegociationUIManager.Instance.OpenUI();
+            }
+        }
+        else if (GetCurrentClientIntent() == StoreClient.ClientIntent.SELL)
+        {
+            if (!GeneralHelper.IsItemOwned(gameItem))
+            {
+                NegociationUIManager.Instance.OpenUI();
+            }
+        }
+        else if (GetCurrentClientIntent() == StoreClient.ClientIntent.SELLNBUY)
+        {
+            if (!GeneralHelper.IsItemOwned(gameItem))
+            {
+                NegociationUIManager.Instance.OpenUI();
+            }
+            else if (GeneralHelper.IsItemOwned(gameItem) && currentClientInstance.GetClientBlueprint().IsClientBuyingThisItem(gameItem))
+            {
+                NegociationUIManager.Instance.OpenUI();
+            }
+        }
+        else if (GetCurrentClientIntent() == StoreClient.ClientIntent.INFORMATION_DEALER)
+        {
+            NegociationUIManager.Instance.OpenUI();
+        }
+        else if (GetCurrentClientIntent() == StoreClient.ClientIntent.BARTER)
+        {
+            NegociationUIManager.Instance.OpenUI();
+        }
+        else if (GetCurrentClientIntent() == StoreClient.ClientIntent.PROCUREMENT_OFFER)
+        {
+            NegociationUIManager.Instance.OpenUI();
+        }
+        else if (GetCurrentClientIntent() == StoreClient.ClientIntent.APPRAISAL_SERVICE && !GeneralHelper.IsItemOwned(gameItem))
+        {
+            NegociationUIManager.Instance.OpenUI();
+        }
+    }
+}
 
 	public void AddedItemToMainInvArea(GameItem gameItem)
 	{
@@ -3231,24 +3267,41 @@ public void OnItemBought(GameItem gameItem, int cost)
 		return currentNegociatedItem;
 	}
 
-	public void AcceptBarter()
-	{
-		List<GameItem> list = EmporiumEntry.Instance.frontInvinvElement.childItems.Where((GameItem item) => !GeneralHelper.IsItemOwned(item)).ToList();
-		currentClientInstance.GetClientBlueprint().CompleteBusiness();
-		currentClientInstance.GetClientBlueprint().barterOffer.OnBarterAccepted();
-		EmporiumEntry.Instance.TransferOwnershipFrontInv();
-		EmporiumEntry.Instance.TransferOwnershipBackInv();
-		EmporiumEntry.Instance.SwapInv();
-		foreach (GameItem item in EmporiumEntry.Instance.backInvinvElement.childItems.ToList())
-		{
-			item.RemoveFeatureRelatedToEvent();
-			item.RemoveFeatureTemporaryBuying();
-		}
-		foreach (GameItem item2 in list)
-		{
-			MoveDealItemToInventory(item2);
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook7 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "AcceptBarter", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void AcceptBarter()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook7))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook7, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        List<GameItem> list = EmporiumEntry.Instance.frontInvinvElement.childItems.Where((GameItem item) => !GeneralHelper.IsItemOwned(item)).ToList();
+        currentClientInstance.GetClientBlueprint().CompleteBusiness();
+        currentClientInstance.GetClientBlueprint().barterOffer.OnBarterAccepted();
+        EmporiumEntry.Instance.TransferOwnershipFrontInv();
+        EmporiumEntry.Instance.TransferOwnershipBackInv();
+        EmporiumEntry.Instance.SwapInv();
+        foreach (GameItem item in EmporiumEntry.Instance.backInvinvElement.childItems.ToList())
+        {
+            item.RemoveFeatureRelatedToEvent();
+            item.RemoveFeatureTemporaryBuying();
+        }
+
+        foreach (GameItem item2 in list)
+        {
+            MoveDealItemToInventory(item2);
+        }
+    }
+}
 
 	public void OnItemsSold(List<GameItem> gameItems)
 	{
@@ -3764,10 +3817,26 @@ public void OnItemBought(GameItem gameItem, int cost)
 		return num + playerCash;
 	}
 
-	public static void ResetData()
-	{
-		instance = null;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook8 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(PlayerStore), "ResetData", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void ResetData()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook8))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook8, null, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        instance = null;
+    }
+}
 
 	public static bool IsHardMode()
 	{

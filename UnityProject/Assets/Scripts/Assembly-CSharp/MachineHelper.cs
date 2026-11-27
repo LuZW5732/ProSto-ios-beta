@@ -314,38 +314,64 @@ public class MachineHelper
 		}
 	}
 
-	public static void SetupModuleBay(GameInventory moduleGrid, GameItem machine, Action onChanged = null, string[] allowedModuleTypes = null)
-	{
-		if (allowedModuleTypes == null)
-		{
-			allowedModuleTypes = new string[1] { "MODULE_TYPE_UNIVERSAL" };
-		}
-		ContainerHelper.AllowOnlyTaggedItemsOr(moduleGrid, allowedModuleTypes, ownedOnly: true);
-		GameInventory gameInventory = moduleGrid;
-		gameInventory.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameInventory.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			ModuleEffectHelper.OnAddedModuleToGrid(addedItem, machine, moduleGrid.childItems);
-			if (addedItem.IsTag("MODULE_TAG"))
-			{
-				ModuleHelper.ComputeModuleEffect(moduleGrid, addedItem, machine);
-				ModuleHelper.ApplyBasicModuleEffect(moduleGrid, addedItem, machine);
-			}
-			MachineryHelper.UpdatePowerUsageProcessTypeMachine(machine);
-			onChanged?.Invoke();
-		}));
-		GameInventory gameInventory2 = moduleGrid;
-		gameInventory2.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameInventory2.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem removedItem, GameInventory parentInventory, SlotMarker slot) =>
-		{
-			ModuleEffectHelper.OnRemovedModuleFromGrid(removedItem, machine, moduleGrid.childItems);
-			if (removedItem.IsTag("MODULE_TAG"))
-			{
-				ModuleHelper.ComputeModuleEffect(moduleGrid, removedItem, machine);
-				ModuleHelper.ApplyBasicModuleEffect(moduleGrid, removedItem, machine);
-			}
-			MachineryHelper.UpdatePowerUsageProcessTypeMachine(machine);
-			onChanged?.Invoke();
-		}));
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MachineHelper), "SetupModuleBay", new System.Type[] { typeof(GameInventory), typeof(GameItem), typeof(Action), typeof(string[]) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void SetupModuleBay(GameInventory moduleGrid, GameItem machine, Action onChanged = null, string[] allowedModuleTypes = null)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { moduleGrid, machine, onChanged, allowedModuleTypes }, __portArguments =>
+    {
+        moduleGrid = (GameInventory)__portArguments[0];
+        machine = (GameItem)__portArguments[1];
+        onChanged = (Action)__portArguments[2];
+        allowedModuleTypes = (string[])__portArguments[3];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (allowedModuleTypes == null)
+        {
+            allowedModuleTypes = new string[1]
+            {
+                "MODULE_TYPE_UNIVERSAL"
+            };
+        }
+
+        ContainerHelper.AllowOnlyTaggedItemsOr(moduleGrid, allowedModuleTypes, ownedOnly: true);
+        GameInventory gameInventory = moduleGrid;
+        gameInventory.onSlotAddItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameInventory.onSlotAddItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem addedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            ModuleEffectHelper.OnAddedModuleToGrid(addedItem, machine, moduleGrid.childItems);
+            if (addedItem.IsTag("MODULE_TAG"))
+            {
+                ModuleHelper.ComputeModuleEffect(moduleGrid, addedItem, machine);
+                ModuleHelper.ApplyBasicModuleEffect(moduleGrid, addedItem, machine);
+            }
+
+            MachineryHelper.UpdatePowerUsageProcessTypeMachine(machine);
+            onChanged?.Invoke();
+        }));
+        GameInventory gameInventory2 = moduleGrid;
+        gameInventory2.onSlotRemoveItemEndFunc = (Action<GameItem, GameInventory, SlotMarker>)Delegate.Combine(gameInventory2.onSlotRemoveItemEndFunc, (Action<GameItem, GameInventory, SlotMarker>)((GameItem removedItem, GameInventory parentInventory, SlotMarker slot) =>
+        {
+            ModuleEffectHelper.OnRemovedModuleFromGrid(removedItem, machine, moduleGrid.childItems);
+            if (removedItem.IsTag("MODULE_TAG"))
+            {
+                ModuleHelper.ComputeModuleEffect(moduleGrid, removedItem, machine);
+                ModuleHelper.ApplyBasicModuleEffect(moduleGrid, removedItem, machine);
+            }
+
+            MachineryHelper.UpdatePowerUsageProcessTypeMachine(machine);
+            onChanged?.Invoke();
+        }));
+    }
+}
 
 	public static void SetupManualSlot(GameSlotInventory manualSlot)
 	{

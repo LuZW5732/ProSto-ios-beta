@@ -218,39 +218,58 @@ public static void CreateModuleTooltip(RichTextBuilder builder, GameItem item)
 		return num;
 	}
 
-	public static void ComputeModuleEffect(List<GameItem> activeModules, GameItem system)
-	{
-		int totalBonusPercentagePerformance = 0;
-		int totalBonusPercentageEfficiency = 0;
-		int totalBonusPercentageQuality = 0;
-		bool isBenefitFromModule = false;
-		foreach (GameItem activeModule in activeModules)
-		{
-			if (activeModule.IsTag("MODULE_TAG") || activeModule.IsGameItemType("NODE"))
-			{
-				totalBonusPercentagePerformance += activeModule.GetTagReadonly("TEMP_PERCENTAGE_PERFORMANCE_INT").GetInt();
-				totalBonusPercentageEfficiency += activeModule.GetTagReadonly("TEMP_PERCENTAGE_EFFICIENCY_INT").GetInt();
-				totalBonusPercentageQuality += activeModule.GetTagReadonly("TEMP_PERCENTAGE_QUALITY_INT").GetInt();
-				isBenefitFromModule = true;
-			}
-		}
-		system.ModifyTag("IS_RECEIVING_BONUS_FROM_MODULE_BOOL", (TagState state) =>
-		{
-			state.SetBool(isBenefitFromModule);
-		});
-		system.ModifyTag("TOTAL_PERCENTAGE_PERFORMANCE_BONUS_INT", (TagState state) =>
-		{
-			state.SetInt(totalBonusPercentagePerformance);
-		});
-		system.ModifyTag("TOTAL_PERCENTAGE_POWER_BONUS_INT", (TagState state) =>
-		{
-			state.SetInt(totalBonusPercentageEfficiency);
-		});
-		system.ModifyTag("TOTAL_PERCENTAGE_QUALITY_BONUS_INT", (TagState state) =>
-		{
-			state.SetInt(totalBonusPercentageQuality);
-		});
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ModuleHelper), "ComputeModuleEffect", new System.Type[] { typeof(List<GameItem>), typeof(GameItem) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void ComputeModuleEffect(List<GameItem> activeModules, GameItem system)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, null, new object[] { activeModules, system }, __portArguments =>
+    {
+        activeModules = (List<GameItem>)__portArguments[0];
+        system = (GameItem)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        int totalBonusPercentagePerformance = 0;
+        int totalBonusPercentageEfficiency = 0;
+        int totalBonusPercentageQuality = 0;
+        bool isBenefitFromModule = false;
+        foreach (GameItem activeModule in activeModules)
+        {
+            if (activeModule.IsTag("MODULE_TAG") || activeModule.IsGameItemType("NODE"))
+            {
+                totalBonusPercentagePerformance += activeModule.GetTagReadonly("TEMP_PERCENTAGE_PERFORMANCE_INT").GetInt();
+                totalBonusPercentageEfficiency += activeModule.GetTagReadonly("TEMP_PERCENTAGE_EFFICIENCY_INT").GetInt();
+                totalBonusPercentageQuality += activeModule.GetTagReadonly("TEMP_PERCENTAGE_QUALITY_INT").GetInt();
+                isBenefitFromModule = true;
+            }
+        }
+
+        system.ModifyTag("IS_RECEIVING_BONUS_FROM_MODULE_BOOL", (TagState state) =>
+        {
+            state.SetBool(isBenefitFromModule);
+        });
+        system.ModifyTag("TOTAL_PERCENTAGE_PERFORMANCE_BONUS_INT", (TagState state) =>
+        {
+            state.SetInt(totalBonusPercentagePerformance);
+        });
+        system.ModifyTag("TOTAL_PERCENTAGE_POWER_BONUS_INT", (TagState state) =>
+        {
+            state.SetInt(totalBonusPercentageEfficiency);
+        });
+        system.ModifyTag("TOTAL_PERCENTAGE_QUALITY_BONUS_INT", (TagState state) =>
+        {
+            state.SetInt(totalBonusPercentageQuality);
+        });
+    }
+}
 
 	public static void ApplyBasicModuleEffect(GameInventory invModule, GameItem item, GameItem system)
 	{

@@ -1345,32 +1345,51 @@ public class BargainUIManager : MonoBehaviour
 		return true;
 	}
 
-	public string GetBargainTooltip(BargainType type, int percent)
-	{
-		int bargainSuccessChance = GetBargainSuccessChance(type, percent);
-		if (!BargainUsesRoll(type))
-		{
-			return LocHelper.GetLocalizedMechanic("mech_bargain_always_accepted");
-		}
-		int bargainLeaveChance = GetBargainLeaveChance(type, percent);
-		int num = Mathf.Max(0, 100 - bargainSuccessChance - bargainLeaveChance);
-		string localizedMechanic = LocHelper.GetLocalizedMechanic("mech_bargain_accepts", bargainSuccessChance);
-		if (BargainCanLeave(type))
-		{
-			localizedMechanic = localizedMechanic + "\n" + LocHelper.GetLocalizedMechanic("mech_bargain_refuses", num);
-			localizedMechanic = localizedMechanic + "\n" + LocHelper.GetLocalizedMechanic("mech_bargain_walks_out", bargainLeaveChance);
-		}
-		else
-		{
-			localizedMechanic = localizedMechanic + "\n" + LocHelper.GetLocalizedMechanic("mech_bargain_refuses", num);
-		}
-		int dealMakerBonus = GetDealMakerBonus();
-		if (dealMakerBonus > 0 && trackedClient != null && !trackedClient.alwaysRejectBadBargain)
-		{
-			localizedMechanic = localizedMechanic + "\n\n" + LocHelper.GetLocalizedMechanic("mech_bargain_deal_maker_bonus", dealMakerBonus);
-		}
-		return localizedMechanic;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(BargainUIManager), "GetBargainTooltip", new System.Type[] { typeof(BargainType), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public string GetBargainTooltip(BargainType type, int percent)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<string>(__portHook0, this, new object[] { type, percent }, __portArguments =>
+    {
+        type = (BargainType)__portArguments[0];
+        percent = (int)__portArguments[1];
+        return __PortOriginal();
+    });
+    string __PortOriginal()
+    {
+        int bargainSuccessChance = GetBargainSuccessChance(type, percent);
+        if (!BargainUsesRoll(type))
+        {
+            return LocHelper.GetLocalizedMechanic("mech_bargain_always_accepted");
+        }
+
+        int bargainLeaveChance = GetBargainLeaveChance(type, percent);
+        int num = Mathf.Max(0, 100 - bargainSuccessChance - bargainLeaveChance);
+        string localizedMechanic = LocHelper.GetLocalizedMechanic("mech_bargain_accepts", bargainSuccessChance);
+        if (BargainCanLeave(type))
+        {
+            localizedMechanic = localizedMechanic + "\n" + LocHelper.GetLocalizedMechanic("mech_bargain_refuses", num);
+            localizedMechanic = localizedMechanic + "\n" + LocHelper.GetLocalizedMechanic("mech_bargain_walks_out", bargainLeaveChance);
+        }
+        else
+        {
+            localizedMechanic = localizedMechanic + "\n" + LocHelper.GetLocalizedMechanic("mech_bargain_refuses", num);
+        }
+
+        int dealMakerBonus = GetDealMakerBonus();
+        if (dealMakerBonus > 0 && trackedClient != null && !trackedClient.alwaysRejectBadBargain)
+        {
+            localizedMechanic = localizedMechanic + "\n\n" + LocHelper.GetLocalizedMechanic("mech_bargain_deal_maker_bonus", dealMakerBonus);
+        }
+
+        return localizedMechanic;
+    }
+}
 
 	private static float GetBadBargainPenalty(int percent)
 	{
@@ -1625,18 +1644,34 @@ public class BargainUIManager : MonoBehaviour
 		return d.NextDialogue().SetText("CLIENT", lines[RNG.GetRandomInt(0, lines.Count - 1)]);
 	}
 
-	public void OpenUI()
-	{
-		if (!(uiObject == null))
-		{
-			DockToTablet();
-			uiObject.SetActive(value: true);
-			builtLayoutKey = null;
-			RefreshUI();
-			EmporiumAudioPlayer.Instance.PlayMatched();
-			TutorialUIManager.Instance.OnBargainUIOpened();
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(BargainUIManager), "OpenUI", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void OpenUI()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!(uiObject == null))
+        {
+            DockToTablet();
+            uiObject.SetActive(value: true);
+            builtLayoutKey = null;
+            RefreshUI();
+            EmporiumAudioPlayer.Instance.PlayMatched();
+            TutorialUIManager.Instance.OnBargainUIOpened();
+        }
+    }
+}
 
 	public void CloseUI()
 	{
@@ -1663,26 +1698,43 @@ public class BargainUIManager : MonoBehaviour
 		}
 	}
 
-	private void DockToTablet()
-	{
-		GameObject gameObject = ((NegociationUIManager.Instance != null) ? NegociationUIManager.Instance.uiObject : null);
-		if (!(gameObject == null))
-		{
-			RectTransform rectTransform = gameObject.transform as RectTransform;
-			RectTransform rectTransform2 = uiObject.transform as RectTransform;
-			if (rectTransform2.parent != rectTransform.parent)
-			{
-				rectTransform2.SetParent(rectTransform.parent, worldPositionStays: false);
-			}
-			float x = rectTransform.localScale.x;
-			float num = 476f;
-			rectTransform2.anchorMin = rectTransform.anchorMin;
-			rectTransform2.anchorMax = rectTransform.anchorMax;
-			rectTransform2.pivot = rectTransform.pivot;
-			rectTransform2.anchoredPosition = rectTransform.anchoredPosition + new Vector2(num * x, 0f);
-			rectTransform2.localScale = new Vector3(x, x, 1f);
-			follower.SetTarget(rectTransform, 1f, x);
-			dock.tablet = rectTransform;
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(BargainUIManager), "DockToTablet", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void DockToTablet()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        GameObject gameObject = ((NegociationUIManager.Instance != null) ? NegociationUIManager.Instance.uiObject : null);
+        if (!(gameObject == null))
+        {
+            RectTransform rectTransform = gameObject.transform as RectTransform;
+            RectTransform rectTransform2 = uiObject.transform as RectTransform;
+            if (rectTransform2.parent != rectTransform.parent)
+            {
+                rectTransform2.SetParent(rectTransform.parent, worldPositionStays: false);
+            }
+
+            float x = rectTransform.localScale.x;
+            float num = 476f;
+            rectTransform2.anchorMin = rectTransform.anchorMin;
+            rectTransform2.anchorMax = rectTransform.anchorMax;
+            rectTransform2.pivot = rectTransform.pivot;
+            rectTransform2.anchoredPosition = rectTransform.anchoredPosition + new Vector2(num * x, 0f);
+            rectTransform2.localScale = new Vector3(x, x, 1f);
+            follower.SetTarget(rectTransform, 1f, x);
+            dock.tablet = rectTransform;
+        }
+    }
+}
 }

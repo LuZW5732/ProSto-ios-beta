@@ -15,10 +15,17 @@ namespace ProbablyStolen.Port.Mods
     {
         public readonly MethodInfo Method;
         public readonly int Priority;
-        public HookCallback(MethodInfo method, int priority = 400)
+        internal readonly string OwnerId;
+        internal readonly string[] Before;
+        internal readonly string[] After;
+        public HookCallback(MethodInfo method, int priority = 400,
+            string ownerId = null, string[] before = null, string[] after = null)
         {
             Method = method ?? throw new ArgumentNullException(nameof(method));
             Priority = priority;
+            OwnerId = ownerId;
+            Before = before?.ToArray() ?? Array.Empty<string>();
+            After = after?.ToArray() ?? Array.Empty<string>();
             if (!method.IsStatic || method.ContainsGenericParameters)
                 throw new NotSupportedException("Callbacks must be closed static methods.");
         }
@@ -33,6 +40,7 @@ namespace ProbablyStolen.Port.Mods
             public string Owner;
             public Stage Stage;
             public HookCallback Callback;
+            public FieldInfo[] Fields;
         }
         private static readonly object Gate = new object();
         private static readonly Dictionary<MethodBase, List<Entry>> Entries = new Dictionary<MethodBase, List<Entry>>();
@@ -69,8 +77,8 @@ namespace ProbablyStolen.Port.Mods
             void Add(Stage stage, HookCallback callback)
             {
                 if (callback == null) return;
-                Validate(target, callback.Method, stage);
-                pending.Add(new Entry { Owner = owner, Stage = stage, Callback = callback });
+                var fields = Validate(target, callback.Method, stage);
+                pending.Add(new Entry { Owner = owner, Stage = stage, Callback = callback, Fields = fields });
             }
         }
 
@@ -115,14 +123,35 @@ namespace ProbablyStolen.Port.Mods
             return Array.FindIndex(parameters, p => p.Name == name);
         }
 
-        private static void Validate(MethodBase target, MethodInfo callback, Stage stage)
+        private static FieldInfo FindField(Type targetType, string name)
+        {
+            const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic |
+                BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly;
+            for (var type = targetType; type != null; type = type.BaseType)
+            {
+                var field = type.GetField(name, flags);
+                if (field != null) return field;
+            }
+            return null;
+        }
+
+        private static bool IsModRestricted(MemberInfo member)
+        {
+            return member.GetCustomAttributesData().Any(attribute =>
+                attribute.AttributeType.FullName == "ModRestrictedAttribute");
+        }
+
+        private static FieldInfo[] Validate(MethodBase target, MethodInfo callback, Stage stage)
         {
             var returnType = callback.ReturnType;
             if (returnType != typeof(void) && !(stage == Stage.Prefix && returnType == typeof(bool))
                 && !(stage == Stage.Finalizer && returnType == typeof(Exception)))
                 throw new NotSupportedException("Unsupported callback return type: " + callback);
-            foreach (var parameter in callback.GetParameters())
+            var parameters = callback.GetParameters();
+            var fields = new FieldInfo[parameters.Length];
+            for (int i = 0; i < parameters.Length; i++)
             {
+                var parameter = parameters[i];
                 var name = parameter.Name;
                 var type = ElementType(parameter.ParameterType);
                 Type source;
@@ -138,6 +167,22 @@ namespace ProbablyStolen.Port.Mods
                     case "__args": source = typeof(object[]); break;
                     case "__state": continue;
                     default:
+                        if (name.StartsWith("___", StringComparison.Ordinal))
+                        {
+                            var field = FindField(target.DeclaringType, name.Substring(3));
+                            if (field == null)
+                                throw new NotSupportedException("Unsupported callback parameter: " + callback + ": " + name);
+                            if (IsModRestricted(target.DeclaringType) || IsModRestricted(field.DeclaringType) || IsModRestricted(field))
+                                throw new NotSupportedException("Restricted callback field: " + name);
+                            if (!field.IsStatic && target.IsStatic)
+                                throw new ArgumentException("Static targets have no instance field: " + name);
+                            if (parameter.ParameterType.IsByRef &&
+                                (field.IsInitOnly || field.IsLiteral || (!field.IsStatic && target.DeclaringType.IsValueType)))
+                                throw new NotSupportedException("Read-only callback field: " + name);
+                            fields[i] = field;
+                            source = field.FieldType;
+                            break;
+                        }
                         int index = ArgumentIndex(target, name);
                         if (index < 0) throw new NotSupportedException("Unsupported callback parameter: " + callback + ": " + name);
                         source = ElementType(target.GetParameters()[index].ParameterType); break;
@@ -148,6 +193,7 @@ namespace ProbablyStolen.Port.Mods
                 if (parameter.ParameterType.IsByRef && (name == "__instance" || name == "__originalMethod" || name == "__runOriginal" || name == "__args"))
                     throw new NotSupportedException("Read-only callback context: " + name);
             }
+            return fields;
         }
 
         public static T Invoke<T>(MethodBase target, object instance, object[] arguments, Func<object[], T> original)
@@ -159,6 +205,8 @@ namespace ProbablyStolen.Port.Mods
                 else snapshot = entries.OrderByDescending(e => e.Callback.Priority).ThenBy(e => e.Sequence).ToArray();
             }
             if (snapshot.Length == 0) return original(arguments);
+            if (snapshot.Any(entry => entry.Callback.Before.Length != 0 || entry.Callback.After.Length != 0))
+                snapshot = OrderCallbacks(snapshot);
             object result = default(T);
             Exception exception = null;
             bool runOriginal = true;
@@ -196,6 +244,12 @@ namespace ProbablyStolen.Port.Mods
                 var stateKey = (entry.Owner, method.DeclaringType);
                 for (int i = 0; i < values.Length; i++)
                 {
+                    var field = entry.Fields[i];
+                    if (field != null)
+                    {
+                        values[i] = field.GetValue(field.IsStatic ? null : instance);
+                        continue;
+                    }
                     var parameter = parameters[i];
                     switch (parameter.Name)
                     {
@@ -222,6 +276,12 @@ namespace ProbablyStolen.Port.Mods
                 for (int i = 0; i < values.Length; i++)
                 {
                     if (!parameters[i].ParameterType.IsByRef) continue;
+                    var field = entry.Fields[i];
+                    if (field != null)
+                    {
+                        field.SetValue(field.IsStatic ? null : instance, values[i]);
+                        continue;
+                    }
                     switch (parameters[i].Name)
                     {
                         case "__result": result = values[i]; break;
@@ -232,6 +292,34 @@ namespace ProbablyStolen.Port.Mods
                 }
                 return value;
             }
+        }
+
+        private static Entry[] OrderCallbacks(Entry[] priorityOrder)
+        {
+            var result = new List<Entry>(priorityOrder.Length);
+            foreach (var stage in new[] { Stage.Prefix, Stage.Postfix, Stage.Finalizer })
+            {
+                var remaining = priorityOrder.Where(entry => entry.Stage == stage).ToList();
+                while (remaining.Count != 0)
+                {
+                    int next = remaining.FindIndex(entry => !remaining.Any(other => MustRunBefore(other, entry)));
+                    // For contradictory constraints, break the cycle by priority and registration order.
+                    if (next < 0) next = 0;
+                    result.Add(remaining[next]);
+                    remaining.RemoveAt(next);
+                }
+            }
+            return result.ToArray();
+        }
+
+        private static bool MustRunBefore(Entry first, Entry second)
+        {
+            if (first == second) return false;
+            string firstId = first.Callback.OwnerId ?? first.Owner;
+            string secondId = second.Callback.OwnerId ?? second.Owner;
+            return firstId != secondId &&
+                (first.Callback.Before.Contains(secondId, StringComparer.Ordinal) ||
+                 second.Callback.After.Contains(firstId, StringComparer.Ordinal));
         }
     }
 }

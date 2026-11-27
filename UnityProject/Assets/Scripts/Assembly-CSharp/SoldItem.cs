@@ -31,39 +31,60 @@ public class SoldItem
 
 	public int feedbackLevel;
 
-	public static void TrackItem(GameItem gameItem, StoreClient storeClient, int soldPrice)
-	{
-		if (gameItem == null || storeClient == null)
-		{
-			Debug.LogError("DSError: TrackItem received null parameter");
-			return;
-		}
-		Debug.Log("tracked price: " + (int)gameItem.GetNegociatedValue());
-		SoldItem soldItem = new SoldItem
-		{
-			itemId = gameItem.identifier,
-			itemName = gameItem.name,
-			itemUniqueId = gameItem.uniqueId,
-			clientId = storeClient.identifier,
-			clientName = storeClient.displayName,
-			clientSprite = storeClient.spriteName,
-			factionId = storeClient.clientFaction,
-			isPersonalUse = storeClient.IsPersonalConsumption,
-			isClientAddict = storeClient.IsClientAddict,
-			soldPrice = soldPrice,
-			CanReturn = storeClient.CanReturn,
-			CanReturnAsBuyer = storeClient.CanReturnAsBuyer,
-			alwaysFeedback = storeClient.alwaysFeedback
-		};
-		if (storeClient.isAug)
-		{
-			soldItem.CanReturn = false;
-			soldItem.CanReturnAsBuyer = false;
-		}
-		MarkStolenOrContrabandSale(gameItem);
-		MoveToSoldBag(gameItem);
-		PlayerStore.Instance.soldItemsTracker.Add(soldItem);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(SoldItem), "TrackItem", new System.Type[] { typeof(GameItem), typeof(StoreClient), typeof(int) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public static void TrackItem(GameItem gameItem, StoreClient storeClient, int soldPrice)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, null, new object[] { gameItem, storeClient, soldPrice }, __portArguments =>
+    {
+        gameItem = (GameItem)__portArguments[0];
+        storeClient = (StoreClient)__portArguments[1];
+        soldPrice = (int)__portArguments[2];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (gameItem == null || storeClient == null)
+        {
+            Debug.LogError("DSError: TrackItem received null parameter");
+            return;
+        }
+
+        Debug.Log("tracked price: " + (int)gameItem.GetNegociatedValue());
+        SoldItem soldItem = new SoldItem
+        {
+            itemId = gameItem.identifier,
+            itemName = gameItem.name,
+            itemUniqueId = gameItem.uniqueId,
+            clientId = storeClient.identifier,
+            clientName = storeClient.displayName,
+            clientSprite = storeClient.spriteName,
+            factionId = storeClient.clientFaction,
+            isPersonalUse = storeClient.IsPersonalConsumption,
+            isClientAddict = storeClient.IsClientAddict,
+            soldPrice = soldPrice,
+            CanReturn = storeClient.CanReturn,
+            CanReturnAsBuyer = storeClient.CanReturnAsBuyer,
+            alwaysFeedback = storeClient.alwaysFeedback
+        };
+        if (storeClient.isAug)
+        {
+            soldItem.CanReturn = false;
+            soldItem.CanReturnAsBuyer = false;
+        }
+
+        MarkStolenOrContrabandSale(gameItem);
+        MoveToSoldBag(gameItem);
+        PlayerStore.Instance.soldItemsTracker.Add(soldItem);
+    }
+}
 
 	private static void MoveToSoldBag(GameItem gameItem)
 	{

@@ -47,5 +47,670 @@
     "parameters": ["GraphNodeStorage", "GameItem", "int"],
     "isStatic": true,
     "returnType": "int"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildBarter",
+    "parameters": ["StoreClient", "bool"],
+    "isStatic": false,
+    "returnType": "float"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildBuying",
+    "parameters": ["StoreClient", "bool"],
+    "isStatic": false,
+    "returnType": "float"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildInfoBlock",
+    "parameters": ["StoreClient"],
+    "isStatic": false,
+    "returnType": "float"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildSignature",
+    "parameters": ["StoreClient"],
+    "isStatic": false,
+    "returnType": "string"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "AutoSelectLoneItem",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildExpandedRow",
+    "parameters": ["GameItem", "string", "bool", "Func<string>"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildGunOrder",
+    "parameters": ["StoreClient", "bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildInfoDealer",
+    "parameters": ["StoreClient", "bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildItemRow",
+    "parameters": ["GameItem", "string", "string"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuildSelling",
+    "parameters": ["StoreClient", "bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "CreateWindow",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "GunRequirementRow",
+    "parameters": ["string", "bool", "string"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "OnBuyAllClick",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "OpenConfirmPanel",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "OpenUI",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "Rebuild",
+    "parameters": ["StoreClient"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "RefreshBargainControl",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "RefreshClientHeader",
+    "parameters": ["StoreClient"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "SectionTitle",
+    "parameters": ["StoreClient"],
+    "isStatic": true,
+    "returnType": "string"
+  },
+  {
+    "type": "BargainButton",
+    "method": "OnPointerEnter",
+    "parameters": ["PointerEventData"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "BargainButton",
+    "method": "Setup",
+    "parameters": ["BargainType", "int"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "BargainUIManager",
+    "method": "OpenUI",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "BargainUIManager",
+    "method": "DockToTablet",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "BargainUIManager",
+    "method": "GetBargainTooltip",
+    "parameters": ["BargainType", "int"],
+    "isStatic": false,
+    "returnType": "string"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "HandleAutoNegoUIDisplay",
+    "parameters": ["GameItem"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "StoreUI",
+    "method": "ApplyZoom",
+    "parameters": ["int"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "StoreUIManager",
+    "method": "Update",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "TooltipManager",
+    "method": "SetAndShowTooltip",
+    "parameters": ["string", "Component"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "TabletUI",
+    "method": "InfoLine",
+    "parameters": ["TabletSkin", "Transform", "float", "string", "string"],
+    "isStatic": true,
+    "returnType": "float"
+  },
+  {
+    "type": "TabletUI",
+    "method": "InfoRow",
+    "parameters": ["TabletSkin", "Transform", "float", "string", "IList<TagSpec>"],
+    "isStatic": true,
+    "returnType": "float"
+  },
+  {
+    "type": "TabletUI",
+    "method": "ListRow",
+    "parameters": ["TabletSkin", "Transform", "string", "string", "bool", "Func<string>", "Action"],
+    "isStatic": true,
+    "returnType": "TabletListRow"
+  },
+  {
+    "type": "TabletUI",
+    "method": "SubHeader",
+    "parameters": ["TabletSkin", "Transform", "string", "float", "Sprite", "Func<string>", "Color?"],
+    "isStatic": true,
+    "returnType": "RectTransform"
+  },
+  {
+    "type": "TabletUI",
+    "method": "TextRow",
+    "parameters": ["TabletSkin", "Transform", "string", "float", "Color", "TextAlignmentOptions"],
+    "isStatic": true,
+    "returnType": "RectTransform"
+  },
+  {
+    "type": "MachineDesequencer",
+    "method": "CreateMachineInventoryWindow",
+    "parameters": ["bool", "bool", "int"],
+    "isStatic": true,
+    "returnType": "(PixelWindow, GameSlotInventory, GameGridInventory, GameSlotInventory, GameSlotInventory, GameSlotInventory)"
+  },
+  {
+    "type": "MachineDesequencer",
+    "method": "Desequencer",
+    "parameters": [],
+    "isStatic": true,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "MachineDesequencer",
+    "method": "FinishDesequencer",
+    "parameters": ["GameItem", "GameSlotInventory", "GameSlotInventory"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "MachineTurboBoosterAdv",
+    "method": "BoostMachine",
+    "parameters": ["GameItem"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "ValidateSelectLocked",
+    "parameters": ["bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "MiscItemDirectory",
+    "method": "CommandKeycard",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "MiscItemDirectory",
+    "method": "SecKeycard",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "MiscItemDirectory",
+    "method": "MedicalKeycard",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "MiscItemDirectory",
+    "method": "EngineerKeycard",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "MiscItemDirectory",
+    "method": "ServiceKeycard",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "MiscItemDirectory",
+    "method": "BlankKeycard",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "GameItem",
+    "method": "GetNegociatedValue",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "long"
+  },
+  {
+    "type": "GameItem",
+    "method": "GetCurrentValue",
+    "parameters": ["bool", "bool", "bool", "bool", "long"],
+    "isStatic": false,
+    "returnType": "long"
+  },
+  {
+    "type": "LockHelper",
+    "method": "TryOpenLock",
+    "parameters": ["GameItem", "GameItem", "string"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "StoreRequest",
+    "method": "CanFillRequest",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "bool"
+  },
+  {
+    "type": "StoreRequest",
+    "method": "FillRequest",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "DialoguePhoneUIManager",
+    "method": "StartDialogue",
+    "parameters": ["Dialogue"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "DialoguePhoneUIManager",
+    "method": "UpdateDialogHistory",
+    "parameters": ["string"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "RecorderUIManager",
+    "method": "ClearAllElement",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "RecorderUIManager",
+    "method": "RefreshUI",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "RecorderUIManager",
+    "method": "OpenUI",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "SaveGame",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "ResetData",
+    "parameters": [],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "PlayerStore",
+    "method": "AcceptBarter",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "SoldItem",
+    "method": "TrackItem",
+    "parameters": ["GameItem", "StoreClient", "int"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "SellMultiple",
+    "parameters": ["List<GameItem>", "bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "BuyMultipleItem",
+    "parameters": ["List<GameItem>"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "OnWholesaleClick",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "NegociationUIManager",
+    "method": "OnOfferAcceptClick",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GunOrderData",
+    "method": "OnOrderAccepted",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameSlotInventory",
+    "method": "Validate",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "GridFlipX",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "GridFlipY",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "GridRotCCW",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "GridRotCW",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "GridRot180",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "ValidatePartialSprite",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "ApplyAnimationFrame",
+    "parameters": ["Sprite"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "ToggleBackground",
+    "parameters": ["bool", "float", "float"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameItemElement",
+    "method": "ToggleFakeBackground",
+    "parameters": ["bool", "Vector4"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "GameGridInventory",
+    "method": "UncheckedAccept",
+    "parameters": ["GameItem"],
+    "isStatic": false,
+    "returnType": "bool"
+  },
+  {
+    "type": "GameGridInventory",
+    "method": "Expel",
+    "parameters": ["GameItem"],
+    "isStatic": false,
+    "returnType": "bool"
+  },
+  {
+    "type": "ItemFeature",
+    "method": "DiscoverFeature",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "ItemFeature",
+    "method": "SetFeatureDiscovered",
+    "parameters": ["bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "ItemFeature",
+    "method": "SetExposed",
+    "parameters": ["bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "ItemFeature",
+    "method": "SetPublicHidden",
+    "parameters": ["bool"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "DialogUIManager",
+    "method": "Start",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "DialogUIManager",
+    "method": "SetNormalMode",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "DialogUIManager",
+    "method": "SetShootingMode",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "DialogUIManager",
+    "method": "ApplyBubbleScale",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "ChemScannerUIManager",
+    "method": "RefreshUI",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "WaterScannerUIManager",
+    "method": "RefreshUI",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "WineHelper",
+    "method": "StartFermentation",
+    "parameters": ["GameItem"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "GraphUtils",
+    "method": "EmporiumTryAdd",
+    "parameters": ["GameItem"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "ItemContextHandler",
+    "method": "EqualizeSortButtonWidths",
+    "parameters": [],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "ItemContextHandler",
+    "method": "UpdateSortSelectButtonColor",
+    "parameters": ["RichTextElement"],
+    "isStatic": false,
+    "returnType": "void"
+  },
+  {
+    "type": "ItemContextHandler",
+    "method": "FindRichTextNode",
+    "parameters": ["Vector2", "Canvas"],
+    "isStatic": false,
+    "returnType": "RichTextElement"
+  },
+  {
+    "type": "MachineHelper",
+    "method": "SetupModuleBay",
+    "parameters": ["GameInventory", "GameItem", "Action", "string[]"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "ModuleHelper",
+    "method": "ComputeModuleEffect",
+    "parameters": ["List<GameItem>", "GameItem"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "MachineEvaporator",
+    "method": "Evaporator",
+    "parameters": [],
+    "isStatic": true,
+    "returnType": "GameItem"
+  },
+  {
+    "type": "MachineBlender",
+    "method": "SetupChemModuleGrid",
+    "parameters": ["GameGridInventory", "GameItem"],
+    "isStatic": true,
+    "returnType": "void"
+  },
+  {
+    "type": "InputActionManager",
+    "method": "UpdateKeys",
+    "parameters": ["List<KeyCode>"],
+    "isStatic": false,
+    "returnType": "void"
   }
 ]

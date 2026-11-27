@@ -127,31 +127,51 @@ public class InputActionManager : MonoBehaviour
 		lastMousePosition = Input.mousePosition;
 	}
 
-	private void UpdateKeys(List<KeyCode> keyListeners)
-	{
-		tempKeysPressed.Clear();
-		tempKeysReleased.Clear();
-		bool flag = StoreUIManager.IsAnyTyping() || KeyBindHelper.SuppressHotkeys;
-		foreach (KeyCode keyListener in keyListeners)
-		{
-			if (!flag && Input.GetKeyDown(keyListener))
-			{
-				tempKeysPressed.Add(keyListener);
-			}
-			if (Input.GetKeyUp(keyListener))
-			{
-				tempKeysReleased.Add(keyListener);
-			}
-			if (!KeyBindHelper.SuppressHotkeys && GetMouseKeyDown(keyListener))
-			{
-				tempKeysPressed.Add(keyListener);
-			}
-			if (GetMouseKeyUp(keyListener))
-			{
-				tempKeysReleased.Add(keyListener);
-			}
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(InputActionManager), "UpdateKeys", new System.Type[] { typeof(List<KeyCode>) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+private void UpdateKeys(List<KeyCode> keyListeners)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { keyListeners }, __portArguments =>
+    {
+        keyListeners = (List<KeyCode>)__portArguments[0];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        tempKeysPressed.Clear();
+        tempKeysReleased.Clear();
+        bool flag = StoreUIManager.IsAnyTyping() || KeyBindHelper.SuppressHotkeys;
+        foreach (KeyCode keyListener in keyListeners)
+        {
+            if (!flag && Input.GetKeyDown(keyListener))
+            {
+                tempKeysPressed.Add(keyListener);
+            }
+
+            if (Input.GetKeyUp(keyListener))
+            {
+                tempKeysReleased.Add(keyListener);
+            }
+
+            if (!KeyBindHelper.SuppressHotkeys && GetMouseKeyDown(keyListener))
+            {
+                tempKeysPressed.Add(keyListener);
+            }
+
+            if (GetMouseKeyUp(keyListener))
+            {
+                tempKeysReleased.Add(keyListener);
+            }
+        }
+    }
+}
 
 	public void Reset()
 	{

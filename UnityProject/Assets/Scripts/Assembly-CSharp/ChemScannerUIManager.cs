@@ -83,95 +83,118 @@ public class ChemScannerUIManager : MonoBehaviour
 		}
 	}
 
-	public void RefreshUI()
-	{
-		if (currentScannedItem == null)
-		{
-			testedTMP.text = "";
-			labelTMP.text = "";
-			contaminantTMP.text = "";
-			totalVolumeTMP.text = "";
-			matchButton.gameObject.SetActive(value: false);
-			matchButton.gameObject.SetActive(value: false);
-			euphoriaEffect.gameObject.SetActive(value: false);
-			toxicityEffect.gameObject.SetActive(value: false);
-			synaprestEffect.gameObject.SetActive(value: false);
-			birthControlEffect.gameObject.SetActive(value: false);
-			return;
-		}
-		productNameTMP.text = currentScannedItem.name;
-		euphoriaEffect.gameObject.SetActive(value: false);
-		toxicityEffect.gameObject.SetActive(value: false);
-		synaprestEffect.gameObject.SetActive(value: false);
-		birthControlEffect.gameObject.SetActive(value: false);
-		if (currentScannedItem.IsTag("CHEM_ITEM_TAG"))
-		{
-			RefreshChemMode();
-		}
-		else
-		{
-			RefreshWaterMode();
-		}
-		int num = 0;
-		foreach (Liquid liquid in Liquid.Liquids)
-		{
-			num += currentScannedItem.GetTagReadonly(liquid.currentPart).GetInt();
-		}
-		contaminantTMP.text = "";
-		for (int i = 0; i < Liquid.Liquids.Count; i++)
-		{
-			int num2 = currentScannedItem.GetTagReadonly(Liquid.Liquids[i].currentPart).GetInt();
-			if (num2 > 0)
-			{
-				string displayName = Liquid.Liquids[i].displayName;
-				float num3 = (float)num2 / (float)num * 100f;
-				contaminantTMP.text += $"{displayName}: {WaterScannerUIManager.FormatAmount(num2)} ({num3:F2}%)\n";
-			}
-		}
-		totalVolumeTMP.text = ((num > 0) ? LocHelper.GetLocalizedMechanic("mech_scanner_total_volume", WaterScannerUIManager.FormatAmount(num)) : "");
-		if (ChemicalFeedbackHelper.IsLethal(currentScannedItem))
-		{
-			toxicityEffect.gameObject.SetActive(value: true);
-			toxicityEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_toxicity_lethal") + " (x" + ChemicalFeedbackHelper.GetLethalDose(currentScannedItem) + ")";
-		}
-		else if (ChemicalFeedbackHelper.IsToxic(currentScannedItem))
-		{
-			toxicityEffect.gameObject.SetActive(value: true);
-			toxicityEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_toxicity_toxic");
-		}
-		if (ChemicalFeedbackHelper.IsNarcotic(currentScannedItem))
-		{
-			switch (ChemicalFeedbackHelper.GetEuphoriaLevel(currentScannedItem))
-			{
-			case 1:
-				euphoriaEffect.gameObject.SetActive(value: true);
-				euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_weak");
-				break;
-			case 2:
-				euphoriaEffect.gameObject.SetActive(value: true);
-				euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_mild");
-				break;
-			case 3:
-				euphoriaEffect.gameObject.SetActive(value: true);
-				euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_strong");
-				break;
-			case 4:
-				euphoriaEffect.gameObject.SetActive(value: true);
-				euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_extreme");
-				break;
-			}
-		}
-		if (ChemicalFeedbackHelper.IsSynaprest(currentScannedItem))
-		{
-			synaprestEffect.gameObject.SetActive(value: true);
-			synaprestEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_anti_addiction");
-		}
-		if (ChemicalFeedbackHelper.IsBirthControl(currentScannedItem))
-		{
-			birthControlEffect.gameObject.SetActive(value: true);
-			birthControlEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_contraceptive");
-		}
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(ChemScannerUIManager), "RefreshUI", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void RefreshUI()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (currentScannedItem == null)
+        {
+            testedTMP.text = "";
+            labelTMP.text = "";
+            contaminantTMP.text = "";
+            totalVolumeTMP.text = "";
+            matchButton.gameObject.SetActive(value: false);
+            matchButton.gameObject.SetActive(value: false);
+            euphoriaEffect.gameObject.SetActive(value: false);
+            toxicityEffect.gameObject.SetActive(value: false);
+            synaprestEffect.gameObject.SetActive(value: false);
+            birthControlEffect.gameObject.SetActive(value: false);
+            return;
+        }
+
+        productNameTMP.text = currentScannedItem.name;
+        euphoriaEffect.gameObject.SetActive(value: false);
+        toxicityEffect.gameObject.SetActive(value: false);
+        synaprestEffect.gameObject.SetActive(value: false);
+        birthControlEffect.gameObject.SetActive(value: false);
+        if (currentScannedItem.IsTag("CHEM_ITEM_TAG"))
+        {
+            RefreshChemMode();
+        }
+        else
+        {
+            RefreshWaterMode();
+        }
+
+        int num = 0;
+        foreach (Liquid liquid in Liquid.Liquids)
+        {
+            num += currentScannedItem.GetTagReadonly(liquid.currentPart).GetInt();
+        }
+
+        contaminantTMP.text = "";
+        for (int i = 0; i < Liquid.Liquids.Count; i++)
+        {
+            int num2 = currentScannedItem.GetTagReadonly(Liquid.Liquids[i].currentPart).GetInt();
+            if (num2 > 0)
+            {
+                string displayName = Liquid.Liquids[i].displayName;
+                float num3 = (float)num2 / (float)num * 100f;
+                contaminantTMP.text += $"{displayName}: {WaterScannerUIManager.FormatAmount(num2)} ({num3:F2}%)\n";
+            }
+        }
+
+        totalVolumeTMP.text = ((num > 0) ? LocHelper.GetLocalizedMechanic("mech_scanner_total_volume", WaterScannerUIManager.FormatAmount(num)) : "");
+        if (ChemicalFeedbackHelper.IsLethal(currentScannedItem))
+        {
+            toxicityEffect.gameObject.SetActive(value: true);
+            toxicityEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_toxicity_lethal") + " (x" + ChemicalFeedbackHelper.GetLethalDose(currentScannedItem) + ")";
+        }
+        else if (ChemicalFeedbackHelper.IsToxic(currentScannedItem))
+        {
+            toxicityEffect.gameObject.SetActive(value: true);
+            toxicityEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_toxicity_toxic");
+        }
+
+        if (ChemicalFeedbackHelper.IsNarcotic(currentScannedItem))
+        {
+            switch (ChemicalFeedbackHelper.GetEuphoriaLevel(currentScannedItem))
+            {
+                case 1:
+                    euphoriaEffect.gameObject.SetActive(value: true);
+                    euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_weak");
+                    break;
+                case 2:
+                    euphoriaEffect.gameObject.SetActive(value: true);
+                    euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_mild");
+                    break;
+                case 3:
+                    euphoriaEffect.gameObject.SetActive(value: true);
+                    euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_strong");
+                    break;
+                case 4:
+                    euphoriaEffect.gameObject.SetActive(value: true);
+                    euphoriaEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_euphoria_extreme");
+                    break;
+            }
+        }
+
+        if (ChemicalFeedbackHelper.IsSynaprest(currentScannedItem))
+        {
+            synaprestEffect.gameObject.SetActive(value: true);
+            synaprestEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_anti_addiction");
+        }
+
+        if (ChemicalFeedbackHelper.IsBirthControl(currentScannedItem))
+        {
+            birthControlEffect.gameObject.SetActive(value: true);
+            birthControlEffect.effectTMP.text = LocHelper.GetLocalizedMechanic("mech_scanner_contraceptive");
+        }
+    }
+}
 
 	public void RefreshChemMode()
 	{

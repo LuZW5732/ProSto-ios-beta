@@ -65,63 +65,100 @@ public class RecorderUIManager : MonoBehaviour
 		}
 	}
 
-	public void OpenUI()
-	{
-		TutorialUIManager.Instance.OnRecorderOpen();
-		UIPanel.SetActive(value: true);
-		openAudio.Play();
-		RefreshUI();
-		scrollRect.normalizedPosition = new Vector2(0f, 0f);
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RecorderUIManager), "OpenUI", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void OpenUI()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
 
-	public void RefreshUI()
-	{
-		if (!UIPanel.activeSelf)
-		{
-			return;
-		}
-		Canvas.ForceUpdateCanvases();
-		bool flag = scrollRect.verticalNormalizedPosition <= 0.05f;
-		foreach (TextMeshProUGUI element in elementList)
-		{
-			element.gameObject.SetActive(value: false);
-		}
-		foreach (GameObject seperator in seperatorList)
-		{
-			seperator.SetActive(value: false);
-		}
-		int num = 0;
-		int num2 = 0;
-		foreach (string item in PlayerStore.Instance.dialogHistory)
-		{
-			if (item.Equals("---"))
-			{
-				if (num2 >= seperatorList.Count)
-				{
-					Debug.LogError("Not enough seperator elements in RecorderUIManager!");
-					continue;
-				}
-				seperatorList[num2].SetActive(value: true);
-				seperatorList[num2].transform.SetAsLastSibling();
-				num2++;
-			}
-			else if (num >= elementList.Count)
-			{
-				Debug.LogError("Not enough dialogue elements in RecorderUIManager!");
-			}
-			else
-			{
-				elementList[num].gameObject.SetActive(value: true);
-				elementList[num].transform.SetAsLastSibling();
-				elementList[num].text = " " + item;
-				num++;
-			}
-		}
-		if (flag)
-		{
-			StartCoroutine(SnapToBottomNextFrame());
-		}
-	}
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        TutorialUIManager.Instance.OnRecorderOpen();
+        UIPanel.SetActive(value: true);
+        openAudio.Play();
+        RefreshUI();
+        scrollRect.normalizedPosition = new Vector2(0f, 0f);
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RecorderUIManager), "RefreshUI", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void RefreshUI()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        if (!UIPanel.activeSelf)
+        {
+            return;
+        }
+
+        Canvas.ForceUpdateCanvases();
+        bool flag = scrollRect.verticalNormalizedPosition <= 0.05f;
+        foreach (TextMeshProUGUI element in elementList)
+        {
+            element.gameObject.SetActive(value: false);
+        }
+
+        foreach (GameObject seperator in seperatorList)
+        {
+            seperator.SetActive(value: false);
+        }
+
+        int num = 0;
+        int num2 = 0;
+        foreach (string item in PlayerStore.Instance.dialogHistory)
+        {
+            if (item.Equals("---"))
+            {
+                if (num2 >= seperatorList.Count)
+                {
+                    Debug.LogError("Not enough seperator elements in RecorderUIManager!");
+                    continue;
+                }
+
+                seperatorList[num2].SetActive(value: true);
+                seperatorList[num2].transform.SetAsLastSibling();
+                num2++;
+            }
+            else if (num >= elementList.Count)
+            {
+                Debug.LogError("Not enough dialogue elements in RecorderUIManager!");
+            }
+            else
+            {
+                elementList[num].gameObject.SetActive(value: true);
+                elementList[num].transform.SetAsLastSibling();
+                elementList[num].text = " " + item;
+                num++;
+            }
+        }
+
+        if (flag)
+        {
+            StartCoroutine(SnapToBottomNextFrame());
+        }
+    }
+}
 
 	private IEnumerator SnapToBottomNextFrame()
 	{
@@ -155,8 +192,24 @@ public class RecorderUIManager : MonoBehaviour
 		DialogUIManager.Instance.UpdateDialogHistory("---");
 	}
 
-	public void ClearAllElement()
-	{
-		PlayerStore.Instance.dialogHistory.Clear();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(RecorderUIManager), "ClearAllElement", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void ClearAllElement()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        PlayerStore.Instance.dialogHistory.Clear();
+    }
+}
 }

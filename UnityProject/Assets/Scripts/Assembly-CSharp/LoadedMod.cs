@@ -14,6 +14,10 @@ public class LoadedMod
 
 	public Assembly Assembly;
 
+#if PROSTO_INTERP
+	internal bool ManagesHarmonyPatches;
+#endif
+
 #if !UNITY_IOS
 	public Harmony HarmonyInstance;
 #endif

@@ -1072,26 +1072,40 @@ public class MiscItemDirectory : ItemDirectory
 		return gameItem;
 	}
 
-	public GameItem SecKeycard()
-	{
-		GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "sec_keycard");
-		gameItem.name = LocHelper.GetLocalizedItem("item_sec_keycard_name");
-		gameItem.flavorText = LocHelper.GetLocalizedItem("item_sec_keycard_flavor");
-		gameItem.shortDescription = LocHelper.GetLocalizedItem("item_sec_keycard_desc");
-		ContrabandHelper.InitContrabandItem(gameItem, 2);
-		gameItem.SetGameItemType("ACCESS_CARD");
-		AudioHelper.InitPlasticCard(gameItem);
-		gameItem.unitValue = 100L;
-		gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
-		gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
-		gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
-		{
-			LockHelper.TryOpenLock(s, t, "LOCK_ID_SEC");
-		};
-		return gameItem;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MiscItemDirectory), "SecKeycard", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public GameItem SecKeycard()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<GameItem>(__portHook0, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    GameItem __PortOriginal()
+    {
+        GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "sec_keycard");
+        gameItem.name = LocHelper.GetLocalizedItem("item_sec_keycard_name");
+        gameItem.flavorText = LocHelper.GetLocalizedItem("item_sec_keycard_flavor");
+        gameItem.shortDescription = LocHelper.GetLocalizedItem("item_sec_keycard_desc");
+        ContrabandHelper.InitContrabandItem(gameItem, 2);
+        gameItem.SetGameItemType("ACCESS_CARD");
+        AudioHelper.InitPlasticCard(gameItem);
+        gameItem.unitValue = 100L;
+        gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
+        gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
+        gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
+        {
+            LockHelper.TryOpenLock(s, t, "LOCK_ID_SEC");
+        };
+        return gameItem;
+    }
+}
 
 	public GameItem SciKeycard()
 	{
@@ -1114,86 +1128,142 @@ public class MiscItemDirectory : ItemDirectory
 		return gameItem;
 	}
 
-	public GameItem CommandKeycard()
-	{
-		GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "command_keycard");
-		gameItem.name = LocHelper.GetLocalizedItem("item_cmd_keycard_name");
-		gameItem.flavorText = LocHelper.GetLocalizedItem("item_cmd_keycard_flavor");
-		gameItem.shortDescription = LocHelper.GetLocalizedItem("item_cmd_keycard_desc");
-		ContrabandHelper.InitContrabandItem(gameItem, 3);
-		gameItem.SetGameItemType("ACCESS_CARD");
-		AudioHelper.InitPlasticCard(gameItem);
-		gameItem.unitValue = 125L;
-		gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
-		gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
-		gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
-		{
-			LockHelper.TryOpenLock(s, t, "LOCK_ID_COMMAND");
-		};
-		return gameItem;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook1 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MiscItemDirectory), "CommandKeycard", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public GameItem CommandKeycard()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook1))
+    {
+        return __PortOriginal();
+    }
 
-	public GameItem MedicalKeycard()
-	{
-		GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "med_card");
-		gameItem.name = LocHelper.GetLocalizedItem("item_med_keycard_name");
-		gameItem.flavorText = LocHelper.GetLocalizedItem("item_med_keycard_flavor");
-		ContrabandHelper.InitContrabandItem(gameItem, 1);
-		gameItem.SetGameItemType("ACCESS_CARD");
-		AudioHelper.InitPlasticCard(gameItem);
-		gameItem.unitValue = 75L;
-		gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
-		gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
-		gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
-		{
-			LockHelper.TryOpenLock(s, t, "LOCK_ID_MED");
-		};
-		return gameItem;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<GameItem>(__portHook1, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    GameItem __PortOriginal()
+    {
+        GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "command_keycard");
+        gameItem.name = LocHelper.GetLocalizedItem("item_cmd_keycard_name");
+        gameItem.flavorText = LocHelper.GetLocalizedItem("item_cmd_keycard_flavor");
+        gameItem.shortDescription = LocHelper.GetLocalizedItem("item_cmd_keycard_desc");
+        ContrabandHelper.InitContrabandItem(gameItem, 3);
+        gameItem.SetGameItemType("ACCESS_CARD");
+        AudioHelper.InitPlasticCard(gameItem);
+        gameItem.unitValue = 125L;
+        gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
+        gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
+        gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
+        {
+            LockHelper.TryOpenLock(s, t, "LOCK_ID_COMMAND");
+        };
+        return gameItem;
+    }
+}
 
-	public GameItem EngineerKeycard()
-	{
-		GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "eng_card");
-		gameItem.name = LocHelper.GetLocalizedItem("item_eng_keycard_name");
-		gameItem.flavorText = LocHelper.GetLocalizedItem("item_eng_keycard_flavor");
-		ContrabandHelper.InitContrabandItem(gameItem, 1);
-		gameItem.SetGameItemType("ACCESS_CARD");
-		AudioHelper.InitPlasticCard(gameItem);
-		gameItem.unitValue = 75L;
-		gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
-		gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
-		gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
-		{
-			LockHelper.TryOpenLock(s, t, "LOCK_ID_ENG");
-		};
-		return gameItem;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook2 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MiscItemDirectory), "MedicalKeycard", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public GameItem MedicalKeycard()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook2))
+    {
+        return __PortOriginal();
+    }
 
-	public GameItem ServiceKeycard()
-	{
-		GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "ser_card");
-		gameItem.name = LocHelper.GetLocalizedItem("item_ser_keycard_name");
-		gameItem.flavorText = LocHelper.GetLocalizedItem("item_ser_keycard_flavor");
-		ContrabandHelper.InitContrabandItem(gameItem, 1);
-		gameItem.SetGameItemType("ACCESS_CARD");
-		AudioHelper.InitPlasticCard(gameItem);
-		gameItem.unitValue = 40L;
-		gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
-		gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
-		gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
-		gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
-		{
-			LockHelper.TryOpenLock(s, t, "LOCK_ID_SER");
-		};
-		return gameItem;
-	}
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<GameItem>(__portHook2, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    GameItem __PortOriginal()
+    {
+        GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "med_card");
+        gameItem.name = LocHelper.GetLocalizedItem("item_med_keycard_name");
+        gameItem.flavorText = LocHelper.GetLocalizedItem("item_med_keycard_flavor");
+        ContrabandHelper.InitContrabandItem(gameItem, 1);
+        gameItem.SetGameItemType("ACCESS_CARD");
+        AudioHelper.InitPlasticCard(gameItem);
+        gameItem.unitValue = 75L;
+        gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
+        gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
+        gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
+        {
+            LockHelper.TryOpenLock(s, t, "LOCK_ID_MED");
+        };
+        return gameItem;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook3 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MiscItemDirectory), "EngineerKeycard", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public GameItem EngineerKeycard()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook3))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<GameItem>(__portHook3, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    GameItem __PortOriginal()
+    {
+        GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "eng_card");
+        gameItem.name = LocHelper.GetLocalizedItem("item_eng_keycard_name");
+        gameItem.flavorText = LocHelper.GetLocalizedItem("item_eng_keycard_flavor");
+        ContrabandHelper.InitContrabandItem(gameItem, 1);
+        gameItem.SetGameItemType("ACCESS_CARD");
+        AudioHelper.InitPlasticCard(gameItem);
+        gameItem.unitValue = 75L;
+        gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
+        gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
+        gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
+        {
+            LockHelper.TryOpenLock(s, t, "LOCK_ID_ENG");
+        };
+        return gameItem;
+    }
+}
+
+	private static readonly System.Reflection.MethodInfo __portHook4 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MiscItemDirectory), "ServiceKeycard", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public GameItem ServiceKeycard()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook4))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<GameItem>(__portHook4, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    GameItem __PortOriginal()
+    {
+        GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "ser_card");
+        gameItem.name = LocHelper.GetLocalizedItem("item_ser_keycard_name");
+        gameItem.flavorText = LocHelper.GetLocalizedItem("item_ser_keycard_flavor");
+        ContrabandHelper.InitContrabandItem(gameItem, 1);
+        gameItem.SetGameItemType("ACCESS_CARD");
+        AudioHelper.InitPlasticCard(gameItem);
+        gameItem.unitValue = 40L;
+        gameItem.maySelectSlotItemFunc = (GameItem _, GameInventory _, SlotMarker _) => true;
+        gameItem.canSelectSlotItemFunc = (GameItem item, GameInventory _, SlotMarker _) => true;
+        gameItem.mayItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.canItemTargetItemFunc = (GameItem s, GameItem t) => GeneralHelper.IsItemOwned(s) && GeneralHelper.IsItemOwned(t) && LockHelper.IsLockedContainer(t);
+        gameItem.onItemTargetItemFunc = (GameItem s, GameItem t) =>
+        {
+            LockHelper.TryOpenLock(s, t, "LOCK_ID_SER");
+        };
+        return gameItem;
+    }
+}
 
 	public GameItem SupplyKeycard()
 	{
@@ -1215,17 +1285,31 @@ public class MiscItemDirectory : ItemDirectory
 		return gameItem;
 	}
 
-	public GameItem BlankKeycard()
-	{
-		GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "blank_card");
-		gameItem.name = LocHelper.GetLocalizedItem("item_blank_keycard_name");
-		gameItem.flavorText = LocHelper.GetLocalizedItem("item_blank_keycard_flavor");
-		gameItem.shortDescription = LocHelper.GetLocalizedItem("item_blank_keycard_desc");
-		gameItem.SetGameItemType("ACCESS_CARD");
-		AudioHelper.InitPlasticCard(gameItem);
-		gameItem.unitValue = 15L;
-		return gameItem;
-	}
+	private static readonly System.Reflection.MethodInfo __portHook5 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(MiscItemDirectory), "BlankKeycard", new System.Type[] {  });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public GameItem BlankKeycard()
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook5))
+    {
+        return __PortOriginal();
+    }
+
+    return ProbablyStolen.Port.Mods.StaticModHooks.Invoke<GameItem>(__portHook5, this, new object[] { }, __portArguments =>
+    {
+        return __PortOriginal();
+    });
+    GameItem __PortOriginal()
+    {
+        GameItem gameItem = Empty().SetSpriteAndShape("Items/items_misc", "blank_card");
+        gameItem.name = LocHelper.GetLocalizedItem("item_blank_keycard_name");
+        gameItem.flavorText = LocHelper.GetLocalizedItem("item_blank_keycard_flavor");
+        gameItem.shortDescription = LocHelper.GetLocalizedItem("item_blank_keycard_desc");
+        gameItem.SetGameItemType("ACCESS_CARD");
+        AudioHelper.InitPlasticCard(gameItem);
+        gameItem.unitValue = 15L;
+        return gameItem;
+    }
+}
 
 	public GameItem CanisterMBS()
 	{

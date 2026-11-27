@@ -107,15 +107,33 @@ public class TooltipManager : MonoBehaviour
 		SetAndShowTooltip(message, null);
 	}
 
-	public void SetAndShowTooltip(string message, Component owner)
-	{
-		tooltipOwner = owner;
-		tooltipGameobject.SetActive(value: true);
-		content.text = message;
-		float x = ((content.GetPreferredValues(message).x > 240f) ? 400f : 240f);
-		rectTransform.sizeDelta = new Vector2(x, rectTransform.sizeDelta.y);
-		UpdateTooltipPosition();
-	}
+	private static readonly System.Reflection.MethodInfo __portHook0 = ProbablyStolen.Port.Mods.PortReflection.Method(typeof(TooltipManager), "SetAndShowTooltip", new System.Type[] { typeof(string), typeof(Component) });
+[ProbablyStolen.Port.Mods.StaticHookTarget]
+public void SetAndShowTooltip(string message, Component owner)
+{
+    if (!ProbablyStolen.Port.Mods.StaticModHooks.HasHooks(__portHook0))
+    {
+        __PortOriginal();
+        return;
+    }
+
+    ProbablyStolen.Port.Mods.StaticModHooks.Invoke<object>(__portHook0, this, new object[] { message, owner }, __portArguments =>
+    {
+        message = (string)__portArguments[0];
+        owner = (Component)__portArguments[1];
+        __PortOriginal();
+        return null;
+    });
+    void __PortOriginal()
+    {
+        tooltipOwner = owner;
+        tooltipGameobject.SetActive(value: true);
+        content.text = message;
+        float x = ((content.GetPreferredValues(message).x > 240f) ? 400f : 240f);
+        rectTransform.sizeDelta = new Vector2(x, rectTransform.sizeDelta.y);
+        UpdateTooltipPosition();
+    }
+}
 
 	public void HideTooltip()
 	{
