@@ -299,6 +299,12 @@ public class ModUIManager : MonoBehaviour
 		b.End();
 		b.BeginScrollFlexible();
 		StyleScrollbar(b.CurrentContainer.GetComponentInParent<ScrollRect>());
+#if UNITY_IOS
+		b.AddLabel("", "detail_load_error");
+		b.Last.text.richText = false;
+		b.Last.text.enableWordWrapping = true;
+		b.Last.SetVisible(visible: false);
+#endif
 		b.BeginPanel(-1f, 34f, TextAnchor.MiddleCenter, 4f, 0f, "dependencies_header");
 		if (b.Last.image != null)
 		{
@@ -615,6 +621,12 @@ public class ModUIManager : MonoBehaviour
 		}
 		CustomUIManager instance = CustomUIManager.Instance;
 		ApplyPreview(mod);
+#if UNITY_IOS
+		CustomUIElement loadError = handle.Get("detail_load_error");
+		bool showLoadError = mod != null && HasLocalLoadFailure(mod);
+		ScriptFontSwap.Apply(loadError?.text, showLoadError ? LoadErrorLine(mod) : "");
+		loadError?.SetVisible(showLoadError);
+#endif
 		if (mod == null)
 		{
 			ScriptFontSwap.Apply(handle.Get("detail_name")?.text, "");

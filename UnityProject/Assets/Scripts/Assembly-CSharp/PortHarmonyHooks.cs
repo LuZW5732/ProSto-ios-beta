@@ -122,6 +122,7 @@ internal static class PortHarmonyHooks
 
     private static void PatchFromMod(Assembly caller, string id, Assembly targetAssembly)
     {
+        PortInterpretedMods.Trace($"PatchAll {id}: caller={caller?.GetName().Name}, target={targetAssembly?.GetName().Name}");
         if (caller != targetAssembly)
             throw new UnauthorizedAccessException("Harmony can only register patches from the calling mod.");
         lock (Gate) PatchAll(RequireScope(caller), targetAssembly, id);
@@ -172,6 +173,7 @@ internal static class PortHarmonyHooks
             }
             if (count == 0) throw new NotSupportedException("No supported class-level HarmonyPatch in " + assembly.FullName);
             scope.Owners[ownerId] = targets.ToArray();
+            PortInterpretedMods.Trace($"Harmony {ownerId}: registered {targets.Count} targets");
         }
         catch
         {

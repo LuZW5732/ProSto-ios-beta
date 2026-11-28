@@ -19,6 +19,62 @@ internal static class PortInterpretedMods
 
 #if PROSTO_INTERP
     private static bool metadataLoaded;
+    private const int DiagnosticLimit = 128 * 1024;
+    private static string diagnosticPath;
+    private static long diagnosticBytes;
+
+#if UNITY_IOS && !UNITY_EDITOR
+    private enum RuntimePreference { Automatic = 0, Interpreter = 1, Jit = 2 }
+    private enum JitMemoryStatus { NotChecked = 0, Mapped = 1, Unavailable = 2, Unsupported = 3 }
+
+    [System.Runtime.InteropServices.DllImport("__Internal")]
+    private static extern void PSLauncherReadRuntimeStatus(out RuntimePreference preference,
+        out JitMemoryStatus memoryStatus, out int error);
+#endif
+
+    [UnityEngine.RuntimeInitializeOnLoadMethod(UnityEngine.RuntimeInitializeLoadType.BeforeSceneLoad)]
+    private static void StartDiagnostics()
+    {
+        string directory = UnityEngine.Application.persistentDataPath;
+        if (!File.Exists(Path.Combine(directory, "port-mod-diagnostics.enable"))) return;
+        string path = Path.Combine(directory, "port-mod-diagnostics.txt");
+        try
+        {
+            File.WriteAllText(path, "iOS mod diagnostics\n");
+            diagnosticPath = path;
+            diagnosticBytes = new FileInfo(path).Length;
+            UnityEngine.Application.logMessageReceived += RecordDiagnostic;
+#if UNITY_IOS && !UNITY_EDITOR
+            PSLauncherReadRuntimeStatus(out var preference, out var memoryStatus, out int error);
+            Trace($"runtime=HybridCLR; preferred={preference}; jitMemory={memoryStatus}; errno={error}");
+#endif
+        }
+        catch (IOException error) { UnityEngine.Debug.LogWarning(error.Message); }
+        catch (UnauthorizedAccessException error) { UnityEngine.Debug.LogWarning(error.Message); }
+    }
+
+    internal static void Trace(string message)
+    {
+        if (diagnosticPath != null) UnityEngine.Debug.Log("[PortMods] " + message);
+    }
+
+    private static void RecordDiagnostic(string message, string stack, UnityEngine.LogType type)
+    {
+        bool error = type == UnityEngine.LogType.Error || type == UnityEngine.LogType.Exception ||
+            type == UnityEngine.LogType.Assert;
+        if (!error && !message.StartsWith("[PortMods] ", StringComparison.Ordinal)) return;
+        string line = $"{DateTime.UtcNow:O} {type} {message}\n";
+        if (error && !string.IsNullOrEmpty(stack)) line += stack + "\n";
+        int size = System.Text.Encoding.UTF8.GetByteCount(line);
+        if (size > DiagnosticLimit - diagnosticBytes) return;
+        try
+        {
+            File.AppendAllText(diagnosticPath, line);
+            diagnosticBytes += size;
+        }
+        catch (IOException) { UnityEngine.Application.logMessageReceived -= RecordDiagnostic; }
+        catch (UnauthorizedAccessException) { UnityEngine.Application.logMessageReceived -= RecordDiagnostic; }
+    }
 
     private static void LoadMetadata()
     {
@@ -28,6 +84,7 @@ internal static class PortInterpretedMods
         {
             var code = HybridCLR.RuntimeApi.LoadMetadataForAOTAssembly(File.ReadAllBytes(file),
                 HybridCLR.HomologousImageMode.SuperSet);
+            Trace("AOT metadata " + Path.GetFileName(file) + ": " + code);
             if (code != HybridCLR.LoadImageErrorCode.OK && code != HybridCLR.LoadImageErrorCode.HOMOLOGOUS_ASSEMBLY_HAS_LOADED)
                 throw new InvalidDataException(Path.GetFileName(file) + ": " + code);
         }
@@ -80,6 +137,7 @@ internal static class PortInterpretedMods
 
     internal static void Start(LoadedMod mod)
     {
+        Trace(mod.Manifest.ID + ": loading " + mod.Manifest.ModVersion);
 #if !UNITY_EDITOR
         LoadMetadata();
 #endif
@@ -87,9 +145,11 @@ internal static class PortInterpretedMods
         try
         {
             PortHarmonyHooks.Register(mod);
+            Trace(mod.Manifest.ID + ": Init (manual Harmony: " + mod.ManagesHarmonyPatches + ")");
             mod.Instance.Init(mod.Manifest);
             mod.IsEnabled = true;
             mod.Instance.OnEnable();
+            Trace(mod.Manifest.ID + ": OnEnable finished");
         }
         catch
         {

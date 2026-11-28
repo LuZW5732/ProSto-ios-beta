@@ -1,7 +1,64 @@
 #import <UIKit/UIKit.h>
+#import <TargetConditionals.h>
+#import <errno.h>
+#import <sys/mman.h>
 #import <sys/sysctl.h>
 #import <unistd.h>
 #import "UnityAppController.h"
+
+enum PSRuntimePreference {
+    PSRuntimeAutomatic = 0,
+    PSRuntimeInterpreter = 1,
+    PSRuntimeJit = 2,
+};
+
+enum PSJitMemoryStatus {
+    PSJitMemoryNotChecked = 0,
+    PSJitMemoryMapped = 1,
+    PSJitMemoryUnavailable = 2,
+    PSJitMemoryUnsupported = 3,
+};
+
+static NSString *const PSRuntimePreferenceKey = @"port.launcher.preferredMode";
+static PSJitMemoryStatus PSJitMemory = PSJitMemoryNotChecked;
+static int PSJitMemoryError;
+
+static PSRuntimePreference PSPreferredRuntime(void) {
+    NSInteger stored = [NSUserDefaults.standardUserDefaults integerForKey:PSRuntimePreferenceKey];
+    if (stored == PSRuntimeInterpreter || stored == PSRuntimeJit) return (PSRuntimePreference)stored;
+    return PSRuntimeAutomatic;
+}
+
+static void PSRefreshJitMemory(void) {
+    PSJitMemory = PSJitMemoryNotChecked;
+    PSJitMemoryError = 0;
+    if (PSPreferredRuntime() == PSRuntimeInterpreter) return;
+#if defined(PROSTO_INTERP) && defined(MAP_JIT) && defined(__arm64__) && !TARGET_OS_SIMULATOR
+    size_t size = (size_t)getpagesize();
+    void *page = mmap(NULL, size, PROT_READ | PROT_WRITE | PROT_EXEC, MAP_PRIVATE | MAP_ANON | MAP_JIT, -1, 0);
+    if (page == MAP_FAILED) {
+        PSJitMemoryError = errno;
+        PSJitMemory = PSJitMemoryUnavailable;
+        return;
+    }
+    if (munmap(page, size) != 0) {
+        PSJitMemoryError = errno;
+        PSJitMemory = PSJitMemoryUnavailable;
+        return;
+    }
+    // Mapping alone does not verify that a JIT backend can write and execute code.
+    PSJitMemory = PSJitMemoryMapped;
+#else
+    PSJitMemory = PSJitMemoryUnsupported;
+#endif
+}
+
+// Called on Unity's main thread. The launcher takes the final snapshot before handing off.
+extern "C" void PSLauncherReadRuntimeStatus(int *preferred, int *jitMemory, int *jitError) {
+    *preferred = PSPreferredRuntime();
+    *jitMemory = PSJitMemory;
+    *jitError = PSJitMemoryError;
+}
 
 static NSString *PSModKey(NSString *mod) { return [@"port.launcher.mod." stringByAppendingString:mod]; }
 extern "C" int PSLauncherModState(const char *identifier) {
@@ -49,6 +106,7 @@ static BOOL PSHasZipExtension(NSURL *url) {
 - (void)startGame { if (self.play) self.play(); }
 - (void)refreshOnActive:(NSNotification *)note { [self refresh]; }
 - (void)refresh {
+    PSRefreshJitMemory();
     NSArray *queued = [NSFileManager.defaultManager contentsOfDirectoryAtURL:PSZipInbox() includingPropertiesForKeys:@[NSURLIsRegularFileKey] options:NSDirectoryEnumerationSkipsHiddenFiles error:NULL];
     NSMutableArray<NSURL *> *list = [NSMutableArray array];
     for (NSURL *url in queued) {
@@ -62,17 +120,36 @@ static BOOL PSHasZipExtension(NSURL *url) {
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)table {return 3;}
 - (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section {
-    return section == 0 ? 3 : section == 1 ? 2 : 1 + self.mods.count;
+    return section == 0 ? 4 : section == 1 ? 2 : 1 + self.mods.count;
 }
 - (NSString *)tableView:(UITableView *)table titleForHeaderInSection:(NSInteger)section {
     return @[@"运行模式",@"内置模组",@"外部模组"][section];
 }
 - (NSString *)tableView:(UITableView *)table titleForFooterInSection:(NSInteger)section {
+    if (section == 0) {
 #if PROSTO_INTERP
-    if (section == 0) return [NSString stringWithFormat:@"调试器：%@。外部运行时：免 JIT 解释器（实验）。优先 JIT 时也会回退到解释器。", PSAttachStatus()];
+        NSString *mapping = @"未检测";
+        switch (PSJitMemory) {
+            case PSJitMemoryNotChecked:
+                if (PSPreferredRuntime() == PSRuntimeInterpreter) mapping = @"已跳过（优先免 JIT）";
+                break;
+            case PSJitMemoryMapped:
+                mapping = @"映射成功，尚未验证生成代码执行";
+                break;
+            case PSJitMemoryUnavailable:
+                mapping = [NSString stringWithFormat:@"不可用（errno %d）", PSJitMemoryError];
+                break;
+            case PSJitMemoryUnsupported:
+                mapping = @"当前环境不支持";
+                break;
+        }
+        NSString *backend = @"免 JIT 解释器（实验）";
 #else
-    if (section == 0) return [@"调试器：" stringByAppendingFormat:@"%@。当前可用：IL2CPP 内置模组。偏好会保存；外部运行时尚未集成。", PSAttachStatus()];
+        NSString *mapping = @"已跳过（此版本仅支持内置模组）";
+        NSString *backend = @"此版本仅支持 IL2CPP 内置模组";
 #endif
+        return [NSString stringWithFormat:@"调试器：%@\nMAP_JIT：%@\n运行时：%@\nJIT 后端开发中。", PSAttachStatus(), mapping, backend];
+    }
     if (section == 2) {
         NSString *result = [NSString stringWithContentsOfURL:[PSZipInbox() URLByAppendingPathComponent:@"result.txt"] encoding:NSUTF8StringEncoding error:NULL];
         NSString *help = @"进入游戏时安装 ZIP。在游戏模组菜单查看，或用“文件”管理 Mods 下的模组目录。";
@@ -84,10 +161,8 @@ static BOOL PSHasZipExtension(NSURL *url) {
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:nil];
     NSInteger row = path.row;
     if (path.section == 0) {
-        cell.textLabel.text = @[@"自动",@"优先免 JIT 解释器",@"优先 JIT"][row];
-        if (row == [NSUserDefaults.standardUserDefaults integerForKey:@"port.launcher.preferredMode"]) cell.accessoryType = UITableViewCellAccessoryCheckmark;
-
-
+        cell.textLabel.text = @[@"自动",@"优先免 JIT 解释器",@"优先 JIT",@"重新检测"][row];
+        if (row == PSPreferredRuntime()) cell.accessoryType = UITableViewCellAccessoryCheckmark;
         return cell;
     }
     if (path.section == 2 && row == 0) {
@@ -114,7 +189,10 @@ static BOOL PSHasZipExtension(NSURL *url) {
 - (void)tableView:(UITableView *)table didSelectRowAtIndexPath:(NSIndexPath *)path {
     [table deselectRowAtIndexPath:path animated:YES];
     if (path.section == 0) {
-        [NSUserDefaults.standardUserDefaults setInteger:path.row forKey:@"port.launcher.preferredMode"];
+        if (path.row <= PSRuntimeJit) {
+            [NSUserDefaults.standardUserDefaults setInteger:path.row forKey:PSRuntimePreferenceKey];
+        }
+        PSRefreshJitMemory();
         [table reloadSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationNone];
         return;
     }
@@ -186,6 +264,7 @@ static BOOL PSHasZipExtension(NSURL *url) {
 }
 - (void)launchGame:(UIApplication *)application {
     if (self.gameStarted) return;
+    PSRefreshJitMemory();
     self.gameStarted = YES;
     self.launcherWindow.hidden = YES;
     self.launcherWindow = nil;
