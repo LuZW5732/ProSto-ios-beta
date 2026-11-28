@@ -7,6 +7,7 @@ namespace ProbablyStolen.Port
     internal static class PortAuthorNotice
     {
         private const string Authors = "iOS移植作者：樱大路露娜、海森堡";
+        private const string FooterCredits = Authors + "\niOS杀戮尖塔2q群：1087477769\nQQ频道：iOS深空当铺";
         private const string HideNotice = "iosPortAuthorNoticeOptOut";
         private static bool dismissedThisLaunch;
         private static TMP_FontAsset authorFont;
@@ -45,12 +46,12 @@ namespace ProbablyStolen.Port
             var font = authorFont != null ? authorFont : version.font;
             var line = Box("Port authors", version.transform, Vector2.zero, Vector2.zero);
             line.pivot = Vector2.zero;
-            var credit = Label(line, font, Authors);
+            var credit = Label(line, font, FooterCredits);
             credit.enableAutoSizing = false;
             credit.fontSize = version.fontSize;
             credit.alignment = TextAlignmentOptions.BottomLeft;
             credit.color = version.color;
-            line.sizeDelta = credit.GetPreferredValues(Authors) + new Vector2(4, 2);
+            line.sizeDelta = credit.GetPreferredValues(FooterCredits) + new Vector2(4, 2);
             line.anchoredPosition = new Vector2(version.margin.x, version.margin.w + version.preferredHeight + 2);
 
             if (dismissedThisLaunch || PlayerPrefs.GetInt(HideNotice, 0) == 1 || IsOpen) return;

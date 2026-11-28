@@ -220,7 +220,7 @@ public class PlayerStore
 
 	public static readonly string VERSION = VERSION_NUMBER;
 
-	public const string PORT_DISPLAY_VERSION = "VERSION 100-REV13.1";
+	public const string PORT_DISPLAY_VERSION = "VERSION 100-REV13.2";
 
 	public const string BUILD_TYPE_INTERNAL_PLAYTEST = "INTERNAL_PLAYTEST";
 
